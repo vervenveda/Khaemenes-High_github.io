@@ -4,19 +4,19 @@
 
 The project is being developed as a free, accessible, multilingual, standards-aware learning environment that can support students, families, teachers, counselors, schools, and independent learners across different educational systems.
 
-## Current foundation release
+## Current campus release
 
-This first release contains the project’s public foundation:
+The project now contains a working public campus foundation and its first student pathway:
 
-- `index.html` — responsive international high-school landing page
-- `manifest.webmanifest` — progressive web application metadata
-- `service-worker.js` — offline caching for the foundation files
-- `README.md` — project guide
-- `LICENSE` — dual license for software and educational content
-- `SECURITY.md` — vulnerability reporting and security expectations
-- `CONTRIBUTING.md` — contribution standards and workflow
+- `index.html` — international high-school landing page and connected Verve N Veda learning network
+- `grades/grade-09/` — local-first Grade 9 student portal, course catalog, and 36-week planner
+- `courses/mathematics/pre-algebra/` — complete 36-week Pre-Algebra course map
+- `courses/mathematics/pre-algebra/diagnostic/` — functional 18-question readiness diagnostic
+- `manifest.webmanifest` — progressive web application metadata and Grade 9 shortcuts
+- `service-worker.js` — route-aware offline caching for the campus, Grade 9, Pre-Algebra, and diagnostic
+- `LICENSE`, `SECURITY.md`, and `CONTRIBUTING.md` — project governance and protection
 
-The grade portals, departments, course engines, assessments, portfolios, standards maps, and teacher tools will be added in later development phases.
+Grade 10–12 portals, complete lesson units, standards overlays, translations, portfolios, teacher tools, counselor tools, and family resources remain in development.
 
 ## Educational scope
 
@@ -146,7 +146,7 @@ Then visit:
 http://localhost:8000
 ```
 
-## Planned repository structure
+## Repository structure
 
 ```text
 Khaemenes-High_github.io/
@@ -158,23 +158,24 @@ Khaemenes-High_github.io/
 ├── manifest.webmanifest
 ├── service-worker.js
 ├── grades/
-│   ├── grade-09/
-│   ├── grade-10/
-│   ├── grade-11/
-│   └── grade-12/
-├── departments/
+│   └── grade-09/
+│       ├── index.html
+│       ├── course-catalog.json
+│       └── planner.json
 ├── courses/
-├── portals/
-│   ├── student/
-│   ├── teacher/
-│   ├── family/
-│   ├── counselor/
-│   └── administrator/
-├── standards/
-├── locales/
-├── shared/
-├── data/
-└── assets/
+│   └── mathematics/
+│       └── pre-algebra/
+│           ├── index.html
+│           ├── course-map.json
+│           └── diagnostic/
+│               └── index.html
+├── departments/          # planned
+├── portals/              # planned
+├── standards/            # planned
+├── locales/              # planned
+├── shared/               # planned
+├── data/                 # planned
+└── assets/               # planned
 ```
 
 ## Development principles
@@ -213,16 +214,25 @@ Curriculum submissions should include:
 
 ## Project status
 
-The high-school repository is in its foundation phase. The immediate next milestones are:
+Completed in the current release:
 
-1. Establish the complete repository directory structure
-2. Build the Grade 9 portal
-3. Build the Pre-Algebra course shell
-4. Create the diagnostic and mastery model
-5. Create standards and language data formats
-6. Add teacher, family, counselor, and student portal shells
-7. Add offline curriculum caching and safe update handling
-8. Begin complete unit development
+1. Public high-school landing page
+2. Searchable connected Verve N Veda learning network
+3. Grade 9 student portal
+4. Structured Grade 9 course catalog and planner
+5. Global Pre-Algebra 36-week course map
+6. Pre-Algebra readiness diagnostic and mastery guidance
+7. Route-aware offline caching
+8. Local plan and progress export
+
+Immediate next milestones:
+
+1. Build Pre-Algebra Unit 1: Number Systems, Factors, and Estimation
+2. Create lesson, practice, assessment, teacher-guide, and family-guide formats
+3. Create standards and language data schemas
+4. Add shared student portfolio and progress-import tools
+5. Build Grade 9 English, Biology, and World History course shells
+6. Add teacher, family, and counselor portal foundations
 
 ## Licensing
 

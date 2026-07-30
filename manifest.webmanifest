@@ -17,19 +17,24 @@
   ],
   "shortcuts": [
     {
-      "name": "Grades 9–12",
-      "short_name": "Grades",
-      "url": "./#grades"
+      "name": "Grade 9 Student Portal",
+      "short_name": "Grade 9",
+      "url": "./grades/grade-09/"
     },
     {
-      "name": "Academic Departments",
-      "short_name": "Departments",
-      "url": "./#departments"
+      "name": "Global Pre-Algebra",
+      "short_name": "Pre-Algebra",
+      "url": "./courses/mathematics/pre-algebra/"
     },
     {
-      "name": "Accessibility",
-      "short_name": "Access",
-      "url": "./#access"
+      "name": "Pre-Algebra Diagnostic",
+      "short_name": "Diagnostic",
+      "url": "./courses/mathematics/pre-algebra/diagnostic/"
+    },
+    {
+      "name": "Connected Learning Network",
+      "short_name": "Resources",
+      "url": "./#resources"
     }
   ]
 }
