@@ -27,6 +27,11 @@
       "url": "./courses/mathematics/pre-algebra/"
     },
     {
+      "name": "Pre-Algebra Unit 1",
+      "short_name": "Unit 1",
+      "url": "./courses/mathematics/pre-algebra/units/unit-01/"
+    },
+    {
       "name": "Pre-Algebra Diagnostic",
       "short_name": "Diagnostic",
       "url": "./courses/mathematics/pre-algebra/diagnostic/"
