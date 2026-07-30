@@ -78,6 +78,7 @@
       font-weight:800;
     }
     .skip-link:focus{top:1rem}
+    .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
     :focus-visible{outline:3px solid var(--gold-soft);outline-offset:4px}
 
     .shell{width:min(var(--max),calc(100% - 2rem));margin-inline:auto}
@@ -292,6 +293,183 @@
     .foundation-panel h2{margin-bottom:.6rem;font-size:clamp(1.8rem,4vw,3rem)}
     .foundation-panel p{color:var(--muted);margin:0}
 
+
+    /* Connected learning network */
+    .resource-shell{
+      padding:clamp(1rem,3vw,1.5rem);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      background:color-mix(in srgb,var(--panel) 84%,transparent);
+      box-shadow:var(--shadow);
+    }
+    .resource-note{
+      max-width:840px;
+      margin:-.8rem auto 1.5rem;
+      color:var(--muted);
+      text-align:center;
+      font-size:.9rem;
+    }
+    .resource-toolbar{
+      display:grid;
+      grid-template-columns:minmax(240px,1fr) auto;
+      gap:.8rem;
+      align-items:center;
+    }
+    .resource-search{
+      width:100%;
+      min-height:50px;
+      padding:.75rem 1rem;
+      border:1px solid var(--line);
+      border-radius:11px;
+      background:var(--bg-soft);
+      color:var(--text);
+    }
+    .resource-search::placeholder{color:var(--muted)}
+    .resource-count{
+      color:var(--muted);
+      font-size:.82rem;
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      white-space:nowrap;
+    }
+    .resource-filters{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:.5rem;
+      margin:1rem 0 1.4rem;
+    }
+    .resource-filter{
+      min-height:40px;
+      padding:.55rem .78rem;
+      border:1px solid var(--line);
+      border-radius:99px;
+      background:var(--bg-soft);
+      color:var(--muted);
+      font-weight:800;
+      font-size:.75rem;
+      letter-spacing:.04em;
+    }
+    .resource-filter:hover,
+    .resource-filter[aria-pressed="true"]{
+      color:var(--text);
+      border-color:var(--resource-accent,var(--gold));
+      background:color-mix(in srgb,var(--resource-accent,var(--gold)) 12%,var(--bg-soft));
+    }
+    .resource-groups{display:grid;gap:1.4rem}
+    .resource-group{
+      --resource-accent:var(--gold);
+      padding-top:1.25rem;
+      border-top:1px solid var(--line);
+    }
+    .resource-group:first-child{padding-top:0;border-top:0}
+    .resource-group-head{
+      display:flex;
+      justify-content:space-between;
+      align-items:end;
+      gap:1rem;
+      margin-bottom:.85rem;
+    }
+    .resource-group-head h3{
+      margin:0;
+      font-size:clamp(1.45rem,3vw,2.2rem);
+    }
+    .resource-group-head p{
+      max-width:720px;
+      margin:.35rem 0 0;
+      color:var(--muted);
+      font-size:.9rem;
+    }
+    .resource-group-count{
+      color:var(--resource-accent);
+      font-size:.72rem;
+      font-weight:900;
+      letter-spacing:.09em;
+      text-transform:uppercase;
+      white-space:nowrap;
+    }
+    .resource-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:.75rem;
+    }
+    .resource-card{
+      min-height:220px;
+      display:flex;
+      flex-direction:column;
+      padding:1.1rem;
+      border:1px solid var(--line);
+      border-top:3px solid var(--resource-accent);
+      border-radius:11px;
+      background:var(--bg-soft);
+      color:var(--text);
+      text-decoration:none;
+      transition:transform .16s ease,border-color .16s ease,background .16s ease;
+    }
+    .resource-card:hover{
+      transform:translateY(-3px);
+      border-color:var(--resource-accent);
+      background:color-mix(in srgb,var(--resource-accent) 7%,var(--bg-soft));
+    }
+    .resource-card-top{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:.8rem;
+    }
+    .resource-icon{
+      width:42px;
+      height:42px;
+      display:grid;
+      place-items:center;
+      border:1px solid color-mix(in srgb,var(--resource-accent) 50%,transparent);
+      border-radius:9px;
+      color:var(--resource-accent);
+      background:color-mix(in srgb,var(--resource-accent) 9%,transparent);
+      font-weight:900;
+    }
+    .resource-kind{
+      color:var(--muted);
+      font-size:.66rem;
+      font-weight:900;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+    }
+    .resource-card h4{
+      margin:1rem 0 0;
+      font-family:var(--serif);
+      font-size:1.18rem;
+      line-height:1.25;
+    }
+    .resource-card p{
+      margin:.55rem 0 0;
+      color:var(--muted);
+      font-size:.86rem;
+      line-height:1.55;
+    }
+    .resource-open{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:.8rem;
+      margin-top:auto;
+      padding-top:1rem;
+      color:var(--resource-accent);
+      font-size:.75rem;
+      font-weight:900;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+    }
+    .resource-empty{
+      margin:1.25rem 0 0;
+      padding:1rem;
+      border:1px dashed var(--line);
+      border-radius:11px;
+      color:var(--muted);
+      text-align:center;
+    }
+
     .site-footer{
       padding:3rem 0;
       border-top:1px solid var(--line);
@@ -317,7 +495,7 @@
     .dialog-actions{display:flex;justify-content:flex-end;margin-top:1.4rem}
 
     @media (max-width:1000px){
-      .grade-grid,.department-grid{grid-template-columns:repeat(2,1fr)}
+      .grade-grid,.department-grid,.resource-grid{grid-template-columns:repeat(2,1fr)}
       .primary-nav{display:none}
       .menu-button{display:inline-flex}
       .primary-nav.open{
@@ -337,11 +515,15 @@
       .brand-copy span{display:none}
       .language-control{max-width:90px}
       .path-grid,.principle-grid,.feature-layout{grid-template-columns:1fr}
+      .resource-toolbar{grid-template-columns:1fr}
+      .resource-count{text-align:center}
       .foundation-panel{grid-template-columns:1fr}
     }
     @media (max-width:540px){
       .shell{width:min(100% - 1.2rem,var(--max))}
-      .grade-grid,.department-grid{grid-template-columns:1fr}
+      .grade-grid,.department-grid,.resource-grid{grid-template-columns:1fr}
+      .resource-group-head{display:block}
+      .resource-group-count{display:block;margin-top:.5rem}
       .header-inner{gap:.5rem}
       .brand-copy strong{font-size:.82rem}
       .hero{padding-top:3.8rem}
@@ -375,6 +557,7 @@
         <ul>
           <li><a href="#grades" data-i18n="navGrades">Grades</a></li>
           <li><a href="#departments" data-i18n="navDepartments">Departments</a></li>
+          <li><a href="#resources" data-i18n="navResources">Resources</a></li>
           <li><a href="#pathways" data-i18n="navPathways">Pathways</a></li>
           <li><a href="#access" data-i18n="navAccess">Access</a></li>
           <li><a href="#about" data-i18n="navAbout">About</a></li>
@@ -405,6 +588,7 @@
       </p>
       <div class="hero-actions">
         <a class="button primary" href="#grades" data-i18n="exploreGrades">Explore Grades 9–12</a>
+        <a class="button" href="#resources" data-i18n="openResources">Open Student Resources</a>
         <a class="button" href="#foundation" data-i18n="viewFoundation">View Program Foundation</a>
         <button class="button" id="installButton" type="button" hidden data-i18n="installApp">Install Academy</button>
       </div>
@@ -468,6 +652,35 @@
           <article class="card department-card"><span class="icon">◈</span><h3>Arts & Music</h3><p>Visual arts, music, theatre, photography, design, composition, and creative production.</p></article>
           <article class="card department-card"><span class="icon">✚</span><h3>Health & Wellness</h3><p>Health, nutrition, physical education, mental wellness, safety, and human development.</p></article>
           <article class="card department-card"><span class="icon">⚒</span><h3>Career & Life</h3><p>Financial literacy, entrepreneurship, career exploration, communication, and practical life skills.</p></article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="resources">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="networkEyebrow">Connected Learning Network</p>
+          <h2 data-i18n="networkTitle">The strongest Verve N Veda resources, organized for high-school study.</h2>
+          <p data-i18n="networkCopy">Search major learning hubs, professional tools, creative studios, music rooms, research halls, health resources, civic spaces, and selected educational games without leaving the Academy map.</p>
+        </div>
+
+        <p class="resource-note" data-i18n="networkNote">
+          Connected destinations open in a new tab and require internet access. The High School home page remains available offline after the first visit.
+        </p>
+
+        <div class="resource-shell">
+          <div class="resource-toolbar">
+            <label>
+              <span class="sr-only">Search connected student resources</span>
+              <input class="resource-search" id="resourceSearch" type="search" autocomplete="off" placeholder="Search tools, subjects, courses, games, or skills">
+            </label>
+            <span class="resource-count" id="resourceCount" aria-live="polite">0 resources</span>
+          </div>
+
+          <div class="resource-filters" id="resourceFilters" aria-label="Filter connected resources"></div>
+          <div class="resource-groups" id="resourceGroups"></div>
+          <p class="resource-empty" id="resourceEmpty" hidden>No connected resources match this search.</p>
         </div>
       </div>
     </section>
@@ -562,11 +775,11 @@
       const translations = {
         en: {
           brandTag:"Global Secondary Academy",
-          navGrades:"Grades", navDepartments:"Departments", navPathways:"Pathways", navAccess:"Access", navAbout:"About",
+          navGrades:"Grades", navDepartments:"Departments", navResources:"Resources", navPathways:"Pathways", navAccess:"Access", navAbout:"About",
           eyebrow:"Grades 9–12 · International and National Learning",
           heroTitle:"A complete high-school education built for every learner.",
           heroCopy:"Khaemenes High brings rigorous academics, practical life preparation, creative exploration, and global citizenship into one accessible secondary-school campus.",
-          exploreGrades:"Explore Grades 9–12", viewFoundation:"View Program Foundation", installApp:"Install Academy",
+          exploreGrades:"Explore Grades 9–12", openResources:"Open Student Resources", viewFoundation:"View Program Foundation", installApp:"Install Academy",
           fourYears:"Four Years, One Connected Journey", gradesTitle:"Grade-level learning with room to grow.",
           gradesCopy:"Students follow a clear annual pathway while moving between support, core, honors, advanced, and career-focused learning by mastery.",
           grade9Tag:"Foundation & Discovery", grade9Title:"Grade Nine", grade9Copy:"Transition, academic foundations, exploration, and confident high-school habits.",
@@ -574,6 +787,10 @@
           grade11Tag:"Pathways & Research", grade11Title:"Grade Eleven", grade11Copy:"Advanced pathways, research, leadership, and college or career preparation.",
           grade12Tag:"Capstone & Launch", grade12Title:"Grade Twelve", grade12Copy:"Capstones, portfolios, graduation planning, financial readiness, and transition.",
           wholeEducation:"A Whole Education", departmentsTitle:"Academic departments for knowledge, creativity, and life.",
+          networkEyebrow:"Connected Learning Network", networkTitle:"The strongest Verve N Veda resources, organized for high-school study.",
+          networkCopy:"Search major learning hubs, professional tools, creative studios, music rooms, research halls, health resources, civic spaces, and selected educational games without leaving the Academy map.",
+          networkNote:"Connected destinations open in a new tab and require internet access. The High School home page remains available offline after the first visit.",
+          resourceSearchPlaceholder:"Search tools, subjects, courses, games, or skills",
           departmentsCopy:"Every department will include complete courses, projects, assessments, teacher tools, family guides, and standards mappings.",
           masteryCentered:"Mastery-Centered", pathwaysTitle:"Different pathways without limiting potential.",
           pathwaysCopy:"Placement can change by subject and skill. Students receive the support or extension they need without being permanently labeled.",
@@ -593,10 +810,10 @@
           readProject:"Read the Project Guide"
         },
         es: {
-          brandTag:"Academia Secundaria Global", navGrades:"Grados", navDepartments:"Departamentos", navPathways:"Rutas", navAccess:"Acceso", navAbout:"Acerca de",
+          brandTag:"Academia Secundaria Global", navGrades:"Grados", navDepartments:"Departamentos", navResources:"Recursos", navPathways:"Rutas", navAccess:"Acceso", navAbout:"Acerca de",
           eyebrow:"Grados 9–12 · Aprendizaje nacional e internacional", heroTitle:"Una educación secundaria completa para cada estudiante.",
           heroCopy:"Khaemenes High reúne estudios rigurosos, preparación para la vida, exploración creativa y ciudadanía global en un campus accesible.",
-          exploreGrades:"Explorar grados 9–12", viewFoundation:"Ver la base del programa", installApp:"Instalar la academia",
+          exploreGrades:"Explorar grados 9–12", openResources:"Abrir recursos estudiantiles", viewFoundation:"Ver la base del programa", installApp:"Instalar la academia",
           fourYears:"Cuatro años, un recorrido conectado", gradesTitle:"Aprendizaje por grado con espacio para crecer.",
           gradesCopy:"El alumnado sigue una ruta anual clara y avanza entre apoyo, nivel básico, honores, estudios avanzados y formación profesional según su dominio.",
           grade9Tag:"Base y descubrimiento", grade9Title:"Noveno grado", grade9Copy:"Transición, bases académicas, exploración y hábitos sólidos.",
@@ -604,6 +821,10 @@
           grade11Tag:"Rutas e investigación", grade11Title:"Undécimo grado", grade11Copy:"Rutas avanzadas, investigación, liderazgo y preparación universitaria o profesional.",
           grade12Tag:"Proyecto final y lanzamiento", grade12Title:"Duodécimo grado", grade12Copy:"Proyectos finales, portafolios, graduación, preparación financiera y transición.",
           wholeEducation:"Una educación integral", departmentsTitle:"Departamentos académicos para el conocimiento, la creatividad y la vida.",
+          networkEyebrow:"Red de aprendizaje conectada", networkTitle:"Los mejores recursos de Verve N Veda, organizados para la escuela secundaria.",
+          networkCopy:"Busca centros de aprendizaje, herramientas profesionales, estudios creativos, música, investigación, salud, civismo y juegos educativos seleccionados.",
+          networkNote:"Los destinos conectados se abren en una pestaña nueva y requieren internet. La página principal permanece disponible sin conexión después de la primera visita.",
+          resourceSearchPlaceholder:"Buscar herramientas, materias, cursos, juegos o habilidades",
           departmentsCopy:"Cada departamento incluirá cursos, proyectos, evaluaciones, herramientas docentes, guías familiares y mapas de estándares.",
           masteryCentered:"Centrado en el dominio", pathwaysTitle:"Diferentes rutas sin limitar el potencial.",
           pathwaysCopy:"La ubicación puede cambiar según la materia y la habilidad. Cada estudiante recibe apoyo o ampliación sin etiquetas permanentes.",
@@ -615,10 +836,10 @@
           firstRelease:"Versión inicial", foundationTitle:"La estructura del campus de secundaria comienza aquí.", readProject:"Leer la guía del proyecto"
         },
         fr: {
-          brandTag:"Académie Secondaire Mondiale", navGrades:"Niveaux", navDepartments:"Départements", navPathways:"Parcours", navAccess:"Accès", navAbout:"À propos",
+          brandTag:"Académie Secondaire Mondiale", navGrades:"Niveaux", navDepartments:"Départements", navResources:"Ressources", navPathways:"Parcours", navAccess:"Accès", navAbout:"À propos",
           eyebrow:"Niveaux 9–12 · Apprentissage national et international", heroTitle:"Une éducation secondaire complète pour chaque élève.",
           heroCopy:"Khaemenes High réunit études exigeantes, préparation à la vie, créativité et citoyenneté mondiale dans un campus accessible.",
-          exploreGrades:"Explorer les niveaux 9–12", viewFoundation:"Voir les fondations", installApp:"Installer l’académie",
+          exploreGrades:"Explorer les niveaux 9–12", openResources:"Ouvrir les ressources", viewFoundation:"Voir les fondations", installApp:"Installer l’académie",
           fourYears:"Quatre années, un parcours relié", gradesTitle:"Un apprentissage par niveau avec la liberté de progresser.",
           gradesCopy:"Les élèves suivent un parcours annuel clair et évoluent entre soutien, tronc commun, approfondissement et orientation professionnelle selon leur maîtrise.",
           grade9Tag:"Fondations et découverte", grade9Title:"Neuvième année", grade9Copy:"Transition, fondations scolaires, exploration et bonnes habitudes.",
@@ -626,6 +847,10 @@
           grade11Tag:"Parcours et recherche", grade11Title:"Onzième année", grade11Copy:"Parcours avancés, recherche, leadership et préparation aux études ou au métier.",
           grade12Tag:"Projet final et lancement", grade12Title:"Douzième année", grade12Copy:"Projets finaux, portfolios, diplôme, finances et transition.",
           wholeEducation:"Une éducation complète", departmentsTitle:"Des départements pour le savoir, la créativité et la vie.",
+          networkEyebrow:"Réseau d’apprentissage connecté", networkTitle:"Les meilleures ressources Verve N Veda, organisées pour le secondaire.",
+          networkCopy:"Recherchez des centres d’apprentissage, outils professionnels, studios créatifs, salles de musique, archives, ressources de santé, espaces civiques et jeux éducatifs.",
+          networkNote:"Les destinations s’ouvrent dans un nouvel onglet et nécessitent internet. La page d’accueil reste disponible hors ligne après la première visite.",
+          resourceSearchPlaceholder:"Rechercher outils, matières, cours, jeux ou compétences",
           masteryCentered:"Centré sur la maîtrise", pathwaysTitle:"Des parcours différents sans limiter le potentiel.",
           foundationPath:"Fondation", corePath:"Tronc commun", extendedPath:"Approfondi",
           builtForAccess:"Conçu pour l’accès", accessTitle:"L’apprentissage doit rester accessible, quels que soient la langue, les capacités, l’appareil ou le lieu.",
@@ -633,10 +858,10 @@
           firstRelease:"Version de fondation", foundationTitle:"Le campus secondaire commence ici.", readProject:"Lire le guide du projet"
         },
         ar: {
-          brandTag:"الأكاديمية الثانوية العالمية", navGrades:"الصفوف", navDepartments:"الأقسام", navPathways:"المسارات", navAccess:"الوصول", navAbout:"حول",
+          brandTag:"الأكاديمية الثانوية العالمية", navGrades:"الصفوف", navDepartments:"الأقسام", navResources:"الموارد", navPathways:"المسارات", navAccess:"الوصول", navAbout:"حول",
           eyebrow:"الصفوف 9–12 · تعليم وطني ودولي", heroTitle:"تعليم ثانوي متكامل صُمم لكل متعلم.",
           heroCopy:"تجمع مدرسة خيمينيس الثانوية بين الدراسة الأكاديمية القوية والاستعداد للحياة والاستكشاف الإبداعي والمواطنة العالمية في حرم تعليمي واحد متاح للجميع.",
-          exploreGrades:"استكشف الصفوف 9–12", viewFoundation:"عرض أساس البرنامج", installApp:"تثبيت الأكاديمية",
+          exploreGrades:"استكشف الصفوف 9–12", openResources:"فتح موارد الطلاب", viewFoundation:"عرض أساس البرنامج", installApp:"تثبيت الأكاديمية",
           fourYears:"أربع سنوات، رحلة مترابطة", gradesTitle:"تعلم منظم حسب الصف مع مساحة للنمو.",
           gradesCopy:"يتبع الطلاب مسارًا سنويًا واضحًا ويتنقلون بين الدعم والمسار الأساسي والمتقدم والمهني وفقًا للإتقان.",
           grade9Tag:"الأساس والاكتشاف", grade9Title:"الصف التاسع", grade9Copy:"الانتقال، والأسس الأكاديمية، والاستكشاف، وبناء عادات قوية.",
@@ -644,6 +869,10 @@
           grade11Tag:"المسارات والبحث", grade11Title:"الصف الحادي عشر", grade11Copy:"مسارات متقدمة، وبحث، وقيادة، واستعداد للجامعة أو العمل.",
           grade12Tag:"المشروع الختامي والانطلاق", grade12Title:"الصف الثاني عشر", grade12Copy:"مشروعات ختامية، وملفات إنجاز، وتخطيط للتخرج، واستعداد مالي وانتقال.",
           wholeEducation:"تعليم متكامل", departmentsTitle:"أقسام أكاديمية للمعرفة والإبداع والحياة.",
+          networkEyebrow:"شبكة تعلم مترابطة", networkTitle:"أقوى موارد Verve N Veda منظمة لطلاب المرحلة الثانوية.",
+          networkCopy:"ابحث في بوابات التعلم والأدوات المهنية والاستوديوهات الإبداعية والموسيقى والبحث والصحة والمساحات المدنية والألعاب التعليمية المختارة.",
+          networkNote:"تفتح الموارد المتصلة في علامة تبويب جديدة وتتطلب اتصالاً بالإنترنت. تبقى الصفحة الرئيسية متاحة دون اتصال بعد الزيارة الأولى.",
+          resourceSearchPlaceholder:"ابحث عن أدوات أو مواد أو دورات أو ألعاب أو مهارات",
           masteryCentered:"يرتكز على الإتقان", pathwaysTitle:"مسارات متعددة من دون تقييد الإمكانات.",
           foundationPath:"تأسيسي", corePath:"أساسي", extendedPath:"ممتد",
           builtForAccess:"مصمم لإتاحة الوصول", accessTitle:"يجب أن يظل التعلم متاحًا عبر اللغة والقدرة والجهاز والموقع.",
@@ -651,10 +880,10 @@
           firstRelease:"الإصدار التأسيسي", foundationTitle:"يبدأ إطار الحرم الثانوي من هنا.", readProject:"اقرأ دليل المشروع"
         },
         pt: {
-          brandTag:"Academia Secundária Global", navGrades:"Séries", navDepartments:"Departamentos", navPathways:"Trilhas", navAccess:"Acesso", navAbout:"Sobre",
+          brandTag:"Academia Secundária Global", navGrades:"Séries", navDepartments:"Departamentos", navResources:"Recursos", navPathways:"Trilhas", navAccess:"Acesso", navAbout:"Sobre",
           eyebrow:"9º–12º anos · Aprendizagem nacional e internacional", heroTitle:"Uma educação secundária completa para cada estudante.",
           heroCopy:"A Khaemenes High reúne rigor acadêmico, preparação para a vida, exploração criativa e cidadania global em um campus acessível.",
-          exploreGrades:"Explorar 9º–12º anos", viewFoundation:"Ver a base do programa", installApp:"Instalar a academia",
+          exploreGrades:"Explorar 9º–12º anos", openResources:"Abrir recursos estudantis", viewFoundation:"Ver a base do programa", installApp:"Instalar a academia",
           fourYears:"Quatro anos, uma jornada conectada", gradesTitle:"Aprendizagem por série com espaço para crescer.",
           gradesCopy:"Os estudantes seguem uma trilha anual clara e avançam entre apoio, núcleo, honras, aprofundamento e carreira conforme o domínio.",
           grade9Tag:"Base e descoberta", grade9Title:"Nono ano", grade9Copy:"Transição, fundamentos acadêmicos, exploração e hábitos confiantes.",
@@ -662,6 +891,10 @@
           grade11Tag:"Trilhas e pesquisa", grade11Title:"Décimo primeiro ano", grade11Copy:"Trilhas avançadas, pesquisa, liderança e preparação universitária ou profissional.",
           grade12Tag:"Projeto final e lançamento", grade12Title:"Décimo segundo ano", grade12Copy:"Projetos finais, portfólios, graduação, finanças e transição.",
           wholeEducation:"Uma educação completa", departmentsTitle:"Departamentos acadêmicos para conhecimento, criatividade e vida.",
+          networkEyebrow:"Rede de aprendizagem conectada", networkTitle:"Os melhores recursos Verve N Veda organizados para o ensino médio.",
+          networkCopy:"Pesquise centros de aprendizagem, ferramentas profissionais, estúdios criativos, música, pesquisa, saúde, espaços cívicos e jogos educacionais selecionados.",
+          networkNote:"Os destinos conectados abrem em uma nova guia e exigem internet. A página inicial permanece disponível offline após a primeira visita.",
+          resourceSearchPlaceholder:"Pesquisar ferramentas, matérias, cursos, jogos ou habilidades",
           masteryCentered:"Centrado no domínio", pathwaysTitle:"Trilhas diferentes sem limitar o potencial.",
           foundationPath:"Fundação", corePath:"Núcleo", extendedPath:"Estendido",
           builtForAccess:"Feito para o acesso", accessTitle:"A aprendizagem deve permanecer disponível em qualquer idioma, capacidade, dispositivo ou local.",
@@ -683,6 +916,107 @@
       const installButton = document.getElementById("installButton");
       let installPrompt = null;
 
+      const resourceCategories = {"research": {"label": "Research & Literacy", "accent": "#8dc7ff", "description": "Search, verification, archives, languages, legal literacy, world texts, philosophy, and evidence."}, "tools": {"label": "Student Tools", "accent": "#8ce0b4", "description": "Writing, planning, coding, files, media, drafting, and project-production workspaces."}, "arts": {"label": "Arts & Media", "accent": "#f0a7c8", "description": "Art courses, drawing studios, digital creation, photography, portfolios, and idea generation."}, "music": {"label": "Music & Audio", "accent": "#e2bd65", "description": "Music literacy, theory, composition, recording, performance, and scholarship."}, "stem": {"label": "STEM, Health & Earth", "accent": "#79d7d1", "description": "Weather, Earth science, medicine, wellness, movement, environmental service, and scientific inquiry."}, "games": {"label": "Games & Enrichment", "accent": "#b49bff", "description": "Selected strategy, mathematics, language, logic, civics, news, health, and creative games."}, "life": {"label": "Civic & Life", "accent": "#f2b37f", "description": "Civic learning, reflection, wellbeing, writing prompts, service, and whole-life development."}};
+      const resourceCategoryTranslations = {"en": {"all": "All resources", "research": "Research & Literacy", "tools": "Student Tools", "arts": "Arts & Media", "music": "Music & Audio", "stem": "STEM, Health & Earth", "games": "Games & Enrichment", "life": "Civic & Life"}, "es": {"all": "Todos", "research": "Investigación y alfabetización", "tools": "Herramientas estudiantiles", "arts": "Artes y medios", "music": "Música y audio", "stem": "Ciencia, salud y Tierra", "games": "Juegos y enriquecimiento", "life": "Civismo y vida"}, "fr": {"all": "Toutes", "research": "Recherche et littératie", "tools": "Outils étudiants", "arts": "Arts et médias", "music": "Musique et audio", "stem": "STEM, santé et Terre", "games": "Jeux et enrichissement", "life": "Vie civique"}, "ar": {"all": "كل الموارد", "research": "البحث ومحو الأمية", "tools": "أدوات الطلاب", "arts": "الفنون والإعلام", "music": "الموسيقى والصوت", "stem": "العلوم والصحة والأرض", "games": "الألعاب والإثراء", "life": "الحياة والمواطنة"}, "pt": {"all": "Todos", "research": "Pesquisa e alfabetização", "tools": "Ferramentas estudantis", "arts": "Artes e mídia", "music": "Música e áudio", "stem": "Ciência, saúde e Terra", "games": "Jogos e enriquecimento", "life": "Cidadania e vida"}};
+      const connectedResources = [{"id": "plera-search", "title": "PLERA Search", "category": "research", "kind": "Hub", "icon": "⌖", "url": "https://vervenveda.github.io/PLERASearch.github.io/", "description": "A broad search gateway for public resources, research, maps, and discovery.", "tags": "search research sources public information discovery"}, {"id": "verifier", "title": "The Verifier", "category": "research", "kind": "Hub", "icon": "✓", "url": "https://vervenveda.github.io/theverifier.github.io/", "description": "News discovery, source comparison, current-events literacy, and verification.", "tags": "news current events verification sources media literacy"}, {"id": "arshif", "title": "ARSHIF Archives", "category": "research", "kind": "Hub", "icon": "A", "url": "https://vervenveda.github.io/Arshif.github.io/", "description": "Deep research, cultural memory, history, science, literature, faith, and human knowledge.", "tags": "archive research history culture literature science"}, {"id": "evidence-studio", "title": "Evidence & Citation Studio", "category": "research", "kind": "Tool", "icon": "ECS", "url": "https://vervenveda.github.io/proresource_hub.github.io/Protools/Evidence_Citation_Studio/index.html", "description": "Organize claims, sources, quotations, provenance, citations, and bibliographies.", "tags": "research citations bibliography evidence sources claims"}, {"id": "linguistics", "title": "Linguistics", "category": "research", "kind": "Hub", "icon": "Aa", "url": "https://vervenveda.github.io/linguistics.github.io/", "description": "Language learning, vocabulary, translation, communication, and word study.", "tags": "language linguistics vocabulary translation communication"}, {"id": "firmament", "title": "Firmament Law", "category": "research", "kind": "Hub", "icon": "⚖", "url": "https://vervenveda.github.io/firmament.github.io/", "description": "Legal-information tools, evidence workspaces, governance, and civic reference.", "tags": "law legal civics evidence government rights"}, {"id": "world-classics", "title": "Hall of World Classics", "category": "research", "kind": "Hall", "icon": "Ⅳ", "url": "https://vervenveda.github.io/Arshif.github.io/apps/world_classics_Hall_index.html", "description": "Foundational works from world civilizations in historical and comparative context.", "tags": "classics literature civilizations texts humanities"}, {"id": "philosophy-hall", "title": "Hall of Philosophy", "category": "research", "kind": "Hall", "icon": "Φ", "url": "https://vervenveda.github.io/Arshif.github.io/apps/philosophy_Hall_index.html", "description": "Ethics, logic, knowledge, politics, beauty, mind, meaning, and responsibility.", "tags": "philosophy ethics logic epistemology political thought"}, {"id": "science-history", "title": "Hall of the History of Science", "category": "research", "kind": "Hall", "icon": "⚗", "url": "https://vervenveda.github.io/Arshif.github.io/apps/science_hall_index.html", "description": "Discovery, instruments, experiment, measurement, institutions, debate, and scientific ethics.", "tags": "science history scientific method instruments ethics"}, {"id": "proresources", "title": "ProReSources Hub", "category": "tools", "kind": "Hub", "icon": "PR", "url": "https://vervenveda.github.io/proresource_hub.github.io/", "description": "The complete gateway to writing, research, code, design, media, files, and productivity tools.", "tags": "professional tools writing code design files productivity"}, {"id": "prose-gateway", "title": "PROSE Editorial Gateway", "category": "tools", "kind": "Tool", "icon": "P", "url": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE_index.html", "description": "A writing doorway connecting drafting, research, inspiration, publishing, and preservation.", "tags": "writing editing essay research publishing"}, {"id": "prose-suite", "title": "PROSE Sovereign Editorial Suite", "category": "tools", "kind": "Tool", "icon": "¶", "url": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html", "description": "Draft, format, review, organize, version, restore, and export complete documents.", "tags": "writing editor documents essays reports export"}, {"id": "daily-spark", "title": "DailySpark Task Studio", "category": "tools", "kind": "Tool", "icon": "✦", "url": "https://vervenveda.github.io/proresource_hub.github.io/Protools/DailySpark%E2%84%A2_task_studio_index.html", "description": "Plan priorities, projects, homework, and manageable daily actions.", "tags": "tasks planning homework priorities productivity"}, {"id": "khaeclean", "title": "KhaeClean", "category": "tools", "kind": "Tool", "icon": "◇", "url": "https://vervenveda.github.io/proresource_hub.github.io/Protools/KhaeClean%E2%84%A2_index.html", "description": "Inspect, clean, format, compare, and prepare HTML, CSS, JavaScript, and JSON.", "tags": "code html css javascript json format inspect"}, {"id": "khaezip", "title": "KhaeZip", "category": "tools", "kind": "Tool", "icon": "⬡", "url": "https://vervenveda.github.io/proresource_hub.github.io/Protools/KhaeZip%E2%84%A2_index.html", "description": "Create, inspect, verify, split, join, preserve, and recover local archives.", "tags": "zip archives files preservation encryption verify"}, {"id": "ohmic-cad", "title": "OHMIC Foundry CAD Gateway", "category": "tools", "kind": "Tool", "icon": "OH", "url": "https://vervenveda.github.io/proresource_hub.github.io/Protools/Ohmic_CAD_index.html", "description": "A planning and drafting gateway for engineering, architecture, measurement, and design.", "tags": "cad engineering architecture drafting design measurement"}, {"id": "fleapit", "title": "FleaPit Media Hub", "category": "tools", "kind": "Tool", "icon": "▶", "url": "https://vervenveda.github.io/proresource_hub.github.io/Protools/FleaPit%E2%84%A2_media_hub_Index.html", "description": "Collect, organize, and explore video and media references for projects and study.", "tags": "media video research references organization"}, {"id": "bazaar-art", "title": "Bazaar Art", "category": "arts", "kind": "Hub", "icon": "BA", "url": "https://vervenveda.github.io/bazaarart.github.io/", "description": "Art courses, studios, creative prompts, journals, portfolios, and media tools.", "tags": "art creativity courses studios artists"}, {"id": "sagaen", "title": "Sagaen Art Studio", "category": "arts", "kind": "Studio", "icon": "✦", "url": "https://vervenveda.github.io/bazaarart.github.io/apps/art_tool_Sagaen%E2%84%A2_art_studio_index.html", "description": "A sovereign studio for expressive digital artmaking and original visual work.", "tags": "digital art painting drawing studio creative"}, {"id": "advanced-sketch", "title": "Advanced Sketch", "category": "arts", "kind": "Studio", "icon": "✒", "url": "https://vervenveda.github.io/bazaarart.github.io/apps/art_tool_advanced_sketch_index.html", "description": "A refined drawing workspace for sketching, observation, studies, and composition.", "tags": "drawing sketch observation composition art"}, {"id": "art-101", "title": "Art 101", "category": "arts", "kind": "Course", "icon": "101", "url": "https://vervenveda.github.io/bazaarart.github.io/apps/Class_art_101_index.html", "description": "Foundational art instruction for beginning and returning learners.", "tags": "art course foundations beginner"}, {"id": "art-201", "title": "Art 201", "category": "arts", "kind": "Course", "icon": "201", "url": "https://vervenveda.github.io/bazaarart.github.io/apps/Class_art_201_index.html", "description": "Intermediate technique, composition, and visual-language development.", "tags": "art course intermediate composition technique"}, {"id": "art-301", "title": "Art 301", "category": "arts", "kind": "Course", "icon": "301", "url": "https://vervenveda.github.io/bazaarart.github.io/apps/Class_art_301_index.html", "description": "Advanced original work, artistic voice, critique, and presentation.", "tags": "art course advanced portfolio critique"}, {"id": "photo-album", "title": "Photo Album Studio", "category": "arts", "kind": "Studio", "icon": "▣", "url": "https://vervenveda.github.io/bazaarart.github.io/apps/Photo_Album_Studio/index.html", "description": "Arrange, caption, preserve, and present photographs and visual projects locally.", "tags": "photos album presentation portfolio media"}, {"id": "creative-spark", "title": "Creative Spark", "category": "arts", "kind": "Tool", "icon": "✧", "url": "https://artist1970.github.io/creative-spark.github.io/creative-spark.html", "description": "An offline-ready idea and art generator for students, classrooms, artists, and makers.", "tags": "creative prompts ideas art generator classroom"}, {"id": "refrain", "title": "The Refrain", "category": "music", "kind": "Hub", "icon": "𝄞", "url": "https://vervenveda.github.io/the_refrain.github.io/", "description": "A conservatory and recording-house gateway for education, composition, production, and performance.", "tags": "music conservatory recording composition performance"}, {"id": "music-101", "title": "Music 101 Workshop", "category": "music", "kind": "Course", "icon": "101", "url": "https://vervenveda.github.io/the_refrain.github.io/education/Music%20101%20Workshop_index.html", "description": "Notation, rhythm, pitch, scales, chords, listening, and music literacy.", "tags": "music course foundations notation rhythm pitch"}, {"id": "music-201", "title": "Music 201 Workshop", "category": "music", "kind": "Course", "icon": "201", "url": "https://vervenveda.github.io/the_refrain.github.io/education/Music%20201%20Workshop_index.html", "description": "Harmony, form, analysis, arrangement, composition, and intermediate study.", "tags": "music course harmony theory composition arrangement"}, {"id": "composition-studio", "title": "Harmony’s Haven Pro Composition Studio", "category": "music", "kind": "Studio", "icon": "CMP", "url": "https://vervenveda.github.io/the_refrain.github.io/apps/Harmonys_Haven_Pro_Composition_Studio_index.html", "description": "Develop themes, structure, instrumentation, arrangement, and original music.", "tags": "music composition themes instrumentation arrangement"}, {"id": "multitrack", "title": "Harmony’s Haven Multi-Track Studio", "category": "music", "kind": "Studio", "icon": "REC", "url": "https://vervenveda.github.io/proresource_hub.github.io/Protools/Harmony%27s%20Haven%20Studio%E2%84%A2%20Multi-Track_index.html", "description": "Layer, arrange, review, and develop browser-based multi-track music projects.", "tags": "music recording multitrack production studio"}, {"id": "music-hall", "title": "ARSHIF Music Hall of Resources", "category": "music", "kind": "Hall", "icon": "ARC", "url": "https://vervenveda.github.io/the_refrain.github.io/apps/ARSHIF_Music_Hall_Resources_Updated_index.html", "description": "Composers, instruments, forms, cultures, history, research, and deeper study.", "tags": "music history composers instruments research cultures"}, {"id": "solanar", "title": "Solanar Weather", "category": "stem", "kind": "Hub", "icon": "☀", "url": "https://vervenveda.github.io/solanar.github.io/", "description": "Weather, Earth science, environmental observation, lunar information, and global conditions.", "tags": "weather earth science climate moon environment"}, {"id": "medicament", "title": "Medicament Hub", "category": "stem", "kind": "Hub", "icon": "☤", "url": "https://vervenveda.github.io/medicament-hub.github.io/", "description": "Safety-first medical education, health literacy, whole-person wellness, and public resources.", "tags": "health medicine biology wellness safety"}, {"id": "exercise-log", "title": "Universal Exercise Log", "category": "stem", "kind": "Tool", "icon": "＋", "url": "https://vervenveda.github.io/medicament-hub.github.io/tools/Universal%20Exercise%20Log%20%26%20Workout%20Tracker_index.html", "description": "A private local movement and workout tracker for high-school and adult profiles.", "tags": "exercise fitness health physical education tracker"}, {"id": "river-road", "title": "River to Road", "category": "stem", "kind": "Hub", "icon": "♧", "url": "https://vervenveda.github.io/river_to_road.github.io/", "description": "Environmental stewardship, cleanup, community science, local action, and restoration.", "tags": "environment cleanup service community science stewardship"}, {"id": "arcade", "title": "Arcade", "category": "games", "kind": "Hub", "icon": "◆", "url": "https://vervenveda.github.io/arcade.github.io/", "description": "A searchable game hall for strategy, language, logic, trivia, creativity, and simulation.", "tags": "games puzzles strategy trivia learning"}, {"id": "chess", "title": "Chess Studio", "category": "games", "kind": "Game", "icon": "♟", "url": "https://vervenveda.github.io/arcade.github.io/Chess_Studio_index.html", "description": "Practice tactics, planning, position, and spatial reasoning.", "tags": "chess strategy tactics planning spatial"}, {"id": "sudoku", "title": "Jenny’s Sudoku", "category": "games", "kind": "Game", "icon": "9", "url": "https://vervenveda.github.io/arcade.github.io/Jenny%27s_Sudoku_index.html", "description": "Patient deduction, number placement, and logical grid reasoning.", "tags": "sudoku numbers logic deduction grid"}, {"id": "affixsix", "title": "AffixSix", "category": "games", "kind": "Game", "icon": "6", "url": "https://vervenveda.github.io/arcade.github.io/AffixSix%E2%84%A2_index.html", "description": "A number-and-pattern challenge built around six-part structures.", "tags": "math number patterns logic puzzle"}, {"id": "geometry-sanctuary", "title": "Geometry Sanctuary", "category": "games", "kind": "Game", "icon": "△", "url": "https://vervenveda.github.io/arcade.github.io/a_geometry_sanctuary_game_index.html", "description": "Explore geometric form, composition, pattern, and visual structure.", "tags": "geometry shapes pattern visual math"}, {"id": "new-word", "title": "Learn a New Word", "category": "games", "kind": "Game", "icon": "Aa", "url": "https://vervenveda.github.io/arcade.github.io/Learn_a_New_Word_index.html", "description": "Build vocabulary through an accessible interactive learning routine.", "tags": "vocabulary words language english learning"}, {"id": "civic-compass", "title": "Civic Compass Trivia", "category": "games", "kind": "Game", "icon": "🧭", "url": "https://vervenveda.github.io/arcade.github.io/Trivia_civic_Compass_inndex.html", "description": "Explore civic knowledge, institutions, responsibilities, and community choices.", "tags": "civics government citizenship trivia"}, {"id": "daily-news-quiz", "title": "The Verifier Daily News Quiz", "category": "games", "kind": "Game", "icon": "📰", "url": "https://vervenveda.github.io/arcade.github.io/Trivia_daily_news_index.html", "description": "Practice current-events awareness through a connected daily-news quiz.", "tags": "news current events quiz verifier literacy"}, {"id": "health-trivia", "title": "Health Trivia", "category": "games", "kind": "Game", "icon": "＋", "url": "https://vervenveda.github.io/arcade.github.io/Trivia_health_index.html", "description": "Build practical knowledge of the body, prevention, health, and wellness.", "tags": "health body wellness prevention trivia"}, {"id": "one-nation", "title": "One Nation For All", "category": "life", "kind": "Hub", "icon": "◐", "url": "https://vervenveda.github.io/onenationforall.github.io/", "description": "Civic engagement, public policy, public resources, accountability, and government navigation.", "tags": "civics policy government public service citizenship"}, {"id": "aurora", "title": "Aurora Sanctuary", "category": "life", "kind": "Hub", "icon": "○", "url": "https://vervenveda.github.io/aurora.github.io/", "description": "Reflection, restoration, inspiration, thoughtful exploration, and creative renewal.", "tags": "wellness reflection creativity restoration mindfulness"}, {"id": "word-alchemy", "title": "Word Alchemy", "category": "life", "kind": "Creative", "icon": "Aa", "url": "https://vervenveda.github.io/bazaarart.github.io/apps/Word_alchemy_game_index.html", "description": "Transform words into unexpected combinations, prompts, and story sparks.", "tags": "writing creativity prompts words stories"}, {"id": "starlight-jar", "title": "Starlight Jar", "category": "life", "kind": "Reflection", "icon": "✷", "url": "https://vervenveda.github.io/aurora.github.io/starlight_jar_index.html", "description": "Collect moments of kindness, beauty, courage, gratitude, and growth.", "tags": "gratitude reflection wellbeing kindness growth"}];
+
+      const resourceSearch = document.getElementById("resourceSearch");
+      const resourceFilters = document.getElementById("resourceFilters");
+      const resourceGroups = document.getElementById("resourceGroups");
+      const resourceCount = document.getElementById("resourceCount");
+      const resourceEmpty = document.getElementById("resourceEmpty");
+      let activeResourceCategory = "all";
+
+      const escapeHTML = value => String(value).replace(/[&<>"']/g, character => ({
+        "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+      })[character]);
+
+      function resourceCategoryLabel(id){
+        const language = html.lang || "en";
+        const labels = resourceCategoryTranslations[language] || resourceCategoryTranslations.en;
+        return labels[id] || resourceCategories[id]?.label || id;
+      }
+
+      function renderResourceFilters(){
+        const buttons = [
+          {id:"all", accent:"var(--gold)"},
+          ...Object.entries(resourceCategories).map(([id, meta]) => ({id, accent:meta.accent}))
+        ];
+        resourceFilters.innerHTML = buttons.map(item => `
+          <button class="resource-filter" type="button"
+            style="--resource-accent:${item.accent}"
+            data-resource-filter="${escapeHTML(item.id)}"
+            aria-pressed="${item.id === activeResourceCategory}">
+            ${escapeHTML(resourceCategoryLabel(item.id))}
+          </button>
+        `).join("");
+      }
+
+      function resourceMatches(resource, query){
+        const categoryMatch = activeResourceCategory === "all" || resource.category === activeResourceCategory;
+        if(!categoryMatch) return false;
+        if(!query) return true;
+        const category = resourceCategories[resource.category];
+        const haystack = `${resource.title} ${resource.description} ${resource.kind} ${resource.tags} ${category.label}`.toLowerCase();
+        return haystack.includes(query);
+      }
+
+      function resourceCard(resource){
+        const category = resourceCategories[resource.category];
+        return `<a class="resource-card"
+          style="--resource-accent:${category.accent}"
+          href="${escapeHTML(resource.url)}"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="${escapeHTML(resource.title)} — opens in a new tab">
+          <span class="resource-card-top">
+            <span class="resource-icon" aria-hidden="true">${escapeHTML(resource.icon)}</span>
+            <span class="resource-kind">${escapeHTML(resource.kind)}</span>
+          </span>
+          <h4>${escapeHTML(resource.title)}</h4>
+          <p>${escapeHTML(resource.description)}</p>
+          <span class="resource-open"><span>Open resource</span><span aria-hidden="true">↗</span></span>
+        </a>`;
+      }
+
+      function renderConnectedResources(){
+        const query = resourceSearch.value.trim().toLowerCase();
+        const shown = connectedResources.filter(resource => resourceMatches(resource, query));
+        const groups = Object.keys(resourceCategories)
+          .map(categoryId => ({
+            categoryId,
+            resources: shown.filter(resource => resource.category === categoryId)
+          }))
+          .filter(group => group.resources.length);
+
+        resourceGroups.innerHTML = groups.map(group => {
+          const meta = resourceCategories[group.categoryId];
+          return `<section class="resource-group" style="--resource-accent:${meta.accent}" aria-labelledby="resource-group-${group.categoryId}">
+            <div class="resource-group-head">
+              <div>
+                <h3 id="resource-group-${group.categoryId}">${escapeHTML(resourceCategoryLabel(group.categoryId))}</h3>
+                <p>${escapeHTML(meta.description)}</p>
+              </div>
+              <span class="resource-group-count">${group.resources.length} ${group.resources.length === 1 ? "resource" : "resources"}</span>
+            </div>
+            <div class="resource-grid">${group.resources.map(resourceCard).join("")}</div>
+          </section>`;
+        }).join("");
+
+        resourceCount.textContent = `${shown.length} of ${connectedResources.length} resources`;
+        resourceEmpty.hidden = shown.length > 0;
+      }
+
+      resourceFilters.addEventListener("click", event => {
+        const button = event.target.closest("[data-resource-filter]");
+        if(!button) return;
+        activeResourceCategory = button.dataset.resourceFilter;
+        renderResourceFilters();
+        renderConnectedResources();
+      });
+      resourceSearch.addEventListener("input", renderConnectedResources);
+
+
       function setTheme(theme){
         html.dataset.theme = theme;
         localStorage.setItem("khaemenes-theme", theme);
@@ -701,6 +1035,13 @@
         document.body.dir = html.dir;
         languageSelect.value = language;
         localStorage.setItem("khaemenes-language", language);
+        if(resourceSearch && dictionary.resourceSearchPlaceholder){
+          resourceSearch.placeholder = dictionary.resourceSearchPlaceholder;
+        }
+        if(resourceFilters && resourceGroups){
+          renderResourceFilters();
+          renderConnectedResources();
+        }
       }
 
       function updateConnection(){
@@ -761,6 +1102,9 @@
         installPrompt = null;
         installButton.hidden = true;
       });
+
+      renderResourceFilters();
+      renderConnectedResources();
 
       const savedTheme = localStorage.getItem("khaemenes-theme");
       const preferredTheme = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
