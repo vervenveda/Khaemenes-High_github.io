@@ -67,7 +67,7 @@
       "number": 1,
       "weeks": 2,
       "title": "Number Systems, Factors & Estimation",
-      "status": "planned",
+      "status": "open",
       "big_idea": "Numbers can be classified, decomposed, compared, and estimated to support efficient reasoning.",
       "objectives": [
         "Classify natural, whole, integer, rational, and irrational numbers",
@@ -81,7 +81,8 @@
         "US: 6.NS / 7.NS readiness",
         "Cambridge: Number",
         "IB MYP: Number"
-      ]
+      ],
+      "path": "units/unit-01/"
     },
     {
       "id": "u02",
