@@ -92,6 +92,313 @@ section{padding:4.5rem 0}.section-head{max-width:780px;margin:0 auto 2rem;text-a
 .empty{padding:1rem;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:11px}
 @media(max-width:1000px){.dashboard{grid-template-columns:1fr}.course-grid,.term-grid,.quick-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:680px){.profile-fields,.course-toolbar,.course-grid,.term-grid,.quick-grid{grid-template-columns:1fr}}
+
+/* ==========================================================
+   PERSONAL HOMEROOM CUSTOMIZATION
+   ========================================================== */
+:root{
+  --student-accent:#c6d0db;
+  --student-accent-2:#8da0b3;
+  --student-panel:#13243a;
+  --student-panel-2:#1a2d46;
+}
+
+body{
+  background:
+    radial-gradient(circle at 8% -5%,color-mix(in srgb,var(--student-accent) 14%,transparent),transparent 30rem),
+    radial-gradient(circle at 95% 8%,color-mix(in srgb,var(--student-accent-2) 13%,transparent),transparent 28rem),
+    var(--bg);
+}
+
+.personal-banner{
+  margin-top:1rem;
+  padding:1rem;
+  border:1px solid var(--line);
+  border-radius:21px;
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb,var(--student-panel) 92%,transparent),
+      color-mix(in srgb,var(--student-panel-2) 92%,transparent)
+    );
+  box-shadow:var(--shadow);
+}
+
+.personal-banner-inner{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:1rem;
+  align-items:center;
+}
+
+.personal-title{
+  text-align:left;
+}
+
+.personal-title strong{
+  display:block;
+  font:444 1.1rem/1.25 var(--serif);
+}
+
+.personal-title span{
+  display:block;
+  margin-top:.25rem;
+  color:var(--muted);
+  font-size:.78rem;
+}
+
+.personal-actions{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  gap:.55rem;
+}
+
+.personal-actions button{
+  min-height:42px;
+  padding:.58rem .78rem;
+  border:1px solid var(--line);
+  border-radius:7px;
+  color:var(--text);
+  background:var(--panel2);
+  font-weight:444;
+}
+
+.homeroom-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.25fr) minmax(320px,.75fr);
+  gap:1rem;
+}
+
+.homeroom-card{
+  padding:1.35rem;
+}
+
+.homeroom-card h2{
+  margin-bottom:.4rem;
+}
+
+.today-board{
+  display:grid;
+  gap:.65rem;
+  margin-top:1rem;
+}
+
+.today-item{
+  display:grid;
+  grid-template-columns:90px minmax(0,1fr) auto;
+  gap:.8rem;
+  align-items:center;
+  padding:.8rem;
+  border:1px solid var(--line);
+  border-radius:11px;
+  background:var(--bg2);
+}
+
+.today-time{
+  color:var(--student-accent);
+  font-size:.78rem;
+  font-weight:444;
+}
+
+.today-item strong{
+  font-weight:444;
+}
+
+.today-item small{
+  display:block;
+  color:var(--muted);
+}
+
+.today-item button{
+  min-height:34px;
+  padding:.4rem .6rem;
+  border:1px solid var(--line);
+  border-radius:7px;
+  color:var(--text);
+  background:var(--panel);
+}
+
+.mood-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem;
+  margin-top:1rem;
+}
+
+.mood-button{
+  min-width:44px;
+  min-height:44px;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:var(--bg2);
+  color:var(--text);
+}
+
+.mood-button[aria-pressed="true"]{
+  border-color:var(--student-accent);
+  box-shadow:inset 0 0 0 1px var(--student-accent);
+}
+
+.schedule-builder{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(320px,.8fr);
+  gap:1rem;
+}
+
+.schedule-card{
+  padding:1.3rem;
+}
+
+.schedule-form{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:.75rem;
+  margin-top:1rem;
+}
+
+.schedule-form .full{
+  grid-column:1/-1;
+}
+
+.schedule-list{
+  display:grid;
+  gap:.65rem;
+  margin-top:1rem;
+}
+
+.schedule-row{
+  display:grid;
+  grid-template-columns:90px minmax(0,1fr) 110px auto;
+  gap:.7rem;
+  align-items:center;
+  padding:.75rem;
+  border:1px solid var(--line);
+  border-radius:11px;
+  background:var(--bg2);
+}
+
+.schedule-row strong{
+  font-weight:444;
+}
+
+.schedule-row span,
+.schedule-row small{
+  color:var(--muted);
+  font-size:.78rem;
+}
+
+.schedule-row-actions{
+  display:flex;
+  gap:.35rem;
+}
+
+.schedule-row-actions button{
+  min-height:34px;
+  padding:.35rem .5rem;
+  border:1px solid var(--line);
+  border-radius:7px;
+  color:var(--text);
+  background:var(--panel);
+}
+
+.color-picker-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:.65rem;
+  margin-top:1rem;
+}
+
+.color-swatch{
+  min-height:82px;
+  border:1px solid var(--line);
+  border-radius:11px;
+  color:white;
+  font-weight:444;
+}
+
+.color-swatch[aria-pressed="true"]{
+  outline:3px solid var(--gold2);
+  outline-offset:3px;
+}
+
+.custom-color-row{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:.75rem;
+  margin-top:1rem;
+}
+
+.custom-color-row input[type="color"]{
+  width:100%;
+  min-height:48px;
+  padding:.2rem;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:var(--bg2);
+}
+
+.custom-course-form{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:.75rem;
+  margin-top:1rem;
+}
+
+.custom-course-form .full{
+  grid-column:1/-1;
+}
+
+.home-message{
+  margin-top:1rem;
+  padding:.9rem;
+  border-left:3px solid var(--student-accent);
+  border-radius:0 11px 11px 0;
+  color:var(--muted);
+  background:color-mix(in srgb,var(--student-accent) 6%,var(--panel));
+}
+
+@media(max-width:1000px){
+  .homeroom-grid,
+  .schedule-builder{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:700px){
+  .personal-banner-inner{
+    grid-template-columns:1fr;
+  }
+
+  .personal-title{
+    text-align:center;
+  }
+
+  .personal-actions{
+    justify-content:center;
+  }
+
+  .today-item,
+  .schedule-row{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+
+  .schedule-form,
+  .custom-course-form,
+  .custom-color-row{
+    grid-template-columns:1fr;
+  }
+
+  .schedule-form .full,
+  .custom-course-form .full{
+    grid-column:auto;
+  }
+
+  .color-picker-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
 </style>
 </head>
 <body>
@@ -110,6 +417,22 @@ section{padding:4.5rem 0}.section-head{max-width:780px;margin:0 auto 2rem;text-a
   </div>
 </header>
 
+<section class="personal-banner no-print">
+  <div class="wrap personal-banner-inner">
+    <div class="personal-title">
+      <strong id="personalHomeTitle">My Grade 9 Homeroom</strong>
+      <span id="personalHomeMeta">Personalize your colors, schedule, courses, and daily workspace.</span>
+    </div>
+
+    <div class="personal-actions">
+      <button id="openPersonalize" type="button">Personalize Homeroom</button>
+      <button id="openSchedule" type="button">Organize Schedule</button>
+      <button id="addCustomCourse" type="button">Add a Class</button>
+    </div>
+  </div>
+</section>
+
+
 <main id="main">
 <section class="hero">
   <div class="wrap">
@@ -121,6 +444,46 @@ section{padding:4.5rem 0}.section-head{max-width:780px;margin:0 auto 2rem;text-a
       <a class="btn" href="#courses">View Course Catalog</a>
       <button class="btn" id="printPlan" type="button">Print My Plan</button>
     </div>
+  </div>
+</section>
+
+
+<section id="homeroom">
+  <div class="wrap homeroom-grid">
+    <article class="card homeroom-card">
+      <p class="eyebrow">Personal Homeroom</p>
+      <h2 id="homeroomWelcome">Good day, Student</h2>
+      <p class="home-message" id="homeroomMessage">
+        Your daily schedule, pinned classes, goals, and notes can live here.
+      </p>
+
+      <div class="today-board" id="todayBoard"></div>
+    </article>
+
+    <article class="card homeroom-card">
+      <p class="eyebrow">Today</p>
+      <h2>Check in</h2>
+      <p class="notice">Choose how you feel and save a short focus for today.</p>
+
+      <div class="mood-row" id="moodRow" aria-label="Choose today's mood">
+        <button class="mood-button" type="button" data-mood="Ready" aria-pressed="false">✓</button>
+        <button class="mood-button" type="button" data-mood="Focused" aria-pressed="false">◎</button>
+        <button class="mood-button" type="button" data-mood="Creative" aria-pressed="false">✦</button>
+        <button class="mood-button" type="button" data-mood="Tired" aria-pressed="false">☾</button>
+        <button class="mood-button" type="button" data-mood="Need Help" aria-pressed="false">?</button>
+      </div>
+
+      <div class="field" style="margin-top:1rem">
+        <label for="dailyFocus">Today's focus</label>
+        <input id="dailyFocus" maxlength="120" placeholder="Example: Complete math lesson and science notes">
+      </div>
+
+      <div class="profile-actions">
+        <button id="saveDailyCheckIn" type="button">Save Check-In</button>
+      </div>
+
+      <p id="dailyStatus" aria-live="polite"></p>
+    </article>
   </div>
 </section>
 
@@ -171,6 +534,80 @@ section{padding:4.5rem 0}.section-head{max-width:780px;margin:0 auto 2rem;text-a
   </div>
 </section>
 
+
+<section id="schedule">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">My Weekly Schedule</p>
+      <h2>Organize the school week your way.</h2>
+      <p>Add classes, study blocks, appointments, creative time, and breaks. Your schedule stays in this browser and is included in your exported plan.</p>
+    </div>
+
+    <div class="schedule-builder">
+      <article class="card schedule-card">
+        <h3>Weekly Schedule</h3>
+        <div class="schedule-list" id="scheduleList"></div>
+      </article>
+
+      <article class="card schedule-card">
+        <h3>Add Schedule Item</h3>
+
+        <div class="schedule-form">
+          <div class="field">
+            <label for="scheduleDay">Day</label>
+            <select id="scheduleDay">
+              <option>Monday</option>
+              <option>Tuesday</option>
+              <option>Wednesday</option>
+              <option>Thursday</option>
+              <option>Friday</option>
+              <option>Saturday</option>
+              <option>Sunday</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="scheduleTime">Time</label>
+            <input id="scheduleTime" type="time">
+          </div>
+
+          <div class="field full">
+            <label for="scheduleTitle">Class or activity</label>
+            <input id="scheduleTitle" maxlength="80" placeholder="Pre-Algebra, Study Hall, Art, Appointment…">
+          </div>
+
+          <div class="field">
+            <label for="scheduleDuration">Duration</label>
+            <select id="scheduleDuration">
+              <option value="30">30 minutes</option>
+              <option value="45">45 minutes</option>
+              <option value="60" selected>1 hour</option>
+              <option value="90">1.5 hours</option>
+              <option value="120">2 hours</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="scheduleType">Type</label>
+            <select id="scheduleType">
+              <option>Class</option>
+              <option>Study</option>
+              <option>Project</option>
+              <option>Break</option>
+              <option>Appointment</option>
+              <option>Activity</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="profile-actions">
+          <button id="saveScheduleItem" type="button">Add to Schedule</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
 <section>
   <div class="wrap">
     <div class="section-head">
@@ -198,12 +635,356 @@ section{padding:4.5rem 0}.section-head{max-width:780px;margin:0 auto 2rem;text-a
 </section>
 </main>
 
+
+<dialog id="personalizeDialog">
+  <div class="dialog-body">
+    <p class="eyebrow">Make It Yours</p>
+    <h2>Personalize Your Homeroom</h2>
+    <p>Choose a color family or create your own navy-and-silver variation.</p>
+
+    <div class="color-picker-grid" id="colorPickerGrid">
+      <button class="color-swatch" type="button" data-theme-name="Silver" data-accent="#c6d0db" data-accent2="#8da0b3" style="background:linear-gradient(135deg,#c6d0db,#708091)">Silver</button>
+      <button class="color-swatch" type="button" data-theme-name="Ocean" data-accent="#82b7d8" data-accent2="#4f7597" style="background:linear-gradient(135deg,#82b7d8,#36536d)">Ocean</button>
+      <button class="color-swatch" type="button" data-theme-name="Violet" data-accent="#aaa3d6" data-accent2="#6f679b" style="background:linear-gradient(135deg,#aaa3d6,#5a537e)">Violet</button>
+      <button class="color-swatch" type="button" data-theme-name="Forest" data-accent="#8fb4a6" data-accent2="#52766a" style="background:linear-gradient(135deg,#8fb4a6,#425f56)">Forest</button>
+    </div>
+
+    <div class="custom-color-row">
+      <div class="field">
+        <label for="customAccent">Primary accent</label>
+        <input id="customAccent" type="color" value="#c6d0db">
+      </div>
+      <div class="field">
+        <label for="customAccent2">Secondary accent</label>
+        <input id="customAccent2" type="color" value="#8da0b3">
+      </div>
+    </div>
+
+    <div class="field" style="margin-top:1rem">
+      <label for="homeroomTitleInput">Homeroom title</label>
+      <input id="homeroomTitleInput" maxlength="80" placeholder="My Grade 9 Homeroom">
+    </div>
+
+    <div class="field" style="margin-top:.8rem">
+      <label for="homeroomMessageInput">Welcome message</label>
+      <input id="homeroomMessageInput" maxlength="160" placeholder="A short message for your personal learning space">
+    </div>
+
+    <div class="profile-actions">
+      <button id="savePersonalization" type="button">Save Personalization</button>
+      <button id="closePersonalizeDialog" type="button">Close</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="customCourseDialog">
+  <div class="dialog-body">
+    <p class="eyebrow">Add a Class</p>
+    <h2>Create a Custom Course</h2>
+    <p>Add homeschool electives, outside classes, tutoring, clubs, or locally taught subjects.</p>
+
+    <div class="custom-course-form">
+      <div class="field">
+        <label for="customCourseTitle">Course title</label>
+        <input id="customCourseTitle" maxlength="100" placeholder="Spanish I">
+      </div>
+
+      <div class="field">
+        <label for="customCourseCode">Course code</label>
+        <input id="customCourseCode" maxlength="24" placeholder="KH-LANG-SP1">
+      </div>
+
+      <div class="field">
+        <label for="customCourseDepartment">Department</label>
+        <input id="customCourseDepartment" maxlength="60" placeholder="Languages">
+      </div>
+
+      <div class="field">
+        <label for="customCourseType">Course type</label>
+        <select id="customCourseType">
+          <option>Core</option>
+          <option>Elective</option>
+          <option>Honors</option>
+          <option>Support</option>
+          <option>Club or Activity</option>
+        </select>
+      </div>
+
+      <div class="field full">
+        <label for="customCourseSummary">Description</label>
+        <input id="customCourseSummary" maxlength="220" placeholder="Short course description">
+      </div>
+
+      <div class="field full">
+        <label for="customCourseLink">Optional course link</label>
+        <input id="customCourseLink" type="url" placeholder="https://">
+      </div>
+    </div>
+
+    <div class="profile-actions">
+      <button id="saveCustomCourse" type="button">Add Course</button>
+      <button id="closeCustomCourseDialog" type="button">Close</button>
+    </div>
+  </div>
+</dialog>
+
 <footer class="footer"><div class="wrap footer-inner"><span>Khaemenes High · Grade 9</span><span>Local-first planning · Internationally adaptable</span></div></footer>
 
 <script>
 "use strict";
 const CATALOG_FALLBACK={"schema_version": "1.0", "grade": 9, "title": "Khaemenes High Grade 9 Course Catalog", "localization_note": "Course titles and graduation placement may be adapted to national, state, provincial, examination, or school requirements.", "pathways": [{"id": "foundation", "label": "Foundation", "description": "Targeted review, language support, visual instruction, and careful pacing."}, {"id": "core", "label": "Core", "description": "Complete Grade 9 learning and strong preparation for later secondary study."}, {"id": "extended", "label": "Extended", "description": "Honors depth, research, unfamiliar problems, advanced applications, and early college preparation."}], "courses": [{"id": "math-prealgebra", "code": "KH-MATH-PA", "department": "Mathematics", "title": "Pre-Algebra", "type": "Core / Bridge", "status": "open", "path": "../../courses/mathematics/pre-algebra/", "summary": "A mastery-based bridge from arithmetic to Algebra I through number systems, ratios, expressions, equations, graphs, geometry, statistics, and modelling.", "recommended_for": ["Grade 9 readiness", "Summer bridge", "Returning learners", "International placement support"]}, {"id": "math-algebra1", "code": "KH-MATH-A1", "department": "Mathematics", "title": "Algebra I", "type": "Core", "status": "planned", "summary": "Linear relationships, equations, inequalities, functions, systems, exponents, polynomials, and data modelling."}, {"id": "ela-english9", "code": "KH-ELA-09", "department": "Language & Literature", "title": "English 9: Literature, Composition & Communication", "type": "Core", "status": "planned", "summary": "Reading across world literature, evidence-based writing, grammar, research, speaking, listening, and media literacy."}, {"id": "science-biology", "code": "KH-SCI-BIO", "department": "Science", "title": "Biology & Living Systems", "type": "Core", "status": "planned", "summary": "Cells, genetics, evolution, ecology, body systems, scientific inquiry, ethics, and environmental connections."}, {"id": "science-earth", "code": "KH-SCI-ESS", "department": "Science", "title": "Earth, Climate & Space Science", "type": "Core / Elective", "status": "connected", "path": "https://vervenveda.github.io/solanar.github.io/", "summary": "Weather, climate, Earth systems, environmental observation, lunar cycles, space science, and global data literacy."}, {"id": "social-world", "code": "KH-SS-WHG", "department": "History & Society", "title": "World History & Geography", "type": "Core", "status": "planned", "summary": "Civilizations, geography, migration, belief, exchange, conflict, governance, primary sources, and historical reasoning."}, {"id": "digital-foundations", "code": "KH-TECH-DF", "department": "Technology", "title": "Digital Citizenship & Web Foundations", "type": "Core / Elective", "status": "connected", "path": "https://vervenveda.github.io/proresource_hub.github.io/", "summary": "Digital safety, source evaluation, HTML/CSS/JavaScript foundations, file management, accessibility, and ethical technology."}, {"id": "health-wellness", "code": "KH-HW-09", "department": "Health & Wellness", "title": "Health, Wellness & Human Development", "type": "Core", "status": "connected", "path": "https://vervenveda.github.io/medicament-hub.github.io/", "summary": "Health literacy, nutrition, movement, mental wellness, safety, prevention, communication, and responsible care navigation."}, {"id": "visual-arts", "code": "KH-ART-VAF", "department": "Arts", "title": "Visual Arts Foundations", "type": "Elective", "status": "connected", "path": "https://vervenveda.github.io/bazaarart.github.io/", "summary": "Drawing, color, composition, visual culture, digital media, critique, portfolio development, and original work."}, {"id": "music-foundations", "code": "KH-MUS-101", "department": "Music", "title": "Music Foundations & Creative Production", "type": "Elective", "status": "connected", "path": "https://vervenveda.github.io/the_refrain.github.io/", "summary": "Notation, rhythm, listening, theory, composition, recording, performance, and music research."}, {"id": "civic-literacy", "code": "KH-CIV-09", "department": "Civic & Global Studies", "title": "Civic Literacy & Public Life", "type": "Core / Elective", "status": "connected", "path": "https://vervenveda.github.io/onenationforall.github.io/", "summary": "Institutions, rights, responsibilities, public policy, source evaluation, community participation, and service."}, {"id": "research-lab", "code": "KH-RES-09", "department": "Research", "title": "Research, Evidence & Citation Lab", "type": "Cross-Curricular", "status": "connected", "path": "https://vervenveda.github.io/proresource_hub.github.io/Protools/Evidence_Citation_Studio/index.html", "summary": "Claims, sources, evidence, quotation, provenance, citations, bibliographies, and responsible research practice."}]};
 const PLANNER_FALLBACK={"schema_version": "1.0", "grade": 9, "school_year_weeks": 36, "terms": [{"id": "term-1", "label": "Term 1", "weeks": "1–9", "focus": "Orientation, diagnostics, routines, foundations, and first projects.", "milestones": ["Complete student profile and access settings", "Take mathematics readiness diagnostic", "Choose Foundation, Core, or Extended support by subject", "Begin a reading and research portfolio", "Complete first interdisciplinary project"]}, {"id": "term-2", "label": "Term 2", "weeks": "10–18", "focus": "Core skill development, source literacy, practical application, and revision.", "milestones": ["Review mathematics mastery report", "Complete a research-supported essay or presentation", "Complete a science investigation", "Add two artifacts to the student portfolio", "Hold a midyear planning review"]}, {"id": "term-3", "label": "Term 3", "weeks": "19–27", "focus": "Deeper application, collaboration, creative production, and career exploration.", "milestones": ["Complete a community, environment, or civic project", "Create an arts, music, media, or technology artifact", "Practice presentation and public communication", "Explore two career or further-study pathways", "Revise the year plan using mastery evidence"]}, {"id": "term-4", "label": "Term 4", "weeks": "28–36", "focus": "Integration, capstone work, reflection, portfolio review, and Grade 10 preparation.", "milestones": ["Complete a Grade 9 capstone", "Prepare a final portfolio", "Complete cumulative course reviews", "Draft the Grade 10 learning plan", "Export a learner-owned progress record"]}], "weekly_rhythm": [{"day": "Day 1", "focus": "New concepts and goals"}, {"day": "Day 2", "focus": "Guided practice and discussion"}, {"day": "Day 3", "focus": "Application, laboratory, studio, or project work"}, {"day": "Day 4", "focus": "Independent practice and targeted support"}, {"day": "Day 5", "focus": "Mastery check, reflection, revision, and portfolio"}]};
+
+const PERSONAL_KEY="khaemenes-grade9-personalization-v1";
+const SCHEDULE_KEY="khaemenes-grade9-schedule-v1";
+const CUSTOM_COURSES_KEY="khaemenes-grade9-custom-courses-v1";
+const DAILY_KEY="khaemenes-grade9-daily-checkin-v1";
+
+let personalization=loadJSON(PERSONAL_KEY,{
+  themeName:"Silver",
+  accent:"#c6d0db",
+  accent2:"#8da0b3",
+  title:"My Grade 9 Homeroom",
+  message:"Your daily schedule, pinned classes, goals, and notes can live here."
+});
+
+let scheduleItems=loadJSON(SCHEDULE_KEY,[]);
+let customCourses=loadJSON(CUSTOM_COURSES_KEY,[]);
+let dailyCheckIn=loadJSON(DAILY_KEY,{mood:"",focus:""});
+
+function applyPersonalization(){
+  document.documentElement.style.setProperty("--student-accent",personalization.accent);
+  document.documentElement.style.setProperty("--student-accent-2",personalization.accent2);
+  $("#personalHomeTitle").textContent=personalization.title||"My Grade 9 Homeroom";
+  $("#homeroomMessage").textContent=personalization.message||"Your daily schedule, pinned classes, goals, and notes can live here.";
+  $("#homeroomTitleInput").value=personalization.title||"";
+  $("#homeroomMessageInput").value=personalization.message||"";
+  $("#customAccent").value=personalization.accent||"#c6d0db";
+  $("#customAccent2").value=personalization.accent2||"#8da0b3";
+
+  document.querySelectorAll("[data-theme-name]").forEach(button=>{
+    button.setAttribute("aria-pressed",String(button.dataset.themeName===personalization.themeName));
+  });
+}
+
+function savePersonalization(){
+  personalization={
+    themeName:"Custom",
+    accent:$("#customAccent").value,
+    accent2:$("#customAccent2").value,
+    title:$("#homeroomTitleInput").value.trim()||"My Grade 9 Homeroom",
+    message:$("#homeroomMessageInput").value.trim()||"Your daily schedule, pinned classes, goals, and notes can live here."
+  };
+  saveJSON(PERSONAL_KEY,personalization);
+  applyPersonalization();
+  $("#personalizeDialog").close();
+}
+
+$("#colorPickerGrid").addEventListener("click",event=>{
+  const button=event.target.closest("[data-theme-name]");
+  if(!button)return;
+  personalization.themeName=button.dataset.themeName;
+  $("#customAccent").value=button.dataset.accent;
+  $("#customAccent2").value=button.dataset.accent2;
+  document.querySelectorAll("[data-theme-name]").forEach(item=>{
+    item.setAttribute("aria-pressed",String(item===button));
+  });
+});
+
+$("#openPersonalize").addEventListener("click",()=>$("#personalizeDialog").showModal());
+$("#closePersonalizeDialog").addEventListener("click",()=>$("#personalizeDialog").close());
+$("#savePersonalization").addEventListener("click",savePersonalization);
+
+function syncCustomCourses(){
+  const ids=new Set(catalog.courses.map(course=>course.id));
+  customCourses.forEach(course=>{
+    if(!ids.has(course.id))catalog.courses.push(course);
+  });
+}
+
+function createCustomCourse(){
+  const title=$("#customCourseTitle").value.trim();
+  if(!title){$("#customCourseTitle").focus();return}
+
+  const id="custom-"+Date.now();
+  const course={
+    id,
+    code:$("#customCourseCode").value.trim()||"CUSTOM-09",
+    department:$("#customCourseDepartment").value.trim()||"Custom Studies",
+    title,
+    type:$("#customCourseType").value,
+    status:$("#customCourseLink").value.trim()?"connected":"planned",
+    path:$("#customCourseLink").value.trim()||undefined,
+    summary:$("#customCourseSummary").value.trim()||"Student-added Grade 9 course."
+  };
+
+  customCourses.push(course);
+  saveJSON(CUSTOM_COURSES_KEY,customCourses);
+  catalog.courses.push(course);
+  myPlan.add(id);
+  saveJSON(PLAN_KEY,[...myPlan]);
+
+  populateDepartments();
+  renderCourses();
+  renderPlan();
+  renderTodayBoard();
+
+  ["customCourseTitle","customCourseCode","customCourseDepartment","customCourseSummary","customCourseLink"].forEach(id=>$("#"+id).value="");
+  $("#customCourseDialog").close();
+}
+
+$("#addCustomCourse").addEventListener("click",()=>$("#customCourseDialog").showModal());
+$("#closeCustomCourseDialog").addEventListener("click",()=>$("#customCourseDialog").close());
+$("#saveCustomCourse").addEventListener("click",createCustomCourse);
+
+function renderSchedule(){
+  const list=$("#scheduleList");
+  list.innerHTML="";
+
+  if(!scheduleItems.length){
+    list.innerHTML='<p class="empty">No schedule items yet.</p>';
+    return;
+  }
+
+  const dayOrder=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+  const sorted=[...scheduleItems].sort((a,b)=>{
+    const dayDiff=dayOrder.indexOf(a.day)-dayOrder.indexOf(b.day);
+    if(dayDiff!==0)return dayDiff;
+    return (a.time||"").localeCompare(b.time||"");
+  });
+
+  sorted.forEach(item=>{
+    const row=document.createElement("div");
+    row.className="schedule-row";
+
+    const time=document.createElement("strong");
+    time.textContent=item.time||"Flexible";
+
+    const title=document.createElement("div");
+    title.innerHTML="<strong></strong><small></small>";
+    title.querySelector("strong").textContent=item.title;
+    title.querySelector("small").textContent=item.type+" · "+item.duration+" minutes";
+
+    const day=document.createElement("span");
+    day.textContent=item.day;
+
+    const actions=document.createElement("div");
+    actions.className="schedule-row-actions";
+
+    const remove=document.createElement("button");
+    remove.type="button";
+    remove.textContent="Remove";
+    remove.addEventListener("click",()=>{
+      scheduleItems=scheduleItems.filter(entry=>entry.id!==item.id);
+      saveJSON(SCHEDULE_KEY,scheduleItems);
+      renderSchedule();
+      renderTodayBoard();
+    });
+
+    actions.appendChild(remove);
+    row.append(time,title,day,actions);
+    list.appendChild(row);
+  });
+}
+
+$("#saveScheduleItem").addEventListener("click",()=>{
+  const title=$("#scheduleTitle").value.trim();
+  if(!title){$("#scheduleTitle").focus();return}
+
+  scheduleItems.push({
+    id:"schedule-"+Date.now(),
+    day:$("#scheduleDay").value,
+    time:$("#scheduleTime").value,
+    title,
+    duration:$("#scheduleDuration").value,
+    type:$("#scheduleType").value
+  });
+
+  saveJSON(SCHEDULE_KEY,scheduleItems);
+  $("#scheduleTitle").value="";
+  renderSchedule();
+  renderTodayBoard();
+});
+
+$("#openSchedule").addEventListener("click",()=>{
+  document.querySelector("#schedule").scrollIntoView({behavior:"smooth"});
+});
+
+function renderTodayBoard(){
+  const board=$("#todayBoard");
+  board.innerHTML="";
+
+  const today=new Intl.DateTimeFormat("en-US",{weekday:"long"}).format(new Date());
+  const todaysItems=scheduleItems
+    .filter(item=>item.day===today)
+    .sort((a,b)=>(a.time||"").localeCompare(b.time||""));
+
+  if(!todaysItems.length){
+    const selected=catalog.courses.filter(course=>myPlan.has(course.id)).slice(0,3);
+    if(!selected.length){
+      board.innerHTML='<p class="empty">Add courses or schedule items to build today’s homeroom board.</p>';
+      return;
+    }
+
+    selected.forEach(course=>{
+      const item=document.createElement("div");
+      item.className="today-item";
+      item.innerHTML="<span class='today-time'>Flexible</span><div><strong></strong><small></small></div><button type='button'>Open Plan</button>";
+      item.querySelector("strong").textContent=course.title;
+      item.querySelector("small").textContent=course.department;
+      item.querySelector("button").addEventListener("click",()=>document.querySelector("#courses").scrollIntoView({behavior:"smooth"}));
+      board.appendChild(item);
+    });
+    return;
+  }
+
+  todaysItems.forEach(entry=>{
+    const item=document.createElement("div");
+    item.className="today-item";
+    item.innerHTML="<span class='today-time'></span><div><strong></strong><small></small></div><button type='button'>Done</button>";
+    item.querySelector(".today-time").textContent=entry.time||"Flexible";
+    item.querySelector("strong").textContent=entry.title;
+    item.querySelector("small").textContent=entry.type+" · "+entry.duration+" minutes";
+    item.querySelector("button").addEventListener("click",()=>{
+      item.style.opacity=".5";
+      item.querySelector("button").textContent="Completed";
+      item.querySelector("button").disabled=true;
+    });
+    board.appendChild(item);
+  });
+}
+
+$("#moodRow").addEventListener("click",event=>{
+  const button=event.target.closest("[data-mood]");
+  if(!button)return;
+  dailyCheckIn.mood=button.dataset.mood;
+  document.querySelectorAll("[data-mood]").forEach(item=>{
+    item.setAttribute("aria-pressed",String(item===button));
+  });
+});
+
+$("#saveDailyCheckIn").addEventListener("click",()=>{
+  dailyCheckIn.focus=$("#dailyFocus").value.trim();
+  saveJSON(DAILY_KEY,dailyCheckIn);
+  $("#dailyStatus").textContent="Today's check-in was saved.";
+});
+
+function loadDailyCheckIn(){
+  $("#dailyFocus").value=dailyCheckIn.focus||"";
+  document.querySelectorAll("[data-mood]").forEach(button=>{
+    button.setAttribute("aria-pressed",String(button.dataset.mood===dailyCheckIn.mood));
+  });
+}
+
+function updateHomeroomWelcome(){
+  const profile=currentProfile();
+  $("#homeroomWelcome").textContent="Good day, "+(profile.name||"Student");
+  $("#personalHomeMeta").textContent=
+    (profile.schoolYear||"Current school year")+" · "+
+    (profile.learningMode||"Learning mode")+" · "+
+    (myPlan.size||0)+" planned course"+(myPlan.size===1?"":"s");
+}
+
 const PROFILE_KEY="khaemenes-grade9-profile-v1";
 const PLAN_KEY="khaemenes-grade9-course-plan-v1";
 const THEME_KEY="khaemenes-theme";
@@ -224,7 +1005,7 @@ async function loadData(){
   ]);
   if(catalogResult.status==="fulfilled")catalog=catalogResult.value;
   if(plannerResult.status==="fulfilled")planner=plannerResult.value;
-  populateDepartments();renderCourses();renderTerms();renderPlan();
+  syncCustomCourses();populateDepartments();renderCourses();renderTerms();renderPlan();renderSchedule();renderTodayBoard();
 }
 
 function setTheme(theme){document.documentElement.dataset.theme=theme;localStorage.setItem(THEME_KEY,theme)}
@@ -238,6 +1019,7 @@ function loadProfile(){
   $("#mathPathway").value=profile.mathPathway||"Core";
   $("#learningMode").value=profile.learningMode||"Blended";
   $("#welcomeTitle").textContent=`Welcome, ${profile.name||"Student"}`;
+  updateHomeroomWelcome();
 }
 function currentProfile(){return{name:$("#studentName").value.trim(),schoolYear:$("#schoolYear").value.trim(),mathPathway:$("#mathPathway").value,learningMode:$("#learningMode").value}}
 $("#saveProfile").addEventListener("click",()=>{saveJSON(PROFILE_KEY,currentProfile());loadProfile();$("#profileMessage").textContent="Profile saved in this browser."});
@@ -305,10 +1087,10 @@ function downloadJSON(filename,data){
   const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
   const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),500);
 }
-$("#exportPlan").addEventListener("click",()=>downloadJSON("khaemenes-grade9-plan.json",{exported:new Date().toISOString(),profile:currentProfile(),course_ids:[...myPlan],courses:catalog.courses.filter(c=>myPlan.has(c.id))}));
+$("#exportPlan").addEventListener("click",()=>downloadJSON("khaemenes-grade9-plan.json",{exported:new Date().toISOString(),profile:currentProfile(),personalization,schedule:scheduleItems,daily_check_in:dailyCheckIn,custom_courses:customCourses,course_ids:[...myPlan],courses:catalog.courses.filter(c=>myPlan.has(c.id))}));
 $("#printPlan").addEventListener("click",()=>window.print());
 
-loadProfile();loadData();
+applyPersonalization();loadDailyCheckIn();renderSchedule();renderTodayBoard();loadProfile();loadData();
 </script>
 </body>
 </html>
