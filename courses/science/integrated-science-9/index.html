@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Khaemenes Academy International Integrated Science 9: life, matter, energy, Earth systems, engineering, inquiry, and evidence literacy.">
+  <meta name="theme-color" content="#07131d">
+  <meta name="color-scheme" content="dark light">
+  <title>International Integrated Science 9 · Khaemenes Academy High School</title>
+  <link rel="stylesheet" href="course-ui.css">
+  <script src="course-ui.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../../../index.html" aria-label="Khaemenes Academy High School home">
+      <span class="brand-mark" aria-hidden="true">S9</span>
+      <span class="brand-copy">
+        <strong>KHAEMENES ACADEMY</strong>
+        <small>High School · International Science Hall</small>
+      </span>
+    </a>
+    <div class="header-actions">
+      <a class="nav-button secondary" href="../../../grades/grade-09/">Grade 9 Portal</a>
+      <a class="nav-button" href="../../../index.html">Campus Home</a>
+      <button class="icon-button" id="themeToggle" type="button" aria-label="Switch theme">☼</button>
+    </div>
+  </div>
+</header>
+
+<nav class="course-breadcrumb" aria-label="Breadcrumb">
+  <div class="wrap">
+    <a href="https://vervenveda.github.io/">Verve N Veda</a>
+    <span aria-hidden="true">›</span>
+    <a href="https://vervenveda.github.io/khaemenesacademy.github.io/">Khaemenes Academy</a>
+    <span aria-hidden="true">›</span>
+    <a href="../../../index.html">High School</a>
+    <span aria-hidden="true">›</span>
+    <a href="../../../grades/grade-09/">Grade 9</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">International Integrated Science 9</span>
+  </div>
+</nav>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">KH-SCI-IIS9 · 36 Weeks · Internationally Benchmarked</p>
+      <h1>
+        International Integrated Science 9
+        <span class="hero-subtitle">Life · Matter · Energy · Earth Systems</span>
+      </h1>
+      <p class="lead">A rigorous, accessible Grade 9 foundation in biology, chemistry, physics, Earth and space science, environmental science, engineering, scientific inquiry, and evidence literacy.</p>
+
+      <div class="course-meta" aria-label="Course features">
+        <span class="pill">Grade 9 Core</span>
+        <span class="pill">Foundation · Core · Extended</span>
+        <span class="pill">135–150 Hours</span>
+        <span class="pill">Laboratory Portfolio</span>
+        <span class="pill">Local Progress</span>
+        <span class="pill">Low-Bandwidth Ready</span>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary" id="continueButton" href="#course-map" aria-disabled="true">Units Releasing Systematically</a>
+        <a class="btn" href="#course-map">View 36-Week Course Map</a>
+        <a class="btn" href="LAB_SAFETY_FRAMEWORK.md">Read Laboratory Safety</a>
+        <button class="btn" id="heroExportProgress" type="button">Export Progress</button>
+      </div>
+
+      <div class="online-status" role="status" aria-live="polite">
+        <span class="status-dot" id="onlineDot" aria-hidden="true"></span>
+        <span id="onlineLabel">Checking connection…</span>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="design-title">
+    <div class="wrap course-layout">
+      <article class="card course-main">
+        <p class="eyebrow">Course design</p>
+        <h2 id="design-title">One connected scientific foundation.</h2>
+        <p class="notice">This is an integrated science course—not a biology-only sequence. Students investigate living systems, matter, forces, energy, Earth, climate, space, engineering, and the quality of scientific evidence.</p>
+
+        <div class="pathway-row">
+          <article class="pathway">
+            <h3>Foundation</h3>
+            <p>Visual models, language support, smaller steps, guided calculations, scaffolded investigations, and additional examples.</p>
+          </article>
+          <article class="pathway">
+            <h3>Core</h3>
+            <p>The complete Grade 9 course, laboratory portfolio, assessments, source evaluation, and sustainable engineering capstone.</p>
+          </article>
+          <article class="pathway">
+            <h3>Extended</h3>
+            <p>Honors depth, unfamiliar applications, independent investigations, advanced datasets, research, and deeper scientific argument.</p>
+          </article>
+        </div>
+
+        <h3 style="margin-top:1.5rem">Course outcomes</h3>
+        <ul>
+          <li>Explain important concepts across life, chemical, physical, Earth, environmental, and space science.</li>
+          <li>Plan safe and ethical investigations and evaluate the quality of methods and evidence.</li>
+          <li>Use SI units, measurements, graphs, models, calculations, public datasets, and scientific sources.</li>
+          <li>Distinguish observation, inference, correlation, causation, uncertainty, and unsupported claims.</li>
+          <li>Design and improve solutions while considering safety, cost, accessibility, culture, and environmental effects.</li>
+        </ul>
+      </article>
+
+      <aside class="card course-side" aria-labelledby="record-title">
+        <p class="eyebrow">Your local course record</p>
+        <h2 id="record-title" style="font-size:1.45rem">Science 9 Progress</h2>
+
+        <div class="field">
+          <label for="pathwaySelect">Current pathway</label>
+          <select id="pathwaySelect">
+            <option>Foundation</option>
+            <option selected>Core</option>
+            <option>Extended</option>
+          </select>
+        </div>
+
+        <div style="margin-top:1rem">
+          <div class="progress-bar" aria-label="Course completion">
+            <span id="progressFill"></span>
+          </div>
+          <div class="progress-text">
+            <span id="progressCount">0 of 13 sections</span>
+            <span id="progressPercent">0%</span>
+          </div>
+        </div>
+
+        <p class="notice">Progress is stored only in this browser unless you export a portable progress file.</p>
+
+        <div class="side-actions">
+          <button class="btn primary" id="exportProgress" type="button">Export Progress</button>
+          <button class="btn" id="importProgress" type="button">Import Progress</button>
+          <button class="btn" id="resetProgress" type="button">Reset Local Progress</button>
+          <input id="progressFile" type="file" accept="application/json,.json" hidden>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section aria-labelledby="domains-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Scientific domains</p>
+        <h2 id="domains-title">Connected knowledge across disciplines</h2>
+        <p>Students repeatedly connect structures, systems, matter, energy, evidence, scale, cause and effect, stability, and change.</p>
+      </div>
+
+      <div class="grid domain-grid">
+        <article class="card domain-card" style="--domain-color:var(--earth)">
+          <div class="domain-icon" aria-hidden="true">L</div>
+          <h3>Life Science</h3>
+          <p>Cells, body systems, inheritance, ecosystems, evolution, biodiversity, and human impacts.</p>
+        </article>
+        <article class="card domain-card" style="--domain-color:var(--matter)">
+          <div class="domain-icon" aria-hidden="true">M</div>
+          <h3>Chemistry</h3>
+          <p>Atomic structure, periodic patterns, bonding, reactions, conservation, acids, bases, and materials.</p>
+        </article>
+        <article class="card domain-card" style="--domain-color:var(--energy)">
+          <div class="domain-icon" aria-hidden="true">E</div>
+          <h3>Physics</h3>
+          <p>Motion, forces, energy, circuits, waves, light, sound, communication, measurement, and modeling.</p>
+        </article>
+        <article class="card domain-card" style="--domain-color:var(--ocean)">
+          <div class="domain-icon" aria-hidden="true">⊕</div>
+          <h3>Earth & Space</h3>
+          <p>Earth systems, cycles, geology, hazards, climate evidence, planetary motion, gravity, and light.</p>
+        </article>
+        <article class="card domain-card" style="--domain-color:var(--science)">
+          <div class="domain-icon" aria-hidden="true">Q</div>
+          <h3>Scientific Inquiry</h3>
+          <p>Questions, variables, fair tests, fieldwork, data quality, uncertainty, explanations, and peer review.</p>
+        </article>
+        <article class="card domain-card" style="--domain-color:var(--success)">
+          <div class="domain-icon" aria-hidden="true">D</div>
+          <h3>Engineering Design</h3>
+          <p>Criteria, constraints, prototypes, testing, optimization, trade-offs, sustainability, and communication.</p>
+        </article>
+        <article class="card domain-card" style="--domain-color:var(--silver)">
+          <div class="domain-icon" aria-hidden="true">i</div>
+          <h3>Evidence Literacy</h3>
+          <p>Sources, graphs, statistics, misinformation, conflicts of interest, correlation, causation, and uncertainty.</p>
+        </article>
+        <article class="card domain-card" style="--domain-color:var(--danger)">
+          <div class="domain-icon" aria-hidden="true">⚖</div>
+          <h3>Science & Society</h3>
+          <p>Ethics, culture, public health, technology, environmental responsibility, policy, and informed decisions.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="rhythm-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Weekly learning rhythm</p>
+        <h2 id="rhythm-title">Observe, understand, investigate, explain</h2>
+        <p>The five-lesson rhythm can be rearranged when laboratory work needs a longer continuous block.</p>
+      </div>
+
+      <div class="grid rhythm-grid">
+        <article class="card rhythm-card">
+          <div class="rhythm-number">1</div>
+          <h3>Phenomenon</h3>
+          <p>Observe, ask questions, predict, and identify what is not yet understood.</p>
+        </article>
+        <article class="card rhythm-card">
+          <div class="rhythm-number">2</div>
+          <h3>Concept & Model</h3>
+          <p>Read, discuss, diagram, calculate, and connect vocabulary to a scientific model.</p>
+        </article>
+        <article class="card rhythm-card">
+          <div class="rhythm-number">3</div>
+          <h3>Practice & Evidence</h3>
+          <p>Use examples, data, sources, graphs, equations, and representations.</p>
+        </article>
+        <article class="card rhythm-card">
+          <div class="rhythm-number">4</div>
+          <h3>Investigation</h3>
+          <p>Conduct a safe hands-on, field, simulation, engineering, or dataset activity.</p>
+        </article>
+        <article class="card rhythm-card">
+          <div class="rhythm-number">5</div>
+          <h3>Synthesis</h3>
+          <p>Explain, assess, correct, reflect, and add evidence to the portfolio.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="assessment-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Balanced assessment</p>
+        <h2 id="assessment-title">Four equal dimensions of scientific mastery</h2>
+        <p>Knowledge alone is not sufficient; students must also investigate, interpret evidence, and understand scientific impacts.</p>
+      </div>
+
+      <div class="grid assessment-grid">
+        <article class="card assessment-card">
+          <span class="assessment-value">25%</span>
+          <h3>Knowledge & Application</h3>
+          <p>Scientific concepts, models, calculations, explanations, and transfer.</p>
+        </article>
+        <article class="card assessment-card">
+          <span class="assessment-value">25%</span>
+          <h3>Inquiry & Design</h3>
+          <p>Questions, hypotheses, variables, procedures, safety, and ethical methods.</p>
+        </article>
+        <article class="card assessment-card">
+          <span class="assessment-value">25%</span>
+          <h3>Data & Evaluation</h3>
+          <p>Tables, graphs, patterns, uncertainty, anomalies, limitations, and improvements.</p>
+        </article>
+        <article class="card assessment-card">
+          <span class="assessment-value">25%</span>
+          <h3>Impact & Communication</h3>
+          <p>Evidence-based communication, ethics, culture, environment, and society.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="safety-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Laboratory access</p>
+        <h2 id="safety-title">Rigorous science at different facility levels</h2>
+        <p>Every investigation declares its safety tier, supervision, hazards, cleanup, accessibility alternatives, and stop conditions.</p>
+      </div>
+
+      <div class="grid safety-grid">
+        <article class="card safety-card tier-1">
+          <h3>Tier 1 · Home-Safe</h3>
+          <p>Low-risk observations, models, measurement, household-material activities, field observations, and public datasets.</p>
+        </article>
+        <article class="card safety-card tier-2">
+          <h3>Tier 2 · Adult Supervision</h3>
+          <p>Heat, glassware, tools, low-voltage circuits, biological samples, or household chemicals requiring direct oversight.</p>
+        </article>
+        <article class="card safety-card tier-3">
+          <h3>Tier 3 · Qualified Laboratory</h3>
+          <p>Specialized equipment or hazards taught through a qualified facility, demonstration, dataset, video, or safe simulation.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="course-map" aria-labelledby="map-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Thirty-six-week curriculum</p>
+        <h2 id="map-title">Course map</h2>
+        <p>Instructional sections are released only after content, safety, answer, accessibility, navigation, print, and release validation.</p>
+      </div>
+
+      <div class="unit-toolbar no-print">
+        <div class="field">
+          <label for="unitSearch">Search course sections</label>
+          <input id="unitSearch" type="search" placeholder="Search cells, energy, climate, engineering…">
+        </div>
+        <div class="field">
+          <label for="statusFilter">Release status</label>
+          <select id="statusFilter">
+            <option value="all">All sections</option>
+            <option value="open">Open</option>
+            <option value="complete">Released</option>
+            <option value="planned">Planned</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="unit-list" id="unitList" aria-live="polite">
+        <div class="empty-state">Loading course map…</div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="documents-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Course governance</p>
+        <h2 id="documents-title">Transparent academic framework</h2>
+        <p>These root documents define the curriculum before daily lessons are released.</p>
+      </div>
+
+      <div class="grid document-grid">
+        <a class="card document-card" href="COURSE_CHARTER.md">
+          <h3>Course Charter</h3>
+          <p>Identity, purpose, pathways, outcomes, completion evidence, and non-negotiable quality rules.</p>
+          <span>Open document →</span>
+        </a>
+        <a class="card document-card" href="CURRICULUM_MAP.md">
+          <h3>Curriculum Map</h3>
+          <p>The 36-week sequence, weekly rhythm, cross-course threads, and major assessments.</p>
+          <span>Open document →</span>
+        </a>
+        <a class="card document-card" href="STANDARDS_CROSSWALK.md">
+          <h3>International Crosswalk</h3>
+          <p>The planning relationship among IB, Cambridge, NGSS, Australia, British Columbia, England, Singapore, New Zealand, and PISA.</p>
+          <span>Open document →</span>
+        </a>
+        <a class="card document-card" href="ASSESSMENT_FRAMEWORK.md">
+          <h3>Assessment Framework</h3>
+          <p>Mastery levels, reassessment, definitive-answer requirements, rubrics, and assessment integrity.</p>
+          <span>Open document →</span>
+        </a>
+        <a class="card document-card" href="LAB_SAFETY_FRAMEWORK.md">
+          <h3>Laboratory Safety</h3>
+          <p>Safety tiers, supervision, universal rules, data safety, and the investigation release gate.</p>
+          <span>Open document →</span>
+        </a>
+        <a class="card document-card" href="MATERIALS_FRAMEWORK.md">
+          <h3>Materials Framework</h3>
+          <p>Low-cost reusable materials, classifications, accessibility substitutes, and the equity rule.</p>
+          <span>Open document →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span>Khaemenes Academy™ · International Integrated Science 9</span>
+    <div class="footer-links">
+      <a href="../../../grades/grade-09/">Grade 9</a>
+      <a href="../../../index.html">High School</a>
+      <a href="offline.html">Offline Information</a>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<dialog id="resetDialog">
+  <div class="dialog-body">
+    <p class="eyebrow">Local record</p>
+    <h2>Reset Science 9 progress?</h2>
+    <p>This removes pathway and completion information stored in this browser. Export the record first when it should be preserved.</p>
+    <div class="dialog-actions">
+      <button class="btn" id="cancelReset" type="button">Keep Progress</button>
+      <button class="btn primary" id="confirmReset" type="button">Reset Progress</button>
+    </div>
+  </div>
+</dialog>
+</body>
+</html>
