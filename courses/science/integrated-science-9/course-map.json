@@ -32,8 +32,8 @@
     ],
     "mapping_status": "International benchmark synthesis. Jurisdiction-specific review is required before formal standards or credit reporting.",
     "assessment_principle": "Every scored item must have one definitive, defensible answer or an explicit evidence-based rubric.",
-    "release_status": "root-shell-ready",
-    "current_release": "Root course shell; instructional units remain planned"
+    "release_status": "unit-00-open",
+    "current_release": "Unit 00 — Readiness, Laboratory Safety & Scientific Habits"
   },
   "mastery_scale": [
     {
@@ -101,7 +101,7 @@
         "PISA: Procedural and epistemic knowledge"
       ],
       "path": "diagnostic/",
-      "status": "planned"
+      "status": "open"
     },
     {
       "id": "u01",
