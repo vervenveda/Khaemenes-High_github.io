@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07131d">
+  <meta name="color-scheme" content="dark light">
+  <title>Science Portfolio Setup · Khaemenes Science 9</title>
+  <link rel="stylesheet" href="../course-ui.css">
+  <link rel="stylesheet" href="unit00.css">
+  
+  <script src="unit00.js" defer></script>
+  
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../">
+      <span class="brand-mark" aria-hidden="true">S9</span>
+      <span class="brand-copy"><strong>INTEGRATED SCIENCE 9</strong><small>Unit 00 · Readiness & Safety</small></span>
+    </a>
+    <div class="header-actions">
+      <a class="nav-button secondary" href="../../../../grades/grade-09/">Grade 9</a>
+      <a class="nav-button" href="./">Unit 00</a>
+      <button class="icon-button" id="themeToggle" type="button" aria-label="Switch theme">☼</button>
+    </div>
+  </div>
+</header>
+<nav class="course-breadcrumb" aria-label="Breadcrumb">
+  <div class="wrap">
+    <a href="../../../../index.html">High School</a><span aria-hidden="true">›</span>
+    <a href="../../../../grades/grade-09/">Grade 9</a><span aria-hidden="true">›</span>
+    <a href="../">Science 9</a><span aria-hidden="true">›</span>
+    <span aria-current="page">Science Portfolio Setup</span>
+  </div>
+</nav>
+<main id="main">
+<article class="card lesson-page">
+  <p class="eyebrow">Required Unit 00 record</p>
+  <h1>Science Portfolio Setup</h1>
+  <p class="unit-lead">Create one organized place for laboratory records, fieldwork, models, graphs, sources, assessments, corrections, projects, and reflections.</p>
+
+  <form class="portfolio-form" id="portfolioForm">
+    <label class="check-row"><input class="portfolio-check" type="checkbox"><span>Create a physical binder, digital directory, or combined system labeled <strong>International Integrated Science 9</strong>.</span></label>
+    <label class="check-row"><input class="portfolio-check" type="checkbox"><span>Create sections for lessons, investigations, data and graphs, source evaluations, assessments, projects, and reflections.</span></label>
+    <label class="check-row"><input class="portfolio-check" type="checkbox"><span>Create a science-notebook template with date, question, safety tier, materials, method, raw data, calculations, conclusion, limitations, and sources.</span></label>
+    <label class="check-row"><input class="portfolio-check" type="checkbox"><span>Create a vocabulary record with term, definition in your own words, diagram or example, and source.</span></label>
+    <label class="check-row"><input class="portfolio-check" type="checkbox"><span>Create a source log with author or organization, title, date, location, evidence used, and credibility notes.</span></label>
+    <label class="check-row"><input class="portfolio-check" type="checkbox"><span>Plan a backup method that does not expose private student information publicly.</span></label>
+
+    <div class="form-grid">
+      <label>Portfolio format
+        <select id="portfolioFormat" required>
+          <option value="">Choose a format</option>
+          <option>Physical binder</option>
+          <option>Digital directory</option>
+          <option>Combined physical and digital</option>
+        </select>
+      </label>
+      <label class="full">Personal scientific inquiry goal
+        <textarea id="scienceGoal" required placeholder="Example: I will improve how I graph data and explain what the graph does and does not show."></textarea>
+      </label>
+    </div>
+
+    <div class="lesson-actions no-print"><button class="btn primary" type="submit">Record Portfolio Readiness</button><button class="btn" id="printPage" type="button">Print Setup Page</button><a class="btn" href="./">Return to Unit 00</a></div>
+  </form>
+</article>
+</main>
+<footer class="footer"><div class="wrap footer-inner">
+  <span>Khaemenes Academy™ · International Integrated Science 9</span>
+  <span>Unit 00 · Local-first student records</span>
+</div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
