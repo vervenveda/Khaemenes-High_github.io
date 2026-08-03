@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "course": "KH-SCI-IIS9",
+  "exam_id": "comprehensive-final-exam",
+  "coverage": "Units 00\u201312",
+  "objective_questions": 104,
+  "questions_per_unit": 8,
+  "constructed_responses": 6,
+  "objective_points": 104,
+  "constructed_points": 96,
+  "total_points": 200,
+  "objective_mastery": "84/104",
+  "recommended_unit_diagnostic": "6/8",
+  "recommended_overall_mastery": "160/200",
+  "answer_distribution": {
+    "A": 26,
+    "B": 26,
+    "C": 26,
+    "D": 26
+  }
+}
