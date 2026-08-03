@@ -38,6 +38,35 @@
       "constructed_responses": 4,
       "objective_passing_score": "48/60",
       "recommended_overall_mastery": "80/100"
+    },
+    {
+      "id": "comprehensive-final-exam",
+      "title": "Comprehensive Final Examination — Units 00–12",
+      "path": "final-exam/",
+      "status": "open",
+      "after_unit": "u12",
+      "coverage_units": [
+        "u00",
+        "u01",
+        "u02",
+        "u03",
+        "u04",
+        "u05",
+        "u06",
+        "u07",
+        "u08",
+        "u09",
+        "u10",
+        "u11",
+        "u12"
+      ],
+      "objective_questions": 104,
+      "questions_per_unit": 8,
+      "constructed_responses": 6,
+      "objective_passing_score": "84/104",
+      "recommended_unit_diagnostic": "6/8",
+      "recommended_overall_mastery": "160/200",
+      "total_points": 200
     }
   ]
 }
