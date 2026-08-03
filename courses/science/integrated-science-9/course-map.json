@@ -32,8 +32,8 @@
     ],
     "mapping_status": "International benchmark synthesis. Jurisdiction-specific review is required before formal standards or credit reporting.",
     "assessment_principle": "Every scored item must have one definitive, defensible answer or an explicit evidence-based rubric.",
-    "release_status": "unit-11-open",
-    "current_release": "Unit 11 — Space Systems, Astronomy & Cosmic Evidence"
+    "release_status": "unit-12-open",
+    "current_release": "Unit 12 — Sustainable Engineering Capstone"
   },
   "mastery_scale": [
     {
@@ -392,10 +392,28 @@
       "weeks": 3,
       "title": "Sustainable Engineering Capstone",
       "path": "units/unit-12/",
-      "status": "planned",
-      "big_idea": "Engineering uses scientific evidence, criteria, constraints, testing, and revision to improve solutions while accounting for human and environmental consequences.",
-      "objectives": [],
-      "framework_tags": []
+      "status": "open",
+      "big_idea": "Engineering uses scientific evidence, criteria, constraints, models, testing, life-cycle thinking, risk analysis, iteration, and stakeholder accountability to improve solutions while protecting people and the environment.",
+      "objectives": [
+        "Define complex engineering problems through stakeholders, need statements, system boundaries, baselines, criteria, constraints and verification methods",
+        "Research scientific principles, authoritative evidence, community knowledge, uncertainty and conflicts of interest",
+        "Generate, decompose, combine and compare multiple concepts using transparent weighted criteria and hard constraints",
+        "Select appropriate mathematical models, simulations, prototypes and safe testing methods",
+        "Analyze repeated trials using mean, range, percent improvement, success rate, measurement limits and systematic bias",
+        "Estimate material, manufacturing, transport, use, maintenance, lifetime, end-of-life and circularity impacts within a functional unit",
+        "Identify hazards and failure modes and analyze screening risk, controls, residual risk, reliability, redundancy and resilience",
+        "Use sensitivity analysis and evidence-based iteration to optimize within explored design space and constraints",
+        "Evaluate accessibility, equity, privacy, consent, labor, cultural, environmental-justice, governance and dual-use impacts",
+        "Communicate a reproducible technical recommendation with evidence, uncertainty, alternatives, monitoring, maintenance and end-of-life plans",
+        "Integrate biology, chemistry, physics, Earth and space science, engineering, data literacy, safety and ethics in a final capstone"
+      ],
+      "framework_tags": [
+        "NGSS HS-ETS1-1–4: criteria, constraints, decomposition, tradeoffs, evaluation, modeling, simulation and optimization",
+        "Cambridge IGCSE Design & Technology 0445: creative problem solving, planning, technical knowledge, materials, making and communication",
+        "Australian Curriculum Design and Technologies Years 9–10: preferred futures, criteria, sustainability, ethics, life-cycle thinking and project management",
+        "UNESCO Engineering for Sustainable Development and ESD for 2030: inclusive action for human needs, environmental integrity, economic viability and just societies",
+        "IB MYP Sciences and PISA scientific literacy: inquiry, systems, evidence, evaluation, impacts and communication"
+      ]
     }
   ]
 }
