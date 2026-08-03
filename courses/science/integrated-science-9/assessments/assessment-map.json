@@ -4,11 +4,24 @@
   "assessments": [
     {
       "id": "units-01-04-cumulative",
-      "title": "Units 01\u201304 Cumulative Chapter Test",
+      "title": "Units 01–04 Cumulative Chapter Test",
       "path": "units-01-04/",
       "status": "open",
       "after_unit": "u04",
       "objective_questions": 60,
+      "constructed_responses": 4,
+      "objective_passing_score": "48/60",
+      "recommended_overall_mastery": "80/100"
+    },
+    {
+      "id": "units-05-07-cumulative",
+      "title": "Units 05–07 Cumulative Chapter Test",
+      "path": "units-05-07/",
+      "status": "open",
+      "after_unit": "u07",
+      "bridge_to_unit": "u08",
+      "objective_questions": 60,
+      "questions_per_unit": 20,
       "constructed_responses": 4,
       "objective_passing_score": "48/60",
       "recommended_overall_mastery": "80/100"
