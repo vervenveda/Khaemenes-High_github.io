@@ -1,10 +1,590 @@
-<!doctype html><html lang="en" dir="ltr" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#07131d"><meta name="color-scheme" content="dark light"><title>Units 01–04 Cumulative Benchmark · Khaemenes Science 9</title><link rel="stylesheet" href="../../course-ui.css"><style>
-:root{--bench:#9fd5c5;--bench2:#b7b0ed;--bench3:#e8bd87;--bench4:#d99aae}
-.bench-hero{text-align:center;padding:clamp(4rem,9vw,7rem) 0 3rem}.bench-hero h1{font-size:clamp(2.4rem,7vw,5rem)}.bench-lead{max-width:900px;margin:auto;color:var(--muted);font-size:clamp(1rem,2vw,1.18rem)}.bench-shell{width:min(var(--max),calc(100% - 2rem));margin:auto}.bench-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.65rem;margin-top:1.4rem}.summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem}.summary-card{padding:1rem}.summary-card strong{display:block;font:444 1.7rem/1.1 var(--serif);color:var(--bench)}.summary-card span{font-size:.76rem;color:var(--muted)}
-.app-layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:1rem;align-items:start}.question-panel,.app-side,.result-panel,.record-panel{padding:1.35rem}.app-side{position:sticky;top:90px}.question-top{display:flex;justify-content:space-between;gap:1rem;align-items:center}.question-unit{color:var(--bench);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}.question-panel h2{font-size:clamp(1.35rem,4vw,2.15rem);margin:1rem 0}.options{display:grid;gap:.65rem}.option{display:flex;align-items:flex-start;gap:.7rem;padding:.9rem;border:1px solid var(--line);border-radius:var(--radius-small);background:var(--bg-soft);cursor:pointer}.option:hover,.option:has(input:checked){border-color:var(--bench)}.option input{margin-top:.3rem;accent-color:var(--bench)}.app-nav{display:flex;justify-content:space-between;gap:.65rem;margin-top:1rem}.question-dots{display:grid;grid-template-columns:repeat(6,1fr);gap:.35rem;margin:1rem 0}.dot{aspect-ratio:1;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;background:var(--bg-soft);color:var(--muted);font-size:.66rem}.dot.current{border-color:var(--bench);color:var(--bench)}.dot.answered{color:#07131d;background:var(--success);border-color:var(--success)}
-.score{font:444 clamp(3.2rem,9vw,6.4rem)/1 var(--serif);color:var(--bench)}.unit-results{display:grid;grid-template-columns:repeat(4,1fr);gap:.75rem;margin:1rem 0}.unit-result,.record-card{padding:1rem;border:1px solid var(--line);border-radius:var(--radius-small);background:var(--bg-soft)}.unit-result strong,.record-card strong{display:block;color:var(--bench);font-size:1.25rem}.review-list{display:grid;gap:.7rem}.review-item{padding:1rem;border:1px solid var(--line);border-radius:var(--radius-small);background:var(--bg-soft)}.review-item.correct{border-inline-start:5px solid var(--success)}.review-item.incorrect{border-inline-start:5px solid var(--danger)}
-.notice-strong{padding:1rem;border:1px solid color-mix(in srgb,var(--bench) 55%,var(--line));border-radius:var(--radius-small);background:var(--bg-soft)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.form-grid label{display:grid;gap:.35rem;color:var(--muted);font-size:.78rem}.form-grid input,.form-grid select,.form-grid textarea{width:100%;min-height:46px;padding:.7rem;border:1px solid var(--line);border-radius:var(--radius-small);color:var(--text);background:var(--bg-soft)}.full{grid-column:1/-1}.record-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem}.constructed-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.constructed-card{padding:1.2rem}.constructed-card h3{color:var(--bench)}.response-lines{min-height:290px;margin-top:.8rem;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to bottom,transparent 0 29px,var(--line) 30px)}.print-question{break-inside:avoid;margin:0 0 1rem;padding:1rem;border:1px solid var(--line);border-radius:var(--radius-small)}.print-question ol{margin:.55rem 0 0;padding-left:1.6rem}.answer-sheet{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem}.answer-row{padding:.55rem;border-bottom:1px solid var(--line)}.signature-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:3rem}.signature-line{padding-top:.45rem;border-top:1px solid var(--text);text-align:center;font-size:.78rem}
-@media(max-width:980px){.app-layout{grid-template-columns:1fr}.app-side{position:static}.summary-grid,.unit-results,.record-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:720px){.constructed-grid,.form-grid,.summary-grid,.unit-results,.record-grid,.answer-sheet,.signature-grid{grid-template-columns:1fr}.full{grid-column:auto}}@media print{.site-header,.course-breadcrumb,.bench-actions,.app-side,.app-nav,.no-print,.footer,.toast{display:none!important}body{background:white;color:black}.card,.print-question{box-shadow:none;background:white;color:black;border-color:#777}.bench-hero{padding:0 0 1rem}.bench-shell{width:100%}.response-lines{min-height:350px}}
-</style><script>document.addEventListener("DOMContentLoaded",()=>{const k="khaemenes_theme",b=document.querySelector("#themeToggle");function set(t){t=["dark","light"].includes(t)?t:"dark";document.documentElement.dataset.theme=t;localStorage.setItem(k,t);if(b)b.textContent=t==="dark"?"☼":"◐"}set(localStorage.getItem(k)||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"));if(b)b.onclick=()=>set(document.documentElement.dataset.theme==="dark"?"light":"dark")});
+<!doctype html>
+<html data-theme="light" dir="ltr" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+  <meta content="#07131d" name="theme-color"/>
+  <meta content="dark light" name="color-scheme"/>
+  <title>
+   Units 01&ndash;04 Cumulative Benchmark &middot; Khaemenes Science 9
+  </title>
+  <script>
+   document.addEventListener("DOMContentLoaded",()=>{const k="khaemenes_theme",b=document.querySelector("#themeToggle");function set(t){t=["dark","light"].includes(t)?t:"dark";document.documentElement.dataset.theme=t;localStorage.setItem(k,t);if(b)b.textContent=t==="dark"?"☼":"◐"}set(localStorage.getItem(k)||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"));if(b)b.onclick=()=>set(document.documentElement.dataset.theme==="dark"?"light":"dark")});
 const Q=[{"id": "q01", "unit": "Unit 01", "domain": "Inquiry and variables", "prompt": "Which question is directly testable with measurements?", "options": ["Why is nature beautiful?", "How does paper-helicopter rotor length affect mean fall time when paper type and drop height are controlled?", "Which scientific subject is most important?", "Should everyone enjoy laboratory work?"], "answer": 1, "explanation": "Rotor length can be changed and mean fall time measured while conditions are controlled."}, {"id": "q02", "unit": "Unit 01", "domain": "Inquiry and variables", "prompt": "A student changes water temperature and measures how far dye spreads in 60 seconds. What is the independent variable?", "options": ["Distance spread", "Elapsed time", "Water temperature", "Amount of dye spread"], "answer": 2, "explanation": "The independent variable is the deliberately changed water temperature."}, {"id": "q03", "unit": "Unit 01", "domain": "Inquiry and variables", "prompt": "In an investigation of ramp height and toy-car travel distance, which factor should be controlled?", "options": ["The toy car used in every trial", "The measured travel distance", "The selected ramp height", "The calculated mean distance"], "answer": 0, "explanation": "Using the same car helps isolate the effect of ramp height."}, {"id": "q04", "unit": "Unit 01", "domain": "Reliability", "prompt": "Why are repeated trials useful?", "options": ["They guarantee the hypothesis is correct.", "They remove the need to report individual values.", "They make every measurement accurate.", "They reveal variation and improve confidence in an estimate such as the mean."], "answer": 3, "explanation": "Repeated trials show variation and strengthen estimates of typical results."}, {"id": "q05", "unit": "Unit 01", "domain": "Measurement", "prompt": "Measurements of 9.8 cm, 9.8 cm, 9.9 cm, and 9.8 cm are best described as:", "options": ["Known to be accurate", "Highly precise", "Both inaccurate and imprecise", "Impossible to evaluate in any way"], "answer": 1, "explanation": "The values are close to one another, showing precision; accuracy needs a trusted value."}, {"id": "q06", "unit": "Unit 01", "domain": "Measurement", "prompt": "Which statement is an operational definition of seedling growth?", "options": ["Growth means becoming healthier.", "Growth is whatever the observer notices.", "Growth is the change in stem height, in centimeters, from Day 1 to Day 14.", "Growth is an increase that occurs naturally."], "answer": 2, "explanation": "An operational definition states exactly how a variable is measured."}, {"id": "q07", "unit": "Unit 01", "domain": "Data processing", "prompt": "What is the mean of 1.4 s, 1.5 s, 1.5 s, 1.6 s, and 1.5 s?", "options": ["1.5 s", "1.4 s", "1.6 s", "7.5 s"], "answer": 0, "explanation": "The sum is 7.5 s; 7.5 divided by 5 is 1.5 s."}, {"id": "q08", "unit": "Unit 01", "domain": "Data processing", "prompt": "What is the range of 2.1 cm, 2.3 cm, 2.2 cm, 2.5 cm, and 2.4 cm?", "options": ["0.2 cm", "0.3 cm", "2.3 cm", "0.4 cm"], "answer": 3, "explanation": "Range equals 2.5 minus 2.1, or 0.4 cm."}, {"id": "q09", "unit": "Unit 01", "domain": "Graphs", "prompt": "Which graph is generally most suitable for showing the relationship between two continuous numerical variables?", "options": ["Pie chart", "Scatter plot", "Pictogram", "Single-category bar"], "answer": 1, "explanation": "A scatter plot displays paired values for two continuous numerical variables."}, {"id": "q10", "unit": "Unit 01", "domain": "Data integrity", "prompt": "One result is far from all repeated measurements. What is the best first response?", "options": ["Delete it without mentioning it.", "Change it to equal the mean.", "Check the method and equipment, repeat if possible, and document the result.", "Assume the entire investigation failed."], "answer": 2, "explanation": "Anomalies should be investigated, repeated when appropriate, and reported transparently."}, {"id": "q11", "unit": "Unit 01", "domain": "Evidence and causation", "prompt": "An observational study finds that longer sleep is associated with higher test scores. Which conclusion is justified?", "options": ["Sleep duration and test score were associated in the observed sample.", "Longer sleep caused every score difference.", "Test scores caused students to sleep longer.", "No other variable could be involved."], "answer": 0, "explanation": "An observational association does not by itself establish causation."}, {"id": "q12", "unit": "Unit 01", "domain": "Scientific explanation", "prompt": "Which statement is reasoning in a claim-evidence-reasoning explanation?", "options": ["The mean fall time was 1.8 seconds.", "Longer rotors had a greater mean fall time.", "Five trials were completed at each rotor length.", "Longer rotors can increase air resistance, so the longer measured fall times support the claim."], "answer": 3, "explanation": "Reasoning connects evidence to a claim using a scientific principle."}, {"id": "q13", "unit": "Unit 01", "domain": "Graph evaluation", "prompt": "A graph axis begins at 95 and displays values from 96 to 100. What should a reader do?", "options": ["Assume the graph is fraudulent.", "Read the scale carefully because visual differences may appear exaggerated.", "Replace every value with zero.", "Ignore the labels and compare bar heights only."], "answer": 1, "explanation": "A truncated axis can visually exaggerate small numerical differences."}, {"id": "q14", "unit": "Unit 01", "domain": "Experimental design", "prompt": "Which feature most strengthens a causal experiment?", "options": ["Using the most colorful graph", "Collecting opinions instead of measurements", "Deliberately changing one factor while controlling alternative explanations", "Removing all unexpected data"], "answer": 2, "explanation": "Controlled manipulation helps isolate the effect of the independent variable."}, {"id": "q15", "unit": "Unit 01", "domain": "Safety and ethics", "prompt": "A planned method creates a risk that cannot be reasonably controlled with available equipment. What should the investigator do?", "options": ["Revise or replace the method before beginning.", "Proceed if the investigation is interesting.", "Hide the risk from participants.", "Complete only one trial."], "answer": 0, "explanation": "An unsafe method must be revised or replaced before work begins."}, {"id": "q16", "unit": "Unit 02", "domain": "Cell theory", "prompt": "Which statement is part of modern cell theory?", "options": ["Every cell contains a membrane-bound nucleus.", "Viruses are complete cells.", "All living organisms are made of one or more cells.", "Cells arise only from nonliving matter."], "answer": 2, "explanation": "All living organisms are composed of one or more cells."}, {"id": "q17", "unit": "Unit 02", "domain": "Cell structures", "prompt": "Which pair is present in all known cells?", "options": ["Nucleus and chloroplasts", "Plasma membrane and ribosomes", "Cell wall and mitochondria", "Vacuole and Golgi apparatus"], "answer": 1, "explanation": "All cells have a plasma membrane and ribosomes."}, {"id": "q18", "unit": "Unit 02", "domain": "Cell classification", "prompt": "Which feature distinguishes a typical eukaryotic cell from a typical prokaryotic cell?", "options": ["A plasma membrane", "Ribosomes", "DNA", "DNA enclosed within a membrane-bound nucleus"], "answer": 3, "explanation": "Typical eukaryotic cells enclose most DNA in a membrane-bound nucleus."}, {"id": "q19", "unit": "Unit 02", "domain": "Organelles", "prompt": "Which organelle modifies, sorts, and packages many proteins in a eukaryotic cell?", "options": ["Golgi apparatus", "Ribosome", "Cell wall", "Nucleoid"], "answer": 0, "explanation": "The Golgi apparatus modifies, sorts, and packages many proteins and lipids."}, {"id": "q20", "unit": "Unit 02", "domain": "Plant cells", "prompt": "Which statement about photosynthetic plant cells is correct?", "options": ["They contain chloroplasts but never mitochondria.", "They respire only in darkness.", "They commonly contain both chloroplasts and mitochondria.", "Every plant cell contains chloroplasts."], "answer": 2, "explanation": "Photosynthetic plant cells commonly contain chloroplasts and mitochondria."}, {"id": "q21", "unit": "Unit 02", "domain": "Microscopy", "prompt": "An image is 25 mm long and the specimen is 0.05 mm long. What is the magnification?", "options": ["x50", "x500", "x1,250", "x5,000"], "answer": 1, "explanation": "Magnification equals image size divided by actual size: 25 divided by 0.05 equals 500."}, {"id": "q22", "unit": "Unit 02", "domain": "Scale conversion", "prompt": "What is 0.075 mm expressed in micrometers?", "options": ["75 micrometers", "7.5 micrometers", "750 micrometers", "0.075 micrometers"], "answer": 0, "explanation": "0.075 mm multiplied by 1000 equals 75 micrometers."}, {"id": "q23", "unit": "Unit 02", "domain": "Membranes", "prompt": "What does selectively permeable mean?", "options": ["The membrane blocks every substance.", "The membrane allows only water to cross.", "Every substance crosses at the same rate.", "Some substances cross more readily than others."], "answer": 3, "explanation": "Passage depends on properties such as size, charge, gradients, and transport proteins."}, {"id": "q24", "unit": "Unit 02", "domain": "Transport", "prompt": "Diffusion is best described as:", "options": ["Movement against a concentration gradient using cellular energy", "Net movement of water only through a membrane", "Net movement of particles from higher to lower concentration due to random motion", "Bulk movement caused only by gravity"], "answer": 2, "explanation": "Diffusion is net movement down a concentration gradient due to random motion."}, {"id": "q25", "unit": "Unit 02", "domain": "Transport", "prompt": "A plant cell is placed in a solution more dilute than its cell contents. What is the expected net water movement?", "options": ["Out of the cell", "Into the cell", "No molecular movement", "Only into the nucleus"], "answer": 1, "explanation": "Water tends to move into the more concentrated cell contents."}, {"id": "q26", "unit": "Unit 02", "domain": "Transport", "prompt": "Which process can move mineral ions into a root cell against their concentration gradient?", "options": ["Active transport", "Osmosis", "Simple diffusion only", "Cytokinesis"], "answer": 0, "explanation": "Active transport uses cellular energy and suitable membrane proteins."}, {"id": "q27", "unit": "Unit 02", "domain": "Surface area and volume", "prompt": "What is the surface-area-to-volume ratio of a cube with side length 3 cm?", "options": ["6:1", "3:1", "1:1", "2:1"], "answer": 3, "explanation": "Surface area is 54 and volume is 27, so the ratio is 2:1."}, {"id": "q28", "unit": "Unit 02", "domain": "Surface area and volume", "prompt": "Why is a high surface-area-to-volume ratio often advantageous for a cell?", "options": ["It prevents all water movement.", "It eliminates the need for energy.", "It provides more exchange surface relative to the material that must be supplied.", "It guarantees the cell can grow without limit."], "answer": 2, "explanation": "More membrane surface relative to volume supports exchange."}, {"id": "q29", "unit": "Unit 02", "domain": "Organization", "prompt": "Which sequence shows increasing biological organization?", "options": ["Organ to tissue to cell to organ system", "Cell to tissue to organ to organ system", "Tissue to cell to organ system to organ", "Cell to organ system to tissue to organ"], "answer": 1, "explanation": "Cells form tissues, tissues form organs, and organs cooperate in organ systems."}, {"id": "q30", "unit": "Unit 02", "domain": "Matter and energy", "prompt": "Which statement correctly compares photosynthesis and cellular respiration?", "options": ["Photosynthesis stores energy in organic molecules; respiration releases usable chemical energy from organic molecules.", "Only animals perform cellular respiration.", "Photosynthesis releases all energy as heat.", "The two processes use identical reactants and products in the same direction."], "answer": 0, "explanation": "Photosynthesis stores light energy; respiration transfers energy from organic molecules."}, {"id": "q31", "unit": "Unit 03", "domain": "Homeostasis", "prompt": "Homeostasis is best described as:", "options": ["Keeping every internal value perfectly constant", "Preventing all environmental change", "Controlling only body temperature", "Maintaining internal conditions within functional ranges despite change"], "answer": 3, "explanation": "Homeostasis is dynamic regulation within functional ranges."}, {"id": "q32", "unit": "Unit 03", "domain": "Feedback", "prompt": "Which sequence correctly represents a basic feedback pathway?", "options": ["Effector to stimulus to response to receptor to coordinator", "Stimulus to receptor to coordinator to effector to response", "Coordinator to response to stimulus to receptor to effector", "Response to effector to coordinator to receptor to stimulus"], "answer": 1, "explanation": "A change is detected, coordinated, and acted on by an effector."}, {"id": "q33", "unit": "Unit 03", "domain": "Feedback", "prompt": "In negative feedback, the response generally:", "options": ["Opposes the initial change", "Amplifies the change without an endpoint", "Stops all molecular motion", "Creates a new chromosome"], "answer": 0, "explanation": "Negative feedback counteracts deviation from a functional range."}, {"id": "q34", "unit": "Unit 03", "domain": "Feedback", "prompt": "Which process is commonly modeled as positive feedback?", "options": ["Blood-glucose regulation", "Thermoregulation", "Blood clotting at a damaged vessel", "Water balance through ADH"], "answer": 2, "explanation": "Clotting amplifies locally until the vessel break is sealed."}, {"id": "q35", "unit": "Unit 03", "domain": "Circulation", "prompt": "Which route carries blood from the right ventricle to the left atrium?", "options": ["Aorta to body capillaries to vena cava", "Pulmonary artery to lung capillaries to pulmonary veins", "Pulmonary vein to lung capillaries to pulmonary artery", "Vena cava to body capillaries to aorta"], "answer": 1, "explanation": "The pulmonary artery carries blood to lungs and pulmonary veins return it to the left atrium."}, {"id": "q36", "unit": "Unit 03", "domain": "Circulation", "prompt": "Which statement correctly defines arteries and veins?", "options": ["Arteries always carry oxygenated blood.", "Veins always carry deoxygenated blood.", "Arteries have no muscle and veins have thick muscle.", "Arteries carry blood away from the heart; veins carry blood toward the heart."], "answer": 3, "explanation": "Direction relative to the heart defines arteries and veins."}, {"id": "q37", "unit": "Unit 03", "domain": "Gas exchange", "prompt": "Which alveolar feature most directly supports rapid gas exchange?", "options": ["Large surface area and thin exchange surfaces", "A thick dry wall", "A small blood supply", "Long diffusion distance"], "answer": 0, "explanation": "Large area and short diffusion distance support rapid exchange."}, {"id": "q38", "unit": "Unit 03", "domain": "Respiration", "prompt": "How do breathing and cellular respiration differ?", "options": ["They are two names for the same process.", "Breathing releases energy from glucose inside mitochondria.", "Breathing moves air; cellular respiration transfers chemical energy in cells.", "Cellular respiration occurs only in lungs."], "answer": 2, "explanation": "Ventilation moves air; cellular respiration transfers energy in cells."}, {"id": "q39", "unit": "Unit 03", "domain": "Data processing", "prompt": "Heart rate rises from 64 beats per minute to 96 beats per minute. What is the percent increase?", "options": ["32%", "50%", "64%", "150%"], "answer": 1, "explanation": "The increase is 32; 32 divided by 64 times 100 equals 50%."}, {"id": "q40", "unit": "Unit 03", "domain": "Digestion", "prompt": "Chemical digestion mainly:", "options": ["Moves food through the esophagus", "Stores nutrients in the stomach", "Removes metabolic wastes through kidneys", "Breaks large insoluble molecules into smaller soluble molecules"], "answer": 3, "explanation": "Smaller soluble molecules can be absorbed."}, {"id": "q41", "unit": "Unit 03", "domain": "Digestion", "prompt": "Which organ produces bile?", "options": ["Liver", "Pancreas", "Small intestine", "Kidney"], "answer": 0, "explanation": "The liver produces bile."}, {"id": "q42", "unit": "Unit 03", "domain": "Water balance", "prompt": "During dehydration, increased ADH generally causes:", "options": ["Less water reabsorption and more urine", "No change in kidney function", "More water reabsorption and lower urine volume", "Glucose release from the liver"], "answer": 2, "explanation": "ADH helps conserve water by increasing reabsorption."}, {"id": "q43", "unit": "Unit 03", "domain": "Thermoregulation", "prompt": "Which response helps increase heat loss when body temperature rises?", "options": ["Shivering and reduced skin blood flow", "Sweating and increased skin blood flow", "Increased insulation and muscle contraction", "Reduced evaporation"], "answer": 1, "explanation": "Evaporation and skin blood flow help transfer heat away."}, {"id": "q44", "unit": "Unit 03", "domain": "Blood-glucose regulation", "prompt": "Which statement correctly compares insulin and glucagon?", "options": ["Both always raise blood glucose.", "Both are nervous impulses.", "Neither acts on target cells.", "They have opposing regulatory effects on blood glucose."], "answer": 3, "explanation": "Insulin generally lowers elevated glucose; glucagon helps raise low glucose."}, {"id": "q45", "unit": "Unit 03", "domain": "Coordination", "prompt": "Which comparison is accurate?", "options": ["Nervous signals are often rapid and targeted; endocrine signals often begin more slowly and last longer.", "Endocrine signals travel only through neurons.", "Nervous signals require hormones in the blood.", "Every cell responds to every hormone."], "answer": 0, "explanation": "The systems differ in route, speed, duration, and targets."}, {"id": "q46", "unit": "Unit 04", "domain": "Genetic information", "prompt": "Which statement correctly relates a gene to DNA?", "options": ["A gene is a complete cell.", "A gene is a whole chromosome set.", "A gene is a DNA region involved in a functional product or regulation.", "A gene is an environmental condition."], "answer": 2, "explanation": "Genes are DNA regions involved in functional products or regulation."}, {"id": "q47", "unit": "Unit 04", "domain": "Genetic information", "prompt": "An allele is:", "options": ["A variant form of a gene", "A stage of mitosis", "A whole genome", "A type of organelle"], "answer": 0, "explanation": "Alleles are variant forms of the same gene."}, {"id": "q48", "unit": "Unit 04", "domain": "Cell cycle", "prompt": "During which phase is DNA copied before mitosis?", "options": ["G1", "Cytokinesis", "Anaphase", "S phase"], "answer": 3, "explanation": "DNA replication occurs during S phase."}, {"id": "q49", "unit": "Unit 04", "domain": "Mitosis", "prompt": "Mitosis followed by cytokinesis in a typical diploid body cell usually produces:", "options": ["Four haploid cells", "Two daughter cells with the same chromosome number as the parent cell", "One cell with no chromosomes", "Two gametes with half the chromosome number"], "answer": 1, "explanation": "Mitosis maintains chromosome number in the two daughter cells."}, {"id": "q50", "unit": "Unit 04", "domain": "Differentiation", "prompt": "Cells with similar DNA can develop different functions mainly because:", "options": ["Each cell loses every unused chromosome.", "DNA changes into a different chemical in each tissue.", "Different sets of genes are expressed in different cells.", "Only nerve cells contain genes."], "answer": 2, "explanation": "Regulated gene expression supports cell specialization."}, {"id": "q51", "unit": "Unit 04", "domain": "Reproduction", "prompt": "Asexual offspring are generally:", "options": ["Genetically very similar to one parent except for mutation and other changes", "Produced only through meiosis and fertilization", "Guaranteed to be completely identical in every trait", "Always less successful than sexually produced offspring"], "answer": 0, "explanation": "Asexual reproduction usually copies one parent but variation can still arise."}, {"id": "q52", "unit": "Unit 04", "domain": "Meiosis", "prompt": "Why is meiosis called a reduction division?", "options": ["It reduces cell size only.", "It shortens every chromosome.", "It removes every mutation.", "It halves the chromosome number in the resulting cells."], "answer": 3, "explanation": "Meiosis produces haploid cells from a diploid starting cell."}, {"id": "q53", "unit": "Unit 04", "domain": "Chromosome behavior", "prompt": "Homologous chromosomes are:", "options": ["Identical sister chromatids joined at one centromere", "A pair carrying corresponding genes, one inherited through each parent", "Two unrelated chromosomes with different gene categories", "Structures found only in bacteria"], "answer": 1, "explanation": "Homologues carry corresponding loci but may carry different alleles."}, {"id": "q54", "unit": "Unit 04", "domain": "Variation", "prompt": "Which process creates new combinations of existing alleles during meiosis?", "options": ["Cytokinesis", "DNA translation", "Crossing over", "Binary fission"], "answer": 2, "explanation": "Crossing over creates recombinant chromatids."}, {"id": "q55", "unit": "Unit 04", "domain": "Variation", "prompt": "Independent assortment refers to:", "options": ["Random orientation and separation of homologous chromosome pairs", "Every gene moving independently even when genes are linked", "DNA replication producing sister chromatids", "Asexual reproduction"], "answer": 0, "explanation": "Homologous pairs can orient independently, generating chromosome combinations."}, {"id": "q56", "unit": "Unit 04", "domain": "Fertilization", "prompt": "What does fertilization restore in a typical diploid life cycle?", "options": ["A cell without DNA", "Four nuclei", "The haploid number", "The diploid chromosome number"], "answer": 3, "explanation": "Fusion of two haploid gametes restores diploidy."}, {"id": "q57", "unit": "Unit 04", "domain": "Inheritance language", "prompt": "A dominant allele is one that:", "options": ["Is always the most common allele", "Is expressed in the heterozygous phenotype under the stated model", "Is biologically stronger or more valuable", "Cannot mutate"], "answer": 1, "explanation": "Dominance describes heterozygous expression, not value or frequency."}, {"id": "q58", "unit": "Unit 04", "domain": "Probability", "prompt": "For the cross Aa x Aa, what is the expected probability of genotype aa?", "options": ["0%", "50%", "25%", "75%"], "answer": 2, "explanation": "The four combinations are AA, Aa, Aa, and aa."}, {"id": "q59", "unit": "Unit 04", "domain": "Inheritance patterns", "prompt": "Red RR flowers crossed with white WW flowers produce pink RW offspring. This pattern is:", "options": ["Incomplete dominance", "Codominance", "Complete dominance", "Independent assortment"], "answer": 0, "explanation": "The heterozygote has an intermediate phenotype."}, {"id": "q60", "unit": "Unit 04", "domain": "Mutation and phenotype", "prompt": "Which statement is scientifically accurate?", "options": ["Every mutation is harmful.", "Phenotype is determined by genes alone.", "Somatic mutations are always inherited.", "Mutation effects and phenotype depend on biological and environmental context."], "answer": 3, "explanation": "Mutation effects vary and phenotypes often reflect genetic and environmental interactions."}],KEY="khaemenes_science_units01_04_benchmark_v1",PASS=48;let S;try{S=JSON.parse(localStorage.getItem(KEY))||{}}catch{S={}}S.answers=Array.isArray(S.answers)&&S.answers.length===60?S.answers:Array(60).fill(null);S.current=Number.isInteger(S.current)?Math.max(0,Math.min(59,S.current)):0;S.objective={score:0,total:60,passed:false,attempts:0,unitScores:{},...(S.objective||{})};const $=(x,p=document)=>p.querySelector(x),esc=v=>String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));function save(){S.updatedAt=new Date().toISOString();localStorage.setItem(KEY,JSON.stringify(S))}function dots(){$("#questionDots").innerHTML=Q.map((_,i)=>`<button class="dot ${i===S.current?"current":""} ${S.answers[i]!==null?"answered":""}" data-i="${i}">${i+1}</button>`).join("");$("#questionDots").querySelectorAll("button").forEach(b=>b.onclick=()=>{S.current=+b.dataset.i;save();render()});$("#answeredCount").textContent=`${S.answers.filter(v=>v!==null).length} of 60 answered`}function render(){const q=Q[S.current];$("#questionUnit").textContent=q.unit+" · "+q.domain;$("#questionNumber").textContent=`Question ${S.current+1} of 60`;$("#questionPrompt").textContent=q.prompt;$("#options").innerHTML=q.options.map((o,i)=>`<label class="option"><input type="radio" name="answer" value="${i}" ${S.answers[S.current]===i?"checked":""}><span>${esc(o)}</span></label>`).join("");$("#options").querySelectorAll("input").forEach(x=>x.onchange=e=>{S.answers[S.current]=+e.target.value;save();dots();$("#submitButton").disabled=S.answers.some(v=>v===null)});$("#previousButton").disabled=S.current===0;$("#nextButton").disabled=S.current===59;dots();$("#submitButton").disabled=S.answers.some(v=>v===null)}function start(){$("#intro").hidden=true;$("#results").hidden=true;$("#assessment").hidden=false;render()}function submit(){let score=0,u={};Q.forEach((q,i)=>{u[q.unit]||={correct:0,total:0};u[q.unit].total++;if(S.answers[i]===q.answer){score++;u[q.unit].correct++}});S.objective={score,total:60,passed:score>=PASS,attempts:(S.objective.attempts||0)+1,submittedAt:new Date().toISOString(),unitScores:u};save();$("#intro").hidden=true;$("#assessment").hidden=true;$("#results").hidden=false;$("#score").textContent=score+" / 60";$("#resultTitle").textContent=score>=PASS?"Objective mastery threshold reached":"Objective mastery threshold not yet reached";$("#resultMessage").textContent=score>=PASS?"Complete the four educator-scored responses for the final 100-point benchmark score.":"Review explanations and retake. At least 48 of 60 is required.";$("#unitResults").innerHTML=Object.entries(u).map(([n,d])=>`<div class="unit-result"><strong>${d.correct} / ${d.total}</strong><span>${n}</span></div>`).join("");$("#reviewList").innerHTML=Q.map((q,i)=>`<article class="review-item ${S.answers[i]===q.answer?"correct":"incorrect"}"><strong>${i+1}. ${esc(q.prompt)}</strong><p>Your answer: ${esc(q.options[S.answers[i]])}</p><p>Correct answer: ${esc(q.options[q.answer])}</p><p>${esc(q.explanation)}</p></article>`).join("");scrollTo(0,0)}function exportRecord(){const blob=new Blob([JSON.stringify({schema:"khaemenes-science-units01-04-benchmark-v1",course:"KH-SCI-IIS9",exportedAt:new Date().toISOString(),state:S},null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="KH-SCI-IIS9-units01-04-benchmark.json";document.body.append(a);a.click();a.remove();URL.revokeObjectURL(url)}document.addEventListener("DOMContentLoaded",()=>{$("#startButton").onclick=start;$("#resumeButton").hidden=!S.answers.some(v=>v!==null);$("#resumeButton").onclick=start;$("#previousButton").onclick=()=>{if(S.current>0){S.current--;save();render()}};$("#nextButton").onclick=()=>{if(S.current<59){S.current++;save();render()}};$("#submitButton").onclick=submit;$("#retakeButton").onclick=()=>{S.answers=Array(60).fill(null);S.current=0;save();start()};$("#printResults").onclick=()=>print();$("#exportRecord").onclick=exportRecord;if(S.objective.submittedAt){$("#priorResult").hidden=false;$("#priorResult").textContent=`Previous objective result: ${S.objective.score} / 60 · ${S.objective.passed?"Passed":"Not yet passed"}`}});
-</script></head><body><a class="skip-link" href="#main">Skip to main content</a><header class="site-header"><div class="wrap header-inner"><a class="brand" href="../../"><span class="brand-mark">S9</span><span class="brand-copy"><strong>INTEGRATED SCIENCE 9</strong><small>Units 01–04 Cumulative Benchmark</small></span></a><div class="header-actions"><a class="nav-button secondary" href="../../../../../grades/grade-09/">Grade 9</a><a class="nav-button" href="../">Assessments</a><button class="icon-button" id="themeToggle" type="button" aria-label="Switch theme">☼</button></div></div></header><nav class="course-breadcrumb"><div class="wrap"><a href="../../../../../index.html">High School</a><span>›</span><a href="../../../../../grades/grade-09/">Grade 9</a><span>›</span><a href="../../">Science 9</a><span>›</span><a href="../">Assessments</a><span>›</span><span>Units 01–04 Benchmark</span></div></nav><main id="main"><section class="bench-hero" id="intro"><div class="bench-shell"><p class="eyebrow">KH-SCI-IIS9 · First Benchmark · Weeks 1–12</p><h1>Units 01–04 Cumulative Chapter Test</h1><p class="bench-lead">Scientific inquiry, cells and transport, body systems and homeostasis, and cell division and inheritance.</p><div class="summary-grid"><div class="card summary-card"><strong>60</strong><span>Definitive objective questions</span></div><div class="card summary-card"><strong>15 × 4</strong><span>Equal questions per unit</span></div><div class="card summary-card"><strong>48/60</strong><span>Objective mastery</span></div><div class="card summary-card"><strong>100</strong><span>Total with written responses</span></div></div><div class="notice-strong"><strong>Assessment design</strong><p>The objective section is automatically scored. Four educator-scored responses are worth 10 points each. Recommended final mastery is 80/100 with at least 48/60 objective points.</p></div><div class="bench-actions"><button class="btn primary" id="startButton">Begin Objective Test</button><button class="btn" id="resumeButton" hidden>Resume Saved Test</button><a class="btn" href="printable-test.html">Printable Test</a><a class="btn" href="student-record.html">Student Record</a><a class="btn" href="../../">Course Home</a></div><p class="notice" id="priorResult" hidden></p></div></section><section id="assessment" hidden><div class="bench-shell app-layout"><article class="card question-panel"><div class="question-top"><span class="question-unit" id="questionUnit"></span><span class="pill" id="questionNumber"></span></div><h2 id="questionPrompt"></h2><div class="options" id="options"></div><div class="app-nav"><button class="btn" id="previousButton">Previous</button><button class="btn primary" id="nextButton">Next</button></div></article><aside class="card app-side"><p class="eyebrow">Objective progress</p><div class="question-dots" id="questionDots"></div><p class="notice" id="answeredCount">0 of 60 answered</p><button class="btn primary" id="submitButton" disabled>Submit Objective Test</button></aside></div></section><section id="results" hidden><div class="bench-shell"><article class="card result-panel"><p class="eyebrow">Objective result</p><div class="score" id="score"></div><h2 id="resultTitle"></h2><p class="notice" id="resultMessage"></p><div class="unit-results" id="unitResults"></div><div class="bench-actions no-print"><a class="btn primary" href="student-record.html">Complete Final Record</a><button class="btn" id="retakeButton">Retake</button><button class="btn" id="printResults">Print Results</button><button class="btn" id="exportRecord">Export Record</button></div></article><div class="review-list" id="reviewList"></div></div></section></main><footer class="footer"><div class="wrap footer-inner"><span>Khaemenes Academy™ · International Integrated Science 9</span><span>Units 01–04 Cumulative Benchmark</span></div></footer><div class="toast" id="toast" role="status" hidden></div></body></html>
+  </script>
+  <style>
+   :root{
+  --page:#f3f1eb;
+  --paper:#ffffff;
+  --paper-soft:#faf8f3;
+  --ink:#111315;
+  --muted:#50585d;
+  --navy:#17344a;
+  --navy-deep:#0e2536;
+  --teal:#3f746d;
+  --blue:#426f91;
+  --violet:#6e6387;
+  --gold:#a67b35;
+  --rose:#9a5b65;
+  --success:#4f7c62;
+  --danger:#a24f4f;
+  --line:#cfd5d7;
+  --line-dark:#aeb8bc;
+  --shadow:0 14px 34px rgba(22,42,54,.10);
+  --soft:0 8px 22px rgba(22,42,54,.07);
+  --radius:11px;
+  --radius-small:7px;
+  --max:1160px;
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:"Avenir Next","Segoe UI",Arial,sans-serif;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:100px;color-scheme:light}
+body{
+  margin:0;min-width:300px;color:var(--ink);background:var(--page);
+  font:400 18px/1.72 var(--sans);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+body,button,input,select,textarea{font-family:var(--sans)}
+a{color:var(--navy)}
+button{font:inherit;cursor:pointer}
+[hidden]{display:none!important}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap,.bench-shell{width:min(calc(100% - 36px),var(--max));margin-inline:auto}
+.skip-link{
+  position:fixed;left:14px;top:14px;z-index:3000;transform:translateY(-180%);
+  padding:10px 14px;border-radius:7px;color:#fff;background:var(--navy-deep);text-decoration:none;
+}
+.skip-link:focus{transform:none}
+
+.site-header{
+  position:sticky;top:0;z-index:1000;border-top:4px solid var(--gold);
+  border-bottom:1px solid var(--line);background:rgba(255,255,255,.97);
+  box-shadow:0 6px 18px rgba(22,42,54,.08);backdrop-filter:blur(12px);
+}
+.header-inner{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{min-width:0;display:flex;align-items:center;gap:12px;color:var(--ink);text-decoration:none}
+.brand-mark{
+  width:48px;height:48px;flex:0 0 48px;display:grid;place-items:center;
+  border:1px solid var(--navy);border-radius:7px;color:#fff;background:var(--navy);
+  font:400 16px/1 var(--serif);
+}
+.brand-copy{display:grid;line-height:1.1}
+.brand-copy strong{
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink);
+  font:400 16px/1.2 var(--serif);letter-spacing:.08em;
+}
+.brand-copy small{margin-top:5px;color:var(--muted);font-size:12px;letter-spacing:.05em}
+.header-actions{display:flex;align-items:center;gap:8px}
+.nav-button,.icon-button{
+  min-height:42px;display:inline-flex;align-items:center;justify-content:center;
+  padding:9px 13px;border:1px solid var(--line-dark);border-radius:7px;
+  color:var(--ink);background:#fff;text-decoration:none;font-size:13px;font-weight:400;
+}
+.icon-button{min-width:42px}
+.nav-button:hover,.icon-button:hover{border-color:var(--navy);background:#f4f7f8}
+
+.course-breadcrumb{border-bottom:1px solid var(--line);background:#f7f7f5}
+.course-breadcrumb .wrap{
+  min-height:48px;display:flex;justify-content:center;align-items:center;
+  flex-wrap:wrap;gap:8px;color:var(--muted);font-size:13px;
+}
+.course-breadcrumb a{color:var(--navy);text-decoration:none}
+.course-breadcrumb a:hover{text-decoration:underline;text-underline-offset:3px}
+
+.bench-hero{
+  padding:86px 0 72px;border-bottom:1px solid var(--line);
+  background:
+    radial-gradient(circle at 16% 8%,rgba(63,116,109,.12),transparent 28rem),
+    radial-gradient(circle at 84% 8%,rgba(110,99,135,.10),transparent 28rem),
+    linear-gradient(180deg,#fff,#f7f6f2);
+  text-align:center;
+}
+.eyebrow{
+  margin:0 0 16px;color:var(--teal);font-size:13px;font-weight:400;
+  letter-spacing:.15em;text-transform:uppercase;
+}
+h1,h2,h3{margin-top:0;color:var(--ink);font-family:var(--serif);font-weight:400}
+.bench-hero h1{
+  max-width:980px;margin:0 auto 22px;font-size:clamp(54px,7vw,84px);
+  line-height:.98;letter-spacing:-.025em;
+}
+.bench-lead{
+  max-width:880px;margin:0 auto;color:#252b2f;font-size:20px;line-height:1.82;
+}
+.bench-actions{
+  width:min(980px,100%);display:flex;flex-wrap:wrap;justify-content:center;
+  gap:9px;margin:28px auto 0;
+}
+.btn{
+  min-height:46px;display:inline-flex;align-items:center;justify-content:center;
+  padding:10px 14px;border:1px solid var(--line-dark);border-radius:7px;
+  color:var(--ink);background:#fff;text-decoration:none;text-align:center;
+  font-size:14px;font-weight:400;line-height:1.3;
+}
+.btn:hover{border-color:var(--navy);background:#f2f6f8}
+.btn.primary{color:#fff;border-color:var(--navy);background:var(--navy)}
+.summary-grid{
+  width:min(960px,100%);display:grid;grid-template-columns:repeat(4,1fr);
+  gap:12px;margin:34px auto 0;
+}
+.summary-card{
+  min-height:114px;display:flex;flex-direction:column;justify-content:center;
+  padding:18px;border:1px solid var(--line);border-radius:11px;background:#fff;
+  box-shadow:0 7px 18px rgba(22,42,54,.05);
+}
+.summary-card strong{display:block;color:var(--navy);font:400 30px/1 var(--serif)}
+.summary-card span{
+  display:block;margin-top:8px;color:var(--muted);
+  font-size:12px;letter-spacing:.07em;text-transform:uppercase;
+}
+.card{
+  border:1px solid var(--line);border-radius:11px;background:var(--paper);box-shadow:var(--shadow);
+}
+.assessment-brief{
+  max-width:1040px;margin:26px auto 0;padding:28px;text-align:left;
+}
+.assessment-brief h2{text-align:center;font-size:34px}
+.brief-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.brief-item{
+  padding:16px;border:1px solid var(--line);border-radius:7px;background:var(--paper-soft);
+}
+.brief-item strong{display:block;color:var(--navy);font:400 18px/1.25 var(--serif)}
+.brief-item p{margin:7px 0 0;color:var(--muted);font-size:14px}
+
+main>section:not(.bench-hero){padding:76px 0}
+main>section:nth-of-type(odd):not(.bench-hero){border-block:1px solid var(--line);background:#f8f7f3}
+.section-head{max-width:900px;margin:0 auto 38px;text-align:center}
+.section-head h2{margin-bottom:15px;font-size:clamp(38px,5vw,62px);line-height:1.05}
+.section-head p{margin:0;color:#343b3f;font-size:18px;line-height:1.75}
+
+.app-layout{
+  display:grid;grid-template-columns:minmax(0,1fr) 320px;
+  gap:18px;align-items:start;
+}
+.question-panel,.app-side,.result-panel,.record-panel{padding:28px}
+.app-side{position:sticky;top:96px}
+.app-side h3{margin-bottom:15px;font-size:26px;text-align:center}
+.question-top{
+  display:flex;justify-content:space-between;align-items:center;gap:14px;
+  padding-bottom:15px;border-bottom:1px solid var(--line);
+}
+.question-unit{
+  color:var(--teal);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+}
+#questionNumber{color:var(--muted);font-size:13px}
+.question-panel h2{
+  max-width:850px;margin:24px auto;text-align:center;
+  font-size:clamp(28px,4vw,42px);line-height:1.22;
+}
+.options{display:grid;gap:10px;max-width:900px;margin:auto}
+.option{
+  display:flex;align-items:flex-start;gap:12px;padding:16px;
+  border:1px solid var(--line);border-radius:7px;background:var(--paper-soft);
+  cursor:pointer;color:var(--ink);
+}
+.option:hover,.option:has(input:checked){
+  border-color:var(--teal);background:#f1f7f5;
+}
+.option input{margin-top:5px;accent-color:var(--teal)}
+.app-nav{display:flex;justify-content:space-between;gap:10px;margin-top:22px}
+.question-dots{
+  display:grid;grid-template-columns:repeat(6,1fr);gap:7px;margin:16px 0;
+}
+.dot{
+  aspect-ratio:1;display:grid;place-items:center;
+  border:1px solid var(--line);border-radius:7px;
+  background:var(--paper-soft);color:var(--muted);font-size:12px;
+}
+.dot.current{border-color:var(--navy);color:#fff;background:var(--navy)}
+.dot.answered{color:#fff;background:var(--success);border-color:var(--success)}
+#answeredCount{display:block;text-align:center;color:var(--muted);font-size:13px}
+#submitButton{width:100%;margin-top:12px}
+
+.score{
+  display:block;text-align:center;color:var(--navy);
+  font:400 clamp(58px,9vw,96px)/1 var(--serif);
+}
+#resultTitle,#resultMessage{text-align:center}
+#resultTitle{font-size:42px}
+#resultMessage{color:var(--muted)}
+.unit-results{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0;
+}
+.unit-result,.record-card{
+  padding:18px;border:1px solid var(--line);border-radius:7px;
+  background:var(--paper-soft);text-align:center;
+}
+.unit-result strong,.record-card strong{
+  display:block;color:var(--navy);font:400 26px/1 var(--serif);
+}
+.review-list{display:grid;gap:10px;margin-top:22px}
+.review-item{
+  padding:18px;border:1px solid var(--line);border-radius:7px;background:var(--paper-soft);
+}
+.review-item.correct{border-left:5px solid var(--success)}
+.review-item.incorrect{border-left:5px solid var(--danger)}
+.notice-strong{
+  padding:18px;border:1px solid var(--line);border-left:4px solid var(--gold);
+  border-radius:7px;background:var(--paper-soft);
+}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form-grid label{display:grid;gap:6px;color:var(--muted);font-size:13px}
+.form-grid input,.form-grid select,.form-grid textarea{
+  width:100%;min-height:46px;padding:10px 12px;border:1px solid var(--line-dark);
+  border-radius:7px;color:var(--ink);background:#fff;
+}
+.full{grid-column:1/-1}
+.record-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.constructed-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.constructed-card{padding:22px}
+.constructed-card h3{color:var(--navy);font-size:26px}
+.response-lines{
+  min-height:290px;margin-top:12px;border-bottom:1px solid var(--line);
+  background:repeating-linear-gradient(to bottom,transparent 0 29px,var(--line) 30px);
+}
+.print-question{
+  break-inside:avoid;margin:0 0 16px;padding:18px;
+  border:1px solid var(--line);border-radius:7px;background:#fff;
+}
+.toast{
+  position:fixed;right:18px;bottom:18px;z-index:2000;
+  max-width:340px;padding:12px 15px;border-radius:7px;
+  color:#fff;background:var(--navy-deep);box-shadow:var(--shadow);
+}
+.footer{
+  padding:28px 0;border-top:1px solid var(--line);
+  color:#fff;background:var(--navy-deep);
+}
+.footer-inner{
+  min-height:56px;display:flex;align-items:center;justify-content:space-between;
+  gap:18px;text-align:center;font-size:13px;
+}
+
+@media(max-width:1000px){
+  .app-layout{grid-template-columns:1fr}
+  .app-side{position:static}
+  .unit-results,.record-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:760px){
+  body{font-size:17px}
+  .header-inner{min-height:68px}
+  .brand-copy small{display:none}
+  .header-actions .secondary{display:none}
+  .summary-grid{grid-template-columns:repeat(2,1fr)}
+  .brief-grid,.constructed-grid{grid-template-columns:1fr}
+  .form-grid{grid-template-columns:1fr}
+  .full{grid-column:auto}
+  .footer-inner{flex-direction:column;justify-content:center}
+}
+@media(max-width:580px){
+  .wrap,.bench-shell{width:min(calc(100% - 22px),var(--max))}
+  .bench-hero{padding:62px 0 54px}
+  .bench-hero h1{font-size:clamp(44px,14vw,64px)}
+  .bench-lead{font-size:18px}
+  .summary-grid,.unit-results,.record-grid{grid-template-columns:1fr}
+  .bench-actions .btn,.app-nav .btn{width:100%}
+  .app-nav{flex-direction:column}
+  .question-dots{grid-template-columns:repeat(5,1fr)}
+  .question-panel,.app-side,.result-panel,.record-panel{padding:20px}
+}
+@media print{
+  .site-header,.course-breadcrumb,.bench-actions,.app-side,.app-nav,.course-quick-nav,.toast{display:none!important}
+  body{background:#fff;color:#000;font-size:12pt}
+  .bench-hero,main>section{padding:20px 0}
+  .card{box-shadow:none;border-color:#777}
+  .bench-shell,.wrap{width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{scroll-behavior:auto!important;transition:none!important}
+}
+  </style>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to main content
+  </a>
+  <header class="site-header">
+   <div class="wrap header-inner">
+    <a class="brand" href="../../">
+     <span class="brand-mark">
+      S9
+     </span>
+     <span class="brand-copy">
+      <strong>
+       INTEGRATED SCIENCE 9
+      </strong>
+      <small>
+       Units 01&ndash;04 Cumulative Benchmark
+      </small>
+     </span>
+    </a>
+    <div class="header-actions">
+     <a class="nav-button secondary" href="../../../../../grades/grade-09/">
+      Grade 9
+     </a>
+     <a class="nav-button" href="../">
+      Assessments
+     </a>
+     <button aria-label="Switch color theme" class="icon-button" id="themeToggle" title="Switch color theme" type="button">
+      ☼
+     </button>
+    </div>
+   </div>
+  </header>
+  <nav class="course-breadcrumb">
+   <div class="wrap">
+    <a href="../../../../../index.html">
+     High School
+    </a>
+    <span>
+     &rsaquo;
+    </span>
+    <a href="../../../../../grades/grade-09/">
+     Grade 9
+    </a>
+    <span>
+     &rsaquo;
+    </span>
+    <a href="../../">
+     Science 9
+    </a>
+    <span>
+     &rsaquo;
+    </span>
+    <a href="../">
+     Assessments
+    </a>
+    <span>
+     &rsaquo;
+    </span>
+    <span>
+     Units 01&ndash;04 Benchmark
+    </span>
+   </div>
+  </nav>
+  <main id="main">
+   <section class="bench-hero" id="intro">
+    <div class="bench-shell">
+     <p class="eyebrow">
+      KH-SCI-IIS9 &middot; First Benchmark &middot; Weeks 1&ndash;12
+     </p>
+     <h1>
+      Units 01&ndash;04 Cumulative Chapter Test
+     </h1>
+     <p class="bench-lead">
+      Scientific inquiry, cells and transport, body systems and homeostasis, and cell division and inheritance.
+     </p>
+     <div class="summary-grid">
+      <div class="card summary-card">
+       <strong>
+        60
+       </strong>
+       <span>
+        Definitive objective questions
+       </span>
+      </div>
+      <div class="card summary-card">
+       <strong>
+        15 &times; 4
+       </strong>
+       <span>
+        Equal questions per unit
+       </span>
+      </div>
+      <div class="card summary-card">
+       <strong>
+        48/60
+       </strong>
+       <span>
+        Objective mastery
+       </span>
+      </div>
+      <div class="card summary-card">
+       <strong>
+        100
+       </strong>
+       <span>
+        Total with written responses
+       </span>
+      </div>
+     </div>
+     <article aria-labelledby="assessmentBriefTitle" class="assessment-brief card">
+      <h2 id="assessmentBriefTitle">
+       Before you begin
+      </h2>
+      <div class="brief-grid">
+       <div class="brief-item">
+        <strong>
+         Work independently
+        </strong>
+        <p>
+         Use only the materials your instructor has approved.
+        </p>
+       </div>
+       <div class="brief-item">
+        <strong>
+         Complete every question
+        </strong>
+        <p>
+         Unanswered questions count as incorrect in the objective score.
+        </p>
+       </div>
+       <div class="brief-item">
+        <strong>
+         Save automatically
+        </strong>
+        <p>
+         Your answers remain in this browser until submitted or cleared.
+        </p>
+       </div>
+       <div class="brief-item">
+        <strong>
+         Review before submitting
+        </strong>
+        <p>
+         Use the numbered question navigator to return to incomplete items.
+        </p>
+       </div>
+      </div>
+     </article>
+     <div class="notice-strong">
+      <strong>
+       Assessment design
+      </strong>
+      <p>
+       The objective section is automatically scored. Four educator-scored responses are worth 10 points each. Recommended final mastery is 80/100 with at least 48/60 objective points.
+      </p>
+     </div>
+     <div class="bench-actions">
+      <button class="btn primary" id="startButton">
+       Begin Objective Test
+      </button>
+      <button class="btn" hidden="" id="resumeButton">
+       Resume Saved Test
+      </button>
+      <a class="btn" href="printable-test.html">
+       Printable Test
+      </a>
+      <a class="btn" href="student-record.html">
+       Student Record
+      </a>
+      <a class="btn" href="../../">
+       Course Home
+      </a>
+     </div>
+     <p class="notice" hidden="" id="priorResult">
+     </p>
+    </div>
+   </section>
+   <section hidden="" id="assessment">
+    <div class="bench-shell app-layout">
+     <div class="section-head assessment-heading">
+      <p class="eyebrow">
+       Objective assessment
+      </p>
+      <h2>
+       Complete all 60 questions
+      </h2>
+      <p>
+       Move carefully through the test, monitor your answered-question count, and submit only when you are ready.
+      </p>
+     </div>
+     <article class="card question-panel">
+      <div class="question-top">
+       <span class="question-unit" id="questionUnit">
+       </span>
+       <span class="pill" id="questionNumber">
+       </span>
+      </div>
+      <h2 id="questionPrompt">
+      </h2>
+      <div class="options" id="options">
+      </div>
+      <div class="app-nav">
+       <button class="btn" id="previousButton">
+        Previous
+       </button>
+       <button class="btn primary" id="nextButton">
+        Next
+       </button>
+      </div>
+     </article>
+     <aside class="card app-side">
+      <h3>
+       Question Navigator
+      </h3>
+      <p class="eyebrow">
+       Objective progress
+      </p>
+      <div class="question-dots" id="questionDots">
+      </div>
+      <p class="notice" id="answeredCount">
+       0 of 60 answered
+      </p>
+      <button class="btn primary" disabled="" id="submitButton">
+       Submit Objective Test
+      </button>
+     </aside>
+    </div>
+   </section>
+   <section hidden="" id="results">
+    <div class="bench-shell">
+     <div class="section-head results-intro">
+      <p class="eyebrow">
+       Assessment results
+      </p>
+      <h2>
+       Review your performance
+      </h2>
+      <p>
+       Use the unit breakdown and review list to identify strengths, corrections, and next steps.
+      </p>
+     </div>
+     <article class="card result-panel">
+      <p class="eyebrow">
+       Objective result
+      </p>
+      <div class="score" id="score">
+      </div>
+      <h2 id="resultTitle">
+      </h2>
+      <p class="notice" id="resultMessage">
+      </p>
+      <div class="unit-results" id="unitResults">
+      </div>
+      <div class="bench-actions no-print">
+       <a class="btn primary" href="student-record.html">
+        Complete Final Record
+       </a>
+       <button class="btn" id="retakeButton">
+        Retake
+       </button>
+       <button class="btn" id="printResults">
+        Print Results
+       </button>
+       <button class="btn" id="exportRecord">
+        Export Record
+       </button>
+      </div>
+     </article>
+     <div class="review-list" id="reviewList">
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap footer-inner">
+    <span>
+     Khaemenes Academy&trade; &middot; International Integrated Science 9
+    </span>
+    <span>
+     Units 01&ndash;04 Cumulative Benchmark
+    </span>
+   </div>
+  </footer>
+  <div class="toast" hidden="" id="toast" role="status">
+  </div>
+ </body>
+</html>
