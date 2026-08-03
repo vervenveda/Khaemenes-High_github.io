@@ -32,8 +32,8 @@
     ],
     "mapping_status": "International benchmark synthesis. Jurisdiction-specific review is required before formal standards or credit reporting.",
     "assessment_principle": "Every scored item must have one definitive, defensible answer or an explicit evidence-based rubric.",
-    "release_status": "unit-00-open",
-    "current_release": "Unit 00 — Readiness, Laboratory Safety & Scientific Habits"
+    "release_status": "unit-01-open",
+    "current_release": "Unit 01 — Scientific Inquiry, Measurement & Evidence"
   },
   "mastery_scale": [
     {
@@ -85,311 +85,143 @@
       "number": 0,
       "weeks": 1,
       "title": "Readiness, Laboratory Safety & Scientific Habits",
-      "big_idea": "Safe, ethical, careful scientific work begins with habits that protect people, evidence, organisms, communities, and environments.",
-      "objectives": [
-        "Complete a non-punitive science readiness diagnostic",
-        "Apply laboratory, field, digital, and household investigation safety rules",
-        "Distinguish observations, inferences, hypotheses, models, theories, and laws",
-        "Use SI units, significant figures at an introductory level, and organized science records",
-        "Set a personal scientific inquiry goal"
-      ],
-      "framework_tags": [
-        "Universal: Nature and Practices of Science",
-        "IB MYP Sciences: Inquiring and designing",
-        "Cambridge: Practical skills and safety",
-        "NGSS: Science and Engineering Practices",
-        "PISA: Procedural and epistemic knowledge"
-      ],
       "path": "diagnostic/",
-      "status": "open"
+      "status": "open",
+      "big_idea": "Safe, ethical, careful scientific work begins with habits that protect people, evidence, organisms, communities, and environments.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u01",
       "number": 1,
       "weeks": 2,
       "title": "Scientific Inquiry, Measurement & Evidence",
-      "big_idea": "Scientific explanations become stronger when questions are testable, measurements are reliable, and claims are supported by transparent evidence.",
-      "objectives": [
-        "Formulate testable questions and defensible hypotheses",
-        "Identify independent, dependent, and controlled variables",
-        "Plan fair tests and observational studies",
-        "Collect, graph, analyze, and evaluate quantitative and qualitative data",
-        "Identify uncertainty, anomalies, limitations, correlation, and causation",
-        "Construct claim-evidence-reasoning explanations"
-      ],
-      "framework_tags": [
-        "NGSS: Planning investigations; analyzing data; argument from evidence",
-        "IB MYP Sciences: Criteria B and C",
-        "Cambridge: Experimental skills and investigations",
-        "Australia Year 9: Science inquiry",
-        "PISA: Evaluate scientific inquiry and interpret evidence"
-      ],
       "path": "units/unit-01/",
-      "status": "planned"
+      "status": "open",
+      "big_idea": "Scientific explanations become stronger when questions are testable, measurements are reliable, and claims are supported by transparent evidence.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u02",
       "number": 2,
       "weeks": 3,
       "title": "Cells & the Organization of Life",
-      "big_idea": "Cells are organized systems whose structures and processes make life possible across many scales.",
-      "objectives": [
-        "Apply cell theory and compare prokaryotic and eukaryotic cells",
-        "Relate organelle structures to functions",
-        "Model diffusion, osmosis, and membrane transport",
-        "Explain how cells form tissues, organs, and organ systems",
-        "Use microscopy or virtual microscopy to gather evidence",
-        "Evaluate the limits of cell models"
-      ],
-      "framework_tags": [
-        "Universal: Living systems",
-        "IB MYP Sciences: Cells and systems",
-        "Cambridge Biology: Characteristics and organization of organisms",
-        "NGSS: Structure and function",
-        "British Columbia Science 9: Cells and reproduction"
-      ],
       "path": "units/unit-02/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "Cells are organized systems whose structures and processes make life possible across many scales.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u03",
       "number": 3,
       "weeks": 3,
       "title": "Body Systems & Homeostasis",
-      "big_idea": "Organ systems interact through feedback and transport processes to maintain stable internal conditions.",
-      "objectives": [
-        "Explain interactions among major human body systems",
-        "Model negative feedback and homeostasis",
-        "Analyze heart rate, breathing, recovery, or other safe physiological data",
-        "Connect nutrition, respiration, circulation, and cellular energy",
-        "Evaluate health claims using credible scientific evidence",
-        "Discuss biological variation without treating difference as deficiency"
-      ],
-      "framework_tags": [
-        "Universal: Organism systems and regulation",
-        "IB MYP Sciences: Systems and interactions",
-        "Cambridge Biology: Human nutrition, transport, respiration, coordination",
-        "NGSS: Systems and system models",
-        "Australia Year 9: Coordinated body systems"
-      ],
       "path": "units/unit-03/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "Organ systems interact through feedback and transport processes to maintain stable internal conditions.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u04",
       "number": 4,
       "weeks": 3,
       "title": "Cell Division, Reproduction & Inheritance",
-      "big_idea": "Genetic information is copied, expressed, reshuffled, and inherited, producing both continuity and variation.",
-      "objectives": [
-        "Compare mitosis and meiosis",
-        "Explain sexual and asexual reproduction",
-        "Model chromosomes, genes, alleles, genotype, and phenotype",
-        "Use probability models for introductory inheritance",
-        "Connect mutation and recombination to variation",
-        "Examine ethical questions in genetics using evidence and respectful reasoning"
-      ],
-      "framework_tags": [
-        "Universal: Heredity and variation",
-        "IB MYP Sciences: Genetics and ethics",
-        "Cambridge Biology: Reproduction and inheritance",
-        "NGSS: Inheritance and variation of traits",
-        "British Columbia Science 9: Cell reproduction"
-      ],
       "path": "units/unit-04/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "Genetic information is copied, expressed, reshuffled, and inherited, producing both continuity and variation.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u05",
       "number": 5,
       "weeks": 3,
       "title": "Ecosystems, Evolution & Biodiversity",
-      "big_idea": "Living populations change over time and depend on interconnected flows of energy, matter, information, and environmental conditions.",
-      "objectives": [
-        "Model food webs, trophic levels, and energy transfer",
-        "Explain population limits, niches, competition, and symbiosis",
-        "Describe natural selection using evidence",
-        "Connect adaptation, variation, and biodiversity",
-        "Conduct a local or digital ecosystem investigation",
-        "Evaluate human impacts and conservation trade-offs"
-      ],
-      "framework_tags": [
-        "Universal: Ecosystems and evolution",
-        "IB MYP Sciences: Environments and consequences",
-        "Cambridge Biology: Ecology and selection",
-        "NGSS: Ecosystems; natural selection and evolution",
-        "PISA: Agency in the Anthropocene"
-      ],
       "path": "units/unit-05/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "Living populations change over time and depend on interconnected flows of energy, matter, information, and environmental conditions.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u06",
       "number": 6,
       "weeks": 3,
       "title": "Atomic Structure & Periodic Patterns",
-      "big_idea": "The arrangement and behavior of subatomic particles explain patterns in elements, isotopes, ions, and materials.",
-      "objectives": [
-        "Model protons, neutrons, electrons, atoms, ions, and isotopes",
-        "Use atomic number and mass number",
-        "Interpret introductory electron arrangements",
-        "Explain major periodic table patterns",
-        "Distinguish elements, compounds, and mixtures",
-        "Describe introductory nuclear change and radiation safety"
-      ],
-      "framework_tags": [
-        "Universal: Matter and atomic theory",
-        "IB MYP Sciences: Atomic models",
-        "Cambridge Chemistry: Particulate nature and atomic structure",
-        "NGSS: Structure and properties of matter",
-        "British Columbia Science 9: Electron arrangement"
-      ],
       "path": "units/unit-06/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "The arrangement and behavior of subatomic particles explain patterns in elements, isotopes, ions, and materials.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u07",
       "number": 7,
       "weeks": 3,
       "title": "Bonding, Chemical Reactions & Matter",
-      "big_idea": "Atoms rearrange during chemical reactions while matter and charge are conserved.",
-      "objectives": [
-        "Compare ionic and covalent bonding at an introductory level",
-        "Interpret chemical formulas and particle diagrams",
-        "Identify evidence of chemical change",
-        "Represent and balance simple chemical equations",
-        "Apply conservation of mass",
-        "Investigate reaction rate, acids and bases, or material properties safely"
-      ],
-      "framework_tags": [
-        "Universal: Chemical systems",
-        "IB MYP Sciences: Reactions and consequences",
-        "Cambridge Chemistry: Bonding, equations, acids and bases",
-        "NGSS: Chemical reactions and conservation",
-        "Australia Year 9: Chemical reactions"
-      ],
       "path": "units/unit-07/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "Atoms rearrange during chemical reactions while matter and charge are conserved.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u08",
       "number": 8,
       "weeks": 3,
       "title": "Motion, Forces & Energy",
-      "big_idea": "Changes in motion and energy can be measured, modeled, predicted, and engineered.",
-      "objectives": [
-        "Calculate and interpret speed and introductory acceleration",
-        "Use motion graphs",
-        "Model balanced and unbalanced forces",
-        "Apply Newtonian ideas qualitatively and quantitatively at an introductory level",
-        "Distinguish kinetic, potential, thermal, and other energy stores and transfers",
-        "Analyze efficiency and conservation of energy"
-      ],
-      "framework_tags": [
-        "Universal: Motion, forces, and energy",
-        "IB MYP Sciences: Movement and energy",
-        "Cambridge Physics: Motion, forces, and energy",
-        "NGSS: Forces and interactions; energy",
-        "England KS3/KS4: Forces and energy"
-      ],
       "path": "units/unit-08/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "Changes in motion and energy can be measured, modeled, predicted, and engineered.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u09",
       "number": 9,
       "weeks": 3,
       "title": "Electricity, Waves & Information",
-      "big_idea": "Electrical and wave systems transfer energy and information through patterns that can be measured and controlled.",
-      "objectives": [
-        "Construct and compare safe series and parallel circuits",
-        "Measure or simulate current, voltage, and resistance",
-        "Apply introductory circuit relationships",
-        "Describe amplitude, frequency, wavelength, reflection, and refraction",
-        "Compare sound, light, and electromagnetic communication",
-        "Evaluate benefits, limitations, and safety considerations of communication technologies"
-      ],
-      "framework_tags": [
-        "Universal: Electricity, waves, and information",
-        "IB MYP Sciences: Energy transfer and communication",
-        "Cambridge Physics: Electricity and waves",
-        "NGSS: Waves and electromagnetic radiation",
-        "British Columbia Science 9: Electricity"
-      ],
       "path": "units/unit-09/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "Electrical and wave systems transfer energy and information through patterns that can be measured and controlled.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u10",
       "number": 10,
       "weeks": 3,
       "title": "Earth Systems & Biogeochemical Cycles",
-      "big_idea": "Earth functions through interacting geosphere, hydrosphere, atmosphere, biosphere, and cryosphere systems.",
-      "objectives": [
-        "Model interactions among Earth's major spheres",
-        "Trace water, carbon, nitrogen, and rock cycles",
-        "Analyze energy flow through Earth systems",
-        "Interpret maps, satellite images, and public environmental datasets",
-        "Explain feedback, equilibrium, and system change",
-        "Connect local observations to regional and global systems"
-      ],
-      "framework_tags": [
-        "Universal: Earth system science",
-        "IB MYP Sciences: Global interactions",
-        "Cambridge: Environmental management connections",
-        "NGSS: Earth systems",
-        "British Columbia Science 9: Earth spheres and cycles"
-      ],
       "path": "units/unit-10/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "Earth functions through interacting geosphere, hydrosphere, atmosphere, biosphere, and cryosphere systems.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u11",
       "number": 11,
       "weeks": 3,
       "title": "Dynamic Earth, Climate & Space",
-      "big_idea": "Evidence from rocks, hazards, climate records, planetary motion, and light reveals a changing Earth within a larger universe.",
-      "objectives": [
-        "Interpret geologic time and evidence of Earth's history",
-        "Explain plate tectonics and natural hazards",
-        "Differentiate weather, climate, variability, and long-term change",
-        "Analyze multiple lines of climate evidence",
-        "Model solar system motion and scale",
-        "Use light and gravity as evidence in introductory astronomy"
-      ],
-      "framework_tags": [
-        "Universal: Earth, climate, and space science",
-        "IB MYP Sciences: Global and cosmic systems",
-        "Cambridge Physics/Earth science connections",
-        "NGSS: Earth and space sciences",
-        "PISA: Environmental evidence and informed action"
-      ],
       "path": "units/unit-11/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "Evidence from rocks, hazards, climate records, planetary motion, and light reveals a changing Earth within a larger universe.",
+      "objectives": [],
+      "framework_tags": []
     },
     {
       "id": "u12",
       "number": 12,
       "weeks": 3,
       "title": "Sustainable Engineering Capstone",
-      "big_idea": "Engineering uses scientific evidence, criteria, constraints, testing, and revision to improve solutions while accounting for human and environmental consequences.",
-      "objectives": [
-        "Define a meaningful local or global problem",
-        "Establish measurable criteria and constraints",
-        "Research scientific background and existing solutions",
-        "Design, model, test, and revise a solution",
-        "Evaluate safety, cost, accessibility, culture, reliability, and environmental effects",
-        "Present evidence, limitations, and recommendations to a public audience"
-      ],
-      "framework_tags": [
-        "Universal: Engineering design",
-        "IB MYP Sciences: Impacts of science",
-        "Cambridge: Applications of science",
-        "NGSS: Engineering design",
-        "PISA: Agency and informed action"
-      ],
       "path": "units/unit-12/",
-      "status": "planned"
+      "status": "planned",
+      "big_idea": "Engineering uses scientific evidence, criteria, constraints, testing, and revision to improve solutions while accounting for human and environmental consequences.",
+      "objectives": [],
+      "framework_tags": []
     }
   ]
 }
