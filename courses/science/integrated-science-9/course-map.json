@@ -32,8 +32,8 @@
     ],
     "mapping_status": "International benchmark synthesis. Jurisdiction-specific review is required before formal standards or credit reporting.",
     "assessment_principle": "Every scored item must have one definitive, defensible answer or an explicit evidence-based rubric.",
-    "release_status": "unit-09-open",
-    "current_release": "Unit 09 — Electricity, Waves & Information"
+    "release_status": "unit-10-open",
+    "current_release": "Unit 10 — Earth Systems & Biogeochemical Cycles"
   },
   "mastery_scale": [
     {
@@ -333,10 +333,29 @@
       "weeks": 3,
       "title": "Earth Systems & Biogeochemical Cycles",
       "path": "units/unit-10/",
-      "status": "planned",
-      "big_idea": "Earth functions through interacting geosphere, hydrosphere, atmosphere, biosphere, and cryosphere systems.",
-      "objectives": [],
-      "framework_tags": []
+      "status": "open",
+      "big_idea": "Earth’s internal and solar energy drive interacting geological, hydrological, atmospheric, biological and chemical systems in which matter cycles through reservoirs, feedbacks alter change, and human decisions influence risk and resilience.",
+      "objectives": [
+        "Define Earth-system spheres, reservoirs, fluxes, feedbacks, boundaries and scales",
+        "Use seismic, density, magnetic, gravity and laboratory evidence to model Earth’s interior",
+        "Connect internal energy, mantle flow and multiple plate-driving processes to lithospheric motion",
+        "Use plate-boundary evidence to explain landforms, earthquakes, volcanoes and hazard patterns",
+        "Model rock formation, weathering, erosion, transport, deposition and soil development across timescales",
+        "Trace water through atmosphere, surface water, soil, ice and groundwater and apply a water budget",
+        "Quantify carbon reservoirs, inputs, outputs, net change, fast and slow pathways, and simple residence time",
+        "Compare nitrogen and phosphorus cycling and explain nutrient limitation and eutrophication",
+        "Use a global-mean energy-balance model to calculate reflection, absorption, outgoing energy and imbalance",
+        "Explain the natural greenhouse effect, climate feedbacks, variability, forcing, scenarios and uncertainty",
+        "Analyze Earth observations and evaluate hazards, resources, human modifications and technological responses",
+        "Design or evaluate resilience and stewardship strategies using safety, justice, access, cultural knowledge and monitoring"
+      ],
+      "framework_tags": [
+        "NGSS HS-ESS2-1–7: Earth processes, feedbacks, interior evidence, energy flow, carbon cycling and coevolution",
+        "NGSS HS-ESS3-1–6: resources, hazards, sustainability, technological solutions, climate data and human modification",
+        "Cambridge IGCSE Environmental Management 0680: rocks, soils, water, atmosphere, climate, resources, fieldwork and decision-making",
+        "Australian Curriculum V9 Earth and space sciences: plate tectonics, carbon cycling and interactions among Earth’s spheres",
+        "IB MYP Sciences and PISA scientific literacy: systems, models, evidence, uncertainty, risk and communication"
+      ]
     },
     {
       "id": "u11",
