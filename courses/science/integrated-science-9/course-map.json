@@ -32,8 +32,8 @@
     ],
     "mapping_status": "International benchmark synthesis. Jurisdiction-specific review is required before formal standards or credit reporting.",
     "assessment_principle": "Every scored item must have one definitive, defensible answer or an explicit evidence-based rubric.",
-    "release_status": "unit-03-open",
-    "current_release": "Unit 03 — Body Systems & Homeostasis"
+    "release_status": "unit-04-open",
+    "current_release": "Unit 04 — Cell Division, Reproduction & Inheritance"
   },
   "mastery_scale": [
     {
@@ -160,10 +160,26 @@
       "weeks": 3,
       "title": "Cell Division, Reproduction & Inheritance",
       "path": "units/unit-04/",
-      "status": "planned",
+      "status": "open",
       "big_idea": "Genetic information is copied, expressed, reshuffled, and inherited, producing both continuity and variation.",
-      "objectives": [],
-      "framework_tags": []
+      "objectives": [
+        "Relate DNA, genes, alleles, chromosomes, and genomes across biological scales",
+        "Model the cell cycle, DNA replication, mitosis, cytokinesis, growth, repair, and differentiation",
+        "Explain how cell-cycle regulation limits uncontrolled division and why simplified cancer models have boundaries",
+        "Compare asexual and sexual reproduction in terms of continuity, variation, costs, and context",
+        "Model meiosis, homologous chromosome separation, crossing over, independent assortment, and fertilization",
+        "Use genotype, phenotype, dominance, codominance, incomplete dominance, and probability accurately",
+        "Construct and interpret monohybrid crosses while recognizing that probability does not guarantee family outcomes",
+        "Explain mutation and recombination as sources of variation and environment as an influence on trait expression",
+        "Evaluate genetic claims, technologies, privacy, consent, uncertainty, and the history of genetic misuse"
+      ],
+      "framework_tags": [
+        "NGSS HS-LS1-4 and HS-LS3-1–3: mitosis, differentiation, DNA and chromosomes, variation, statistics, and probability",
+        "Cambridge IGCSE Biology 0610/0970 (2026–2028): reproduction, inheritance, variation, selection, and mathematical/practical skills",
+        "Australian Curriculum V9 Year 10 AC9S10U01: mitosis, meiosis, chromosomes, DNA, genes, and Mendelian inheritance",
+        "IB MYP Sciences: models, systems, patterns, inquiry, processing, evaluation, and impacts",
+        "PISA scientific literacy: explain phenomena, interpret data, evaluate evidence, and communicate uncertainty"
+      ]
     },
     {
       "id": "u05",
