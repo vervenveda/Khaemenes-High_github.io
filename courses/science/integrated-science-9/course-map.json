@@ -32,8 +32,8 @@
     ],
     "mapping_status": "International benchmark synthesis. Jurisdiction-specific review is required before formal standards or credit reporting.",
     "assessment_principle": "Every scored item must have one definitive, defensible answer or an explicit evidence-based rubric.",
-    "release_status": "unit-04-open",
-    "current_release": "Unit 04 — Cell Division, Reproduction & Inheritance"
+    "release_status": "unit-05-open",
+    "current_release": "Unit 05 — Ecosystems, Evolution & Biodiversity"
   },
   "mastery_scale": [
     {
@@ -187,10 +187,28 @@
       "weeks": 3,
       "title": "Ecosystems, Evolution & Biodiversity",
       "path": "units/unit-05/",
-      "status": "planned",
-      "big_idea": "Living populations change over time and depend on interconnected flows of energy, matter, information, and environmental conditions.",
-      "objectives": [],
-      "framework_tags": []
+      "status": "open",
+      "big_idea": "Living systems depend on interconnected energy, matter, populations, environments, inherited variation, historical evidence, and responsible stewardship.",
+      "objectives": [
+        "Distinguish organism, population, community, ecosystem, habitat, niche, and biotic and abiotic factors using direct observations",
+        "Construct and interpret food chains, food webs, trophic levels, biomass and energy pyramids, and ecological-efficiency calculations",
+        "Explain that energy flows through ecosystems while matter cycles through biological, atmospheric, hydrological, and geological reservoirs",
+        "Analyze real population records using density, trends, limiting factors, carrying capacity, uncertainty, and alternative explanations",
+        "Compare competition, predation, herbivory, mutualism, commensalism, parasitism, disturbance, succession, and resilience",
+        "Measure biodiversity using richness, abundance, evenness, sampling design, and a diversity index while protecting sensitive species locations",
+        "Explain natural selection as population change across generations involving inherited variation and differential reproductive success",
+        "Distinguish microevolution, speciation, and macroevolution, and state what has been directly observed versus historically reconstructed",
+        "Evaluate fossils, anatomy, biogeography, genetics, and dating evidence by separating specimens and measurements from classification and ancestry inference",
+        "Represent creation, intelligent-design, evolutionary-creation, and naturalistic interpretations accurately while distinguishing empirical, historical, philosophical, and theological claims",
+        "Design evidence-based biodiversity conservation or restoration actions that address safety, access, community knowledge, justice, uncertainty, and monitoring"
+      ],
+      "framework_tags": [
+        "NGSS HS-LS2-1–8: population data, matter and energy, interactions, resilience, group behavior, biodiversity, and design",
+        "NGSS HS-LS4-1–6: evidence, variation, natural selection, adaptation, environmental change, and biodiversity solutions",
+        "Cambridge IGCSE Biology 0610/0970 (2026–2028): variation and selection; organisms and environment; human influences and conservation",
+        "Australian Curriculum V9 AC9S9U01 and AC9S10U02: ecosystem interdependence and evidence for evolution by natural selection",
+        "Academy enrichment: observation–inference–worldview distinctions and respectful comparative origins literacy"
+      ]
     },
     {
       "id": "u06",
