@@ -1,11 +1,15 @@
-<!doctype html><html lang="en" dir="ltr" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#07131d"><meta name="color-scheme" content="dark light"><title>Units 05–07 Cumulative Benchmark · Khaemenes Science 9</title><link rel="stylesheet" href="../../course-ui.css"><style>
-:root{--bench:#9fd5c5;--bench2:#b7b0ed;--bench3:#e8bd87;--bench4:#d99aae}
-.bench-hero{text-align:center;padding:clamp(4rem,9vw,7rem) 0 3rem}.bench-hero h1{font-size:clamp(2.4rem,7vw,5rem)}.bench-lead{max-width:920px;margin:auto;color:var(--muted);font-size:clamp(1rem,2vw,1.18rem)}.bench-shell{width:min(var(--max),calc(100% - 2rem));margin:auto}.bench-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.65rem;margin-top:1.4rem}.summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem}.summary-card{padding:1rem}.summary-card strong{display:block;font:444 1.7rem/1.1 var(--serif);color:var(--bench)}.summary-card span{font-size:.76rem;color:var(--muted)}
-.app-layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:1rem;align-items:start}.question-panel,.app-side,.result-panel,.record-panel{padding:1.35rem}.app-side{position:sticky;top:90px}.question-top{display:flex;justify-content:space-between;gap:1rem;align-items:center}.question-unit{color:var(--bench);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}.question-panel h2{font-size:clamp(1.35rem,4vw,2.15rem);margin:1rem 0}.options{display:grid;gap:.65rem}.option{display:flex;align-items:flex-start;gap:.7rem;padding:.9rem;border:1px solid var(--line);border-radius:var(--radius-small);background:var(--bg-soft);cursor:pointer}.option:hover,.option:has(input:checked){border-color:var(--bench)}.option input{margin-top:.3rem;accent-color:var(--bench)}.app-nav{display:flex;justify-content:space-between;gap:.65rem;margin-top:1rem}.question-dots{display:grid;grid-template-columns:repeat(6,1fr);gap:.35rem;margin:1rem 0}.dot{aspect-ratio:1;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;background:var(--bg-soft);color:var(--muted);font-size:.66rem}.dot.current{border-color:var(--bench);color:var(--bench)}.dot.answered{color:#07131d;background:var(--success);border-color:var(--success)}
-.score{font:444 clamp(3.2rem,9vw,6.4rem)/1 var(--serif);color:var(--bench)}.unit-results{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin:1rem 0}.unit-result,.record-card{padding:1rem;border:1px solid var(--line);border-radius:var(--radius-small);background:var(--bg-soft)}.unit-result strong,.record-card strong{display:block;color:var(--bench);font-size:1.25rem}.review-list{display:grid;gap:.7rem}.review-item{padding:1rem;border:1px solid var(--line);border-radius:var(--radius-small);background:var(--bg-soft)}.review-item.correct{border-inline-start:5px solid var(--success)}.review-item.incorrect{border-inline-start:5px solid var(--danger)}
-.notice-strong{padding:1rem;border:1px solid color-mix(in srgb,var(--bench) 55%,var(--line));border-radius:var(--radius-small);background:var(--bg-soft)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.form-grid label{display:grid;gap:.35rem;color:var(--muted);font-size:.78rem}.form-grid input,.form-grid select,.form-grid textarea{width:100%;min-height:46px;padding:.7rem;border:1px solid var(--line);border-radius:var(--radius-small);color:var(--text);background:var(--bg-soft)}.full{grid-column:1/-1}.record-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem}.constructed-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.constructed-card{padding:1.2rem}.constructed-card h3{color:var(--bench)}.response-lines{min-height:310px;margin-top:.8rem;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to bottom,transparent 0 29px,var(--line) 30px)}.print-question{break-inside:avoid;margin:0 0 1rem;padding:1rem;border:1px solid var(--line);border-radius:var(--radius-small)}.print-question ol{margin:.55rem 0 0;padding-left:1.6rem}.answer-sheet{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem}.answer-row{padding:.55rem;border-bottom:1px solid var(--line)}.signature-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:3rem}.signature-line{padding-top:.45rem;border-top:1px solid var(--text);text-align:center;font-size:.78rem}.bridge-note{border-color:var(--bench3)}
-@media(max-width:980px){.app-layout{grid-template-columns:1fr}.app-side{position:static}.summary-grid,.unit-results,.record-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:720px){.constructed-grid,.form-grid,.summary-grid,.unit-results,.record-grid,.answer-sheet,.signature-grid{grid-template-columns:1fr}.full{grid-column:auto}}@media print{.site-header,.course-breadcrumb,.bench-actions,.app-side,.app-nav,.no-print,.footer,.toast{display:none!important}body{background:white;color:black}.card,.print-question{box-shadow:none;background:white;color:black;border-color:#777}.bench-hero{padding:0 0 1rem}.bench-shell{width:100%}.response-lines{min-height:360px}}
-</style><script>document.addEventListener("DOMContentLoaded",()=>{const k="khaemenes_theme",b=document.querySelector("#themeToggle");function set(t){t=["dark","light"].includes(t)?t:"dark";document.documentElement.dataset.theme=t;localStorage.setItem(k,t);if(b)b.textContent=t==="dark"?"☼":"◐"}set(localStorage.getItem(k)||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"));if(b)b.onclick=()=>set(document.documentElement.dataset.theme==="dark"?"light":"dark")});
+<!doctype html>
+<html data-theme="light" dir="ltr" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+  <meta content="#07131d" name="theme-color"/>
+  <meta content="dark light" name="color-scheme"/>
+  <title>
+   Units 05&ndash;07 Cumulative Benchmark &middot; Khaemenes Science 9
+  </title>
+  <script>
+   document.addEventListener("DOMContentLoaded",()=>{const k="khaemenes_theme",b=document.querySelector("#themeToggle");function set(t){t=["dark","light"].includes(t)?t:"dark";document.documentElement.dataset.theme=t;localStorage.setItem(k,t);if(b)b.textContent=t==="dark"?"☼":"◐"}set(localStorage.getItem(k)||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"));if(b)b.onclick=()=>set(document.documentElement.dataset.theme==="dark"?"light":"dark")});
 const Q=[{"id":"q01","domain":"Organization","prompt":"Which sequence increases in ecological scale?","options":["Organism → population → community → ecosystem","Population → organism → ecosystem → community","Community → organism → population → ecosystem","Ecosystem → community → population → organism"],"answer":0,"explanation":"Individuals form populations; interacting populations form communities; communities plus abiotic environment form ecosystems.","unit":"Unit 05"},{"id":"q02","domain":"Observation and inference","prompt":"Which statement is a direct observation?","options":["The ecosystem will collapse","Twelve individuals were counted in a 10 m transect","The organism evolved this trait because it needed it","Shade caused the species decline"],"answer":1,"explanation":"A documented count is an observation; causal and historical statements are inferences.","unit":"Unit 05"},{"id":"q03","domain":"Habitat and niche","prompt":"Which statement correctly distinguishes habitat and niche?","options":["Niche is only body size","Habitat is a genome","Habitat is location; niche includes role and resource use","They are always identical"],"answer":2,"explanation":"Habitat describes where an organism lives; niche includes its ecological role and requirements.","unit":"Unit 05"},{"id":"q04","domain":"Food-web effects","prompt":"Why can removal of one species affect several others?","options":["Every species eats every other species","Energy cycles forever","Abiotic conditions never matter","Food webs contain direct and indirect interactions"],"answer":3,"explanation":"Networked interactions can transmit effects through several pathways.","unit":"Unit 05"},{"id":"q05","domain":"Energy calculation","prompt":"A trophic level receives 320 kJ from a preceding level with 4,000 kJ. Efficiency is:","options":["8%","12.5%","80%","6%"],"answer":0,"explanation":"320 ÷ 4,000 × 100 = 8%.","unit":"Unit 05"},{"id":"q06","domain":"Matter cycles","prompt":"Which process converts atmospheric nitrogen into biologically available forms?","options":["Combustion","Nitrogen fixation","Respiration","Evaporation"],"answer":1,"explanation":"Nitrogen fixation converts N₂ into compounds that enter biological cycles.","unit":"Unit 05"},{"id":"q07","domain":"Diversity calculation","prompt":"A sample contains counts 4, 4, 4, and 4 for four species. Compared with counts 13, 1, 1, and 1, the first sample has:","options":["Fewer total organisms","Lower richness","The same richness and greater evenness","No biodiversity"],"answer":2,"explanation":"Both contain four species and 16 organisms, but the first is more even.","unit":"Unit 05"},{"id":"q08","domain":"Population change","prompt":"A population changes from 800 to 680. What is the percentage change?","options":["−12%","15%","85%","−15%"],"answer":3,"explanation":"(680−800) ÷ 800 × 100 = −15%.","unit":"Unit 05"},{"id":"q09","domain":"Mark–recapture","prompt":"Which condition violates a simple mark–recapture assumption?","options":["Marked animals become much easier to capture than unmarked animals","The study interval is short","Marks remain identifiable","Marked individuals mix into the population"],"answer":0,"explanation":"Different capture probability biases the ratio.","unit":"Unit 05"},{"id":"q10","domain":"Predator–prey evidence","prompt":"A predator and prey time series shows opposite trends. What additional evidence strengthens a causal explanation?","options":["Removal of inconvenient years","Feeding records, prey survival, vegetation, disease, weather, and alternative-factor analysis","A single graph title","A personal preference"],"answer":1,"explanation":"Mechanistic and comparative evidence helps test causation.","unit":"Unit 05"},{"id":"q11","domain":"Selection","prompt":"Which statement avoids teleological language?","options":["The drug created only useful mutations","Bacteria became resistant because they wanted to survive","Antibiotic exposure favored resistant variants that left more descendants","Every bacterium intentionally changed its DNA"],"answer":2,"explanation":"Selection changes variant frequencies; it does not require purposeful mutation.","unit":"Unit 05"},{"id":"q12","domain":"Variation","prompt":"Which process creates new alleles?","options":["Selection alone","Independent assortment alone","Migration alone","Mutation"],"answer":3,"explanation":"Mutation changes DNA sequence and can create a new allele.","unit":"Unit 05"},{"id":"q13","domain":"Microevolution","prompt":"A measured allele-frequency shift across generations is commonly classified as:","options":["Microevolution","A theological proof","A fossil ancestor","No biological change"],"answer":0,"explanation":"Microevolution includes measurable inherited-frequency changes in populations.","unit":"Unit 05"},{"id":"q14","domain":"Speciation","prompt":"Which provides direct evidence relevant to speciation in living populations?","options":["One individual changing species during life","Reduced interbreeding or reproductive compatibility between diverging populations","A drawing without data","A claim that no boundaries exist"],"answer":1,"explanation":"Reproductive isolation is central to many species concepts.","unit":"Unit 05"},{"id":"q15","domain":"Macroevolution definition","prompt":"Which statement is consistent with the standard biological use of macroevolution?","options":["It is identical to abiogenesis","It requires a sudden jump by one individual","It includes speciation and diversification across lineages","It means acquired traits during one lifetime"],"answer":2,"explanation":"Macroevolution refers to patterns at or above the species level and is not the origin of life.","unit":"Unit 05"},{"id":"q16","domain":"Fossils","prompt":"Which statement about fossil evidence is accurate?","options":["Every fossil includes its family tree","Fossils cannot be measured","Fossil classifications never change","Fossils can preserve anatomy and context but rarely identify a direct parent–descendant pair"],"answer":3,"explanation":"Anatomy and context are observed; ancestry is reconstructed and classifications may be revised.","unit":"Unit 05"},{"id":"q17","domain":"Equids","prompt":"Why is a ladder model of horse evolution misleading?","options":["The record is interpreted as branching, with coexisting forms and extinct side branches","Modern horses have many functional toes","DNA proves every fossil is a parent","No equids existed"],"answer":0,"explanation":"Equid diversity is not a single uninterrupted march.","unit":"Unit 05"},{"id":"q18","domain":"Evidence levels","prompt":"Which sequence moves from most direct to most interpretive?","options":["Worldview conclusion → measurement → specimen","Specimen → measurement → classification → ancestry inference → worldview conclusion","Ancestry inference → specimen → measurement","Classification → specimen → observation"],"answer":1,"explanation":"Evidence should be separated from progressively broader interpretation.","unit":"Unit 05"},{"id":"q19","domain":"Methodological naturalism","prompt":"Which statement is correct?","options":["It makes every supernatural claim experimentally testable","It proves atheism","It is a method that seeks testable natural mechanisms and does not itself settle theological truth","It requires creationism to be mocked"],"answer":2,"explanation":"Methodological naturalism defines empirical method, not a compulsory metaphysical belief.","unit":"Unit 05"},{"id":"q20","domain":"Fair assessment","prompt":"Which student response should receive the stronger score?","options":["One that attacks another student’s faith","One that refuses to cite sources","One that repeats a preferred conclusion but misstates evidence","One that accurately classifies evidence, fairly represents alternatives, and supports a reasoned conclusion"],"answer":3,"explanation":"Assessment is based on literacy, evidence, reasoning, and respectful representation.","unit":"Unit 05"},{"id":"q21","domain":"Classification","prompt":"Which sample is a compound?","options":["Pure sodium chloride","Air","Copper metal","Oxygen gas"],"answer":0,"explanation":"Sodium chloride contains elements chemically combined in a fixed ratio.","unit":"Unit 06"},{"id":"q22","domain":"Atomic evidence","prompt":"Which observation led Thomson to infer negatively charged particles within atoms?","options":["Atoms were visible in a microscope","Cathode rays were deflected by electric and magnetic fields","Gold foil produced alpha particles","All gases had identical spectra"],"answer":1,"explanation":"Cathode-ray deflection supported negatively charged subatomic particles.","unit":"Unit 06"},{"id":"q23","domain":"Atomic evidence","prompt":"In Rutherford scattering, most alpha particles passed through foil. This supports the inference that atoms are:","options":["Made only of electrons","Without nuclei","Mostly empty space at that scale","Uniform solid spheres"],"answer":2,"explanation":"Most particles encountered no concentrated mass or charge.","unit":"Unit 06"},{"id":"q24","domain":"Model revision","prompt":"Why did atomic models change over time?","options":["Scientists agreed never to test them","The proton count changed historically","Models are personal opinions only","New evidence exposed limitations and supported revised models"],"answer":3,"explanation":"Scientific models are revised when new evidence requires better explanations.","unit":"Unit 06"},{"id":"q25","domain":"Particle charge","prompt":"Which set of relative charges is correct for proton, neutron, electron?","options":["+1, 0, −1","−1, 0, +1","+1, −1, 0","0, +1, −1"],"answer":0,"explanation":"Proton +1, neutron 0, electron −1.","unit":"Unit 06"},{"id":"q26","domain":"Composition","prompt":"A neutral atom contains 8 protons and 10 neutrons. Which statement is correct?","options":["It is neon-18 with 10 electrons","It is oxygen-18 with 8 electrons","It is fluorine-18 with 8 electrons","It is oxygen-10 with 18 electrons"],"answer":1,"explanation":"Atomic number 8 is oxygen; mass number 18; neutrality gives 8 electrons.","unit":"Unit 06"},{"id":"q27","domain":"Ion charge","prompt":"A particle has 13 protons and 10 electrons. It is:","options":["Ne³⁺","Mg²⁺","Al³⁺","Al³⁻"],"answer":2,"explanation":"Atomic number 13 is aluminium; three fewer electrons gives 3+.","unit":"Unit 06"},{"id":"q28","domain":"Nuclear notation","prompt":"In the notation ³⁹₁₉K, the lower number represents:","options":["Mass number","Neutron number","Electron charge","Atomic number"],"answer":3,"explanation":"The subscript is atomic number.","unit":"Unit 06"},{"id":"q29","domain":"Isotopes","prompt":"Which property differs between neutral chlorine-35 and chlorine-37 atoms?","options":["Neutron number","Element identity","Proton number","Electron arrangement"],"answer":0,"explanation":"They differ in neutron number.","unit":"Unit 06"},{"id":"q30","domain":"Weighted average","prompt":"An element has isotope masses 10 and 11 with abundances 20% and 80%. Its weighted mass is:","options":["10.5","10.8","21","10.2"],"answer":1,"explanation":"10(0.20)+11(0.80)=10.8.","unit":"Unit 06"},{"id":"q31","domain":"Atomic weight","prompt":"Which statement about standard atomic weight is most accurate?","options":["It is identical for every isotope","It is always a whole-number mass number","It may be a weighted value or interval reflecting natural isotope composition","It equals the proton number"],"answer":2,"explanation":"Standard atomic weights summarize representative isotope masses and abundances.","unit":"Unit 06"},{"id":"q32","domain":"Electron configuration","prompt":"Which configuration belongs to aluminium?","options":["2,8,2","2,8,4","2,7","2,8,3"],"answer":3,"explanation":"Aluminium has atomic number 13.","unit":"Unit 06"},{"id":"q33","domain":"Ion configuration","prompt":"Which species has configuration 2,8?","options":["Na⁺","Na atom","Cl⁻","K⁺"],"answer":0,"explanation":"Na⁺ has 10 electrons; Cl⁻ and K⁺ have 18.","unit":"Unit 06"},{"id":"q34","domain":"Period","prompt":"Which element is in Period 4 among the first 20?","options":["Chlorine","Potassium","Sodium","Argon"],"answer":1,"explanation":"Potassium has four occupied shells.","unit":"Unit 06"},{"id":"q35","domain":"Group","prompt":"Which pair has related chemical properties because both have one outer electron?","options":["Mg and Cl","C and Ar","Li and K","O and Ne"],"answer":2,"explanation":"Lithium and potassium are Group 1.","unit":"Unit 06"},{"id":"q36","domain":"Across-period trend","prompt":"Across Period 3, which general change occurs?","options":["Atomic number decreases","Occupied shells increase from three to eight","All elements form +1 ions","Metallic character decreases toward nonmetals"],"answer":3,"explanation":"Metallic character generally declines across the period.","unit":"Unit 06"},{"id":"q37","domain":"Group 1","prompt":"Which property generally increases from lithium to potassium?","options":["Reactivity with water","Melting point","Outer-electron count","Ion charge magnitude"],"answer":0,"explanation":"Group 1 reactivity generally increases down the group.","unit":"Unit 06"},{"id":"q38","domain":"Group 17","prompt":"Which property generally decreases from fluorine to iodine?","options":["Density","Reactivity","Number of occupied shells","Atomic number"],"answer":1,"explanation":"Halogen reactivity generally decreases down the group.","unit":"Unit 06"},{"id":"q39","domain":"Spectra","prompt":"A line spectrum contains discrete wavelengths because:","options":["All atoms have one electron","Visible light has no energy","Electron energies occur in allowed states and transitions have specific energy differences","The nucleus emits every wavelength"],"answer":2,"explanation":"Specific transitions produce photons with specific energies.","unit":"Unit 06"},{"id":"q40","domain":"Model limits","prompt":"Which statement avoids overstating a model?","options":["Electrons are colored balls exactly as shown","The nucleus is the same size as the diagram","A model cannot be revised","The shell model predicts useful outer-electron patterns but does not depict literal fixed paths"],"answer":3,"explanation":"The shell model is useful but not literal.","unit":"Unit 06"},{"id":"q41","domain":"Bonding","prompt":"Which force is central to ionic bonding?","options":["Electrostatic attraction between opposite charges","Gravity between molecules","Magnetic attraction between neutrons","Friction"],"answer":0,"explanation":"Ionic bonding is electrostatic attraction.","unit":"Unit 07"},{"id":"q42","domain":"Bonding","prompt":"Which statement best describes a covalent bond?","options":["A physical mixture","A shared electron pair between atoms","A transferred neutron","A moving cation"],"answer":1,"explanation":"The introductory covalent model uses shared electron pairs.","unit":"Unit 07"},{"id":"q43","domain":"Formula","prompt":"What formula results from K⁺ and O²⁻?","options":["K₂O₂","KO","K₂O","KO₂"],"answer":2,"explanation":"Two K⁺ ions balance one O²⁻ ion.","unit":"Unit 07"},{"id":"q44","domain":"Formula","prompt":"What formula results from Al³⁺ and SO₄²⁻?","options":["Al₃(SO₄)₂","AlSO₄","Al₂SO₄","Al₂(SO₄)₃"],"answer":3,"explanation":"Two Al³⁺ give +6 and three sulfate ions give −6.","unit":"Unit 07"},{"id":"q45","domain":"Structure","prompt":"Which substance is expected to conduct when molten but not when solid?","options":["Sodium chloride","Methane","Diamond","Carbon dioxide"],"answer":0,"explanation":"Molten ionic compounds have mobile ions.","unit":"Unit 07"},{"id":"q46","domain":"Structure","prompt":"Which property is characteristic of many simple molecular substances?","options":["Giant lattices in every case","Low melting and boiling points","Conductivity from mobile ions in the solid","Malleability"],"answer":1,"explanation":"Weak intermolecular attractions often give low phase-change temperatures.","unit":"Unit 07"},{"id":"q47","domain":"Structure","prompt":"Why is diamond hard?","options":["Its molecules slide easily","It is metallic","Its atoms form a three-dimensional covalent network","It contains mobile ions"],"answer":2,"explanation":"Many strong bonds extend through the network.","unit":"Unit 07"},{"id":"q48","domain":"Polarity","prompt":"Which statement distinguishes bond polarity from molecular polarity?","options":["They are always identical","Only ions have polarity","Molecules have no geometry","A molecule’s shape can cause bond dipoles to cancel or reinforce"],"answer":3,"explanation":"Whole-molecule polarity depends on both bond dipoles and arrangement.","unit":"Unit 07"},{"id":"q49","domain":"Formula mass","prompt":"Using C=12 and O=16, Mr of CO₂ is:","options":["44","56","28","32"],"answer":0,"explanation":"12 + 2(16) = 44.","unit":"Unit 07"},{"id":"q50","domain":"Notation","prompt":"In 2H₂O, the coefficient 2 indicates:","options":["A charge","Two water molecules or formula units in the represented ratio","Two oxygen atoms per molecule","A new substance H₄O₂"],"answer":1,"explanation":"The coefficient multiplies the entire formula.","unit":"Unit 07"},{"id":"q51","domain":"Equation","prompt":"Which equation balances aluminium oxide formation?","options":["Al + O₂ → Al₂O₃","2Al + O₂ → Al₂O₃","4Al + 3O₂ → 2Al₂O₃","Al₂ + O₃ → Al₂O₃"],"answer":2,"explanation":"Four Al and six O atoms appear on both sides.","unit":"Unit 07"},{"id":"q52","domain":"Conservation","prompt":"Why is mass conserved in a closed ordinary chemical reaction?","options":["Energy becomes mass in large amounts","New nuclei are formed","Gas has no mass","The same atoms are rearranged into products"],"answer":3,"explanation":"Chemical reactions rearrange existing atoms.","unit":"Unit 07"},{"id":"q53","domain":"Measurement","prompt":"A gas-producing reaction loses measured mass in an open beaker. The best explanation is:","options":["Gas left the balance system","Atoms were destroyed","The law of conservation failed","The liquid lost all density"],"answer":0,"explanation":"The escaped product is no longer included in the measured system.","unit":"Unit 07"},{"id":"q54","domain":"Reaction evidence","prompt":"Which observation alone is least sufficient to prove a chemical reaction?","options":["New products detected analytically","A temperature change without a control","A new precipitate with confirmed composition","A new gas product collected and identified"],"answer":1,"explanation":"Physical processes can also change temperature.","unit":"Unit 07"},{"id":"q55","domain":"Reaction type","prompt":"CH₄ + 2O₂ → CO₂ + 2H₂O is classified as:","options":["Electrolysis","Freezing","Combustion","Precipitation"],"answer":2,"explanation":"A hydrocarbon reacting with oxygen to form CO₂ and water is combustion.","unit":"Unit 07"},{"id":"q56","domain":"Energy","prompt":"Which sign belongs to an exothermic ΔH?","options":["Positive","Always zero","Undefined","Negative"],"answer":3,"explanation":"Products are lower in enthalpy than reactants under this convention.","unit":"Unit 07"},{"id":"q57","domain":"Catalyst","prompt":"Which statement about a catalyst is accurate?","options":["It lowers activation energy but does not change ΔH","It increases product energy","It is always consumed","It changes atom conservation"],"answer":0,"explanation":"Catalysts alter the pathway, not overall energy difference.","unit":"Unit 07"},{"id":"q58","domain":"Rate","prompt":"Why can higher temperature increase rate?","options":["Concentration becomes zero","More particles exceed activation energy","Subscripts change","All bonds disappear"],"answer":1,"explanation":"The energy distribution shifts so more collisions can succeed.","unit":"Unit 07"},{"id":"q59","domain":"Equilibrium","prompt":"At dynamic equilibrium:","options":["All molecules stop moving","Only products remain","Forward and reverse rates are equal","Concentrations must be numerically equal"],"answer":2,"explanation":"Equal rates maintain constant concentrations.","unit":"Unit 07"},{"id":"q60","domain":"Safety","prompt":"Which action is prohibited?","options":["Using published thermochemical data","Timing an approved effervescent tablet in water with goggles","Analyzing balanced equations","Mixing household cleaners to look for a reaction"],"answer":3,"explanation":"Household cleaners can generate toxic gases or corrosive mixtures.","unit":"Unit 07"}],KEY="khaemenes_science_units05_07_benchmark_v1",PASS=48;
 let S;try{S=JSON.parse(localStorage.getItem(KEY))||{}}catch{S={}}
 S.answers=Array.isArray(S.answers)&&S.answers.length===60?S.answers:Array(60).fill(null);
@@ -19,60 +23,870 @@ function start(){$("#intro").hidden=true;$("#results").hidden=true;$("#assessmen
 function submit(){let score=0,u={};Q.forEach((q,i)=>{u[q.unit]||={correct:0,total:0};u[q.unit].total++;if(S.answers[i]===q.answer){score++;u[q.unit].correct++}});S.objective={score,total:60,passed:score>=PASS,attempts:(S.objective.attempts||0)+1,submittedAt:new Date().toISOString(),unitScores:u};save();$("#intro").hidden=true;$("#assessment").hidden=true;$("#results").hidden=false;$("#score").textContent=score+" / 60";$("#resultTitle").textContent=score>=PASS?"Objective mastery threshold reached":"Objective mastery threshold not yet reached";$("#resultMessage").textContent=score>=PASS?"Complete the four educator-scored responses for the final 100-point benchmark score.":"Review explanations and retake. At least 48 of 60 is required.";$("#unitResults").innerHTML=Object.entries(u).map(([n,d])=>`<div class="unit-result"><strong>${d.correct} / ${d.total}</strong><span>${n}</span></div>`).join("");$("#reviewList").innerHTML=Q.map((q,i)=>`<article class="review-item ${S.answers[i]===q.answer?"correct":"incorrect"}"><strong>${i+1}. ${esc(q.prompt)}</strong><p>Your answer: ${esc(q.options[S.answers[i]])}</p><p>Correct answer: ${esc(q.options[q.answer])}</p><p>${esc(q.explanation)}</p></article>`).join("");scrollTo(0,0)}
 function exportRecord(){const blob=new Blob([JSON.stringify({schema:"khaemenes-science-units05-07-benchmark-v1",course:"KH-SCI-IIS9",exportedAt:new Date().toISOString(),state:S},null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="KH-SCI-IIS9-units05-07-benchmark.json";document.body.append(a);a.click();a.remove();URL.revokeObjectURL(url)}
 document.addEventListener("DOMContentLoaded",()=>{$("#startButton").onclick=start;$("#resumeButton").hidden=!S.answers.some(v=>v!==null);$("#resumeButton").onclick=start;$("#previousButton").onclick=()=>{if(S.current>0){S.current--;save();render()}};$("#nextButton").onclick=()=>{if(S.current<59){S.current++;save();render()}};$("#submitButton").onclick=submit;$("#retakeButton").onclick=()=>{S.answers=Array(60).fill(null);S.current=0;save();start()};$("#printResults").onclick=()=>print();$("#exportRecord").onclick=exportRecord;if(S.objective.submittedAt){$("#priorResult").hidden=false;$("#priorResult").textContent=`Previous objective result: ${S.objective.score} / 60 · ${S.objective.passed?"Passed":"Not yet passed"}`}});
-</script></head><body><a class="skip-link" href="#main">Skip to main content</a>
-<header class="site-header"><div class="wrap header-inner">
-<a class="brand" href="../../"><span class="brand-mark">S9</span><span class="brand-copy">
-<strong>INTEGRATED SCIENCE 9</strong><small>Units 05–07 Cumulative Benchmark</small></span></a>
-<div class="header-actions"><a class="nav-button secondary" href="../../../../../grades/grade-09/">Grade 9</a>
-<a class="nav-button" href="../">Assessments</a><button class="icon-button" id="themeToggle" type="button" aria-label="Switch theme">☼</button></div>
-</div></header><nav class="course-breadcrumb"><div class="wrap">
-<a href="../../../../../index.html">High School</a><span>›</span>
-<a href="../../../../../grades/grade-09/">Grade 9</a><span>›</span>
-<a href="../../">Science 9</a><span>›</span><a href="../">Assessments</a><span>›</span>
-<span>Interactive Test</span></div></nav>
-<main id="main">
-<section class="bench-hero" id="intro"><div class="bench-shell"><p class="eyebrow">KH-SCI-IIS9 · After Unit 07 · Transition Benchmark</p>
-<h1>Units 05–07 Cumulative Chapter Test</h1>
-<p class="bench-lead">Ecosystems, biodiversity and origins evidence; atomic structure and periodic patterns; bonding, reactions, chemical energy, rates, and conservation.</p>
-<div class="summary-grid" style="margin-top:2rem">
-<article class="card summary-card"><strong>60</strong><span>Definitive objective questions</span></article>
-<article class="card summary-card"><strong>20 each</strong><span>Unit 05, Unit 06, and Unit 07 diagnostics</span></article>
-<article class="card summary-card"><strong>4 × 10</strong><span>Educator-scored constructed responses</span></article>
-<article class="card summary-card"><strong>80 / 100</strong><span>Recommended overall mastery</span></article>
-</div>
-<div class="notice-strong" style="margin-top:1rem"><strong>Evidence and belief-neutral assessment</strong>
-<p>Unit 05 questions distinguish observation, measurement, scientific inference, methodological naturalism, and worldview interpretation. Personal belief is not scored. Accuracy, evidence classification, reasoning, source fairness, and respect are scored.</p></div>
-<div class="bench-actions"><button class="btn primary" id="startButton" type="button">Begin Objective Test</button>
-<button class="btn" id="resumeButton" type="button">Resume Saved Test</button>
-<a class="btn" href="printable-test.html">Printable Edition</a><a class="btn" href="student-record.html">Student Record</a>
-<a class="btn" href="STUDENT_STUDY_GUIDE.md">Study Guide</a></div><p id="priorResult" hidden></p></div></section>
+  </script>
+  <style>
+   :root{
+  --page:#f3f1eb;
+  --paper:#ffffff;
+  --paper-soft:#faf8f3;
+  --ink:#111315;
+  --muted:#50585d;
+  --navy:#17344a;
+  --navy-deep:#0e2536;
+  --ecology:#4f7657;
+  --atomic:#416f7a;
+  --chemistry:#8a5f4b;
+  --violet:#6e6387;
+  --gold:#a67b35;
+  --success:#4f7c62;
+  --danger:#a24f4f;
+  --line:#cfd5d7;
+  --line-dark:#aeb8bc;
+  --shadow:0 14px 34px rgba(22,42,54,.10);
+  --soft:0 8px 22px rgba(22,42,54,.07);
+  --radius:11px;
+  --radius-small:7px;
+  --max:1160px;
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:"Avenir Next","Segoe UI",Arial,sans-serif;
+}
 
-<section id="assessment" hidden><div class="bench-shell app-layout">
-<article class="card question-panel"><div class="question-top"><span class="question-unit" id="questionUnit"></span><span class="pill" id="questionNumber"></span></div>
-<h2 id="questionPrompt"></h2><div class="options" id="options"></div>
-<div class="app-nav"><button class="btn" id="previousButton" type="button">Previous</button><button class="btn primary" id="nextButton" type="button">Next</button></div></article>
-<aside class="card app-side"><p class="eyebrow">Question map</p><p id="answeredCount">0 of 60 answered</p><div class="question-dots" id="questionDots"></div>
-<button class="btn primary" id="submitButton" type="button" disabled>Submit Objective Test</button></aside></div></section>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:100px;color-scheme:light}
+body{
+  margin:0;
+  min-width:300px;
+  color:var(--ink);
+  background:var(--page);
+  font:400 18px/1.72 var(--sans);
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+body,button,input,select,textarea{font-family:var(--sans)}
+a{color:var(--navy)}
+button{font:inherit;cursor:pointer}
+[hidden]{display:none!important}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap,.bench-shell{width:min(calc(100% - 36px),var(--max));margin-inline:auto}
 
-<section id="results" hidden><div class="bench-shell"><article class="card result-panel"><p class="eyebrow">Objective Result</p>
-<div class="score" id="score"></div><h2 id="resultTitle"></h2><p id="resultMessage"></p>
-<div class="unit-results" id="unitResults"></div><div class="bench-actions no-print">
-<button class="btn primary" id="retakeButton" type="button">Retake Objective Test</button><button class="btn" id="printResults" type="button">Print Results</button>
-<button class="btn" id="exportRecord" type="button">Export Objective Record</button><a class="btn" href="student-record.html">Complete Final Record</a></div></article>
-<div class="review-list" id="reviewList"></div></div></section>
+.skip-link{
+  position:fixed;
+  left:14px;
+  top:14px;
+  z-index:3000;
+  transform:translateY(-180%);
+  padding:10px 14px;
+  border-radius:7px;
+  color:#fff;
+  background:var(--navy-deep);
+  text-decoration:none;
+}
+.skip-link:focus{transform:none}
 
-<section><div class="bench-shell"><div class="section-head"><p class="eyebrow">Constructed section</p>
-<h2>Four responses complete the 100-point benchmark</h2><p>Each response is scored from 0–10 using the educator rubric.</p></div>
-<div class="constructed-grid"><article class="card constructed-card">
-<p class="eyebrow">Unit 05</p><h3>Ecological Evidence, Diversity, and Origins Reasoning</h3>
-<p>A monitored population changes from 800 individuals to 680. At Site A, four species have counts 4, 4, 4, and 4. At Site B, the same four species have counts 13, 1, 1, and 1. Calculate the population percentage change. Compare richness, abundance, evenness, and likely diversity at the two sites. State one direct observation and one causal inference that would require additional evidence. Propose one conservation action and a measurable outcome. Finally, explain the difference among observed microevolution, evidence relevant to speciation, and macroevolutionary historical reconstruction. Distinguish a measured fossil feature from a phylogenetic relationship, and explain how creation, evolutionary, intelligent-design, evolutionary-creation, or undecided interpretations can be discussed without grading personal belief.</p><div class="response-lines"></div></article><article class="card constructed-card">
-<p class="eyebrow">Unit 06</p><h3>Atomic Identity, Isotopes, and Periodic Prediction</h3>
-<p>For ³⁷₁₇Cl⁻, determine the numbers of protons, neutrons, and electrons; atomic number; mass number; and net charge. Using chlorine-35 mass 34.9689 u at 75.76% and chlorine-37 mass 36.9659 u at 24.24%, calculate the weighted atomic mass. Explain why that value is not the mass number of every chlorine atom. Write the neutral chlorine shell configuration, identify its period and group, predict its common simple ion, connect line spectra to quantized energy differences, and identify one limitation of the shell model.</p><div class="response-lines"></div></article><article class="card constructed-card">
-<p class="eyebrow">Unit 07</p><h3>Formulae, Conservation, Energy, and Reaction Rate</h3>
-<p>Construct the neutral formula formed by Ca²⁺ and NO₃⁻ and show the charge audit. Balance CH₄(g) + O₂(g) → CO₂(g) + H₂O(l), then audit C, H, and O atoms. The displayed reaction has ΔH° ≈ −890.3 kJ per mole of methane under the stated conditions. Classify the energy change and explain what a catalyst changes and does not change. Explain why measured mass may decrease in an open gas-producing system even though atoms are conserved. Design a fair comparison of reaction rate using temperature or surface area, including controls and one safety boundary.</p><div class="response-lines"></div></article><article class="card constructed-card bridge-note">
-<p class="eyebrow">Integration</p><h3>Matter and Energy Bridge to Unit 08</h3>
-<p>Trace one carbon atom from atmospheric CO₂ into plant sugar, through a food web, into decomposer or fuel molecules, and back to CO₂. Explain why matter cycles while usable energy flows and becomes less available at higher trophic levels. Use the balanced methane-combustion equation to demonstrate atom conservation. Distinguish chemical potential energy from thermal energy transferred to the surroundings. Explain why conservation of atoms does not mean all transferred energy remains available for biological work. Identify one direct measurement, one model, and one inference in this explanation.</p><div class="response-lines"></div></article></div></div></section>
-</main><footer class="footer"><div class="wrap footer-inner">
-<span>Khaemenes Academy™ · International Integrated Science 9</span>
-<span>Units 05–07 Cumulative Benchmark</span></div></footer>
-<div class="toast" id="toast" role="status" hidden></div></body></html>
+.site-header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  border-top:4px solid var(--gold);
+  border-bottom:1px solid var(--line);
+  background:rgba(255,255,255,.97);
+  box-shadow:0 6px 18px rgba(22,42,54,.08);
+  backdrop-filter:blur(12px);
+}
+.header-inner{
+  min-height:78px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+}
+.brand{
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  color:var(--ink);
+  text-decoration:none;
+}
+.brand-mark{
+  width:48px;
+  height:48px;
+  flex:0 0 48px;
+  display:grid;
+  place-items:center;
+  border:1px solid var(--navy);
+  border-radius:7px;
+  color:#fff;
+  background:var(--navy);
+  font:400 16px/1 var(--serif);
+}
+.brand-copy{display:grid;line-height:1.1}
+.brand-copy strong{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:var(--ink);
+  font:400 16px/1.2 var(--serif);
+  letter-spacing:.08em;
+}
+.brand-copy small{
+  margin-top:5px;
+  color:var(--muted);
+  font-size:12px;
+  letter-spacing:.05em;
+}
+.header-actions{display:flex;align-items:center;gap:8px}
+.nav-button,.icon-button{
+  min-height:42px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:9px 13px;
+  border:1px solid var(--line-dark);
+  border-radius:7px;
+  color:var(--ink);
+  background:#fff;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:400;
+}
+.icon-button{min-width:42px}
+.nav-button:hover,.icon-button:hover{border-color:var(--navy);background:#f4f7f8}
+
+.course-breadcrumb{
+  border-bottom:1px solid var(--line);
+  background:#f7f7f5;
+}
+.course-breadcrumb .wrap{
+  min-height:48px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:8px;
+  color:var(--muted);
+  font-size:13px;
+}
+.course-breadcrumb a{color:var(--navy);text-decoration:none}
+.course-breadcrumb a:hover{text-decoration:underline;text-underline-offset:3px}
+
+.bench-hero{
+  padding:86px 0 72px;
+  border-bottom:1px solid var(--line);
+  background:
+    radial-gradient(circle at 15% 8%,rgba(79,118,87,.13),transparent 28rem),
+    radial-gradient(circle at 50% 4%,rgba(65,111,122,.08),transparent 26rem),
+    radial-gradient(circle at 85% 8%,rgba(138,95,75,.10),transparent 28rem),
+    linear-gradient(180deg,#fff,#f7f6f2);
+  text-align:center;
+}
+.eyebrow{
+  margin:0 0 16px;
+  color:var(--ecology);
+  font-size:13px;
+  font-weight:400;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+}
+h1,h2,h3{margin-top:0;color:var(--ink);font-family:var(--serif);font-weight:400}
+.bench-hero h1{
+  max-width:980px;
+  margin:0 auto 22px;
+  font-size:clamp(54px,7vw,84px);
+  line-height:.98;
+  letter-spacing:-.025em;
+}
+.bench-lead{
+  max-width:880px;
+  margin:0 auto;
+  color:#252b2f;
+  font-size:20px;
+  line-height:1.82;
+}
+.bench-actions{
+  width:min(980px,100%);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:9px;
+  margin:28px auto 0;
+}
+.btn{
+  min-height:46px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:10px 14px;
+  border:1px solid var(--line-dark);
+  border-radius:7px;
+  color:var(--ink);
+  background:#fff;
+  text-decoration:none;
+  text-align:center;
+  font-size:14px;
+  font-weight:400;
+  line-height:1.3;
+}
+.btn:hover{border-color:var(--navy);background:#f2f6f8}
+.btn.primary{color:#fff;border-color:var(--navy);background:var(--navy)}
+
+.summary-grid{
+  width:min(960px,100%);
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin:34px auto 0;
+}
+.summary-card{
+  min-height:114px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:11px;
+  background:#fff;
+  box-shadow:0 7px 18px rgba(22,42,54,.05);
+}
+.summary-card strong{
+  display:block;
+  color:var(--navy);
+  font:400 30px/1 var(--serif);
+}
+.summary-card span{
+  display:block;
+  margin-top:8px;
+  color:var(--muted);
+  font-size:12px;
+  letter-spacing:.07em;
+  text-transform:uppercase;
+}
+
+.card{
+  border:1px solid var(--line);
+  border-radius:11px;
+  background:var(--paper);
+  box-shadow:var(--shadow);
+}
+.assessment-brief{
+  max-width:1040px;
+  margin:26px auto 0;
+  padding:28px;
+  text-align:left;
+}
+.assessment-brief h2{text-align:center;font-size:34px}
+.brief-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.brief-item{
+  padding:16px;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:var(--paper-soft);
+}
+.brief-item strong{
+  display:block;
+  color:var(--navy);
+  font:400 18px/1.25 var(--serif);
+}
+.brief-item p{margin:7px 0 0;color:var(--muted);font-size:14px}
+
+main>section:not(.bench-hero){padding:76px 0}
+main>section:nth-of-type(odd):not(.bench-hero){
+  border-block:1px solid var(--line);
+  background:#f8f7f3;
+}
+.section-head{
+  max-width:900px;
+  margin:0 auto 38px;
+  text-align:center;
+}
+.section-head h2{
+  margin-bottom:15px;
+  font-size:clamp(38px,5vw,62px);
+  line-height:1.05;
+}
+.section-head p{
+  margin:0;
+  color:#343b3f;
+  font-size:18px;
+  line-height:1.75;
+}
+
+.app-layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 320px;
+  gap:18px;
+  align-items:start;
+}
+.question-panel,.app-side,.result-panel,.record-panel{padding:28px}
+.app-side{position:sticky;top:96px}
+.app-side h3{
+  margin-bottom:15px;
+  font-size:26px;
+  text-align:center;
+}
+.question-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:14px;
+  padding-bottom:15px;
+  border-bottom:1px solid var(--line);
+}
+.question-unit{
+  color:var(--ecology);
+  font-size:12px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+#questionNumber{color:var(--muted);font-size:13px}
+.question-panel h2{
+  max-width:850px;
+  margin:24px auto;
+  text-align:center;
+  font-size:clamp(28px,4vw,42px);
+  line-height:1.22;
+}
+.options{display:grid;gap:10px;max-width:900px;margin:auto}
+.option{
+  display:flex;
+  align-items:flex-start;
+  gap:12px;
+  padding:16px;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:var(--paper-soft);
+  cursor:pointer;
+  color:var(--ink);
+}
+.option:hover,.option:has(input:checked){
+  border-color:var(--ecology);
+  background:#f1f7f3;
+}
+.option input{margin-top:5px;accent-color:var(--ecology)}
+.app-nav{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  margin-top:22px;
+}
+.question-dots{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:7px;
+  margin:16px 0;
+}
+.dot{
+  aspect-ratio:1;
+  display:grid;
+  place-items:center;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:var(--paper-soft);
+  color:var(--muted);
+  font-size:12px;
+}
+.dot.current{border-color:var(--navy);color:#fff;background:var(--navy)}
+.dot.answered{color:#fff;background:var(--success);border-color:var(--success)}
+#answeredCount{display:block;text-align:center;color:var(--muted);font-size:13px}
+#submitButton{width:100%;margin-top:12px}
+
+.score{
+  display:block;
+  text-align:center;
+  color:var(--navy);
+  font:400 clamp(58px,9vw,96px)/1 var(--serif);
+}
+#resultTitle,#resultMessage{text-align:center}
+#resultTitle{font-size:42px}
+#resultMessage{color:var(--muted)}
+.unit-results{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
+  margin:22px 0;
+}
+.unit-result,.record-card{
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:var(--paper-soft);
+  text-align:center;
+}
+.unit-result:nth-child(1){border-top:4px solid var(--ecology)}
+.unit-result:nth-child(2){border-top:4px solid var(--atomic)}
+.unit-result:nth-child(3){border-top:4px solid var(--chemistry)}
+.unit-result strong,.record-card strong{
+  display:block;
+  color:var(--navy);
+  font:400 26px/1 var(--serif);
+}
+.review-list{display:grid;gap:10px;margin-top:22px}
+.review-item{
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:var(--paper-soft);
+}
+.review-item.correct{border-left:5px solid var(--success)}
+.review-item.incorrect{border-left:5px solid var(--danger)}
+
+.notice-strong{
+  padding:18px;
+  border:1px solid var(--line);
+  border-left:4px solid var(--gold);
+  border-radius:7px;
+  background:var(--paper-soft);
+}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form-grid label{display:grid;gap:6px;color:var(--muted);font-size:13px}
+.form-grid input,.form-grid select,.form-grid textarea{
+  width:100%;
+  min-height:46px;
+  padding:10px 12px;
+  border:1px solid var(--line-dark);
+  border-radius:7px;
+  color:var(--ink);
+  background:#fff;
+}
+.full{grid-column:1/-1}
+.record-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.constructed-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.constructed-card{padding:22px}
+.constructed-card h3{color:var(--navy);font-size:26px}
+.response-lines{
+  min-height:290px;
+  margin-top:12px;
+  border-bottom:1px solid var(--line);
+  background:repeating-linear-gradient(to bottom,transparent 0 29px,var(--line) 30px);
+}
+.print-question{
+  break-inside:avoid;
+  margin:0 0 16px;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:#fff;
+}
+.toast{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  z-index:2000;
+  max-width:340px;
+  padding:12px 15px;
+  border-radius:7px;
+  color:#fff;
+  background:var(--navy-deep);
+  box-shadow:var(--shadow);
+}
+.footer{
+  padding:28px 0;
+  border-top:1px solid var(--line);
+  color:#fff;
+  background:var(--navy-deep);
+}
+.footer-inner{
+  min-height:56px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  text-align:center;
+  font-size:13px;
+}
+
+@media(max-width:1000px){
+  .app-layout{grid-template-columns:1fr}
+  .app-side{position:static}
+  .unit-results,.record-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:760px){
+  body{font-size:17px}
+  .header-inner{min-height:68px}
+  .brand-copy small{display:none}
+  .header-actions .secondary{display:none}
+  .summary-grid{grid-template-columns:repeat(2,1fr)}
+  .brief-grid,.constructed-grid{grid-template-columns:1fr}
+  .form-grid{grid-template-columns:1fr}
+  .full{grid-column:auto}
+  .footer-inner{flex-direction:column;justify-content:center}
+}
+@media(max-width:580px){
+  .wrap,.bench-shell{width:min(calc(100% - 22px),var(--max))}
+  .bench-hero{padding:62px 0 54px}
+  .bench-hero h1{font-size:clamp(44px,14vw,64px)}
+  .bench-lead{font-size:18px}
+  .summary-grid,.unit-results,.record-grid{grid-template-columns:1fr}
+  .bench-actions .btn,.app-nav .btn{width:100%}
+  .app-nav{flex-direction:column}
+  .question-dots{grid-template-columns:repeat(5,1fr)}
+  .question-panel,.app-side,.result-panel,.record-panel{padding:20px}
+}
+@media print{
+  .site-header,.course-breadcrumb,.bench-actions,.app-side,.app-nav,.toast{display:none!important}
+  body{background:#fff;color:#000;font-size:12pt}
+  .bench-hero,main>section{padding:20px 0}
+  .card{box-shadow:none;border-color:#777}
+  .bench-shell,.wrap{width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{scroll-behavior:auto!important;transition:none!important}
+}
+  </style>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to main content
+  </a>
+  <header class="site-header">
+   <div class="wrap header-inner">
+    <a class="brand" href="../../">
+     <span class="brand-mark">
+      S9
+     </span>
+     <span class="brand-copy">
+      <strong>
+       INTEGRATED SCIENCE 9
+      </strong>
+      <small>
+       Units 05&ndash;07 Cumulative Benchmark
+      </small>
+     </span>
+    </a>
+    <div class="header-actions">
+     <a class="nav-button secondary" href="../../../../../grades/grade-09/">
+      Grade 9
+     </a>
+     <a class="nav-button" href="../">
+      Assessments
+     </a>
+     <button aria-label="Switch color theme" class="icon-button" id="themeToggle" title="Switch color theme" type="button">
+      ☼
+     </button>
+    </div>
+   </div>
+  </header>
+  <nav class="course-breadcrumb">
+   <div class="wrap">
+    <a href="../../../../../index.html">
+     High School
+    </a>
+    <span>
+     &rsaquo;
+    </span>
+    <a href="../../../../../grades/grade-09/">
+     Grade 9
+    </a>
+    <span>
+     &rsaquo;
+    </span>
+    <a href="../../">
+     Science 9
+    </a>
+    <span>
+     &rsaquo;
+    </span>
+    <a href="../">
+     Assessments
+    </a>
+    <span>
+     &rsaquo;
+    </span>
+    <span>
+     Interactive Test
+    </span>
+   </div>
+  </nav>
+  <main id="main">
+   <section class="bench-hero" id="intro">
+    <div class="bench-shell">
+     <p class="eyebrow">
+      KH-SCI-IIS9 &middot; After Unit 07 &middot; Transition Benchmark
+     </p>
+     <h1>
+      Units 05&ndash;07 Cumulative Chapter Test
+     </h1>
+     <p class="bench-lead">
+      Ecosystems, biodiversity and origins evidence; atomic structure and periodic patterns; bonding, reactions, chemical energy, rates, and conservation.
+     </p>
+     <div class="summary-grid" style="margin-top:2rem">
+      <article class="card summary-card">
+       <strong>
+        60
+       </strong>
+       <span>
+        Definitive objective questions
+       </span>
+      </article>
+      <article class="card summary-card">
+       <strong>
+        20 each
+       </strong>
+       <span>
+        Unit 05, Unit 06, and Unit 07 diagnostics
+       </span>
+      </article>
+      <article class="card summary-card">
+       <strong>
+        4 &times; 10
+       </strong>
+       <span>
+        Educator-scored constructed responses
+       </span>
+      </article>
+      <article class="card summary-card">
+       <strong>
+        80 / 100
+       </strong>
+       <span>
+        Recommended overall mastery
+       </span>
+      </article>
+     </div>
+     <article aria-labelledby="assessmentBriefTitle" class="assessment-brief card">
+      <h2 id="assessmentBriefTitle">
+       Before you begin
+      </h2>
+      <div class="brief-grid">
+       <div class="brief-item">
+        <strong>
+         Work independently
+        </strong>
+        <p>
+         Use only the resources your instructor has approved.
+        </p>
+       </div>
+       <div class="brief-item">
+        <strong>
+         Complete every question
+        </strong>
+        <p>
+         Unanswered objective questions count as incorrect.
+        </p>
+       </div>
+       <div class="brief-item">
+        <strong>
+         Progress saves locally
+        </strong>
+        <p>
+         Your responses remain in this browser until submitted or cleared.
+        </p>
+       </div>
+       <div class="brief-item">
+        <strong>
+         Review before submitting
+        </strong>
+        <p>
+         Use the numbered navigator to revisit incomplete questions.
+        </p>
+       </div>
+      </div>
+     </article>
+     <div class="notice-strong" style="margin-top:1rem">
+      <strong>
+       Evidence and belief-neutral assessment
+      </strong>
+      <p>
+       Unit 05 questions distinguish observation, measurement, scientific inference, methodological naturalism, and worldview interpretation. Personal belief is not scored. Accuracy, evidence classification, reasoning, source fairness, and respect are scored.
+      </p>
+     </div>
+     <div class="bench-actions">
+      <button class="btn primary" id="startButton" type="button">
+       Begin Objective Test
+      </button>
+      <button class="btn" id="resumeButton" type="button">
+       Resume Saved Test
+      </button>
+      <a class="btn" href="printable-test.html">
+       Printable Edition
+      </a>
+      <a class="btn" href="student-record.html">
+       Student Record
+      </a>
+      <a class="btn" href="STUDENT_STUDY_GUIDE.md">
+       Study Guide
+      </a>
+     </div>
+     <p hidden="" id="priorResult">
+     </p>
+    </div>
+   </section>
+   <section hidden="" id="assessment">
+    <div class="bench-shell app-layout">
+     <div class="section-head assessment-heading">
+      <p class="eyebrow">
+       Objective assessment
+      </p>
+      <h2>
+       Complete all 60 questions
+      </h2>
+      <p>
+       Work carefully through Units 05&ndash;07, monitor your answered-question count, and submit only after reviewing the complete test.
+      </p>
+     </div>
+     <article class="card question-panel">
+      <div class="question-top">
+       <span class="question-unit" id="questionUnit">
+       </span>
+       <span class="pill" id="questionNumber">
+       </span>
+      </div>
+      <h2 id="questionPrompt">
+      </h2>
+      <div class="options" id="options">
+      </div>
+      <div class="app-nav">
+       <button class="btn" id="previousButton" type="button">
+        Previous
+       </button>
+       <button class="btn primary" id="nextButton" type="button">
+        Next
+       </button>
+      </div>
+     </article>
+     <aside class="card app-side">
+      <h3>
+       Question Navigator
+      </h3>
+      <p class="eyebrow">
+       Question map
+      </p>
+      <p id="answeredCount">
+       0 of 60 answered
+      </p>
+      <div class="question-dots" id="questionDots">
+      </div>
+      <button class="btn primary" disabled="" id="submitButton" type="button">
+       Submit Objective Test
+      </button>
+     </aside>
+    </div>
+   </section>
+   <section hidden="" id="results">
+    <div class="bench-shell">
+     <div class="section-head results-intro">
+      <p class="eyebrow">
+       Assessment results
+      </p>
+      <h2>
+       Review your performance
+      </h2>
+      <p>
+       Use the unit breakdown and question review to identify strengths, corrections, and the next steps required for mastery.
+      </p>
+     </div>
+     <article class="card result-panel">
+      <p class="eyebrow">
+       Objective Result
+      </p>
+      <div class="score" id="score">
+      </div>
+      <h2 id="resultTitle">
+      </h2>
+      <p id="resultMessage">
+      </p>
+      <div class="unit-results" id="unitResults">
+      </div>
+      <div class="bench-actions no-print">
+       <button class="btn primary" id="retakeButton" type="button">
+        Retake Objective Test
+       </button>
+       <button class="btn" id="printResults" type="button">
+        Print Results
+       </button>
+       <button class="btn" id="exportRecord" type="button">
+        Export Objective Record
+       </button>
+       <a class="btn" href="student-record.html">
+        Complete Final Record
+       </a>
+      </div>
+     </article>
+     <div class="review-list" id="reviewList">
+     </div>
+    </div>
+   </section>
+   <section>
+    <div class="bench-shell">
+     <div class="section-head">
+      <p class="eyebrow">
+       Constructed section
+      </p>
+      <h2>
+       Four responses complete the 100-point benchmark
+      </h2>
+      <p>
+       Each response is scored from 0&ndash;10 using the educator rubric.
+      </p>
+     </div>
+     <div class="constructed-grid">
+      <article class="card constructed-card">
+       <p class="eyebrow">
+        Unit 05
+       </p>
+       <h3>
+        Ecological Evidence, Diversity, and Origins Reasoning
+       </h3>
+       <p>
+        A monitored population changes from 800 individuals to 680. At Site A, four species have counts 4, 4, 4, and 4. At Site B, the same four species have counts 13, 1, 1, and 1. Calculate the population percentage change. Compare richness, abundance, evenness, and likely diversity at the two sites. State one direct observation and one causal inference that would require additional evidence. Propose one conservation action and a measurable outcome. Finally, explain the difference among observed microevolution, evidence relevant to speciation, and macroevolutionary historical reconstruction. Distinguish a measured fossil feature from a phylogenetic relationship, and explain how creation, evolutionary, intelligent-design, evolutionary-creation, or undecided interpretations can be discussed without grading personal belief.
+       </p>
+       <div class="response-lines">
+       </div>
+      </article>
+      <article class="card constructed-card">
+       <p class="eyebrow">
+        Unit 06
+       </p>
+       <h3>
+        Atomic Identity, Isotopes, and Periodic Prediction
+       </h3>
+       <p>
+        For &sup3;⁷₁₇Cl⁻, determine the numbers of protons, neutrons, and electrons; atomic number; mass number; and net charge. Using chlorine-35 mass 34.9689 u at 75.76% and chlorine-37 mass 36.9659 u at 24.24%, calculate the weighted atomic mass. Explain why that value is not the mass number of every chlorine atom. Write the neutral chlorine shell configuration, identify its period and group, predict its common simple ion, connect line spectra to quantized energy differences, and identify one limitation of the shell model.
+       </p>
+       <div class="response-lines">
+       </div>
+      </article>
+      <article class="card constructed-card">
+       <p class="eyebrow">
+        Unit 07
+       </p>
+       <h3>
+        Formulae, Conservation, Energy, and Reaction Rate
+       </h3>
+       <p>
+        Construct the neutral formula formed by Ca&sup2;⁺ and NO₃⁻ and show the charge audit. Balance CH₄(g) + O₂(g) &rarr; CO₂(g) + H₂O(l), then audit C, H, and O atoms. The displayed reaction has &Delta;H&deg; &asymp; &minus;890.3 kJ per mole of methane under the stated conditions. Classify the energy change and explain what a catalyst changes and does not change. Explain why measured mass may decrease in an open gas-producing system even though atoms are conserved. Design a fair comparison of reaction rate using temperature or surface area, including controls and one safety boundary.
+       </p>
+       <div class="response-lines">
+       </div>
+      </article>
+      <article class="card constructed-card bridge-note">
+       <p class="eyebrow">
+        Integration
+       </p>
+       <h3>
+        Matter and Energy Bridge to Unit 08
+       </h3>
+       <p>
+        Trace one carbon atom from atmospheric CO₂ into plant sugar, through a food web, into decomposer or fuel molecules, and back to CO₂. Explain why matter cycles while usable energy flows and becomes less available at higher trophic levels. Use the balanced methane-combustion equation to demonstrate atom conservation. Distinguish chemical potential energy from thermal energy transferred to the surroundings. Explain why conservation of atoms does not mean all transferred energy remains available for biological work. Identify one direct measurement, one model, and one inference in this explanation.
+       </p>
+       <div class="response-lines">
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap footer-inner">
+    <span>
+     Khaemenes Academy&trade; &middot; International Integrated Science 9
+    </span>
+    <span>
+     Units 05&ndash;07 Cumulative Benchmark
+    </span>
+   </div>
+  </footer>
+  <div class="toast" hidden="" id="toast" role="status">
+  </div>
+ </body>
+</html>
