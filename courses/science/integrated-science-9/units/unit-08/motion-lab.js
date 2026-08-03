@@ -1,1 +1,140 @@
-"use strict";(()=>{const $=s=>document.querySelector(s),KEY="khaemenes_science_u08_motion_data_v1";let rows=5;function values(){const t=[],x=[];for(let i=0;i<rows;i++){t.push(Number($("#t"+i).value));x.push(Number($("#x"+i).value))}return{t,x}}function valid(d){return d.t.every(Number.isFinite)&&d.x.every(Number.isFinite)&&d.t.every((v,i)=>i===0||v>d.t[i-1])}function draw(d){const svg=$("#motionSvg"),W=760,H=280,p=45,maxT=Math.max(...d.t),minX=Math.min(...d.x),maxX=Math.max(...d.x),spanX=maxX-minX||1,px=t=>p+(t/maxT)*(W-2*p),py=x=>H-p-((x-minX)/spanX)*(H-2*p);const pts=d.t.map((t,i)=>`${px(t)},${py(d.x[i])}`).join(" ");svg.innerHTML=`<line x1="${p}" y1="${H-p}" x2="${W-p}" y2="${H-p}" stroke="currentColor"/><line x1="${p}" y1="${p}" x2="${p}" y2="${H-p}" stroke="currentColor"/><polyline points="${pts}" fill="none" stroke="currentColor" stroke-width="3"/>${d.t.map((t,i)=>`<circle cx="${px(t)}" cy="${py(d.x[i])}" r="5" fill="currentColor"/>`).join("")}<text x="${W/2}" y="${H-8}" text-anchor="middle" fill="currentColor">time / s</text><text x="15" y="${H/2}" transform="rotate(-90 15 ${H/2})" text-anchor="middle" fill="currentColor">position / m</text>`}function analyze(){const d=values();if(!valid(d)){ $("#motionStatus").textContent="Enter finite positions and strictly increasing times.";return}let intervals=[];for(let i=1;i<rows;i++)intervals.push((d.x[i]-d.x[i-1])/(d.t[i]-d.t[i-1]));const totalDistance=d.x.slice(1).reduce((sum,v,i)=>sum+Math.abs(v-d.x[i]),0),disp=d.x.at(-1)-d.x[0],dt=d.t.at(-1)-d.t[0];$("#motionStatus").textContent="Data accepted. Calculations use your entered record.";$("#avgSpeed").textContent=(totalDistance/dt).toFixed(3)+" m/s";$("#avgVelocity").textContent=(disp/dt).toFixed(3)+" m/s";$("#displacement").textContent=disp.toFixed(3)+" m";$("#intervals").innerHTML=intervals.map((v,i)=>`<span class="vector-chip">${i+1}: ${v.toFixed(3)} m/s</span>`).join("");draw(d);localStorage.setItem(KEY,JSON.stringify(d))}function loadPractice(){const p=[0,1,2,3,4],x=[0,0.5,2,4.5,8];p.forEach((v,i)=>{$("#t"+i).value=v;$("#x"+i).value=x[i]});$("#dataLabel").textContent="Practice scenario loaded — not experimental evidence.";analyze()}document.addEventListener("DOMContentLoaded",()=>{$("#analyzeMotion").onclick=analyze;$("#loadPractice").onclick=loadPractice;let d;try{d=JSON.parse(localStorage.getItem(KEY))}catch{}if(d&&d.t?.length===5){d.t.forEach((v,i)=>$("#t"+i).value=v);d.x.forEach((v,i)=>$("#x"+i).value=v);analyze()}})})();
+"use strict";
+(()=>{
+  const $ = selector => document.querySelector(selector);
+  const KEY = "khaemenes_science_u08_motion_data_v1";
+  const rows = 5;
+
+  function values(){
+    const t = [];
+    const x = [];
+    for(let i = 0; i < rows; i++){
+      t.push(Number($("#t" + i).value));
+      x.push(Number($("#x" + i).value));
+    }
+    return {t, x};
+  }
+
+  function valid(data){
+    return (
+      data.t.every(Number.isFinite) &&
+      data.x.every(Number.isFinite) &&
+      data.t.every((value, index) => index === 0 || value > data.t[index - 1])
+    );
+  }
+
+  function draw(data){
+    const svg = $("#motionSvg");
+    const W = 760;
+    const H = 280;
+    const padding = 45;
+
+    const minT = Math.min(...data.t);
+    const maxT = Math.max(...data.t);
+    const timeSpan = maxT - minT;
+
+    const minX = Math.min(...data.x);
+    const maxX = Math.max(...data.x);
+    const positionSpan = maxX - minX || 1;
+
+    const px = time =>
+      padding + ((time - minT) / timeSpan) * (W - 2 * padding);
+
+    const py = position =>
+      H - padding - ((position - minX) / positionSpan) * (H - 2 * padding);
+
+    const points = data.t.map((time, index) =>
+      `${px(time)},${py(data.x[index])}`
+    ).join(" ");
+
+    svg.innerHTML = `
+      <line x1="${padding}" y1="${H-padding}" x2="${W-padding}" y2="${H-padding}" stroke="currentColor"/>
+      <line x1="${padding}" y1="${padding}" x2="${padding}" y2="${H-padding}" stroke="currentColor"/>
+      <polyline points="${points}" fill="none" stroke="currentColor" stroke-width="3"/>
+      ${data.t.map((time, index) =>
+        `<circle cx="${px(time)}" cy="${py(data.x[index])}" r="5" fill="currentColor"/>`
+      ).join("")}
+      <text x="${W/2}" y="${H-8}" text-anchor="middle" fill="currentColor">time / s</text>
+      <text x="15" y="${H/2}" transform="rotate(-90 15 ${H/2})" text-anchor="middle" fill="currentColor">position / m</text>
+      <text x="${padding}" y="${H-25}" text-anchor="start" fill="currentColor">${minT.toFixed(2)} s</text>
+      <text x="${W-padding}" y="${H-25}" text-anchor="end" fill="currentColor">${maxT.toFixed(2)} s</text>
+    `;
+  }
+
+  function analyze(){
+    const data = values();
+
+    if(!valid(data)){
+      $("#motionStatus").textContent =
+        "Enter finite positions and strictly increasing times.";
+      return;
+    }
+
+    const elapsedTime = data.t.at(-1) - data.t[0];
+    if(elapsedTime <= 0){
+      $("#motionStatus").textContent =
+        "The final time must be greater than the initial time.";
+      return;
+    }
+
+    const intervalVelocities = [];
+    for(let i = 1; i < rows; i++){
+      intervalVelocities.push(
+        (data.x[i] - data.x[i - 1]) /
+        (data.t[i] - data.t[i - 1])
+      );
+    }
+
+    const totalDistance = data.x.slice(1).reduce(
+      (sum, value, index) => sum + Math.abs(value - data.x[index]),
+      0
+    );
+    const displacement = data.x.at(-1) - data.x[0];
+
+    $("#motionStatus").textContent =
+      "Data accepted. Calculations use your entered record.";
+    $("#avgSpeed").textContent =
+      (totalDistance / elapsedTime).toFixed(3) + " m/s";
+    $("#avgVelocity").textContent =
+      (displacement / elapsedTime).toFixed(3) + " m/s";
+    $("#displacement").textContent =
+      displacement.toFixed(3) + " m";
+    $("#intervals").innerHTML = intervalVelocities.map((velocity, index) =>
+      `<span class="vector-chip">${index + 1}: ${velocity.toFixed(3)} m/s</span>`
+    ).join("");
+
+    draw(data);
+    localStorage.setItem(KEY, JSON.stringify(data));
+  }
+
+  function loadPractice(){
+    const times = [0, 1, 2, 3, 4];
+    const positions = [0, 0.5, 2, 4.5, 8];
+
+    times.forEach((value, index) => {
+      $("#t" + index).value = value;
+      $("#x" + index).value = positions[index];
+    });
+
+    $("#dataLabel").textContent =
+      "Practice scenario loaded — not experimental evidence.";
+    analyze();
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    $("#analyzeMotion").addEventListener("click", analyze);
+    $("#loadPractice").addEventListener("click", loadPractice);
+
+    let saved;
+    try{
+      saved = JSON.parse(localStorage.getItem(KEY));
+    }catch{
+      saved = null;
+    }
+
+    if(saved && saved.t?.length === rows && saved.x?.length === rows){
+      saved.t.forEach((value, index) => $("#t" + index).value = value);
+      saved.x.forEach((value, index) => $("#x" + index).value = value);
+      analyze();
+    }
+  });
+})();
