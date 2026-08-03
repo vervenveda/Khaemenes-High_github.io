@@ -3,7 +3,7 @@
 **Course code:** KH-SCI-IIS9  
 **Subtitle:** Life, Matter, Energy and Earth Systems  
 **Repository:** `vervenveda/Khaemenes_High.github.io`  
-**Path:** `courses/science/international-integrated-science-9/`
+**Path:** `courses/science/integrated-science-9/`
 
 This directory is the canonical home of Khaemenes Academy's Grade 9 integrated science course.
 
@@ -30,7 +30,7 @@ The course preserves the Khaemenes High system:
 ## Planned directory structure
 
 ```text
-international-integrated-science-9/
+integrated-science-9/
 ├── index.html
 ├── course-map.json
 ├── course-ui.css

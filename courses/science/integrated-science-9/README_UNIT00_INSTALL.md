@@ -5,7 +5,7 @@
 The Science 9 root files must already exist at:
 
 ```text
-courses/science/international-integrated-science-9/
+courses/science/integrated-science-9/
 ```
 
 ## Upload destination
@@ -27,7 +27,7 @@ Uploading `course-map.json` replaces the root course map with a version that mar
 ## Expected route
 
 ```text
-courses/science/international-integrated-science-9/diagnostic/
+courses/science/integrated-science-9/diagnostic/
 ```
 
 ## Post-upload test

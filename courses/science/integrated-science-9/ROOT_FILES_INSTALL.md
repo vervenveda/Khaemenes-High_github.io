@@ -5,7 +5,7 @@
 Upload the contents of this ZIP directly into:
 
 ```text
-courses/science/international-integrated-science-9/
+courses/science/integrated-science-9/
 ```
 
 Do not create an extra nested `Khaemenes_Science_9_Root_Files` folder in the repository.
@@ -44,7 +44,7 @@ When a unit package has been uploaded and validated:
 The Grade 9 catalog should not be changed to `open` until this root route is deployed and tested:
 
 ```text
-courses/science/international-integrated-science-9/
+courses/science/integrated-science-9/
 ```
 
 ## Offline note
