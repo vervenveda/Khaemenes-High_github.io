@@ -1,0 +1,14 @@
+# Unit 02 Student Checklist
+- [ ] Days 1–15 completed
+- [ ] Virtual microscopy passed at 5/6 or higher
+- [ ] Diffusion investigation completed
+- [ ] Membrane transport dataset completed
+- [ ] Surface-area-to-volume model completed
+- [ ] Cell model task submitted
+- [ ] Mastery quiz passed at 16/20 or higher
+- [ ] Objective assessment passed at 24/30 or higher
+- [ ] Two constructed responses completed
+- [ ] Corrections completed
+- [ ] Final reflection recorded
+- [ ] Student record printed or exported
+- [ ] Instructor or parent-educator review completed
