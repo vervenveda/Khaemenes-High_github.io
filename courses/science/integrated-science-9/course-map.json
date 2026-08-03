@@ -32,8 +32,8 @@
     ],
     "mapping_status": "International benchmark synthesis. Jurisdiction-specific review is required before formal standards or credit reporting.",
     "assessment_principle": "Every scored item must have one definitive, defensible answer or an explicit evidence-based rubric.",
-    "release_status": "unit-07-open",
-    "current_release": "Unit 07 — Bonding, Chemical Reactions & Matter"
+    "release_status": "unit-08-open",
+    "current_release": "Unit 08 — Motion, Forces & Energy"
   },
   "mastery_scale": [
     {
@@ -275,10 +275,28 @@
       "weeks": 3,
       "title": "Motion, Forces & Energy",
       "path": "units/unit-08/",
-      "status": "planned",
-      "big_idea": "Changes in motion and energy can be measured, modeled, predicted, and engineered.",
-      "objectives": [],
-      "framework_tags": []
+      "status": "open",
+      "big_idea": "Motion changes when net forces act, momentum tracks interactions, and energy is transferred and transformed while remaining conserved within defined systems.",
+      "objectives": [
+        "Use SI units and distinguish scalar from vector quantities",
+        "Calculate distance, displacement, speed, velocity and acceleration with stated reference frames and directions",
+        "Construct and interpret position–time and velocity–time graphs using slope and area",
+        "Identify forces, draw free-body diagrams and calculate one-dimensional net force",
+        "Apply Newton’s first, second and third laws without confusing interaction pairs or balanced forces",
+        "Distinguish mass from weight and use gravitational field strength near Earth",
+        "Calculate momentum and impulse and apply one-dimensional momentum conservation to defined systems",
+        "Explain how stopping time affects average force while recognizing broader safety factors",
+        "Calculate work, kinetic energy, gravitational potential-energy change, power and efficiency",
+        "Track energy transfer, transformation, dissipation and conservation across defined system boundaries",
+        "Evaluate real engineering designs using evidence, models, uncertainty, accessibility, tradeoffs and safety"
+      ],
+      "framework_tags": [
+        "NGSS HS-PS2-1–3: motion data, force–mass–acceleration, momentum and design",
+        "NGSS HS-PS3-1–3: energy calculations, system models and design",
+        "Cambridge IGCSE Physics 0625 (2026–2028): motion, forces, momentum, energy, work, power and efficiency",
+        "Australian Curriculum V9 physical sciences: forces, motion, energy transfer, transformation and conservation",
+        "IB MYP Sciences and PISA scientific literacy: data, models, systems, risk and communication"
+      ]
     },
     {
       "id": "u09",
