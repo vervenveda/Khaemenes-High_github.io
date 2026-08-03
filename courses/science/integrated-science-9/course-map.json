@@ -32,8 +32,8 @@
     ],
     "mapping_status": "International benchmark synthesis. Jurisdiction-specific review is required before formal standards or credit reporting.",
     "assessment_principle": "Every scored item must have one definitive, defensible answer or an explicit evidence-based rubric.",
-    "release_status": "unit-05-open",
-    "current_release": "Unit 05 — Ecosystems, Evolution & Biodiversity"
+    "release_status": "unit-06-open",
+    "current_release": "Unit 06 — Atomic Structure & Periodic Patterns"
   },
   "mastery_scale": [
     {
@@ -216,10 +216,28 @@
       "weeks": 3,
       "title": "Atomic Structure & Periodic Patterns",
       "path": "units/unit-06/",
-      "status": "planned",
-      "big_idea": "The arrangement and behavior of subatomic particles explain patterns in elements, isotopes, ions, and materials.",
-      "objectives": [],
-      "framework_tags": []
+      "status": "open",
+      "big_idea": "Element identity, isotope composition, electron arrangements, and periodic position connect invisible atomic structure to measurable patterns in matter.",
+      "objectives": [
+        "Distinguish elements, compounds, and mixtures and connect observable properties to particle-level models",
+        "Explain how cathode-ray, scattering, and spectral evidence revised atomic models",
+        "State the relative charges, masses, and locations of protons, neutrons, and electrons",
+        "Use atomic number, mass number, isotope notation, and charge to determine particle counts",
+        "Distinguish isotope mass, mass number, relative atomic mass, and standard atomic weight",
+        "Calculate abundance-weighted relative atomic masses from sourced isotope data",
+        "Write simplified electron configurations for neutral atoms and ions among elements 1–20",
+        "Use spectra as evidence for quantized electron-energy differences while stating model limits",
+        "Explain modern atomic-number ordering, periods, groups, and recurring outer-electron patterns",
+        "Analyze broad trends for metals, nonmetals, Group 1, Group 17, and Group 18 and make bounded predictions",
+        "Evaluate atomic and periodic data sources, model uncertainty, chemical safety, and technological implications"
+      ],
+      "framework_tags": [
+        "NGSS HS-PS1-1: charged atomic substructure and periodic predictions from outer-electron patterns",
+        "Cambridge IGCSE Chemistry 0620/0971 (2026–2028): atomic structure, isotopes, configurations 1–20, and periodic organization",
+        "Australian Curriculum V9 Science: chemical structure across subatomic and macroscopic scales, models, evidence, and inquiry",
+        "NSW Science Stage 4: periodic-table and atomic-structure data interpretation",
+        "IB MYP Sciences and PISA scientific literacy: models, patterns, data, source evaluation, and communication"
+      ]
     },
     {
       "id": "u07",
