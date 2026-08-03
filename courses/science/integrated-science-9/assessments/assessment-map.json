@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "course": "KH-SCI-IIS9",
+  "assessments": [
+    {
+      "id": "units-01-04-cumulative",
+      "title": "Units 01\u201304 Cumulative Chapter Test",
+      "path": "units-01-04/",
+      "status": "open",
+      "after_unit": "u04",
+      "objective_questions": 60,
+      "constructed_responses": 4,
+      "objective_passing_score": "48/60",
+      "recommended_overall_mastery": "80/100"
+    }
+  ]
+}
