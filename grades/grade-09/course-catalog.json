@@ -56,13 +56,20 @@
       "summary": "Reading across world literature, evidence-based writing, grammar, research, speaking, listening, and media literacy."
     },
     {
-      "id": "science-biology",
-      "code": "KH-SCI-BIO",
+      "id": "science-integrated9",
+      "code": "KH-SCI-IIS9",
       "department": "Science",
-      "title": "Biology & Living Systems",
+      "title": "International Integrated Science 9",
       "type": "Core",
-      "status": "planned",
-      "summary": "Cells, genetics, evolution, ecology, body systems, scientific inquiry, ethics, and environmental connections."
+      "status": "open",
+      "path": "../../courses/science/integrated-science-9/",
+      "summary": "A 36-week integrated course in biology, chemistry, physics, Earth and space science, environmental science, engineering, scientific inquiry, and evidence literacy.",
+      "recommended_for": [
+        "Grade 9 core science",
+        "International and homeschool learners",
+        "Foundation, Core, and Extended pathways",
+        "Preparation for later Biology, Chemistry, Physics, and Earth Science courses"
+      ]
     },
     {
       "id": "science-earth",
