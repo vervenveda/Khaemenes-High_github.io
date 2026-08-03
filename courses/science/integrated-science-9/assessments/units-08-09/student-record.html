@@ -1,0 +1,55 @@
+<!doctype html><html lang="en" dir="ltr" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#07131d"><meta name="color-scheme" content="dark light"><title>Units 08–09 Student Record · Khaemenes Science 9</title><link rel="stylesheet" href="../../course-ui.css"><style>
+:root{--bridge:#8fd7e8;--bridge2:#b9afe9;--bridge3:#e4be83;--bridge4:#d89ab8}
+.bench-hero{text-align:center;padding:clamp(4rem,9vw,7rem) 0 3rem}.bench-hero h1{font-size:clamp(2.4rem,7vw,5rem)}.bench-lead{max-width:920px;margin:auto;color:var(--muted);font-size:clamp(1rem,2vw,1.18rem)}.bench-shell{width:min(var(--max),calc(100% - 2rem));margin:auto}.bench-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.65rem;margin-top:1.4rem}.summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem}.summary-card{padding:1rem}.summary-card strong{display:block;font:444 1.7rem/1.1 var(--serif);color:var(--bridge)}.summary-card span{font-size:.76rem;color:var(--muted)}
+.app-layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:1rem;align-items:start}.question-panel,.app-side,.result-panel,.record-panel{padding:1.35rem}.app-side{position:sticky;top:90px}.question-top{display:flex;justify-content:space-between;gap:1rem;align-items:center}.question-unit{color:var(--bridge);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}.question-panel h2{font-size:clamp(1.35rem,4vw,2.15rem);margin:1rem 0}.options{display:grid;gap:.65rem}.option{display:flex;align-items:flex-start;gap:.7rem;padding:.9rem;border:1px solid var(--line);border-radius:var(--radius-small);background:var(--bg-soft);cursor:pointer}.option:hover,.option:has(input:checked){border-color:var(--bridge)}.option input{margin-top:.3rem;accent-color:var(--bridge)}.app-nav{display:flex;justify-content:space-between;gap:.65rem;margin-top:1rem}.question-dots{display:grid;grid-template-columns:repeat(6,1fr);gap:.35rem;margin:1rem 0}.dot{aspect-ratio:1;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;background:var(--bg-soft);color:var(--muted);font-size:.66rem}.dot.current{border-color:var(--bridge);color:var(--bridge)}.dot.answered{color:#07131d;background:var(--success);border-color:var(--success)}
+.score{font:444 clamp(3.2rem,9vw,6.4rem)/1 var(--serif);color:var(--bridge)}.unit-results{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem;margin:1rem 0}.unit-result,.record-card{padding:1rem;border:1px solid var(--line);border-radius:var(--radius-small);background:var(--bg-soft)}.unit-result strong,.record-card strong{display:block;color:var(--bridge);font-size:1.25rem}.review-list{display:grid;gap:.7rem}.review-item{padding:1rem;border:1px solid var(--line);border-radius:var(--radius-small);background:var(--bg-soft)}.review-item.correct{border-inline-start:5px solid var(--success)}.review-item.incorrect{border-inline-start:5px solid var(--danger)}
+.notice-strong{padding:1rem;border:1px solid color-mix(in srgb,var(--bridge) 55%,var(--line));border-radius:var(--radius-small);background:var(--bg-soft)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.form-grid label{display:grid;gap:.35rem;color:var(--muted);font-size:.78rem}.form-grid input,.form-grid select,.form-grid textarea{width:100%;min-height:46px;padding:.7rem;border:1px solid var(--line);border-radius:var(--radius-small);color:var(--text);background:var(--bg-soft)}.full{grid-column:1/-1}.record-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem}.constructed-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.constructed-card{padding:1.2rem}.constructed-card h3{color:var(--bridge)}.response-lines{min-height:310px;margin-top:.8rem;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to bottom,transparent 0 29px,var(--line) 30px)}.print-question{break-inside:avoid;margin:0 0 1rem;padding:1rem;border:1px solid var(--line);border-radius:var(--radius-small)}.print-question ol{margin:.55rem 0 0;padding-left:1.6rem}.answer-sheet{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem}.answer-row{padding:.55rem;border-bottom:1px solid var(--line)}.signature-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:3rem}.signature-line{padding-top:.45rem;border-top:1px solid var(--text);text-align:center;font-size:.78rem}.bridge-note{border-color:var(--bridge3)}
+@media(max-width:980px){.app-layout{grid-template-columns:1fr}.app-side{position:static}.summary-grid,.unit-results,.record-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:720px){.constructed-grid,.form-grid,.summary-grid,.unit-results,.record-grid,.answer-sheet,.signature-grid{grid-template-columns:1fr}.full{grid-column:auto}}@media print{.site-header,.course-breadcrumb,.bench-actions,.app-side,.app-nav,.no-print,.footer,.toast{display:none!important}body{background:white;color:black}.card,.print-question{box-shadow:none;background:white;color:black;border-color:#777}.bench-hero{padding:0 0 1rem}.bench-shell{width:100%}.response-lines{min-height:360px}}
+</style><script>document.addEventListener("DOMContentLoaded",()=>{const k="khaemenes_theme",b=document.querySelector("#themeToggle");function set(t){t=["dark","light"].includes(t)?t:"dark";document.documentElement.dataset.theme=t;localStorage.setItem(k,t);if(b)b.textContent=t==="dark"?"☼":"◐"}set(localStorage.getItem(k)||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"));if(b)b.onclick=()=>set(document.documentElement.dataset.theme==="dark"?"light":"dark")});
+const KEY="khaemenes_science_units08_09_benchmark_v1";let S;try{S=JSON.parse(localStorage.getItem(KEY))||{}}catch{S={}}
+const $=s=>document.querySelector(s);function n(id){const v=Number($(id).value);return Number.isFinite(v)?Math.max(0,Math.min(10,v)):0}
+function render(){const objective=Number(S.objective?.score)||0;$("#objectiveScore").textContent=objective+" / 60";const units=S.objective?.unitScores||{};$("#unit08Score").textContent=`${units["Unit 08"]?.correct||0} / 30`;$("#unit09Score").textContent=`${units["Unit 09"]?.correct||0} / 30`;
+const ids=["cr1","cr2","cr3","cr4"],scores=ids.map(id=>n("#"+id)),constructed=scores.reduce((a,b)=>a+b,0),overall=objective+constructed,allScored=ids.every(id=>$("#"+id).value!==""),objectivePassed=objective>=48,overallPassed=overall>=80;
+$("#constructedScore").textContent=constructed+" / 40";$("#overallScore").textContent=overall+" / 100";$("#masteryStatus").textContent=objectivePassed&&allScored&&overallPassed?"Recommended mastery reached":"Mastery requirements not yet complete";
+S.finalRecord={constructedScores:scores,constructedTotal:constructed,overall,objectivePassed,allConstructedScored:allScored,overallPassed,updatedAt:new Date().toISOString()};localStorage.setItem(KEY,JSON.stringify(S))}
+function exportFinal(){render();const blob=new Blob([JSON.stringify({schema:"khaemenes-science-units08-09-final-record-v1",course:"KH-SCI-IIS9",state:S},null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="KH-SCI-IIS9-units08-09-final-record.json";a.click();URL.revokeObjectURL(url)}
+document.addEventListener("DOMContentLoaded",()=>{const prior=S.finalRecord?.constructedScores||[];["cr1","cr2","cr3","cr4"].forEach((id,i)=>{$("#"+id).value=prior[i]??"";$("#"+id).oninput=render});$("#printRecord").onclick=()=>print();$("#exportFinalRecord").onclick=exportFinal;render()});
+</script></head><body><a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap header-inner">
+<a class="brand" href="../../"><span class="brand-mark">S9</span><span class="brand-copy">
+<strong>INTEGRATED SCIENCE 9</strong><small>Units 08–09 Transition Benchmark</small></span></a>
+<div class="header-actions"><a class="nav-button secondary" href="../../../../../grades/grade-09/">Grade 9</a>
+<a class="nav-button" href="../">Assessments</a><button class="icon-button" id="themeToggle" type="button">☼</button></div>
+</div></header><nav class="course-breadcrumb"><div class="wrap">
+<a href="../../../../../index.html">High School</a><span>›</span>
+<a href="../../../../../grades/grade-09/">Grade 9</a><span>›</span>
+<a href="../../">Science 9</a><span>›</span><a href="../">Assessments</a><span>›</span>
+<span>Student Record</span></div></nav>
+<main id="main"><section class="bench-hero"><div class="bench-shell"><p class="eyebrow">Final 100-Point Record</p>
+<h1>Units 08–09 Benchmark Record</h1><p class="bench-lead">Objective score plus four educator-scored responses.</p></div></section>
+<section><div class="bench-shell"><article class="card record-panel">
+<div class="form-grid"><label>Student name<input type="text" placeholder="Student name"></label><label>Date<input type="date"></label></div>
+<div class="record-grid" style="margin-top:1rem">
+<div class="record-card"><span>Objective</span><strong id="objectiveScore">0 / 60</strong></div>
+<div class="record-card"><span>Unit 08 diagnostic</span><strong id="unit08Score">0 / 30</strong></div>
+<div class="record-card"><span>Unit 09 diagnostic</span><strong id="unit09Score">0 / 30</strong></div>
+<div class="record-card"><span>Constructed</span><strong id="constructedScore">0 / 40</strong></div>
+</div>
+<h2>Constructed-response scores</h2><div class="form-grid">
+<label>Response 1 · Motion and force<input id="cr1" type="number" min="0" max="10" step="1"></label>
+<label>Response 2 · Momentum and energy<input id="cr2" type="number" min="0" max="10" step="1"></label>
+<label>Response 3 · Circuits and magnetism<input id="cr3" type="number" min="0" max="10" step="1"></label>
+<label>Response 4 · Earth-science bridge<input id="cr4" type="number" min="0" max="10" step="1"></label>
+</div>
+<div class="record-grid" style="margin-top:1rem">
+<div class="record-card"><span>Overall</span><strong id="overallScore">0 / 100</strong></div>
+<div class="record-card" style="grid-column:span 3"><span>Status</span><strong id="masteryStatus">Mastery requirements not yet complete</strong></div>
+</div>
+<div class="notice-strong" style="margin-top:1rem"><strong>Recommended mastery requirements</strong>
+<p>At least 48/60 objective, all four constructed responses scored, and at least 80/100 overall. Corrections and retakes are permitted.</p></div>
+<div class="signature-grid"><div class="signature-line">Student signature</div><div class="signature-line">Instructor or parent-educator signature</div></div>
+<div class="bench-actions no-print"><button class="btn primary" id="printRecord">Print Record</button><button class="btn" id="exportFinalRecord">Export Final Record</button><a class="btn" href="./">Return to Test</a></div>
+</article></div></section></main><footer class="footer"><div class="wrap footer-inner">
+<span>Khaemenes Academy™ · International Integrated Science 9</span>
+<span>Units 08–09 Transition Benchmark</span></div></footer>
+<div class="toast" id="toast" role="status" hidden></div></body></html>
