@@ -1,6 +1,387 @@
-<!doctype html><html lang="en" dir="ltr" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Science 9 Assessments</title><link rel="stylesheet" href="../course-ui.css"><script src="../course-ui.js" defer></script></head><body><a class="skip-link" href="#main">Skip to main content</a><header class="site-header"><div class="wrap header-inner"><a class="brand" href="../"><span class="brand-mark">S9</span><span class="brand-copy"><strong>INTEGRATED SCIENCE 9</strong><small>Assessment Hall</small></span></a><div class="header-actions"><a class="nav-button" href="../">Course Home</a><button class="icon-button" id="themeToggle">☼</button></div></div></header><main id="main"><section class="hero"><div class="wrap"><p class="eyebrow">KH-SCI-IIS9 · Assessment Hall</p><h1>Science 9 Assessments</h1><p class="lead">Cumulative benchmarks, transition examinations, final assessment, records, and corrections.</p></div></section><section><div class="wrap" style="display:grid;gap:1rem">
-<article class="card" style="padding:1.4rem"><p class="eyebrow">Open Benchmark</p><h2>Units 01–04 Cumulative Chapter Test</h2><p>Inquiry, cells, homeostasis, and inheritance.</p><div class="actions"><a class="btn primary" href="units-01-04/">Interactive Test</a><a class="btn" href="units-01-04/printable-test.html">Printable Test</a><a class="btn" href="units-01-04/student-record.html">Student Record</a></div></article>
-<article class="card" style="padding:1.4rem"><p class="eyebrow">Open Transition Benchmark</p><h2>Units 05–07 Cumulative Chapter Test</h2><p>Ecosystems, biodiversity, origins evidence, atomic structure, periodic patterns, bonding, reactions, chemical energy, rates, and conservation.</p><div class="actions"><a class="btn primary" href="units-05-07/">Interactive Test</a><a class="btn" href="units-05-07/printable-test.html">Printable Test</a><a class="btn" href="units-05-07/student-record.html">Student Record</a></div></article>
-<article class="card" style="padding:1.4rem"><p class="eyebrow">Open Earth-Science Transition Benchmark</p><h2>Units 08–09 Cumulative Chapter Test</h2><p>Motion, forces, momentum, energy, circuits, magnetism, waves, light, sound, digital information, and Earth-observation systems.</p><div class="actions"><a class="btn primary" href="units-08-09/">Interactive Test</a><a class="btn" href="units-08-09/printable-test.html">Printable Test</a><a class="btn" href="units-08-09/student-record.html">Student Record</a></div></article>
-<article class="card" style="padding:1.6rem;border:2px solid var(--accent)"><p class="eyebrow">Open Course Final</p><h2>Comprehensive Final Examination — Units 00–12</h2><p>Scientific habits, inquiry, biology, ecology, chemistry, physics, electricity, waves, Earth systems, astronomy, information, and sustainable engineering.</p><div class="actions"><a class="btn primary" href="final-exam/">Interactive Exam</a><a class="btn" href="final-exam/printable-exam.html">Printable Exam</a><a class="btn" href="final-exam/formula-reference.html">Formula Reference</a><a class="btn" href="final-exam/student-record.html">Final Record</a></div></article>
-</div></section></main><footer class="footer"><div class="wrap footer-inner"><span>Khaemenes Academy™</span><span>International Integrated Science 9</span></div></footer></body></html>
+<!doctype html>
+<html data-theme="light" dir="ltr" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Science 9 Assessments
+  </title>
+  <script defer="" src="../course-ui.js">
+  </script>
+  <style>
+   :root{
+  --page:#f3f1eb;
+  --paper:#ffffff;
+  --paper-soft:#faf8f3;
+  --ink:#111315;
+  --muted:#50585d;
+  --navy:#17344a;
+  --navy-deep:#0e2536;
+  --science:#355f78;
+  --green:#4f7657;
+  --violet:#6e6387;
+  --gold:#a67b35;
+  --line:#cfd5d7;
+  --line-dark:#aeb8bc;
+  --shadow:0 14px 34px rgba(22,42,54,.10);
+  --radius:11px;
+  --max:1160px;
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:"Avenir Next","Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:100px;color-scheme:light}
+body{
+  margin:0;min-width:300px;color:var(--ink);background:var(--page);
+  font:400 18px/1.72 var(--sans);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+body,button{font-family:var(--sans)}
+a{color:var(--navy)}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{width:min(calc(100% - 36px),var(--max));margin-inline:auto}
+.skip-link{
+  position:fixed;left:14px;top:14px;z-index:3000;transform:translateY(-180%);
+  padding:10px 14px;border-radius:7px;color:#fff;background:var(--navy-deep);text-decoration:none;
+}
+.skip-link:focus{transform:none}
+
+.site-header{
+  position:sticky;top:0;z-index:1000;border-top:4px solid var(--gold);
+  border-bottom:1px solid var(--line);background:rgba(255,255,255,.97);
+  box-shadow:0 6px 18px rgba(22,42,54,.08);backdrop-filter:blur(12px);
+}
+.header-inner{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--ink);text-decoration:none}
+.brand-mark{
+  width:48px;height:48px;display:grid;place-items:center;border:1px solid var(--navy);
+  border-radius:7px;color:#fff;background:var(--navy);font:400 16px/1 var(--serif);
+}
+.brand-copy{display:grid;line-height:1.1}
+.brand-copy strong{font:400 16px/1.2 var(--serif);letter-spacing:.08em}
+.brand-copy small{margin-top:5px;color:var(--muted);font-size:12px}
+.header-actions{display:flex;align-items:center;gap:8px}
+.nav-button,.icon-button{
+  min-height:42px;display:inline-flex;align-items:center;justify-content:center;
+  padding:9px 13px;border:1px solid var(--line-dark);border-radius:7px;
+  color:var(--ink);background:#fff;text-decoration:none;font-size:13px;
+}
+.icon-button{min-width:42px}
+.nav-button:hover,.icon-button:hover{border-color:var(--navy);background:#f4f7f8}
+
+.hero{
+  padding:88px 0 74px;border-bottom:1px solid var(--line);
+  background:
+    radial-gradient(circle at 18% 8%,rgba(53,95,120,.12),transparent 28rem),
+    radial-gradient(circle at 82% 8%,rgba(110,99,135,.10),transparent 28rem),
+    linear-gradient(180deg,#fff,#f7f6f2);
+  text-align:center;
+}
+.eyebrow{
+  margin:0 0 16px;color:var(--science);font-size:13px;letter-spacing:.15em;text-transform:uppercase;
+}
+h1,h2,h3{margin-top:0;color:var(--ink);font-family:var(--serif);font-weight:400}
+.hero h1{
+  max-width:900px;margin:0 auto 20px;font-size:clamp(54px,7vw,84px);
+  line-height:.98;letter-spacing:-.025em;
+}
+.lead{
+  max-width:780px;margin:0 auto;color:#252b2f;font-size:20px;line-height:1.8;
+}
+.assessment-summary{
+  width:min(900px,100%);display:grid;grid-template-columns:repeat(4,1fr);
+  gap:12px;margin:32px auto 0;
+}
+.summary-item{
+  min-height:104px;display:flex;flex-direction:column;justify-content:center;
+  padding:16px;border:1px solid var(--line);border-radius:11px;background:#fff;
+  box-shadow:0 7px 18px rgba(22,42,54,.05);
+}
+.summary-item strong{color:var(--navy);font:400 30px/1 var(--serif)}
+.summary-item span{
+  margin-top:8px;color:var(--muted);font-size:12px;letter-spacing:.07em;text-transform:uppercase;
+}
+
+.assessment-section{padding:78px 0}
+.assessment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.section-head{
+  grid-column:1/-1;max-width:900px;margin:0 auto 28px;text-align:center;
+}
+.section-head h2{margin-bottom:14px;font-size:clamp(38px,5vw,62px);line-height:1.05}
+.section-head p{margin:0;color:#343b3f;font-size:18px}
+
+.card{
+  border:1px solid var(--line);border-radius:11px;background:var(--paper);box-shadow:var(--shadow);
+}
+.assessment-card{
+  min-height:390px;display:flex;flex-direction:column;padding:28px;
+  text-align:center;border-top:5px solid var(--science);
+}
+.assessment-card:nth-of-type(2){border-top-color:var(--green)}
+.assessment-card:nth-of-type(3){border-top-color:var(--violet)}
+.assessment-card.final-card{grid-column:1/-1;border:2px solid var(--gold);border-top-width:6px}
+.assessment-mark{
+  width:72px;height:72px;display:grid;place-items:center;margin:0 auto 18px;
+  border-radius:7px;color:#fff;background:var(--navy);font:400 18px/1 var(--serif);
+}
+.assessment-card h2{margin-bottom:10px;font-size:clamp(28px,3vw,40px);line-height:1.12}
+.assessment-card>p:not(.eyebrow):not(.assessment-meta){color:#343b3f;font-size:16px}
+.assessment-meta{
+  margin:0 0 16px;color:var(--muted);font-size:12px;letter-spacing:.05em;text-transform:uppercase;
+}
+.actions{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin-top:auto;padding-top:22px;
+}
+.btn{
+  min-height:46px;display:inline-flex;align-items:center;justify-content:center;
+  padding:10px 14px;border:1px solid var(--line-dark);border-radius:7px;
+  color:var(--ink);background:#fff;text-decoration:none;text-align:center;font-size:14px;
+}
+.btn:hover{border-color:var(--navy);background:#f2f6f8}
+.btn.primary{color:#fff;border-color:var(--navy);background:var(--navy)}
+
+.footer{padding:28px 0;border-top:1px solid var(--line);color:#fff;background:var(--navy-deep)}
+.footer-inner{min-height:56px;display:flex;justify-content:space-between;align-items:center;gap:18px;font-size:13px}
+
+@media(max-width:760px){
+  body{font-size:17px}
+  .brand-copy small{display:none}
+  .assessment-summary,.assessment-grid{grid-template-columns:1fr 1fr}
+  .assessment-card.final-card{grid-column:1/-1}
+  .footer-inner{flex-direction:column;justify-content:center}
+}
+@media(max-width:580px){
+  .wrap{width:min(calc(100% - 22px),var(--max))}
+  .hero{padding:62px 0 54px}
+  .hero h1{font-size:clamp(44px,14vw,64px)}
+  .lead{font-size:18px}
+  .assessment-summary,.assessment-grid{grid-template-columns:1fr}
+  .assessment-card.final-card{grid-column:auto}
+  .actions .btn{width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{scroll-behavior:auto!important;transition:none!important}
+}
+  </style>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to main content
+  </a>
+  <header class="site-header">
+   <div class="wrap header-inner">
+    <a class="brand" href="../">
+     <span class="brand-mark">
+      S9
+     </span>
+     <span class="brand-copy">
+      <strong>
+       INTEGRATED SCIENCE 9
+      </strong>
+      <small>
+       Assessment Hall
+      </small>
+     </span>
+    </a>
+    <div class="header-actions">
+     <a class="nav-button" href="../">
+      Course Home
+     </a>
+     <button aria-label="Switch color theme" class="icon-button" id="themeToggle" title="Switch color theme" type="button">
+      ☼
+     </button>
+    </div>
+   </div>
+  </header>
+  <main id="main">
+   <section class="hero">
+    <div class="wrap">
+     <p class="eyebrow">
+      KH-SCI-IIS9 &middot; Assessment Hall
+     </p>
+     <h1>
+      Science 9 Assessments
+     </h1>
+     <p class="lead">
+      Cumulative benchmarks, transition examinations, final assessment, records, and corrections.
+     </p>
+     <div aria-label="Assessment overview" class="assessment-summary">
+      <div class="summary-item">
+       <strong>
+        3
+       </strong>
+       <span>
+        Cumulative Benchmarks
+       </span>
+      </div>
+      <div class="summary-item">
+       <strong>
+        1
+       </strong>
+       <span>
+        Comprehensive Final
+       </span>
+      </div>
+      <div class="summary-item">
+       <strong>
+        4
+       </strong>
+       <span>
+        Assessment Records
+       </span>
+      </div>
+      <div class="summary-item">
+       <strong>
+        100%
+       </strong>
+       <span>
+        Course Coverage
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="assessment-section">
+    <div class="wrap assessment-grid">
+     <div class="section-head">
+      <p class="eyebrow">
+       Choose an assessment
+      </p>
+      <h2>
+       Benchmarks, records, and final examination
+      </h2>
+      <p>
+       Open the interactive assessment, print a paper copy, or review the matching student record.
+      </p>
+     </div>
+     <article class="card assessment-card benchmark-card">
+      <p class="eyebrow">
+       Open Benchmark
+      </p>
+      <span class="assessment-mark">
+       01&ndash;04
+      </span>
+      <h2>
+       Units 01&ndash;04 Cumulative Chapter Test
+      </h2>
+      <p class="assessment-meta">
+       Benchmark 01 &middot; Units 01&ndash;04 &middot; Inquiry &middot; Cells &middot; Homeostasis &middot; Inheritance
+      </p>
+      <p>
+       Inquiry, cells, homeostasis, and inheritance.
+      </p>
+      <div class="actions">
+       <a class="btn primary" href="units-01-04/">
+        Interactive Test
+       </a>
+       <a class="btn" href="units-01-04/printable-test.html">
+        Printable Test
+       </a>
+       <a class="btn" href="units-01-04/student-record.html">
+        Student Record
+       </a>
+      </div>
+     </article>
+     <article class="card assessment-card benchmark-card">
+      <p class="eyebrow">
+       Open Transition Benchmark
+      </p>
+      <span class="assessment-mark">
+       05&ndash;07
+      </span>
+      <h2>
+       Units 05&ndash;07 Cumulative Chapter Test
+      </h2>
+      <p class="assessment-meta">
+       Benchmark 02 &middot; Units 05&ndash;07 &middot; Ecology &middot; Atomic Science &middot; Chemistry
+      </p>
+      <p>
+       Ecosystems, biodiversity, origins evidence, atomic structure, periodic patterns, bonding, reactions, chemical energy, rates, and conservation.
+      </p>
+      <div class="actions">
+       <a class="btn primary" href="units-05-07/">
+        Interactive Test
+       </a>
+       <a class="btn" href="units-05-07/printable-test.html">
+        Printable Test
+       </a>
+       <a class="btn" href="units-05-07/student-record.html">
+        Student Record
+       </a>
+      </div>
+     </article>
+     <article class="card assessment-card benchmark-card">
+      <p class="eyebrow">
+       Open Earth-Science Transition Benchmark
+      </p>
+      <span class="assessment-mark">
+       08&ndash;09
+      </span>
+      <h2>
+       Units 08&ndash;09 Cumulative Chapter Test
+      </h2>
+      <p class="assessment-meta">
+       Benchmark 03 &middot; Units 08&ndash;09 &middot; Physics &middot; Electricity &middot; Waves &middot; Information
+      </p>
+      <p>
+       Motion, forces, momentum, energy, circuits, magnetism, waves, light, sound, digital information, and Earth-observation systems.
+      </p>
+      <div class="actions">
+       <a class="btn primary" href="units-08-09/">
+        Interactive Test
+       </a>
+       <a class="btn" href="units-08-09/printable-test.html">
+        Printable Test
+       </a>
+       <a class="btn" href="units-08-09/student-record.html">
+        Student Record
+       </a>
+      </div>
+     </article>
+     <article class="card assessment-card final-card">
+      <p class="eyebrow">
+       Open Course Final
+      </p>
+      <span class="assessment-mark">
+       FINAL
+      </span>
+      <h2>
+       Comprehensive Final Examination &mdash; Units 00&ndash;12
+      </h2>
+      <p class="assessment-meta">
+       Course Final &middot; Units 00&ndash;12 &middot; Comprehensive Integrated Science Examination
+      </p>
+      <p>
+       Scientific habits, inquiry, biology, ecology, chemistry, physics, electricity, waves, Earth systems, astronomy, information, and sustainable engineering.
+      </p>
+      <div class="actions">
+       <a class="btn primary" href="final-exam/">
+        Interactive Exam
+       </a>
+       <a class="btn" href="final-exam/printable-exam.html">
+        Printable Exam
+       </a>
+       <a class="btn" href="final-exam/formula-reference.html">
+        Formula Reference
+       </a>
+       <a class="btn" href="final-exam/student-record.html">
+        Final Record
+       </a>
+      </div>
+     </article>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap footer-inner">
+    <span>
+     Khaemenes Academy&trade;
+    </span>
+    <span>
+     International Integrated Science 9
+    </span>
+   </div>
+  </footer>
+ </body>
+</html>
