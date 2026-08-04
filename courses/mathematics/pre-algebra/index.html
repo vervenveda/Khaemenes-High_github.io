@@ -7,6 +7,7 @@
   <meta name="theme-color" content="#17344a">
   <meta name="color-scheme" content="light">
   <title>Khaemenes Academy High School Mathematics</title>
+  <link rel="canonical" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/">
 
   <style>
     :root{
@@ -324,6 +325,122 @@
     @media(prefers-reduced-motion:reduce){
       *,*:before,*:after{scroll-behavior:auto!important;transition:none!important}
     }
+  
+    /* ======================================================
+       CONNECTED CAMPUS PATCH
+       High School Portal breadcrumb · verified live routes
+       corrected non-clipping header
+       ====================================================== */
+    html,body{width:100%;max-width:100%;overflow-x:hidden}
+    .site-header{border-top:4px solid var(--gold)}
+    .header-inner{
+      min-height:78px;
+      height:auto;
+      display:grid;
+      grid-template-columns:minmax(260px,1fr) minmax(0,auto) auto;
+      gap:12px;
+      padding-block:10px;
+    }
+    .brand,.brand-copy{min-width:0;max-width:100%}
+    .brand-copy{overflow:visible}
+    .brand-copy strong,
+    .brand-copy small{
+      max-width:100%;
+      overflow:visible;
+      text-overflow:clip;
+      white-space:normal;
+      text-wrap:balance;
+    }
+    .brand-copy strong{
+      font-size:clamp(11px,1.1vw,15px);
+      line-height:1.28;
+    }
+    .campus-nav{
+      min-width:0;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:4px;
+    }
+    .campus-nav a{
+      min-height:40px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:7px 9px;
+      border:1px solid transparent;
+      border-radius:7px;
+      color:var(--ink);
+      text-align:center;
+      text-decoration:none;
+      font-size:11px;
+      line-height:1.25;
+      white-space:normal;
+    }
+    .campus-nav a:hover,
+    .campus-nav a:focus-visible{
+      border-color:var(--line-dark);
+      background:#f4f7f8;
+    }
+    .breadcrumb .wrap{justify-content:flex-start}
+    .breadcrumb a{
+      color:var(--navy);
+      font-weight:600;
+    }
+    .teacher-actions{gap:8px}
+    .resource-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .footer-nav{
+      display:flex;
+      justify-content:flex-end;
+      flex-wrap:wrap;
+      gap:6px;
+    }
+    .footer-nav a{
+      padding:6px 8px;
+      border:1px solid rgba(255,255,255,.22);
+      border-radius:7px;
+      color:#fff;
+      text-decoration:none;
+      font-size:12px;
+    }
+    .footer-nav a:hover{background:#fff;color:var(--navy-deep)}
+    .grade-card,.teacher-panel,.pathway-card,.resource-card,
+    .math-snapshot,.snapshot-item{min-width:0;max-width:100%}
+    h1,h2,h3,p,a,span,strong{overflow-wrap:anywhere}
+
+    @media(max-width:1160px){
+      .header-inner{grid-template-columns:minmax(240px,1fr) auto}
+      .campus-nav{
+        grid-column:1/-1;
+        justify-content:center;
+      }
+      .quick-nav{position:static}
+    }
+    @media(max-width:900px){
+      .resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    }
+    @media(max-width:760px){
+      .header-inner{
+        grid-template-columns:minmax(0,1fr) auto;
+        gap:8px 10px;
+      }
+      .brand-mark{
+        width:40px;height:40px;flex-basis:40px;
+      }
+      .brand-copy strong{font-size:10px;letter-spacing:.055em}
+      .brand-copy small{display:block;font-size:9px}
+      .campus-nav{justify-content:flex-start}
+      .campus-nav a{font-size:10px;min-height:36px}
+      .footer-nav{justify-content:center}
+    }
+    @media(max-width:560px){
+      .resource-grid{grid-template-columns:1fr}
+    }
+    @media(max-width:430px){
+      .campus-nav a{flex:1 1 calc(50% - 4px)}
+    }
+
   </style>
 </head>
 
@@ -332,16 +449,23 @@
 
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="../">
+      <a class="brand" href="https://vervenveda.github.io/Khaemenes_High.github.io/" rel="home" aria-label="Khaemenes High School Portal">
         <span class="brand-mark" aria-hidden="true">M</span>
         <span class="brand-copy">
-          <strong>KHAEMENES HIGH MATHEMATICS</strong>
-          <small>Grades 9–12 · Teacher Portal</small>
+          <strong>KHAEMENES HIGH · MATHEMATICS</strong>
+          <small>Grades 9–12 · Academic Department</small>
         </span>
       </a>
 
+      <nav class="campus-nav" aria-label="High school mathematics navigation">
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/">High School Portal</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/grades/grade-09/">Grade 9 Portal</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Pre-Algebra</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/diagnostic/">Diagnostic</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">Assessments</a>
+      </nav>
+
       <div class="header-actions">
-        <a class="nav-button" href="../">High School Home</a>
         <a class="nav-button" href="#teacher">Teacher Portal</a>
       </div>
     </div>
@@ -349,9 +473,9 @@
 
   <nav class="breadcrumb" aria-label="Breadcrumb">
     <div class="wrap">
-      <a href="../">Khaemenes High</a>
+      <a href="https://vervenveda.github.io/Khaemenes_High.github.io/">Khaemenes High School Portal</a>
       <span aria-hidden="true">›</span>
-      <span aria-current="page">Mathematics</span>
+      <span aria-current="page">Mathematics Department</span>
     </div>
   </nav>
 
@@ -364,8 +488,9 @@
 
         <div class="hero-actions">
           <a class="btn primary" href="#grades">Choose a Grade</a>
-          <a class="btn" href="pre-algebra/index.html">Open Grade 9 Pre-Algebra</a>
-          <a class="btn teacher" href="#teacher">Open Teacher Portal</a>
+          <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/">High School Portal</a>
+          <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Open Grade 9 Pre-Algebra</a>
+          <a class="btn teacher" href="#teacher">Teacher Portal</a>
         </div>
 
         <div class="math-snapshot" aria-label="Mathematics program overview">
@@ -407,8 +532,10 @@
             </div>
             <div class="grade-status">Current course package available</div>
             <div class="actions">
-              <a class="btn primary" href="pre-algebra/index.html">Open Grade 9 Pre-Algebra</a>
-              <a class="btn" href="../grades/grade-09/">Open Grade 9 Portal</a>
+              <a class="btn primary" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Open Grade 9 Pre-Algebra</a>
+              <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/grades/grade-09/">Open Grade 9 Portal</a>
+              <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/diagnostic/">Readiness Diagnostic</a>
+              <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">Assessments & Records</a>
             </div>
           </article>
 
@@ -469,9 +596,11 @@
           <div class="teacher-copy">
             <h3>One portal for the complete mathematics program.</h3>
             <p>The teacher area is designed to keep student-facing lessons separate from protected instructional resources while giving teachers a consistent place to manage every grade-level mathematics course.</p>
-            <div class="hero-actions" style="justify-content:flex-start">
-              <a class="btn teacher" href="teacher-portal/index.html">Open Teacher Portal</a>
-              <a class="btn" href="#pathways">Review Course Pathways</a>
+            <div class="hero-actions teacher-actions" style="justify-content:flex-start">
+              <a class="btn teacher" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">Assessments & Records</a>
+              <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/administration-guide.html">Administration Guide</a>
+              <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/records/course-completion-certificate.html">Completion Record</a>
+              <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/diagnostic/">Readiness Diagnostic</a>
             </div>
           </div>
 
@@ -533,24 +662,51 @@
         </div>
 
         <div class="resource-grid">
-          <a class="resource-card" href="pre-algebra/index.html">
+          <a class="resource-card" href="https://vervenveda.github.io/Khaemenes_High.github.io/">
+            <h3>High School Portal</h3>
+            <p>Return to the main Khaemenes High academic and student-services entrance.</p>
+            <strong>Open high school portal →</strong>
+          </a>
+
+          <a class="resource-card" href="https://vervenveda.github.io/Khaemenes_High.github.io/grades/grade-09/">
+            <h3>Grade 9 Portal</h3>
+            <p>Open the full ninth-grade entrance and connected course areas.</p>
+            <strong>Open Grade 9 →</strong>
+          </a>
+
+          <a class="resource-card" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">
             <h3>Grade 9 Pre-Algebra</h3>
-            <p>The completed 36-week mathematics course package.</p>
+            <p>The complete 36-week, 13-unit mathematics course package.</p>
             <strong>Open course →</strong>
           </a>
-          <a class="resource-card" href="teacher-portal/index.html">
-            <h3>Teacher Portal</h3>
-            <p>Instructional guides, records, answer keys, pacing, and administration.</p>
-            <strong>Open portal →</strong>
+
+          <a class="resource-card" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/diagnostic/">
+            <h3>Readiness Diagnostic</h3>
+            <p>Untimed local diagnostic with saved drafts and targeted review pathways.</p>
+            <strong>Open diagnostic →</strong>
           </a>
-          <a class="resource-card" href="#grades">
-            <h3>Grade-Level Halls</h3>
-            <p>Student entrances for grades 9, 10, 11, and 12.</p>
-            <strong>Review grade levels →</strong>
+
+          <a class="resource-card" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">
+            <h3>Assessments & Records</h3>
+            <p>Midterm, final examination, completion evidence, and course records.</p>
+            <strong>Open assessments →</strong>
           </a>
+
+          <a class="resource-card" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/administration-guide.html">
+            <h3>Administration Guide</h3>
+            <p>Testing conditions, scoring, accommodations, corrections, and retention guidance.</p>
+            <strong>Open teacher guide →</strong>
+          </a>
+
+          <a class="resource-card" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/records/course-completion-certificate.html">
+            <h3>Completion Record</h3>
+            <p>Parent-issued certificate and detailed printable course verification record.</p>
+            <strong>Open completion record →</strong>
+          </a>
+
           <a class="resource-card" href="#pathways">
             <h3>Course Pathways</h3>
-            <p>Foundation, core, advanced, applied, and honors options.</p>
+            <p>Foundation, core, advanced, applied, recovery, and enrichment routes.</p>
             <strong>Review pathways →</strong>
           </a>
         </div>
@@ -560,8 +716,14 @@
 
   <footer class="footer">
     <div class="wrap footer-inner">
-      <span>Khaemenes Academy™ · High School Mathematics</span>
-      <span>Grades 9–12 · Teacher Portal</span>
+      <span>Khaemenes Academy™ · High School Mathematics · Grades 9–12</span>
+      <nav class="footer-nav" aria-label="Mathematics footer navigation">
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/">High School Portal</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/grades/grade-09/">Grade 9</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Pre-Algebra</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/diagnostic/">Diagnostic</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">Assessments</a>
+      </nav>
     </div>
   </footer>
 </body>
