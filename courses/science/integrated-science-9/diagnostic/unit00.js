@@ -48,15 +48,19 @@
   function unitComplete(){return REQUIREMENTS.every(requirementComplete)}
 
   function syncRoot(){
-    if(!unitComplete()) return;
+    const isComplete=unitComplete();
     const root=parse(localStorage.getItem(ROOT_KEY),{});
     const completed=new Set(Array.isArray(root.completedUnits)?root.completedUnits:[]);
-    completed.add("u00");
+    if(isComplete) completed.add("u00");
+    else completed.delete("u00");
+    const courseSequenceComplete=["u00","u01","u02","u03","u04","u05","u06","u07","u08","u09","u10","u11","u12"].every(id=>completed.has(id));
     localStorage.setItem(ROOT_KEY,JSON.stringify({
+      ...root,
       pathway:root.pathway||"Core",
       completedUnits:[...completed],
       notes:root.notes&&typeof root.notes==="object"?root.notes:{},
       lastVisitedUnit:"u00",
+      courseSequenceComplete,
       updatedAt:new Date().toISOString()
     }));
   }
@@ -191,6 +195,7 @@
     $("#portfolioForm")?.addEventListener("submit",savePortfolio);
     $("#printPage")?.addEventListener("click",()=>window.print());
     $("#exportUnitRecord")?.addEventListener("click",exportRecord);
+    syncRoot();
     updatePage();
   }
   window.KhaemenesUnit00={loadState:()=>state,saveState(next){state={...state,...next};save();},toast};
