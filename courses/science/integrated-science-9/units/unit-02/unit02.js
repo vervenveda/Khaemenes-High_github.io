@@ -50,3 +50,16 @@
  window.KhaemenesUnit02={loadState:()=>state,saveState(next){state={...state,...next};save()},toast};
  document.addEventListener("DOMContentLoaded",init);
 })();
+/* Shared redesigned-gateway theme layer. */
+(() => {
+  const marker="/courses/science/integrated-science-9/";
+  const path=window.location.pathname;
+  const at=path.indexOf(marker);
+  const base=at>=0 ? path.slice(0,at+marker.length) : new URL("./",window.location.href).pathname;
+  if(document.querySelector('script[data-science-theme-loader]')) return;
+  const script=document.createElement("script");
+  script.src=`${base}science-theme-loader.js`;
+  script.defer=true;
+  script.dataset.scienceThemeLoader="true";
+  document.head.append(script);
+})();
