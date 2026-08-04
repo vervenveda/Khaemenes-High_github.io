@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="description" content="Khaemenes Academy High School Mathematics — grade-level mathematics pathways for grades 9 through 12, with a dedicated teacher portal.">
+  <meta name="description" content="Khaemenes High Mathematics Portal — enter by grade level or browse a complete high-school mathematics course catalog including Pre-Algebra, Algebra, Geometry, Precalculus, Trigonometry, Calculus, Statistics, discrete mathematics, financial mathematics, and college-readiness pathways.">
   <meta name="theme-color" content="#17344a">
   <meta name="color-scheme" content="light">
-  <title>Khaemenes Academy High School Mathematics</title>
+  <title>High School Mathematics · Enter by Grade or Course</title>
   <link rel="canonical" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/">
 
   <style>
@@ -123,17 +123,17 @@
     }
     .eyebrow{
       margin:0 0 16px;color:var(--blue);
-      font-size:13px;letter-spacing:.15em;text-transform:uppercase;
+      font-size:33px;letter-spacing:.15em;text-transform:uppercase;
     }
-    h1,h2,h3{margin-top:0;color:var(--ink);font-family:var(--serif);font-weight:400}
+    h1,h2,h3{margin-top:0;color:var(--ink);font-family:var(--serif);font-weight:333}
     h1{
       max-width:980px;margin:0 auto 22px;
-      font-size:clamp(56px,7vw,86px);
-      line-height:.97;letter-spacing:-.03em;
+      font-size:clamp(24px,7vw,44px);
+      line-height:.77;letter-spacing:-.03em;
     }
     .lead{
       max-width:850px;margin:0 auto;
-      color:#252b2f;font-size:20px;line-height:1.82;
+      color:#252b2f;font-size:18px;line-height:1.82;
     }
     .hero-actions{
       display:flex;flex-wrap:wrap;justify-content:center;gap:9px;
@@ -476,6 +476,278 @@
       .campus-nav a{flex:1 1 calc(50% - 4px)}
     }
 
+  
+    /* ======================================================
+       DUAL-ENTRANCE MATHEMATICS PORTAL
+       Enter by grade · Browse by course
+       ====================================================== */
+    .course-entry{
+      border-color:#111!important;
+      color:#fff!important;
+      background:#111!important;
+    }
+    .placement-note{
+      max-width:980px;
+      margin:24px auto 0;
+      padding:15px 18px;
+      border-left:3px solid var(--navy);
+      border-radius:7px;
+      color:#343b3f;
+      background:#fff;
+      box-shadow:var(--soft);
+      text-align:left;
+    }
+
+    .course-catalog-section{
+      border-block:1px solid var(--line);
+      background:
+        linear-gradient(rgba(255,255,255,.74),rgba(248,247,243,.85)),
+        repeating-linear-gradient(0deg,transparent 0 39px,rgba(17,19,21,.035) 40px);
+    }
+    .catalog-summary{
+      max-width:1040px;
+      display:grid;
+      grid-template-columns:repeat(4,minmax(0,1fr));
+      gap:9px;
+      margin:0 auto 20px;
+    }
+    .catalog-summary span{
+      min-height:86px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      padding:13px;
+      border:1px solid var(--line);
+      border-radius:7px;
+      color:var(--muted);
+      background:#fff;
+      text-align:center;
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.06em;
+    }
+    .catalog-summary strong{
+      display:block;
+      margin-bottom:5px;
+      color:#050505;
+      font:400 28px/1 var(--serif);
+    }
+
+    .catalog-toolbar{
+      display:grid;
+      grid-template-columns:minmax(220px,1fr) 230px auto;
+      gap:11px;
+      align-items:end;
+      margin-bottom:18px;
+      padding:18px;
+      border:1px solid var(--line);
+      border-radius:7px;
+      background:#fff;
+      box-shadow:var(--soft);
+    }
+    .catalog-field{display:grid;gap:7px}
+    .catalog-field label{
+      color:var(--muted);
+      font-size:11px;
+      font-weight:600;
+      letter-spacing:.07em;
+      text-transform:uppercase;
+    }
+    .catalog-field input,
+    .catalog-field select{
+      width:100%;
+      min-height:46px;
+      padding:9px 11px;
+      border:1px solid var(--line-dark);
+      border-radius:7px;
+      color:var(--ink);
+      background:#fff;
+    }
+    .catalog-check{
+      min-height:46px;
+      display:flex;
+      align-items:center;
+      gap:9px;
+      padding:9px 11px;
+      border:1px solid var(--line-dark);
+      border-radius:7px;
+      color:var(--ink);
+      background:#fff;
+      cursor:pointer;
+    }
+    .catalog-check input{
+      width:18px;
+      height:18px;
+      accent-color:#111;
+    }
+
+    .course-catalog-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:12px;
+    }
+    .catalog-card{
+      min-height:455px;
+      display:flex;
+      flex-direction:column;
+      min-width:0;
+      padding:22px;
+      border:1px solid var(--line);
+      border-radius:7px;
+      background:#fff;
+      box-shadow:var(--soft);
+      transition:transform .18s ease,border-color .18s ease;
+    }
+    .catalog-card:hover{
+      transform:translateY(-2px);
+      border-color:var(--navy);
+    }
+    .catalog-card[data-status="live"]{
+      border-top:5px solid #111;
+    }
+    .catalog-top{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:12px;
+    }
+    .catalog-mark{
+      width:54px;
+      height:54px;
+      display:grid;
+      place-items:center;
+      border:1px solid #111;
+      border-radius:7px;
+      color:#fff;
+      background:#111;
+      font:400 18px/1 var(--serif);
+    }
+    .catalog-status{
+      padding:5px 8px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      font-size:9px;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+    .catalog-status.live{
+      border-color:var(--green);
+      color:var(--green);
+      background:#f5faf6;
+    }
+    .catalog-status.planned{
+      color:var(--muted);
+      background:var(--paper-soft);
+    }
+    .catalog-level{
+      margin:20px 0 8px;
+      color:var(--blue);
+      font-size:10px;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+    }
+    .catalog-card h3{
+      min-height:72px;
+      margin-bottom:12px;
+      color:#050505;
+      font:400 clamp(27px,3vw,39px)/1.04 var(--serif);
+      text-wrap:balance;
+    }
+    .catalog-card > p:not(.catalog-level){
+      margin:0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .catalog-badges{
+      display:flex;
+      flex-wrap:wrap;
+      gap:5px;
+      margin-top:16px;
+    }
+    .catalog-badges span{
+      padding:5px 7px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      color:#494f53;
+      background:var(--paper-soft);
+      font-size:10px;
+    }
+    .course-actions{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:7px;
+      margin-top:auto;
+      padding-top:20px;
+    }
+    .planned-action{
+      grid-column:1/-1;
+      min-height:44px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:9px 12px;
+      border:1px dashed var(--line-dark);
+      border-radius:7px;
+      color:var(--muted);
+      background:var(--paper-soft);
+      text-align:center;
+      font-size:12px;
+    }
+    .catalog-empty{
+      max-width:760px;
+      margin:20px auto 0;
+      padding:15px;
+      border:1px solid var(--line);
+      border-radius:7px;
+      background:#fff;
+      text-align:center;
+    }
+
+    .sequence-panel{
+      display:grid;
+      grid-template-columns:minmax(0,1fr) minmax(280px,.75fr);
+      gap:22px;
+      align-items:start;
+      margin-top:28px;
+      padding:26px;
+      border:1px solid var(--line);
+      border-top:5px solid var(--gold);
+      border-radius:7px;
+      background:#fff;
+      box-shadow:var(--soft);
+    }
+    .sequence-panel h3{
+      margin:0;
+      color:#050505;
+      font:400 clamp(31px,4vw,48px)/1.04 var(--serif);
+    }
+    .sequence-panel ol{
+      margin:0;
+      padding-left:1.35rem;
+      color:#343b3f;
+    }
+    .sequence-panel li+li{margin-top:7px}
+
+    @media(max-width:1050px){
+      .course-catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .catalog-summary{grid-template-columns:repeat(2,minmax(0,1fr))}
+    }
+    @media(max-width:820px){
+      .catalog-toolbar{grid-template-columns:1fr 1fr}
+      .catalog-check{grid-column:1/-1}
+      .sequence-panel{grid-template-columns:1fr}
+    }
+    @media(max-width:620px){
+      .course-catalog-grid,
+      .catalog-summary,
+      .catalog-toolbar{
+        grid-template-columns:1fr;
+      }
+      .catalog-check{grid-column:auto}
+      .course-actions{grid-template-columns:1fr}
+      .catalog-card h3{min-height:0}
+    }
+
   </style>
 </head>
 
@@ -488,22 +760,23 @@
         <span class="brand-mark" aria-hidden="true">M</span>
         <span class="brand-copy">
           <strong>KHAEMENES HIGH · MATHEMATICS</strong>
-          <small>Grades 9–12 · Academic Department</small>
+          <small>Enter by Grade or Course</small>
         </span>
       </a>
 
       <nav class="campus-nav" aria-label="Mathematics and Academy navigation">
         <a href="https://vervenveda.github.io/">Verve N Veda</a>
         <a href="https://vervenveda.github.io/Khaemenes_Academy.github.io/">Khaemenes Academy</a>
-        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/">High School Portal</a>
-        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/grades/grade-09/">Grade 9 Portal</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/">High School</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/" aria-current="page">Mathematics Home</a>
+        <a href="#grades">By Grade</a>
+        <a href="#courses">By Course</a>
         <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Pre-Algebra</a>
-        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/diagnostic/">Diagnostic</a>
-        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">Assessments</a>
+        <a href="#teacher">Teacher Portal</a>
       </nav>
 
       <div class="header-actions">
-        <a class="nav-button" href="#teacher">Teacher Portal</a>
+        <a class="nav-button" href="#courses">Course Catalog</a>
       </div>
     </div>
   </header>
@@ -524,32 +797,38 @@
     <section class="hero">
       <div class="wrap">
         <p class="eyebrow">Khaemenes Academy · High School Mathematics</p>
-        <h1>Mathematics for every year of high school.</h1>
-        <p class="lead">A structured four-year mathematics pathway for grades 9 through 12, with room for foundation, core, honors, applied, and advanced study—and a dedicated portal for teachers, records, assessments, and course administration.</p>
+        <h1>Enter mathematics by grade or by course.</h1>
+        <p class="lead">Students may begin with their Grade 9–12 portal or choose the
+          mathematics course that matches their preparation, goals, and pathway.
+          The department supports traditional, advanced, college-readiness, data,
+          financial, and applied mathematics without locking every learner into
+          one rigid yearly sequence.</p>
 
         <div class="hero-actions">
-          <a class="btn primary" href="#grades">Choose a Grade</a>
-          <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Open Grade 9 Pre-Algebra</a>
+          <a class="btn primary" href="#grades">Enter by Grade</a>
+          <a class="btn primary course-entry" href="#courses">Browse by Course</a>
+          <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Open Live Pre-Algebra</a>
           <a class="btn teacher" href="#teacher">Teacher Portal</a>
           <a class="btn network-btn" href="https://vervenveda.github.io/Khaemenes_Academy.github.io/">Khaemenes Academy</a>
           <a class="btn network-btn" href="https://vervenveda.github.io/">Verve N Veda Gateway</a>
         </div>
 
         <div class="math-snapshot" aria-label="Mathematics program overview">
-          <div class="snapshot-item"><strong>4</strong><span>Grade Levels</span></div>
-          <div class="snapshot-item"><strong>36</strong><span>Weeks Per Course</span></div>
-          <div class="snapshot-item"><strong>Multiple</strong><span>Math Pathways</span></div>
-          <div class="snapshot-item"><strong>1</strong><span>Teacher Portal</span></div>
+          <div class="snapshot-item"><strong>4</strong><span>Grade Entrances</span></div>
+          <div class="snapshot-item"><strong>12</strong><span>Course Families</span></div>
+          <div class="snapshot-item"><strong>1</strong><span>Complete Live Course</span></div>
+          <div class="snapshot-item"><strong>3</strong><span>Main Pathways</span></div>
         </div>
       </div>
     </section>
 
     <nav class="quick-nav" aria-label="Mathematics page sections">
       <div class="wrap quick-nav-inner">
-        <a href="#grades">Grades 9–12</a>
+        <a href="#grades">Enter by Grade</a>
+        <a href="#courses">Browse Courses</a>
+        <a href="#pathways">Pathways</a>
         <a href="#teacher">Teacher Portal</a>
-        <a href="#pathways">Course Pathways</a>
-        <a href="#resources">Math Resources</a>
+        <a href="#resources">Resources</a>
       </div>
     </nav>
 
@@ -558,7 +837,7 @@
         <div class="section-head">
           <p class="eyebrow">Grade-level entrances</p>
           <h2>Choose the student’s mathematics year.</h2>
-          <p>Each grade-level hall can open its own course package, assessments, records, progress tools, and supporting mathematics resources.</p>
+          <p>Each grade hall provides a suggested yearly entrance. Placement remains flexible: students may also choose a course directly according to readiness, completed prerequisites, graduation planning, and postsecondary goals.</p>
         </div>
 
         <div class="grade-grid">
@@ -568,9 +847,9 @@
             <p>Build strong algebraic reasoning, number fluency, proportional thinking, graphing, equations, geometry foundations, statistics, and problem-solving habits.</p>
             <div class="course-list">
               <span>Pre-Algebra</span>
-              <span>Algebra Foundations</span>
+              <span>Algebra I</span>
               <span>Geometry Readiness</span>
-              <span>Statistics</span>
+              <span>Statistics Foundations</span>
             </div>
             <div class="grade-status">Current course package available</div>
             <div class="actions">
@@ -588,8 +867,8 @@
             <div class="course-list">
               <span>Algebra I</span>
               <span>Geometry</span>
-              <span>Functions</span>
-              <span>Applied Mathematics</span>
+              <span>Algebra II Readiness</span>
+              <span>Data &amp; Financial Literacy</span>
             </div>
             <div class="grade-status">Grade-level course hall planned</div>
             <div class="coming-soon" aria-disabled="true">Grade 10 Mathematics · Coming Soon</div>
@@ -601,9 +880,9 @@
             <p>Develop higher-level algebra, trigonometry, analytic geometry, probability, statistics, and college or career mathematics.</p>
             <div class="course-list">
               <span>Algebra II</span>
-              <span>Trigonometry</span>
-              <span>Statistics</span>
-              <span>College Mathematics</span>
+              <span>Geometry</span>
+              <span>Precalculus &amp; Trigonometry</span>
+              <span>Probability &amp; Statistics</span>
             </div>
             <div class="grade-status">Grade-level course hall planned</div>
             <div class="coming-soon" aria-disabled="true">Grade 11 Mathematics · Coming Soon</div>
@@ -614,15 +893,292 @@
             <h3>Grade Twelve Mathematics</h3>
             <p>Prepare for graduation, college, technical study, entrepreneurship, and adult life through advanced and applied mathematics pathways.</p>
             <div class="course-list">
-              <span>Precalculus</span>
+              <span>Precalculus &amp; Trigonometry</span>
               <span>Calculus</span>
-              <span>Financial Mathematics</span>
-              <span>Data Science</span>
+              <span>Statistics</span>
+              <span>Discrete Mathematics</span>
+              <span>College Mathematics</span>
             </div>
             <div class="grade-status">Grade-level course hall planned</div>
             <div class="coming-soon" aria-disabled="true">Grade 12 Mathematics · Coming Soon</div>
           </article>
         </div>
+        <p class="placement-note">
+          Grade cards are suggested entrances—not fixed ceilings. An accelerated
+          student may reach Geometry, Algebra II, Precalculus, Statistics, or
+          Calculus earlier; another student may use a foundation or college-readiness
+          course while continuing to build mastery.
+        </p>
+      </div>
+    </section>
+
+    <section id="courses" class="course-catalog-section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Course-based entrance</p>
+          <h2>Browse the complete high-school mathematics catalog.</h2>
+          <p>The traditional sequence is only one route. Students may also enter
+            through statistics, financial mathematics, discrete mathematics,
+            college-readiness, quantitative reasoning, or applied modelling when
+            prerequisites and educational goals support that choice.</p>
+        </div>
+
+        <div class="catalog-summary" aria-label="Course catalog summary">
+          <span><strong>6</strong> foundation and core families</span>
+          <span><strong>3</strong> advanced and data families</span>
+          <span><strong>3</strong> applied and college families</span>
+          <span><strong>1</strong> course complete now</span>
+        </div>
+
+        <div class="catalog-toolbar">
+          <div class="catalog-field">
+            <label for="courseSearch">Search course catalog</label>
+            <input id="courseSearch" type="search"
+              placeholder="Search algebra, calculus, finance, statistics…">
+          </div>
+
+          <div class="catalog-field">
+            <label for="courseCategory">Course family</label>
+            <select id="courseCategory">
+              <option value="all">All course families</option>
+              <option value="foundation">Foundation</option>
+              <option value="core">Core sequence</option>
+              <option value="advanced">Advanced mathematics</option>
+              <option value="data">Statistics and data</option>
+              <option value="applied">Applied mathematics</option>
+              <option value="college">College readiness</option>
+            </select>
+          </div>
+
+          <label class="catalog-check" for="liveOnly">
+            <input id="liveOnly" type="checkbox">
+            <span>Show live courses only</span>
+          </label>
+        </div>
+
+        <div class="course-catalog-grid" id="courseCatalog">
+          
+          <article class="catalog-card" data-category="foundation"
+            data-status="live"
+            data-search="pre-algebra foundation / grade 9 number systems, rational numbers, proportional reasoning, expressions, equations, inequalities, functions, geometry, data, probability, and modelling. 36 weeks 13 units diagnostic midterm & final">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">ℕ</span>
+              <span class="catalog-status live">Live now</span>
+            </div>
+            <p class="catalog-level">Foundation / Grade 9</p>
+            <h3>Pre-Algebra</h3>
+            <p>Number systems, rational numbers, proportional reasoning, expressions, equations, inequalities, functions, geometry, data, probability, and modelling.</p>
+            <div class="catalog-badges"><span>36 weeks</span><span>13 units</span><span>Diagnostic</span><span>Midterm & Final</span></div>
+            <div class="course-actions">
+                <a class="btn primary" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Open Complete Course</a>
+                <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/diagnostic/">Diagnostic</a>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="core"
+            data-status="planned"
+            data-search="algebra i core sequence linear equations and inequalities, functions, systems, exponents, polynomials, quadratics, data, modelling, and algebraic communication. core honors credit recovery">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">x</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">Core Sequence</p>
+            <h3>Algebra I</h3>
+            <p>Linear equations and inequalities, functions, systems, exponents, polynomials, quadratics, data, modelling, and algebraic communication.</p>
+            <div class="catalog-badges"><span>Core</span><span>Honors</span><span>Credit Recovery</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="core"
+            data-status="planned"
+            data-search="geometry core sequence proof, transformations, congruence, similarity, coordinate geometry, circles, measurement, constructions, modelling, and spatial reasoning. core honors geometry with statistics">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">△</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">Core Sequence</p>
+            <h3>Geometry</h3>
+            <p>Proof, transformations, congruence, similarity, coordinate geometry, circles, measurement, constructions, modelling, and spatial reasoning.</p>
+            <div class="catalog-badges"><span>Core</span><span>Honors</span><span>Geometry with Statistics</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="core"
+            data-status="planned"
+            data-search="algebra ii core sequence polynomial, rational, radical, exponential, logarithmic, and trigonometric functions with systems, sequences, probability, and modelling. core honors college preparation">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">x²</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">Core Sequence</p>
+            <h3>Algebra II</h3>
+            <p>Polynomial, rational, radical, exponential, logarithmic, and trigonometric functions with systems, sequences, probability, and modelling.</p>
+            <div class="catalog-badges"><span>Core</span><span>Honors</span><span>College Preparation</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="advanced"
+            data-status="planned"
+            data-search="precalculus & trigonometry advanced / college readiness advanced function analysis, polynomial and rational models, exponential and logarithmic change, trigonometric and polar functions, vectors, and limits preparation. honors ap precalculus trig included">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">sin</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">Advanced / College Readiness</p>
+            <h3>Precalculus & Trigonometry</h3>
+            <p>Advanced function analysis, polynomial and rational models, exponential and logarithmic change, trigonometric and polar functions, vectors, and limits preparation.</p>
+            <div class="catalog-badges"><span>Honors</span><span>AP Precalculus</span><span>Trig Included</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="advanced"
+            data-status="planned"
+            data-search="calculus advanced mathematics limits, continuity, derivatives, integrals, differential equations, accumulation, applications of change, and mathematical justification. calculus honors ap calculus ab ap calculus bc">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">∫</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">Advanced Mathematics</p>
+            <h3>Calculus</h3>
+            <p>Limits, continuity, derivatives, integrals, differential equations, accumulation, applications of change, and mathematical justification.</p>
+            <div class="catalog-badges"><span>Calculus Honors</span><span>AP Calculus AB</span><span>AP Calculus BC</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="data"
+            data-status="planned"
+            data-search="statistics & probability data & decision science study design, sampling, distributions, variation, probability, simulation, inference, data ethics, prediction, and evidence-based conclusions. honors college statistics ap statistics">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">x̄</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">Data & Decision Science</p>
+            <h3>Statistics & Probability</h3>
+            <p>Study design, sampling, distributions, variation, probability, simulation, inference, data ethics, prediction, and evidence-based conclusions.</p>
+            <div class="catalog-badges"><span>Honors</span><span>College Statistics</span><span>AP Statistics</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="applied"
+            data-status="planned"
+            data-search="data & financial literacy applied mathematics personal finance, credit, taxes, insurance, investing, data displays, spreadsheets, risk, consumer decisions, and quantitative claims. core honors life & career applications">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">%</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">Applied Mathematics</p>
+            <h3>Data & Financial Literacy</h3>
+            <p>Personal finance, credit, taxes, insurance, investing, data displays, spreadsheets, risk, consumer decisions, and quantitative claims.</p>
+            <div class="catalog-badges"><span>Core</span><span>Honors</span><span>Life & Career Applications</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="advanced"
+            data-status="planned"
+            data-search="discrete mathematics logic, computing & systems logic, sets, counting, graph theory, recursion, algorithms, networks, combinatorics, optimization, and mathematical structures used in computing. honors computer science bridge problem solving">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">∈</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">Logic, Computing & Systems</p>
+            <h3>Discrete Mathematics</h3>
+            <p>Logic, sets, counting, graph theory, recursion, algorithms, networks, combinatorics, optimization, and mathematical structures used in computing.</p>
+            <div class="catalog-badges"><span>Honors</span><span>Computer Science Bridge</span><span>Problem Solving</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="college"
+            data-status="planned"
+            data-search="college algebra college readiness functions, equations, graphs, systems, polynomial and rational expressions, exponential and logarithmic models, and placement preparation. college algebra clep preparation dual-enrollment bridge">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">f(x)</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">College Readiness</p>
+            <h3>College Algebra</h3>
+            <p>Functions, equations, graphs, systems, polynomial and rational expressions, exponential and logarithmic models, and placement preparation.</p>
+            <div class="catalog-badges"><span>College Algebra</span><span>CLEP Preparation</span><span>Dual-Enrollment Bridge</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="college"
+            data-status="planned"
+            data-search="quantitative reasoning & liberal arts mathematics college & civic mathematics logic, proportional reasoning, finance, voting and apportionment, networks, probability, statistics, modelling, and interpretation for non-stem pathways. college liberal arts quantitative reasoning civic applications">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">≈</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">College & Civic Mathematics</p>
+            <h3>Quantitative Reasoning & Liberal Arts Mathematics</h3>
+            <p>Logic, proportional reasoning, finance, voting and apportionment, networks, probability, statistics, modelling, and interpretation for non-STEM pathways.</p>
+            <div class="catalog-badges"><span>College Liberal Arts</span><span>Quantitative Reasoning</span><span>Civic Applications</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+          <article class="catalog-card" data-category="applied"
+            data-status="planned"
+            data-search="mathematical modelling & data science applied / enrichment data collection, cleaning, visualization, regression, uncertainty, models, validation, coding-supported investigation, and responsible communication. data science mathematical modelling research capstone">
+            <div class="catalog-top">
+              <span class="catalog-mark" aria-hidden="true">Σ</span>
+              <span class="catalog-status planned">Planned</span>
+            </div>
+            <p class="catalog-level">Applied / Enrichment</p>
+            <h3>Mathematical Modelling & Data Science</h3>
+            <p>Data collection, cleaning, visualization, regression, uncertainty, models, validation, coding-supported investigation, and responsible communication.</p>
+            <div class="catalog-badges"><span>Data Science</span><span>Mathematical Modelling</span><span>Research Capstone</span></div>
+            <div class="course-actions">
+                <span class="planned-action" aria-disabled="true">Course hall planned</span>
+              </div>
+          </article>
+
+        </div>
+
+        <p class="catalog-empty" id="catalogEmpty" hidden>
+          No course families match the current search and filter.
+        </p>
+
+        <div class="sequence-panel">
+          <div>
+            <p class="eyebrow" style="text-align:left">Recommended build order</p>
+            <h3>Complete the common sequence first, then expand alternatives.</h3>
+          </div>
+          <ol>
+            <li>Algebra I</li>
+            <li>Geometry</li>
+            <li>Algebra II</li>
+            <li>Statistics &amp; Probability</li>
+            <li>Precalculus &amp; Trigonometry</li>
+            <li>Calculus</li>
+            <li>Applied and college-readiness electives</li>
+          </ol>
+        </div>
+
+        <p class="placement-note">
+          Trigonometry is shown with Precalculus because modern high-school
+          precalculus normally includes substantial trigonometric study. A separate
+          Trigonometry mini-course can still be added later for review, acceleration,
+          or technical applications.
+        </p>
       </div>
     </section>
 
@@ -663,7 +1219,7 @@
         <div class="section-head">
           <p class="eyebrow">Flexible progression</p>
           <h2>Different pathways without limiting potential.</h2>
-          <p>Students can move through foundation, core, and advanced mathematics while maintaining a coherent four-year record.</p>
+          <p>Students can move among foundation, core, advanced, data, college-readiness, and applied mathematics while maintaining a coherent four-year record.</p>
         </div>
 
         <div class="pathway-grid">
@@ -704,6 +1260,13 @@
         </div>
 
         <div class="resource-grid">
+          <a class="resource-card" href="#courses">
+            <h3>Mathematics Course Catalog</h3>
+            <p>Browse all live and planned high-school mathematics courses by family, pathway, and student goal.</p>
+            <strong>Browse courses →</strong>
+          </a>
+
+
           <a class="resource-card network-resource" href="https://vervenveda.github.io/">
             <h3>Verve N Veda Gateway</h3>
             <p>The public front door to the complete Verve N Veda network of learning, research, service, and creative resources.</p>
@@ -770,17 +1333,57 @@
 
   <footer class="footer">
     <div class="wrap footer-inner">
-      <span>Khaemenes Academy™ · High School Mathematics · Grades 9–12</span>
+      <span>Khaemenes Academy™ · High School Mathematics · Enter by Grade or Course</span>
       <nav class="footer-nav" aria-label="Mathematics footer navigation">
         <a href="https://vervenveda.github.io/">Verve N Veda</a>
         <a href="https://vervenveda.github.io/Khaemenes_Academy.github.io/">Khaemenes Academy</a>
-        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/">High School Portal</a>
-        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/grades/grade-09/">Grade 9</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/">High School</a>
+        <a href="#grades">By Grade</a>
+        <a href="#courses">By Course</a>
         <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Pre-Algebra</a>
-        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/diagnostic/">Diagnostic</a>
-        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">Assessments</a>
+        <a href="#teacher">Teacher Portal</a>
       </nav>
     </div>
   </footer>
+
+  <script>
+  (() => {
+    "use strict";
+    const search = document.getElementById("courseSearch");
+    const category = document.getElementById("courseCategory");
+    const liveOnly = document.getElementById("liveOnly");
+    const cards = [...document.querySelectorAll(".catalog-card")];
+    const empty = document.getElementById("catalogEmpty");
+
+    if (!search || !category || !liveOnly || !cards.length || !empty) return;
+
+    function filterCourses() {
+      const query = search.value.trim().toLowerCase();
+      const selectedCategory = category.value;
+      let visible = 0;
+
+      cards.forEach(card => {
+        const matchesSearch = !query || card.dataset.search.includes(query);
+        const matchesCategory =
+          selectedCategory === "all" ||
+          card.dataset.category === selectedCategory;
+        const matchesStatus =
+          !liveOnly.checked || card.dataset.status === "live";
+        const show = matchesSearch && matchesCategory && matchesStatus;
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+
+      empty.hidden = visible !== 0;
+    }
+
+    search.addEventListener("input", filterCourses);
+    category.addEventListener("change", filterCourses);
+    liveOnly.addEventListener("change", filterCourses);
+    filterCourses();
+  })();
+  </script>
+
 </body>
+</html>
 </html>
