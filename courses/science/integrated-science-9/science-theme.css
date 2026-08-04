@@ -1,0 +1,319 @@
+/*
+ Khaemenes Academy — International Integrated Science 9
+ Shared visible light/dark theme layer for redesigned gateways.
+ Loaded after page-local styles so the data-theme control has a real visual effect.
+*/
+@media screen {
+  html[data-theme="dark"] {
+    color-scheme: dark;
+    --page:#07131d;
+    --bg:#07131d;
+    --bg-soft:#0d1d2b;
+    --paper:#0d1d2b;
+    --paper-soft:#112433;
+    --card:#0d1d2b;
+    --ink:#eef5f7;
+    --text:#eef5f7;
+    --muted:#b9c8cf;
+    --navy:#254f6a;
+    --navy-deep:#050e16;
+    --atomic:#78a8c1;
+    --atomic-deep:#a6ccdc;
+    --periodic:#78aa9d;
+    --nuclear:#d4ae68;
+    --gold:#d4ae68;
+    --teal:#77b7aa;
+    --blue:#82add0;
+    --violet:#ac9bd2;
+    --rose:#d78ca4;
+    --final:#9fd5c5;
+    --life:#9fc78a;
+    --chem:#c9a77d;
+    --physics:#8fc8dc;
+    --earth:#b6a9df;
+    --engineering:#e4be83;
+    --success:#72ad8b;
+    --danger:#d17676;
+    --line:#294353;
+    --line-dark:#496676;
+    --shadow:0 14px 34px rgba(0,0,0,.28);
+    --soft:0 8px 22px rgba(0,0,0,.22);
+  }
+
+  html[data-theme="dark"],
+  html[data-theme="dark"] body {
+    background:#07131d !important;
+    color:var(--ink) !important;
+  }
+
+  html[data-theme="dark"] body::before,
+  html[data-theme="dark"] body::after {
+    opacity:.45;
+  }
+
+  html[data-theme="dark"] a {
+    color:#a9d1e2;
+  }
+
+  html[data-theme="dark"] h1,
+  html[data-theme="dark"] h2,
+  html[data-theme="dark"] h3,
+  html[data-theme="dark"] h4,
+  html[data-theme="dark"] strong,
+  html[data-theme="dark"] .brand,
+  html[data-theme="dark"] .brand-copy strong,
+  html[data-theme="dark"] .day-card,
+  html[data-theme="dark"] .unit-card,
+  html[data-theme="dark"] .option {
+    color:var(--ink) !important;
+  }
+
+  html[data-theme="dark"] .site-header {
+    border-color:var(--line) !important;
+    background:rgba(7,19,29,.96) !important;
+    box-shadow:0 6px 20px rgba(0,0,0,.28) !important;
+  }
+
+  html[data-theme="dark"] .course-breadcrumb,
+  html[data-theme="dark"] .quick-nav,
+  html[data-theme="dark"] .course-quick-nav {
+    border-color:var(--line) !important;
+    background:#091824 !important;
+    color:var(--muted) !important;
+  }
+
+  html[data-theme="dark"] .course-breadcrumb a,
+  html[data-theme="dark"] .quick-nav a,
+  html[data-theme="dark"] .course-quick-nav a {
+    color:#a9d1e2 !important;
+  }
+
+  html[data-theme="dark"] .unit-hero,
+  html[data-theme="dark"] .bench-hero,
+  html[data-theme="dark"] .exam-hero,
+  html[data-theme="dark"] .hero {
+    border-color:var(--line) !important;
+    background:
+      radial-gradient(circle at 18% 8%,rgba(92,150,180,.18),transparent 28rem),
+      radial-gradient(circle at 82% 8%,rgba(118,169,157,.14),transparent 28rem),
+      linear-gradient(180deg,#07131d,#0a1a27) !important;
+  }
+
+  html[data-theme="dark"] main > section:nth-of-type(odd):not(.unit-hero):not(.bench-hero):not(.exam-hero):not(.hero),
+  html[data-theme="dark"] main > section:nth-of-type(even):not(.unit-hero):not(.bench-hero):not(.exam-hero):not(.hero) {
+    border-color:var(--line) !important;
+    background:#081722 !important;
+  }
+
+  html[data-theme="dark"] .card,
+  html[data-theme="dark"] .snapshot-item,
+  html[data-theme="dark"] .action-group,
+  html[data-theme="dark"] .week-block,
+  html[data-theme="dark"] .requirement,
+  html[data-theme="dark"] .day-card,
+  html[data-theme="dark"] .resource-card,
+  html[data-theme="dark"] .summary-card,
+  html[data-theme="dark"] .brief-item,
+  html[data-theme="dark"] .assessment-brief,
+  html[data-theme="dark"] .question-panel,
+  html[data-theme="dark"] .app-side,
+  html[data-theme="dark"] .result-panel,
+  html[data-theme="dark"] .record-panel,
+  html[data-theme="dark"] .unit-result,
+  html[data-theme="dark"] .record-card,
+  html[data-theme="dark"] .review-item,
+  html[data-theme="dark"] .constructed-card,
+  html[data-theme="dark"] .formula-card,
+  html[data-theme="dark"] .notice-strong,
+  html[data-theme="dark"] .notice,
+  html[data-theme="dark"] .warning,
+  html[data-theme="dark"] .source-panel,
+  html[data-theme="dark"] .safety-panel,
+  html[data-theme="dark"] .pathway-panel,
+  html[data-theme="dark"] .model-note,
+  html[data-theme="dark"] .worked,
+  html[data-theme="dark"] .checkpoint,
+  html[data-theme="dark"] .example,
+  html[data-theme="dark"] .empty-state,
+  html[data-theme="dark"] .print-question {
+    border-color:var(--line) !important;
+    background:var(--paper) !important;
+    color:var(--ink) !important;
+    box-shadow:var(--shadow);
+  }
+
+  html[data-theme="dark"] .requirement,
+  html[data-theme="dark"] .option,
+  html[data-theme="dark"] .brief-item,
+  html[data-theme="dark"] .unit-result,
+  html[data-theme="dark"] .record-card,
+  html[data-theme="dark"] .review-item,
+  html[data-theme="dark"] .formula,
+  html[data-theme="dark"] .unit-objectives span,
+  html[data-theme="dark"] .pill,
+  html[data-theme="dark"] .status-label {
+    border-color:var(--line) !important;
+    background:var(--paper-soft) !important;
+    color:var(--ink) !important;
+  }
+
+  html[data-theme="dark"] .requirement[data-complete="true"] {
+    border-color:#5d9a78 !important;
+    background:#102a22 !important;
+  }
+
+  html[data-theme="dark"] .nav-button,
+  html[data-theme="dark"] .icon-button,
+  html[data-theme="dark"] .btn,
+  html[data-theme="dark"] button:not(.dot),
+  html[data-theme="dark"] input,
+  html[data-theme="dark"] select,
+  html[data-theme="dark"] textarea {
+    border-color:var(--line-dark) !important;
+    background:#0b1b28 !important;
+    color:var(--ink) !important;
+  }
+
+  html[data-theme="dark"] .btn.primary,
+  html[data-theme="dark"] button.primary,
+  html[data-theme="dark"] .nav-button.primary {
+    border-color:#6d9fb8 !important;
+    background:#28556f !important;
+    color:#fff !important;
+  }
+
+  html[data-theme="dark"] .nav-button:hover,
+  html[data-theme="dark"] .icon-button:hover,
+  html[data-theme="dark"] .btn:hover,
+  html[data-theme="dark"] button:not(.dot):hover {
+    border-color:#8db9cd !important;
+    background:#123044 !important;
+  }
+
+  html[data-theme="dark"] input::placeholder,
+  html[data-theme="dark"] textarea::placeholder {
+    color:#89a0aa;
+  }
+
+  html[data-theme="dark"] option {
+    background:#0b1b28;
+    color:var(--ink);
+  }
+
+  html[data-theme="dark"] .unit-lead,
+  html[data-theme="dark"] .bench-lead,
+  html[data-theme="dark"] .exam-lead,
+  html[data-theme="dark"] .lead,
+  html[data-theme="dark"] .section-head p,
+  html[data-theme="dark"] .day-card p,
+  html[data-theme="dark"] .resource-card p,
+  html[data-theme="dark"] .brief-item p,
+  html[data-theme="dark"] .summary-card span,
+  html[data-theme="dark"] .snapshot-item span,
+  html[data-theme="dark"] .requirement span,
+  html[data-theme="dark"] .notice,
+  html[data-theme="dark"] .progress-text,
+  html[data-theme="dark"] .brand-copy small,
+  html[data-theme="dark"] #resultMessage,
+  html[data-theme="dark"] #answeredCount,
+  html[data-theme="dark"] .form-grid label {
+    color:var(--muted) !important;
+  }
+
+  html[data-theme="dark"] .eyebrow,
+  html[data-theme="dark"] .question-unit,
+  html[data-theme="dark"] .domain-label,
+  html[data-theme="dark"] .day-number + * {
+    color:#9fc9d9 !important;
+  }
+
+  html[data-theme="dark"] .progress-bar {
+    border-color:var(--line-dark) !important;
+    background:#102330 !important;
+  }
+
+  html[data-theme="dark"] .option:hover,
+  html[data-theme="dark"] .option:has(input:checked) {
+    border-color:#78b6aa !important;
+    background:#102a2a !important;
+  }
+
+  html[data-theme="dark"] .dot {
+    border-color:var(--line) !important;
+    background:#102330 !important;
+    color:var(--muted) !important;
+  }
+
+  html[data-theme="dark"] .dot.current {
+    border-color:#9fcfe1 !important;
+    background:#20465d !important;
+    color:#fff !important;
+  }
+
+  html[data-theme="dark"] .dot.answered {
+    border-color:var(--success) !important;
+    background:var(--success) !important;
+    color:#06110d !important;
+  }
+
+  html[data-theme="dark"] .review-item.correct {
+    border-inline-start-color:var(--success) !important;
+  }
+
+  html[data-theme="dark"] .review-item.incorrect {
+    border-inline-start-color:var(--danger) !important;
+  }
+
+  html[data-theme="dark"] .response-lines {
+    border-color:var(--line) !important;
+    background:
+      repeating-linear-gradient(
+        to bottom,
+        transparent 0 29px,
+        var(--line) 30px
+      ) !important;
+  }
+
+  html[data-theme="dark"] table {
+    color:var(--ink);
+  }
+
+  html[data-theme="dark"] th,
+  html[data-theme="dark"] td {
+    border-color:var(--line) !important;
+  }
+
+  html[data-theme="dark"] th {
+    background:#102433 !important;
+  }
+
+  html[data-theme="dark"] tr:nth-child(even) td {
+    background:#0b1a26;
+  }
+
+  html[data-theme="dark"] dialog {
+    border-color:var(--line);
+    background:var(--paper);
+    color:var(--ink);
+  }
+
+  html[data-theme="dark"] dialog::backdrop {
+    background:rgba(0,0,0,.72);
+  }
+
+  html[data-theme="dark"] .footer {
+    border-color:var(--line) !important;
+    background:#040d14 !important;
+  }
+
+  html[data-theme="dark"] .toast {
+    border:1px solid var(--line);
+    background:#102b3d !important;
+    color:#fff !important;
+  }
+
+  html[data-theme="dark"] ::selection {
+    background:#5c8da5;
+    color:#fff;
+  }
+}
