@@ -36,16 +36,21 @@
     return false;
   }
   function unitComplete() { return REQUIREMENTS.every(isComplete); }
-  function syncRoot() {
-    if (!unitComplete()) return;
-    const root = parse(localStorage.getItem(ROOT_KEY), {});
-    const completed = new Set(Array.isArray(root.completedUnits) ? root.completedUnits : []);
-    completed.add("u04");
-    localStorage.setItem(ROOT_KEY, JSON.stringify({
+  function syncRoot(){
+    const isComplete=unitComplete();
+    const root=parse(localStorage.getItem(ROOT_KEY),{});
+    const completed=new Set(Array.isArray(root.completedUnits)?root.completedUnits:[]);
+    if(isComplete) completed.add("u04");
+    else completed.delete("u04");
+    const courseSequenceComplete=["u00","u01","u02","u03","u04","u05","u06","u07","u08","u09","u10","u11","u12"].every(id=>completed.has(id));
+    localStorage.setItem(ROOT_KEY,JSON.stringify({
       ...root,
-      completedUnits: [...completed],
-      lastVisitedUnit: "u04",
-      updatedAt: new Date().toISOString()
+      pathway:root.pathway||"Core",
+      completedUnits:[...completed],
+      notes:root.notes&&typeof root.notes==="object"?root.notes:{},
+      lastVisitedUnit:"u04",
+      courseSequenceComplete,
+      updatedAt:new Date().toISOString()
     }));
   }
   function save() {
@@ -171,6 +176,7 @@
     });
     $("#printPage")?.addEventListener("click", () => window.print());
     $("#exportUnitRecord")?.addEventListener("click", exportRecord);
+    syncRoot();
     updatePage();
   });
 
