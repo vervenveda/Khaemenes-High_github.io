@@ -1,192 +1,1839 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Khaemenes Pre-Algebra readiness diagnostic with local-only results and targeted feedback.">
-<meta name="theme-color" content="#0b1730">
-<title>Pre-Algebra Readiness Diagnostic · Khaemenes High</title>
-<style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Khaemenes Global Pre-Algebra readiness diagnostic with local draft recovery, grouped readiness feedback, targeted unit review, printable results, and JSON export.">
+  <meta name="theme-color" content="#f2efe8">
+  <title>Pre-Algebra Readiness Diagnostic · Khaemenes High</title>
 
-:root{
-  --bg:#08111f;--bg2:#0d1a2e;--panel:#12213a;--panel2:#172946;
-  --text:#f5f0e6;--muted:#b9c5d8;--line:rgba(255,255,255,.14);
-  --gold:#e2bd65;--gold2:#f4d995;--blue:#8dc7ff;--green:#8ce0b4;
-  --violet:#b49bff;--rose:#f0a7c8;--danger:#ff9f9f;
-  --shadow:0 24px 60px rgba(0,0,0,.28);--r:21px;--rs:9px;--max:1240px;
-  --serif:"Cinzel","Baskerville","Palatino Linotype",serif;
-  --sans:"Avenir Next","Brandon Grotesque","Segoe UI",system-ui,sans-serif
-}
-[data-theme="light"]{
-  --bg:#f3efe7;--bg2:#faf7f0;--panel:#fffdf8;--panel2:#f5efe2;
-  --text:#16233b;--muted:#58667a;--line:rgba(22,35,59,.16);
-  --gold:#9a6c13;--gold2:#b78425;--blue:#1d5f96;--green:#237b56;
-  --violet:#6545a3;--rose:#9a416b;--danger:#9d2f2f;--shadow:0 22px 55px rgba(43,38,29,.12)
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;color:var(--text);background:
-radial-gradient(circle at 8% -5%,rgba(141,199,255,.13),transparent 30rem),
-radial-gradient(circle at 95% 8%,rgba(226,189,101,.12),transparent 28rem),var(--bg);
-font:17px/1.68 var(--sans)}
-a{color:inherit}button,input,select{font:inherit}button{cursor:pointer}
-[hidden]{display:none!important}
-.wrap{width:min(var(--max),calc(100% - 2rem));margin-inline:auto}
-.skip{position:fixed;left:1rem;top:-5rem;z-index:1000;padding:.7rem 1rem;background:var(--gold);color:#111;border-radius:var(--rs);font-weight:800}.skip:focus{top:1rem}
-:focus-visible{outline:3px solid var(--gold2);outline-offset:3px}
-.site-header{position:sticky;top:0;z-index:100;border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(18px)}
-.header-inner{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:1rem}
-.brand{display:flex;align-items:center;gap:.8rem;text-decoration:none;min-width:0}
-.brand-mark{width:44px;height:44px;flex:0 0 44px;display:grid;place-items:center;border:1px solid color-mix(in srgb,var(--gold) 60%,transparent);border-radius:50%;color:var(--gold2);font-family:var(--serif);font-weight:800}
-.brand-copy{display:grid;line-height:1.1}.brand-copy strong{font:700 .96rem/1.2 var(--serif);letter-spacing:.11em}.brand-copy small{margin-top:.25rem;color:var(--muted);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase}
-.header-actions{display:flex;gap:.5rem;align-items:center}.nav-button,.theme-button{min-height:42px;padding:.55rem .75rem;border:1px solid var(--line);border-radius:var(--rs);background:var(--panel);color:var(--text);text-decoration:none;font-weight:800}
-.hero{padding:clamp(4.5rem,9vw,7.5rem) 0 3.8rem;text-align:center}
-.eyebrow{margin:0 0 .8rem;color:var(--gold2);font-size:.78rem;font-weight:900;letter-spacing:.2em;text-transform:uppercase}
-h1,h2,h3,h4{font-family:var(--serif);line-height:1.16;margin-top:0}
-h1{max-width:980px;margin:0 auto 1rem;font-size:clamp(2.7rem,7vw,5.8rem)}
-.hero p.lead{max-width:800px;margin:0 auto;color:var(--muted);font-size:clamp(1.05rem,2vw,1.25rem)}
-.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:.7rem;margin-top:1.7rem}
-.btn{min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.72rem 1rem;border:1px solid var(--line);border-radius:11px;background:var(--panel);color:var(--text);text-decoration:none;font-weight:850}
-.btn.primary{background:var(--gold);border-color:var(--gold);color:#16120a}.btn:hover{transform:translateY(-1px)}
-section{padding:4.5rem 0}.section-head{max-width:780px;margin:0 auto 2rem;text-align:center}.section-head h2{font-size:clamp(2rem,4vw,3.5rem);margin-bottom:.65rem}.section-head p{margin:0;color:var(--muted)}
-.card{border:1px solid var(--line);border-radius:var(--r);background:linear-gradient(145deg,var(--panel),color-mix(in srgb,var(--panel2) 85%,transparent));box-shadow:var(--shadow)}
-.grid{display:grid;gap:1rem}
-.notice{padding:1rem;border:1px solid color-mix(in srgb,var(--gold) 45%,var(--line));border-radius:11px;background:color-mix(in srgb,var(--gold) 7%,var(--panel));color:var(--muted)}
-.field{display:grid;gap:.35rem}.field label{font-size:.78rem;font-weight:850;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.field input,.field select{width:100%;min-height:46px;padding:.65rem .8rem;border:1px solid var(--line);border-radius:var(--rs);background:var(--bg2);color:var(--text)}
-.pill{display:inline-flex;align-items:center;padding:.25rem .55rem;border:1px solid var(--line);border-radius:99px;color:var(--muted);font-size:.68rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
-.status-open{color:var(--green)}.status-connected{color:var(--blue)}.status-planned{color:var(--gold2)}
-.footer{padding:2.5rem 0;border-top:1px solid var(--line);color:var(--muted)}.footer-inner{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-@media(max-width:760px){body{font-size:16px}.brand-copy small{display:none}.header-actions .nav-button.secondary{display:none}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
-@media print{.site-header,.actions,.no-print,.footer{display:none!important}body{background:#fff;color:#111}.card{box-shadow:none;break-inside:avoid}}
+  <style>
+    :root,
+    html[data-theme="light"],
+    html[data-theme="dark"]{
+      color-scheme:light;
+      --bg:#ece9e2;
+      --bg2:#f6f3ed;
+      --panel:#fffefa;
+      --panel2:#f5f1e8;
+      --text:#0b0b0b;
+      --muted:#4c4b47;
+      --line:#c9c2b6;
+      --gold:#b48a42;
+      --gold2:#76551d;
+      --blue:#244c65;
+      --green:#395f45;
+      --violet:#503d70;
+      --rose:#7b3f52;
+      --danger:#8a3333;
+      --shadow:0 18px 44px rgba(30,27,22,.09);
+      --math:"Cambria Math","STIX Two Math","Latin Modern Math","Times New Roman",serif;
+      --sans:"Avenir Next","Brandon Grotesque","Segoe UI",Arial,sans-serif;
+      --max:1240px;
+    }
+    html[data-theme="dark"]{
+      --bg:#dedbd4;
+      --bg2:#ebe8e1;
+      --panel:#f8f6f1;
+      --panel2:#e9e5dc;
+      --text:#050505;
+      --muted:#3f3e3a;
+      --line:#aaa397;
+      --shadow:0 18px 44px rgba(18,17,15,.12);
+    }
 
-.diagnostic-layout{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:1rem;align-items:start}
-.question-panel{padding:1.4rem}
-.question-top{display:flex;justify-content:space-between;gap:1rem;align-items:center}
-.domain{color:var(--blue);font-size:.75rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase}
-.question-panel h2{font-size:clamp(1.5rem,4vw,2.4rem);margin:1.1rem 0}
-.options{display:grid;gap:.7rem}.option{display:flex;gap:.75rem;align-items:flex-start;padding:1rem;border:1px solid var(--line);border-radius:11px;background:var(--bg2);cursor:pointer}.option:hover{border-color:var(--blue)}.option input{margin-top:.3rem;accent-color:var(--gold)}
-.diagnostic-nav{display:flex;justify-content:space-between;gap:.7rem;margin-top:1.2rem}.diagnostic-nav button{min-height:44px;padding:.6rem .9rem;border:1px solid var(--line);border-radius:var(--rs);background:var(--panel2);color:var(--text);font-weight:850}.diagnostic-nav button.primary{background:var(--gold);border-color:var(--gold);color:#16120a}
-.side{position:sticky;top:92px;padding:1.25rem}.question-dots{display:grid;grid-template-columns:repeat(6,1fr);gap:.4rem;margin:1rem 0}.dot{aspect-ratio:1;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;background:var(--bg2);color:var(--muted);font-size:.7rem;font-weight:900}.dot.current{border-color:var(--gold);color:var(--gold2)}.dot.answered{background:var(--green);color:#101711;border-color:var(--green)}
-.result{padding:1.4rem}.score{font:700 clamp(3rem,8vw,6rem)/1 var(--serif);color:var(--gold2)}.domain-grid{grid-template-columns:repeat(3,1fr)}.domain-card{padding:1rem}.domain-card strong{font-size:1.3rem;color:var(--blue)}.domain-card p{margin:.35rem 0 0;color:var(--muted);font-size:.82rem}
-.review-list{display:grid;gap:.8rem;margin-top:1rem}.review-item{padding:1rem;border:1px solid var(--line);border-radius:11px;background:var(--bg2)}.review-item.correct{border-left:5px solid var(--green)}.review-item.incorrect{border-left:5px solid var(--danger)}.review-item p{margin:.35rem 0;color:var(--muted)}
-@media(max-width:900px){.diagnostic-layout{grid-template-columns:1fr}.side{position:static}}
-@media(max-width:700px){.domain-grid{grid-template-columns:1fr}}
-</style>
+    *{box-sizing:border-box}
+    html{
+      width:100%;
+      max-width:100%;
+      overflow-x:hidden;
+      scroll-behavior:smooth;
+      scroll-padding-top:96px;
+      background:var(--bg);
+    }
+    body{
+      width:100%;
+      max-width:100%;
+      min-height:100vh;
+      margin:0;
+      overflow-x:hidden;
+      color:var(--text);
+      background:
+        linear-gradient(rgba(255,255,255,.56),rgba(255,255,255,.14)),
+        repeating-linear-gradient(90deg,transparent 0 54px,rgba(11,11,11,.025) 55px),
+        var(--bg);
+      font:400 17px/1.72 var(--sans);
+      letter-spacing:.003em;
+    }
+    a{color:inherit}
+    button,input,select,textarea{font:inherit}
+    button{cursor:pointer}
+    [hidden]{display:none!important}
+    .wrap{width:min(var(--max),calc(100% - 34px));margin-inline:auto}
+    .grid{display:grid;gap:1rem}
+    .card{
+      min-width:0;
+      max-width:100%;
+      overflow:hidden;
+      border:1px solid var(--line);
+      border-radius:7px;
+      background:var(--panel);
+      box-shadow:var(--shadow);
+    }
+    :focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    .skip{
+      position:fixed;
+      z-index:2000;
+      inset-inline-start:14px;
+      top:-80px;
+      padding:10px 14px;
+      border-radius:7px;
+      color:#fff;
+      background:#111;
+      text-decoration:none;
+    }
+    .skip:focus{top:14px}
+
+    /* Corrected non-clipping campus header */
+    .site-header{
+      position:sticky;
+      top:0;
+      z-index:1000;
+      width:100%;
+      border-top:3px solid #111;
+      border-bottom:1px solid var(--line);
+      background:rgba(255,254,250,.96);
+      backdrop-filter:blur(14px);
+    }
+    html[data-theme="dark"] .site-header{background:rgba(248,246,241,.96)}
+    .header-inner{
+      min-height:76px;
+      height:auto;
+      display:grid;
+      grid-template-columns:minmax(270px,1fr) minmax(0,auto) auto;
+      align-items:center;
+      gap:14px;
+      padding-block:10px;
+    }
+    .brand{
+      min-width:0;
+      max-width:100%;
+      display:flex;
+      align-items:center;
+      gap:11px;
+      color:#0a0a0a;
+      text-decoration:none;
+    }
+    .brand-mark{
+      width:44px;
+      height:44px;
+      flex:0 0 44px;
+      display:grid;
+      place-items:center;
+      border:1px solid #111;
+      border-radius:7px;
+      color:#fff;
+      background:#111;
+      font:400 21px/1 var(--math);
+    }
+    .brand-copy{
+      min-width:0;
+      max-width:100%;
+      display:grid;
+      overflow:visible;
+      line-height:1.15;
+    }
+    .brand-copy strong{
+      display:block;
+      max-width:100%;
+      overflow:visible;
+      color:#0a0a0a;
+      font:444 clamp(10px,1.05vw,13px)/1.28 var(--sans);
+      letter-spacing:.075em;
+      text-overflow:clip;
+      white-space:normal;
+      text-wrap:balance;
+    }
+    .brand-copy small{
+      display:block;
+      max-width:100%;
+      overflow:visible;
+      margin-top:4px;
+      color:#55514a;
+      font-size:clamp(9px,.9vw,11px);
+      line-height:1.3;
+      letter-spacing:.055em;
+      text-overflow:clip;
+      white-space:normal;
+      text-wrap:balance;
+    }
+    .campus-nav{
+      min-width:0;
+      max-width:100%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:3px;
+    }
+    .campus-nav a{
+      min-width:0;
+      min-height:40px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:7px 9px;
+      border:1px solid transparent;
+      border-radius:7px;
+      color:#24231f;
+      text-align:center;
+      text-decoration:none;
+      font-size:clamp(10px,.92vw,12px);
+      font-weight:444;
+      line-height:1.2;
+      white-space:normal;
+    }
+    .campus-nav a:hover,
+    .campus-nav a:focus-visible,
+    .campus-nav a[aria-current]{
+      border-color:var(--line);
+      color:#000;
+      background:var(--bg2);
+    }
+    .header-actions{display:flex;justify-content:flex-end}
+    .theme-button{
+      width:42px;
+      min-width:42px;
+      height:42px;
+      display:grid;
+      place-items:center;
+      padding:0;
+      border:1px solid #111;
+      border-radius:7px;
+      color:#111;
+      background:#fff;
+      font:400 18px/1 var(--math);
+    }
+
+    /* Breadcrumb and section navigation */
+    .course-breadcrumb{
+      width:100%;
+      border-bottom:1px solid var(--line);
+      background:#f4f1ea;
+    }
+    .course-breadcrumb .wrap{
+      min-height:45px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:7px;
+      padding-block:8px;
+      color:#47443e;
+      text-align:center;
+      font-size:12px;
+    }
+    .course-breadcrumb a{
+      color:#111;
+      text-decoration:none;
+      border-bottom:1px solid transparent;
+    }
+    .course-breadcrumb a:hover{border-bottom-color:#111}
+    .course-breadcrumb span[aria-current="page"]{font-weight:444;color:#000}
+    .diagnostic-quick-nav{
+      position:sticky;
+      top:76px;
+      z-index:850;
+      border-bottom:1px solid var(--line);
+      background:rgba(247,244,237,.96);
+      backdrop-filter:blur(10px);
+    }
+    .quick-nav-inner{
+      min-height:48px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:5px;
+      overflow:auto;
+      padding-block:7px;
+      scrollbar-width:thin;
+    }
+    .quick-nav-inner a{
+      flex:0 0 auto;
+      padding:7px 11px;
+      border:1px solid transparent;
+      border-radius:7px;
+      color:#111;
+      text-decoration:none;
+      font-size:12px;
+    }
+    .quick-nav-inner a:hover{border-color:var(--line);background:#fff}
+
+    /* Hero */
+    .hero{
+      min-height:calc(100svh - 122px);
+      display:grid;
+      align-items:center;
+      padding:clamp(76px,10vw,132px) 0;
+      text-align:center;
+      border-bottom:1px solid var(--line);
+      background:
+        linear-gradient(rgba(255,254,250,.89),rgba(248,245,238,.89)),
+        repeating-linear-gradient(0deg,transparent 0 39px,rgba(11,11,11,.045) 40px);
+    }
+    .hero .wrap{max-width:1160px}
+    .eyebrow{
+      margin:0 0 14px;
+      color:#5f4b28;
+      font-size:12px;
+      font-weight:444;
+      letter-spacing:.19em;
+      text-align:center;
+      text-transform:uppercase;
+    }
+    .hero h1{
+      max-width:1120px;
+      margin:0 auto 22px;
+      color:#050505;
+      font:400 clamp(43px,7vw,84px)/.98 var(--math);
+      letter-spacing:-.035em;
+      overflow-wrap:anywhere;
+      text-wrap:balance;
+    }
+    .hero .lead{
+      max-width:890px;
+      margin:0 auto;
+      color:#35332f;
+      font-size:clamp(17px,2vw,21px);
+      line-height:1.72;
+    }
+    .math-signature{
+      max-width:1080px;
+      margin:30px auto 0;
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+    .math-signature span{
+      display:inline-flex;
+      align-items:center;
+      min-height:39px;
+      padding:7px 13px;
+      border:1px solid #c6bfb3;
+      border-radius:7px;
+      color:#090909;
+      background:rgba(255,255,255,.72);
+      font:400 15px/1.2 var(--math);
+      white-space:nowrap;
+    }
+    .actions{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:30px;
+    }
+    .btn{
+      min-height:44px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:9px 14px;
+      border:1px solid #aaa397;
+      border-radius:7px;
+      color:#111;
+      background:#fff;
+      text-decoration:none;
+      font-weight:444;
+      line-height:1.25;
+      white-space:normal;
+    }
+    .btn.primary{border-color:#111;color:#fff;background:#111}
+    .btn:hover{border-color:#111;transform:translateY(-1px)}
+
+    main,section,.footer{width:100%;max-width:100%}
+    section{
+      padding:clamp(68px,8vw,102px) 0;
+      scroll-margin-top:138px;
+    }
+    section:nth-of-type(even):not(.hero){background:rgba(255,255,255,.28)}
+    .section-head{
+      max-width:920px;
+      margin:0 auto 38px;
+      text-align:center;
+    }
+    .section-head h2{
+      color:#080808;
+      font:400 clamp(36px,5vw,62px)/1.06 var(--math);
+      letter-spacing:-.025em;
+      text-wrap:balance;
+    }
+    .section-head p{color:#44413c;font-size:17px}
+    .notice{
+      padding:15px 17px;
+      border-left:3px solid #111;
+      border-radius:7px;
+      color:#3d3a34;
+      background:var(--bg2);
+    }
+
+    /* Intro and readiness principles */
+    .readiness-grid{
+      grid-template-columns:repeat(4,minmax(0,1fr));
+      gap:11px;
+    }
+    .readiness-card{
+      min-height:190px;
+      padding:24px;
+    }
+    .readiness-card span{
+      display:block;
+      color:#5b574f;
+      font-size:10px;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+    }
+    .readiness-card strong{
+      display:block;
+      margin-top:12px;
+      color:#111;
+      font:400 clamp(27px,4vw,44px)/1 var(--math);
+    }
+    .readiness-card p{margin:12px 0 0;color:var(--muted);font-size:14px}
+    .intro-panel{
+      max-width:920px;
+      margin:25px auto 0;
+      padding:clamp(22px,4vw,38px);
+    }
+    .intro-panel h3{
+      margin:0;
+      color:#111;
+      font:400 clamp(28px,4vw,44px)/1.08 var(--math);
+    }
+    .intro-panel p{color:var(--muted)}
+    .field{display:grid;gap:7px}
+    .field label{
+      color:#4c4942;
+      font-size:12px;
+      font-weight:444;
+      letter-spacing:.05em;
+      text-transform:uppercase;
+    }
+    .field input{
+      width:100%;
+      min-height:46px;
+      padding:9px 11px;
+      border:1px solid #aaa397;
+      border-radius:7px;
+      color:#080808;
+      background:#fff;
+    }
+    .learner-field{max-width:520px;margin:20px auto 0;text-align:left}
+    .resume-notice{
+      max-width:760px;
+      margin:18px auto 0;
+      text-align:left;
+    }
+
+    /* Diagnostic engine */
+    #diagnostic{
+      border-block:1px solid var(--line);
+      background:#e7e3db;
+    }
+    .diagnostic-layout{
+      display:grid;
+      grid-template-columns:minmax(0,1fr) 320px;
+      gap:14px;
+      align-items:start;
+    }
+    .question-panel{padding:clamp(20px,4vw,38px)}
+    .question-top{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:14px;
+      padding-bottom:15px;
+      border-bottom:1px solid var(--line);
+    }
+    .domain{
+      color:#244c65;
+      font-size:11px;
+      font-weight:444;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      padding:5px 8px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      color:#4f493e;
+      background:var(--bg2);
+      font-size:10px;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+    .question-panel h2{
+      margin:28px 0 24px;
+      color:#080808;
+      font:400 clamp(27px,4.5vw,48px)/1.08 var(--math);
+      text-wrap:balance;
+    }
+    .options{display:grid;gap:9px}
+    .option{
+      display:grid;
+      grid-template-columns:24px 1fr;
+      gap:11px;
+      align-items:start;
+      padding:15px 16px;
+      border:1px solid var(--line);
+      border-radius:7px;
+      color:#222;
+      background:#fff;
+      cursor:pointer;
+      transition:border-color .15s ease,transform .15s ease;
+    }
+    .option:hover{border-color:#111;transform:translateY(-1px)}
+    .option:has(input:checked){
+      border-color:#111;
+      background:#eee9de;
+      box-shadow:inset 3px 0 0 #111;
+    }
+    .option input{width:18px;height:18px;margin:3px 0 0;accent-color:#111}
+    .option span{font:400 18px/1.45 var(--math)}
+    .diagnostic-nav{
+      display:flex;
+      justify-content:space-between;
+      gap:9px;
+      margin-top:24px;
+      padding-top:18px;
+      border-top:1px solid var(--line);
+    }
+    .diagnostic-nav button{
+      min-height:44px;
+      padding:9px 14px;
+      border:1px solid #aaa397;
+      border-radius:7px;
+      color:#111;
+      background:#fff;
+      font-weight:444;
+    }
+    .diagnostic-nav button.primary{border-color:#111;color:#fff;background:#111}
+    .diagnostic-nav button:disabled{cursor:not-allowed;opacity:.45}
+    .side{
+      position:sticky;
+      top:142px;
+      padding:22px;
+    }
+    .side .eyebrow{text-align:left}
+    .progress-summary{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      color:#4d4942;
+      font-size:12px;
+    }
+    .progress-summary strong{color:#111;font:400 15px/1 var(--math)}
+    .progress-track{
+      height:9px;
+      overflow:hidden;
+      margin-top:9px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:#ddd7cc;
+    }
+    .progress-track span{
+      width:0;
+      height:100%;
+      display:block;
+      background:#111;
+      transition:width .2s ease;
+    }
+    .question-dots{
+      display:grid;
+      grid-template-columns:repeat(6,1fr);
+      gap:6px;
+      margin:20px 0;
+    }
+    .dot{
+      aspect-ratio:1;
+      display:grid;
+      place-items:center;
+      padding:0;
+      border:1px solid var(--line);
+      border-radius:50%;
+      color:#5b574f;
+      background:#fff;
+      font-size:10px;
+      font-weight:444;
+    }
+    .dot.current{border-color:#111;box-shadow:0 0 0 2px #111;color:#111}
+    .dot.answered{color:#fff;background:#395f45;border-color:#395f45}
+    .dot.current.answered{box-shadow:0 0 0 2px #111,0 0 0 4px #fff}
+    .side-actions{display:grid;gap:8px;margin-top:17px}
+    .side-actions .btn{width:100%}
+    .autosave-status{
+      margin-top:15px;
+      color:#5b574f;
+      font-size:11px;
+      text-align:center;
+    }
+
+    /* Review before submission */
+    #review{
+      border-block:1px solid var(--line);
+      background:#e7e3db;
+    }
+    .review-shell{padding:clamp(22px,4vw,38px)}
+    .review-shell h2{
+      margin:0;
+      color:#111;
+      font:400 clamp(35px,5vw,58px)/1.06 var(--math);
+    }
+    .review-status-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:9px;
+      margin-top:24px;
+    }
+    .review-status-button{
+      min-width:0;
+      display:grid;
+      grid-template-columns:36px 1fr auto;
+      gap:10px;
+      align-items:center;
+      padding:11px 12px;
+      border:1px solid var(--line);
+      border-radius:7px;
+      color:#111;
+      background:#fff;
+      text-align:left;
+    }
+    .review-status-button .review-number{
+      width:32px;
+      height:32px;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      color:#fff;
+      background:#111;
+      font:400 12px/1 var(--math);
+    }
+    .review-status-button strong{font-size:12px}
+    .review-status-button small{color:#5b574f;font-size:10px}
+    .review-status-button .answer-state{
+      color:#395f45;
+      font-size:10px;
+      text-transform:uppercase;
+    }
+    .review-status-button.unanswered .answer-state{color:#8a3333}
+    .review-status-button.unanswered{border-color:#8a3333;background:#fff7f5}
+
+    /* Results */
+    #results{
+      background:
+        linear-gradient(rgba(255,255,255,.7),rgba(245,242,235,.82)),
+        repeating-linear-gradient(0deg,transparent 0 31px,rgba(11,11,11,.04) 32px);
+    }
+    .result-summary{
+      padding:clamp(24px,5vw,48px);
+    }
+    .result-heading{
+      display:grid;
+      grid-template-columns:auto 1fr;
+      gap:24px;
+      align-items:center;
+    }
+    .score-block{
+      width:190px;
+      min-height:190px;
+      display:grid;
+      place-items:center;
+      align-content:center;
+      border:1px solid #111;
+      border-radius:7px;
+      color:#fff;
+      background:#111;
+      text-align:center;
+    }
+    .score{
+      font:400 clamp(45px,7vw,74px)/1 var(--math);
+    }
+    .score-block small{
+      display:block;
+      margin-top:8px;
+      color:#ddd;
+      font-size:11px;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+    .result-copy h2{
+      margin:0;
+      color:#111;
+      font:400 clamp(32px,5vw,60px)/1.04 var(--math);
+      text-wrap:balance;
+    }
+    .result-copy p{color:var(--muted)}
+    .result-metadata{
+      display:flex;
+      flex-wrap:wrap;
+      gap:7px;
+      margin-top:15px;
+    }
+    .result-metadata span{
+      padding:6px 9px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      color:#4f493e;
+      background:var(--bg2);
+      font-size:11px;
+    }
+    .strand-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:11px;
+      margin-top:30px;
+    }
+    .strand-card{
+      padding:22px;
+    }
+    .strand-card-head{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:14px;
+    }
+    .strand-card h3{
+      margin:0;
+      color:#111;
+      font:400 27px/1.08 var(--math);
+    }
+    .strand-score{
+      flex:0 0 auto;
+      color:#111;
+      font:400 23px/1 var(--math);
+    }
+    .strand-meter{
+      height:8px;
+      overflow:hidden;
+      margin:15px 0;
+      border-radius:999px;
+      background:#ddd7cc;
+    }
+    .strand-meter span{
+      height:100%;
+      display:block;
+      background:#111;
+    }
+    .strand-card p{color:var(--muted);font-size:13px}
+    .unit-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:5px;
+      margin-top:14px;
+    }
+    .unit-links a{
+      padding:5px 7px;
+      border:1px solid var(--line);
+      border-radius:7px;
+      color:#111;
+      background:#fff;
+      text-decoration:none;
+      font-size:10px;
+    }
+
+    .targeted-review{
+      margin-top:28px;
+      padding:clamp(22px,4vw,36px);
+    }
+    .targeted-review h3{
+      margin:0;
+      color:#111;
+      font:400 clamp(28px,4vw,44px)/1.08 var(--math);
+    }
+    .review-pathway-list{
+      display:grid;
+      gap:9px;
+      margin-top:18px;
+    }
+    .review-pathway-item{
+      display:grid;
+      grid-template-columns:minmax(0,1fr) auto;
+      gap:15px;
+      align-items:center;
+      padding:14px 15px;
+      border:1px solid var(--line);
+      border-radius:7px;
+      background:var(--bg2);
+    }
+    .review-pathway-item strong{color:#111}
+    .review-pathway-item p{margin:3px 0 0;color:var(--muted);font-size:12px}
+    .review-pathway-item a{
+      padding:7px 9px;
+      border:1px solid #111;
+      border-radius:7px;
+      color:#fff;
+      background:#111;
+      text-decoration:none;
+      font-size:11px;
+      white-space:nowrap;
+    }
+
+    .answer-review{
+      display:grid;
+      gap:9px;
+      margin-top:28px;
+    }
+    .answer-review details{
+      border:1px solid var(--line);
+      border-radius:7px;
+      background:#fff;
+    }
+    .answer-review summary{
+      display:grid;
+      grid-template-columns:42px minmax(0,1fr) auto;
+      gap:11px;
+      align-items:center;
+      padding:13px 14px;
+      cursor:pointer;
+      list-style:none;
+    }
+    .answer-review summary::-webkit-details-marker{display:none}
+    .answer-review .review-index{
+      width:34px;
+      height:34px;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      color:#fff;
+      background:#111;
+      font:400 12px/1 var(--math);
+    }
+    .answer-review summary strong{color:#111;font-weight:444}
+    .answer-review .correct-mark{color:#395f45;font-size:11px;text-transform:uppercase}
+    .answer-review .incorrect-mark{color:#8a3333;font-size:11px;text-transform:uppercase}
+    .answer-detail{
+      padding:0 16px 16px 67px;
+      color:#49453e;
+      font-size:14px;
+    }
+    .answer-detail p{margin:7px 0}
+    .answer-detail strong{color:#111}
+
+    .results-actions{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:28px;
+    }
+
+    /* Footer */
+    .footer{
+      border-top:1px solid var(--line);
+      color:#ddd;
+      background:#111;
+    }
+    .footer-inner{
+      min-height:92px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:18px;
+      padding-block:18px;
+      font-size:12px;
+    }
+    .footer-links{
+      display:flex;
+      justify-content:flex-end;
+      flex-wrap:wrap;
+      gap:6px;
+    }
+    .footer-links a{
+      padding:6px 8px;
+      border:1px solid rgba(255,255,255,.2);
+      border-radius:7px;
+      color:#fff;
+      text-decoration:none;
+    }
+    .footer-links a:hover{background:#fff;color:#111}
+
+    .readiness-grid,.readiness-card,.intro-panel,.diagnostic-layout,
+    .question-panel,.side,.review-shell,.review-status-grid,
+    .result-summary,.strand-grid,.strand-card,.targeted-review,
+    .review-pathway-list,.answer-review{
+      min-width:0;
+      max-width:100%;
+    }
+    h1,h2,h3,p,a,button,label,strong,span,small{overflow-wrap:anywhere}
+
+    @media(max-width:1180px){
+      .header-inner{grid-template-columns:minmax(240px,1fr) auto}
+      .campus-nav{grid-column:1/-1;justify-content:center;overflow:visible}
+      .diagnostic-quick-nav{position:static}
+    }
+    @media(max-width:1000px){
+      .readiness-grid{grid-template-columns:repeat(2,1fr)}
+      .strand-grid{grid-template-columns:repeat(2,1fr)}
+      .review-status-grid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:900px){
+      .diagnostic-layout{grid-template-columns:1fr}
+      .side{position:static}
+    }
+    @media(max-width:760px){
+      .wrap{width:min(var(--max),calc(100% - 22px))}
+      .header-inner{
+        min-height:68px;
+        grid-template-columns:minmax(0,1fr) auto;
+        gap:8px 10px;
+        padding-block:9px;
+      }
+      .brand{gap:8px}
+      .brand-mark{width:38px;height:38px;flex-basis:38px;font-size:19px}
+      .brand-copy strong{font-size:10px;letter-spacing:.055em}
+      .brand-copy small{font-size:9px;letter-spacing:.04em}
+      .campus-nav{justify-content:flex-start}
+      .campus-nav a{min-height:36px;font-size:10px;padding:6px 8px}
+      .course-breadcrumb .wrap{justify-content:flex-start;text-align:left}
+      .hero{min-height:auto;padding:72px 0 78px}
+      .hero h1{font-size:clamp(39px,11.5vw,62px)}
+      .math-signature{display:grid;grid-template-columns:1fr 1fr}
+      .math-signature span{justify-content:center;white-space:normal;text-align:center}
+      .result-heading{grid-template-columns:1fr;text-align:center}
+      .score-block{margin:auto}
+      .result-metadata{justify-content:center}
+      .footer-inner{display:grid;justify-content:center;text-align:center}
+      .footer-links{justify-content:center}
+    }
+    @media(max-width:620px){
+      .strand-grid,.review-status-grid{grid-template-columns:1fr}
+      .review-pathway-item{grid-template-columns:1fr}
+      .review-pathway-item a{justify-self:start}
+    }
+    @media(max-width:520px){
+      .readiness-grid,.math-signature{grid-template-columns:1fr}
+      .actions .btn,.results-actions .btn{width:100%}
+      .question-top{display:grid}
+      .diagnostic-nav{display:grid;grid-template-columns:1fr 1fr}
+      .answer-review summary{grid-template-columns:36px 1fr}
+      .answer-review summary span:last-child{grid-column:2}
+      .answer-detail{padding-left:16px}
+    }
+    @media(max-width:430px){
+      .brand-copy strong{font-size:9.5px}
+      .brand-copy small{font-size:8.5px}
+      .campus-nav a{flex:1 1 calc(50% - 4px)}
+    }
+    @media(prefers-reduced-motion:reduce){
+      *,*::before,*::after{
+        scroll-behavior:auto!important;
+        transition:none!important;
+        animation:none!important;
+      }
+    }
+    @media print{
+      @page{size:letter portrait;margin:.5in}
+      html,body{background:#fff!important;color:#000!important}
+      .site-header,.course-breadcrumb,.diagnostic-quick-nav,.hero,.footer,
+      #readiness-overview,#diagnostic,#review,.theme-button,.results-actions{
+        display:none!important
+      }
+      #results{display:block!important;padding:0;background:#fff!important}
+      .card{box-shadow:none}
+      .result-summary{padding:0;border:0}
+      .strand-grid{grid-template-columns:repeat(3,1fr)}
+      .targeted-review{box-shadow:none}
+      .answer-review details{break-inside:avoid}
+      .answer-review details[open] .answer-detail{display:block}
+    }
+  </style>
 </head>
+
 <body>
-<a class="skip" href="#main">Skip to main content</a>
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a class="brand" href="../">
-      <span class="brand-mark">K</span>
-      <span class="brand-copy"><strong>PRE-ALGEBRA</strong><small>Readiness Diagnostic</small></span>
-    </a>
-    <div class="header-actions">
-      <a class="nav-button" href="../">Course Home</a>
-      <button class="theme-button" id="themeToggle" type="button" aria-label="Toggle light and dark theme">◐</button>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="https://vervenveda.github.io/Khaemenes_High.github.io/" rel="home" aria-label="Khaemenes High School home">
+        <span class="brand-mark" aria-hidden="true">?</span>
+        <span class="brand-copy">
+          <strong>KHAEMENES HIGH · MATHEMATICS</strong>
+          <small>Global Pre-Algebra · Readiness Diagnostic</small>
+        </span>
+      </a>
+
+      <nav class="campus-nav" aria-label="High school navigation">
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/">High School</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/grades/grade-09/">Grade 9</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Pre-Algebra</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/diagnostic/" aria-current="page">Diagnostic</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">Assessments</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-button" id="themeToggle" type="button"
+          aria-label="Switch paper tone" title="Switch paper tone">◐</button>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<main id="main">
-<section class="hero" id="intro">
-  <div class="wrap">
-    <p class="eyebrow">18 Questions · Untimed · Local Results</p>
-    <h1>Mathematics Readiness Diagnostic</h1>
-    <p class="lead">This check identifies strengths and review needs across number sense, fractions, ratios, algebra, geometry, and data. It does not assign a permanent label or school grade.</p>
-    <div class="actions"><button class="btn primary" id="startButton" type="button">Begin Diagnostic</button><a class="btn" href="../">Return to Course Map</a></div>
-  </div>
-</section>
+  <nav class="course-breadcrumb" aria-label="Course breadcrumb">
+    <div class="wrap">
+      <a href="https://vervenveda.github.io/Khaemenes_High.github.io/">Khaemenes High</a>
+      <span aria-hidden="true">›</span>
+      <a href="https://vervenveda.github.io/Khaemenes_High.github.io/grades/grade-09/">Grade 9</a>
+      <span aria-hidden="true">›</span>
+      <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Pre-Algebra</a>
+      <span aria-hidden="true">›</span>
+      <span aria-current="page">Readiness Diagnostic</span>
+    </div>
+  </nav>
 
-<section id="diagnostic" hidden>
-  <div class="wrap diagnostic-layout">
-    <article class="card question-panel">
-      <div class="question-top"><span class="domain" id="domainLabel"></span><span class="pill" id="questionNumber"></span></div>
-      <h2 id="questionPrompt"></h2>
-      <div class="options" id="options"></div>
-      <div class="diagnostic-nav">
-        <button id="previousButton" type="button">Previous</button>
-        <button class="primary" id="nextButton" type="button">Next</button>
+  <nav class="diagnostic-quick-nav" aria-label="Diagnostic page sections">
+    <div class="wrap quick-nav-inner">
+      <a href="#intro">Introduction</a>
+      <a href="#readiness-overview">What It Measures</a>
+      <a href="#diagnostic">Questions</a>
+      <a href="#results">Readiness Report</a>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="hero" id="intro">
+      <div class="wrap">
+        <p class="eyebrow">18 Questions · Untimed · Local-Only Results</p>
+        <h1>Mathematics Readiness Diagnostic</h1>
+        <p class="lead">A low-pressure readiness snapshot across number foundations,
+          rational and proportional reasoning, algebra, functions, geometry, and
+          data. It identifies useful starting points; it does not assign a permanent
+          label, course grade, or complete mastery determination.</p>
+
+        <div class="math-signature" aria-label="Diagnostic principles">
+          <span>one definitive answer per item</span>
+          <span>draft saved automatically</span>
+          <span>targeted unit review</span>
+          <span>print + JSON result export</span>
+        </div>
+
+        <div class="actions">
+          <button class="btn primary" id="startButton" type="button">Begin Diagnostic</button>
+          <button class="btn" id="resumeButton" type="button" hidden>Resume Saved Draft</button>
+          <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Return to Course Map</a>
+        </div>
+
+        <p class="notice resume-notice" id="resumeNotice" hidden aria-live="polite"></p>
       </div>
-    </article>
-    <aside class="card side">
-      <p class="eyebrow">Progress</p>
-      <div class="question-dots" id="questionDots"></div>
-      <p class="notice">Choose the answer you believe is best. You can move backward before submitting.</p>
-      <button class="btn primary" id="submitButton" type="button" disabled>Submit Diagnostic</button>
-    </aside>
-  </div>
-</section>
+    </section>
 
-<section id="results" hidden>
-  <div class="wrap">
-    <article class="card result">
-      <p class="eyebrow">Readiness report</p>
-      <div class="score" id="score"></div>
-      <h2 id="recommendation"></h2>
-      <p id="resultMessage" class="notice"></p>
-      <div class="grid domain-grid" id="domainGrid"></div>
-      <div class="actions">
-        <a class="btn primary" href="../">Return to Course Map</a>
-        <button class="btn" id="printResults" type="button">Print Results</button>
-        <button class="btn" id="retakeButton" type="button">Retake Diagnostic</button>
+    <section id="readiness-overview">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Readiness snapshot</p>
+          <h2>What this diagnostic can—and cannot—show.</h2>
+          <p>The report groups the original 18 questions into six broad readiness
+            strands and links review needs to the appropriate course units.</p>
+        </div>
+
+        <div class="grid readiness-grid">
+          <article class="card readiness-card">
+            <span>Questions</span>
+            <strong>18</strong>
+            <p>Short definitive-answer items preserved from the original diagnostic.</p>
+          </article>
+          <article class="card readiness-card">
+            <span>Readiness strands</span>
+            <strong>6</strong>
+            <p>Grouped reporting prevents a one-question topic from being treated as a complete course grade.</p>
+          </article>
+          <article class="card readiness-card">
+            <span>Time limit</span>
+            <strong>None</strong>
+            <p>Students may pause, review answers, and resume the locally saved draft.</p>
+          </article>
+          <article class="card readiness-card">
+            <span>Data handling</span>
+            <strong>Local</strong>
+            <p>Drafts and results remain in the current browser unless exported.</p>
+          </article>
+        </div>
+
+        <article class="card intro-panel">
+          <h3>Before beginning</h3>
+          <p>Complete the questions without content hints. Ordinary accessibility
+            supports may be used when they do not supply an answer. The final report
+            should be read as placement guidance alongside prior coursework,
+            student confidence, work samples, and parent or teacher observation.</p>
+
+          <div class="field learner-field">
+            <label for="learnerName">Learner name or record label <span aria-hidden="true">(optional)</span></label>
+            <input id="learnerName" type="text" maxlength="80"
+              autocomplete="name" placeholder="Used only in this browser and exported report">
+          </div>
+
+          <div class="actions">
+            <button class="btn primary" id="overviewStartButton" type="button">Start the 18 Questions</button>
+            <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">Open Assessments & Records</a>
+          </div>
+        </article>
       </div>
-    </article>
-    <div class="review-list" id="reviewList"></div>
-  </div>
-</section>
-</main>
+    </section>
 
-<footer class="footer"><div class="wrap footer-inner"><span>Khaemenes Pre-Algebra Diagnostic</span><span>No account · No timer · Results stay in this browser</span></div></footer>
+    <section id="diagnostic" hidden>
+      <div class="wrap diagnostic-layout">
+        <article class="card question-panel">
+          <div class="question-top">
+            <span class="domain" id="domainLabel"></span>
+            <span class="pill" id="questionNumber"></span>
+          </div>
 
-<script>
-"use strict";
-const QUESTIONS=[{"id": "q01", "domain": "Number sense", "prompt": "Evaluate: 18 − 3 × 4", "options": ["60", "6", "12", "24"], "answer": 1, "explanation": "Multiply first: 3 × 4 = 12. Then 18 − 12 = 6."}, {"id": "q02", "domain": "Factors", "prompt": "Which number is a factor of 24?", "options": ["5", "7", "6", "11"], "answer": 2, "explanation": "24 ÷ 6 = 4 with no remainder."}, {"id": "q03", "domain": "Prime numbers", "prompt": "Which number is prime?", "options": ["21", "27", "29", "39"], "answer": 2, "explanation": "29 has exactly two positive factors: 1 and 29."}, {"id": "q04", "domain": "Integers", "prompt": "Evaluate: −7 + 12", "options": ["−19", "−5", "5", "19"], "answer": 2, "explanation": "Starting at −7 and moving 12 units right lands at 5."}, {"id": "q05", "domain": "Absolute value", "prompt": "What is |−9|?", "options": ["−9", "0", "9", "18"], "answer": 2, "explanation": "Absolute value is distance from zero, so |−9| = 9."}, {"id": "q06", "domain": "Fractions", "prompt": "Evaluate: 3/4 + 1/8", "options": ["4/12", "4/8", "7/8", "1"], "answer": 2, "explanation": "3/4 = 6/8, and 6/8 + 1/8 = 7/8."}, {"id": "q07", "domain": "Decimals", "prompt": "Evaluate: 2.5 × 0.4", "options": ["0.1", "1", "10", "100"], "answer": 1, "explanation": "25 × 4 = 100, and two decimal places give 1.00."}, {"id": "q08", "domain": "Ratios", "prompt": "A recipe uses 3 cups of rice for 5 people. At the same rate, how many cups are needed for 20 people?", "options": ["8", "10", "12", "15"], "answer": 2, "explanation": "20 people is four times 5, so 3 × 4 = 12 cups."}, {"id": "q09", "domain": "Percent", "prompt": "What is 15% of 80?", "options": ["8", "10", "12", "15"], "answer": 2, "explanation": "0.15 × 80 = 12."}, {"id": "q10", "domain": "Exponents", "prompt": "Evaluate: 2³ × 2²", "options": ["16", "32", "64", "8"], "answer": 1, "explanation": "2³ × 2² = 8 × 4 = 32."}, {"id": "q11", "domain": "Expressions", "prompt": "Simplify: 3x + 2x", "options": ["5", "5x", "6x", "x⁵"], "answer": 1, "explanation": "The terms are alike, so add the coefficients: 3 + 2 = 5."}, {"id": "q12", "domain": "Equations", "prompt": "Solve: x + 7 = 19", "options": ["10", "11", "12", "26"], "answer": 2, "explanation": "Subtract 7 from both sides: x = 12."}, {"id": "q13", "domain": "Equations", "prompt": "Solve: 3x = 21", "options": ["6", "7", "18", "63"], "answer": 1, "explanation": "Divide both sides by 3: x = 7."}, {"id": "q14", "domain": "Inequalities", "prompt": "Solve: x − 4 > 2", "options": ["x > 6", "x < 6", "x > −2", "x < −2"], "answer": 0, "explanation": "Add 4 to both sides: x > 6."}, {"id": "q15", "domain": "Coordinates", "prompt": "In which quadrant is the point (−3, 4)?", "options": ["I", "II", "III", "IV"], "answer": 1, "explanation": "A negative x-coordinate and positive y-coordinate place the point in Quadrant II."}, {"id": "q16", "domain": "Linear relationships", "prompt": "For y = 2x + 1, what is y when x = 3?", "options": ["5", "6", "7", "9"], "answer": 2, "explanation": "Substitute x = 3: y = 2(3) + 1 = 7."}, {"id": "q17", "domain": "Geometry", "prompt": "A triangle has base 10 units and height 6 units. What is its area?", "options": ["16", "30", "60", "120"], "answer": 1, "explanation": "Area = 1/2 × base × height = 1/2 × 10 × 6 = 30."}, {"id": "q18", "domain": "Statistics", "prompt": "What is the mean of 4, 7, 9, and 10?", "options": ["7", "7.5", "8", "8.5"], "answer": 1, "explanation": "The sum is 30, and 30 ÷ 4 = 7.5."}];
-const KEY="khaemenes-prealgebra-diagnostic-v1";
-const THEME_KEY="khaemenes-theme";
-let index=0;let answers=Array(QUESTIONS.length).fill(null);
-const $=s=>document.querySelector(s);
-const escapeHTML=value=>String(value).replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
-function setTheme(theme){document.documentElement.dataset.theme=theme;localStorage.setItem(THEME_KEY,theme)}
-$("#themeToggle").addEventListener("click",()=>setTheme(document.documentElement.dataset.theme==="light"?"dark":"light"));
-setTheme(localStorage.getItem(THEME_KEY)||(matchMedia("(prefers-color-scheme:light)").matches?"light":"dark"));
+          <h2 id="questionPrompt" tabindex="-1"></h2>
+          <div class="options" id="options" role="radiogroup"
+            aria-labelledby="questionPrompt"></div>
 
-function begin(){$("#intro").hidden=true;$("#results").hidden=true;$("#diagnostic").hidden=false;index=0;render()}
-function render(){
-  const q=QUESTIONS[index];
-  $("#domainLabel").textContent=q.domain;$("#questionNumber").textContent=`Question ${index+1} of ${QUESTIONS.length}`;$("#questionPrompt").textContent=q.prompt;
-  $("#options").innerHTML=q.options.map((option,i)=>`<label class="option"><input type="radio" name="answer" value="${i}" ${answers[index]===i?"checked":""}><span>${escapeHTML(option)}</span></label>`).join("");
-  $("#previousButton").disabled=index===0;$("#nextButton").textContent=index===QUESTIONS.length-1?"Review":"Next";
-  $("#questionDots").innerHTML=QUESTIONS.map((_,i)=>`<button class="dot ${i===index?"current":""} ${answers[i]!==null?"answered":""}" type="button" data-index="${i}" aria-label="Go to question ${i+1}">${i+1}</button>`).join("");
-  $("#submitButton").disabled=answers.some(a=>a===null);
-}
-$("#startButton").addEventListener("click",begin);
-$("#options").addEventListener("change",event=>{answers[index]=Number(event.target.value);render()});
-$("#previousButton").addEventListener("click",()=>{if(index>0)index--;render()});
-$("#nextButton").addEventListener("click",()=>{if(index<QUESTIONS.length-1)index++;render()});
-$("#questionDots").addEventListener("click",event=>{const b=event.target.closest("[data-index]");if(!b)return;index=Number(b.dataset.index);render()});
+          <div class="diagnostic-nav">
+            <button id="previousButton" type="button">Previous</button>
+            <button class="primary" id="nextButton" type="button">Next</button>
+          </div>
+        </article>
 
-function recommendationFor(score){
-  if(score<=8)return{title:"Foundation pathway recommended",message:"Begin with targeted number, fraction, and equation support. Move forward by skill as mastery develops."};
-  if(score<=14)return{title:"Core pathway with targeted review",message:"You show useful readiness. Review the missed domains while beginning the Core sequence."};
-  return{title:"Strong Core readiness",message:"You are ready for the Core pathway and may use Extended challenges in your strongest domains."};
-}
-function submit(){
-  const correct=answers.map((answer,i)=>answer===QUESTIONS[i].answer);const score=correct.filter(Boolean).length;const rec=recommendationFor(score);
-  const domainMap={};
-  QUESTIONS.forEach((q,i)=>{domainMap[q.domain]??={correct:0,total:0};domainMap[q.domain].total++;if(correct[i])domainMap[q.domain].correct++});
-  const result={score,total:QUESTIONS.length,recommendation:rec.title,message:rec.message,answers,domains:domainMap,completed_at:new Date().toISOString()};
-  localStorage.setItem(KEY,JSON.stringify(result));
-  $("#diagnostic").hidden=true;$("#results").hidden=false;$("#score").textContent=`${score} / ${QUESTIONS.length}`;$("#recommendation").textContent=rec.title;$("#resultMessage").textContent=rec.message;
-  $("#domainGrid").innerHTML=Object.entries(domainMap).map(([domain,data])=>`<article class="card domain-card"><strong>${data.correct}/${data.total}</strong><h3>${escapeHTML(domain)}</h3><p>${data.correct===data.total?"Secure on this check":data.correct===0?"Priority review":"Review and practice"}</p></article>`).join("");
-  $("#reviewList").innerHTML=QUESTIONS.map((q,i)=>`<article class="review-item ${correct[i]?"correct":"incorrect"}"><strong>${i+1}. ${escapeHTML(q.prompt)}</strong><p>Your answer: ${escapeHTML(q.options[answers[i]])}</p><p>Correct answer: ${escapeHTML(q.options[q.answer])}</p><p>${escapeHTML(q.explanation)}</p></article>`).join("");
-  scrollTo({top:0,behavior:"smooth"});
-}
-$("#submitButton").addEventListener("click",()=>{if(confirm("Submit the diagnostic and view your readiness report?"))submit()});
-$("#printResults").addEventListener("click",()=>window.print());
-$("#retakeButton").addEventListener("click",()=>{answers=Array(QUESTIONS.length).fill(null);begin()});
-</script>
+        <aside class="card side">
+          <p class="eyebrow">Progress</p>
+
+          <div class="progress-summary">
+            <span>Answered</span>
+            <strong id="answeredLabel">0 / 18</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <span id="answeredBar"></span>
+          </div>
+
+          <div class="question-dots" id="questionDots"
+            aria-label="Question navigation"></div>
+
+          <p class="notice">Choose the mathematically correct answer. You may move
+            backward or open the review screen before submission.</p>
+
+          <div class="side-actions">
+            <button class="btn primary" id="reviewButton" type="button">Review Answers</button>
+            <button class="btn" id="clearDraftButton" type="button">Clear Draft</button>
+          </div>
+
+          <p class="autosave-status" id="autosaveStatus" aria-live="polite">
+            Draft not yet started.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="review" hidden>
+      <div class="wrap">
+        <article class="card review-shell">
+          <p class="eyebrow" style="text-align:left">Pre-submission review</p>
+          <h2>Review the response record before scoring.</h2>
+          <p class="notice" id="reviewMessage" aria-live="polite"></p>
+
+          <div class="review-status-grid" id="reviewStatusGrid"></div>
+
+          <div class="actions">
+            <button class="btn" id="returnToQuestionsButton" type="button">Return to Questions</button>
+            <button class="btn primary" id="submitButton" type="button">Submit & Score</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="results" hidden>
+      <div class="wrap">
+        <article class="card result-summary">
+          <div class="result-heading">
+            <div class="score-block">
+              <div class="score" id="score">0 / 18</div>
+              <small id="scorePercent">0% correct</small>
+            </div>
+
+            <div class="result-copy">
+              <p class="eyebrow" style="text-align:left">Readiness report</p>
+              <h2 id="recommendation"></h2>
+              <p id="resultMessage"></p>
+              <div class="result-metadata" id="resultMetadata"></div>
+            </div>
+          </div>
+
+          <div class="strand-grid" id="strandGrid"></div>
+        </article>
+
+        <article class="card targeted-review" id="targetedReview">
+          <p class="eyebrow" style="text-align:left">Targeted starting points</p>
+          <h3>Course units connected to this readiness snapshot</h3>
+          <div class="review-pathway-list" id="reviewPathwayList"></div>
+          <p class="notice">A short diagnostic samples each strand unevenly.
+            One correct or incorrect item in a small strand should be confirmed
+            with coursework, discussion, or additional practice before making a
+            major placement decision.</p>
+        </article>
+
+        <div class="answer-review" id="answerReview"></div>
+
+        <div class="results-actions">
+          <a class="btn primary" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Return to Course Map</a>
+          <a class="btn" href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">Assessments & Records</a>
+          <button class="btn" id="exportResults" type="button">Export Result</button>
+          <button class="btn" id="printResults" type="button">Print Results</button>
+          <button class="btn" id="retakeButton" type="button">Retake Diagnostic</button>
+        </div>
+
+        <p class="notice" id="resultStatus" aria-live="polite">
+          The scored result is stored only in this browser unless exported or printed.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>KH-MATH-PA-DIAGNOSTIC · Untimed · Local draft and result</span>
+      <nav class="footer-links" aria-label="Diagnostic footer navigation">
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/">Pre-Algebra</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/diagnostic/">Diagnostic</a>
+        <a href="https://vervenveda.github.io/Khaemenes_High.github.io/courses/mathematics/pre-algebra/assessments/">Assessments</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+  (() => {
+    "use strict";
+
+    const QUESTIONS = [{"id":"q01","domain":"Number sense","prompt":"Evaluate: 18 − 3 × 4","options":["60","6","12","24"],"answer":1,"explanation":"Multiply first: 3 × 4 = 12. Then 18 − 12 = 6."},{"id":"q02","domain":"Factors","prompt":"Which number is a factor of 24?","options":["5","7","6","11"],"answer":2,"explanation":"24 ÷ 6 = 4 with no remainder."},{"id":"q03","domain":"Prime numbers","prompt":"Which number is prime?","options":["21","27","29","39"],"answer":2,"explanation":"29 has exactly two positive factors: 1 and 29."},{"id":"q04","domain":"Integers","prompt":"Evaluate: −7 + 12","options":["−19","−5","5","19"],"answer":2,"explanation":"Starting at −7 and moving 12 units right lands at 5."},{"id":"q05","domain":"Absolute value","prompt":"What is |−9|?","options":["−9","0","9","18"],"answer":2,"explanation":"Absolute value is distance from zero, so |−9| = 9."},{"id":"q06","domain":"Fractions","prompt":"Evaluate: 3/4 + 1/8","options":["4/12","4/8","7/8","1"],"answer":2,"explanation":"3/4 = 6/8, and 6/8 + 1/8 = 7/8."},{"id":"q07","domain":"Decimals","prompt":"Evaluate: 2.5 × 0.4","options":["0.1","1","10","100"],"answer":1,"explanation":"25 × 4 = 100, and two decimal places give 1.00."},{"id":"q08","domain":"Ratios","prompt":"A recipe uses 3 cups of rice for 5 people. At the same rate, how many cups are needed for 20 people?","options":["8","10","12","15"],"answer":2,"explanation":"20 people is four times 5, so 3 × 4 = 12 cups."},{"id":"q09","domain":"Percent","prompt":"What is 15% of 80?","options":["8","10","12","15"],"answer":2,"explanation":"0.15 × 80 = 12."},{"id":"q10","domain":"Exponents","prompt":"Evaluate: 2³ × 2²","options":["16","32","64","8"],"answer":1,"explanation":"2³ × 2² = 8 × 4 = 32."},{"id":"q11","domain":"Expressions","prompt":"Simplify: 3x + 2x","options":["5","5x","6x","x⁵"],"answer":1,"explanation":"The terms are alike, so add the coefficients: 3 + 2 = 5."},{"id":"q12","domain":"Equations","prompt":"Solve: x + 7 = 19","options":["10","11","12","26"],"answer":2,"explanation":"Subtract 7 from both sides: x = 12."},{"id":"q13","domain":"Equations","prompt":"Solve: 3x = 21","options":["6","7","18","63"],"answer":1,"explanation":"Divide both sides by 3: x = 7."},{"id":"q14","domain":"Inequalities","prompt":"Solve: x − 4 > 2","options":["x > 6","x < 6","x > −2","x < −2"],"answer":0,"explanation":"Add 4 to both sides: x > 6."},{"id":"q15","domain":"Coordinates","prompt":"In which quadrant is the point (−3, 4)?","options":["I","II","III","IV"],"answer":1,"explanation":"A negative x-coordinate and positive y-coordinate place the point in Quadrant II."},{"id":"q16","domain":"Linear relationships","prompt":"For y = 2x + 1, what is y when x = 3?","options":["5","6","7","9"],"answer":2,"explanation":"Substitute x = 3: y = 2(3) + 1 = 7."},{"id":"q17","domain":"Geometry","prompt":"A triangle has base 10 units and height 6 units. What is its area?","options":["16","30","60","120"],"answer":1,"explanation":"Area = 1/2 × base × height = 1/2 × 10 × 6 = 30."},{"id":"q18","domain":"Statistics","prompt":"What is the mean of 4, 7, 9, and 10?","options":["7","7.5","8","8.5"],"answer":1,"explanation":"The sum is 30, and 30 ÷ 4 = 7.5."}];
+
+    const STRANDS = {
+      "Number Foundations": {
+        domains:["Number sense","Factors","Prime numbers","Integers","Absolute value","Exponents"],
+        description:"Order of operations, factors, primes, signed numbers, absolute value, and exponent foundations.",
+        units:[
+          {label:"Unit 01",href:"../units/unit-01/"},
+          {label:"Unit 02",href:"../units/unit-02/"},
+          {label:"Unit 06",href:"../units/unit-06/"}
+        ]
+      },
+      "Rational & Proportional Reasoning": {
+        domains:["Fractions","Decimals","Ratios","Percent"],
+        description:"Fraction and decimal operations, ratios, scaling, rates, and percent reasoning.",
+        units:[
+          {label:"Unit 03",href:"../units/unit-03/"},
+          {label:"Unit 04",href:"../units/unit-04/"},
+          {label:"Unit 05",href:"../units/unit-05/"}
+        ]
+      },
+      "Algebraic Reasoning": {
+        domains:["Expressions","Equations","Inequalities"],
+        description:"Like terms, inverse operations, equations, and inequality reasoning.",
+        units:[
+          {label:"Unit 07",href:"../units/unit-07/"},
+          {label:"Unit 08",href:"../units/unit-08/"},
+          {label:"Unit 09",href:"../units/unit-09/"}
+        ]
+      },
+      "Functions & Coordinates": {
+        domains:["Coordinates","Linear relationships"],
+        description:"Ordered pairs, coordinate reasoning, function rules, and linear relationships.",
+        units:[
+          {label:"Unit 10",href:"../units/unit-10/"}
+        ]
+      },
+      "Geometry & Measurement": {
+        domains:["Geometry"],
+        description:"Area, measurement, formulas, scale, and geometric reasoning.",
+        units:[
+          {label:"Unit 11",href:"../units/unit-11/"}
+        ]
+      },
+      "Data & Probability": {
+        domains:["Statistics"],
+        description:"Measures of center, data interpretation, variability, and probability foundations.",
+        units:[
+          {label:"Unit 12",href:"../units/unit-12/"}
+        ]
+      }
+    };
+
+    const DRAFT_KEY = "khaemenes-prealgebra-diagnostic-draft-v2";
+    const RESULT_KEY = "khaemenes-prealgebra-diagnostic-result-v2";
+    const LEGACY_RESULT_KEY = "khaemenes-prealgebra-diagnostic-v1";
+    const THEME_KEY = "khaemenes-theme";
+
+    const $ = selector => document.querySelector(selector);
+    const escapeHTML = value => String(value).replace(
+      /[&<>"']/g,
+      character => ({
+        "&":"&amp;",
+        "<":"&lt;",
+        ">":"&gt;",
+        '"':"&quot;",
+        "'":"&#39;"
+      })[character]
+    );
+
+    let index = 0;
+    let answers = Array(QUESTIONS.length).fill(null);
+    let begunAt = null;
+    let completedResult = null;
+
+    const elements = {
+      intro:$("#intro"),
+      overview:$("#readiness-overview"),
+      diagnostic:$("#diagnostic"),
+      review:$("#review"),
+      results:$("#results"),
+
+      themeToggle:$("#themeToggle"),
+      startButton:$("#startButton"),
+      overviewStartButton:$("#overviewStartButton"),
+      resumeButton:$("#resumeButton"),
+      resumeNotice:$("#resumeNotice"),
+      learnerName:$("#learnerName"),
+
+      domainLabel:$("#domainLabel"),
+      questionNumber:$("#questionNumber"),
+      questionPrompt:$("#questionPrompt"),
+      options:$("#options"),
+      previousButton:$("#previousButton"),
+      nextButton:$("#nextButton"),
+      questionDots:$("#questionDots"),
+      answeredLabel:$("#answeredLabel"),
+      answeredBar:$("#answeredBar"),
+      reviewButton:$("#reviewButton"),
+      clearDraftButton:$("#clearDraftButton"),
+      autosaveStatus:$("#autosaveStatus"),
+
+      reviewMessage:$("#reviewMessage"),
+      reviewStatusGrid:$("#reviewStatusGrid"),
+      returnToQuestionsButton:$("#returnToQuestionsButton"),
+      submitButton:$("#submitButton"),
+
+      score:$("#score"),
+      scorePercent:$("#scorePercent"),
+      recommendation:$("#recommendation"),
+      resultMessage:$("#resultMessage"),
+      resultMetadata:$("#resultMetadata"),
+      strandGrid:$("#strandGrid"),
+      reviewPathwayList:$("#reviewPathwayList"),
+      answerReview:$("#answerReview"),
+      exportResults:$("#exportResults"),
+      printResults:$("#printResults"),
+      retakeButton:$("#retakeButton"),
+      resultStatus:$("#resultStatus")
+    };
+
+    if (Object.values(elements).some(element => !element)) return;
+
+    function setTheme(theme) {
+      document.documentElement.dataset.theme = theme;
+      localStorage.setItem(THEME_KEY, theme);
+    }
+
+    setTheme(localStorage.getItem(THEME_KEY) || "light");
+
+    elements.themeToggle.addEventListener("click", () => {
+      setTheme(document.documentElement.dataset.theme === "light" ? "dark" : "light");
+    });
+
+    function readJSON(key) {
+      try {
+        return JSON.parse(localStorage.getItem(key) || "null");
+      } catch {
+        return null;
+      }
+    }
+
+    function saveDraft() {
+      const draft = {
+        schema_version:"2.0",
+        course_code:"KH-MATH-PA",
+        diagnostic_id:"KH-MATH-PA-DIAGNOSTIC",
+        learner_label:elements.learnerName.value.trim(),
+        index,
+        answers,
+        begun_at:begunAt,
+        updated_at:new Date().toISOString()
+      };
+      localStorage.setItem(DRAFT_KEY, JSON.stringify(draft));
+      elements.autosaveStatus.textContent =
+        `Draft saved locally · ${new Date(draft.updated_at).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}`;
+      updateResumeState();
+    }
+
+    function clearDraft(showMessage = true) {
+      localStorage.removeItem(DRAFT_KEY);
+      index = 0;
+      answers = Array(QUESTIONS.length).fill(null);
+      begunAt = null;
+      if (showMessage) {
+        elements.autosaveStatus.textContent = "The local draft was cleared.";
+      }
+      updateResumeState();
+    }
+
+    function validDraft(draft) {
+      return Boolean(
+        draft &&
+        Array.isArray(draft.answers) &&
+        draft.answers.length === QUESTIONS.length &&
+        draft.answers.every(answer => answer === null || (
+          Number.isInteger(answer) && answer >= 0 && answer < 4
+        ))
+      );
+    }
+
+    function updateResumeState() {
+      const draft = readJSON(DRAFT_KEY);
+      const available = validDraft(draft) && draft.answers.some(answer => answer !== null);
+      elements.resumeButton.hidden = !available;
+      elements.resumeNotice.hidden = !available;
+
+      if (available) {
+        const completed = draft.answers.filter(answer => answer !== null).length;
+        const updated = draft.updated_at
+          ? new Date(draft.updated_at).toLocaleString()
+          : "an earlier session";
+        elements.resumeNotice.textContent =
+          `A local draft contains ${completed} of ${QUESTIONS.length} answers and was last updated ${updated}.`;
+      }
+    }
+
+    function showOnly(section) {
+      [elements.intro,elements.overview,elements.diagnostic,elements.review,elements.results]
+        .forEach(element => {
+          element.hidden = element !== section;
+        });
+      window.scrollTo({top:0,behavior:"smooth"});
+    }
+
+    function beginFresh() {
+      const retainedName = elements.learnerName.value.trim();
+      clearDraft(false);
+      elements.learnerName.value = retainedName;
+      begunAt = new Date().toISOString();
+      index = 0;
+      answers = Array(QUESTIONS.length).fill(null);
+      showOnly(elements.diagnostic);
+      renderQuestion();
+      saveDraft();
+    }
+
+    function resumeDraft() {
+      const draft = readJSON(DRAFT_KEY);
+      if (!validDraft(draft)) {
+        beginFresh();
+        return;
+      }
+
+      answers = draft.answers;
+      index = Math.max(0, Math.min(QUESTIONS.length - 1, Number(draft.index) || 0));
+      begunAt = draft.begun_at || new Date().toISOString();
+      elements.learnerName.value = draft.learner_label || "";
+      showOnly(elements.diagnostic);
+      renderQuestion();
+      elements.autosaveStatus.textContent = "Local draft restored.";
+    }
+
+    function answeredCount() {
+      return answers.filter(answer => answer !== null).length;
+    }
+
+    function renderProgress() {
+      const completed = answeredCount();
+      const percent = Math.round((completed / QUESTIONS.length) * 100);
+      elements.answeredLabel.textContent = `${completed} / ${QUESTIONS.length}`;
+      elements.answeredBar.style.width = `${percent}%`;
+
+      elements.questionDots.innerHTML = QUESTIONS.map((question, questionIndex) => `
+        <button class="dot ${questionIndex === index ? "current" : ""} ${answers[questionIndex] !== null ? "answered" : ""}"
+          type="button" data-index="${questionIndex}"
+          aria-label="Go to question ${questionIndex + 1}${answers[questionIndex] !== null ? ", answered" : ", unanswered"}">
+          ${questionIndex + 1}
+        </button>
+      `).join("");
+    }
+
+    function renderQuestion() {
+      const question = QUESTIONS[index];
+
+      elements.domainLabel.textContent = question.domain;
+      elements.questionNumber.textContent =
+        `Question ${index + 1} of ${QUESTIONS.length}`;
+      elements.questionPrompt.textContent = question.prompt;
+
+      elements.options.innerHTML = question.options.map((option, optionIndex) => `
+        <label class="option">
+          <input type="radio" name="answer" value="${optionIndex}"
+            ${answers[index] === optionIndex ? "checked" : ""}>
+          <span>${escapeHTML(option)}</span>
+        </label>
+      `).join("");
+
+      elements.previousButton.disabled = index === 0;
+      elements.nextButton.textContent =
+        index === QUESTIONS.length - 1 ? "Review Answers" : "Next";
+
+      renderProgress();
+      elements.questionPrompt.focus({preventScroll:true});
+    }
+
+    function openQuestion(questionIndex) {
+      index = Math.max(0, Math.min(QUESTIONS.length - 1, questionIndex));
+      showOnly(elements.diagnostic);
+      renderQuestion();
+      saveDraft();
+    }
+
+    function renderReview() {
+      const completed = answeredCount();
+      const remaining = QUESTIONS.length - completed;
+
+      elements.reviewMessage.textContent =
+        remaining === 0
+          ? "All 18 questions have a recorded response. You may submit now or return to revise an answer."
+          : `${remaining} question${remaining === 1 ? "" : "s"} remain unanswered. Open any item below before submission.`;
+
+      elements.reviewStatusGrid.innerHTML = QUESTIONS.map((question, questionIndex) => {
+        const answered = answers[questionIndex] !== null;
+        const answerText = answered
+          ? question.options[answers[questionIndex]]
+          : "No response";
+        return `
+          <button class="review-status-button ${answered ? "" : "unanswered"}"
+            type="button" data-review-index="${questionIndex}">
+            <span class="review-number">${questionIndex + 1}</span>
+            <span>
+              <strong>${escapeHTML(question.domain)}</strong>
+              <small>${escapeHTML(answerText)}</small>
+            </span>
+            <span class="answer-state">${answered ? "answered" : "missing"}</span>
+          </button>
+        `;
+      }).join("");
+
+      elements.submitButton.disabled = remaining > 0;
+    }
+
+    function openReview() {
+      saveDraft();
+      showOnly(elements.review);
+      renderReview();
+    }
+
+    function recommendationFor(score) {
+      if (score <= 8) {
+        return {
+          title:"Foundation pathway recommended",
+          message:"Begin with targeted number, rational-number, and equation support. Move forward by demonstrated skill rather than by the overall score alone."
+        };
+      }
+      if (score <= 14) {
+        return {
+          title:"Core pathway with targeted review",
+          message:"The diagnostic shows useful readiness for the Core sequence. Review the identified strands while beginning the course."
+        };
+      }
+      return {
+        title:"Strong Core readiness",
+        message:"The result supports beginning the Core pathway. Extended challenges may be used in the strongest strands while small-sample areas are confirmed through coursework."
+      };
+    }
+
+    function strandForDomain(domain) {
+      return Object.entries(STRANDS).find(([,strand]) =>
+        strand.domains.includes(domain)
+      )?.[0] || "Other";
+    }
+
+    function buildStrandResults(correctFlags) {
+      const results = {};
+
+      Object.entries(STRANDS).forEach(([name,strand]) => {
+        results[name] = {
+          name,
+          correct:0,
+          total:0,
+          description:strand.description,
+          units:strand.units
+        };
+      });
+
+      QUESTIONS.forEach((question, questionIndex) => {
+        const strandName = strandForDomain(question.domain);
+        if (!results[strandName]) return;
+        results[strandName].total += 1;
+        if (correctFlags[questionIndex]) results[strandName].correct += 1;
+      });
+
+      return results;
+    }
+
+    function strandLevel(correct, total) {
+      const percent = total ? (correct / total) * 100 : 0;
+      if (percent >= 80) return "secure on this snapshot";
+      if (percent >= 50) return "developing / confirm with coursework";
+      return "priority review";
+    }
+
+    function renderStrands(strandResults) {
+      elements.strandGrid.innerHTML = Object.values(strandResults).map(strand => {
+        const percent = Math.round((strand.correct / strand.total) * 100);
+        const unitLinks = strand.units.map(unit =>
+          `<a href="${unit.href}">${escapeHTML(unit.label)}</a>`
+        ).join("");
+
+        return `
+          <article class="card strand-card">
+            <div class="strand-card-head">
+              <h3>${escapeHTML(strand.name)}</h3>
+              <span class="strand-score">${strand.correct}/${strand.total}</span>
+            </div>
+            <div class="strand-meter" aria-label="${percent} percent on this diagnostic strand">
+              <span style="width:${percent}%"></span>
+            </div>
+            <p><strong>${strandLevel(strand.correct,strand.total)}.</strong>
+              ${escapeHTML(strand.description)}</p>
+            <div class="unit-links">${unitLinks}</div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    function renderTargetedReview(strandResults) {
+      const ordered = Object.values(strandResults).sort((a,b) => {
+        const aPercent = a.correct / a.total;
+        const bPercent = b.correct / b.total;
+        return aPercent - bPercent;
+      });
+
+      elements.reviewPathwayList.innerHTML = ordered.map(strand => {
+        const percent = Math.round((strand.correct / strand.total) * 100);
+        const firstUnit = strand.units[0];
+        const guidance =
+          percent >= 80
+            ? "Continue into the connected unit sequence and confirm with ordinary coursework."
+            : percent >= 50
+              ? "Begin the connected units with a short review of prerequisite examples."
+              : "Use the Foundation pathway or targeted practice before increasing complexity.";
+
+        return `
+          <div class="review-pathway-item">
+            <div>
+              <strong>${escapeHTML(strand.name)} · ${strand.correct}/${strand.total}</strong>
+              <p>${escapeHTML(guidance)}</p>
+            </div>
+            <a href="${firstUnit.href}">Open ${escapeHTML(firstUnit.label)}</a>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function renderAnswerReview(correctFlags) {
+      elements.answerReview.innerHTML = QUESTIONS.map((question, questionIndex) => {
+        const selectedIndex = answers[questionIndex];
+        const selectedAnswer = question.options[selectedIndex];
+        const correctAnswer = question.options[question.answer];
+        const correct = correctFlags[questionIndex];
+
+        return `
+          <details ${correct ? "" : "open"}>
+            <summary>
+              <span class="review-index">${questionIndex + 1}</span>
+              <strong>${escapeHTML(question.prompt)}</strong>
+              <span class="${correct ? "correct-mark" : "incorrect-mark"}">
+                ${correct ? "correct" : "review"}
+              </span>
+            </summary>
+            <div class="answer-detail">
+              <p><strong>Domain:</strong> ${escapeHTML(question.domain)}</p>
+              <p><strong>Your answer:</strong> ${escapeHTML(selectedAnswer)}</p>
+              <p><strong>Correct answer:</strong> ${escapeHTML(correctAnswer)}</p>
+              <p>${escapeHTML(question.explanation)}</p>
+            </div>
+          </details>
+        `;
+      }).join("");
+    }
+
+    function submitDiagnostic() {
+      if (answers.some(answer => answer === null)) {
+        renderReview();
+        return;
+      }
+
+      const correctFlags = answers.map(
+        (answer, questionIndex) => answer === QUESTIONS[questionIndex].answer
+      );
+      const score = correctFlags.filter(Boolean).length;
+      const percent = Math.round((score / QUESTIONS.length) * 100);
+      const recommendation = recommendationFor(score);
+      const strandResults = buildStrandResults(correctFlags);
+      const completedAt = new Date().toISOString();
+
+      completedResult = {
+        schema_version:"2.0",
+        diagnostic_id:"KH-MATH-PA-DIAGNOSTIC",
+        course_code:"KH-MATH-PA",
+        title:"Pre-Algebra Readiness Diagnostic",
+        learner_label:elements.learnerName.value.trim(),
+        score,
+        total:QUESTIONS.length,
+        percent,
+        recommendation:recommendation.title,
+        message:recommendation.message,
+        answers:[...answers],
+        correct_flags:correctFlags,
+        strands:strandResults,
+        begun_at:begunAt,
+        completed_at:completedAt
+      };
+
+      localStorage.setItem(RESULT_KEY, JSON.stringify(completedResult));
+      localStorage.setItem(LEGACY_RESULT_KEY, JSON.stringify({
+        score,
+        total:QUESTIONS.length,
+        recommendation:recommendation.title,
+        message:recommendation.message,
+        answers:[...answers],
+        completed_at:completedAt
+      }));
+      localStorage.removeItem(DRAFT_KEY);
+
+      elements.score.textContent = `${score} / ${QUESTIONS.length}`;
+      elements.scorePercent.textContent = `${percent}% correct`;
+      elements.recommendation.textContent = recommendation.title;
+      elements.resultMessage.textContent = recommendation.message;
+
+      const metadata = [
+        elements.learnerName.value.trim() || "Unlabelled learner record",
+        "18 definitive-answer questions",
+        "Untimed",
+        new Date(completedAt).toLocaleString()
+      ];
+      elements.resultMetadata.innerHTML = metadata
+        .map(item => `<span>${escapeHTML(item)}</span>`)
+        .join("");
+
+      renderStrands(strandResults);
+      renderTargetedReview(strandResults);
+      renderAnswerReview(correctFlags);
+
+      showOnly(elements.results);
+      updateResumeState();
+    }
+
+    function exportResult() {
+      if (!completedResult) {
+        completedResult = readJSON(RESULT_KEY);
+      }
+      if (!completedResult) {
+        elements.resultStatus.textContent = "No completed result is available to export.";
+        return;
+      }
+
+      const blob = new Blob(
+        [JSON.stringify(completedResult,null,2)],
+        {type:"application/json"}
+      );
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = "prealgebra-readiness-diagnostic-result.json";
+      document.body.appendChild(anchor);
+      anchor.click();
+      anchor.remove();
+      URL.revokeObjectURL(url);
+
+      elements.resultStatus.textContent =
+        "The readiness result was exported as a JSON record.";
+    }
+
+    elements.startButton.addEventListener("click", beginFresh);
+    elements.overviewStartButton.addEventListener("click", beginFresh);
+    elements.resumeButton.addEventListener("click", resumeDraft);
+
+    elements.options.addEventListener("change", event => {
+      const input = event.target.closest('input[name="answer"]');
+      if (!input) return;
+      answers[index] = Number(input.value);
+      renderProgress();
+      saveDraft();
+    });
+
+    elements.previousButton.addEventListener("click", () => {
+      if (index > 0) {
+        index -= 1;
+        renderQuestion();
+        saveDraft();
+      }
+    });
+
+    elements.nextButton.addEventListener("click", () => {
+      if (index < QUESTIONS.length - 1) {
+        index += 1;
+        renderQuestion();
+        saveDraft();
+      } else {
+        openReview();
+      }
+    });
+
+    elements.questionDots.addEventListener("click", event => {
+      const button = event.target.closest("[data-index]");
+      if (!button) return;
+      openQuestion(Number(button.dataset.index));
+    });
+
+    elements.reviewButton.addEventListener("click", openReview);
+
+    elements.clearDraftButton.addEventListener("click", () => {
+      if (!window.confirm("Clear the current local diagnostic draft?")) return;
+      clearDraft();
+      showOnly(elements.intro);
+    });
+
+    elements.reviewStatusGrid.addEventListener("click", event => {
+      const button = event.target.closest("[data-review-index]");
+      if (!button) return;
+      openQuestion(Number(button.dataset.reviewIndex));
+    });
+
+    elements.returnToQuestionsButton.addEventListener("click", () => {
+      showOnly(elements.diagnostic);
+      renderQuestion();
+    });
+
+    elements.submitButton.addEventListener("click", () => {
+      if (answers.some(answer => answer === null)) {
+        renderReview();
+        return;
+      }
+      if (window.confirm("Submit the diagnostic and create the readiness report?")) {
+        submitDiagnostic();
+      }
+    });
+
+    elements.exportResults.addEventListener("click", exportResult);
+    elements.printResults.addEventListener("click", () => window.print());
+
+    elements.retakeButton.addEventListener("click", () => {
+      if (!window.confirm("Begin a new diagnostic attempt? The completed result remains available until the new attempt is submitted.")) return;
+      beginFresh();
+    });
+
+    elements.learnerName.addEventListener("change", () => {
+      const draft = readJSON(DRAFT_KEY);
+      if (validDraft(draft)) saveDraft();
+    });
+
+    updateResumeState();
+  })();
+  </script>
 </body>
 </html>
