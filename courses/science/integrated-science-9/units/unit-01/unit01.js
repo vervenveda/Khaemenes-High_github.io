@@ -87,6 +87,26 @@
     $("#themeToggle")?.addEventListener("click",()=>applyTheme(document.documentElement.dataset.theme==="dark"?"light":"dark"));
   }
 
+  /*
+   * Centralized navigation repair.
+   * Unit-root pages sit five levels below the repository root.
+   * Lesson pages sit six levels below the repository root.
+   */
+  function repairPortalLinks(){
+    const repositoryRoot=location.pathname.includes("/lessons/")
+      ?"../../../../../../"
+      :"../../../../../";
+
+    $$("a").forEach(link=>{
+      const label=link.textContent.replace(/\s+/g," ").trim();
+      if(label==="High School"){
+        link.setAttribute("href",`${repositoryRoot}index.html`);
+      }else if(label==="Grade 9"){
+        link.setAttribute("href",`${repositoryRoot}grades/grade-09/`);
+      }
+    });
+  }
+
   function toast(message){
     const box=$("#toast"); if(!box)return;
     box.textContent=message;box.hidden=false;
@@ -178,6 +198,7 @@
   }
 
   function initialize(){
+    repairPortalLinks();
     initializeTheme();
     $$("[data-page-complete]").forEach(button=>button.addEventListener("click",()=>togglePage(button.dataset.pageComplete)));
     $$("[data-evidence]").forEach(button=>button.addEventListener("click",()=>markEvidence(button.dataset.evidence)));
