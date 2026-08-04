@@ -344,7 +344,17 @@
     initializeTheme();
     initializeControls();
     updateOnlineStatus();
-    loadCourseMap();
+
+    /*
+     * The full course-map request belongs only on the Science 9 course page.
+     * Other pages, including the Assessment Hall, reuse this controller for
+     * theme and navigation support but do not contain a unit-list mount point.
+     */
+    if ($("#unitList")) {
+      loadCourseMap();
+    } else {
+      updateProgress();
+    }
   }
 
   document.addEventListener("DOMContentLoaded", initialize);
