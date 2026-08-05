@@ -1,0 +1,17 @@
+{
+  "name": "Khaemenes High Grade 10 United States History Honors",
+  "short_name": "KHAE USH10",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "description": "A 36-week Grade 10 United States History Honors course.",
+  "categories": [
+    "education",
+    "history",
+    "productivity"
+  ],
+  "icons": []
+}
