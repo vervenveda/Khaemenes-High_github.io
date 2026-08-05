@@ -1,0 +1,190 @@
+{
+  "title": "Week 12 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “due process”?",
+      "options": [
+        "A plan for measuring whether a policy caused intended results and what else occurred.",
+        "Displacement of state or local law by valid federal law.",
+        "Constitutional requirements of fair law, notice, procedure, and impartial decision-making before government deprives life, liberty, or property.",
+        "A legally binding rule governing conduct within an agency’s authority."
+      ],
+      "answer": 2,
+      "explanation": "Due process means constitutional requirements of fair law, notice, procedure, and impartial decision-making before government deprives life, liberty, or property.",
+      "prompt": "Which definition best matches “due process”?",
+      "choices": [
+        "A plan for measuring whether a policy caused intended results and what else occurred.",
+        "Displacement of state or local law by valid federal law.",
+        "Constitutional requirements of fair law, notice, procedure, and impartial decision-making before government deprives life, liberty, or property.",
+        "A legally binding rule governing conduct within an agency’s authority."
+      ]
+    },
+    {
+      "question": "Which definition best matches “probable cause”?",
+      "options": [
+        "A reasonable basis, grounded in facts, to believe a crime occurred or evidence will be found.",
+        "An argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+        "A formal process in which officials or a deliberative body receive testimony and evidence.",
+        "Testing how a conclusion changes when assumptions or estimates change."
+      ],
+      "answer": 0,
+      "explanation": "Probable cause means a reasonable basis, grounded in facts, to believe a crime occurred or evidence will be found.",
+      "prompt": "Which definition best matches “probable cause”?",
+      "choices": [
+        "A reasonable basis, grounded in facts, to believe a crime occurred or evidence will be found.",
+        "An argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+        "A formal process in which officials or a deliberative body receive testimony and evidence.",
+        "Testing how a conclusion changes when assumptions or estimates change."
+      ]
+    },
+    {
+      "question": "Which definition best matches “search warrant”?",
+      "options": [
+        "A judicial authorization to search a specified place or person for described evidence.",
+        "Natural resources used in production.",
+        "Intentional different treatment based on a protected characteristic.",
+        "The president’s constitutional role directing the armed forces."
+      ],
+      "answer": 0,
+      "explanation": "Search warrant means a judicial authorization to search a specified place or person for described evidence.",
+      "prompt": "Which definition best matches “search warrant”?",
+      "choices": [
+        "A judicial authorization to search a specified place or person for described evidence.",
+        "Natural resources used in production.",
+        "Intentional different treatment based on a protected characteristic.",
+        "The president’s constitutional role directing the armed forces."
+      ]
+    },
+    {
+      "question": "Which definition best matches “exclusionary rule”?",
+      "options": [
+        "A remedy that may bar evidence obtained through certain constitutional violations.",
+        "A structured set of beliefs about government, society, rights, economy, and public priorities.",
+        "The First Amendment prohibition on government establishment of religion.",
+        "The process through which people develop political values, identities, and habits."
+      ],
+      "answer": 0,
+      "explanation": "Exclusionary rule means a remedy that may bar evidence obtained through certain constitutional violations.",
+      "prompt": "Which definition best matches “exclusionary rule”?",
+      "choices": [
+        "A remedy that may bar evidence obtained through certain constitutional violations.",
+        "A structured set of beliefs about government, society, rights, economy, and public priorities.",
+        "The First Amendment prohibition on government establishment of religion.",
+        "The process through which people develop political values, identities, and habits."
+      ]
+    },
+    {
+      "question": "Which definition best matches “self-incrimination”?",
+      "options": [
+        "A reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+        "Compelled testimonial evidence exposing a person to criminal liability.",
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "The process by which issues gain or lose public and governmental attention."
+      ],
+      "answer": 1,
+      "explanation": "Self-incrimination means compelled testimonial evidence exposing a person to criminal liability.",
+      "prompt": "Which definition best matches “self-incrimination”?",
+      "choices": [
+        "A reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+        "Compelled testimonial evidence exposing a person to criminal liability.",
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "The process by which issues gain or lose public and governmental attention."
+      ]
+    },
+    {
+      "question": "Which definition best matches “right to counsel”?",
+      "options": [
+        "The value of exports minus imports of goods and services.",
+        "The constitutional protection of legal assistance in specified criminal proceedings.",
+        "A record explaining how feedback, evidence, or error correction changed a final product.",
+        "A plan for measuring whether a policy caused intended results and what else occurred."
+      ],
+      "answer": 1,
+      "explanation": "Right to counsel means the constitutional protection of legal assistance in specified criminal proceedings.",
+      "prompt": "Which definition best matches “right to counsel”?",
+      "choices": [
+        "The value of exports minus imports of goods and services.",
+        "The constitutional protection of legal assistance in specified criminal proceedings.",
+        "A record explaining how feedback, evidence, or error correction changed a final product.",
+        "A plan for measuring whether a policy caused intended results and what else occurred."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 12?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Criminal procedure distributes power among police, prosecutors, defense counsel, judges, juries, and appellate courts."
+      ],
+      "answer": 3,
+      "explanation": "Criminal procedure distributes power among police, prosecutors, defense counsel, judges, juries, and appellate courts.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 12?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Criminal procedure distributes power among police, prosecutors, defense counsel, judges, juries, and appellate courts."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 12?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Rights depend on definitions such as search, seizure, custody, interrogation, probable cause, and reasonable expectation of privacy.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 2,
+      "explanation": "Rights depend on definitions such as search, seizure, custody, interrogation, probable cause, and reasonable expectation of privacy.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 12?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Rights depend on definitions such as search, seizure, custody, interrogation, probable cause, and reasonable expectation of privacy.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 12?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Digital technology creates new questions about location data, devices, biometrics, surveillance, and informational privacy."
+      ],
+      "answer": 3,
+      "explanation": "Digital technology creates new questions about location data, devices, biometrics, surveillance, and informational privacy.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 12?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Digital technology creates new questions about location data, devices, biometrics, surveillance, and informational privacy."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 12 inquiry?",
+      "options": [
+        "A student distinguishes suspicion, probable cause, warrant requirements, exceptions, and remedies instead of treating all police contact as identical.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 0,
+      "explanation": "A student distinguishes suspicion, probable cause, warrant requirements, exceptions, and remedies instead of treating all police contact as identical.",
+      "prompt": "Which action best demonstrates mastery of the Week 12 inquiry?",
+      "choices": [
+        "A student distinguishes suspicion, probable cause, warrant requirements, exceptions, and remedies instead of treating all police contact as identical.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "Should constitutional privacy depend on whether a person shared information with a technology company?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

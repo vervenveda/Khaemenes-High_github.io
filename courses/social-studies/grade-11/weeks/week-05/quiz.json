@@ -1,0 +1,190 @@
+{
+  "title": "Week 5 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “separation of powers”?",
+      "options": [
+        "Allocation of legislative, executive, and judicial authority to different branches.",
+        "The ease with which an asset can be used for payment or converted to spendable funds without major loss.",
+        "Human time, effort, skill, and knowledge used in production.",
+        "An election used to select party nominees or narrow the field of candidates."
+      ],
+      "answer": 0,
+      "explanation": "Separation of powers means allocation of legislative, executive, and judicial authority to different branches.",
+      "prompt": "Which definition best matches “separation of powers”?",
+      "choices": [
+        "Allocation of legislative, executive, and judicial authority to different branches.",
+        "The ease with which an asset can be used for payment or converted to spendable funds without major loss.",
+        "Human time, effort, skill, and knowledge used in production.",
+        "An election used to select party nominees or narrow the field of candidates."
+      ]
+    },
+    {
+      "question": "Which definition best matches “checks and balances”?",
+      "options": [
+        "Law developed through judicial decisions, custom, and precedent.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "A tradition holding that moral principles can be discovered through reason and apply beyond enacted rules."
+      ],
+      "answer": 2,
+      "explanation": "Checks and balances means constitutional powers allowing branches to limit or respond to one another.",
+      "prompt": "Which definition best matches “checks and balances”?",
+      "choices": [
+        "Law developed through judicial decisions, custom, and precedent.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "A tradition holding that moral principles can be discovered through reason and apply beyond enacted rules."
+      ]
+    },
+    {
+      "question": "Which definition best matches “enumerated powers”?",
+      "options": [
+        "A government document, dataset, proceeding, or other record available for public inspection.",
+        "A reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+        "Powers specifically listed in the Constitution.",
+        "A legal guarantee of equal status, participation, or protection."
+      ],
+      "answer": 2,
+      "explanation": "Enumerated powers means powers specifically listed in the Constitution.",
+      "prompt": "Which definition best matches “enumerated powers”?",
+      "choices": [
+        "A government document, dataset, proceeding, or other record available for public inspection.",
+        "A reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+        "Powers specifically listed in the Constitution.",
+        "A legal guarantee of equal status, participation, or protection."
+      ]
+    },
+    {
+      "question": "Which definition best matches “implied powers”?",
+      "options": [
+        "A stated complaint alleging an abuse, injury, or violation of a principle.",
+        "A rule concerning reserves relative to deposits; requirements have changed over time and may be set at zero.",
+        "Powers reasonably inferred from enumerated powers and constitutional clauses.",
+        "The ease with which an asset can be used for payment or converted to spendable funds without major loss."
+      ],
+      "answer": 2,
+      "explanation": "Implied powers means powers reasonably inferred from enumerated powers and constitutional clauses.",
+      "prompt": "Which definition best matches “implied powers”?",
+      "choices": [
+        "A stated complaint alleging an abuse, injury, or violation of a principle.",
+        "A rule concerning reserves relative to deposits; requirements have changed over time and may be set at zero.",
+        "Powers reasonably inferred from enumerated powers and constitutional clauses.",
+        "The ease with which an asset can be used for payment or converted to spendable funds without major loss."
+      ]
+    },
+    {
+      "question": "Which definition best matches “rule of law”?",
+      "options": [
+        "A quantitative limit on imports or exports.",
+        "The principle that public officials and private persons are governed by publicly known law.",
+        "Application of Bill of Rights protections to states through the Fourteenth Amendment.",
+        "The judgment officials use when law leaves choices about implementation."
+      ],
+      "answer": 1,
+      "explanation": "Rule of law means the principle that public officials and private persons are governed by publicly known law.",
+      "prompt": "Which definition best matches “rule of law”?",
+      "choices": [
+        "A quantitative limit on imports or exports.",
+        "The principle that public officials and private persons are governed by publicly known law.",
+        "Application of Bill of Rights protections to states through the Fourteenth Amendment.",
+        "The judgment officials use when law leaves choices about implementation."
+      ]
+    },
+    {
+      "question": "Which definition best matches “constitutional amendment”?",
+      "options": [
+        "Strategic communication designed to mobilize belief or action, often through selective evidence and emotional technique.",
+        "The constitutional system through which states appoint electors who choose the president and vice president.",
+        "A reasonable basis, grounded in facts, to believe a crime occurred or evidence will be found.",
+        "A formal change to the Constitution adopted through Article V procedures."
+      ],
+      "answer": 3,
+      "explanation": "Constitutional amendment means a formal change to the Constitution adopted through Article V procedures.",
+      "prompt": "Which definition best matches “constitutional amendment”?",
+      "choices": [
+        "Strategic communication designed to mobilize belief or action, often through selective evidence and emotional technique.",
+        "The constitutional system through which states appoint electors who choose the president and vice president.",
+        "A reasonable basis, grounded in facts, to believe a crime occurred or evidence will be found.",
+        "A formal change to the Constitution adopted through Article V procedures."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 5?",
+      "options": [
+        "The Constitution distributes power by institution, level of government, procedure, and time.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "The Constitution distributes power by institution, level of government, procedure, and time.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 5?",
+      "choices": [
+        "The Constitution distributes power by institution, level of government, procedure, and time.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 5?",
+      "options": [
+        "Checks and balances create friction intentionally, but excessive conflict can also impair governance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 0,
+      "explanation": "Checks and balances create friction intentionally, but excessive conflict can also impair governance.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 5?",
+      "choices": [
+        "Checks and balances create friction intentionally, but excessive conflict can also impair governance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 5?",
+      "options": [
+        "The amendment process protects stability while allowing formal constitutional change.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 0,
+      "explanation": "The amendment process protects stability while allowing formal constitutional change.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 5?",
+      "choices": [
+        "The amendment process protects stability while allowing formal constitutional change.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 5 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student identifies the constitutional source of a power and the institution that can check its exercise.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ],
+      "answer": 1,
+      "explanation": "A student identifies the constitutional source of a power and the institution that can check its exercise.",
+      "prompt": "Which action best demonstrates mastery of the Week 5 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student identifies the constitutional source of a power and the institution that can check its exercise.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ]
+    }
+  ],
+  "shortResponse": "Does institutional friction protect liberty more often than it prevents government from solving urgent problems?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

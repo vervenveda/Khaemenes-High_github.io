@@ -1,0 +1,190 @@
+{
+  "title": "Week 10 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “jurisdiction”?",
+      "options": [
+        "The official process of compiling, reviewing, and certifying election returns.",
+        "The election in which voters choose among nominees and decide public offices or measures.",
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "A court’s legal authority to hear and decide a category of case."
+      ],
+      "answer": 3,
+      "explanation": "Jurisdiction means a court’s legal authority to hear and decide a category of case.",
+      "prompt": "Which definition best matches “jurisdiction”?",
+      "choices": [
+        "The official process of compiling, reviewing, and certifying election returns.",
+        "The election in which voters choose among nominees and decide public offices or measures.",
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "A court’s legal authority to hear and decide a category of case."
+      ]
+    },
+    {
+      "question": "Which definition best matches “judicial review”?",
+      "options": [
+        "The power to determine whether government action is consistent with the Constitution.",
+        "A structured presentation in which a student answers questions and justifies methods and conclusions.",
+        "A good that can replace another good in consumption or production.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited."
+      ],
+      "answer": 0,
+      "explanation": "Judicial review means the power to determine whether government action is consistent with the Constitution.",
+      "prompt": "Which definition best matches “judicial review”?",
+      "choices": [
+        "The power to determine whether government action is consistent with the Constitution.",
+        "A structured presentation in which a student answers questions and justifies methods and conclusions.",
+        "A good that can replace another good in consumption or production.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited."
+      ]
+    },
+    {
+      "question": "Which definition best matches “precedent”?",
+      "options": [
+        "The constitutional formula counting three-fifths of enslaved persons for representation and direct taxation.",
+        "A prior judicial decision used as authority in a later case.",
+        "An alliance of groups or individuals cooperating toward shared political goals.",
+        "The process through which people develop political values, identities, and habits."
+      ],
+      "answer": 1,
+      "explanation": "Precedent means a prior judicial decision used as authority in a later case.",
+      "prompt": "Which definition best matches “precedent”?",
+      "choices": [
+        "The constitutional formula counting three-fifths of enslaved persons for representation and direct taxation.",
+        "A prior judicial decision used as authority in a later case.",
+        "An alliance of groups or individuals cooperating toward shared political goals.",
+        "The process through which people develop political values, identities, and habits."
+      ]
+    },
+    {
+      "question": "Which definition best matches “stare decisis”?",
+      "options": [
+        "The president’s constitutional role directing the armed forces.",
+        "The value of the best alternative forgone when a choice is made.",
+        "Uncertainty arising because a survey measures a sample rather than the entire population.",
+        "The principle of generally following established precedent while allowing justified departure."
+      ],
+      "answer": 3,
+      "explanation": "Stare decisis means the principle of generally following established precedent while allowing justified departure.",
+      "prompt": "Which definition best matches “stare decisis”?",
+      "choices": [
+        "The president’s constitutional role directing the armed forces.",
+        "The value of the best alternative forgone when a choice is made.",
+        "Uncertainty arising because a survey measures a sample rather than the entire population.",
+        "The principle of generally following established precedent while allowing justified departure."
+      ]
+    },
+    {
+      "question": "Which definition best matches “holding”?",
+      "options": [
+        "An extreme authoritarian system seeking pervasive control over political, social, economic, and private life.",
+        "Comparison of ways to achieve a defined outcome at the lowest cost or greatest effect.",
+        "A cost that does not vary with current output in the relevant period.",
+        "The court’s authoritative resolution of the legal issue necessary to decide the case."
+      ],
+      "answer": 3,
+      "explanation": "Holding means the court’s authoritative resolution of the legal issue necessary to decide the case.",
+      "prompt": "Which definition best matches “holding”?",
+      "choices": [
+        "An extreme authoritarian system seeking pervasive control over political, social, economic, and private life.",
+        "Comparison of ways to achieve a defined outcome at the lowest cost or greatest effect.",
+        "A cost that does not vary with current output in the relevant period.",
+        "The court’s authoritative resolution of the legal issue necessary to decide the case."
+      ]
+    },
+    {
+      "question": "Which definition best matches “dissent”?",
+      "options": [
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "The difference between willingness to pay and the price actually paid.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "The process by which agencies create regulations under statutory authority."
+      ],
+      "answer": 0,
+      "explanation": "Dissent means a judicial opinion disagreeing with the majority’s result or reasoning.",
+      "prompt": "Which definition best matches “dissent”?",
+      "choices": [
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "The difference between willingness to pay and the price actually paid.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "The process by which agencies create regulations under statutory authority."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 10?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Federal and state courts have different jurisdictions, structures, appointment systems, and relationships.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 2,
+      "explanation": "Federal and state courts have different jurisdictions, structures, appointment systems, and relationships.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 10?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Federal and state courts have different jurisdictions, structures, appointment systems, and relationships.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 10?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A case brief separates facts, issue, rule, reasoning, holding, and significance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 2,
+      "explanation": "A case brief separates facts, issue, rule, reasoning, holding, and significance.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 10?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A case brief separates facts, issue, rule, reasoning, holding, and significance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 10?",
+      "options": [
+        "Constitutional interpretation uses text, structure, history, precedent, purpose, and consequences in contested combinations.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 0,
+      "explanation": "Constitutional interpretation uses text, structure, history, precedent, purpose, and consequences in contested combinations.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 10?",
+      "choices": [
+        "Constitutional interpretation uses text, structure, history, precedent, purpose, and consequences in contested combinations.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 10 inquiry?",
+      "options": [
+        "A student quotes or paraphrases the court’s holding and does not treat a dissent, headline, or advocate’s summary as controlling law.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ],
+      "answer": 0,
+      "explanation": "A student quotes or paraphrases the court’s holding and does not treat a dissent, headline, or advocate’s summary as controlling law.",
+      "prompt": "Which action best demonstrates mastery of the Week 10 inquiry?",
+      "choices": [
+        "A student quotes or paraphrases the court’s holding and does not treat a dissent, headline, or advocate’s summary as controlling law.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ]
+    }
+  ],
+  "shortResponse": "When is overturning precedent an act of constitutional correction, and when does it undermine legal stability?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

@@ -1,0 +1,190 @@
+{
+  "title": "Week 11 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “civil liberty”?",
+      "options": [
+        "Compelled testimonial evidence exposing a person to criminal liability.",
+        "A tax applying the same rate across the tax base.",
+        "A protected freedom limiting government interference.",
+        "Comparison of the additional benefit and additional cost of one more unit or action."
+      ],
+      "answer": 2,
+      "explanation": "Civil liberty means a protected freedom limiting government interference.",
+      "prompt": "Which definition best matches “civil liberty”?",
+      "choices": [
+        "Compelled testimonial evidence exposing a person to criminal liability.",
+        "A tax applying the same rate across the tax base.",
+        "A protected freedom limiting government interference.",
+        "Comparison of the additional benefit and additional cost of one more unit or action."
+      ]
+    },
+    {
+      "question": "Which definition best matches “incorporation”?",
+      "options": [
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "A measure of how responsive one variable is to a change in another.",
+        "Application of Bill of Rights protections to states through the Fourteenth Amendment."
+      ],
+      "answer": 3,
+      "explanation": "Incorporation means application of Bill of Rights protections to states through the Fourteenth Amendment.",
+      "prompt": "Which definition best matches “incorporation”?",
+      "choices": [
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "A measure of how responsive one variable is to a change in another.",
+        "Application of Bill of Rights protections to states through the Fourteenth Amendment."
+      ]
+    },
+    {
+      "question": "Which definition best matches “content neutrality”?",
+      "options": [
+        "A legislature’s grant of authority to an executive agency or official.",
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "A government payment that is not direct compensation for current production.",
+        "A rule that government generally may regulate expression without favoring or suppressing a viewpoint."
+      ],
+      "answer": 3,
+      "explanation": "Content neutrality means a rule that government generally may regulate expression without favoring or suppressing a viewpoint.",
+      "prompt": "Which definition best matches “content neutrality”?",
+      "choices": [
+        "A legislature’s grant of authority to an executive agency or official.",
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "A government payment that is not direct compensation for current production.",
+        "A rule that government generally may regulate expression without favoring or suppressing a viewpoint."
+      ]
+    },
+    {
+      "question": "Which definition best matches “prior restraint”?",
+      "options": [
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "Government action preventing publication or expression before it occurs.",
+        "A supporter of ratifying the Constitution and strengthening national government.",
+        "The ability to access, analyze, evaluate, create, and verify messages across media forms."
+      ],
+      "answer": 1,
+      "explanation": "Prior restraint means government action preventing publication or expression before it occurs.",
+      "prompt": "Which definition best matches “prior restraint”?",
+      "choices": [
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "Government action preventing publication or expression before it occurs.",
+        "A supporter of ratifying the Constitution and strengthening national government.",
+        "The ability to access, analyze, evaluate, create, and verify messages across media forms."
+      ]
+    },
+    {
+      "question": "Which definition best matches “establishment clause”?",
+      "options": [
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "The First Amendment prohibition on government establishment of religion.",
+        "The process by which issues gain or lose public and governmental attention.",
+        "A public guarantee protecting eligible deposits up to legal limits."
+      ],
+      "answer": 1,
+      "explanation": "Establishment clause means the First Amendment prohibition on government establishment of religion.",
+      "prompt": "Which definition best matches “establishment clause”?",
+      "choices": [
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "The First Amendment prohibition on government establishment of religion.",
+        "The process by which issues gain or lose public and governmental attention.",
+        "A public guarantee protecting eligible deposits up to legal limits."
+      ]
+    },
+    {
+      "question": "Which definition best matches “free exercise clause”?",
+      "options": [
+        "A good that is difficult to exclude people from and can be used without substantially reducing availability to others.",
+        "Rapid withdrawals driven by fear that an institution cannot meet obligations.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "The First Amendment protection for religious belief and practice, subject to legal doctrine."
+      ],
+      "answer": 3,
+      "explanation": "Free exercise clause means the First Amendment protection for religious belief and practice, subject to legal doctrine.",
+      "prompt": "Which definition best matches “free exercise clause”?",
+      "choices": [
+        "A good that is difficult to exclude people from and can be used without substantially reducing availability to others.",
+        "Rapid withdrawals driven by fear that an institution cannot meet obligations.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "The First Amendment protection for religious belief and practice, subject to legal doctrine."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 11?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "First Amendment protections are strong but not identical across every setting, speaker, medium, or type of regulation.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 1,
+      "explanation": "First Amendment protections are strong but not identical across every setting, speaker, medium, or type of regulation.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 11?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "First Amendment protections are strong but not identical across every setting, speaker, medium, or type of regulation.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 11?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Government action, not merely private disagreement, is usually required for a constitutional claim.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 2,
+      "explanation": "Government action, not merely private disagreement, is usually required for a constitutional claim.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 11?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Government action, not merely private disagreement, is usually required for a constitutional claim.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 11?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Legal analysis distinguishes content, viewpoint, forum, purpose, burden, and the government’s asserted interest.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 2,
+      "explanation": "Legal analysis distinguishes content, viewpoint, forum, purpose, burden, and the government’s asserted interest.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 11?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Legal analysis distinguishes content, viewpoint, forum, purpose, burden, and the government’s asserted interest.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 11 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student first asks whether the challenged actor is the government and then identifies the applicable First Amendment category.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 1,
+      "explanation": "A student first asks whether the challenged actor is the government and then identifies the applicable First Amendment category.",
+      "prompt": "Which action best demonstrates mastery of the Week 11 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student first asks whether the challenged actor is the government and then identifies the applicable First Amendment category.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "Should the law treat large digital platforms more like private publishers, common carriers, or public forums?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

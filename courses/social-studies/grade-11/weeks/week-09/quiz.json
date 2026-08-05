@@ -1,0 +1,190 @@
+{
+  "title": "Week 9 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “bureaucracy”?",
+      "options": [
+        "The organizations and officials that administer laws and public programs.",
+        "A person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+        "Responsiveness of quantity demanded to a change in price.",
+        "The agreement creating proportional representation in the House and equal state representation in the Senate."
+      ],
+      "answer": 0,
+      "explanation": "Bureaucracy means the organizations and officials that administer laws and public programs.",
+      "prompt": "Which definition best matches “bureaucracy”?",
+      "choices": [
+        "The organizations and officials that administer laws and public programs.",
+        "A person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+        "Responsiveness of quantity demanded to a change in price.",
+        "The agreement creating proportional representation in the House and equal state representation in the Senate."
+      ]
+    },
+    {
+      "question": "Which definition best matches “delegation”?",
+      "options": [
+        "Presidential rejection of legislation, subject to possible congressional override.",
+        "A judicial authorization to search a specified place or person for described evidence.",
+        "A legislature’s grant of authority to an executive agency or official.",
+        "Comparison of the additional benefit and additional cost of one more unit or action."
+      ],
+      "answer": 2,
+      "explanation": "Delegation means a legislature’s grant of authority to an executive agency or official.",
+      "prompt": "Which definition best matches “delegation”?",
+      "choices": [
+        "Presidential rejection of legislation, subject to possible congressional override.",
+        "A judicial authorization to search a specified place or person for described evidence.",
+        "A legislature’s grant of authority to an executive agency or official.",
+        "Comparison of the additional benefit and additional cost of one more unit or action."
+      ]
+    },
+    {
+      "question": "Which definition best matches “rulemaking”?",
+      "options": [
+        "The process by which issues gain or lose public and governmental attention.",
+        "A market in which one firm supplies a product without close substitutes and entry is blocked.",
+        "An organization seeking to influence government by electing candidates and coordinating public policy.",
+        "The process by which agencies create regulations under statutory authority."
+      ],
+      "answer": 3,
+      "explanation": "Rulemaking means the process by which agencies create regulations under statutory authority.",
+      "prompt": "Which definition best matches “rulemaking”?",
+      "choices": [
+        "The process by which issues gain or lose public and governmental attention.",
+        "A market in which one firm supplies a product without close substitutes and entry is blocked.",
+        "An organization seeking to influence government by electing candidates and coordinating public policy.",
+        "The process by which agencies create regulations under statutory authority."
+      ]
+    },
+    {
+      "question": "Which definition best matches “regulation”?",
+      "options": [
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "The court’s authoritative resolution of the legal issue necessary to decide the case.",
+        "A rule that government generally may regulate expression without favoring or suppressing a viewpoint.",
+        "A legally binding rule governing conduct within an agency’s authority."
+      ],
+      "answer": 3,
+      "explanation": "Regulation means a legally binding rule governing conduct within an agency’s authority.",
+      "prompt": "Which definition best matches “regulation”?",
+      "choices": [
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "The court’s authoritative resolution of the legal issue necessary to decide the case.",
+        "A rule that government generally may regulate expression without favoring or suppressing a viewpoint.",
+        "A legally binding rule governing conduct within an agency’s authority."
+      ]
+    },
+    {
+      "question": "Which definition best matches “civil service”?",
+      "options": [
+        "A wage difference associated with job risk, conditions, location, or nonwage characteristics.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "A good that is difficult to exclude people from and can be used without substantially reducing availability to others.",
+        "The price of one currency in terms of another."
+      ],
+      "answer": 1,
+      "explanation": "Civil service means a professional public workforce selected and managed through established personnel systems.",
+      "prompt": "Which definition best matches “civil service”?",
+      "choices": [
+        "A wage difference associated with job risk, conditions, location, or nonwage characteristics.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "A good that is difficult to exclude people from and can be used without substantially reducing availability to others.",
+        "The price of one currency in terms of another."
+      ]
+    },
+    {
+      "question": "Which definition best matches “administrative discretion”?",
+      "options": [
+        "A value-based claim about what ought to be.",
+        "A structured presentation in which a student answers questions and justifies methods and conclusions.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "The judgment officials use when law leaves choices about implementation."
+      ],
+      "answer": 3,
+      "explanation": "Administrative discretion means the judgment officials use when law leaves choices about implementation.",
+      "prompt": "Which definition best matches “administrative discretion”?",
+      "choices": [
+        "A value-based claim about what ought to be.",
+        "A structured presentation in which a student answers questions and justifies methods and conclusions.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "The judgment officials use when law leaves choices about implementation."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 9?",
+      "options": [
+        "Agencies translate broad statutes into programs, enforcement priorities, benefits, permits, and rules.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 0,
+      "explanation": "Agencies translate broad statutes into programs, enforcement priorities, benefits, permits, and rules.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 9?",
+      "choices": [
+        "Agencies translate broad statutes into programs, enforcement priorities, benefits, permits, and rules.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 9?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Expertise and continuity can improve administration, but delegation and discretion require legal and democratic controls.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 2,
+      "explanation": "Expertise and continuity can improve administration, but delegation and discretion require legal and democratic controls.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 9?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Expertise and continuity can improve administration, but delegation and discretion require legal and democratic controls.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 9?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Public notice, comments, records, audits, courts, inspectors general, Congress, and elections create overlapping accountability."
+      ],
+      "answer": 3,
+      "explanation": "Public notice, comments, records, audits, courts, inspectors general, Congress, and elections create overlapping accountability.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 9?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Public notice, comments, records, audits, courts, inspectors general, Congress, and elections create overlapping accountability."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 9 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student verifies that an agency action falls within delegated authority and evaluates the evidence and procedure used.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 2,
+      "explanation": "A student verifies that an agency action falls within delegated authority and evaluates the evidence and procedure used.",
+      "prompt": "Which action best demonstrates mastery of the Week 9 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student verifies that an agency action falls within delegated authority and evaluates the evidence and procedure used.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "Should major technical regulations be made primarily by elected legislators or specialized agencies?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

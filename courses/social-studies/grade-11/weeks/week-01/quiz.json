@@ -1,0 +1,190 @@
+{
+  "title": "Week 1 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “civic literacy”?",
+      "options": [
+        "A resource that is difficult to exclude users from but can be depleted by use.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+        "Output measured at current prices.",
+        "A public institution managing monetary policy and supporting payment and financial stability functions."
+      ],
+      "answer": 1,
+      "explanation": "Civic literacy means knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+      "prompt": "Which definition best matches “civic literacy”?",
+      "choices": [
+        "A resource that is difficult to exclude users from but can be depleted by use.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+        "Output measured at current prices.",
+        "A public institution managing monetary policy and supporting payment and financial stability functions."
+      ]
+    },
+    {
+      "question": "Which definition best matches “constitutional republic”?",
+      "options": [
+        "A government payment that is not direct compensation for current production.",
+        "A representative government limited by a constitution and accountable to the people and law.",
+        "Legal authority to spend public money for a designated purpose.",
+        "Produced tools, equipment, structures, and technology used to create other goods and services."
+      ],
+      "answer": 1,
+      "explanation": "Constitutional republic means a representative government limited by a constitution and accountable to the people and law.",
+      "prompt": "Which definition best matches “constitutional republic”?",
+      "choices": [
+        "A government payment that is not direct compensation for current production.",
+        "A representative government limited by a constitution and accountable to the people and law.",
+        "Legal authority to spend public money for a designated purpose.",
+        "Produced tools, equipment, structures, and technology used to create other goods and services."
+      ]
+    },
+    {
+      "question": "Which definition best matches “public record”?",
+      "options": [
+        "Official negotiation and communication among governments.",
+        "A tax or spending feature that changes automatically with economic conditions, such as unemployment benefits.",
+        "A government document, dataset, proceeding, or other record available for public inspection.",
+        "GDP divided by population, often used as a rough average-output measure."
+      ],
+      "answer": 2,
+      "explanation": "Public record means a government document, dataset, proceeding, or other record available for public inspection.",
+      "prompt": "Which definition best matches “public record”?",
+      "choices": [
+        "Official negotiation and communication among governments.",
+        "A tax or spending feature that changes automatically with economic conditions, such as unemployment benefits.",
+        "A government document, dataset, proceeding, or other record available for public inspection.",
+        "GDP divided by population, often used as a rough average-output measure."
+      ]
+    },
+    {
+      "question": "Which definition best matches “corroboration”?",
+      "options": [
+        "Integration of ideas and evidence into a coherent understanding rather than a list of summaries.",
+        "The danger that failure or distress spreads through interconnected financial institutions and markets.",
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "Testing a claim by comparing it with independent evidence."
+      ],
+      "answer": 3,
+      "explanation": "Corroboration means testing a claim by comparing it with independent evidence.",
+      "prompt": "Which definition best matches “corroboration”?",
+      "choices": [
+        "Integration of ideas and evidence into a coherent understanding rather than a list of summaries.",
+        "The danger that failure or distress spreads through interconnected financial institutions and markets.",
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "Testing a claim by comparing it with independent evidence."
+      ]
+    },
+    {
+      "question": "Which definition best matches “civic virtue”?",
+      "options": [
+        "Public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+        "Habits that support responsible participation and the common good.",
+        "The total change in output associated with an initial change in spending or taxation under specified conditions.",
+        "Negotiation between workers acting together and an employer over compensation and conditions."
+      ],
+      "answer": 1,
+      "explanation": "Civic virtue means habits that support responsible participation and the common good.",
+      "prompt": "Which definition best matches “civic virtue”?",
+      "choices": [
+        "Public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+        "Habits that support responsible participation and the common good.",
+        "The total change in output associated with an initial change in spending or taxation under specified conditions.",
+        "Negotiation between workers acting together and an employer over compensation and conditions."
+      ]
+    },
+    {
+      "question": "Which definition best matches “nonpartisanship”?",
+      "options": [
+        "Authority to enforce law, administer government, conduct specified foreign affairs, and perform constitutional duties.",
+        "Law developed through judicial decisions, custom, and precedent.",
+        "A method that does not privilege a political party or require ideological agreement.",
+        "A protected freedom limiting government interference."
+      ],
+      "answer": 2,
+      "explanation": "Nonpartisanship means a method that does not privilege a political party or require ideological agreement.",
+      "prompt": "Which definition best matches “nonpartisanship”?",
+      "choices": [
+        "Authority to enforce law, administer government, conduct specified foreign affairs, and perform constitutional duties.",
+        "Law developed through judicial decisions, custom, and precedent.",
+        "A method that does not privilege a political party or require ideological agreement.",
+        "A protected freedom limiting government interference."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 1?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Civic inquiry begins with a clear question and evidence standards rather than a predetermined conclusion.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 1,
+      "explanation": "Civic inquiry begins with a clear question and evidence standards rather than a predetermined conclusion.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 1?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Civic inquiry begins with a clear question and evidence standards rather than a predetermined conclusion.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 1?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "Constitutional citizenship includes both protected rights and responsibilities such as informed participation.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 1,
+      "explanation": "Constitutional citizenship includes both protected rights and responsibilities such as informed participation.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 1?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "Constitutional citizenship includes both protected rights and responsibilities such as informed participation.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 1?",
+      "options": [
+        "Respectful disagreement is compatible with rigorous fact-checking and criticism of public power.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 0,
+      "explanation": "Respectful disagreement is compatible with rigorous fact-checking and criticism of public power.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 1?",
+      "choices": [
+        "Respectful disagreement is compatible with rigorous fact-checking and criticism of public power.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 1 inquiry?",
+      "options": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student identifies the relevant public institution, checks an official record, compares independent reporting, and states what remains uncertain.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences."
+      ],
+      "answer": 1,
+      "explanation": "A student identifies the relevant public institution, checks an official record, compares independent reporting, and states what remains uncertain.",
+      "prompt": "Which action best demonstrates mastery of the Week 1 inquiry?",
+      "choices": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student identifies the relevant public institution, checks an official record, compares independent reporting, and states what remains uncertain.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences."
+      ]
+    }
+  ],
+  "shortResponse": "Can a good citizen strongly oppose a policy while accurately representing the evidence and the opposing argument?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

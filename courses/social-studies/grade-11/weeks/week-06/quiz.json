@@ -1,0 +1,190 @@
+{
+  "title": "Week 6 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “federalism”?",
+      "options": [
+        "A constitutional process in which the House charges and the Senate tries specified misconduct.",
+        "A structured set of beliefs about government, society, rights, economy, and public priorities.",
+        "The unemployed actively seeking work as a percentage of the labor force.",
+        "A constitutional system dividing authority between national and state governments."
+      ],
+      "answer": 3,
+      "explanation": "Federalism means a constitutional system dividing authority between national and state governments.",
+      "prompt": "Which definition best matches “federalism”?",
+      "choices": [
+        "A constitutional process in which the House charges and the Senate tries specified misconduct.",
+        "A structured set of beliefs about government, society, rights, economy, and public priorities.",
+        "The unemployed actively seeking work as a percentage of the labor force.",
+        "A constitutional system dividing authority between national and state governments."
+      ]
+    },
+    {
+      "question": "Which definition best matches “reserved powers”?",
+      "options": [
+        "A judicial authorization to search a specified place or person for described evidence.",
+        "A legal guarantee of equal status, participation, or protection.",
+        "Powers retained by states or the people under the Tenth Amendment.",
+        "An organization seeking to influence government by electing candidates and coordinating public policy."
+      ],
+      "answer": 2,
+      "explanation": "Reserved powers means powers retained by states or the people under the Tenth Amendment.",
+      "prompt": "Which definition best matches “reserved powers”?",
+      "choices": [
+        "A judicial authorization to search a specified place or person for described evidence.",
+        "A legal guarantee of equal status, participation, or protection.",
+        "Powers retained by states or the people under the Tenth Amendment.",
+        "An organization seeking to influence government by electing candidates and coordinating public policy."
+      ]
+    },
+    {
+      "question": "Which definition best matches “concurrent powers”?",
+      "options": [
+        "A central-bank purchase or sale of securities affecting reserves and short-term rates.",
+        "Powers exercised by both national and state governments.",
+        "A market dominated by a small number of interdependent firms.",
+        "The First Amendment prohibition on government establishment of religion."
+      ],
+      "answer": 1,
+      "explanation": "Concurrent powers means powers exercised by both national and state governments.",
+      "prompt": "Which definition best matches “concurrent powers”?",
+      "choices": [
+        "A central-bank purchase or sale of securities affecting reserves and short-term rates.",
+        "Powers exercised by both national and state governments.",
+        "A market dominated by a small number of interdependent firms.",
+        "The First Amendment prohibition on government establishment of religion."
+      ]
+    },
+    {
+      "question": "Which definition best matches “preemption”?",
+      "options": [
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+        "A person who benefits from a good or action without contributing to its cost.",
+        "Displacement of state or local law by valid federal law.",
+        "A Senate practice of extended debate or procedural delay that may require cloture to end."
+      ],
+      "answer": 2,
+      "explanation": "Preemption means displacement of state or local law by valid federal law.",
+      "prompt": "Which definition best matches “preemption”?",
+      "choices": [
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+        "A person who benefits from a good or action without contributing to its cost.",
+        "Displacement of state or local law by valid federal law.",
+        "A Senate practice of extended debate or procedural delay that may require cloture to end."
+      ]
+    },
+    {
+      "question": "Which definition best matches “intergovernmental relations”?",
+      "options": [
+        "Cooperation, bargaining, conflict, and fiscal relationships among levels of government.",
+        "The interest rate on overnight reserve lending that the Federal Reserve targets within a range.",
+        "An organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+        "A measure of average price change for a defined basket of consumer goods and services."
+      ],
+      "answer": 0,
+      "explanation": "Intergovernmental relations means cooperation, bargaining, conflict, and fiscal relationships among levels of government.",
+      "prompt": "Which definition best matches “intergovernmental relations”?",
+      "choices": [
+        "Cooperation, bargaining, conflict, and fiscal relationships among levels of government.",
+        "The interest rate on overnight reserve lending that the Federal Reserve targets within a range.",
+        "An organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+        "A measure of average price change for a defined basket of consumer goods and services."
+      ]
+    },
+    {
+      "question": "Which definition best matches “home rule”?",
+      "options": [
+        "Public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "Authority granted to local governments to manage local affairs.",
+        "Employers’ willingness and ability to hire workers at different compensation levels."
+      ],
+      "answer": 2,
+      "explanation": "Home rule means authority granted to local governments to manage local affairs.",
+      "prompt": "Which definition best matches “home rule”?",
+      "choices": [
+        "Public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "Authority granted to local governments to manage local affairs.",
+        "Employers’ willingness and ability to hire workers at different compensation levels."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 6?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Federalism can permit local adaptation, policy experimentation, and multiple access points for participation.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 1,
+      "explanation": "Federalism can permit local adaptation, policy experimentation, and multiple access points for participation.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 6?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Federalism can permit local adaptation, policy experimentation, and multiple access points for participation.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 6?",
+      "options": [
+        "National authority can address interstate effects, protect rights, and create uniform standards.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "National authority can address interstate effects, protect rights, and create uniform standards.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 6?",
+      "choices": [
+        "National authority can address interstate effects, protect rights, and create uniform standards.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 6?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Many real policies are administered through overlapping funding, regulation, and implementation responsibilities.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 1,
+      "explanation": "Many real policies are administered through overlapping funding, regulation, and implementation responsibilities.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 6?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Many real policies are administered through overlapping funding, regulation, and implementation responsibilities.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 6 inquiry?",
+      "options": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student assigns a policy function to the correct level only after checking constitutional and statutory authority."
+      ],
+      "answer": 3,
+      "explanation": "A student assigns a policy function to the correct level only after checking constitutional and statutory authority.",
+      "prompt": "Which action best demonstrates mastery of the Week 6 inquiry?",
+      "choices": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student assigns a policy function to the correct level only after checking constitutional and statutory authority."
+      ]
+    }
+  ],
+  "shortResponse": "When does policy variation among states represent healthy experimentation, and when does it become an unjust denial of rights?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

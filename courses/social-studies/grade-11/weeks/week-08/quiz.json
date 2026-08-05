@@ -1,0 +1,190 @@
+{
+  "title": "Week 8 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “executive power”?",
+      "options": [
+        "A tax applying the same rate across the tax base.",
+        "Integration of ideas and evidence into a coherent understanding rather than a list of summaries.",
+        "An institution connecting savers, borrowers, investors, and payment users.",
+        "Authority to enforce law, administer government, conduct specified foreign affairs, and perform constitutional duties."
+      ],
+      "answer": 3,
+      "explanation": "Executive power means authority to enforce law, administer government, conduct specified foreign affairs, and perform constitutional duties.",
+      "prompt": "Which definition best matches “executive power”?",
+      "choices": [
+        "A tax applying the same rate across the tax base.",
+        "Integration of ideas and evidence into a coherent understanding rather than a list of summaries.",
+        "An institution connecting savers, borrowers, investors, and payment users.",
+        "Authority to enforce law, administer government, conduct specified foreign affairs, and perform constitutional duties."
+      ]
+    },
+    {
+      "question": "Which definition best matches “executive order”?",
+      "options": [
+        "The value of exports minus imports of goods and services.",
+        "Output per unit of labor or other input.",
+        "A record explaining how feedback, evidence, or error correction changed a final product.",
+        "A presidential directive governing executive-branch operations within claimed legal authority."
+      ],
+      "answer": 3,
+      "explanation": "Executive order means a presidential directive governing executive-branch operations within claimed legal authority.",
+      "prompt": "Which definition best matches “executive order”?",
+      "choices": [
+        "The value of exports minus imports of goods and services.",
+        "Output per unit of labor or other input.",
+        "A record explaining how feedback, evidence, or error correction changed a final product.",
+        "A presidential directive governing executive-branch operations within claimed legal authority."
+      ]
+    },
+    {
+      "question": "Which definition best matches “veto”?",
+      "options": [
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "The price of one currency in terms of another.",
+        "Presidential rejection of legislation, subject to possible congressional override.",
+        "The people and interests represented by an elected official."
+      ],
+      "answer": 2,
+      "explanation": "Veto means presidential rejection of legislation, subject to possible congressional override.",
+      "prompt": "Which definition best matches “veto”?",
+      "choices": [
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "The price of one currency in terms of another.",
+        "Presidential rejection of legislation, subject to possible congressional override.",
+        "The people and interests represented by an elected official."
+      ]
+    },
+    {
+      "question": "Which definition best matches “commander in chief”?",
+      "options": [
+        "The power to determine whether government action is consistent with the Constitution.",
+        "The market value of final goods and services produced within a country during a period.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "The president’s constitutional role directing the armed forces."
+      ],
+      "answer": 3,
+      "explanation": "Commander in chief means the president’s constitutional role directing the armed forces.",
+      "prompt": "Which definition best matches “commander in chief”?",
+      "choices": [
+        "The power to determine whether government action is consistent with the Constitution.",
+        "The market value of final goods and services produced within a country during a period.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "The president’s constitutional role directing the armed forces."
+      ]
+    },
+    {
+      "question": "Which definition best matches “impeachment”?",
+      "options": [
+        "A constitutional process in which the House charges and the Senate tries specified misconduct.",
+        "A system relying heavily on decentralized exchange, prices, private choice, and competition.",
+        "Application of Bill of Rights protections to states through the Fourteenth Amendment.",
+        "The principle that political authority originates with the people."
+      ],
+      "answer": 0,
+      "explanation": "Impeachment means a constitutional process in which the House charges and the Senate tries specified misconduct.",
+      "prompt": "Which definition best matches “impeachment”?",
+      "choices": [
+        "A constitutional process in which the House charges and the Senate tries specified misconduct.",
+        "A system relying heavily on decentralized exchange, prices, private choice, and competition.",
+        "Application of Bill of Rights protections to states through the Fourteenth Amendment.",
+        "The principle that political authority originates with the people."
+      ]
+    },
+    {
+      "question": "Which definition best matches “executive privilege”?",
+      "options": [
+        "An institution connecting savers, borrowers, investors, and payment users.",
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "A claimed power to withhold certain executive communications, subject to constitutional limits.",
+        "The value of the best alternative forgone when a choice is made."
+      ],
+      "answer": 2,
+      "explanation": "Executive privilege means a claimed power to withhold certain executive communications, subject to constitutional limits.",
+      "prompt": "Which definition best matches “executive privilege”?",
+      "choices": [
+        "An institution connecting savers, borrowers, investors, and payment users.",
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "A claimed power to withhold certain executive communications, subject to constitutional limits.",
+        "The value of the best alternative forgone when a choice is made."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 8?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Presidential power derives from constitutional text, statutes, control of administration, political leadership, and precedent.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 2,
+      "explanation": "Presidential power derives from constitutional text, statutes, control of administration, political leadership, and precedent.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 8?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Presidential power derives from constitutional text, statutes, control of administration, political leadership, and precedent.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 8?",
+      "options": [
+        "Executive orders do not create unlimited lawmaking authority and remain subject to statutes, funding, and judicial review.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 0,
+      "explanation": "Executive orders do not create unlimited lawmaking authority and remain subject to statutes, funding, and judicial review.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 8?",
+      "choices": [
+        "Executive orders do not create unlimited lawmaking authority and remain subject to statutes, funding, and judicial review.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 8?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Emergency and foreign-affairs powers create recurring disputes about speed, secrecy, war powers, and accountability.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 2,
+      "explanation": "Emergency and foreign-affairs powers create recurring disputes about speed, secrecy, war powers, and accountability.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 8?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Emergency and foreign-affairs powers create recurring disputes about speed, secrecy, war powers, and accountability.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 8 inquiry?",
+      "options": [
+        "A student distinguishes a president’s policy preference from legal authority and identifies available checks.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ],
+      "answer": 0,
+      "explanation": "A student distinguishes a president’s policy preference from legal authority and identifies available checks.",
+      "prompt": "Which action best demonstrates mastery of the Week 8 inquiry?",
+      "choices": [
+        "A student distinguishes a president’s policy preference from legal authority and identifies available checks.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ]
+    }
+  ],
+  "shortResponse": "Do modern emergencies justify broader temporary executive authority, and what safeguards should automatically accompany it?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

@@ -1,0 +1,190 @@
+{
+  "title": "Week 2 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “natural law”?",
+      "options": [
+        "A tradition holding that moral principles can be discovered through reason and apply beyond enacted rules.",
+        "The people and interests represented by an elected official.",
+        "The administrative process of turning an adopted policy into operations and outcomes.",
+        "A system limiting total emissions and allowing permits to be traded."
+      ],
+      "answer": 0,
+      "explanation": "Natural law means a tradition holding that moral principles can be discovered through reason and apply beyond enacted rules.",
+      "prompt": "Which definition best matches “natural law”?",
+      "choices": [
+        "A tradition holding that moral principles can be discovered through reason and apply beyond enacted rules.",
+        "The people and interests represented by an elected official.",
+        "The administrative process of turning an adopted policy into operations and outcomes.",
+        "A system limiting total emissions and allowing permits to be traded."
+      ]
+    },
+    {
+      "question": "Which definition best matches “natural rights”?",
+      "options": [
+        "Rights understood as inherent to persons rather than granted at a ruler’s discretion.",
+        "Strategic communication designed to mobilize belief or action, often through selective evidence and emotional technique.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+        "A public guarantee protecting eligible deposits up to legal limits."
+      ],
+      "answer": 0,
+      "explanation": "Natural rights means rights understood as inherent to persons rather than granted at a ruler’s discretion.",
+      "prompt": "Which definition best matches “natural rights”?",
+      "choices": [
+        "Rights understood as inherent to persons rather than granted at a ruler’s discretion.",
+        "Strategic communication designed to mobilize belief or action, often through selective evidence and emotional technique.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+        "A public guarantee protecting eligible deposits up to legal limits."
+      ]
+    },
+    {
+      "question": "Which definition best matches “social contract”?",
+      "options": [
+        "The idea that legitimate government rests on an agreement between people and political authority.",
+        "A testable claim about what is, was, or is likely to occur.",
+        "Cross-border investment, lending, borrowing, or asset purchase.",
+        "Legal authority to spend public money for a designated purpose."
+      ],
+      "answer": 0,
+      "explanation": "Social contract means the idea that legitimate government rests on an agreement between people and political authority.",
+      "prompt": "Which definition best matches “social contract”?",
+      "choices": [
+        "The idea that legitimate government rests on an agreement between people and political authority.",
+        "A testable claim about what is, was, or is likely to occur.",
+        "Cross-border investment, lending, borrowing, or asset purchase.",
+        "Legal authority to spend public money for a designated purpose."
+      ]
+    },
+    {
+      "question": "Which definition best matches “popular sovereignty”?",
+      "options": [
+        "Produced tools, equipment, structures, and technology used to create other goods and services.",
+        "The principle that legitimate political authority depends on the people’s authorization.",
+        "The principle that political authority originates with the people.",
+        "A model with many firms, identical products, easy entry, and price-taking behavior."
+      ],
+      "answer": 2,
+      "explanation": "Popular sovereignty means the principle that political authority originates with the people.",
+      "prompt": "Which definition best matches “popular sovereignty”?",
+      "choices": [
+        "Produced tools, equipment, structures, and technology used to create other goods and services.",
+        "The principle that legitimate political authority depends on the people’s authorization.",
+        "The principle that political authority originates with the people.",
+        "A model with many firms, identical products, easy entry, and price-taking behavior."
+      ]
+    },
+    {
+      "question": "Which definition best matches “republicanism”?",
+      "options": [
+        "The process by which agencies create regulations under statutory authority.",
+        "The power to determine whether government action is consistent with the Constitution.",
+        "Formal approval of a constitution, treaty, or amendment.",
+        "Government through representatives and civic institutions oriented toward the public good."
+      ],
+      "answer": 3,
+      "explanation": "Republicanism means government through representatives and civic institutions oriented toward the public good.",
+      "prompt": "Which definition best matches “republicanism”?",
+      "choices": [
+        "The process by which agencies create regulations under statutory authority.",
+        "The power to determine whether government action is consistent with the Constitution.",
+        "Formal approval of a constitution, treaty, or amendment.",
+        "Government through representatives and civic institutions oriented toward the public good."
+      ]
+    },
+    {
+      "question": "Which definition best matches “common law”?",
+      "options": [
+        "The president’s constitutional role directing the armed forces.",
+        "The principle of generally following established precedent while allowing justified departure.",
+        "Legislation authorizing government spending for specified purposes.",
+        "Law developed through judicial decisions, custom, and precedent."
+      ],
+      "answer": 3,
+      "explanation": "Common law means law developed through judicial decisions, custom, and precedent.",
+      "prompt": "Which definition best matches “common law”?",
+      "choices": [
+        "The president’s constitutional role directing the armed forces.",
+        "The principle of generally following established precedent while allowing justified departure.",
+        "Legislation authorizing government spending for specified purposes.",
+        "Law developed through judicial decisions, custom, and precedent."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 2?",
+      "options": [
+        "American constitutional ideas drew from several traditions rather than a single author or culture.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "American constitutional ideas drew from several traditions rather than a single author or culture.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 2?",
+      "choices": [
+        "American constitutional ideas drew from several traditions rather than a single author or culture.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 2?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Political theories differ over human nature, the purpose of government, and the danger of concentrated power.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 2,
+      "explanation": "Political theories differ over human nature, the purpose of government, and the danger of concentrated power.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 2?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Political theories differ over human nature, the purpose of government, and the danger of concentrated power.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 2?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "An idea’s historical influence can be demonstrated through language, institutions, and documented debate.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 1,
+      "explanation": "An idea’s historical influence can be demonstrated through language, institutions, and documented debate.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 2?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "An idea’s historical influence can be demonstrated through language, institutions, and documented debate.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 2 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student supports an influence claim with document language and historical context instead of asserting that every similar phrase came from one thinker.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 2,
+      "explanation": "A student supports an influence claim with document language and historical context instead of asserting that every similar phrase came from one thinker.",
+      "prompt": "Which action best demonstrates mastery of the Week 2 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student supports an influence claim with document language and historical context instead of asserting that every similar phrase came from one thinker.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "Which is a greater danger to liberty: insufficient government capacity or excessive government power?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

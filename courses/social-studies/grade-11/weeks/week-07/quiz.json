@@ -1,0 +1,190 @@
+{
+  "title": "Week 7 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “bicameralism”?",
+      "options": [
+        "A classification receiving especially demanding judicial review, such as race under equal-protection doctrine.",
+        "A legislature composed of two chambers.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "Constitutional requirements of fair law, notice, procedure, and impartial decision-making before government deprives life, liberty, or property."
+      ],
+      "answer": 1,
+      "explanation": "Bicameralism means a legislature composed of two chambers.",
+      "prompt": "Which definition best matches “bicameralism”?",
+      "choices": [
+        "A classification receiving especially demanding judicial review, such as race under equal-protection doctrine.",
+        "A legislature composed of two chambers.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "Constitutional requirements of fair law, notice, procedure, and impartial decision-making before government deprives life, liberty, or property."
+      ]
+    },
+    {
+      "question": "Which definition best matches “constituency”?",
+      "options": [
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "A measure of how responsive one variable is to a change in another.",
+        "The ability to access, analyze, evaluate, create, and verify messages across media forms.",
+        "The people and interests represented by an elected official."
+      ],
+      "answer": 3,
+      "explanation": "Constituency means the people and interests represented by an elected official.",
+      "prompt": "Which definition best matches “constituency”?",
+      "choices": [
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "A measure of how responsive one variable is to a change in another.",
+        "The ability to access, analyze, evaluate, create, and verify messages across media forms.",
+        "The people and interests represented by an elected official."
+      ]
+    },
+    {
+      "question": "Which definition best matches “committee”?",
+      "options": [
+        "A smaller legislative body that studies, drafts, and reviews bills or conducts oversight.",
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "The power to determine whether government action is consistent with the Constitution.",
+        "Powers retained by states or the people under the Tenth Amendment."
+      ],
+      "answer": 0,
+      "explanation": "Committee means a smaller legislative body that studies, drafts, and reviews bills or conducts oversight.",
+      "prompt": "Which definition best matches “committee”?",
+      "choices": [
+        "A smaller legislative body that studies, drafts, and reviews bills or conducts oversight.",
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "The power to determine whether government action is consistent with the Constitution.",
+        "Powers retained by states or the people under the Tenth Amendment."
+      ]
+    },
+    {
+      "question": "Which definition best matches “filibuster”?",
+      "options": [
+        "A Senate practice of extended debate or procedural delay that may require cloture to end.",
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "The danger that failure or distress spreads through interconnected financial institutions and markets.",
+        "Rights that cannot legitimately be surrendered or removed by government."
+      ],
+      "answer": 0,
+      "explanation": "Filibuster means a Senate practice of extended debate or procedural delay that may require cloture to end.",
+      "prompt": "Which definition best matches “filibuster”?",
+      "choices": [
+        "A Senate practice of extended debate or procedural delay that may require cloture to end.",
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "The danger that failure or distress spreads through interconnected financial institutions and markets.",
+        "Rights that cannot legitimately be surrendered or removed by government."
+      ]
+    },
+    {
+      "question": "Which definition best matches “appropriation”?",
+      "options": [
+        "The constitutional system through which states appoint electors who choose the president and vice president.",
+        "Legislation authorizing government spending for specified purposes.",
+        "A structured comparison of expected benefits and costs, including limits and distribution.",
+        "The power to determine whether government action is consistent with the Constitution."
+      ],
+      "answer": 1,
+      "explanation": "Appropriation means legislation authorizing government spending for specified purposes.",
+      "prompt": "Which definition best matches “appropriation”?",
+      "choices": [
+        "The constitutional system through which states appoint electors who choose the president and vice president.",
+        "Legislation authorizing government spending for specified purposes.",
+        "A structured comparison of expected benefits and costs, including limits and distribution.",
+        "The power to determine whether government action is consistent with the Constitution."
+      ]
+    },
+    {
+      "question": "Which definition best matches “oversight”?",
+      "options": [
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "A tax intended to align private incentives with an external social cost.",
+        "The danger that failure or distress spreads through interconnected financial institutions and markets.",
+        "Legislative review of executive agencies, programs, spending, and implementation."
+      ],
+      "answer": 3,
+      "explanation": "Oversight means legislative review of executive agencies, programs, spending, and implementation.",
+      "prompt": "Which definition best matches “oversight”?",
+      "choices": [
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "A tax intended to align private incentives with an external social cost.",
+        "The danger that failure or distress spreads through interconnected financial institutions and markets.",
+        "Legislative review of executive agencies, programs, spending, and implementation."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 7?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The House and Senate differ in representation, term length, procedures, and constitutional responsibilities."
+      ],
+      "answer": 3,
+      "explanation": "The House and Senate differ in representation, term length, procedures, and constitutional responsibilities.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 7?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The House and Senate differ in representation, term length, procedures, and constitutional responsibilities."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 7?",
+      "options": [
+        "Committees, leadership, parties, rules, and bargaining determine which proposals receive attention.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 0,
+      "explanation": "Committees, leadership, parties, rules, and bargaining determine which proposals receive attention.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 7?",
+      "choices": [
+        "Committees, leadership, parties, rules, and bargaining determine which proposals receive attention.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 7?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Representation can be evaluated through responsiveness, deliberation, accountability, and institutional competence.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 1,
+      "explanation": "Representation can be evaluated through responsiveness, deliberation, accountability, and institutional competence.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 7?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Representation can be evaluated through responsiveness, deliberation, accountability, and institutional competence.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 7 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student uses the official bill record to distinguish a proposal, committee action, chamber passage, and enacted law."
+      ],
+      "answer": 3,
+      "explanation": "A student uses the official bill record to distinguish a proposal, committee action, chamber passage, and enacted law.",
+      "prompt": "Which action best demonstrates mastery of the Week 7 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student uses the official bill record to distinguish a proposal, committee action, chamber passage, and enacted law."
+      ]
+    }
+  ],
+  "shortResponse": "Would reducing congressional veto points improve democratic responsiveness or weaken deliberation and minority protection?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

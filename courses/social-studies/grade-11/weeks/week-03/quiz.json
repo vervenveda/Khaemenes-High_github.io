@@ -1,0 +1,190 @@
+{
+  "title": "Week 3 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “grievance”?",
+      "options": [
+        "A good that is difficult to exclude people from and can be used without substantially reducing availability to others.",
+        "A stated complaint alleging an abuse, injury, or violation of a principle.",
+        "An argument that government action is required, permitted, or prohibited by constitutional law.",
+        "The administrative process of turning an adopted policy into operations and outcomes."
+      ],
+      "answer": 1,
+      "explanation": "Grievance means a stated complaint alleging an abuse, injury, or violation of a principle.",
+      "prompt": "Which definition best matches “grievance”?",
+      "choices": [
+        "A good that is difficult to exclude people from and can be used without substantially reducing availability to others.",
+        "A stated complaint alleging an abuse, injury, or violation of a principle.",
+        "An argument that government action is required, permitted, or prohibited by constitutional law.",
+        "The administrative process of turning an adopted policy into operations and outcomes."
+      ]
+    },
+    {
+      "question": "Which definition best matches “unalienable rights”?",
+      "options": [
+        "Rights that cannot legitimately be surrendered or removed by government.",
+        "A wage difference associated with job risk, conditions, location, or nonwage characteristics.",
+        "A person who benefits from a good or action without contributing to its cost.",
+        "An alliance of groups or individuals cooperating toward shared political goals."
+      ],
+      "answer": 0,
+      "explanation": "Unalienable rights means rights that cannot legitimately be surrendered or removed by government.",
+      "prompt": "Which definition best matches “unalienable rights”?",
+      "choices": [
+        "Rights that cannot legitimately be surrendered or removed by government.",
+        "A wage difference associated with job risk, conditions, location, or nonwage characteristics.",
+        "A person who benefits from a good or action without contributing to its cost.",
+        "An alliance of groups or individuals cooperating toward shared political goals."
+      ]
+    },
+    {
+      "question": "Which definition best matches “consent of the governed”?",
+      "options": [
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "The principle that legitimate political authority depends on the people’s authorization.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups.",
+        "The total change in output associated with an initial change in spending or taxation under specified conditions."
+      ],
+      "answer": 1,
+      "explanation": "Consent of the governed means the principle that legitimate political authority depends on the people’s authorization.",
+      "prompt": "Which definition best matches “consent of the governed”?",
+      "choices": [
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "The principle that legitimate political authority depends on the people’s authorization.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups.",
+        "The total change in output associated with an initial change in spending or taxation under specified conditions."
+      ]
+    },
+    {
+      "question": "Which definition best matches “confederation”?",
+      "options": [
+        "A quantitative limit on imports or exports.",
+        "A legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "A structured set of beliefs about government, society, rights, economy, and public priorities."
+      ],
+      "answer": 2,
+      "explanation": "Confederation means a union in which member states retain substantial sovereignty and the central authority is limited.",
+      "prompt": "Which definition best matches “confederation”?",
+      "choices": [
+        "A quantitative limit on imports or exports.",
+        "A legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "A structured set of beliefs about government, society, rights, economy, and public priorities."
+      ]
+    },
+    {
+      "question": "Which definition best matches “requisition”?",
+      "options": [
+        "A formal change to the Constitution adopted through Article V procedures.",
+        "A record explaining how feedback, evidence, or error correction changed a final product.",
+        "A request from the Confederation Congress to states for money or resources.",
+        "Displacement of state or local law by valid federal law."
+      ],
+      "answer": 2,
+      "explanation": "Requisition means a request from the Confederation Congress to states for money or resources.",
+      "prompt": "Which definition best matches “requisition”?",
+      "choices": [
+        "A formal change to the Constitution adopted through Article V procedures.",
+        "A record explaining how feedback, evidence, or error correction changed a final product.",
+        "A request from the Confederation Congress to states for money or resources.",
+        "Displacement of state or local law by valid federal law."
+      ]
+    },
+    {
+      "question": "Which definition best matches “sovereignty”?",
+      "options": [
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "A group united by interests or passions that may conflict with other citizens or the common good.",
+        "Government action preventing publication or expression before it occurs.",
+        "Supreme political authority within a territory or political community."
+      ],
+      "answer": 3,
+      "explanation": "Sovereignty means supreme political authority within a territory or political community.",
+      "prompt": "Which definition best matches “sovereignty”?",
+      "choices": [
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "A group united by interests or passions that may conflict with other citizens or the common good.",
+        "Government action preventing publication or expression before it occurs.",
+        "Supreme political authority within a territory or political community."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 3?",
+      "options": [
+        "The Declaration combines universal principles, a theory of legitimate government, and a list of specific grievances.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "The Declaration combines universal principles, a theory of legitimate government, and a list of specific grievances.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 3?",
+      "choices": [
+        "The Declaration combines universal principles, a theory of legitimate government, and a list of specific grievances.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 3?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The Articles protected state authority but gave the Confederation limited capacity to tax, regulate trade, or enforce decisions.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 2,
+      "explanation": "The Articles protected state authority but gave the Confederation limited capacity to tax, regulate trade, or enforce decisions.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 3?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The Articles protected state authority but gave the Confederation limited capacity to tax, regulate trade, or enforce decisions.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 3?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The revolution’s ideals were broader than the rights actually enjoyed by many people in the new nation."
+      ],
+      "answer": 3,
+      "explanation": "The revolution’s ideals were broader than the rights actually enjoyed by many people in the new nation.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 3?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The revolution’s ideals were broader than the rights actually enjoyed by many people in the new nation."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 3 inquiry?",
+      "options": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student distinguishes the Declaration’s political philosophy from the Articles’ institutional design and uses evidence from both."
+      ],
+      "answer": 3,
+      "explanation": "A student distinguishes the Declaration’s political philosophy from the Articles’ institutional design and uses evidence from both.",
+      "prompt": "Which action best demonstrates mastery of the Week 3 inquiry?",
+      "choices": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student distinguishes the Declaration’s political philosophy from the Articles’ institutional design and uses evidence from both."
+      ]
+    }
+  ],
+  "shortResponse": "Were the Articles primarily a failure, or a reasonable first constitution for a people fearful of centralized power?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

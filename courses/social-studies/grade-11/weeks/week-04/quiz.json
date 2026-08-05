@@ -1,0 +1,190 @@
+{
+  "title": "Week 4 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “ratification”?",
+      "options": [
+        "Direct communication with public officials intended to influence decisions.",
+        "Authority granted to local governments to manage local affairs.",
+        "Formal approval of a constitution, treaty, or amendment.",
+        "A system limiting total emissions and allowing permits to be traded."
+      ],
+      "answer": 2,
+      "explanation": "Ratification means formal approval of a constitution, treaty, or amendment.",
+      "prompt": "Which definition best matches “ratification”?",
+      "choices": [
+        "Direct communication with public officials intended to influence decisions.",
+        "Authority granted to local governments to manage local affairs.",
+        "Formal approval of a constitution, treaty, or amendment.",
+        "A system limiting total emissions and allowing permits to be traded."
+      ]
+    },
+    {
+      "question": "Which definition best matches “faction”?",
+      "options": [
+        "A person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+        "Powers exercised by both national and state governments.",
+        "Ability to produce at a lower opportunity cost.",
+        "A group united by interests or passions that may conflict with other citizens or the common good."
+      ],
+      "answer": 3,
+      "explanation": "Faction means a group united by interests or passions that may conflict with other citizens or the common good.",
+      "prompt": "Which definition best matches “faction”?",
+      "choices": [
+        "A person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+        "Powers exercised by both national and state governments.",
+        "Ability to produce at a lower opportunity cost.",
+        "A group united by interests or passions that may conflict with other citizens or the common good."
+      ]
+    },
+    {
+      "question": "Which definition best matches “Great Compromise”?",
+      "options": [
+        "Testing a claim by comparing it with independent evidence.",
+        "The agreement creating proportional representation in the House and equal state representation in the Senate.",
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "Habits that support responsible participation and the common good."
+      ],
+      "answer": 1,
+      "explanation": "Great compromise means the agreement creating proportional representation in the House and equal state representation in the Senate.",
+      "prompt": "Which definition best matches “Great Compromise”?",
+      "choices": [
+        "Testing a claim by comparing it with independent evidence.",
+        "The agreement creating proportional representation in the House and equal state representation in the Senate.",
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "Habits that support responsible participation and the common good."
+      ]
+    },
+    {
+      "question": "Which definition best matches “Three-Fifths Compromise”?",
+      "options": [
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "The constitutional formula counting three-fifths of enslaved persons for representation and direct taxation.",
+        "A legal guarantee of equal status, participation, or protection.",
+        "Cross-border investment, lending, borrowing, or asset purchase."
+      ],
+      "answer": 1,
+      "explanation": "Three-fifths compromise means the constitutional formula counting three-fifths of enslaved persons for representation and direct taxation.",
+      "prompt": "Which definition best matches “Three-Fifths Compromise”?",
+      "choices": [
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "The constitutional formula counting three-fifths of enslaved persons for representation and direct taxation.",
+        "A legal guarantee of equal status, participation, or protection.",
+        "Cross-border investment, lending, borrowing, or asset purchase."
+      ]
+    },
+    {
+      "question": "Which definition best matches “Federalist”?",
+      "options": [
+        "A model with many firms, identical products, easy entry, and price-taking behavior.",
+        "The constitutional protection of legal assistance in specified criminal proceedings.",
+        "A good that can replace another good in consumption or production.",
+        "A supporter of ratifying the Constitution and strengthening national government."
+      ],
+      "answer": 3,
+      "explanation": "Federalist means a supporter of ratifying the Constitution and strengthening national government.",
+      "prompt": "Which definition best matches “Federalist”?",
+      "choices": [
+        "A model with many firms, identical products, easy entry, and price-taking behavior.",
+        "The constitutional protection of legal assistance in specified criminal proceedings.",
+        "A good that can replace another good in consumption or production.",
+        "A supporter of ratifying the Constitution and strengthening national government."
+      ]
+    },
+    {
+      "question": "Which definition best matches “Anti-Federalist”?",
+      "options": [
+        "The amount by which government spending exceeds revenue during a period.",
+        "A tax intended to align private incentives with an external social cost.",
+        "A public institution managing monetary policy and supporting payment and financial stability functions.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty."
+      ],
+      "answer": 3,
+      "explanation": "Anti-federalist means an opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+      "prompt": "Which definition best matches “Anti-Federalist”?",
+      "choices": [
+        "The amount by which government spending exceeds revenue during a period.",
+        "A tax intended to align private incentives with an external social cost.",
+        "A public institution managing monetary policy and supporting payment and financial stability functions.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 4?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The Constitution emerged from bargaining among delegates with different regional, economic, and political interests.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 1,
+      "explanation": "The Constitution emerged from bargaining among delegates with different regional, economic, and political interests.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 4?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The Constitution emerged from bargaining among delegates with different regional, economic, and political interests.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 4?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Federalists and Anti-Federalists agreed that liberty mattered but disagreed about the dangers of power and the adequacy of safeguards."
+      ],
+      "answer": 3,
+      "explanation": "Federalists and Anti-Federalists agreed that liberty mattered but disagreed about the dangers of power and the adequacy of safeguards.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 4?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Federalists and Anti-Federalists agreed that liberty mattered but disagreed about the dangers of power and the adequacy of safeguards."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 4?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The Bill of Rights was both a substantive protection and a political response to ratification criticism."
+      ],
+      "answer": 3,
+      "explanation": "The Bill of Rights was both a substantive protection and a political response to ratification criticism.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 4?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The Bill of Rights was both a substantive protection and a political response to ratification criticism."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 4 inquiry?",
+      "options": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student evaluates a compromise by explaining both the institutional problem it addressed and the human or political cost it imposed."
+      ],
+      "answer": 3,
+      "explanation": "A student evaluates a compromise by explaining both the institutional problem it addressed and the human or political cost it imposed.",
+      "prompt": "Which action best demonstrates mastery of the Week 4 inquiry?",
+      "choices": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student evaluates a compromise by explaining both the institutional problem it addressed and the human or political cost it imposed."
+      ]
+    }
+  ],
+  "shortResponse": "Does compromise strengthen constitutional legitimacy when some affected people are excluded from the bargaining table?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}
