@@ -1,0 +1,15 @@
+{
+  "name": "Global Politics, International Relations & Senior Research Honors",
+  "short_name": "Khaemenes G12 Global Politics",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "description": "36-week Grade 12 honors social-studies capstone with comparative politics, international relations, international law, global challenges, research thesis, oral defense, and enforced graduation gates.",
+  "categories": [
+    "education",
+    "productivity"
+  ]
+}

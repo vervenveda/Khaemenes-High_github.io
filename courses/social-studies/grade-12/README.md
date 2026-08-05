@@ -1,9 +1,20 @@
-# Khaemenes High Social Studies Department
+# Grade 12 Global Politics, International Relations & Senior Research Honors
 
-- Grade 9 — Global Studies Honors
-- Grade 10 — United States History Honors
-- Grade 11 — United States Government Honors + Economics Honors
-- Grade 11 Companion — Personal Financial Literacy & Money Management Honors
-- Grade 12 — Global Politics, International Relations & Senior Research Honors
+- Course code: `KHAE-SS12-GPIR`
+- Grade: 12
+- Length: 36 weeks
+- Credit: 1.0 honors
+- Minimum documented hours: 150
+- Daily lessons: 180
+- Principal assignments: 108
+- Weekly mastery quizzes: 36
+- Evaluator-approved weekly portfolios: 36
+- Major assessments: 13
+- Capstone checkpoints: 10
+- Senior thesis: 4,000–5,000 words
+- Oral defense: required
+- Cumulative final: required
 
-The Grade 12 packet includes the updated department gateway and the new `grade-12` course folder. Existing Grade 9–11 folders remain unchanged when the packet is merged at repository root.
+Credit is issued only after all mandatory graduation gates pass.
+
+This is a nationally portable honors-course design. It is not a claim of accreditation or automatic acceptance in every jurisdiction.
