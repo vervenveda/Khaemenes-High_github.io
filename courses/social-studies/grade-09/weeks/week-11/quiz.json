@@ -1,0 +1,131 @@
+{
+  "title": "Week 11 Quiz — African Kingdoms and Trading Societies",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W11Q1",
+      "prompt": "Which term best matches this definition: Commercial exchange across the Sahara using caravan routes.",
+      "choices": [
+        "Sahel",
+        "oral tradition",
+        "archaeological context",
+        "trans-Saharan trade"
+      ],
+      "answer": 3,
+      "explanation": "Trans-Saharan Trade is the course term defined as: Commercial exchange across the Sahara using caravan routes."
+    },
+    {
+      "id": "W11Q2",
+      "prompt": "Which term best matches this definition: The semi-arid transition zone south of the Sahara.",
+      "choices": [
+        "archaeological context",
+        "griot",
+        "Sahel",
+        "trans-Saharan trade"
+      ],
+      "answer": 2,
+      "explanation": "Sahel is the course term defined as: The semi-arid transition zone south of the Sahara."
+    },
+    {
+      "id": "W11Q3",
+      "prompt": "Which term best matches this definition: A West African oral historian, musician, and keeper of genealogies and traditions.",
+      "choices": [
+        "griot",
+        "archaeological context",
+        "Swahili Coast",
+        "Sahel"
+      ],
+      "answer": 0,
+      "explanation": "Griot is the course term defined as: A West African oral historian, musician, and keeper of genealogies and traditions."
+    },
+    {
+      "id": "W11Q4",
+      "prompt": "Which term best matches this definition: East African coastal societies linked by Kiswahili language and Indian Ocean trade.",
+      "choices": [
+        "Swahili Coast",
+        "Sahel",
+        "griot",
+        "trans-Saharan trade"
+      ],
+      "answer": 0,
+      "explanation": "Swahili Coast is the course term defined as: East African coastal societies linked by Kiswahili language and Indian Ocean trade."
+    },
+    {
+      "id": "W11Q5",
+      "prompt": "Which term best matches this definition: Knowledge transmitted through spoken performance and community memory.",
+      "choices": [
+        "trans-Saharan trade",
+        "Swahili Coast",
+        "griot",
+        "oral tradition"
+      ],
+      "answer": 3,
+      "explanation": "Oral Tradition is the course term defined as: Knowledge transmitted through spoken performance and community memory."
+    },
+    {
+      "id": "W11Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 11?",
+      "choices": [
+        "Tang and Song governments expanded bureaucratic administration and examination culture, though elite families retained advantages.",
+        "Africa contained diverse political systems, ecological zones, and trade networks rather than a single historical experience.",
+        "Medieval Europe was politically fragmented, and historians debate using a single feudal model for diverse regions.",
+        "Byzantium preserved Roman institutions while developing distinctive Greek-speaking Christian traditions."
+      ],
+      "answer": 1,
+      "explanation": "Africa contained diverse political systems, ecological zones, and trade networks rather than a single historical experience."
+    },
+    {
+      "id": "W11Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 11?",
+      "choices": [
+        "Printing, gunpowder, navigation, iron production, and commercial growth changed East Asian economies and societies.",
+        "Early Islamic states expanded rapidly but were politically and culturally diverse across time and region.",
+        "The church was a religious institution, landholder, educator, legal authority, and political actor.",
+        "Ghana, Mali, Songhai, Great Zimbabwe, Aksum, and Swahili city-states gained power through different combinations of agriculture, trade, tribute, and diplomacy."
+      ],
+      "answer": 3,
+      "explanation": "Ghana, Mali, Songhai, Great Zimbabwe, Aksum, and Swahili city-states gained power through different combinations of agriculture, trade, tribute, and diplomacy."
+    },
+    {
+      "id": "W11Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 11?",
+      "choices": [
+        "Scholars working in Arabic, Greek, Persian, Syriac, Hebrew, and other languages translated, criticized, and extended knowledge.",
+        "Oral traditions and archaeology are essential sources that must be interpreted with methods appropriate to each.",
+        "Korea and Japan adopted and adapted Chinese institutions rather than simply copying them.",
+        "Town growth, commerce, universities, and representative institutions altered older rural and aristocratic arrangements."
+      ],
+      "answer": 1,
+      "explanation": "Oral traditions and archaeology are essential sources that must be interpreted with methods appropriate to each."
+    },
+    {
+      "id": "W11Q9",
+      "prompt": "What is the strongest method for evaluating “Mansa Musa, Ibn Battuta, and Material Evidence”?",
+      "choices": [
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+      ],
+      "answer": 3,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W11Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Use the visualization only if it confirms the original claim.",
+        "Assume that every mapped relationship is a direct cause.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+      ],
+      "answer": 3,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did African states use trade, agriculture, religion, and political organization to build regional power?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

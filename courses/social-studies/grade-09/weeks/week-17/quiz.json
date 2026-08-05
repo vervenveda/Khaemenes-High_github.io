@@ -1,0 +1,131 @@
+{
+  "title": "Week 17 Quiz — Global Comparison, 1200–1450",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W17Q1",
+      "prompt": "Which term best matches this definition: Examining meaningful similarities and differences using consistent categories.",
+      "choices": [
+        "causation",
+        "comparison",
+        "state capacity",
+        "historical argument"
+      ],
+      "answer": 1,
+      "explanation": "Comparison is the course term defined as: Examining meaningful similarities and differences using consistent categories."
+    },
+    {
+      "id": "W17Q2",
+      "prompt": "Which term best matches this definition: Explaining how and why one condition contributes to an outcome.",
+      "choices": [
+        "periodization",
+        "continuity",
+        "comparison",
+        "causation"
+      ],
+      "answer": 3,
+      "explanation": "Causation is the course term defined as: Explaining how and why one condition contributes to an outcome."
+    },
+    {
+      "id": "W17Q3",
+      "prompt": "Which term best matches this definition: A feature that persists across a defined period.",
+      "choices": [
+        "comparison",
+        "state capacity",
+        "continuity",
+        "historical argument"
+      ],
+      "answer": 2,
+      "explanation": "Continuity is the course term defined as: A feature that persists across a defined period."
+    },
+    {
+      "id": "W17Q4",
+      "prompt": "Which term best matches this definition: Dividing history into periods to organize change.",
+      "choices": [
+        "comparison",
+        "periodization",
+        "continuity",
+        "causation"
+      ],
+      "answer": 1,
+      "explanation": "Periodization is the course term defined as: Dividing history into periods to organize change."
+    },
+    {
+      "id": "W17Q5",
+      "prompt": "Which term best matches this definition: The ability of a government to carry out decisions, collect resources, and enforce rules.",
+      "choices": [
+        "periodization",
+        "state capacity",
+        "causation",
+        "continuity"
+      ],
+      "answer": 1,
+      "explanation": "State Capacity is the course term defined as: The ability of a government to carry out decisions, collect resources, and enforce rules."
+    },
+    {
+      "id": "W17Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 17?",
+      "choices": [
+        "Mongol military success drew on mobility, organization, intelligence, diplomacy, and the fragmentation of opponents.",
+        "Effective review organizes knowledge by chronology, geography, themes, and recurring analytical skills.",
+        "Global comparison requires the same analytical categories while preserving regional context.",
+        "Renaissance change grew from medieval institutions, Mediterranean exchange, urban wealth, and classical study rather than appearing suddenly."
+      ],
+      "answer": 2,
+      "explanation": "Global comparison requires the same analytical categories while preserving regional context."
+    },
+    {
+      "id": "W17Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 17?",
+      "choices": [
+        "Mongol-ruled states connected distant regions while governing them through varied local institutions.",
+        "Assessment should measure source interpretation and reasoning as well as factual knowledge.",
+        "Patrons shaped artistic production, while artists and writers used new techniques to explore power, identity, religion, and nature.",
+        "States built capacity through taxation, labor systems, military force, belief, bureaucracy, and negotiated local authority."
+      ],
+      "answer": 3,
+      "explanation": "States built capacity through taxation, labor systems, military force, belief, bureaucracy, and negotiated local authority."
+    },
+    {
+      "id": "W17Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 17?",
+      "choices": [
+        "The Black Death spread through connected trade and military routes, producing demographic, economic, cultural, and political change.",
+        "Printing accelerated the spread and standardization of texts but did not automatically create equal access to information.",
+        "Exchange networks connected regions unevenly and produced both opportunity and vulnerability.",
+        "Corrections are most valuable when students explain why an answer was wrong and what evidence supports the revision."
+      ],
+      "answer": 2,
+      "explanation": "Exchange networks connected regions unevenly and produced both opportunity and vulnerability."
+    },
+    {
+      "id": "W17Q9",
+      "prompt": "What is the strongest method for evaluating “Mini Document-Based Question”?",
+      "choices": [
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Use only the most dramatic sentence because memorable details are the most reliable."
+      ],
+      "answer": 2,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W17Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Use the visualization only if it confirms the original claim.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "Assume that every mapped relationship is a direct cause.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+      ],
+      "answer": 3,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: Which patterns of power, exchange, belief, and inequality best explain the world of 1200–1450?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

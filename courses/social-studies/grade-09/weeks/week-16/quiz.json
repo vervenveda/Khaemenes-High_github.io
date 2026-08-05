@@ -1,0 +1,131 @@
+{
+  "title": "Week 16 Quiz — Mongol Expansion and the Black Death",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W16Q1",
+      "prompt": "Which term best matches this definition: A broad grassland environment supporting pastoral mobility.",
+      "choices": [
+        "steppe",
+        "pandemic",
+        "demography",
+        "contingency"
+      ],
+      "answer": 0,
+      "explanation": "Steppe is the course term defined as: A broad grassland environment supporting pastoral mobility."
+    },
+    {
+      "id": "W16Q2",
+      "prompt": "Which term best matches this definition: A mobile livelihood centered on herding animals.",
+      "choices": [
+        "contingency",
+        "pandemic",
+        "pastoral nomadism",
+        "Pax Mongolica"
+      ],
+      "answer": 2,
+      "explanation": "Pastoral Nomadism is the course term defined as: A mobile livelihood centered on herding animals."
+    },
+    {
+      "id": "W16Q3",
+      "prompt": "Which term best matches this definition: A term for periods of relative security and exchange across Mongol-controlled routes.",
+      "choices": [
+        "steppe",
+        "pandemic",
+        "Pax Mongolica",
+        "contingency"
+      ],
+      "answer": 2,
+      "explanation": "Pax Mongolica is the course term defined as: A term for periods of relative security and exchange across Mongol-controlled routes."
+    },
+    {
+      "id": "W16Q4",
+      "prompt": "Which term best matches this definition: An epidemic spreading across many countries or continents.",
+      "choices": [
+        "pastoral nomadism",
+        "contingency",
+        "Pax Mongolica",
+        "pandemic"
+      ],
+      "answer": 3,
+      "explanation": "Pandemic is the course term defined as: An epidemic spreading across many countries or continents."
+    },
+    {
+      "id": "W16Q5",
+      "prompt": "Which term best matches this definition: The statistical study of human populations.",
+      "choices": [
+        "Pax Mongolica",
+        "contingency",
+        "pandemic",
+        "demography"
+      ],
+      "answer": 3,
+      "explanation": "Demography is the course term defined as: The statistical study of human populations."
+    },
+    {
+      "id": "W16Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 16?",
+      "choices": [
+        "Effective review organizes knowledge by chronology, geography, themes, and recurring analytical skills.",
+        "Mongol military success drew on mobility, organization, intelligence, diplomacy, and the fragmentation of opponents.",
+        "Global comparison requires the same analytical categories while preserving regional context.",
+        "Trade networks depended on many short-distance exchanges, political protections, transport technologies, and credit relationships."
+      ],
+      "answer": 1,
+      "explanation": "Mongol military success drew on mobility, organization, intelligence, diplomacy, and the fragmentation of opponents."
+    },
+    {
+      "id": "W16Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 16?",
+      "choices": [
+        "Merchants moved religions, artistic forms, languages, technologies, crops, and diseases as well as luxury goods.",
+        "Mongol-ruled states connected distant regions while governing them through varied local institutions.",
+        "States built capacity through taxation, labor systems, military force, belief, bureaucracy, and negotiated local authority.",
+        "Assessment should measure source interpretation and reasoning as well as factual knowledge."
+      ],
+      "answer": 1,
+      "explanation": "Mongol-ruled states connected distant regions while governing them through varied local institutions."
+    },
+    {
+      "id": "W16Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 16?",
+      "choices": [
+        "Corrections are most valuable when students explain why an answer was wrong and what evidence supports the revision.",
+        "The Black Death spread through connected trade and military routes, producing demographic, economic, cultural, and political change.",
+        "Exchange networks connected regions unevenly and produced both opportunity and vulnerability.",
+        "The effects of trade were uneven: port cities and crossroads often changed faster than isolated communities."
+      ],
+      "answer": 1,
+      "explanation": "The Black Death spread through connected trade and military routes, producing demographic, economic, cultural, and political change."
+    },
+    {
+      "id": "W16Q9",
+      "prompt": "What is the strongest method for evaluating “Competing Views of Mongol Rule and Plague”?",
+      "choices": [
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Use only the most dramatic sentence because memorable details are the most reliable."
+      ],
+      "answer": 1,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W16Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Use the visualization only if it confirms the original claim.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Assume that every mapped relationship is a direct cause.",
+        "Ignore units and scale so attention stays on the overall appearance."
+      ],
+      "answer": 1,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How can the same network support conquest, commerce, communication, and disease?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}
