@@ -1,0 +1,190 @@
+{
+  "title": "Week 22 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “elasticity”?",
+      "options": [
+        "Ability to produce more output with the same resources.",
+        "A tax whose burden consumes a larger share of lower income than higher income.",
+        "Conduct attributable to government and therefore subject to many constitutional limits.",
+        "A measure of how responsive one variable is to a change in another."
+      ],
+      "answer": 3,
+      "explanation": "Elasticity means a measure of how responsive one variable is to a change in another.",
+      "prompt": "Which definition best matches “elasticity”?",
+      "choices": [
+        "Ability to produce more output with the same resources.",
+        "A tax whose burden consumes a larger share of lower income than higher income.",
+        "Conduct attributable to government and therefore subject to many constitutional limits.",
+        "A measure of how responsive one variable is to a change in another."
+      ]
+    },
+    {
+      "question": "Which definition best matches “price elasticity of demand”?",
+      "options": [
+        "A reasonable basis, grounded in facts, to believe a crime occurred or evidence will be found.",
+        "A person who benefits from a good or action without contributing to its cost.",
+        "A system combining markets with public regulation, provision, taxation, and social insurance.",
+        "Responsiveness of quantity demanded to a change in price."
+      ],
+      "answer": 3,
+      "explanation": "Price elasticity of demand means responsiveness of quantity demanded to a change in price.",
+      "prompt": "Which definition best matches “price elasticity of demand”?",
+      "choices": [
+        "A reasonable basis, grounded in facts, to believe a crime occurred or evidence will be found.",
+        "A person who benefits from a good or action without contributing to its cost.",
+        "A system combining markets with public regulation, provision, taxation, and social insurance.",
+        "Responsiveness of quantity demanded to a change in price."
+      ]
+    },
+    {
+      "question": "Which definition best matches “consumer surplus”?",
+      "options": [
+        "Selecting and emphasizing aspects of an issue to shape interpretation.",
+        "A structured set of beliefs about government, society, rights, economy, and public priorities.",
+        "Law developed through judicial decisions, custom, and precedent.",
+        "The difference between willingness to pay and the price actually paid."
+      ],
+      "answer": 3,
+      "explanation": "Consumer surplus means the difference between willingness to pay and the price actually paid.",
+      "prompt": "Which definition best matches “consumer surplus”?",
+      "choices": [
+        "Selecting and emphasizing aspects of an issue to shape interpretation.",
+        "A structured set of beliefs about government, society, rights, economy, and public priorities.",
+        "Law developed through judicial decisions, custom, and precedent.",
+        "The difference between willingness to pay and the price actually paid."
+      ]
+    },
+    {
+      "question": "Which definition best matches “producer surplus”?",
+      "options": [
+        "Conduct attributable to government and therefore subject to many constitutional limits.",
+        "The difference between the market price and the minimum a producer would accept.",
+        "A supporter of ratifying the Constitution and strengthening national government.",
+        "A judicial opinion disagreeing with the majority’s result or reasoning."
+      ],
+      "answer": 1,
+      "explanation": "Producer surplus means the difference between the market price and the minimum a producer would accept.",
+      "prompt": "Which definition best matches “producer surplus”?",
+      "choices": [
+        "Conduct attributable to government and therefore subject to many constitutional limits.",
+        "The difference between the market price and the minimum a producer would accept.",
+        "A supporter of ratifying the Constitution and strengthening national government.",
+        "A judicial opinion disagreeing with the majority’s result or reasoning."
+      ]
+    },
+    {
+      "question": "Which definition best matches “tax incidence”?",
+      "options": [
+        "A presidential directive governing executive-branch operations within claimed legal authority.",
+        "The distribution of a tax’s economic burden between buyers and sellers.",
+        "A person, group, institution, or community affected by or able to influence a decision.",
+        "Interest and principal payments associated with public debt."
+      ],
+      "answer": 1,
+      "explanation": "Tax incidence means the distribution of a tax’s economic burden between buyers and sellers.",
+      "prompt": "Which definition best matches “tax incidence”?",
+      "choices": [
+        "A presidential directive governing executive-branch operations within claimed legal authority.",
+        "The distribution of a tax’s economic burden between buyers and sellers.",
+        "A person, group, institution, or community affected by or able to influence a decision.",
+        "Interest and principal payments associated with public debt."
+      ]
+    },
+    {
+      "question": "Which definition best matches “deadweight loss”?",
+      "options": [
+        "Powers exercised by both national and state governments.",
+        "Gains from exchange lost when policy or distortion prevents mutually beneficial transactions.",
+        "Revenue minus explicit and implicit costs.",
+        "A price and quantity at which quantity demanded equals quantity supplied."
+      ],
+      "answer": 1,
+      "explanation": "Deadweight loss means gains from exchange lost when policy or distortion prevents mutually beneficial transactions.",
+      "prompt": "Which definition best matches “deadweight loss”?",
+      "choices": [
+        "Powers exercised by both national and state governments.",
+        "Gains from exchange lost when policy or distortion prevents mutually beneficial transactions.",
+        "Revenue minus explicit and implicit costs.",
+        "A price and quantity at which quantity demanded equals quantity supplied."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 22?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Elasticity depends on substitutes, necessity, budget share, time, and market definition.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 1,
+      "explanation": "Elasticity depends on substitutes, necessity, budget share, time, and market definition.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 22?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Elasticity depends on substitutes, necessity, budget share, time, and market definition.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 22?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The less responsive side of a market generally bears more of a tax’s economic burden regardless of who formally remits it."
+      ],
+      "answer": 3,
+      "explanation": "The less responsive side of a market generally bears more of a tax’s economic burden regardless of who formally remits it.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 22?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The less responsive side of a market generally bears more of a tax’s economic burden regardless of who formally remits it."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 22?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Price controls may pursue access or income goals but can create shortages, surpluses, quality changes, or informal allocation.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 2,
+      "explanation": "Price controls may pursue access or income goals but can create shortages, surpluses, quality changes, or informal allocation.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 22?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Price controls may pursue access or income goals but can create shortages, surpluses, quality changes, or informal allocation.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 22 inquiry?",
+      "options": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student identifies which side is less elastic before predicting tax incidence and distinguishes statutory remittance from economic burden."
+      ],
+      "answer": 3,
+      "explanation": "A student identifies which side is less elastic before predicting tax incidence and distinguishes statutory remittance from economic burden.",
+      "prompt": "Which action best demonstrates mastery of the Week 22 inquiry?",
+      "choices": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student identifies which side is less elastic before predicting tax incidence and distinguishes statutory remittance from economic burden."
+      ]
+    }
+  ],
+  "shortResponse": "Is a policy failure evidence that the goal was wrong, that the instrument was poorly chosen, or both?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

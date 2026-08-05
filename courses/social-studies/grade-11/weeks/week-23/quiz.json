@@ -1,0 +1,190 @@
+{
+  "title": "Week 23 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “fixed cost”?",
+      "options": [
+        "Examination of how costs, benefits, risks, and opportunities differ across groups.",
+        "The process through which one condition is expected to produce another.",
+        "A proposed law, constitutional amendment, bond, or other question submitted directly to voters.",
+        "A cost that does not vary with current output in the relevant period."
+      ],
+      "answer": 3,
+      "explanation": "Fixed cost means a cost that does not vary with current output in the relevant period.",
+      "prompt": "Which definition best matches “fixed cost”?",
+      "choices": [
+        "Examination of how costs, benefits, risks, and opportunities differ across groups.",
+        "The process through which one condition is expected to produce another.",
+        "A proposed law, constitutional amendment, bond, or other question submitted directly to voters.",
+        "A cost that does not vary with current output in the relevant period."
+      ]
+    },
+    {
+      "question": "Which definition best matches “variable cost”?",
+      "options": [
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "A cost that changes with output.",
+        "An election used to select party nominees or narrow the field of candidates.",
+        "Formal approval of a constitution, treaty, or amendment."
+      ],
+      "answer": 1,
+      "explanation": "Variable cost means a cost that changes with output.",
+      "prompt": "Which definition best matches “variable cost”?",
+      "choices": [
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "A cost that changes with output.",
+        "An election used to select party nominees or narrow the field of candidates.",
+        "Formal approval of a constitution, treaty, or amendment."
+      ]
+    },
+    {
+      "question": "Which definition best matches “marginal cost”?",
+      "options": [
+        "Output measured at current prices.",
+        "The additional cost of producing one more unit.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "Legal authority to spend public money for a designated purpose."
+      ],
+      "answer": 1,
+      "explanation": "Marginal cost means the additional cost of producing one more unit.",
+      "prompt": "Which definition best matches “marginal cost”?",
+      "choices": [
+        "Output measured at current prices.",
+        "The additional cost of producing one more unit.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "Legal authority to spend public money for a designated purpose."
+      ]
+    },
+    {
+      "question": "Which definition best matches “revenue”?",
+      "options": [
+        "Income received from selling goods or services.",
+        "A value-based claim about what ought to be.",
+        "A condition in which quantity demanded exceeds quantity supplied at the current price.",
+        "The ease with which an asset can be used for payment or converted to spendable funds without major loss."
+      ],
+      "answer": 0,
+      "explanation": "Revenue means income received from selling goods or services.",
+      "prompt": "Which definition best matches “revenue”?",
+      "choices": [
+        "Income received from selling goods or services.",
+        "A value-based claim about what ought to be.",
+        "A condition in which quantity demanded exceeds quantity supplied at the current price.",
+        "The ease with which an asset can be used for payment or converted to spendable funds without major loss."
+      ]
+    },
+    {
+      "question": "Which definition best matches “profit”?",
+      "options": [
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "The difference between willingness to pay and the price actually paid.",
+        "Revenue minus explicit and implicit costs.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation."
+      ],
+      "answer": 2,
+      "explanation": "Profit means revenue minus explicit and implicit costs.",
+      "prompt": "Which definition best matches “profit”?",
+      "choices": [
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "The difference between willingness to pay and the price actually paid.",
+        "Revenue minus explicit and implicit costs.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation."
+      ]
+    },
+    {
+      "question": "Which definition best matches “entrepreneur”?",
+      "options": [
+        "The difference between the market price and the minimum a producer would accept.",
+        "A person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+        "A system combining markets with public regulation, provision, taxation, and social insurance."
+      ],
+      "answer": 1,
+      "explanation": "Entrepreneur means a person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+      "prompt": "Which definition best matches “entrepreneur”?",
+      "choices": [
+        "The difference between the market price and the minimum a producer would accept.",
+        "A person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+        "A system combining markets with public regulation, provision, taxation, and social insurance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 23?",
+      "options": [
+        "Firms compare expected revenue with opportunity costs, including the owner’s time and capital.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "Firms compare expected revenue with opportunity costs, including the owner’s time and capital.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 23?",
+      "choices": [
+        "Firms compare expected revenue with opportunity costs, including the owner’s time and capital.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 23?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Marginal analysis guides output decisions, while average costs and market conditions affect entry and exit.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 1,
+      "explanation": "Marginal analysis guides output decisions, while average costs and market conditions affect entry and exit.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 23?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Marginal analysis guides output decisions, while average costs and market conditions affect entry and exit.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 23?",
+      "options": [
+        "Entrepreneurship includes innovation and risk but occurs within legal, financial, and social institutions.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 0,
+      "explanation": "Entrepreneurship includes innovation and risk but occurs within legal, financial, and social institutions.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 23?",
+      "choices": [
+        "Entrepreneurship includes innovation and risk but occurs within legal, financial, and social institutions.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 23 inquiry?",
+      "options": [
+        "A student includes explicit and implicit opportunity costs when evaluating profit and uses marginal rather than average reasoning for the next unit.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 0,
+      "explanation": "A student includes explicit and implicit opportunity costs when evaluating profit and uses marginal rather than average reasoning for the next unit.",
+      "prompt": "Which action best demonstrates mastery of the Week 23 inquiry?",
+      "choices": [
+        "A student includes explicit and implicit opportunity costs when evaluating profit and uses marginal rather than average reasoning for the next unit.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "Should public policy prioritize ease of business entry even when experimentation creates consumer, worker, or environmental risk?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

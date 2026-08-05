@@ -1,0 +1,190 @@
+{
+  "title": "Week 13 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “civil right”?",
+      "options": [
+        "A legal guarantee of equal status, participation, or protection.",
+        "Government action preventing publication or expression before it occurs.",
+        "A central-bank purchase or sale of securities affecting reserves and short-term rates.",
+        "The condition that available resources are insufficient to satisfy every possible want."
+      ],
+      "answer": 0,
+      "explanation": "Civil right means a legal guarantee of equal status, participation, or protection.",
+      "prompt": "Which definition best matches “civil right”?",
+      "choices": [
+        "A legal guarantee of equal status, participation, or protection.",
+        "Government action preventing publication or expression before it occurs.",
+        "A central-bank purchase or sale of securities affecting reserves and short-term rates.",
+        "The condition that available resources are insufficient to satisfy every possible want."
+      ]
+    },
+    {
+      "question": "Which definition best matches “equal protection”?",
+      "options": [
+        "The Fourteenth Amendment principle requiring states to govern persons without unconstitutional discrimination.",
+        "A plan for measuring whether a policy caused intended results and what else occurred.",
+        "The distribution of a tax’s economic burden between buyers and sellers.",
+        "A market with many firms selling differentiated products and relatively easy entry."
+      ],
+      "answer": 0,
+      "explanation": "Equal protection means the Fourteenth Amendment principle requiring states to govern persons without unconstitutional discrimination.",
+      "prompt": "Which definition best matches “equal protection”?",
+      "choices": [
+        "The Fourteenth Amendment principle requiring states to govern persons without unconstitutional discrimination.",
+        "A plan for measuring whether a policy caused intended results and what else occurred.",
+        "The distribution of a tax’s economic burden between buyers and sellers.",
+        "A market with many firms selling differentiated products and relatively easy entry."
+      ]
+    },
+    {
+      "question": "Which definition best matches “state action”?",
+      "options": [
+        "A measure of average price change for a defined basket of consumer goods and services.",
+        "Conduct attributable to government and therefore subject to many constitutional limits.",
+        "Ability to produce at a lower opportunity cost.",
+        "Law developed through judicial decisions, custom, and precedent."
+      ],
+      "answer": 1,
+      "explanation": "State action means conduct attributable to government and therefore subject to many constitutional limits.",
+      "prompt": "Which definition best matches “state action”?",
+      "choices": [
+        "A measure of average price change for a defined basket of consumer goods and services.",
+        "Conduct attributable to government and therefore subject to many constitutional limits.",
+        "Ability to produce at a lower opportunity cost.",
+        "Law developed through judicial decisions, custom, and precedent."
+      ]
+    },
+    {
+      "question": "Which definition best matches “suspect classification”?",
+      "options": [
+        "Public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+        "A legislature’s grant of authority to an executive agency or official.",
+        "Legal authority to spend public money for a designated purpose.",
+        "A classification receiving especially demanding judicial review, such as race under equal-protection doctrine."
+      ],
+      "answer": 3,
+      "explanation": "Suspect classification means a classification receiving especially demanding judicial review, such as race under equal-protection doctrine.",
+      "prompt": "Which definition best matches “suspect classification”?",
+      "choices": [
+        "Public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+        "A legislature’s grant of authority to an executive agency or official.",
+        "Legal authority to spend public money for a designated purpose.",
+        "A classification receiving especially demanding judicial review, such as race under equal-protection doctrine."
+      ]
+    },
+    {
+      "question": "Which definition best matches “disparate treatment”?",
+      "options": [
+        "Organization of resources under uncertainty to create or improve products and processes.",
+        "A competing conclusion or objection that an argument must address fairly.",
+        "Intentional different treatment based on a protected characteristic.",
+        "The agreement creating proportional representation in the House and equal state representation in the Senate."
+      ],
+      "answer": 2,
+      "explanation": "Disparate treatment means intentional different treatment based on a protected characteristic.",
+      "prompt": "Which definition best matches “disparate treatment”?",
+      "choices": [
+        "Organization of resources under uncertainty to create or improve products and processes.",
+        "A competing conclusion or objection that an argument must address fairly.",
+        "Intentional different treatment based on a protected characteristic.",
+        "The agreement creating proportional representation in the House and equal state representation in the Senate."
+      ]
+    },
+    {
+      "question": "Which definition best matches “disparate impact”?",
+      "options": [
+        "Gains from exchange lost when policy or distortion prevents mutually beneficial transactions.",
+        "A tax, subsidy, rule, service, information requirement, public investment, legal right, or other mechanism used to pursue a goal.",
+        "A good commonly used with another good.",
+        "A facially neutral practice producing unequal effects, which has different legal significance under different statutes."
+      ],
+      "answer": 3,
+      "explanation": "Disparate impact means a facially neutral practice producing unequal effects, which has different legal significance under different statutes.",
+      "prompt": "Which definition best matches “disparate impact”?",
+      "choices": [
+        "Gains from exchange lost when policy or distortion prevents mutually beneficial transactions.",
+        "A tax, subsidy, rule, service, information requirement, public investment, legal right, or other mechanism used to pursue a goal.",
+        "A good commonly used with another good.",
+        "A facially neutral practice producing unequal effects, which has different legal significance under different statutes."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 13?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Civil-rights change occurs through amendments, legislation, executive action, litigation, organizing, and shifts in public practice.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 2,
+      "explanation": "Civil-rights change occurs through amendments, legislation, executive action, litigation, organizing, and shifts in public practice.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 13?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Civil-rights change occurs through amendments, legislation, executive action, litigation, organizing, and shifts in public practice.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 13?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Constitutional claims usually require government action, while statutes may regulate private discrimination in specified settings."
+      ],
+      "answer": 3,
+      "explanation": "Constitutional claims usually require government action, while statutes may regulate private discrimination in specified settings.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 13?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Constitutional claims usually require government action, while statutes may regulate private discrimination in specified settings."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 13?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Equality analysis distinguishes formal neutrality, discriminatory intent, unequal effect, historical context, and remedy."
+      ],
+      "answer": 3,
+      "explanation": "Equality analysis distinguishes formal neutrality, discriminatory intent, unequal effect, historical context, and remedy.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 13?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Equality analysis distinguishes formal neutrality, discriminatory intent, unequal effect, historical context, and remedy."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 13 inquiry?",
+      "options": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student separates constitutional equal-protection analysis from statutory discrimination rules and identifies the government or private actor involved.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences."
+      ],
+      "answer": 1,
+      "explanation": "A student separates constitutional equal-protection analysis from statutory discrimination rules and identifies the government or private actor involved.",
+      "prompt": "Which action best demonstrates mastery of the Week 13 inquiry?",
+      "choices": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student separates constitutional equal-protection analysis from statutory discrimination rules and identifies the government or private actor involved.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences."
+      ]
+    }
+  ],
+  "shortResponse": "Is equal treatment always achieved by applying the same rule to everyone, or can equal protection require different remedies?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

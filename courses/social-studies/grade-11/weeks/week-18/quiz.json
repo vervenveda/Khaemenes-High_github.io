@@ -1,0 +1,190 @@
+{
+  "title": "Week 18 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “civic competency”?",
+      "options": [
+        "The difference between willingness to pay and the price actually paid.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "A legislature’s grant of authority to an executive agency or official.",
+        "The idea that legitimate government rests on an agreement between people and political authority."
+      ],
+      "answer": 1,
+      "explanation": "Civic competency means demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+      "prompt": "Which definition best matches “civic competency”?",
+      "choices": [
+        "The difference between willingness to pay and the price actually paid.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "A legislature’s grant of authority to an executive agency or official.",
+        "The idea that legitimate government rests on an agreement between people and political authority."
+      ]
+    },
+    {
+      "question": "Which definition best matches “constitutional claim”?",
+      "options": [
+        "Law developed through judicial decisions, custom, and precedent.",
+        "An argument that government action is required, permitted, or prohibited by constitutional law.",
+        "Habits that support responsible participation and the common good.",
+        "Powers exercised by both national and state governments."
+      ],
+      "answer": 1,
+      "explanation": "Constitutional claim means an argument that government action is required, permitted, or prohibited by constitutional law.",
+      "prompt": "Which definition best matches “constitutional claim”?",
+      "choices": [
+        "Law developed through judicial decisions, custom, and precedent.",
+        "An argument that government action is required, permitted, or prohibited by constitutional law.",
+        "Habits that support responsible participation and the common good.",
+        "Powers exercised by both national and state governments."
+      ]
+    },
+    {
+      "question": "Which definition best matches “policy claim”?",
+      "options": [
+        "An argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+        "Cross-border investment, lending, borrowing, or asset purchase.",
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "The administrative process of turning an adopted policy into operations and outcomes."
+      ],
+      "answer": 0,
+      "explanation": "Policy claim means an argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+      "prompt": "Which definition best matches “policy claim”?",
+      "choices": [
+        "An argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+        "Cross-border investment, lending, borrowing, or asset purchase.",
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "The administrative process of turning an adopted policy into operations and outcomes."
+      ]
+    },
+    {
+      "question": "Which definition best matches “counterclaim”?",
+      "options": [
+        "Authority granted to local governments to manage local affairs.",
+        "A cost that changes with output.",
+        "A competing conclusion or objection that an argument must address fairly.",
+        "Negotiation between workers acting together and an employer over compensation and conditions."
+      ],
+      "answer": 2,
+      "explanation": "Counterclaim means a competing conclusion or objection that an argument must address fairly.",
+      "prompt": "Which definition best matches “counterclaim”?",
+      "choices": [
+        "Authority granted to local governments to manage local affairs.",
+        "A cost that changes with output.",
+        "A competing conclusion or objection that an argument must address fairly.",
+        "Negotiation between workers acting together and an employer over compensation and conditions."
+      ]
+    },
+    {
+      "question": "Which definition best matches “public hearing”?",
+      "options": [
+        "Government decisions about spending, taxation, and borrowing that influence the economy.",
+        "The election in which voters choose among nominees and decide public offices or measures.",
+        "A formal process in which officials or a deliberative body receive testimony and evidence.",
+        "Supreme political authority within a territory or political community."
+      ],
+      "answer": 2,
+      "explanation": "Public hearing means a formal process in which officials or a deliberative body receive testimony and evidence.",
+      "prompt": "Which definition best matches “public hearing”?",
+      "choices": [
+        "Government decisions about spending, taxation, and borrowing that influence the economy.",
+        "The election in which voters choose among nominees and decide public offices or measures.",
+        "A formal process in which officials or a deliberative body receive testimony and evidence.",
+        "Supreme political authority within a territory or political community."
+      ]
+    },
+    {
+      "question": "Which definition best matches “civic portfolio”?",
+      "options": [
+        "Law developed through judicial decisions, custom, and precedent.",
+        "Government action preventing publication or expression before it occurs.",
+        "An organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+        "A prior judicial decision used as authority in a later case."
+      ],
+      "answer": 2,
+      "explanation": "Civic portfolio means an organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+      "prompt": "Which definition best matches “civic portfolio”?",
+      "choices": [
+        "Law developed through judicial decisions, custom, and precedent.",
+        "Government action preventing publication or expression before it occurs.",
+        "An organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+        "A prior judicial decision used as authority in a later case."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 18?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Civic literacy requires applying knowledge, not merely recognizing isolated facts."
+      ],
+      "answer": 3,
+      "explanation": "Civic literacy requires applying knowledge, not merely recognizing isolated facts.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 18?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Civic literacy requires applying knowledge, not merely recognizing isolated facts."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 18?",
+      "options": [
+        "Constitutional legality and policy wisdom are related but distinct questions.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 0,
+      "explanation": "Constitutional legality and policy wisdom are related but distinct questions.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 18?",
+      "choices": [
+        "Constitutional legality and policy wisdom are related but distinct questions.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 18?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A high-quality civic presentation represents opposing evidence fairly and proposes a lawful, feasible response.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 1,
+      "explanation": "A high-quality civic presentation represents opposing evidence fairly and proposes a lawful, feasible response.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 18?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A high-quality civic presentation represents opposing evidence fairly and proposes a lawful, feasible response.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 18 inquiry?",
+      "options": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student distinguishes legal authority, empirical evidence, value judgment, implementation risk, and counterargument in one coherent recommendation.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 2,
+      "explanation": "A student distinguishes legal authority, empirical evidence, value judgment, implementation risk, and counterargument in one coherent recommendation.",
+      "prompt": "Which action best demonstrates mastery of the Week 18 inquiry?",
+      "choices": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student distinguishes legal authority, empirical evidence, value judgment, implementation risk, and counterargument in one coherent recommendation.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "What evidence should be required before government adopts a policy that limits liberty or commits substantial public resources?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

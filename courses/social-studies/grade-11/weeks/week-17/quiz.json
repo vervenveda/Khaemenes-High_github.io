@@ -1,0 +1,190 @@
+{
+  "title": "Week 17 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “authoritarianism”?",
+      "options": [
+        "A protected freedom limiting government interference.",
+        "A political system concentrating power and limiting meaningful competition, accountability, and civil liberties.",
+        "Cross-border investment, lending, borrowing, or asset purchase.",
+        "A method that does not privilege a political party or require ideological agreement."
+      ],
+      "answer": 1,
+      "explanation": "Authoritarianism means a political system concentrating power and limiting meaningful competition, accountability, and civil liberties.",
+      "prompt": "Which definition best matches “authoritarianism”?",
+      "choices": [
+        "A protected freedom limiting government interference.",
+        "A political system concentrating power and limiting meaningful competition, accountability, and civil liberties.",
+        "Cross-border investment, lending, borrowing, or asset purchase.",
+        "A method that does not privilege a political party or require ideological agreement."
+      ]
+    },
+    {
+      "question": "Which definition best matches “totalitarianism”?",
+      "options": [
+        "Legislative review of executive agencies, programs, spending, and implementation.",
+        "A claimed power to withhold certain executive communications, subject to constitutional limits.",
+        "The process through which people develop political values, identities, and habits.",
+        "An extreme authoritarian system seeking pervasive control over political, social, economic, and private life."
+      ],
+      "answer": 3,
+      "explanation": "Totalitarianism means an extreme authoritarian system seeking pervasive control over political, social, economic, and private life.",
+      "prompt": "Which definition best matches “totalitarianism”?",
+      "choices": [
+        "Legislative review of executive agencies, programs, spending, and implementation.",
+        "A claimed power to withhold certain executive communications, subject to constitutional limits.",
+        "The process through which people develop political values, identities, and habits.",
+        "An extreme authoritarian system seeking pervasive control over political, social, economic, and private life."
+      ]
+    },
+    {
+      "question": "Which definition best matches “communism”?",
+      "options": [
+        "The phrasing and order of survey questions, which can influence responses.",
+        "A broad ideology and family of systems advocating common ownership; historical one-party communist states concentrated political and economic power.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "The administrative process of turning an adopted policy into operations and outcomes."
+      ],
+      "answer": 1,
+      "explanation": "Communism means a broad ideology and family of systems advocating common ownership; historical one-party communist states concentrated political and economic power.",
+      "prompt": "Which definition best matches “communism”?",
+      "choices": [
+        "The phrasing and order of survey questions, which can influence responses.",
+        "A broad ideology and family of systems advocating common ownership; historical one-party communist states concentrated political and economic power.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "The administrative process of turning an adopted policy into operations and outcomes."
+      ]
+    },
+    {
+      "question": "Which definition best matches “democratization”?",
+      "options": [
+        "A price and quantity at which quantity demanded equals quantity supplied.",
+        "Movement toward competitive elections, rule of law, rights protection, accountable institutions, and civic participation.",
+        "Output produced per unit of input.",
+        "Powers reasonably inferred from enumerated powers and constitutional clauses."
+      ],
+      "answer": 1,
+      "explanation": "Democratization means movement toward competitive elections, rule of law, rights protection, accountable institutions, and civic participation.",
+      "prompt": "Which definition best matches “democratization”?",
+      "choices": [
+        "A price and quantity at which quantity demanded equals quantity supplied.",
+        "Movement toward competitive elections, rule of law, rights protection, accountable institutions, and civic participation.",
+        "Output produced per unit of input.",
+        "Powers reasonably inferred from enumerated powers and constitutional clauses."
+      ]
+    },
+    {
+      "question": "Which definition best matches “diplomacy”?",
+      "options": [
+        "Official negotiation and communication among governments.",
+        "A formal change to the Constitution adopted through Article V procedures.",
+        "Rights understood as inherent to persons rather than granted at a ruler’s discretion.",
+        "A cost that changes with output."
+      ],
+      "answer": 0,
+      "explanation": "Diplomacy means official negotiation and communication among governments.",
+      "prompt": "Which definition best matches “diplomacy”?",
+      "choices": [
+        "Official negotiation and communication among governments.",
+        "A formal change to the Constitution adopted through Article V procedures.",
+        "Rights understood as inherent to persons rather than granted at a ruler’s discretion.",
+        "A cost that changes with output."
+      ]
+    },
+    {
+      "question": "Which definition best matches “sanction”?",
+      "options": [
+        "A measure of how responsive one variable is to a change in another.",
+        "A competing conclusion or objection that an argument must address fairly.",
+        "A financial, trade, travel, or other restriction used to influence another actor’s behavior.",
+        "A method that does not privilege a political party or require ideological agreement."
+      ],
+      "answer": 2,
+      "explanation": "Sanction means a financial, trade, travel, or other restriction used to influence another actor’s behavior.",
+      "prompt": "Which definition best matches “sanction”?",
+      "choices": [
+        "A measure of how responsive one variable is to a change in another.",
+        "A competing conclusion or objection that an argument must address fairly.",
+        "A financial, trade, travel, or other restriction used to influence another actor’s behavior.",
+        "A method that does not privilege a political party or require ideological agreement."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 17?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Political systems should be compared through institutions, rights, accountability, information control, and lived outcomes."
+      ],
+      "answer": 3,
+      "explanation": "Political systems should be compared through institutions, rights, accountability, information control, and lived outcomes.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 17?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Political systems should be compared through institutions, rights, accountability, information control, and lived outcomes."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 17?",
+      "options": [
+        "Democracy requires more than elections: competition, rule of law, civil liberty, independent institutions, and peaceful transfer matter.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 0,
+      "explanation": "Democracy requires more than elections: competition, rule of law, civil liberty, independent institutions, and peaceful transfer matter.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 17?",
+      "choices": [
+        "Democracy requires more than elections: competition, rule of law, civil liberty, independent institutions, and peaceful transfer matter.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 17?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Foreign policy uses diplomacy, alliances, trade, aid, sanctions, intelligence, and force, each with benefits, limits, and unintended consequences.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 1,
+      "explanation": "Foreign policy uses diplomacy, alliances, trade, aid, sanctions, intelligence, and force, each with benefits, limits, and unintended consequences.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 17?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Foreign policy uses diplomacy, alliances, trade, aid, sanctions, intelligence, and force, each with benefits, limits, and unintended consequences.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 17 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student compares systems using observable institutions and outcomes rather than assuming an election or constitutional label proves democracy."
+      ],
+      "answer": 3,
+      "explanation": "A student compares systems using observable institutions and outcomes rather than assuming an election or constitutional label proves democracy.",
+      "prompt": "Which action best demonstrates mastery of the Week 17 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student compares systems using observable institutions and outcomes rather than assuming an election or constitutional label proves democracy."
+      ]
+    }
+  ],
+  "shortResponse": "Should the United States prioritize human rights consistently even when doing so conflicts with security or economic interests?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

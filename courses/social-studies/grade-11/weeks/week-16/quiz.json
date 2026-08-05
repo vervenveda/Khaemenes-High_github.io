@@ -1,0 +1,190 @@
+{
+  "title": "Week 16 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “interest group”?",
+      "options": [
+        "The amount by which government spending exceeds revenue during a period.",
+        "An extreme authoritarian system seeking pervasive control over political, social, economic, and private life.",
+        "A testable claim about what is, was, or is likely to occur.",
+        "An organization seeking to influence public policy without primarily nominating candidates."
+      ],
+      "answer": 3,
+      "explanation": "Interest group means an organization seeking to influence public policy without primarily nominating candidates.",
+      "prompt": "Which definition best matches “interest group”?",
+      "choices": [
+        "The amount by which government spending exceeds revenue during a period.",
+        "An extreme authoritarian system seeking pervasive control over political, social, economic, and private life.",
+        "A testable claim about what is, was, or is likely to occur.",
+        "An organization seeking to influence public policy without primarily nominating candidates."
+      ]
+    },
+    {
+      "question": "Which definition best matches “lobbying”?",
+      "options": [
+        "Reduced private investment or activity associated with government borrowing or resource use.",
+        "An organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+        "Uncertainty arising because a survey measures a sample rather than the entire population.",
+        "Direct communication with public officials intended to influence decisions."
+      ],
+      "answer": 3,
+      "explanation": "Lobbying means direct communication with public officials intended to influence decisions.",
+      "prompt": "Which definition best matches “lobbying”?",
+      "choices": [
+        "Reduced private investment or activity associated with government borrowing or resource use.",
+        "An organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+        "Uncertainty arising because a survey measures a sample rather than the entire population.",
+        "Direct communication with public officials intended to influence decisions."
+      ]
+    },
+    {
+      "question": "Which definition best matches “agenda setting”?",
+      "options": [
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "The constitutional formula counting three-fifths of enslaved persons for representation and direct taxation.",
+        "An extreme authoritarian system seeking pervasive control over political, social, economic, and private life.",
+        "The process by which issues gain or lose public and governmental attention."
+      ],
+      "answer": 3,
+      "explanation": "Agenda setting means the process by which issues gain or lose public and governmental attention.",
+      "prompt": "Which definition best matches “agenda setting”?",
+      "choices": [
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "The constitutional formula counting three-fifths of enslaved persons for representation and direct taxation.",
+        "An extreme authoritarian system seeking pervasive control over political, social, economic, and private life.",
+        "The process by which issues gain or lose public and governmental attention."
+      ]
+    },
+    {
+      "question": "Which definition best matches “framing”?",
+      "options": [
+        "Selecting and emphasizing aspects of an issue to shape interpretation.",
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "The difference between willingness to pay and the price actually paid.",
+        "The danger that failure or distress spreads through interconnected financial institutions and markets."
+      ],
+      "answer": 0,
+      "explanation": "Framing means selecting and emphasizing aspects of an issue to shape interpretation.",
+      "prompt": "Which definition best matches “framing”?",
+      "choices": [
+        "Selecting and emphasizing aspects of an issue to shape interpretation.",
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "The difference between willingness to pay and the price actually paid.",
+        "The danger that failure or distress spreads through interconnected financial institutions and markets."
+      ]
+    },
+    {
+      "question": "Which definition best matches “propaganda”?",
+      "options": [
+        "Strategic communication designed to mobilize belief or action, often through selective evidence and emotional technique.",
+        "Testing a claim by comparing it with independent evidence.",
+        "An election used to select party nominees or narrow the field of candidates.",
+        "A legal, technological, financial, strategic, or structural obstacle to new competition."
+      ],
+      "answer": 0,
+      "explanation": "Propaganda means strategic communication designed to mobilize belief or action, often through selective evidence and emotional technique.",
+      "prompt": "Which definition best matches “propaganda”?",
+      "choices": [
+        "Strategic communication designed to mobilize belief or action, often through selective evidence and emotional technique.",
+        "Testing a claim by comparing it with independent evidence.",
+        "An election used to select party nominees or narrow the field of candidates.",
+        "A legal, technological, financial, strategic, or structural obstacle to new competition."
+      ]
+    },
+    {
+      "question": "Which definition best matches “media literacy”?",
+      "options": [
+        "The ability to access, analyze, evaluate, create, and verify messages across media forms.",
+        "Law and enforcement intended to protect competitive processes from unlawful restraints or monopolization.",
+        "The process by which agencies create regulations under statutory authority.",
+        "Authority granted to local governments to manage local affairs."
+      ],
+      "answer": 0,
+      "explanation": "Media literacy means the ability to access, analyze, evaluate, create, and verify messages across media forms.",
+      "prompt": "Which definition best matches “media literacy”?",
+      "choices": [
+        "The ability to access, analyze, evaluate, create, and verify messages across media forms.",
+        "Law and enforcement intended to protect competitive processes from unlawful restraints or monopolization.",
+        "The process by which agencies create regulations under statutory authority.",
+        "Authority granted to local governments to manage local affairs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 16?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Interest groups provide expertise and participation but may also magnify unequal money, access, and organization."
+      ],
+      "answer": 3,
+      "explanation": "Interest groups provide expertise and participation but may also magnify unequal money, access, and organization.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 16?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Interest groups provide expertise and participation but may also magnify unequal money, access, and organization."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 16?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Media influence includes agenda setting, framing, investigation, amplification, and correction rather than simple control of opinions."
+      ],
+      "answer": 3,
+      "explanation": "Media influence includes agenda setting, framing, investigation, amplification, and correction rather than simple control of opinions.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 16?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Media influence includes agenda setting, framing, investigation, amplification, and correction rather than simple control of opinions."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 16?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Political communication should be evaluated for source, evidence, omission, emotional appeal, financing, and intended audience."
+      ],
+      "answer": 3,
+      "explanation": "Political communication should be evaluated for source, evidence, omission, emotional appeal, financing, and intended audience.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 16?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Political communication should be evaluated for source, evidence, omission, emotional appeal, financing, and intended audience."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 16 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student follows a political claim to the underlying public record and separates fact, inference, persuasion, and opinion.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 1,
+      "explanation": "A student follows a political claim to the underlying public record and separates fact, inference, persuasion, and opinion.",
+      "prompt": "Which action best demonstrates mastery of the Week 16 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student follows a political claim to the underlying public record and separates fact, inference, persuasion, and opinion.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "Do disclosure and source transparency adequately protect democracy from unequal influence and manipulation?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

@@ -1,0 +1,190 @@
+{
+  "title": "Week 14 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “political party”?",
+      "options": [
+        "An organization seeking to influence government by electing candidates and coordinating public policy.",
+        "A reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+        "The share of an eligible or registered population that casts a ballot."
+      ],
+      "answer": 0,
+      "explanation": "Political party means an organization seeking to influence government by electing candidates and coordinating public policy.",
+      "prompt": "Which definition best matches “political party”?",
+      "choices": [
+        "An organization seeking to influence government by electing candidates and coordinating public policy.",
+        "A reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+        "The share of an eligible or registered population that casts a ballot."
+      ]
+    },
+    {
+      "question": "Which definition best matches “ideology”?",
+      "options": [
+        "A tax whose burden consumes a larger share of lower income than higher income.",
+        "An argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+        "Law developed through judicial decisions, custom, and precedent.",
+        "A structured set of beliefs about government, society, rights, economy, and public priorities."
+      ],
+      "answer": 3,
+      "explanation": "Ideology means a structured set of beliefs about government, society, rights, economy, and public priorities.",
+      "prompt": "Which definition best matches “ideology”?",
+      "choices": [
+        "A tax whose burden consumes a larger share of lower income than higher income.",
+        "An argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+        "Law developed through judicial decisions, custom, and precedent.",
+        "A structured set of beliefs about government, society, rights, economy, and public priorities."
+      ]
+    },
+    {
+      "question": "Which definition best matches “political socialization”?",
+      "options": [
+        "The process through which people develop political values, identities, and habits.",
+        "A formal change to the Constitution adopted through Article V procedures.",
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "Revenue minus explicit and implicit costs."
+      ],
+      "answer": 0,
+      "explanation": "Political socialization means the process through which people develop political values, identities, and habits.",
+      "prompt": "Which definition best matches “political socialization”?",
+      "choices": [
+        "The process through which people develop political values, identities, and habits.",
+        "A formal change to the Constitution adopted through Article V procedures.",
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "Revenue minus explicit and implicit costs."
+      ]
+    },
+    {
+      "question": "Which definition best matches “coalition”?",
+      "options": [
+        "An alliance of groups or individuals cooperating toward shared political goals.",
+        "A tax intended to align private incentives with an external social cost.",
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions."
+      ],
+      "answer": 0,
+      "explanation": "Coalition means an alliance of groups or individuals cooperating toward shared political goals.",
+      "prompt": "Which definition best matches “coalition”?",
+      "choices": [
+        "An alliance of groups or individuals cooperating toward shared political goals.",
+        "A tax intended to align private incentives with an external social cost.",
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions."
+      ]
+    },
+    {
+      "question": "Which definition best matches “sampling error”?",
+      "options": [
+        "A tax applying the same rate across the tax base.",
+        "Uncertainty arising because a survey measures a sample rather than the entire population.",
+        "The organizations and officials that administer laws and public programs.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups."
+      ],
+      "answer": 1,
+      "explanation": "Sampling error means uncertainty arising because a survey measures a sample rather than the entire population.",
+      "prompt": "Which definition best matches “sampling error”?",
+      "choices": [
+        "A tax applying the same rate across the tax base.",
+        "Uncertainty arising because a survey measures a sample rather than the entire population.",
+        "The organizations and officials that administer laws and public programs.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups."
+      ]
+    },
+    {
+      "question": "Which definition best matches “question wording”?",
+      "options": [
+        "The phrasing and order of survey questions, which can influence responses.",
+        "Ability to produce more output with the same resources.",
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+        "A claimed power to withhold certain executive communications, subject to constitutional limits."
+      ],
+      "answer": 0,
+      "explanation": "Question wording means the phrasing and order of survey questions, which can influence responses.",
+      "prompt": "Which definition best matches “question wording”?",
+      "choices": [
+        "The phrasing and order of survey questions, which can influence responses.",
+        "Ability to produce more output with the same resources.",
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+        "A claimed power to withhold certain executive communications, subject to constitutional limits."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 14?",
+      "options": [
+        "Parties aggregate interests, recruit candidates, mobilize voters, organize government, and simplify choices.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 0,
+      "explanation": "Parties aggregate interests, recruit candidates, mobilize voters, organize government, and simplify choices.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 14?",
+      "choices": [
+        "Parties aggregate interests, recruit candidates, mobilize voters, organize government, and simplify choices.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 14?",
+      "options": [
+        "Political labels conceal internal disagreement and change meaning across time and place.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "Political labels conceal internal disagreement and change meaning across time and place.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 14?",
+      "choices": [
+        "Political labels conceal internal disagreement and change meaning across time and place.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 14?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Reliable polling requires an appropriate sample, transparent method, neutral wording, timing, and honest uncertainty.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 1,
+      "explanation": "Reliable polling requires an appropriate sample, transparent method, neutral wording, timing, and honest uncertainty.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 14?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Reliable polling requires an appropriate sample, transparent method, neutral wording, timing, and honest uncertainty.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 14 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student reports a poll as an estimate with dates, population, method, and uncertainty rather than as a direct measurement of all citizens.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ],
+      "answer": 2,
+      "explanation": "A student reports a poll as an estimate with dates, population, method, and uncertainty rather than as a direct measurement of all citizens.",
+      "prompt": "Which action best demonstrates mastery of the Week 14 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student reports a poll as an estimate with dates, population, method, and uncertainty rather than as a direct measurement of all citizens.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ]
+    }
+  ],
+  "shortResponse": "Should representatives follow current majority opinion, campaign promises, party platforms, expert evidence, or their own judgment?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

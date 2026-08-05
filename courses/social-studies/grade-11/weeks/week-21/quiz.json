@@ -1,0 +1,190 @@
+{
+  "title": "Week 21 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “demand”?",
+      "options": [
+        "An increase in a currency’s value relative to another currency.",
+        "Output produced per unit of input.",
+        "Authority granted to local governments to manage local affairs.",
+        "The quantities consumers are willing and able to buy at different prices during a stated period."
+      ],
+      "answer": 3,
+      "explanation": "Demand means the quantities consumers are willing and able to buy at different prices during a stated period.",
+      "prompt": "Which definition best matches “demand”?",
+      "choices": [
+        "An increase in a currency’s value relative to another currency.",
+        "Output produced per unit of input.",
+        "Authority granted to local governments to manage local affairs.",
+        "The quantities consumers are willing and able to buy at different prices during a stated period."
+      ]
+    },
+    {
+      "question": "Which definition best matches “supply”?",
+      "options": [
+        "Official negotiation and communication among governments.",
+        "A legal guarantee of equal status, participation, or protection.",
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "Negotiation between workers acting together and an employer over compensation and conditions."
+      ],
+      "answer": 2,
+      "explanation": "Supply means the quantities producers are willing and able to sell at different prices during a stated period.",
+      "prompt": "Which definition best matches “supply”?",
+      "choices": [
+        "Official negotiation and communication among governments.",
+        "A legal guarantee of equal status, participation, or protection.",
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "Negotiation between workers acting together and an employer over compensation and conditions."
+      ]
+    },
+    {
+      "question": "Which definition best matches “equilibrium”?",
+      "options": [
+        "A facially neutral practice producing unequal effects, which has different legal significance under different statutes.",
+        "A system combining markets with public regulation, provision, taxation, and social insurance.",
+        "A price and quantity at which quantity demanded equals quantity supplied.",
+        "Legislation authorizing government spending for specified purposes."
+      ],
+      "answer": 2,
+      "explanation": "Equilibrium means a price and quantity at which quantity demanded equals quantity supplied.",
+      "prompt": "Which definition best matches “equilibrium”?",
+      "choices": [
+        "A facially neutral practice producing unequal effects, which has different legal significance under different statutes.",
+        "A system combining markets with public regulation, provision, taxation, and social insurance.",
+        "A price and quantity at which quantity demanded equals quantity supplied.",
+        "Legislation authorizing government spending for specified purposes."
+      ]
+    },
+    {
+      "question": "Which definition best matches “substitute”?",
+      "options": [
+        "Legal authority to spend public money for a designated purpose.",
+        "A system combining markets with public regulation, provision, taxation, and social insurance.",
+        "A good that can replace another good in consumption or production.",
+        "A broad ideology and family of systems advocating common ownership; historical one-party communist states concentrated political and economic power."
+      ],
+      "answer": 2,
+      "explanation": "Substitute means a good that can replace another good in consumption or production.",
+      "prompt": "Which definition best matches “substitute”?",
+      "choices": [
+        "Legal authority to spend public money for a designated purpose.",
+        "A system combining markets with public regulation, provision, taxation, and social insurance.",
+        "A good that can replace another good in consumption or production.",
+        "A broad ideology and family of systems advocating common ownership; historical one-party communist states concentrated political and economic power."
+      ]
+    },
+    {
+      "question": "Which definition best matches “complement”?",
+      "options": [
+        "The interest rate on overnight reserve lending that the Federal Reserve targets within a range.",
+        "A good commonly used with another good.",
+        "Knowledge, skill, health, and experience that affect productive capacity.",
+        "A market with many firms selling differentiated products and relatively easy entry."
+      ],
+      "answer": 1,
+      "explanation": "Complement means a good commonly used with another good.",
+      "prompt": "Which definition best matches “complement”?",
+      "choices": [
+        "The interest rate on overnight reserve lending that the Federal Reserve targets within a range.",
+        "A good commonly used with another good.",
+        "Knowledge, skill, health, and experience that affect productive capacity.",
+        "A market with many firms selling differentiated products and relatively easy entry."
+      ]
+    },
+    {
+      "question": "Which definition best matches “shortage”?",
+      "options": [
+        "A condition in which quantity demanded exceeds quantity supplied at the current price.",
+        "An organization seeking to influence public policy without primarily nominating candidates.",
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+        "GDP divided by population, often used as a rough average-output measure."
+      ],
+      "answer": 0,
+      "explanation": "Shortage means a condition in which quantity demanded exceeds quantity supplied at the current price.",
+      "prompt": "Which definition best matches “shortage”?",
+      "choices": [
+        "A condition in which quantity demanded exceeds quantity supplied at the current price.",
+        "An organization seeking to influence public policy without primarily nominating candidates.",
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+        "GDP divided by population, often used as a rough average-output measure."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 21?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "A movement along a curve is caused by the good’s own price; a curve shift is caused by another determinant."
+      ],
+      "answer": 3,
+      "explanation": "A movement along a curve is caused by the good’s own price; a curve shift is caused by another determinant.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 21?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "A movement along a curve is caused by the good’s own price; a curve shift is caused by another determinant."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 21?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Equilibrium is a model of coordinated exchange, not a moral judgment that an outcome is fair or socially optimal.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 2,
+      "explanation": "Equilibrium is a model of coordinated exchange, not a moral judgment that an outcome is fair or socially optimal.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 21?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Equilibrium is a model of coordinated exchange, not a moral judgment that an outcome is fair or socially optimal.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 21?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Price ceilings, price floors, taxes, subsidies, and shocks can create predictable but context-dependent changes."
+      ],
+      "answer": 3,
+      "explanation": "Price ceilings, price floors, taxes, subsidies, and shocks can create predictable but context-dependent changes.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 21?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Price ceilings, price floors, taxes, subsidies, and shocks can create predictable but context-dependent changes."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 21 inquiry?",
+      "options": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student identifies whether the change is movement or shift and states the affected curve and determinant.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 1,
+      "explanation": "A student identifies whether the change is movement or shift and states the affected curve and determinant.",
+      "prompt": "Which action best demonstrates mastery of the Week 21 inquiry?",
+      "choices": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student identifies whether the change is movement or shift and states the affected curve and determinant.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "When should government allow prices to ration scarce goods, and when should access be allocated through another rule?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

@@ -1,0 +1,190 @@
+{
+  "title": "Week 24 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “perfect competition”?",
+      "options": [
+        "A model with many firms, identical products, easy entry, and price-taking behavior.",
+        "The process through which people develop political values, identities, and habits.",
+        "The First Amendment protection for religious belief and practice, subject to legal doctrine.",
+        "Testing a claim by comparing it with independent evidence."
+      ],
+      "answer": 0,
+      "explanation": "Perfect competition means a model with many firms, identical products, easy entry, and price-taking behavior.",
+      "prompt": "Which definition best matches “perfect competition”?",
+      "choices": [
+        "A model with many firms, identical products, easy entry, and price-taking behavior.",
+        "The process through which people develop political values, identities, and habits.",
+        "The First Amendment protection for religious belief and practice, subject to legal doctrine.",
+        "Testing a claim by comparing it with independent evidence."
+      ]
+    },
+    {
+      "question": "Which definition best matches “monopolistic competition”?",
+      "options": [
+        "Revenue minus explicit and implicit costs.",
+        "Government decisions about spending, taxation, and borrowing that influence the economy.",
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "Knowledge, skill, health, and experience that affect productive capacity."
+      ],
+      "answer": 2,
+      "explanation": "Monopolistic competition means a market with many firms selling differentiated products and relatively easy entry.",
+      "prompt": "Which definition best matches “monopolistic competition”?",
+      "choices": [
+        "Revenue minus explicit and implicit costs.",
+        "Government decisions about spending, taxation, and borrowing that influence the economy.",
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "Knowledge, skill, health, and experience that affect productive capacity."
+      ]
+    },
+    {
+      "question": "Which definition best matches “oligopoly”?",
+      "options": [
+        "Output measured with prices adjusted to remove the effect of inflation.",
+        "A market dominated by a small number of interdependent firms.",
+        "The process through which one condition is expected to produce another.",
+        "The condition that available resources are insufficient to satisfy every possible want."
+      ],
+      "answer": 1,
+      "explanation": "Oligopoly means a market dominated by a small number of interdependent firms.",
+      "prompt": "Which definition best matches “oligopoly”?",
+      "choices": [
+        "Output measured with prices adjusted to remove the effect of inflation.",
+        "A market dominated by a small number of interdependent firms.",
+        "The process through which one condition is expected to produce another.",
+        "The condition that available resources are insufficient to satisfy every possible want."
+      ]
+    },
+    {
+      "question": "Which definition best matches “monopoly”?",
+      "options": [
+        "A market in which one firm supplies a product without close substitutes and entry is blocked.",
+        "A public institution managing monetary policy and supporting payment and financial stability functions.",
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "A system combining markets with public regulation, provision, taxation, and social insurance."
+      ],
+      "answer": 0,
+      "explanation": "Monopoly means a market in which one firm supplies a product without close substitutes and entry is blocked.",
+      "prompt": "Which definition best matches “monopoly”?",
+      "choices": [
+        "A market in which one firm supplies a product without close substitutes and entry is blocked.",
+        "A public institution managing monetary policy and supporting payment and financial stability functions.",
+        "A judicial opinion disagreeing with the majority’s result or reasoning.",
+        "A system combining markets with public regulation, provision, taxation, and social insurance."
+      ]
+    },
+    {
+      "question": "Which definition best matches “barrier to entry”?",
+      "options": [
+        "The value of the best alternative forgone when a choice is made.",
+        "A request from the Confederation Congress to states for money or resources.",
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "A cost that changes with output."
+      ],
+      "answer": 2,
+      "explanation": "Barrier to entry means a legal, technological, financial, strategic, or structural obstacle to new competition.",
+      "prompt": "Which definition best matches “barrier to entry”?",
+      "choices": [
+        "The value of the best alternative forgone when a choice is made.",
+        "A request from the Confederation Congress to states for money or resources.",
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "A cost that changes with output."
+      ]
+    },
+    {
+      "question": "Which definition best matches “antitrust”?",
+      "options": [
+        "Law and enforcement intended to protect competitive processes from unlawful restraints or monopolization.",
+        "Negotiation between workers acting together and an employer over compensation and conditions.",
+        "Government through representatives and civic institutions oriented toward the public good.",
+        "A method that does not privilege a political party or require ideological agreement."
+      ],
+      "answer": 0,
+      "explanation": "Antitrust means law and enforcement intended to protect competitive processes from unlawful restraints or monopolization.",
+      "prompt": "Which definition best matches “antitrust”?",
+      "choices": [
+        "Law and enforcement intended to protect competitive processes from unlawful restraints or monopolization.",
+        "Negotiation between workers acting together and an employer over compensation and conditions.",
+        "Government through representatives and civic institutions oriented toward the public good.",
+        "A method that does not privilege a political party or require ideological agreement."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 24?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Market structure depends on number of firms, product differentiation, entry barriers, information, and strategic interaction."
+      ],
+      "answer": 3,
+      "explanation": "Market structure depends on number of firms, product differentiation, entry barriers, information, and strategic interaction.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 24?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Market structure depends on number of firms, product differentiation, entry barriers, information, and strategic interaction."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 24?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Market power can arise from efficiency, network effects, control of inputs, law, mergers, exclusion, or natural-monopoly conditions."
+      ],
+      "answer": 3,
+      "explanation": "Market power can arise from efficiency, network effects, control of inputs, law, mergers, exclusion, or natural-monopoly conditions.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 24?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Market power can arise from efficiency, network effects, control of inputs, law, mergers, exclusion, or natural-monopoly conditions."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 24?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Antitrust protects competition rather than automatically punishing size or guaranteeing competitors’ success."
+      ],
+      "answer": 3,
+      "explanation": "Antitrust protects competition rather than automatically punishing size or guaranteeing competitors’ success.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 24?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Antitrust protects competition rather than automatically punishing size or guaranteeing competitors’ success."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 24 inquiry?",
+      "options": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student identifies entry barriers and competitive effects before labeling a large firm an unlawful monopoly."
+      ],
+      "answer": 3,
+      "explanation": "A student identifies entry barriers and competitive effects before labeling a large firm an unlawful monopoly.",
+      "prompt": "Which action best demonstrates mastery of the Week 24 inquiry?",
+      "choices": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student identifies entry barriers and competitive effects before labeling a large firm an unlawful monopoly."
+      ]
+    }
+  ],
+  "shortResponse": "Should antitrust focus mainly on consumer prices, or also on labor, innovation, political power, and resilience?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

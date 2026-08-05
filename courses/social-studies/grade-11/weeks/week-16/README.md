@@ -1,0 +1,26 @@
+# Week 16 — Interest Groups, Media, and Political Communication
+
+**Unit:** Unit 4 · Elections, Media, and Civic Action  
+**Frame:** Advocacy · lobbying · journalism · propaganda · platforms  
+**Essential question:** How do organized interests and communication systems shape which issues receive attention and which policies become possible?
+
+## Files
+
+- `student-packet.html` — printable five-day student packet
+- `teacher-guide.html` — instructional guidance, scoring, supports, and quiz key
+- `quiz.json` — structured weekly assessment data
+
+## Standards
+
+- **SS.912.CG.2.8** — Explain how parties, interest groups, media, and individuals shape public policy.
+- **SS.912.CG.2.11** — Evaluate political communication for bias, factual accuracy, omission, and emotional appeal.
+- **SS.912.CG.2.12** — Explain how interest groups, media, and public opinion influence government decisions.
+- **SS.912.CG.2.13** — Analyze the effects of media and the internet in political communication.
+- **D1.5.9-12** — Determine the kinds of sources useful for answering compelling and supporting questions.
+- **D3.1.9-12** — Gather relevant information from multiple sources while evaluating origin, authority, context, and corroborative value.
+- **D3.3.9-12** — Identify evidence that draws information directly and substantively from multiple sources.
+- **D4.1.9-12** — Construct arguments using precise claims and evidence while acknowledging counterclaims.
+- **RH.11-12.1** — Cite specific textual evidence, connecting details to an understanding of the text as a whole.
+- **RH.11-12.7** — Integrate and evaluate multiple sources of information in diverse formats.
+- **RH.11-12.8** — Evaluate an author’s premises, claims, and evidence by corroborating or challenging them.
+- **WHST.11-12.1** — Write arguments focused on discipline-specific content.

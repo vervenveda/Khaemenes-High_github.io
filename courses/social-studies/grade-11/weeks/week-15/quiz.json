@@ -1,0 +1,190 @@
+{
+  "title": "Week 15 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “primary election”?",
+      "options": [
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "A political system concentrating power and limiting meaningful competition, accountability, and civil liberties.",
+        "An election used to select party nominees or narrow the field of candidates.",
+        "The court’s authoritative resolution of the legal issue necessary to decide the case."
+      ],
+      "answer": 2,
+      "explanation": "Primary election means an election used to select party nominees or narrow the field of candidates.",
+      "prompt": "Which definition best matches “primary election”?",
+      "choices": [
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "A political system concentrating power and limiting meaningful competition, accountability, and civil liberties.",
+        "An election used to select party nominees or narrow the field of candidates.",
+        "The court’s authoritative resolution of the legal issue necessary to decide the case."
+      ]
+    },
+    {
+      "question": "Which definition best matches “general election”?",
+      "options": [
+        "The election in which voters choose among nominees and decide public offices or measures.",
+        "A testable claim about what is, was, or is likely to occur.",
+        "The Fourteenth Amendment principle requiring states to govern persons without unconstitutional discrimination.",
+        "A cost that does not vary with current output in the relevant period."
+      ],
+      "answer": 0,
+      "explanation": "General election means the election in which voters choose among nominees and decide public offices or measures.",
+      "prompt": "Which definition best matches “general election”?",
+      "choices": [
+        "The election in which voters choose among nominees and decide public offices or measures.",
+        "A testable claim about what is, was, or is likely to occur.",
+        "The Fourteenth Amendment principle requiring states to govern persons without unconstitutional discrimination.",
+        "A cost that does not vary with current output in the relevant period."
+      ]
+    },
+    {
+      "question": "Which definition best matches “Electoral College”?",
+      "options": [
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "The constitutional system through which states appoint electors who choose the president and vice president.",
+        "A record explaining how feedback, evidence, or error correction changed a final product.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups."
+      ],
+      "answer": 1,
+      "explanation": "Electoral college means the constitutional system through which states appoint electors who choose the president and vice president.",
+      "prompt": "Which definition best matches “Electoral College”?",
+      "choices": [
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "The constitutional system through which states appoint electors who choose the president and vice president.",
+        "A record explaining how feedback, evidence, or error correction changed a final product.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups."
+      ]
+    },
+    {
+      "question": "Which definition best matches “voter turnout”?",
+      "options": [
+        "An organization seeking to influence government by electing candidates and coordinating public policy.",
+        "The share of an eligible or registered population that casts a ballot.",
+        "Revenue minus explicit and implicit costs.",
+        "Testing how a conclusion changes when assumptions or estimates change."
+      ],
+      "answer": 1,
+      "explanation": "Voter turnout means the share of an eligible or registered population that casts a ballot.",
+      "prompt": "Which definition best matches “voter turnout”?",
+      "choices": [
+        "An organization seeking to influence government by electing candidates and coordinating public policy.",
+        "The share of an eligible or registered population that casts a ballot.",
+        "Revenue minus explicit and implicit costs.",
+        "Testing how a conclusion changes when assumptions or estimates change."
+      ]
+    },
+    {
+      "question": "Which definition best matches “ballot measure”?",
+      "options": [
+        "A tax or spending feature that changes automatically with economic conditions, such as unemployment benefits.",
+        "A proposed law, constitutional amendment, bond, or other question submitted directly to voters.",
+        "A group united by interests or passions that may conflict with other citizens or the common good.",
+        "A testable claim about what is, was, or is likely to occur."
+      ],
+      "answer": 1,
+      "explanation": "Ballot measure means a proposed law, constitutional amendment, bond, or other question submitted directly to voters.",
+      "prompt": "Which definition best matches “ballot measure”?",
+      "choices": [
+        "A tax or spending feature that changes automatically with economic conditions, such as unemployment benefits.",
+        "A proposed law, constitutional amendment, bond, or other question submitted directly to voters.",
+        "A group united by interests or passions that may conflict with other citizens or the common good.",
+        "A testable claim about what is, was, or is likely to occur."
+      ]
+    },
+    {
+      "question": "Which definition best matches “canvass”?",
+      "options": [
+        "A legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law.",
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "A financial, trade, travel, or other restriction used to influence another actor’s behavior.",
+        "The official process of compiling, reviewing, and certifying election returns."
+      ],
+      "answer": 3,
+      "explanation": "Canvass means the official process of compiling, reviewing, and certifying election returns.",
+      "prompt": "Which definition best matches “canvass”?",
+      "choices": [
+        "A legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law.",
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "A financial, trade, travel, or other restriction used to influence another actor’s behavior.",
+        "The official process of compiling, reviewing, and certifying election returns."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 15?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Election administration is decentralized and combines constitutional rules, federal law, state law, local administration, and judicial review.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 2,
+      "explanation": "Election administration is decentralized and combines constitutional rules, federal law, state law, local administration, and judicial review.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 15?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Election administration is decentralized and combines constitutional rules, federal law, state law, local administration, and judicial review.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 15?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "A ballot may include federal, state, county, municipal, judicial, school, district, and amendment choices.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 2,
+      "explanation": "A ballot may include federal, state, county, municipal, judicial, school, district, and amendment choices.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 15?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "A ballot may include federal, state, county, municipal, judicial, school, district, and amendment choices.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 15?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Election integrity requires both accurate administration and public confidence grounded in verifiable procedure and evidence.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 2,
+      "explanation": "Election integrity requires both accurate administration and public confidence grounded in verifiable procedure and evidence.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 15?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Election integrity requires both accurate administration and public confidence grounded in verifiable procedure and evidence.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 15 inquiry?",
+      "options": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student uses an official sample ballot and election authority to verify procedures rather than relying on a campaign or social-media summary.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 2,
+      "explanation": "A student uses an official sample ballot and election authority to verify procedures rather than relying on a campaign or social-media summary.",
+      "prompt": "Which action best demonstrates mastery of the Week 15 inquiry?",
+      "choices": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student uses an official sample ballot and election authority to verify procedures rather than relying on a campaign or social-media summary.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "Which reforms would most improve representation without weakening verifiable election administration?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

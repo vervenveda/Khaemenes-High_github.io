@@ -1,0 +1,190 @@
+{
+  "title": "Week 19 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “scarcity”?",
+      "options": [
+        "The condition that available resources are insufficient to satisfy every possible want.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "The phrasing and order of survey questions, which can influence responses.",
+        "The difference between willingness to pay and the price actually paid."
+      ],
+      "answer": 0,
+      "explanation": "Scarcity means the condition that available resources are insufficient to satisfy every possible want.",
+      "prompt": "Which definition best matches “scarcity”?",
+      "choices": [
+        "The condition that available resources are insufficient to satisfy every possible want.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "The phrasing and order of survey questions, which can influence responses.",
+        "The difference between willingness to pay and the price actually paid."
+      ]
+    },
+    {
+      "question": "Which definition best matches “opportunity cost”?",
+      "options": [
+        "The value of the best alternative forgone when a choice is made.",
+        "A supporter of ratifying the Constitution and strengthening national government.",
+        "Movement toward competitive elections, rule of law, rights protection, accountable institutions, and civic participation.",
+        "The constitutional protection of legal assistance in specified criminal proceedings."
+      ],
+      "answer": 0,
+      "explanation": "Opportunity cost means the value of the best alternative forgone when a choice is made.",
+      "prompt": "Which definition best matches “opportunity cost”?",
+      "choices": [
+        "The value of the best alternative forgone when a choice is made.",
+        "A supporter of ratifying the Constitution and strengthening national government.",
+        "Movement toward competitive elections, rule of law, rights protection, accountable institutions, and civic participation.",
+        "The constitutional protection of legal assistance in specified criminal proceedings."
+      ]
+    },
+    {
+      "question": "Which definition best matches “incentive”?",
+      "options": [
+        "A reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "An increase in a currency’s value relative to another currency.",
+        "Powers specifically listed in the Constitution."
+      ],
+      "answer": 0,
+      "explanation": "Incentive means a reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+      "prompt": "Which definition best matches “incentive”?",
+      "choices": [
+        "A reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "An increase in a currency’s value relative to another currency.",
+        "Powers specifically listed in the Constitution."
+      ]
+    },
+    {
+      "question": "Which definition best matches “marginal analysis”?",
+      "options": [
+        "A broad ideology and family of systems advocating common ownership; historical one-party communist states concentrated political and economic power.",
+        "Output measured with prices adjusted to remove the effect of inflation.",
+        "Comparison of the additional benefit and additional cost of one more unit or action.",
+        "The amount by which government spending exceeds revenue during a period."
+      ],
+      "answer": 2,
+      "explanation": "Marginal analysis means comparison of the additional benefit and additional cost of one more unit or action.",
+      "prompt": "Which definition best matches “marginal analysis”?",
+      "choices": [
+        "A broad ideology and family of systems advocating common ownership; historical one-party communist states concentrated political and economic power.",
+        "Output measured with prices adjusted to remove the effect of inflation.",
+        "Comparison of the additional benefit and additional cost of one more unit or action.",
+        "The amount by which government spending exceeds revenue during a period."
+      ]
+    },
+    {
+      "question": "Which definition best matches “positive statement”?",
+      "options": [
+        "A testable claim about what is, was, or is likely to occur.",
+        "Produced tools, equipment, structures, and technology used to create other goods and services.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "Government action preventing publication or expression before it occurs."
+      ],
+      "answer": 0,
+      "explanation": "Positive statement means a testable claim about what is, was, or is likely to occur.",
+      "prompt": "Which definition best matches “positive statement”?",
+      "choices": [
+        "A testable claim about what is, was, or is likely to occur.",
+        "Produced tools, equipment, structures, and technology used to create other goods and services.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "Government action preventing publication or expression before it occurs."
+      ]
+    },
+    {
+      "question": "Which definition best matches “normative statement”?",
+      "options": [
+        "Rights that cannot legitimately be surrendered or removed by government.",
+        "A classification receiving especially demanding judicial review, such as race under equal-protection doctrine.",
+        "A price and quantity at which quantity demanded equals quantity supplied.",
+        "A value-based claim about what ought to be."
+      ],
+      "answer": 3,
+      "explanation": "Normative statement means a value-based claim about what ought to be.",
+      "prompt": "Which definition best matches “normative statement”?",
+      "choices": [
+        "Rights that cannot legitimately be surrendered or removed by government.",
+        "A classification receiving especially demanding judicial review, such as race under equal-protection doctrine.",
+        "A price and quantity at which quantity demanded equals quantity supplied.",
+        "A value-based claim about what ought to be."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 19?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Scarcity requires choices even in wealthy societies because time, labor, land, capital, and attention are limited.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 2,
+      "explanation": "Scarcity requires choices even in wealthy societies because time, labor, land, capital, and attention are limited.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 19?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Scarcity requires choices even in wealthy societies because time, labor, land, capital, and attention are limited.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 19?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Economic analysis can identify tradeoffs and likely responses while leaving ethical and political judgments visible.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 2,
+      "explanation": "Economic analysis can identify tradeoffs and likely responses while leaving ethical and political judgments visible.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 19?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Economic analysis can identify tradeoffs and likely responses while leaving ethical and political judgments visible.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 19?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Good decisions compare marginal costs and benefits and consider unintended incentives.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 1,
+      "explanation": "Good decisions compare marginal costs and benefits and consider unintended incentives.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 19?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Good decisions compare marginal costs and benefits and consider unintended incentives.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 19 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student identifies the best forgone alternative and separates testable predictions from value judgments."
+      ],
+      "answer": 3,
+      "explanation": "A student identifies the best forgone alternative and separates testable predictions from value judgments.",
+      "prompt": "Which action best demonstrates mastery of the Week 19 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student identifies the best forgone alternative and separates testable predictions from value judgments."
+      ]
+    }
+  ],
+  "shortResponse": "When should a public decision reject the most economically efficient option because of rights, fairness, or dignity?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}
