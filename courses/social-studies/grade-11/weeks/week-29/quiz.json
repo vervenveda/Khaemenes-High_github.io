@@ -1,0 +1,190 @@
+{
+  "title": "Week 29 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “inflation”?",
+      "options": [
+        "A structured presentation in which a student answers questions and justifies methods and conclusions.",
+        "A sustained rise in the general price level, reducing money’s purchasing power.",
+        "Testing a claim by comparing it with independent evidence.",
+        "A tax intended to align private incentives with an external social cost."
+      ],
+      "answer": 1,
+      "explanation": "Inflation means a sustained rise in the general price level, reducing money’s purchasing power.",
+      "prompt": "Which definition best matches “inflation”?",
+      "choices": [
+        "A structured presentation in which a student answers questions and justifies methods and conclusions.",
+        "A sustained rise in the general price level, reducing money’s purchasing power.",
+        "Testing a claim by comparing it with independent evidence.",
+        "A tax intended to align private incentives with an external social cost."
+      ]
+    },
+    {
+      "question": "Which definition best matches “consumer price index”?",
+      "options": [
+        "The value of the best alternative forgone when a choice is made.",
+        "The quantities consumers are willing and able to buy at different prices during a stated period.",
+        "A measure of average price change for a defined basket of consumer goods and services.",
+        "Legislative review of executive agencies, programs, spending, and implementation."
+      ],
+      "answer": 2,
+      "explanation": "Consumer price index means a measure of average price change for a defined basket of consumer goods and services.",
+      "prompt": "Which definition best matches “consumer price index”?",
+      "choices": [
+        "The value of the best alternative forgone when a choice is made.",
+        "The quantities consumers are willing and able to buy at different prices during a stated period.",
+        "A measure of average price change for a defined basket of consumer goods and services.",
+        "Legislative review of executive agencies, programs, spending, and implementation."
+      ]
+    },
+    {
+      "question": "Which definition best matches “unemployment rate”?",
+      "options": [
+        "A market in which one firm supplies a product without close substitutes and entry is blocked.",
+        "The principle that legitimate political authority depends on the people’s authorization.",
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "The unemployed actively seeking work as a percentage of the labor force."
+      ],
+      "answer": 3,
+      "explanation": "Unemployment rate means the unemployed actively seeking work as a percentage of the labor force.",
+      "prompt": "Which definition best matches “unemployment rate”?",
+      "choices": [
+        "A market in which one firm supplies a product without close substitutes and entry is blocked.",
+        "The principle that legitimate political authority depends on the people’s authorization.",
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "The unemployed actively seeking work as a percentage of the labor force."
+      ]
+    },
+    {
+      "question": "Which definition best matches “labor force participation rate”?",
+      "options": [
+        "Rapid withdrawals driven by fear that an institution cannot meet obligations.",
+        "The labor force as a percentage of the civilian noninstitutional working-age population.",
+        "A good that can replace another good in consumption or production.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited."
+      ],
+      "answer": 1,
+      "explanation": "Labor force participation rate means the labor force as a percentage of the civilian noninstitutional working-age population.",
+      "prompt": "Which definition best matches “labor force participation rate”?",
+      "choices": [
+        "Rapid withdrawals driven by fear that an institution cannot meet obligations.",
+        "The labor force as a percentage of the civilian noninstitutional working-age population.",
+        "A good that can replace another good in consumption or production.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited."
+      ]
+    },
+    {
+      "question": "Which definition best matches “recession”?",
+      "options": [
+        "A system combining markets with public regulation, provision, taxation, and social insurance.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price."
+      ],
+      "answer": 2,
+      "explanation": "Recession means a significant, broad decline in economic activity lasting more than a brief fluctuation.",
+      "prompt": "Which definition best matches “recession”?",
+      "choices": [
+        "A system combining markets with public regulation, provision, taxation, and social insurance.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price."
+      ]
+    },
+    {
+      "question": "Which definition best matches “business cycle”?",
+      "options": [
+        "A facially neutral practice producing unequal effects, which has different legal significance under different statutes.",
+        "Gains from exchange lost when policy or distortion prevents mutually beneficial transactions.",
+        "Recurring expansions and contractions in aggregate economic activity.",
+        "The power to determine whether government action is consistent with the Constitution."
+      ],
+      "answer": 2,
+      "explanation": "Business cycle means recurring expansions and contractions in aggregate economic activity.",
+      "prompt": "Which definition best matches “business cycle”?",
+      "choices": [
+        "A facially neutral practice producing unequal effects, which has different legal significance under different statutes.",
+        "Gains from exchange lost when policy or distortion prevents mutually beneficial transactions.",
+        "Recurring expansions and contractions in aggregate economic activity.",
+        "The power to determine whether government action is consistent with the Constitution."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 29?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Inflation is a rate of general price change, not simply a high price or one product becoming more expensive.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 2,
+      "explanation": "Inflation is a rate of general price change, not simply a high price or one product becoming more expensive.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 29?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Inflation is a rate of general price change, not simply a high price or one product becoming more expensive.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 29?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The unemployment rate excludes people not in the labor force and should be interpreted with participation, hours, wages, and underemployment."
+      ],
+      "answer": 3,
+      "explanation": "The unemployment rate excludes people not in the labor force and should be interpreted with participation, hours, wages, and underemployment.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 29?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The unemployment rate excludes people not in the labor force and should be interpreted with participation, hours, wages, and underemployment."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 29?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "Demand shocks, supply shocks, financial disruptions, policy, expectations, and structural change can produce different downturns.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 1,
+      "explanation": "Demand shocks, supply shocks, financial disruptions, policy, expectations, and structural change can produce different downturns.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 29?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "Demand shocks, supply shocks, financial disruptions, policy, expectations, and structural change can produce different downturns.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 29 inquiry?",
+      "options": [
+        "A student distinguishes the price level from the inflation rate and interprets unemployment together with labor-force participation.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 0,
+      "explanation": "A student distinguishes the price level from the inflation rate and interprets unemployment together with labor-force participation.",
+      "prompt": "Which action best demonstrates mastery of the Week 29 inquiry?",
+      "choices": [
+        "A student distinguishes the price level from the inflation rate and interprets unemployment together with labor-force participation.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "When inflation and unemployment pressures conflict, what evidence should determine which problem receives priority?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

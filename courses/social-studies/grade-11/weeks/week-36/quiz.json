@@ -1,0 +1,190 @@
+{
+  "title": "Week 36 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “synthesis”?",
+      "options": [
+        "The agreement creating proportional representation in the House and equal state representation in the Senate.",
+        "Study of how political institutions, power, law, and economic systems interact.",
+        "A financial, trade, travel, or other restriction used to influence another actor’s behavior.",
+        "Integration of ideas and evidence into a coherent understanding rather than a list of summaries."
+      ],
+      "answer": 3,
+      "explanation": "Synthesis means integration of ideas and evidence into a coherent understanding rather than a list of summaries.",
+      "prompt": "Which definition best matches “synthesis”?",
+      "choices": [
+        "The agreement creating proportional representation in the House and equal state representation in the Senate.",
+        "Study of how political institutions, power, law, and economic systems interact.",
+        "A financial, trade, travel, or other restriction used to influence another actor’s behavior.",
+        "Integration of ideas and evidence into a coherent understanding rather than a list of summaries."
+      ]
+    },
+    {
+      "question": "Which definition best matches “causal mechanism”?",
+      "options": [
+        "A plan for measuring whether a policy caused intended results and what else occurred.",
+        "A representative government limited by a constitution and accountable to the people and law.",
+        "The process through which one condition is expected to produce another.",
+        "A central-bank purchase or sale of securities affecting reserves and short-term rates."
+      ],
+      "answer": 2,
+      "explanation": "Causal mechanism means the process through which one condition is expected to produce another.",
+      "prompt": "Which definition best matches “causal mechanism”?",
+      "choices": [
+        "A plan for measuring whether a policy caused intended results and what else occurred.",
+        "A representative government limited by a constitution and accountable to the people and law.",
+        "The process through which one condition is expected to produce another.",
+        "A central-bank purchase or sale of securities affecting reserves and short-term rates."
+      ]
+    },
+    {
+      "question": "Which definition best matches “sensitivity analysis”?",
+      "options": [
+        "Testing how a conclusion changes when assumptions or estimates change.",
+        "Government through representatives and civic institutions oriented toward the public good.",
+        "The condition that available resources are insufficient to satisfy every possible want.",
+        "The organizations and officials that administer laws and public programs."
+      ],
+      "answer": 0,
+      "explanation": "Sensitivity analysis means testing how a conclusion changes when assumptions or estimates change.",
+      "prompt": "Which definition best matches “sensitivity analysis”?",
+      "choices": [
+        "Testing how a conclusion changes when assumptions or estimates change.",
+        "Government through representatives and civic institutions oriented toward the public good.",
+        "The condition that available resources are insufficient to satisfy every possible want.",
+        "The organizations and officials that administer laws and public programs."
+      ]
+    },
+    {
+      "question": "Which definition best matches “distributional analysis”?",
+      "options": [
+        "A central-bank purchase or sale of securities affecting reserves and short-term rates.",
+        "An alliance of groups or individuals cooperating toward shared political goals.",
+        "Habits that support responsible participation and the common good.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups."
+      ],
+      "answer": 3,
+      "explanation": "Distributional analysis means examination of how costs, benefits, risks, and opportunities differ across groups.",
+      "prompt": "Which definition best matches “distributional analysis”?",
+      "choices": [
+        "A central-bank purchase or sale of securities affecting reserves and short-term rates.",
+        "An alliance of groups or individuals cooperating toward shared political goals.",
+        "Habits that support responsible participation and the common good.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups."
+      ]
+    },
+    {
+      "question": "Which definition best matches “oral defense”?",
+      "options": [
+        "A claimed power to withhold certain executive communications, subject to constitutional limits.",
+        "The difference between willingness to pay and the price actually paid.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "A structured presentation in which a student answers questions and justifies methods and conclusions."
+      ],
+      "answer": 3,
+      "explanation": "Oral defense means a structured presentation in which a student answers questions and justifies methods and conclusions.",
+      "prompt": "Which definition best matches “oral defense”?",
+      "choices": [
+        "A claimed power to withhold certain executive communications, subject to constitutional limits.",
+        "The difference between willingness to pay and the price actually paid.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "A structured presentation in which a student answers questions and justifies methods and conclusions."
+      ]
+    },
+    {
+      "question": "Which definition best matches “revision memo”?",
+      "options": [
+        "A public institution managing monetary policy and supporting payment and financial stability functions.",
+        "Displacement of state or local law by valid federal law.",
+        "The court’s authoritative resolution of the legal issue necessary to decide the case.",
+        "A record explaining how feedback, evidence, or error correction changed a final product."
+      ],
+      "answer": 3,
+      "explanation": "Revision memo means a record explaining how feedback, evidence, or error correction changed a final product.",
+      "prompt": "Which definition best matches “revision memo”?",
+      "choices": [
+        "A public institution managing monetary policy and supporting payment and financial stability functions.",
+        "Displacement of state or local law by valid federal law.",
+        "The court’s authoritative resolution of the legal issue necessary to decide the case.",
+        "A record explaining how feedback, evidence, or error correction changed a final product."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 36?",
+      "options": [
+        "Economic reasoning is strongest when connected to constitutional authority, public administration, history, geography, and human consequences.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 0,
+      "explanation": "Economic reasoning is strongest when connected to constitutional authority, public administration, history, geography, and human consequences.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 36?",
+      "choices": [
+        "Economic reasoning is strongest when connected to constitutional authority, public administration, history, geography, and human consequences.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 36?",
+      "options": [
+        "A conclusion should remain proportional to the evidence and should change when key assumptions fail.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "A conclusion should remain proportional to the evidence and should change when key assumptions fail.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 36?",
+      "choices": [
+        "A conclusion should remain proportional to the evidence and should change when key assumptions fail.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 36?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The final portfolio demonstrates mastery through research trail, models, writing, correction, presentation, and reflection.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 2,
+      "explanation": "The final portfolio demonstrates mastery through research trail, models, writing, correction, presentation, and reflection.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 36?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The final portfolio demonstrates mastery through research trail, models, writing, correction, presentation, and reflection.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 36 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student integrates several disciplines, states assumptions, tests alternative explanations, and revises conclusions when the evidence requires it."
+      ],
+      "answer": 3,
+      "explanation": "A student integrates several disciplines, states assumptions, tests alternative explanations, and revises conclusions when the evidence requires it.",
+      "prompt": "Which action best demonstrates mastery of the Week 36 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student integrates several disciplines, states assumptions, tests alternative explanations, and revises conclusions when the evidence requires it."
+      ]
+    }
+  ],
+  "shortResponse": "What is the most important habit a graduate should use before accepting a political or economic claim?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

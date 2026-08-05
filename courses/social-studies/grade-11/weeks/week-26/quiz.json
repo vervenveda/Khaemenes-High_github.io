@@ -1,0 +1,190 @@
+{
+  "title": "Week 26 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “externality”?",
+      "options": [
+        "A supporter of ratifying the Constitution and strengthening national government.",
+        "An organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+        "The quantities producers are willing and able to sell at different prices during a stated period."
+      ],
+      "answer": 2,
+      "explanation": "Externality means a cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+      "prompt": "Which definition best matches “externality”?",
+      "choices": [
+        "A supporter of ratifying the Constitution and strengthening national government.",
+        "An organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+        "The quantities producers are willing and able to sell at different prices during a stated period."
+      ]
+    },
+    {
+      "question": "Which definition best matches “public good”?",
+      "options": [
+        "A good that is difficult to exclude people from and can be used without substantially reducing availability to others.",
+        "Ability to produce more output with the same resources.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "Allocation of legislative, executive, and judicial authority to different branches."
+      ],
+      "answer": 0,
+      "explanation": "Public good means a good that is difficult to exclude people from and can be used without substantially reducing availability to others.",
+      "prompt": "Which definition best matches “public good”?",
+      "choices": [
+        "A good that is difficult to exclude people from and can be used without substantially reducing availability to others.",
+        "Ability to produce more output with the same resources.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "Allocation of legislative, executive, and judicial authority to different branches."
+      ]
+    },
+    {
+      "question": "Which definition best matches “common resource”?",
+      "options": [
+        "A resource that is difficult to exclude users from but can be depleted by use.",
+        "Human time, effort, skill, and knowledge used in production.",
+        "The accumulated outstanding federal borrowing resulting from past deficits and other financing operations.",
+        "The condition that available resources are insufficient to satisfy every possible want."
+      ],
+      "answer": 0,
+      "explanation": "Common resource means a resource that is difficult to exclude users from but can be depleted by use.",
+      "prompt": "Which definition best matches “common resource”?",
+      "choices": [
+        "A resource that is difficult to exclude users from but can be depleted by use.",
+        "Human time, effort, skill, and knowledge used in production.",
+        "The accumulated outstanding federal borrowing resulting from past deficits and other financing operations.",
+        "The condition that available resources are insufficient to satisfy every possible want."
+      ]
+    },
+    {
+      "question": "Which definition best matches “free rider”?",
+      "options": [
+        "A person who benefits from a good or action without contributing to its cost.",
+        "The principle that public officials and private persons are governed by publicly known law.",
+        "Intentional different treatment based on a protected characteristic.",
+        "A rule that government generally may regulate expression without favoring or suppressing a viewpoint."
+      ],
+      "answer": 0,
+      "explanation": "Free rider means a person who benefits from a good or action without contributing to its cost.",
+      "prompt": "Which definition best matches “free rider”?",
+      "choices": [
+        "A person who benefits from a good or action without contributing to its cost.",
+        "The principle that public officials and private persons are governed by publicly known law.",
+        "Intentional different treatment based on a protected characteristic.",
+        "A rule that government generally may regulate expression without favoring or suppressing a viewpoint."
+      ]
+    },
+    {
+      "question": "Which definition best matches “Pigouvian tax”?",
+      "options": [
+        "The value of the best alternative forgone when a choice is made.",
+        "A tax intended to align private incentives with an external social cost.",
+        "The process by which agencies create regulations under statutory authority.",
+        "A government document, dataset, proceeding, or other record available for public inspection."
+      ],
+      "answer": 1,
+      "explanation": "Pigouvian tax means a tax intended to align private incentives with an external social cost.",
+      "prompt": "Which definition best matches “Pigouvian tax”?",
+      "choices": [
+        "The value of the best alternative forgone when a choice is made.",
+        "A tax intended to align private incentives with an external social cost.",
+        "The process by which agencies create regulations under statutory authority.",
+        "A government document, dataset, proceeding, or other record available for public inspection."
+      ]
+    },
+    {
+      "question": "Which definition best matches “cap-and-trade”?",
+      "options": [
+        "Public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+        "A system limiting total emissions and allowing permits to be traded.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "Output measured at current prices."
+      ],
+      "answer": 1,
+      "explanation": "Cap-and-trade means a system limiting total emissions and allowing permits to be traded.",
+      "prompt": "Which definition best matches “cap-and-trade”?",
+      "choices": [
+        "Public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+        "A system limiting total emissions and allowing permits to be traded.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "Output measured at current prices."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 26?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Market prices may omit harms or benefits affecting people outside a transaction.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 1,
+      "explanation": "Market prices may omit harms or benefits affecting people outside a transaction.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 26?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Market prices may omit harms or benefits affecting people outside a transaction.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 26?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Public goods and common resources create different collective-action problems.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 2,
+      "explanation": "Public goods and common resources create different collective-action problems.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 26?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Public goods and common resources create different collective-action problems.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 26?",
+      "options": [
+        "Policy tools include taxes, subsidies, standards, property rules, information, public provision, and tradable permits.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 0,
+      "explanation": "Policy tools include taxes, subsidies, standards, property rules, information, public provision, and tradable permits.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 26?",
+      "choices": [
+        "Policy tools include taxes, subsidies, standards, property rules, information, public provision, and tradable permits.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 26 inquiry?",
+      "options": [
+        "A student identifies the third party and omitted cost or benefit and compares realistic policy instruments rather than assuming any intervention is automatically superior.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 0,
+      "explanation": "A student identifies the third party and omitted cost or benefit and compares realistic policy instruments rather than assuming any intervention is automatically superior.",
+      "prompt": "Which action best demonstrates mastery of the Week 26 inquiry?",
+      "choices": [
+        "A student identifies the third party and omitted cost or benefit and compares realistic policy instruments rather than assuming any intervention is automatically superior.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "When should environmental harm be addressed through prices, direct limits, public investment, or prohibition?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

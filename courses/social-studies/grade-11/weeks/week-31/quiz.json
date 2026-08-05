@@ -1,0 +1,190 @@
+{
+  "title": "Week 31 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “central bank”?",
+      "options": [
+        "Government decisions about spending, taxation, and borrowing that influence the economy.",
+        "A public institution managing monetary policy and supporting payment and financial stability functions.",
+        "The constitutional system through which states appoint electors who choose the president and vice president.",
+        "A legislature’s grant of authority to an executive agency or official."
+      ],
+      "answer": 1,
+      "explanation": "Central bank means a public institution managing monetary policy and supporting payment and financial stability functions.",
+      "prompt": "Which definition best matches “central bank”?",
+      "choices": [
+        "Government decisions about spending, taxation, and borrowing that influence the economy.",
+        "A public institution managing monetary policy and supporting payment and financial stability functions.",
+        "The constitutional system through which states appoint electors who choose the president and vice president.",
+        "A legislature’s grant of authority to an executive agency or official."
+      ]
+    },
+    {
+      "question": "Which definition best matches “federal funds rate”?",
+      "options": [
+        "A government payment that is not direct compensation for current production.",
+        "The interest rate on overnight reserve lending that the Federal Reserve targets within a range.",
+        "A legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law.",
+        "A good commonly used with another good."
+      ],
+      "answer": 1,
+      "explanation": "Federal funds rate means the interest rate on overnight reserve lending that the Federal Reserve targets within a range.",
+      "prompt": "Which definition best matches “federal funds rate”?",
+      "choices": [
+        "A government payment that is not direct compensation for current production.",
+        "The interest rate on overnight reserve lending that the Federal Reserve targets within a range.",
+        "A legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law.",
+        "A good commonly used with another good."
+      ]
+    },
+    {
+      "question": "Which definition best matches “open market operation”?",
+      "options": [
+        "Output measured with prices adjusted to remove the effect of inflation.",
+        "The process through which people develop political values, identities, and habits.",
+        "A central-bank purchase or sale of securities affecting reserves and short-term rates.",
+        "Powers retained by states or the people under the Tenth Amendment."
+      ],
+      "answer": 2,
+      "explanation": "Open market operation means a central-bank purchase or sale of securities affecting reserves and short-term rates.",
+      "prompt": "Which definition best matches “open market operation”?",
+      "choices": [
+        "Output measured with prices adjusted to remove the effect of inflation.",
+        "The process through which people develop political values, identities, and habits.",
+        "A central-bank purchase or sale of securities affecting reserves and short-term rates.",
+        "Powers retained by states or the people under the Tenth Amendment."
+      ]
+    },
+    {
+      "question": "Which definition best matches “discount rate”?",
+      "options": [
+        "The rate charged on eligible borrowing from Federal Reserve lending facilities.",
+        "A formal process in which officials or a deliberative body receive testimony and evidence.",
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "Uncertainty arising because a survey measures a sample rather than the entire population."
+      ],
+      "answer": 0,
+      "explanation": "Discount rate means the rate charged on eligible borrowing from Federal Reserve lending facilities.",
+      "prompt": "Which definition best matches “discount rate”?",
+      "choices": [
+        "The rate charged on eligible borrowing from Federal Reserve lending facilities.",
+        "A formal process in which officials or a deliberative body receive testimony and evidence.",
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "Uncertainty arising because a survey measures a sample rather than the entire population."
+      ]
+    },
+    {
+      "question": "Which definition best matches “reserve requirement”?",
+      "options": [
+        "A rule concerning reserves relative to deposits; requirements have changed over time and may be set at zero.",
+        "A smaller legislative body that studies, drafts, and reviews bills or conducts oversight.",
+        "A person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+        "The value of exports minus imports of goods and services."
+      ],
+      "answer": 0,
+      "explanation": "Reserve requirement means a rule concerning reserves relative to deposits; requirements have changed over time and may be set at zero.",
+      "prompt": "Which definition best matches “reserve requirement”?",
+      "choices": [
+        "A rule concerning reserves relative to deposits; requirements have changed over time and may be set at zero.",
+        "A smaller legislative body that studies, drafts, and reviews bills or conducts oversight.",
+        "A person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+        "The value of exports minus imports of goods and services."
+      ]
+    },
+    {
+      "question": "Which definition best matches “transmission mechanism”?",
+      "options": [
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+        "The election in which voters choose among nominees and decide public offices or measures.",
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "The price of one currency in terms of another."
+      ],
+      "answer": 0,
+      "explanation": "Transmission mechanism means the channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+      "prompt": "Which definition best matches “transmission mechanism”?",
+      "choices": [
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices.",
+        "The election in which voters choose among nominees and decide public offices or measures.",
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "The price of one currency in terms of another."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 31?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The Federal Reserve has statutory goals involving maximum employment, stable prices, and moderate long-term interest rates."
+      ],
+      "answer": 3,
+      "explanation": "The Federal Reserve has statutory goals involving maximum employment, stable prices, and moderate long-term interest rates.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 31?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The Federal Reserve has statutory goals involving maximum employment, stable prices, and moderate long-term interest rates."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 31?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Policy affects borrowing costs, asset values, expectations, exchange rates, and credit conditions with uncertain lags."
+      ],
+      "answer": 3,
+      "explanation": "Policy affects borrowing costs, asset values, expectations, exchange rates, and credit conditions with uncertain lags.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 31?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Policy affects borrowing costs, asset values, expectations, exchange rates, and credit conditions with uncertain lags."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 31?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "Central-bank independence supports credibility, while transparency and statutory oversight support democratic accountability.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 1,
+      "explanation": "Central-bank independence supports credibility, while transparency and statutory oversight support democratic accountability.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 31?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "Central-bank independence supports credibility, while transparency and statutory oversight support democratic accountability.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 31 inquiry?",
+      "options": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student identifies the specific policy tool and transmission channel rather than claiming the Federal Reserve directly sets all consumer interest rates or prices.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ],
+      "answer": 1,
+      "explanation": "A student identifies the specific policy tool and transmission channel rather than claiming the Federal Reserve directly sets all consumer interest rates or prices.",
+      "prompt": "Which action best demonstrates mastery of the Week 31 inquiry?",
+      "choices": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student identifies the specific policy tool and transmission channel rather than claiming the Federal Reserve directly sets all consumer interest rates or prices.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ]
+    }
+  ],
+  "shortResponse": "Should elected officials have greater direct control over monetary policy, or would that weaken long-term credibility?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

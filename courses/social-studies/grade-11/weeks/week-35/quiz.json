@@ -1,0 +1,190 @@
+{
+  "title": "Week 35 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “policy instrument”?",
+      "options": [
+        "A tradition holding that moral principles can be discovered through reason and apply beyond enacted rules.",
+        "A tax, subsidy, rule, service, information requirement, public investment, legal right, or other mechanism used to pursue a goal.",
+        "A legislature’s grant of authority to an executive agency or official.",
+        "A public guarantee protecting eligible deposits up to legal limits."
+      ],
+      "answer": 1,
+      "explanation": "Policy instrument means a tax, subsidy, rule, service, information requirement, public investment, legal right, or other mechanism used to pursue a goal.",
+      "prompt": "Which definition best matches “policy instrument”?",
+      "choices": [
+        "A tradition holding that moral principles can be discovered through reason and apply beyond enacted rules.",
+        "A tax, subsidy, rule, service, information requirement, public investment, legal right, or other mechanism used to pursue a goal.",
+        "A legislature’s grant of authority to an executive agency or official.",
+        "A public guarantee protecting eligible deposits up to legal limits."
+      ]
+    },
+    {
+      "question": "Which definition best matches “cost-benefit analysis”?",
+      "options": [
+        "A structured comparison of expected benefits and costs, including limits and distribution.",
+        "A political system concentrating power and limiting meaningful competition, accountability, and civil liberties.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation."
+      ],
+      "answer": 0,
+      "explanation": "Cost-benefit analysis means a structured comparison of expected benefits and costs, including limits and distribution.",
+      "prompt": "Which definition best matches “cost-benefit analysis”?",
+      "choices": [
+        "A structured comparison of expected benefits and costs, including limits and distribution.",
+        "A political system concentrating power and limiting meaningful competition, accountability, and civil liberties.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation."
+      ]
+    },
+    {
+      "question": "Which definition best matches “cost-effectiveness”?",
+      "options": [
+        "Law developed through judicial decisions, custom, and precedent.",
+        "A formal process in which officials or a deliberative body receive testimony and evidence.",
+        "Testing a claim by comparing it with independent evidence.",
+        "Comparison of ways to achieve a defined outcome at the lowest cost or greatest effect."
+      ],
+      "answer": 3,
+      "explanation": "Cost-effectiveness means comparison of ways to achieve a defined outcome at the lowest cost or greatest effect.",
+      "prompt": "Which definition best matches “cost-effectiveness”?",
+      "choices": [
+        "Law developed through judicial decisions, custom, and precedent.",
+        "A formal process in which officials or a deliberative body receive testimony and evidence.",
+        "Testing a claim by comparing it with independent evidence.",
+        "Comparison of ways to achieve a defined outcome at the lowest cost or greatest effect."
+      ]
+    },
+    {
+      "question": "Which definition best matches “stakeholder”?",
+      "options": [
+        "Recurring expansions and contractions in aggregate economic activity.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "A person, group, institution, or community affected by or able to influence a decision."
+      ],
+      "answer": 3,
+      "explanation": "Stakeholder means a person, group, institution, or community affected by or able to influence a decision.",
+      "prompt": "Which definition best matches “stakeholder”?",
+      "choices": [
+        "Recurring expansions and contractions in aggregate economic activity.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "A person, group, institution, or community affected by or able to influence a decision."
+      ]
+    },
+    {
+      "question": "Which definition best matches “implementation”?",
+      "options": [
+        "The process through which people develop political values, identities, and habits.",
+        "The administrative process of turning an adopted policy into operations and outcomes.",
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "A government payment that is not direct compensation for current production."
+      ],
+      "answer": 1,
+      "explanation": "Implementation means the administrative process of turning an adopted policy into operations and outcomes.",
+      "prompt": "Which definition best matches “implementation”?",
+      "choices": [
+        "The process through which people develop political values, identities, and habits.",
+        "The administrative process of turning an adopted policy into operations and outcomes.",
+        "A legal, technological, financial, strategic, or structural obstacle to new competition.",
+        "A government payment that is not direct compensation for current production."
+      ]
+    },
+    {
+      "question": "Which definition best matches “evaluation design”?",
+      "options": [
+        "A formal process in which officials or a deliberative body receive testimony and evidence.",
+        "A constitutional process in which the House charges and the Senate tries specified misconduct.",
+        "A plan for measuring whether a policy caused intended results and what else occurred.",
+        "Cross-border investment, lending, borrowing, or asset purchase."
+      ],
+      "answer": 2,
+      "explanation": "Evaluation design means a plan for measuring whether a policy caused intended results and what else occurred.",
+      "prompt": "Which definition best matches “evaluation design”?",
+      "choices": [
+        "A formal process in which officials or a deliberative body receive testimony and evidence.",
+        "A constitutional process in which the House charges and the Senate tries specified misconduct.",
+        "A plan for measuring whether a policy caused intended results and what else occurred.",
+        "Cross-border investment, lending, borrowing, or asset purchase."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 35?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Problem definition determines which causes, people, evidence, and solutions receive attention.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 1,
+      "explanation": "Problem definition determines which causes, people, evidence, and solutions receive attention.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 35?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Problem definition determines which causes, people, evidence, and solutions receive attention.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 35?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A policy recommendation must identify legal authority, jurisdiction, financing, administration, metrics, and correction mechanisms.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 1,
+      "explanation": "A policy recommendation must identify legal authority, jurisdiction, financing, administration, metrics, and correction mechanisms.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 35?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A policy recommendation must identify legal authority, jurisdiction, financing, administration, metrics, and correction mechanisms.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 35?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "Distribution, rights, uncertainty, and alternatives must be reported rather than buried in an average net-benefit estimate.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 1,
+      "explanation": "Distribution, rights, uncertainty, and alternatives must be reported rather than buried in an average net-benefit estimate.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 35?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "Distribution, rights, uncertainty, and alternatives must be reported rather than buried in an average net-benefit estimate.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 35 inquiry?",
+      "options": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student states the decision rule, cites evidence, identifies jurisdiction and implementation, and explains uncertainty and distribution."
+      ],
+      "answer": 3,
+      "explanation": "A student states the decision rule, cites evidence, identifies jurisdiction and implementation, and explains uncertainty and distribution.",
+      "prompt": "Which action best demonstrates mastery of the Week 35 inquiry?",
+      "choices": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student states the decision rule, cites evidence, identifies jurisdiction and implementation, and explains uncertainty and distribution."
+      ]
+    }
+  ],
+  "shortResponse": "When is it responsible to act under uncertainty, and what safeguards should accompany a policy adopted before evidence is complete?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

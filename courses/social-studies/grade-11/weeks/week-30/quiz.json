@@ -1,0 +1,190 @@
+{
+  "title": "Week 30 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “money”?",
+      "options": [
+        "An asset widely accepted as a medium of exchange, unit of account, and store of value.",
+        "A representative government limited by a constitution and accountable to the people and law.",
+        "The principle that political authority originates with the people.",
+        "Responsiveness of quantity demanded to a change in price."
+      ],
+      "answer": 0,
+      "explanation": "Money means an asset widely accepted as a medium of exchange, unit of account, and store of value.",
+      "prompt": "Which definition best matches “money”?",
+      "choices": [
+        "An asset widely accepted as a medium of exchange, unit of account, and store of value.",
+        "A representative government limited by a constitution and accountable to the people and law.",
+        "The principle that political authority originates with the people.",
+        "Responsiveness of quantity demanded to a change in price."
+      ]
+    },
+    {
+      "question": "Which definition best matches “liquidity”?",
+      "options": [
+        "The ease with which an asset can be used for payment or converted to spendable funds without major loss.",
+        "Law developed through judicial decisions, custom, and precedent.",
+        "The constitutional formula counting three-fifths of enslaved persons for representation and direct taxation.",
+        "Direct communication with public officials intended to influence decisions."
+      ],
+      "answer": 0,
+      "explanation": "Liquidity means the ease with which an asset can be used for payment or converted to spendable funds without major loss.",
+      "prompt": "Which definition best matches “liquidity”?",
+      "choices": [
+        "The ease with which an asset can be used for payment or converted to spendable funds without major loss.",
+        "Law developed through judicial decisions, custom, and precedent.",
+        "The constitutional formula counting three-fifths of enslaved persons for representation and direct taxation.",
+        "Direct communication with public officials intended to influence decisions."
+      ]
+    },
+    {
+      "question": "Which definition best matches “financial intermediary”?",
+      "options": [
+        "Strategic communication designed to mobilize belief or action, often through selective evidence and emotional technique.",
+        "An institution connecting savers, borrowers, investors, and payment users.",
+        "Selecting and emphasizing aspects of an issue to shape interpretation.",
+        "Responsiveness of quantity demanded to a change in price."
+      ],
+      "answer": 1,
+      "explanation": "Financial intermediary means an institution connecting savers, borrowers, investors, and payment users.",
+      "prompt": "Which definition best matches “financial intermediary”?",
+      "choices": [
+        "Strategic communication designed to mobilize belief or action, often through selective evidence and emotional technique.",
+        "An institution connecting savers, borrowers, investors, and payment users.",
+        "Selecting and emphasizing aspects of an issue to shape interpretation.",
+        "Responsiveness of quantity demanded to a change in price."
+      ]
+    },
+    {
+      "question": "Which definition best matches “deposit insurance”?",
+      "options": [
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "The accumulated outstanding federal borrowing resulting from past deficits and other financing operations.",
+        "The official process of compiling, reviewing, and certifying election returns.",
+        "A public guarantee protecting eligible deposits up to legal limits."
+      ],
+      "answer": 3,
+      "explanation": "Deposit insurance means a public guarantee protecting eligible deposits up to legal limits.",
+      "prompt": "Which definition best matches “deposit insurance”?",
+      "choices": [
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "The accumulated outstanding federal borrowing resulting from past deficits and other financing operations.",
+        "The official process of compiling, reviewing, and certifying election returns.",
+        "A public guarantee protecting eligible deposits up to legal limits."
+      ]
+    },
+    {
+      "question": "Which definition best matches “bank run”?",
+      "options": [
+        "A measure of average price change for a defined basket of consumer goods and services.",
+        "A tax, subsidy, rule, service, information requirement, public investment, legal right, or other mechanism used to pursue a goal.",
+        "The principle that legitimate political authority depends on the people’s authorization.",
+        "Rapid withdrawals driven by fear that an institution cannot meet obligations."
+      ],
+      "answer": 3,
+      "explanation": "Bank run means rapid withdrawals driven by fear that an institution cannot meet obligations.",
+      "prompt": "Which definition best matches “bank run”?",
+      "choices": [
+        "A measure of average price change for a defined basket of consumer goods and services.",
+        "A tax, subsidy, rule, service, information requirement, public investment, legal right, or other mechanism used to pursue a goal.",
+        "The principle that legitimate political authority depends on the people’s authorization.",
+        "Rapid withdrawals driven by fear that an institution cannot meet obligations."
+      ]
+    },
+    {
+      "question": "Which definition best matches “systemic risk”?",
+      "options": [
+        "Movement toward competitive elections, rule of law, rights protection, accountable institutions, and civic participation.",
+        "The danger that failure or distress spreads through interconnected financial institutions and markets.",
+        "A rule concerning reserves relative to deposits; requirements have changed over time and may be set at zero.",
+        "Authority granted to local governments to manage local affairs."
+      ],
+      "answer": 1,
+      "explanation": "Systemic risk means the danger that failure or distress spreads through interconnected financial institutions and markets.",
+      "prompt": "Which definition best matches “systemic risk”?",
+      "choices": [
+        "Movement toward competitive elections, rule of law, rights protection, accountable institutions, and civic participation.",
+        "The danger that failure or distress spreads through interconnected financial institutions and markets.",
+        "A rule concerning reserves relative to deposits; requirements have changed over time and may be set at zero.",
+        "Authority granted to local governments to manage local affairs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 30?",
+      "options": [
+        "Money reduces transaction costs but depends on confidence, legal institutions, and payment infrastructure.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "Money reduces transaction costs but depends on confidence, legal institutions, and payment infrastructure.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 30?",
+      "choices": [
+        "Money reduces transaction costs but depends on confidence, legal institutions, and payment infrastructure.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 30?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Banks transform maturities and allocate credit, creating benefits and vulnerability to liquidity crises."
+      ],
+      "answer": 3,
+      "explanation": "Banks transform maturities and allocate credit, creating benefits and vulnerability to liquidity crises.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 30?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Banks transform maturities and allocate credit, creating benefits and vulnerability to liquidity crises."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 30?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Financial regulation seeks stability, consumer protection, competition, and market integrity while preserving useful risk-taking.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 2,
+      "explanation": "Financial regulation seeks stability, consumer protection, competition, and market integrity while preserving useful risk-taking.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 30?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "Financial regulation seeks stability, consumer protection, competition, and market integrity while preserving useful risk-taking.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 30 inquiry?",
+      "options": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student distinguishes liquidity from solvency and identifies the specific risk a financial safeguard is designed to address.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ],
+      "answer": 2,
+      "explanation": "A student distinguishes liquidity from solvency and identifies the specific risk a financial safeguard is designed to address.",
+      "prompt": "Which action best demonstrates mastery of the Week 30 inquiry?",
+      "choices": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student distinguishes liquidity from solvency and identifies the specific risk a financial safeguard is designed to address.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis."
+      ]
+    }
+  ],
+  "shortResponse": "How should financial regulation balance innovation and access against fraud, instability, and moral hazard?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

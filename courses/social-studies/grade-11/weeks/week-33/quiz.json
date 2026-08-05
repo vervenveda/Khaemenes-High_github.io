@@ -1,0 +1,190 @@
+{
+  "title": "Week 33 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “tariff”?",
+      "options": [
+        "Organization of resources under uncertainty to create or improve products and processes.",
+        "A market dominated by a small number of interdependent firms.",
+        "A tax imposed on imported goods or services.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation."
+      ],
+      "answer": 2,
+      "explanation": "Tariff means a tax imposed on imported goods or services.",
+      "prompt": "Which definition best matches “tariff”?",
+      "choices": [
+        "Organization of resources under uncertainty to create or improve products and processes.",
+        "A market dominated by a small number of interdependent firms.",
+        "A tax imposed on imported goods or services.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation."
+      ]
+    },
+    {
+      "question": "Which definition best matches “quota”?",
+      "options": [
+        "A legislature’s grant of authority to an executive agency or official.",
+        "A cost that changes with output.",
+        "A quantitative limit on imports or exports.",
+        "A legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law."
+      ],
+      "answer": 2,
+      "explanation": "Quota means a quantitative limit on imports or exports.",
+      "prompt": "Which definition best matches “quota”?",
+      "choices": [
+        "A legislature’s grant of authority to an executive agency or official.",
+        "A cost that changes with output.",
+        "A quantitative limit on imports or exports.",
+        "A legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law."
+      ]
+    },
+    {
+      "question": "Which definition best matches “exchange rate”?",
+      "options": [
+        "The official process of compiling, reviewing, and certifying election returns.",
+        "Legislation authorizing government spending for specified purposes.",
+        "The price of one currency in terms of another.",
+        "The difference between the market price and the minimum a producer would accept."
+      ],
+      "answer": 2,
+      "explanation": "Exchange rate means the price of one currency in terms of another.",
+      "prompt": "Which definition best matches “exchange rate”?",
+      "choices": [
+        "The official process of compiling, reviewing, and certifying election returns.",
+        "Legislation authorizing government spending for specified purposes.",
+        "The price of one currency in terms of another.",
+        "The difference between the market price and the minimum a producer would accept."
+      ]
+    },
+    {
+      "question": "Which definition best matches “appreciation”?",
+      "options": [
+        "An increase in a currency’s value relative to another currency.",
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "Workers’ willingness and ability to offer labor at different compensation levels.",
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices."
+      ],
+      "answer": 0,
+      "explanation": "Appreciation means an increase in a currency’s value relative to another currency.",
+      "prompt": "Which definition best matches “appreciation”?",
+      "choices": [
+        "An increase in a currency’s value relative to another currency.",
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "Workers’ willingness and ability to offer labor at different compensation levels.",
+        "The channels through which monetary policy affects financial conditions, spending, employment, and prices."
+      ]
+    },
+    {
+      "question": "Which definition best matches “trade balance”?",
+      "options": [
+        "The value of the best alternative forgone when a choice is made.",
+        "The value of exports minus imports of goods and services.",
+        "A tax whose effective rate rises as the tax base or ability to pay rises.",
+        "Rapid withdrawals driven by fear that an institution cannot meet obligations."
+      ],
+      "answer": 1,
+      "explanation": "Trade balance means the value of exports minus imports of goods and services.",
+      "prompt": "Which definition best matches “trade balance”?",
+      "choices": [
+        "The value of the best alternative forgone when a choice is made.",
+        "The value of exports minus imports of goods and services.",
+        "A tax whose effective rate rises as the tax base or ability to pay rises.",
+        "Rapid withdrawals driven by fear that an institution cannot meet obligations."
+      ]
+    },
+    {
+      "question": "Which definition best matches “capital flow”?",
+      "options": [
+        "The rate charged on eligible borrowing from Federal Reserve lending facilities.",
+        "A reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+        "Powers exercised by both national and state governments.",
+        "Cross-border investment, lending, borrowing, or asset purchase."
+      ],
+      "answer": 3,
+      "explanation": "Capital flow means cross-border investment, lending, borrowing, or asset purchase.",
+      "prompt": "Which definition best matches “capital flow”?",
+      "choices": [
+        "The rate charged on eligible borrowing from Federal Reserve lending facilities.",
+        "A reward, penalty, rule, or condition that changes the costs or benefits of an action.",
+        "Powers exercised by both national and state governments.",
+        "Cross-border investment, lending, borrowing, or asset purchase."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 33?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "Comparative advantage explains potential gains from trade, while distribution and adjustment determine who benefits or loses.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 1,
+      "explanation": "Comparative advantage explains potential gains from trade, while distribution and adjustment determine who benefits or loses.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 33?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "Comparative advantage explains potential gains from trade, while distribution and adjustment determine who benefits or loses.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 33?",
+      "options": [
+        "Tariffs protect some domestic producers but raise costs for consumers and downstream firms and may trigger retaliation.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "Tariffs protect some domestic producers but raise costs for consumers and downstream firms and may trigger retaliation.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 33?",
+      "choices": [
+        "Tariffs protect some domestic producers but raise costs for consumers and downstream firms and may trigger retaliation.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 33?",
+      "options": [
+        "Trade balances interact with saving, investment, exchange rates, and capital flows rather than functioning as a simple national profit statement.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 0,
+      "explanation": "Trade balances interact with saving, investment, exchange rates, and capital flows rather than functioning as a simple national profit statement.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 33?",
+      "choices": [
+        "Trade balances interact with saving, investment, exchange rates, and capital flows rather than functioning as a simple national profit statement.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 33 inquiry?",
+      "options": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student traces the effects of a trade barrier across consumers, protected firms, downstream users, workers, government revenue, and foreign response.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences."
+      ],
+      "answer": 1,
+      "explanation": "A student traces the effects of a trade barrier across consumers, protected firms, downstream users, workers, government revenue, and foreign response.",
+      "prompt": "Which action best demonstrates mastery of the Week 33 inquiry?",
+      "choices": [
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student traces the effects of a trade barrier across consumers, protected firms, downstream users, workers, government revenue, and foreign response.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences."
+      ]
+    }
+  ],
+  "shortResponse": "When should national security override the efficiency gains of international specialization?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

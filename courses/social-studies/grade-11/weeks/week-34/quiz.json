@@ -1,0 +1,190 @@
+{
+  "title": "Week 34 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “market economy”?",
+      "options": [
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "A system relying heavily on decentralized exchange, prices, private choice, and competition.",
+        "The labor force as a percentage of the civilian noninstitutional working-age population.",
+        "A stated complaint alleging an abuse, injury, or violation of a principle."
+      ],
+      "answer": 1,
+      "explanation": "Market economy means a system relying heavily on decentralized exchange, prices, private choice, and competition.",
+      "prompt": "Which definition best matches “market economy”?",
+      "choices": [
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "A system relying heavily on decentralized exchange, prices, private choice, and competition.",
+        "The labor force as a percentage of the civilian noninstitutional working-age population.",
+        "A stated complaint alleging an abuse, injury, or violation of a principle."
+      ]
+    },
+    {
+      "question": "Which definition best matches “command economy”?",
+      "options": [
+        "A system in which political authorities make major production and allocation decisions through directives and plans.",
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "The rate charged on eligible borrowing from Federal Reserve lending facilities.",
+        "The process through which one condition is expected to produce another."
+      ],
+      "answer": 0,
+      "explanation": "Command economy means a system in which political authorities make major production and allocation decisions through directives and plans.",
+      "prompt": "Which definition best matches “command economy”?",
+      "choices": [
+        "A system in which political authorities make major production and allocation decisions through directives and plans.",
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "The rate charged on eligible borrowing from Federal Reserve lending facilities.",
+        "The process through which one condition is expected to produce another."
+      ]
+    },
+    {
+      "question": "Which definition best matches “mixed economy”?",
+      "options": [
+        "A system combining markets with public regulation, provision, taxation, and social insurance.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+        "A tax whose burden consumes a larger share of lower income than higher income.",
+        "The share of an eligible or registered population that casts a ballot."
+      ],
+      "answer": 0,
+      "explanation": "Mixed economy means a system combining markets with public regulation, provision, taxation, and social insurance.",
+      "prompt": "Which definition best matches “mixed economy”?",
+      "choices": [
+        "A system combining markets with public regulation, provision, taxation, and social insurance.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+        "A tax whose burden consumes a larger share of lower income than higher income.",
+        "The share of an eligible or registered population that casts a ballot."
+      ]
+    },
+    {
+      "question": "Which definition best matches “property right”?",
+      "options": [
+        "The agreement creating proportional representation in the House and equal state representation in the Senate.",
+        "Uncertainty arising because a survey measures a sample rather than the entire population.",
+        "A tradition holding that moral principles can be discovered through reason and apply beyond enacted rules.",
+        "A legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law."
+      ],
+      "answer": 3,
+      "explanation": "Property right means a legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law.",
+      "prompt": "Which definition best matches “property right”?",
+      "choices": [
+        "The agreement creating proportional representation in the House and equal state representation in the Senate.",
+        "Uncertainty arising because a survey measures a sample rather than the entire population.",
+        "A tradition holding that moral principles can be discovered through reason and apply beyond enacted rules.",
+        "A legally recognized authority to use, exclude, transfer, or benefit from an asset subject to law."
+      ]
+    },
+    {
+      "question": "Which definition best matches “social insurance”?",
+      "options": [
+        "Public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "The distribution of a tax’s economic burden between buyers and sellers."
+      ],
+      "answer": 0,
+      "explanation": "Social insurance means public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+      "prompt": "Which definition best matches “social insurance”?",
+      "choices": [
+        "Public programs pooling risks such as unemployment, disability, health cost, or old-age income.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "The distribution of a tax’s economic burden between buyers and sellers."
+      ]
+    },
+    {
+      "question": "Which definition best matches “political economy”?",
+      "options": [
+        "Study of how political institutions, power, law, and economic systems interact.",
+        "An argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+        "A person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+        "Workers’ willingness and ability to offer labor at different compensation levels."
+      ],
+      "answer": 0,
+      "explanation": "Political economy means study of how political institutions, power, law, and economic systems interact.",
+      "prompt": "Which definition best matches “political economy”?",
+      "choices": [
+        "Study of how political institutions, power, law, and economic systems interact.",
+        "An argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+        "A person who organizes resources, bears uncertainty, and develops products, services, or processes.",
+        "Workers’ willingness and ability to offer labor at different compensation levels."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 34?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Every real economy combines market exchange, household production, organizations, law, and public authority."
+      ],
+      "answer": 3,
+      "explanation": "Every real economy combines market exchange, household production, organizations, law, and public authority.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 34?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Every real economy combines market exchange, household production, organizations, law, and public authority."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 34?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Institutions determine who can own, contract, compete, organize, obtain information, and challenge power.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 1,
+      "explanation": "Institutions determine who can own, contract, compete, organize, obtain information, and challenge power.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 34?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Institutions determine who can own, contract, compete, organize, obtain information, and challenge power.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 34?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Economic systems should be compared by incentives, coordination, rights, innovation, security, distribution, resilience, and lived evidence."
+      ],
+      "answer": 3,
+      "explanation": "Economic systems should be compared by incentives, coordination, rights, innovation, security, distribution, resilience, and lived evidence.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 34?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Economic systems should be compared by incentives, coordination, rights, innovation, security, distribution, resilience, and lived evidence."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 34 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student compares actual institutions and outcomes rather than treating “capitalism,” “socialism,” or “mixed economy” as self-explanatory labels.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 1,
+      "explanation": "A student compares actual institutions and outcomes rather than treating “capitalism,” “socialism,” or “mixed economy” as self-explanatory labels.",
+      "prompt": "Which action best demonstrates mastery of the Week 34 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student compares actual institutions and outcomes rather than treating “capitalism,” “socialism,” or “mixed economy” as self-explanatory labels.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "Which economic freedoms are essential to political liberty, and which regulations can strengthen rather than weaken freedom?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

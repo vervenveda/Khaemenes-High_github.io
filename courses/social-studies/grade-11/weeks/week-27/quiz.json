@@ -1,0 +1,190 @@
+{
+  "title": "Week 27 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “progressive tax”?",
+      "options": [
+        "Presidential rejection of legislation, subject to possible congressional override.",
+        "A tax whose effective rate rises as the tax base or ability to pay rises.",
+        "A plan for measuring whether a policy caused intended results and what else occurred.",
+        "Rapid withdrawals driven by fear that an institution cannot meet obligations."
+      ],
+      "answer": 1,
+      "explanation": "Progressive tax means a tax whose effective rate rises as the tax base or ability to pay rises.",
+      "prompt": "Which definition best matches “progressive tax”?",
+      "choices": [
+        "Presidential rejection of legislation, subject to possible congressional override.",
+        "A tax whose effective rate rises as the tax base or ability to pay rises.",
+        "A plan for measuring whether a policy caused intended results and what else occurred.",
+        "Rapid withdrawals driven by fear that an institution cannot meet obligations."
+      ]
+    },
+    {
+      "question": "Which definition best matches “proportional tax”?",
+      "options": [
+        "Habits that support responsible participation and the common good.",
+        "A tax applying the same rate across the tax base.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups.",
+        "The ability to access, analyze, evaluate, create, and verify messages across media forms."
+      ],
+      "answer": 1,
+      "explanation": "Proportional tax means a tax applying the same rate across the tax base.",
+      "prompt": "Which definition best matches “proportional tax”?",
+      "choices": [
+        "Habits that support responsible participation and the common good.",
+        "A tax applying the same rate across the tax base.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups.",
+        "The ability to access, analyze, evaluate, create, and verify messages across media forms."
+      ]
+    },
+    {
+      "question": "Which definition best matches “regressive tax”?",
+      "options": [
+        "A tax whose burden consumes a larger share of lower income than higher income.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups.",
+        "A representative government limited by a constitution and accountable to the people and law.",
+        "A measure of how responsive one variable is to a change in another."
+      ],
+      "answer": 0,
+      "explanation": "Regressive tax means a tax whose burden consumes a larger share of lower income than higher income.",
+      "prompt": "Which definition best matches “regressive tax”?",
+      "choices": [
+        "A tax whose burden consumes a larger share of lower income than higher income.",
+        "Examination of how costs, benefits, risks, and opportunities differ across groups.",
+        "A representative government limited by a constitution and accountable to the people and law.",
+        "A measure of how responsive one variable is to a change in another."
+      ]
+    },
+    {
+      "question": "Which definition best matches “transfer payment”?",
+      "options": [
+        "A competing conclusion or objection that an argument must address fairly.",
+        "A government payment that is not direct compensation for current production.",
+        "A court’s legal authority to hear and decide a category of case.",
+        "An election used to select party nominees or narrow the field of candidates."
+      ],
+      "answer": 1,
+      "explanation": "Transfer payment means a government payment that is not direct compensation for current production.",
+      "prompt": "Which definition best matches “transfer payment”?",
+      "choices": [
+        "A competing conclusion or objection that an argument must address fairly.",
+        "A government payment that is not direct compensation for current production.",
+        "A court’s legal authority to hear and decide a category of case.",
+        "An election used to select party nominees or narrow the field of candidates."
+      ]
+    },
+    {
+      "question": "Which definition best matches “budget deficit”?",
+      "options": [
+        "The amount by which government spending exceeds revenue during a period.",
+        "Testing a claim by comparing it with independent evidence.",
+        "A system in which political authorities make major production and allocation decisions through directives and plans.",
+        "The value of exports minus imports of goods and services."
+      ],
+      "answer": 0,
+      "explanation": "Budget deficit means the amount by which government spending exceeds revenue during a period.",
+      "prompt": "Which definition best matches “budget deficit”?",
+      "choices": [
+        "The amount by which government spending exceeds revenue during a period.",
+        "Testing a claim by comparing it with independent evidence.",
+        "A system in which political authorities make major production and allocation decisions through directives and plans.",
+        "The value of exports minus imports of goods and services."
+      ]
+    },
+    {
+      "question": "Which definition best matches “appropriation”?",
+      "options": [
+        "Legal authority to spend public money for a designated purpose.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "A system relying heavily on decentralized exchange, prices, private choice, and competition.",
+        "Knowledge, skill, health, and experience that affect productive capacity."
+      ],
+      "answer": 0,
+      "explanation": "Appropriation means legal authority to spend public money for a designated purpose.",
+      "prompt": "Which definition best matches “appropriation”?",
+      "choices": [
+        "Legal authority to spend public money for a designated purpose.",
+        "A professional public workforce selected and managed through established personnel systems.",
+        "A system relying heavily on decentralized exchange, prices, private choice, and competition.",
+        "Knowledge, skill, health, and experience that affect productive capacity."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 27?",
+      "options": [
+        "Tax analysis should distinguish statutory payer, economic incidence, marginal rate, average rate, base, exemptions, and credits.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 0,
+      "explanation": "Tax analysis should distinguish statutory payer, economic incidence, marginal rate, average rate, base, exemptions, and credits.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 27?",
+      "choices": [
+        "Tax analysis should distinguish statutory payer, economic incidence, marginal rate, average rate, base, exemptions, and credits.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 27?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Budgets express public priorities but are constrained by law, revenue, debt, capacity, and political bargaining.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 1,
+      "explanation": "Budgets express public priorities but are constrained by law, revenue, debt, capacity, and political bargaining.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 27?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Budgets express public priorities but are constrained by law, revenue, debt, capacity, and political bargaining.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 27?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "A sound public-spending analysis considers goals, evidence, alternatives, distribution, implementation, and opportunity cost.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ],
+      "answer": 2,
+      "explanation": "A sound public-spending analysis considers goals, evidence, alternatives, distribution, implementation, and opportunity cost.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 27?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "A sound public-spending analysis considers goals, evidence, alternatives, distribution, implementation, and opportunity cost.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 27 inquiry?",
+      "options": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student calculates the tax burden relative to the correct base and separates legal remittance from economic incidence.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences."
+      ],
+      "answer": 1,
+      "explanation": "A student calculates the tax burden relative to the correct base and separates legal remittance from economic incidence.",
+      "prompt": "Which action best demonstrates mastery of the Week 27 inquiry?",
+      "choices": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student calculates the tax burden relative to the correct base and separates legal remittance from economic incidence.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences."
+      ]
+    }
+  ],
+  "shortResponse": "What principles should govern the distribution of taxes when public benefits cannot be assigned equally to every taxpayer?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

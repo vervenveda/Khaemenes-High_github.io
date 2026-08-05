@@ -1,0 +1,190 @@
+{
+  "title": "Week 25 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “labor demand”?",
+      "options": [
+        "A person who benefits from a good or action without contributing to its cost.",
+        "The judgment officials use when law leaves choices about implementation.",
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation."
+      ],
+      "answer": 2,
+      "explanation": "Labor demand means employers’ willingness and ability to hire workers at different compensation levels.",
+      "prompt": "Which definition best matches “labor demand”?",
+      "choices": [
+        "A person who benefits from a good or action without contributing to its cost.",
+        "The judgment officials use when law leaves choices about implementation.",
+        "Employers’ willingness and ability to hire workers at different compensation levels.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation."
+      ]
+    },
+    {
+      "question": "Which definition best matches “labor supply”?",
+      "options": [
+        "Revenue minus explicit and implicit costs.",
+        "The court’s authoritative resolution of the legal issue necessary to decide the case.",
+        "An organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+        "Workers’ willingness and ability to offer labor at different compensation levels."
+      ],
+      "answer": 3,
+      "explanation": "Labor supply means workers’ willingness and ability to offer labor at different compensation levels.",
+      "prompt": "Which definition best matches “labor supply”?",
+      "choices": [
+        "Revenue minus explicit and implicit costs.",
+        "The court’s authoritative resolution of the legal issue necessary to decide the case.",
+        "An organized collection demonstrating research, reasoning, participation, revision, and reflection.",
+        "Workers’ willingness and ability to offer labor at different compensation levels."
+      ]
+    },
+    {
+      "question": "Which definition best matches “human capital”?",
+      "options": [
+        "A Senate practice of extended debate or procedural delay that may require cloture to end.",
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+        "A structured comparison of expected benefits and costs, including limits and distribution.",
+        "Knowledge, skill, health, and experience that affect productive capacity."
+      ],
+      "answer": 3,
+      "explanation": "Human capital means knowledge, skill, health, and experience that affect productive capacity.",
+      "prompt": "Which definition best matches “human capital”?",
+      "choices": [
+        "A Senate practice of extended debate or procedural delay that may require cloture to end.",
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+        "A structured comparison of expected benefits and costs, including limits and distribution.",
+        "Knowledge, skill, health, and experience that affect productive capacity."
+      ]
+    },
+    {
+      "question": "Which definition best matches “productivity”?",
+      "options": [
+        "Output produced per unit of input.",
+        "A claimed power to withhold certain executive communications, subject to constitutional limits.",
+        "The condition that available resources are insufficient to satisfy every possible want.",
+        "An alliance of groups or individuals cooperating toward shared political goals."
+      ],
+      "answer": 0,
+      "explanation": "Productivity means output produced per unit of input.",
+      "prompt": "Which definition best matches “productivity”?",
+      "choices": [
+        "Output produced per unit of input.",
+        "A claimed power to withhold certain executive communications, subject to constitutional limits.",
+        "The condition that available resources are insufficient to satisfy every possible want.",
+        "An alliance of groups or individuals cooperating toward shared political goals."
+      ]
+    },
+    {
+      "question": "Which definition best matches “collective bargaining”?",
+      "options": [
+        "Negotiation between workers acting together and an employer over compensation and conditions.",
+        "A legally binding rule governing conduct within an agency’s authority.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "Application of Bill of Rights protections to states through the Fourteenth Amendment."
+      ],
+      "answer": 0,
+      "explanation": "Collective bargaining means negotiation between workers acting together and an employer over compensation and conditions.",
+      "prompt": "Which definition best matches “collective bargaining”?",
+      "choices": [
+        "Negotiation between workers acting together and an employer over compensation and conditions.",
+        "A legally binding rule governing conduct within an agency’s authority.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "Application of Bill of Rights protections to states through the Fourteenth Amendment."
+      ]
+    },
+    {
+      "question": "Which definition best matches “compensating differential”?",
+      "options": [
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+        "The market value of final goods and services produced within a country during a period.",
+        "A wage difference associated with job risk, conditions, location, or nonwage characteristics.",
+        "The rate charged on eligible borrowing from Federal Reserve lending facilities."
+      ],
+      "answer": 2,
+      "explanation": "Compensating differential means a wage difference associated with job risk, conditions, location, or nonwage characteristics.",
+      "prompt": "Which definition best matches “compensating differential”?",
+      "choices": [
+        "A cost or benefit imposed on a third party and not fully reflected in a transaction price.",
+        "The market value of final goods and services produced within a country during a period.",
+        "A wage difference associated with job risk, conditions, location, or nonwage characteristics.",
+        "The rate charged on eligible borrowing from Federal Reserve lending facilities."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 25?",
+      "options": [
+        "Wages reflect worker productivity, labor demand and supply, institutions, bargaining power, discrimination, and job conditions.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 0,
+      "explanation": "Wages reflect worker productivity, labor demand and supply, institutions, bargaining power, discrimination, and job conditions.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 25?",
+      "choices": [
+        "Wages reflect worker productivity, labor demand and supply, institutions, bargaining power, discrimination, and job conditions.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 25?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Education can raise opportunity and productivity but has monetary, time, completion, and debt costs.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 2,
+      "explanation": "Education can raise opportunity and productivity but has monetary, time, completion, and debt costs.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 25?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Education can raise opportunity and productivity but has monetary, time, completion, and debt costs.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 25?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Automation can replace tasks, complement workers, create occupations, and shift skill demand simultaneously."
+      ],
+      "answer": 3,
+      "explanation": "Automation can replace tasks, complement workers, create occupations, and shift skill demand simultaneously.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 25?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Automation can replace tasks, complement workers, create occupations, and shift skill demand simultaneously."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 25 inquiry?",
+      "options": [
+        "A student distinguishes a median from an individual outcome and explains the labor-demand or labor-supply mechanism behind a wage change.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 0,
+      "explanation": "A student distinguishes a median from an individual outcome and explains the labor-demand or labor-supply mechanism behind a wage change.",
+      "prompt": "Which action best demonstrates mastery of the Week 25 inquiry?",
+      "choices": [
+        "A student distinguishes a median from an individual outcome and explains the labor-demand or labor-supply mechanism behind a wage change.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "What responsibilities do employers and government have when technology makes valuable skills suddenly less marketable?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

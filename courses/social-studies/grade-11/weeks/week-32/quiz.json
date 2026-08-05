@@ -1,0 +1,190 @@
+{
+  "title": "Week 32 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “fiscal policy”?",
+      "options": [
+        "Ability to produce more output with the same resources.",
+        "Government decisions about spending, taxation, and borrowing that influence the economy.",
+        "A rule concerning reserves relative to deposits; requirements have changed over time and may be set at zero.",
+        "An institution connecting savers, borrowers, investors, and payment users."
+      ],
+      "answer": 1,
+      "explanation": "Fiscal policy means government decisions about spending, taxation, and borrowing that influence the economy.",
+      "prompt": "Which definition best matches “fiscal policy”?",
+      "choices": [
+        "Ability to produce more output with the same resources.",
+        "Government decisions about spending, taxation, and borrowing that influence the economy.",
+        "A rule concerning reserves relative to deposits; requirements have changed over time and may be set at zero.",
+        "An institution connecting savers, borrowers, investors, and payment users."
+      ]
+    },
+    {
+      "question": "Which definition best matches “automatic stabilizer”?",
+      "options": [
+        "A tax or spending feature that changes automatically with economic conditions, such as unemployment benefits.",
+        "The process by which agencies create regulations under statutory authority.",
+        "A model with many firms, identical products, easy entry, and price-taking behavior.",
+        "The process through which people develop political values, identities, and habits."
+      ],
+      "answer": 0,
+      "explanation": "Automatic stabilizer means a tax or spending feature that changes automatically with economic conditions, such as unemployment benefits.",
+      "prompt": "Which definition best matches “automatic stabilizer”?",
+      "choices": [
+        "A tax or spending feature that changes automatically with economic conditions, such as unemployment benefits.",
+        "The process by which agencies create regulations under statutory authority.",
+        "A model with many firms, identical products, easy entry, and price-taking behavior.",
+        "The process through which people develop political values, identities, and habits."
+      ]
+    },
+    {
+      "question": "Which definition best matches “multiplier”?",
+      "options": [
+        "The total change in output associated with an initial change in spending or taxation under specified conditions.",
+        "An argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "Recurring expansions and contractions in aggregate economic activity."
+      ],
+      "answer": 0,
+      "explanation": "Multiplier means the total change in output associated with an initial change in spending or taxation under specified conditions.",
+      "prompt": "Which definition best matches “multiplier”?",
+      "choices": [
+        "The total change in output associated with an initial change in spending or taxation under specified conditions.",
+        "An argument about what government should do, based on goals, evidence, feasibility, and tradeoffs.",
+        "The quantities producers are willing and able to sell at different prices during a stated period.",
+        "Recurring expansions and contractions in aggregate economic activity."
+      ]
+    },
+    {
+      "question": "Which definition best matches “crowding out”?",
+      "options": [
+        "The agreement creating proportional representation in the House and equal state representation in the Senate.",
+        "The difference between willingness to pay and the price actually paid.",
+        "Reduced private investment or activity associated with government borrowing or resource use.",
+        "Output per unit of labor or other input."
+      ],
+      "answer": 2,
+      "explanation": "Crowding out means reduced private investment or activity associated with government borrowing or resource use.",
+      "prompt": "Which definition best matches “crowding out”?",
+      "choices": [
+        "The agreement creating proportional representation in the House and equal state representation in the Senate.",
+        "The difference between willingness to pay and the price actually paid.",
+        "Reduced private investment or activity associated with government borrowing or resource use.",
+        "Output per unit of labor or other input."
+      ]
+    },
+    {
+      "question": "Which definition best matches “national debt”?",
+      "options": [
+        "A sustained rise in the general price level, reducing money’s purchasing power.",
+        "The rate charged on eligible borrowing from Federal Reserve lending facilities.",
+        "The accumulated outstanding federal borrowing resulting from past deficits and other financing operations.",
+        "A representative government limited by a constitution and accountable to the people and law."
+      ],
+      "answer": 2,
+      "explanation": "National debt means the accumulated outstanding federal borrowing resulting from past deficits and other financing operations.",
+      "prompt": "Which definition best matches “national debt”?",
+      "choices": [
+        "A sustained rise in the general price level, reducing money’s purchasing power.",
+        "The rate charged on eligible borrowing from Federal Reserve lending facilities.",
+        "The accumulated outstanding federal borrowing resulting from past deficits and other financing operations.",
+        "A representative government limited by a constitution and accountable to the people and law."
+      ]
+    },
+    {
+      "question": "Which definition best matches “debt service”?",
+      "options": [
+        "Interest and principal payments associated with public debt.",
+        "The election in which voters choose among nominees and decide public offices or measures.",
+        "A tax intended to align private incentives with an external social cost.",
+        "The value of the best alternative forgone when a choice is made."
+      ],
+      "answer": 0,
+      "explanation": "Debt service means interest and principal payments associated with public debt.",
+      "prompt": "Which definition best matches “debt service”?",
+      "choices": [
+        "Interest and principal payments associated with public debt.",
+        "The election in which voters choose among nominees and decide public offices or measures.",
+        "A tax intended to align private incentives with an external social cost.",
+        "The value of the best alternative forgone when a choice is made."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 32?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Deficits are annual flows; debt is an accumulated stock."
+      ],
+      "answer": 3,
+      "explanation": "Deficits are annual flows; debt is an accumulated stock.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 32?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "Deficits are annual flows; debt is an accumulated stock."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 32?",
+      "options": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Fiscal effects depend on economic slack, timing, composition, financing, expectations, monetary response, and implementation."
+      ],
+      "answer": 3,
+      "explanation": "Fiscal effects depend on economic slack, timing, composition, financing, expectations, monetary response, and implementation.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 32?",
+      "choices": [
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Fiscal effects depend on economic slack, timing, composition, financing, expectations, monetary response, and implementation."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 32?",
+      "options": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Debt sustainability concerns the relationship among interest rates, growth, revenue, spending commitments, and political capacity.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ],
+      "answer": 1,
+      "explanation": "Debt sustainability concerns the relationship among interest rates, growth, revenue, spending commitments, and political capacity.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 32?",
+      "choices": [
+        "A single example is sufficient to prove a universal rule without qualification.",
+        "Debt sustainability concerns the relationship among interest rates, growth, revenue, spending commitments, and political capacity.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 32 inquiry?",
+      "options": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student distinguishes deficit from debt and conditions any multiplier or crowding-out claim on the state of the economy and policy design.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ],
+      "answer": 1,
+      "explanation": "A student distinguishes deficit from debt and conditions any multiplier or crowding-out claim on the state of the economy and policy design.",
+      "prompt": "Which action best demonstrates mastery of the Week 32 inquiry?",
+      "choices": [
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences.",
+        "A student distinguishes deficit from debt and conditions any multiplier or crowding-out claim on the state of the economy and policy design.",
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory."
+      ]
+    }
+  ],
+  "shortResponse": "Which public investments justify borrowing because future generations also receive the benefits?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}

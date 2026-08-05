@@ -1,0 +1,190 @@
+{
+  "title": "Week 28 Mastery Quiz",
+  "points": 25,
+  "objectivePoints": 20,
+  "constructedResponsePoints": 5,
+  "questions": [
+    {
+      "question": "Which definition best matches “gross domestic product”?",
+      "options": [
+        "The total change in output associated with an initial change in spending or taxation under specified conditions.",
+        "Government through representatives and civic institutions oriented toward the public good.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "The market value of final goods and services produced within a country during a period."
+      ],
+      "answer": 3,
+      "explanation": "Gross domestic product means the market value of final goods and services produced within a country during a period.",
+      "prompt": "Which definition best matches “gross domestic product”?",
+      "choices": [
+        "The total change in output associated with an initial change in spending or taxation under specified conditions.",
+        "Government through representatives and civic institutions oriented toward the public good.",
+        "A significant, broad decline in economic activity lasting more than a brief fluctuation.",
+        "The market value of final goods and services produced within a country during a period."
+      ]
+    },
+    {
+      "question": "Which definition best matches “real GDP”?",
+      "options": [
+        "Output measured with prices adjusted to remove the effect of inflation.",
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "The price of one currency in terms of another."
+      ],
+      "answer": 0,
+      "explanation": "Real gdp means output measured with prices adjusted to remove the effect of inflation.",
+      "prompt": "Which definition best matches “real GDP”?",
+      "choices": [
+        "Output measured with prices adjusted to remove the effect of inflation.",
+        "Constitutional powers allowing branches to limit or respond to one another.",
+        "An opponent or critic of ratification who feared centralized power and demanded stronger protections for liberty.",
+        "The price of one currency in terms of another."
+      ]
+    },
+    {
+      "question": "Which definition best matches “nominal GDP”?",
+      "options": [
+        "Government through representatives and civic institutions oriented toward the public good.",
+        "A legally binding rule governing conduct within an agency’s authority.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "Output measured at current prices."
+      ],
+      "answer": 3,
+      "explanation": "Nominal gdp means output measured at current prices.",
+      "prompt": "Which definition best matches “nominal GDP”?",
+      "choices": [
+        "Government through representatives and civic institutions oriented toward the public good.",
+        "A legally binding rule governing conduct within an agency’s authority.",
+        "Demonstrated ability to apply civic knowledge and reasoning to institutions, documents, cases, and participation.",
+        "Output measured at current prices."
+      ]
+    },
+    {
+      "question": "Which definition best matches “GDP per capita”?",
+      "options": [
+        "GDP divided by population, often used as a rough average-output measure.",
+        "Powers specifically listed in the Constitution.",
+        "An organization seeking to influence government by electing candidates and coordinating public policy.",
+        "Legislative review of executive agencies, programs, spending, and implementation."
+      ],
+      "answer": 0,
+      "explanation": "Gdp per capita means gDP divided by population, often used as a rough average-output measure.",
+      "prompt": "Which definition best matches “GDP per capita”?",
+      "choices": [
+        "GDP divided by population, often used as a rough average-output measure.",
+        "Powers specifically listed in the Constitution.",
+        "An organization seeking to influence government by electing candidates and coordinating public policy.",
+        "Legislative review of executive agencies, programs, spending, and implementation."
+      ]
+    },
+    {
+      "question": "Which definition best matches “productivity”?",
+      "options": [
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+        "Output per unit of labor or other input."
+      ],
+      "answer": 3,
+      "explanation": "Productivity means output per unit of labor or other input.",
+      "prompt": "Which definition best matches “productivity”?",
+      "choices": [
+        "A market with many firms selling differentiated products and relatively easy entry.",
+        "A union in which member states retain substantial sovereignty and the central authority is limited.",
+        "Knowledge and skills needed to understand institutions, rights, responsibilities, and public decisions.",
+        "Output per unit of labor or other input."
+      ]
+    },
+    {
+      "question": "Which definition best matches “distribution”?",
+      "options": [
+        "The total change in output associated with an initial change in spending or taxation under specified conditions.",
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "The value of exports minus imports of goods and services.",
+        "Ability to produce at a lower opportunity cost."
+      ],
+      "answer": 1,
+      "explanation": "Distribution means how income, wealth, consumption, or opportunity is divided across people and groups.",
+      "prompt": "Which definition best matches “distribution”?",
+      "choices": [
+        "The total change in output associated with an initial change in spending or taxation under specified conditions.",
+        "How income, wealth, consumption, or opportunity is divided across people and groups.",
+        "The value of exports minus imports of goods and services.",
+        "Ability to produce at a lower opportunity cost."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 28?",
+      "options": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "GDP measures production, not directly happiness, fairness, sustainability, health, or unpaid work.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 1,
+      "explanation": "GDP measures production, not directly happiness, fairness, sustainability, health, or unpaid work.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 28?",
+      "choices": [
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "GDP measures production, not directly happiness, fairness, sustainability, health, or unpaid work.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 28?",
+      "options": [
+        "Real values are needed to compare output across time when prices change.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "Real values are needed to compare output across time when prices change.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 28?",
+      "choices": [
+        "Real values are needed to compare output across time when prices change.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "The opposite conclusion is always true in every circumstance.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which statement is most consistent with the evidence and reasoning developed in Week 28?",
+      "options": [
+        "Average growth can occur alongside unequal gains, regional divergence, environmental loss, or reduced security.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ],
+      "answer": 0,
+      "explanation": "Average growth can occur alongside unequal gains, regional divergence, environmental loss, or reduced security.",
+      "prompt": "Which statement is most consistent with the evidence and reasoning developed in Week 28?",
+      "choices": [
+        "Average growth can occur alongside unequal gains, regional divergence, environmental loss, or reduced security.",
+        "The opposite conclusion is always true in every circumstance.",
+        "The issue can be resolved without examining evidence, institutions, incentives, or tradeoffs.",
+        "A single example is sufficient to prove a universal rule without qualification."
+      ]
+    },
+    {
+      "question": "Which action best demonstrates mastery of the Week 28 inquiry?",
+      "options": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student labels nominal, real, total, and per-capita measures correctly and does not use GDP as a direct measure of every dimension of well-being.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences."
+      ],
+      "answer": 1,
+      "explanation": "A student labels nominal, real, total, and per-capita measures correctly and does not use GDP as a direct measure of every dimension of well-being.",
+      "prompt": "Which action best demonstrates mastery of the Week 28 inquiry?",
+      "choices": [
+        "A student relies on political identity, advertising, or personal preference as a substitute for documented analysis.",
+        "A student labels nominal, real, total, and per-capita measures correctly and does not use GDP as a direct measure of every dimension of well-being.",
+        "A student selects an answer only because it sounds confident, even when the record is incomplete or contradictory.",
+        "A student accepts the first available claim or offer without checking the source, terms, evidence, or consequences."
+      ]
+    }
+  ],
+  "shortResponse": "Should national policy target GDP growth directly, or treat growth as one means toward broader human outcomes?",
+  "rubric": "5 points: clear claim, accurate disciplinary reasoning, two specific pieces of evidence, meaningful qualification or counterargument, and complete explanation."
+}
