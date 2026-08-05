@@ -1,0 +1,15 @@
+{
+  "name": "Personal Financial Literacy & Money Management Honors",
+  "short_name": "Khaemenes G11 Finance",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "description": "Income, Banking, Budgeting, Taxes, Credit, Consumer Law, Housing, Insurance, Saving, Investing, Education Finance, and Fraud Protection",
+  "categories": [
+    "education",
+    "productivity"
+  ]
+}
