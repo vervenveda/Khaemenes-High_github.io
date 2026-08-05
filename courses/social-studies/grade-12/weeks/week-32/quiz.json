@@ -1,0 +1,117 @@
+{
+  "title": "Week 32 Mastery Quiz · Public Health and Humanitarian Coordination",
+  "questions": [
+    {
+      "question": "Which definition best matches “public health”?",
+      "options": [
+        "Collective action to protect and improve population health.",
+        "Protection that makes a constitutional rule harder to change than ordinary law.",
+        "Processes addressing serious abuses during movement from conflict or repression.",
+        "A standard for fair institutions, rights, duties, procedures, and distributions."
+      ],
+      "answer": 0,
+      "explanation": "Public health means collective action to protect and improve population health."
+    },
+    {
+      "question": "Which definition best matches “epidemiological surveillance”?",
+      "options": [
+        "Systematic collection and analysis of health data for action.",
+        "The process by which officials act for people, places, groups, or interests.",
+        "A state in which ultimate constitutional authority rests with the central government.",
+        "A legal tradition centered on comprehensive codes and enacted law."
+      ],
+      "answer": 0,
+      "explanation": "Epidemiological surveillance means systematic collection and analysis of health data for action."
+    },
+    {
+      "question": "Which definition best matches “risk communication”?",
+      "options": [
+        "Influence over which issues receive public attention.",
+        "The capacity of courts to decide cases without improper political control.",
+        "Exchange of timely information about hazards, uncertainty, and protective action.",
+        "A subset studied to estimate characteristics of a larger population."
+      ],
+      "answer": 2,
+      "explanation": "Risk communication means exchange of timely information about hazards, uncertainty, and protective action."
+    },
+    {
+      "question": "Which definition best matches “humanitarian principle”?",
+      "options": [
+        "Use of language and regional identity in territorial organization.",
+        "A norm such as humanity, neutrality, impartiality, or independence guiding relief.",
+        "False or manipulated information spread deliberately.",
+        "The legal right to vote."
+      ],
+      "answer": 1,
+      "explanation": "Humanitarian principle means a norm such as humanity, neutrality, impartiality, or independence guiding relief."
+    },
+    {
+      "question": "Which definition best matches “health equity”?",
+      "options": [
+        "Nigeria’s principle for broad regional and group representation in public institutions.",
+        "Institutional conditions that open or close possibilities for collective influence.",
+        "An unelected body empowered to supervise or constrain elected institutions.",
+        "Fair opportunity to attain health without avoidable disadvantage."
+      ],
+      "answer": 3,
+      "explanation": "Health equity means fair opportunity to attain health without avoidable disadvantage."
+    },
+    {
+      "question": "Which definition best matches “after-action review”?",
+      "options": [
+        "Structured evaluation of preparedness, response, outcomes, and lessons.",
+        "Suppression, restriction, or manipulation of access to information.",
+        "Exchange of targeted benefits for political support.",
+        "A structured plan explaining a research problem, question, method, evidence, schedule, and significance."
+      ],
+      "answer": 0,
+      "explanation": "After-action review means structured evaluation of preparedness, response, outcomes, and lessons."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 32 analysis?",
+      "options": [
+        "Political labels have exactly the same meaning in every country and period.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Emergency powers require evidence, necessity, proportionality, time limits, and review.",
+        "A single vivid example proves a universal conclusion without qualification."
+      ],
+      "answer": 2,
+      "explanation": "Emergency powers require evidence, necessity, proportionality, time limits, and review."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 32 analysis?",
+      "options": [
+        "Political labels have exactly the same meaning in every country and period.",
+        "Health security depends on trust, capacity, data, logistics, and cooperation.",
+        "The most confident source should be accepted without examining authority or method.",
+        "A single vivid example proves a universal conclusion without qualification."
+      ],
+      "answer": 1,
+      "explanation": "Health security depends on trust, capacity, data, logistics, and cooperation."
+    },
+    {
+      "question": "Which research practice is most appropriate for Public Health and Humanitarian Coordination?",
+      "options": [
+        "Trace claims to WHO regulations and reports, national response records, humanitarian standards, and public-health data, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Choose only evidence that supports the preferred conclusion.",
+        "Replace documentary evidence with political identity or intuition."
+      ],
+      "answer": 0,
+      "explanation": "Trace claims to WHO regulations and reports, national response records, humanitarian standards, and public-health data, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "List facts without connecting them to a claim.",
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+      ],
+      "answer": 3,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "What makes collective response legitimate and effective during cross-border health and humanitarian emergencies?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

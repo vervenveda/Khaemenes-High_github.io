@@ -1,0 +1,117 @@
+{
+  "title": "Week 35 Mastery Quiz · Political Engagement and Public Communication",
+  "questions": [
+    {
+      "question": "Which definition best matches “stakeholder”?",
+      "options": [
+        "Court evaluation of whether government action complies with higher law.",
+        "A person or group affected by or able to influence an issue.",
+        "The share of eligible or registered voters who cast ballots.",
+        "False or inaccurate information shared without necessarily intending deception."
+      ],
+      "answer": 1,
+      "explanation": "Stakeholder means a person or group affected by or able to influence an issue."
+    },
+    {
+      "question": "Which definition best matches “political engagement”?",
+      "options": [
+        "Strategic communication designed to shape belief or behavior, often selectively or deceptively.",
+        "Distribution of natural-resource authority and revenue across levels of government.",
+        "Lawful participation intended to understand or influence public life.",
+        "A minimum share of votes required to qualify for representation."
+      ],
+      "answer": 2,
+      "explanation": "Political engagement means lawful participation intended to understand or influence public life."
+    },
+    {
+      "question": "Which definition best matches “public communication”?",
+      "options": [
+        "Presentation of complex evidence for a non-specialist audience.",
+        "A system in which religious authority or doctrine has a governing role.",
+        "A set of familiar strategies used by movements or political actors.",
+        "Change to voting, representation, administration, or competition rules."
+      ],
+      "answer": 0,
+      "explanation": "Public communication means presentation of complex evidence for a non-specialist audience."
+    },
+    {
+      "question": "Which definition best matches “accessibility”?",
+      "options": [
+        "Market activity combined with extensive state ownership, direction, or strategic control.",
+        "Design that enables people with different abilities and circumstances to use information.",
+        "Mexico’s six-year presidential term without immediate reelection.",
+        "Reasoning about whether and how one factor contributes to an outcome."
+      ],
+      "answer": 1,
+      "explanation": "Accessibility means design that enables people with different abilities and circumstances to use information."
+    },
+    {
+      "question": "Which definition best matches “nonpartisanship”?",
+      "options": [
+        "Concentration of authority around an individual leader rather than autonomous institutions.",
+        "Comparison of different cases sharing an outcome or relationship.",
+        "Absence of a single sovereign authority above states.",
+        "Instruction or administration that does not require allegiance to a party, candidate, or political position."
+      ],
+      "answer": 3,
+      "explanation": "Nonpartisanship means instruction or administration that does not require allegiance to a party, candidate, or political position."
+    },
+    {
+      "question": "Which definition best matches “reflection”?",
+      "options": [
+        "Critical examination of choices, learning, effects, and remaining questions.",
+        "An approach emphasizing norms, identities, ideas, and socially constructed interests.",
+        "The reasoned choice of cases appropriate to a research question.",
+        "Assistance by a third party seeking to facilitate agreement."
+      ],
+      "answer": 0,
+      "explanation": "Reflection means critical examination of choices, learning, effects, and remaining questions."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 35 analysis?",
+      "options": [
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Engagement may involve research, service, observation, education, testimony, or deliberation.",
+        "The most confident source should be accepted without examining authority or method."
+      ],
+      "answer": 2,
+      "explanation": "Engagement may involve research, service, observation, education, testimony, or deliberation."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 35 analysis?",
+      "options": [
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Students are graded on evidence and process, not viewpoint."
+      ],
+      "answer": 3,
+      "explanation": "Students are graded on evidence and process, not viewpoint."
+    },
+    {
+      "question": "Which research practice is most appropriate for Political Engagement and Public Communication?",
+      "options": [
+        "Choose only evidence that supports the preferred conclusion.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Replace documentary evidence with political identity or intuition.",
+        "Trace claims to Stakeholder records, public meeting materials, civic resources, and student communication products, evaluate authority and context, corroborate material facts, and state limitations."
+      ],
+      "answer": 3,
+      "explanation": "Trace claims to Stakeholder records, public meeting materials, civic resources, and student communication products, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition.",
+        "List facts without connecting them to a claim."
+      ],
+      "answer": 2,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How can a graduate communicate research and engage responsibly without manipulating evidence or compelling political conformity?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Week 34 Mastery Quiz · Thesis Drafting and Peer Review",
+  "questions": [
+    {
+      "question": "Which definition best matches “literature review”?",
+      "options": [
+        "A synthesis of relevant scholarship and evidence showing what is known and disputed.",
+        "The principle that government is limited and structured by higher law.",
+        "Rules converting votes into offices or seats.",
+        "An organization seeking to influence public decisions without directly becoming the government."
+      ],
+      "answer": 0,
+      "explanation": "Literature review means a synthesis of relevant scholarship and evidence showing what is known and disputed."
+    },
+    {
+      "question": "Which definition best matches “counterargument”?",
+      "options": [
+        "A serious alternative claim or interpretation addressed by an argument.",
+        "Belief that participation can matter and institutions may respond.",
+        "A legal tradition in which judicial decisions and precedent have major importance.",
+        "The principle that Parliament is the supreme lawmaking authority in the UK constitutional order."
+      ],
+      "answer": 0,
+      "explanation": "Counterargument means a serious alternative claim or interpretation addressed by an argument."
+    },
+    {
+      "question": "Which definition best matches “coherence”?",
+      "options": [
+        "Logical connection among question, method, evidence, findings, and conclusion.",
+        "A state with capacity and policy commitment to direct long-term development.",
+        "An estimate of sampling uncertainty around a survey result.",
+        "Selection and presentation that shape how an issue is interpreted."
+      ],
+      "answer": 0,
+      "explanation": "Coherence means logical connection among question, method, evidence, findings, and conclusion."
+    },
+    {
+      "question": "Which definition best matches “peer review”?",
+      "options": [
+        "False or inaccurate information shared without necessarily intending deception.",
+        "Unequal conditions structured by historical and institutional racial classification.",
+        "An alliance of parties or groups cooperating to govern or pursue policy.",
+        "Structured evaluation by another reader using shared criteria."
+      ],
+      "answer": 3,
+      "explanation": "Peer review means structured evaluation by another reader using shared criteria."
+    },
+    {
+      "question": "Which definition best matches “revision memo”?",
+      "options": [
+        "Presidential governance dependent on multiparty legislative coalitions.",
+        "Distribution of natural-resource authority and revenue across levels of government.",
+        "A record explaining changes made in response to evidence and feedback.",
+        "Standards protecting integrity, people, communities, and the accuracy of knowledge."
+      ],
+      "answer": 2,
+      "explanation": "Revision memo means a record explaining changes made in response to evidence and feedback."
+    },
+    {
+      "question": "Which definition best matches “citation audit”?",
+      "options": [
+        "Historically shaped assumptions about security, force, risk, and international role.",
+        "Whether a project can be completed ethically with available time, evidence, and skills.",
+        "A check that claims, quotations, data, and references are accurate and complete.",
+        "A system in which religious authority or doctrine has a governing role."
+      ],
+      "answer": 2,
+      "explanation": "Citation audit means a check that claims, quotations, data, and references are accurate and complete."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 34 analysis?",
+      "options": [
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Revision is a reasoning process, not only proofreading."
+      ],
+      "answer": 3,
+      "explanation": "Revision is a reasoning process, not only proofreading."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 34 analysis?",
+      "options": [
+        "Political labels have exactly the same meaning in every country and period.",
+        "The most confident source should be accepted without examining authority or method.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "A thesis must distinguish evidence, analysis, inference, and recommendation."
+      ],
+      "answer": 3,
+      "explanation": "A thesis must distinguish evidence, analysis, inference, and recommendation."
+    },
+    {
+      "question": "Which research practice is most appropriate for Thesis Drafting and Peer Review?",
+      "options": [
+        "Replace documentary evidence with political identity or intuition.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Trace claims to Complete draft, rubric, citation record, peer feedback, and version history, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Choose only evidence that supports the preferred conclusion."
+      ],
+      "answer": 2,
+      "explanation": "Trace claims to Complete draft, rubric, citation record, peer feedback, and version history, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "List facts without connecting them to a claim.",
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+      ],
+      "answer": 3,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How can revision improve reasoning, evidence, organization, fairness, and academic integrity?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

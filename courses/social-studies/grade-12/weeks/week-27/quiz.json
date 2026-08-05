@@ -1,0 +1,117 @@
+{
+  "title": "Week 27 Mastery Quiz · Global Political Economy, Trade, and Debt",
+  "questions": [
+    {
+      "question": "Which definition best matches “global value chain”?",
+      "options": [
+        "Cross-border organization of production stages for a good or service.",
+        "The capacity to shape behavior, choices, rules, opportunities, or outcomes.",
+        "Recognition for mastery above the minimum course threshold.",
+        "A record explaining changes made in response to evidence and feedback."
+      ],
+      "answer": 0,
+      "explanation": "Global value chain means cross-border organization of production stages for a good or service."
+    },
+    {
+      "question": "Which definition best matches “foreign direct investment”?",
+      "options": [
+        "A systematic review of required work, evidence, records, and corrections.",
+        "Investment providing lasting control or influence in an enterprise abroad.",
+        "Inventing evidence, data, sources, quotations, or results.",
+        "A condition or benefit understood to serve the community as a whole."
+      ],
+      "answer": 1,
+      "explanation": "Foreign direct investment means investment providing lasting control or influence in an enterprise abroad."
+    },
+    {
+      "question": "Which definition best matches “sovereign debt”?",
+      "options": [
+        "Money owed by a national government.",
+        "A standard for fair institutions, rights, duties, procedures, and distributions.",
+        "Protection that makes a constitutional rule harder to change than ordinary law.",
+        "Using different sources or methods to examine the same question."
+      ],
+      "answer": 0,
+      "explanation": "Sovereign debt means money owed by a national government."
+    },
+    {
+      "question": "Which definition best matches “balance of payments”?",
+      "options": [
+        "A record of transactions between residents of a country and the rest of the world.",
+        "A state in which ultimate constitutional authority rests with the central government.",
+        "Freedom from unjust restraint and the capacity to make meaningful choices.",
+        "A legal tradition centered on comprehensive codes and enacted law."
+      ],
+      "answer": 0,
+      "explanation": "Balance of payments means a record of transactions between residents of a country and the rest of the world."
+    },
+    {
+      "question": "Which definition best matches “sanction”?",
+      "options": [
+        "A subset studied to estimate characteristics of a larger population.",
+        "The capacity of courts to decide cases without improper political control.",
+        "The foundational rules organizing government, authority, rights, and amendment.",
+        "A restriction intended to influence another actor’s behavior."
+      ],
+      "answer": 3,
+      "explanation": "Sanction means a restriction intended to influence another actor’s behavior."
+    },
+    {
+      "question": "Which definition best matches “debt sustainability”?",
+      "options": [
+        "The legal right to vote.",
+        "A government’s capacity to meet debt obligations without unacceptable adjustment or default.",
+        "False or manipulated information spread deliberately.",
+        "The ability of public institutions to implement decisions and provide core functions."
+      ],
+      "answer": 1,
+      "explanation": "Debt sustainability means a government’s capacity to meet debt obligations without unacceptable adjustment or default."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 27 analysis?",
+      "options": [
+        "The most confident source should be accepted without examining authority or method.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Trade can create aggregate gains while imposing concentrated adjustment costs.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 2,
+      "explanation": "Trade can create aggregate gains while imposing concentrated adjustment costs."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 27 analysis?",
+      "options": [
+        "Financial integration transmits capital and crises.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification."
+      ],
+      "answer": 0,
+      "explanation": "Financial integration transmits capital and crises."
+    },
+    {
+      "question": "Which research practice is most appropriate for Global Political Economy, Trade, and Debt?",
+      "options": [
+        "Trace claims to WTO records, trade data, sovereign-debt cases, supply-chain maps, and labor evidence, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Choose only evidence that supports the preferred conclusion.",
+        "Replace documentary evidence with political identity or intuition."
+      ],
+      "answer": 0,
+      "explanation": "Trace claims to WTO records, trade data, sovereign-debt cases, supply-chain maps, and labor evidence, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "List facts without connecting them to a claim.",
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition.",
+        "Treat legal, causal, and moral claims as interchangeable."
+      ],
+      "answer": 2,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "Who gains, who loses, and who decides in systems of global trade, finance, investment, taxation, and debt?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

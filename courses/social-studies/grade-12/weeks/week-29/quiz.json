@@ -1,0 +1,117 @@
+{
+  "title": "Week 29 Mastery Quiz · War, Civil Conflict, and Peacebuilding",
+  "questions": [
+    {
+      "question": "Which definition best matches “civil war”?",
+      "options": [
+        "Rule that sharply restricts political competition, accountability, or civil liberty.",
+        "A disciplined study of human institutions, behavior, and relationships using explicit methods and evidence.",
+        "Sustained organized armed conflict within a state.",
+        "Power regarded as rightful within a political or legal order."
+      ],
+      "answer": 2,
+      "explanation": "Civil war means sustained organized armed conflict within a state."
+    },
+    {
+      "question": "Which definition best matches “commitment problem”?",
+      "options": [
+        "A representative body that deliberates, makes law, authorizes resources, and oversees government.",
+        "A transparent statement of assistance, methods, conflicts, or limitations.",
+        "The durable rules and institutions governing access to and exercise of political power.",
+        "Inability to credibly promise future compliance when power or incentives may change."
+      ],
+      "answer": 3,
+      "explanation": "Commitment problem means inability to credibly promise future compliance when power or incentives may change."
+    },
+    {
+      "question": "Which definition best matches “ceasefire”?",
+      "options": [
+        "Rules converting votes into offices or seats.",
+        "An agreement to halt fighting, temporarily or permanently.",
+        "The principle that government is limited and structured by higher law.",
+        "A system in which multiple groups, values, and centers of influence coexist."
+      ],
+      "answer": 1,
+      "explanation": "Ceasefire means an agreement to halt fighting, temporarily or permanently."
+    },
+    {
+      "question": "Which definition best matches “peacebuilding”?",
+      "options": [
+        "Transfer of authority from a central government to regional or local bodies.",
+        "Belief that participation can matter and institutions may respond.",
+        "A legal tradition in which judicial decisions and precedent have major importance.",
+        "Long-term work to address institutions and relationships that sustain peace."
+      ],
+      "answer": 3,
+      "explanation": "Peacebuilding means long-term work to address institutions and relationships that sustain peace."
+    },
+    {
+      "question": "Which definition best matches “spoiler”?",
+      "options": [
+        "Selection and presentation that shape how an issue is interpreted.",
+        "An actor using violence or obstruction to undermine a peace process.",
+        "An earlier decision used to guide later legal reasoning.",
+        "An estimate of sampling uncertainty around a survey result."
+      ],
+      "answer": 1,
+      "explanation": "Spoiler means an actor using violence or obstruction to undermine a peace process."
+    },
+    {
+      "question": "Which definition best matches “reconciliation”?",
+      "options": [
+        "An alliance of parties or groups cooperating to govern or pursue policy.",
+        "Processes seeking to rebuild relationships, acknowledgment, and coexistence after harm.",
+        "False or inaccurate information shared without necessarily intending deception.",
+        "The share of eligible or registered voters who cast ballots."
+      ],
+      "answer": 1,
+      "explanation": "Reconciliation means processes seeking to rebuild relationships, acknowledgment, and coexistence after harm."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 29 analysis?",
+      "options": [
+        "The most confident source should be accepted without examining authority or method.",
+        "Conflict explanations should not reduce violence to ancient hatred.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification."
+      ],
+      "answer": 1,
+      "explanation": "Conflict explanations should not reduce violence to ancient hatred."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 29 analysis?",
+      "options": [
+        "Peace agreements must address security, institutions, resources, and implementation.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "The most confident source should be accepted without examining authority or method."
+      ],
+      "answer": 0,
+      "explanation": "Peace agreements must address security, institutions, resources, and implementation."
+    },
+    {
+      "question": "Which research practice is most appropriate for War, Civil Conflict, and Peacebuilding?",
+      "options": [
+        "Choose only evidence that supports the preferred conclusion.",
+        "Replace documentary evidence with political identity or intuition.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Trace claims to Peace agreements, conflict datasets, mediation records, and post-conflict evaluations, evaluate authority and context, corroborate material facts, and state limitations."
+      ],
+      "answer": 3,
+      "explanation": "Trace claims to Peace agreements, conflict datasets, mediation records, and post-conflict evaluations, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "List facts without connecting them to a claim.",
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+      ],
+      "answer": 3,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "Why do conflicts begin, persist, end, and sometimes recur?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}
