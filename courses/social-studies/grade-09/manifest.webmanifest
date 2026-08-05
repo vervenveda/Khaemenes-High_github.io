@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "Khaemenes High Grade 9 Global Studies Honors",
+  "short_name": "Global Studies 9",
+  "description": "A 36-week Grade 9 world history, geography, civics, economics, and media literacy course.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#08111f",
+  "theme_color": "#08111f",
+  "categories": [
+    "education",
+    "history",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "assets/global-studies-seal.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
