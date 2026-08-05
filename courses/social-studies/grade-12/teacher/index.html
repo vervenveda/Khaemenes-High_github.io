@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Grade 12 Teacher & Evaluator Portal</title><link rel="stylesheet" href="../styles.css"></head><body><main class="main" style="max-width:1200px;margin:auto">
+<header class="hero"><div class="eyebrow">Khaemenes High · Teacher and Homeschool Evaluator</div><h1>Grade 12 Graduation-Credit Portal</h1><p>Global Politics, International Relations &amp; Senior Research Honors</p><div class="heroActions noPrint"><a class="button secondary" href="../index.html">Student Portal</a><a class="button ghost" href="../docs/GRADUATION_REQUIREMENTS.md">Graduation Rules</a><button onclick="window.print()">Print Current Audit</button></div></header>
+<section id="gate" class="card" style="max-width:680px;margin:20px auto"><h2>Evaluator Access</h2><p>Enter the local course passcode. Change it in this file if desired. This browser-only gate is a convenience, not secure authentication.</p><label>Passcode<input id="pass" type="password" autocomplete="off"></label><button id="open">Open Evaluator Portal</button><p id="gateMsg" class="statusFail"></p></section>
+<section id="portal" hidden>
+<div class="grid">
+<section class="card col12"><h2>Active Student</h2><label>Select local student<select id="studentSelect"></select></label><p id="studentMeta"></p></section>
+<section class="card col12"><h2>Documentary Verification</h2><div class="grid">
+<article class="card col4"><label>Documented instructional hours<input id="hours" type="number" min="0" max="500" step=".25"></label></article>
+<article class="card col4"><label class="checkline"><input id="integrity" type="checkbox"> Academic integrity and AI disclosure verified</label></article>
+<article class="card col4"><label class="checkline"><input id="evaluator" type="checkbox"> Teacher/homeschool evaluator verification complete</label></article>
+</div><label>Evaluator notes<textarea id="notes" rows="5"></textarea></label><button id="saveVerification">Save Verification</button></section>
+<section class="card col12"><h2>Major Assessment Scores</h2><p>Check submission, enter a 0–100 score, and preserve rubric evidence. Every assessment has an individual minimum.</p><div id="majorList"></div><button id="saveMajors">Save Major Scores</button></section>
+<section class="card col12"><h2>Weekly Portfolio Review</h2><p>Approve a week only after reviewing all three assignments, source/data work, constructed response, and required corrections.</p><div id="weeklyApprovalList" class="auditGrid"></div><button id="saveWeeklyApprovals">Save Weekly Portfolio Approvals</button></section><section class="card col12"><h2>Ten Capstone Checkpoints</h2><div id="checkpointList"></div><button id="saveCheckpoints">Save Checkpoint Decisions</button></section>
+<section class="card col12"><h2>Graduation-Credit Audit</h2><div id="auditSummary" class="gateSummary"></div><div id="auditGrid" class="auditGrid"></div><div class="actions noPrint"><button id="issueCredit">Issue Final Credit</button><button id="revokeCredit" class="danger">Revoke / Return to Incomplete</button></div><p id="issueMsg"></p></section>
+<section class="card col12"><h2>Teacher Resources</h2><div class="actions"><a class="button" href="ANSWER_KEY_INDEX.html">36 Weekly Answer Keys</a><a class="button" href="SEMESTER_EXAM_ANSWER_KEY.html">Semester Key</a><a class="button" href="CUMULATIVE_FINAL_ANSWER_KEY.html">Final Key</a><a class="button secondary" href="TEACHER_HANDBOOK.md">Teacher Handbook</a><a class="button secondary" href="GRADUATION_AUDIT_GUIDE.md">Audit Guide</a><a class="button ghost" href="RUBRICS.md">Rubrics</a></div></section>
+</div></section>
+<footer class="footer">Khaemenes High · Grade 12 Teacher and Evaluator Portal · Jennifer Pearl and Autumn Pearl · 2026</footer>
+</main><script src="../course-data.js"></script><script>
+const EXPECTED="KHAE12CAPSTONE",COURSE=window.KHAEMENES_GRADE12_DATA,META=COURSE.metadata,KEY=META.storageKey;
+const $=s=>document.querySelector(s),esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+let db,student;
+function load(){try{db=JSON.parse(localStorage.getItem(KEY))}catch(e){};db=db||{students:[],activeId:null};db.students=db.students||[]}
+function norm(s){s.completedLessons||={};s.assignments||={};s.quizzes||={};s.major||={};s.capstone||={};s.weekApprovals||={};s.teacher=Object.assign({hours:0,integrity:false,evaluator:false,issued:false,issuedDate:'',notes:''},s.teacher||{});return s}
+function save(){localStorage.setItem(KEY,JSON.stringify(db))}
+function ls(s){let n=0;Object.values(s?.completedLessons||{}).forEach(a=>n+=a.filter(Boolean).length);return n}
+function as(s){return Object.values(s?.assignments||{}).filter(x=>x.submitted).length}
+function qstat(s,a=1,b=36){const v=[];for(let w=a;w<=b;w++){const q=s?.quizzes?.[w];if(q?.completed)v.push(q.bestPercent??q.percent??0)}return{n:v.length,avg:v.length?Math.round(v.reduce((x,y)=>x+y,0)/v.length):0,master:v.filter(x=>x>=80).length}}
+function mstat(s,a,b){const req=COURSE.majorAssessments.filter(m=>m.week>=a&&m.week<=b),v=[];req.forEach(m=>{const x=+s?.major?.[m.id]?.score;if(Number.isFinite(x))v.push(x)});return{n:v.length,avg:v.length?Math.round(v.reduce((x,y)=>x+y,0)/v.length):0}}
+function sem(s,a,b){const q=qstat(s,a,b),m=mstat(s,a,b);if(!q.n&&!m.n)return 0;if(!m.n)return q.avg;if(!q.n)return m.avg;return Math.round(q.avg*.4+m.avg*.6)}
+function overall(s){const q=qstat(s).avg,a=as(s)/108*100;let e=0,w=0;COURSE.majorAssessments.forEach(m=>{const x=+s?.major?.[m.id]?.score;if(Number.isFinite(x)){e+=x*m.weight;w+=m.weight}});const maj=w?e/w:0;return Math.round(q*.15+a*.15+maj*.70)}
+function audit(s,includeIssue=true){const s1=sem(s,1,18),s2=sem(s,19,36),ov=overall(s),maj=COURSE.majorAssessments.map(m=>({m,r:s?.major?.[m.id]||{},pass:!!s?.major?.[m.id]?.submitted&&(+s?.major?.[m.id]?.score||0)>=m.threshold})),cps=COURSE.capstoneCheckpoints.map(c=>({c,pass:!!s?.capstone?.[c.id]?.approved}));
+const approvedWeeks=COURSE.weeks.filter(w=>s?.weekApprovals?.[w.week]?.approved).length;
+const g=[
+['hours','150 documented instructional hours',+s?.teacher?.hours>=150,`${+s?.teacher?.hours||0}/150`],
+['lessons','At least 162 of 180 daily lessons',ls(s)>=162,`${ls(s)}/180`],
+['assignments','All 108 principal assignments submitted',as(s)>=108,`${as(s)}/108`],
+['weeklyApproval','All 36 weekly portfolios approved',approvedWeeks===36,`${approvedWeeks}/36`],
+['quizzes','All 36 quizzes mastered at 80%+',qstat(s).master===36,`${qstat(s).master}/36`],
+['s1','Semester 1 at least 70%',s1>=70,`${s1}%`],['s2','Semester 2 at least 70%',s2>=70,`${s2}%`],
+['overall','Overall at least 75%',ov>=75,`${ov}%`],
+['majors','All major assessment thresholds',maj.every(x=>x.pass),`${maj.filter(x=>x.pass).length}/${maj.length}`],
+['capstone','All 10 capstone checkpoints',cps.every(x=>x.pass),`${cps.filter(x=>x.pass).length}/10`],
+['integrity','Integrity and AI disclosure verified',!!s?.teacher?.integrity,s?.teacher?.integrity?'Verified':'Not verified'],
+['evaluator','Evaluator verification complete',!!s?.teacher?.evaluator,s?.teacher?.evaluator?'Verified':'Not verified']
+].map(x=>({id:x[0],label:x[1],pass:x[2],value:x[3]}));
+if(includeIssue)g.push({id:'issued',label:'Final credit issued',pass:!!s?.teacher?.issued,value:s?.teacher?.issued?(s.teacher.issuedDate||'Issued'):'Not issued'});
+return{g,maj,cps,s1,s2,ov,ready:g.filter(x=>x.id!=='issued').every(x=>x.pass),complete:g.every(x=>x.pass)}}
+function studentOptions(){$('#studentSelect').innerHTML=db.students.length?db.students.map(s=>`<option value="${s.id}" ${s.id===db.activeId?'selected':''}>${esc(s.name)}</option>`).join(''):'<option value="">No local students</option>';student=db.students.find(s=>s.id===$('#studentSelect').value)||db.students[0];if(student){norm(student);db.activeId=student.id;save()}renderStudent()}
+function renderStudent(){if(!student){$('#studentMeta').textContent='Create a student record in the student portal first.';return}
+$('#studentMeta').textContent=`${student.name} · Created ${student.created||'date unavailable'} · Course ${META.courseCode}`;
+$('#hours').value=student.teacher.hours||0;$('#integrity').checked=!!student.teacher.integrity;$('#evaluator').checked=!!student.teacher.evaluator;$('#notes').value=student.teacher.notes||'';
+$('#majorList').innerHTML=COURSE.majorAssessments.map(m=>{const r=student.major[m.id]||{};return `<div class="majorRow"><span><strong>${esc(m.title)}</strong><br><small>Week ${m.week} · threshold ${m.threshold}% · ${esc(m.type)}</small></span><label><input type="checkbox" data-submitted="${m.id}" ${r.submitted?'checked':''}> Submitted</label><label>Score<input type="number" min="0" max="100" data-score="${m.id}" value="${Number.isFinite(+r.score)?+r.score:''}"></label></div>`}).join('');
+$('#weeklyApprovalList').innerHTML=COURSE.weeks.map(w=>{const r=student.weekApprovals[w.week]||{};return `<label class="auditItem ${r.approved?'pass':'fail'}"><input type="checkbox" data-weekapproval="${w.week}" ${r.approved?'checked':''}> <strong>Week ${w.week}</strong><span>${esc(w.title)}</span></label>`}).join('');
+$('#checkpointList').innerHTML=COURSE.capstoneCheckpoints.map(c=>{const r=student.capstone[c.id]||{};return `<div class="checkpoint"><label class="checkline"><input type="checkbox" data-cp="${c.id}" ${r.approved?'checked':''}><strong>${c.id.toUpperCase()} · Week ${c.week} · ${esc(c.title)}</strong></label><p>${esc(c.requirement)}</p><label>Evaluator note<input type="text" data-cpnote="${c.id}" value="${esc(r.note||'')}"></label></div>`}).join('');renderAudit()}
+function renderAudit(){if(!student)return;const a=audit(student);$('#auditSummary').innerHTML=`<strong>${a.complete?'FINAL CREDIT ISSUED':a.ready?'READY TO ISSUE CREDIT':'REQUIREMENTS REMAIN'}</strong><p>Semester 1 ${a.s1}% · Semester 2 ${a.s2}% · Overall ${a.ov}% · ${a.g.filter(x=>x.pass).length}/${a.g.length} gates passed.</p>`;$('#auditGrid').innerHTML=a.g.map(g=>`<div class="auditItem ${g.pass?'pass':'fail'}"><strong>${g.pass?'✓':'○'} ${esc(g.label)}</strong><span>${esc(g.value)}</span></div>`).join('');$('#issueCredit').disabled=!a.ready||student.teacher.issued}
+function unlock(){if($('#pass').value===EXPECTED){sessionStorage.setItem('khae12_eval','yes');$('#gate').hidden=true;$('#portal').hidden=false;load();studentOptions()}else $('#gateMsg').textContent='Passcode not accepted.'}
+$('#open').onclick=unlock;$('#pass').onkeydown=e=>{if(e.key==='Enter')unlock()};if(sessionStorage.getItem('khae12_eval')==='yes'){document.addEventListener('DOMContentLoaded',()=>{$('#gate').hidden=true;$('#portal').hidden=false;load();studentOptions()})}
+$('#studentSelect').onchange=()=>{student=db.students.find(s=>s.id===$('#studentSelect').value);db.activeId=student?.id||null;save();renderStudent()};
+$('#saveVerification').onclick=()=>{if(!student)return;student.teacher.hours=+$('#hours').value||0;student.teacher.integrity=$('#integrity').checked;student.teacher.evaluator=$('#evaluator').checked;student.teacher.notes=$('#notes').value;save();renderAudit()};
+$('#saveMajors').onclick=()=>{if(!student)return;COURSE.majorAssessments.forEach(m=>{student.major[m.id]=Object.assign(student.major[m.id]||{},{submitted:document.querySelector(`[data-submitted="${m.id}"]`).checked,score:+document.querySelector(`[data-score="${m.id}"]`).value||0,evaluatorUpdated:new Date().toLocaleString()})});save();renderAudit()};
+$('#saveWeeklyApprovals').onclick=()=>{if(!student)return;COURSE.weeks.forEach(w=>{student.weekApprovals[w.week]={approved:document.querySelector(`[data-weekapproval="${w.week}"]`).checked,updated:new Date().toLocaleString()}});save();renderStudent()};
+$('#saveCheckpoints').onclick=()=>{if(!student)return;COURSE.capstoneCheckpoints.forEach(c=>{student.capstone[c.id]={approved:document.querySelector(`[data-cp="${c.id}"]`).checked,note:document.querySelector(`[data-cpnote="${c.id}"]`).value,updated:new Date().toLocaleString()}});save();renderAudit()};
+$('#issueCredit').onclick=()=>{if(!student)return;const a=audit(student,false);if(!a.ready){alert('Every pre-issuance gate must pass.');return}if(confirm(`Issue 1.0 honors credit to ${student.name}?`)){student.teacher.issued=true;student.teacher.issuedDate=new Date().toISOString().slice(0,10);save();$('#issueMsg').textContent='Final credit issued and recorded.';renderAudit()}};
+$('#revokeCredit').onclick=()=>{if(student&&confirm('Return this record to Incomplete / Credit Not Issued?')){student.teacher.issued=false;student.teacher.issuedDate='';save();$('#issueMsg').textContent='Credit issuance removed pending review.';renderAudit()}};
+</script></body></html>
