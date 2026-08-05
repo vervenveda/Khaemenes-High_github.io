@@ -1,0 +1,131 @@
+{
+  "title": "Week 3 Quiz — Early Humanity and the Agricultural Revolution",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W03Q1",
+      "prompt": "Which term best matches this definition: The period when humans generally lived by hunting, gathering, and fishing.",
+      "choices": [
+        "archaeology",
+        "Paleolithic",
+        "surplus",
+        "domestication"
+      ],
+      "answer": 1,
+      "explanation": "Paleolithic is the course term defined as: The period when humans generally lived by hunting, gathering, and fishing."
+    },
+    {
+      "id": "W03Q2",
+      "prompt": "Which term best matches this definition: The later Stone Age associated in many regions with agriculture and settled communities.",
+      "choices": [
+        "archaeology",
+        "domestication",
+        "Neolithic",
+        "specialization"
+      ],
+      "answer": 2,
+      "explanation": "Neolithic is the course term defined as: The later Stone Age associated in many regions with agriculture and settled communities."
+    },
+    {
+      "id": "W03Q3",
+      "prompt": "Which term best matches this definition: The long-term process of selecting and managing plants or animals for human use.",
+      "choices": [
+        "Neolithic",
+        "Paleolithic",
+        "domestication",
+        "archaeology"
+      ],
+      "answer": 2,
+      "explanation": "Domestication is the course term defined as: The long-term process of selecting and managing plants or animals for human use."
+    },
+    {
+      "id": "W03Q4",
+      "prompt": "Which term best matches this definition: Production beyond immediate consumption needs.",
+      "choices": [
+        "surplus",
+        "Paleolithic",
+        "archaeology",
+        "domestication"
+      ],
+      "answer": 0,
+      "explanation": "Surplus is the course term defined as: Production beyond immediate consumption needs."
+    },
+    {
+      "id": "W03Q5",
+      "prompt": "Which term best matches this definition: The concentration of labor on particular tasks or skills.",
+      "choices": [
+        "specialization",
+        "domestication",
+        "surplus",
+        "Neolithic"
+      ],
+      "answer": 0,
+      "explanation": "Specialization is the course term defined as: The concentration of labor on particular tasks or skills."
+    },
+    {
+      "id": "W03Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 3?",
+      "choices": [
+        "Homo sapiens originated in Africa and migrated over many generations into diverse environments.",
+        "River valleys supported intensive agriculture but required coordinated labor and management.",
+        "Every map simplifies reality and reflects choices about scale, projection, categories, and purpose.",
+        "Complex societies emerged independently in many regions and should not be treated as copies of one model."
+      ],
+      "answer": 0,
+      "explanation": "Homo sapiens originated in Africa and migrated over many generations into diverse environments."
+    },
+    {
+      "id": "W03Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 3?",
+      "choices": [
+        "Archaeology is especially important where written evidence is limited, undeciphered, or produced mainly by elites.",
+        "Agriculture developed independently in several regions rather than spreading from a single universal center.",
+        "Writing and accounting expanded partly because governments and temples needed to track resources and obligations.",
+        "Human settlement is influenced by water, climate, terrain, resources, transportation, and political boundaries."
+      ],
+      "answer": 1,
+      "explanation": "Agriculture developed independently in several regions rather than spreading from a single universal center."
+    },
+    {
+      "id": "W03Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 3?",
+      "choices": [
+        "Migration usually results from interacting push factors, pull factors, networks, and constraints.",
+        "Food surplus supported larger settlements and specialization but also contributed to hierarchy, disease exposure, and conflict.",
+        "Early law codes reveal social priorities and inequalities as well as attempts to regulate conflict.",
+        "Urban design, monuments, and trade goods reveal organization, belief, exchange, and inequality."
+      ],
+      "answer": 1,
+      "explanation": "Food surplus supported larger settlements and specialization but also contributed to hierarchy, disease exposure, and conflict."
+    },
+    {
+      "id": "W03Q9",
+      "prompt": "What is the strongest method for evaluating “Archaeological Evidence from an Early Village”?",
+      "choices": [
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Use only the most dramatic sentence because memorable details are the most reliable."
+      ],
+      "answer": 1,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W03Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "Use the visualization only if it confirms the original claim.",
+        "Assume that every mapped relationship is a direct cause.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+      ],
+      "answer": 3,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: Did agriculture improve human life, or did it exchange some freedoms for new forms of security and inequality?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

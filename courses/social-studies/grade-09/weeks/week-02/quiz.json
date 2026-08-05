@@ -1,0 +1,131 @@
+{
+  "title": "Week 2 Quiz — Geography and Human Systems",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W02Q1",
+      "prompt": "Which term best matches this definition: A precise position expressed through coordinates or another fixed reference.",
+      "choices": [
+        "absolute location",
+        "relative location",
+        "projection",
+        "migration"
+      ],
+      "answer": 0,
+      "explanation": "Absolute Location is the course term defined as: A precise position expressed through coordinates or another fixed reference."
+    },
+    {
+      "id": "W02Q2",
+      "prompt": "Which term best matches this definition: A place described in relation to other places.",
+      "choices": [
+        "absolute location",
+        "human-environment interaction",
+        "scale",
+        "relative location"
+      ],
+      "answer": 3,
+      "explanation": "Relative Location is the course term defined as: A place described in relation to other places."
+    },
+    {
+      "id": "W02Q3",
+      "prompt": "Which term best matches this definition: The relationship between distance on a map and distance on Earth.",
+      "choices": [
+        "scale",
+        "migration",
+        "projection",
+        "relative location"
+      ],
+      "answer": 0,
+      "explanation": "Scale is the course term defined as: The relationship between distance on a map and distance on Earth."
+    },
+    {
+      "id": "W02Q4",
+      "prompt": "Which term best matches this definition: A method of representing Earth’s curved surface on a flat map.",
+      "choices": [
+        "projection",
+        "absolute location",
+        "migration",
+        "human-environment interaction"
+      ],
+      "answer": 0,
+      "explanation": "Projection is the course term defined as: A method of representing Earth’s curved surface on a flat map."
+    },
+    {
+      "id": "W02Q5",
+      "prompt": "Which term best matches this definition: The movement of people from one place to another.",
+      "choices": [
+        "relative location",
+        "absolute location",
+        "projection",
+        "migration"
+      ],
+      "answer": 3,
+      "explanation": "Migration is the course term defined as: The movement of people from one place to another."
+    },
+    {
+      "id": "W02Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 2?",
+      "choices": [
+        "Every map simplifies reality and reflects choices about scale, projection, categories, and purpose.",
+        "Historical knowledge is constructed by comparing evidence rather than accepting a single account.",
+        "River valleys supported intensive agriculture but required coordinated labor and management.",
+        "Homo sapiens originated in Africa and migrated over many generations into diverse environments."
+      ],
+      "answer": 0,
+      "explanation": "Every map simplifies reality and reflects choices about scale, projection, categories, and purpose."
+    },
+    {
+      "id": "W02Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 2?",
+      "choices": [
+        "Human settlement is influenced by water, climate, terrain, resources, transportation, and political boundaries.",
+        "Agriculture developed independently in several regions rather than spreading from a single universal center.",
+        "Writing and accounting expanded partly because governments and temples needed to track resources and obligations.",
+        "A source can be biased and still be useful when its purpose, audience, and context are examined."
+      ],
+      "answer": 0,
+      "explanation": "Human settlement is influenced by water, climate, terrain, resources, transportation, and political boundaries."
+    },
+    {
+      "id": "W02Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 2?",
+      "choices": [
+        "Food surplus supported larger settlements and specialization but also contributed to hierarchy, disease exposure, and conflict.",
+        "Strong historical claims identify uncertainty and explain why selected evidence is persuasive.",
+        "Early law codes reveal social priorities and inequalities as well as attempts to regulate conflict.",
+        "Migration usually results from interacting push factors, pull factors, networks, and constraints."
+      ],
+      "answer": 3,
+      "explanation": "Migration usually results from interacting push factors, pull factors, networks, and constraints."
+    },
+    {
+      "id": "W02Q9",
+      "prompt": "What is the strongest method for evaluating “Comparing World Map Projections”?",
+      "choices": [
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral."
+      ],
+      "answer": 2,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W02Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Use the visualization only if it confirms the original claim.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Assume that every mapped relationship is a direct cause."
+      ],
+      "answer": 2,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How does location shape opportunities, risks, movement, and human choices?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}
