@@ -1,0 +1,85 @@
+{
+  "files": [
+    {
+      "path": "courses/social-studies/README.md",
+      "size": 444,
+      "sha256": "b0c98c22fec3b6969dc6dc35d054f0a006773fdc57808434f218133dfdd0114b"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/404.html",
+      "size": 485,
+      "sha256": "2af02e889af314b4b8ab9a46b46cc9a809d028ce511a808f663d6b7b6018aed3"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/GRADE11_PERSONAL_FINANCE_RELEASE.md",
+      "size": 393,
+      "sha256": "c8592cde60cd51c0824234abefea4996fd0762f5d659de1464e0771cb3683ab2"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/GRADE11_PERSONAL_FINANCE_VALIDATION.md",
+      "size": 818,
+      "sha256": "6ae584920737a5f023d16a4224ef43240c8db9b2e3a19e089aace15592dc2120"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/LICENSE.md",
+      "size": 510,
+      "sha256": "8ab5865c1c1b9920bb1195efcf0746d91e6cbd47b9b65cc69f3665996da466e3"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/README.md",
+      "size": 1344,
+      "sha256": "07a2f3a5356970266dcd72b78d2b5bab690bde6e32e9b8e70b4d9235ba556c12"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/STANDARDS_CROSSWALK.md",
+      "size": 5477,
+      "sha256": "c2d97bc3a0a09bee2a367e8de1ecf634d2a09e3dea047b40104df0e9d67e336d"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/app.js",
+      "size": 23308,
+      "sha256": "cfa2b09f286f39071fde1e63a7e84e0791baa4d969930cb64632f2999e88b839"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/certificate.html",
+      "size": 1876,
+      "sha256": "e79028b73a91ac1712236ed260cb454c70c20ff42d832935a2c7edf04b348717"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/course-data.js",
+      "size": 455286,
+      "sha256": "2301b3317c9b67810f346066151929f35d516b6390135c1091b7e386c479a4a8"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/index.html",
+      "size": 4594,
+      "sha256": "d3c8861adb2c8816c18c55d1cdd22ccb30b7bf32cee15f6d0a9fe2ed5ba7e53c"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/manifest.webmanifest",
+      "size": 465,
+      "sha256": "3ec3858de680c48b8a1a4602d80991a49371d29a520dc8cbe5fb2d4498fba429"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/offline.html",
+      "size": 620,
+      "sha256": "9fd3c2b69e9288303e65cb455934b66be749d693148c5fcc19ce3639748152db"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/service-worker.js",
+      "size": 822,
+      "sha256": "8b935d6f9bfcdf68eb117d14dd833f57adb1e80f8c7a1efc004ba805a0469cd5"
+    },
+    {
+      "path": "courses/social-studies/grade-11/personal-finance/styles.css",
+      "size": 9395,
+      "sha256": "32e75321cd6b3ae09652913622c3dcf836504af02f0f9a861db6e1e52ba83c0e"
+    },
+    {
+      "path": "courses/social-studies/index.html",
+      "size": 3664,
+      "sha256": "dea379bde1585bd9cdcae615d11ce88a022735009259bd47e8113cb6deab641e"
+    }
+  ],
+  "file_count": 16
+}
