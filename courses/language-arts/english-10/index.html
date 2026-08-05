@@ -1,409 +1,962 @@
-<!doctype html>
-<html lang="en" data-theme="light">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="A comprehensive 36-week English II course with 12 units, 180 daily lessons, assessments, records, rubrics, and local progress tracking.">
-<meta name="theme-color" content="#111b2b">
-<title>10th Grade Language Arts · English II</title>
-<link rel="canonical" href="https://vervenveda.com/Khaemenes_High.github.io/courses/language-arts/english-10/index.html">
-<link rel="stylesheet" href="assets/course.css">
-<link rel="manifest" href="manifest.webmanifest">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>10th Grade Language Arts & Literature — 36 Week Student Portal</title>
+<style>
+:root{
+  --bg:#0d111a; --panel:#141b29; --panel2:#192235; --ink:#f7f2e8; --muted:#bdc6d4;
+  --gold:#d9b65d; --blue:#7db7ff; --green:#8ee6b0; --red:#ff9b9b; --line:rgba(255,255,255,.14);
+  --card:#101725; --white:#fff; --shadow:0 18px 50px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:radial-gradient(circle at top left,#1c2a44 0,#0d111a 45%,#07090f 100%);color:var(--ink);font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+button,input,select,textarea{font:inherit}
+button{border:0;border-radius:14px;padding:.72rem .95rem;background:var(--gold);color:#17120a;font-weight:800;cursor:pointer;box-shadow:0 8px 22px rgba(217,182,93,.16)}
+button.secondary{background:#26344f;color:var(--ink);box-shadow:none;border:1px solid var(--line)}
+button.danger{background:#4d2630;color:#ffe8e8;border:1px solid #8d3c4b}
+button.ghost{background:transparent;color:var(--gold);border:1px solid rgba(217,182,93,.45);box-shadow:none}
+button:focus,input:focus,select:focus,textarea:focus{outline:3px solid rgba(125,183,255,.35);outline-offset:2px}
+a{color:var(--blue)}
+.app{display:grid;grid-template-columns:310px 1fr;min-height:100vh}
+.sidebar{background:rgba(10,14,23,.86);border-right:1px solid var(--line);padding:18px;position:sticky;top:0;align-self:start;height:100vh;overflow:auto;backdrop-filter:blur(10px)}
+.brand{display:flex;gap:12px;align-items:center;margin-bottom:16px}
+.seal{width:44px;height:44px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-weight:900;background:rgba(217,182,93,.08)}
+.brand h1{font-size:1.05rem;margin:0;line-height:1.15}
+.brand p{margin:.2rem 0 0;color:var(--muted);font-size:.84rem}
+.studentBox,.navBox{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:18px;padding:14px;margin:14px 0}
+label{display:block;color:var(--muted);font-size:.85rem;margin:.25rem 0 .35rem}
+input,select,textarea{width:100%;border:1px solid var(--line);background:#0a101c;color:var(--ink);border-radius:12px;padding:.75rem}
+textarea{min-height:86px;resize:vertical}
+.inline{display:flex;gap:8px;align-items:center}
+.inline > *{flex:1}
+.navBtn{display:block;width:100%;text-align:left;margin:7px 0;background:#121a2b;color:var(--ink);box-shadow:none;border:1px solid var(--line);font-weight:700}
+.navBtn.active{border-color:var(--gold);background:rgba(217,182,93,.12)}
+.main{padding:24px;max-width:1280px;width:100%;margin:0 auto}
+.hero{background:linear-gradient(135deg,rgba(217,182,93,.14),rgba(125,183,255,.10));border:1px solid var(--line);border-radius:26px;padding:24px;box-shadow:var(--shadow);margin-bottom:18px}
+.hero h2{font-size:clamp(1.6rem,3vw,2.8rem);margin:0 0 8px}
+.hero p{color:var(--muted);max-width:900px;line-height:1.65;margin:.35rem 0}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}
+.tab{background:#151e30;color:var(--ink);box-shadow:none;border:1px solid var(--line)}
+.tab.active{background:var(--gold);color:#17120a}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.card{background:rgba(20,27,41,.92);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 12px 35px rgba(0,0,0,.18)}
+.card h3,.card h4{margin:.1rem 0 .65rem}
+.card p,.card li{line-height:1.62;color:#d7deea}
+.kpi{grid-column:span 3;text-align:center}
+.kpi strong{display:block;font-size:2rem;color:var(--gold)}
+.kpi span{color:var(--muted);font-size:.88rem}
+.col4{grid-column:span 4}.col6{grid-column:span 6}.col8{grid-column:span 8}.col12{grid-column:span 12}
+.weekList{display:grid;gap:7px;max-height:50vh;overflow:auto;padding-right:3px}
+.weekButton{display:grid;grid-template-columns:1fr auto;gap:6px;align-items:center;background:#101827;color:var(--ink);border:1px solid var(--line);box-shadow:none;text-align:left;padding:10px;border-radius:14px}
+.weekButton.active{border-color:var(--gold);background:rgba(217,182,93,.12)}
+.pill{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:999px;padding:.25rem .55rem;color:var(--muted);font-size:.78rem;margin:.15rem .15rem .15rem 0}
+.pill.good{color:#baf6d0;border-color:rgba(142,230,176,.5);background:rgba(142,230,176,.08)}
+.pill.warn{color:#ffe6a5;border-color:rgba(217,182,93,.5);background:rgba(217,182,93,.08)}
+.pill.bad{color:#ffd3d3;border-color:rgba(255,155,155,.55);background:rgba(255,155,155,.08)}
+.lesson{border:1px solid var(--line);background:#101827;border-radius:18px;padding:15px;margin:12px 0}
+.lessonHeader{display:flex;gap:10px;justify-content:space-between;align-items:flex-start}
+.check{display:flex;gap:8px;align-items:center;color:var(--green);font-weight:800}
+.check input{width:auto}
+.quizQ{border:1px solid var(--line);border-radius:16px;background:#0b111d;padding:14px;margin:12px 0}
+.quizQ p{margin:.2rem 0 .8rem;color:var(--ink)}
+.choice{display:block;margin:8px 0;padding:9px 10px;border-radius:12px;background:#121b2d;border:1px solid rgba(255,255,255,.08);cursor:pointer}
+.choice input{width:auto;margin-right:8px}
+.score{font-size:1.5rem;color:var(--gold);font-weight:900}
+.progressbar{height:12px;border-radius:999px;background:#080d17;overflow:hidden;border:1px solid var(--line)}
+.progressbar span{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--green));width:0%}
+table{width:100%;border-collapse:collapse}
+th,td{border-bottom:1px solid var(--line);padding:.72rem;text-align:left;vertical-align:top}
+th{color:var(--gold);font-size:.85rem}
+td{color:#d8deea}
+.notice{border-left:4px solid var(--gold);padding:12px 14px;background:rgba(217,182,93,.08);border-radius:14px;color:#f5e8c4}
+.small{font-size:.88rem;color:var(--muted)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.hidden{display:none !important}
+.footer{color:var(--muted);font-size:.85rem;margin:26px 0}
+
+.readingCard{border:1px solid rgba(217,182,93,.38);background:linear-gradient(135deg,rgba(217,182,93,.10),rgba(125,183,255,.07));border-radius:14px;padding:16px;margin:14px 0}
+.readingCard h4{font-size:1.15rem;margin:.15rem 0}.readingMeta{display:flex;flex-wrap:wrap;gap:6px;margin:.45rem 0}
+.interactiveLab{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;margin-top:14px}.labPanel{grid-column:span 6;border:1px solid var(--line);background:#0d1524;border-radius:14px;padding:15px}.labPanel.full{grid-column:span 12}
+.fieldGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.fieldGrid .full{grid-column:1/-1}
+.annotationGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.annotationItem{display:flex;align-items:flex-start;gap:8px;border:1px solid var(--line);background:#111b2c;border-radius:10px;padding:9px}.annotationItem input{width:auto;margin-top:3px}
+.vocabGrid{display:grid;gap:10px}.vocabRow{display:grid;grid-template-columns:minmax(110px,.7fr) 1fr 1.3fr;gap:8px;align-items:start;border-bottom:1px solid var(--line);padding-bottom:10px}.vocabWord{color:var(--gold);font-weight:800;padding-top:.7rem}
+.materialGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.materialItem{border:1px solid var(--line);background:#111a2a;border-radius:10px;padding:10px}.materialItem strong{display:block;color:var(--ink)}
+.timer{display:flex;flex-wrap:wrap;align-items:center;gap:8px}.timerDisplay{font-variant-numeric:tabular-nums;font-size:1.25rem;color:var(--gold);font-weight:800;min-width:82px}
+.feedback{border-left:4px solid var(--blue);background:rgba(125,183,255,.08);border-radius:10px;padding:10px;margin:8px 0}.feedback.good{border-left-color:var(--green);background:rgba(142,230,176,.08)}.feedback.bad{border-left-color:var(--red);background:rgba(255,155,155,.08)}
+.courseLink{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:10px;padding:.72rem .95rem;background:#26344f;color:var(--ink);border:1px solid var(--line);font-weight:800}
+details.materials summary{cursor:pointer;color:var(--gold);font-weight:800}.packetNote{font-size:.82rem;color:var(--muted)}
+
+.extraCreditCard{border:1px solid rgba(142,230,176,.42);background:linear-gradient(135deg,rgba(142,230,176,.10),rgba(125,183,255,.06));border-radius:16px;padding:16px;margin:14px 0}
+.extraCreditCard h4{margin:.1rem 0 .65rem}.extraCreditCard .check{white-space:normal}
+.sourceButtons{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.resourceGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.resourceCard{display:flex;flex-direction:column;min-height:215px}.resourceCard .courseLink{margin-top:auto;align-self:flex-start}
+.resourceCard .pill{align-self:flex-start}.sourceNote{font-size:.82rem;color:var(--muted);margin-top:8px}
+@media(max-width:930px){.resourceGrid{grid-template-columns:1fr 1fr}}
+@media(max-width:650px){.resourceGrid{grid-template-columns:1fr}}
+
+@media(max-width:760px){.labPanel{grid-column:span 12}.fieldGrid,.annotationGrid,.materialGrid{grid-template-columns:1fr}.vocabRow{grid-template-columns:1fr}.vocabWord{padding-top:0}}
+
+@media(max-width:930px){
+  .app{grid-template-columns:1fr}
+  .sidebar{position:relative;height:auto}
+  .main{padding:14px}
+  .kpi,.col4,.col6,.col8,.col12{grid-column:span 12}
+  .weekList{max-height:240px}
+}
+@media print{
+  body{background:#fff;color:#111}
+  .sidebar,.tabs,.actions,.noPrint,button,input,select,textarea{display:none !important}
+  .main{padding:0;max-width:none}
+  .card,.hero{box-shadow:none;border:1px solid #bbb;background:#fff;color:#111}
+  .card p,.card li,td{color:#111}
+  th{color:#111}
+}
+</style>
 </head>
 <body>
-<a class="skip" href="#main">Skip to main content</a>
-<header class="site-header"><div class="wrap header-inner">
-<a class="brand" href="index.html"><span class="brand-mark">KA</span><span class="brand-copy"><strong>Khaemenes Academy</strong><small>English II · Grade 10</small></span></a>
-<div class="header-actions"><a class="nav-button" href="../../../index.html">High School</a><a class="nav-button" href="../index.html">Language Arts</a><a class="nav-button" href="index.html">English 10</a><button class="icon-button" type="button" data-theme-toggle>Dark</button></div>
-</div></header><nav class="breadcrumb" aria-label="Breadcrumb"><div class="wrap"><a href="../../../index.html">High School</a><span>›</span><a href="../index.html">Language Arts</a><span>›</span><span aria-current="page">English 10</span></div></nav>
-<main id="main">
-<section class="hero"><div class="wrap">
-<p class="eyebrow">Khaemenes High · English II</p>
-<h1>10th Grade Language Arts</h1>
-<p class="comment">A complete 36-week course in reading, writing, rhetoric, research, discussion, language, media, and reflection.</p>
-<p class="lead">Twelve three-week units guide students through 180 Monday–Friday lessons, weekly mastery checks, unit assessments, a cumulative midterm, a cumulative final, portfolio work, printable records, and repeatable practice.</p>
-<div class="actions"><a class="btn primary" href="weeks/week-01/index.html">Begin Week 1</a><a class="btn" href="#units">Explore Units</a><a class="btn" href="assessments/index.html">Assessments</a><a class="btn" href="records/index.html">Student Records</a></div>
-</div></section>
-<nav class="quick-nav"><div class="wrap"><a href="#dashboard">Dashboard</a><a href="#units">12 Units</a><a href="#weeks">36 Weeks</a><a href="#course-tools">Course Tools</a><a href="#profile">Profile</a></div></nav>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="seal">10</div>
+      <div>
+        <h1>10th Grade Language Arts</h1>
+        <p>36 Week Student Portal</p>
+      </div>
+    </div>
 
-<section id="dashboard"><div class="wrap">
-<div class="section-head"><p class="eyebrow">Local Student Dashboard</p><h2>Progress remains in this browser until you export it.</h2></div>
-<div class="kpi-grid">
-<div class="kpi"><strong data-stat="lessons">0%</strong><span>Daily lesson completion</span></div>
-<div class="kpi"><strong data-stat="quiz">—</strong><span>Weekly quiz average</span></div>
-<div class="kpi"><strong data-stat="unit">—</strong><span>Unit assessment average</span></div>
-<div class="kpi"><strong data-stat="grade">—</strong><span>Current weighted grade</span></div>
+    <div class="studentBox">
+      <label for="studentSelect">Active student</label>
+      <select id="studentSelect"></select>
+      <div class="inline" style="margin-top:8px">
+        <input id="studentName" placeholder="New student name">
+        <button id="addStudentBtn" title="Add student">Add</button>
+      </div>
+      <div class="actions">
+        <button class="secondary" id="demoBtn">Add Demo</button>
+        <button class="danger" id="deleteStudentBtn">Delete</button>
+      </div>
+    </div>
+
+    <div class="navBox">
+      <button class="navBtn active" data-view="dashboard">Dashboard</button>
+      <button class="navBtn" data-view="week">Lessons</button>
+      <button class="navBtn" data-view="scope">36 Week Scope</button>
+      <button class="navBtn" data-view="exams">Midterm & Final</button>
+      <button class="navBtn" data-view="reports">Reports</button>
+      <button class="navBtn" data-view="tools">Course Tools</button>
+      <button class="navBtn" data-view="standards">Standards & Sources</button>
+    </div>
+
+    <div class="navBox">
+      <h3 style="margin:0 0 8px">Weeks</h3>
+      <div class="weekList" id="weekList"></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <section class="hero">
+      <h2 id="mainTitle">10th Grade Language Arts</h2>
+      <p>This merged 36-week English II portal combines the repository’s twelve units, thirty-six weekly studios, 180 lessons, formal assessment paths, records, rubrics, and portfolio system with the Grade 9-style student workspace, source-linked weekly reading, twelve optional extra-credit opportunities, connected Verve N Veda tools, printable packets, mastery retakes, and progress reports.</p>
+      <p class="small">Local storage only. Use Export Backup regularly if you want to preserve records outside this browser.</p>
+    </section>
+
+    <div class="tabs noPrint" id="tabs">
+      <button class="tab active" data-view="dashboard">Dashboard</button>
+      <button class="tab" data-view="week">Lessons</button>
+      <button class="tab" data-view="scope">Scope</button>
+      <button class="tab" data-view="exams">Tests</button>
+      <button class="tab" data-view="reports">Reports</button>
+      <button class="tab" data-view="tools">Tools</button>
+      <button class="tab" data-view="standards">Standards</button>
+    </div>
+
+    <section id="content"></section>
+    <p class="footer">Khaemenes Academy · English II · 36-week merged student portal · Jennifer Pearl and Autumn Pearl. Verify local school, umbrella, scholarship, district, or evaluator requirements before treating any generated record as official.</p>
+  </main>
 </div>
-<div class="card" style="margin-top:14px"><div class="progress-shell" aria-label="Course lesson progress"><span data-course-progress></span></div><p class="small" data-course-progress-label>0 of 180 daily lessons complete · 0%</p>
-<div class="toolbar no-print"><button class="btn" type="button" data-export-backup>Export Backup</button><label class="btn" for="import-backup">Import Backup</label><input id="import-backup" type="file" accept="application/json" data-import-backup hidden><button class="btn" type="button" data-export-csv>Export Gradebook CSV</button><button class="btn danger" type="button" data-reset-course>Reset Local Course</button></div></div>
-</div></section>
 
-<section class="section-alt" id="units"><div class="wrap">
-<div class="section-head"><p class="eyebrow">Twelve Three-Week Units</p><h2>A deliberate 36-week progression.</h2><p>Each unit contains three complete weeks, a major product, an interactive unit assessment, standards alignment, and portfolio evidence.</p></div>
-<input type="text" data-card-search placeholder="Search units and weeks…" aria-label="Search units and weeks">
-<div class="grid cols-3" style="margin-top:16px"><article class="card unit-card" data-search-card>
-<p class="eyebrow">Term I · Weeks 1–3</p>
-<h3>Unit 01 · Foundations of Scholarly Reading &amp; Writing</h3>
-<p>Establish scholar habits, diagnostic baselines, annotation, inference, paraphrase, summary, academic integrity, and assessment readiness.</p>
-<div class="unit-meta"><span class="tag">Diagnostic portfolio: annotated reading, analytical paragraph, revised writing sample, and reflection.</span></div>
-<a class="btn primary" href="units/unit-01/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term I · Weeks 4–6</p>
-<h3>Unit 02 · Coming-of-Age &amp; Literary Layers</h3>
-<p>Analyze literary elements, coming-of-age experiences, conflicts, point of view, and competing perspectives.</p>
-<div class="unit-meta"><span class="tag">Character and perspective analysis with evidence map and discussion reflection.</span></div>
-<a class="btn primary" href="units/unit-02/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term I · Weeks 7–9</p>
-<h3>Unit 03 · Theme, Voice &amp; Literary Analysis</h3>
-<p>Compare universal themes, examine author style, and complete a formal literary analysis essay through drafting and revision.</p>
-<div class="unit-meta"><span class="tag">Multi-paragraph literary analysis essay and revision memo.</span></div>
-<a class="btn primary" href="units/unit-03/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term II · Weeks 10–12</p>
-<h3>Unit 04 · American Speeches, Essays &amp; Rhetoric</h3>
-<p>Study historical American speeches and essays for structure, central idea, purpose, audience, appeals, devices, and rhetorical effectiveness.</p>
-<div class="unit-meta"><span class="tag">Rhetorical analysis essay on a historical American speech or essay.</span></div>
-<a class="btn primary" href="units/unit-04/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term II · Weeks 13–15</p>
-<h3>Unit 05 · Argument, Debate &amp; Civic Discourse</h3>
-<p>Compare opposing arguments, evaluate validity, write claims and counterclaims, and participate in structured discussion and debate.</p>
-<div class="unit-meta"><span class="tag">Evidence-based argument essay with oral defense or formal debate.</span></div>
-<a class="btn primary" href="units/unit-05/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term II · Weeks 16–18</p>
-<h3>Unit 06 · Synthesis &amp; Midyear Mastery</h3>
-<p>Synthesize information, refine grammar and style, organize portfolio evidence, and complete the cumulative midterm.</p>
-<div class="unit-meta"><span class="tag">Source synthesis project, writing portfolio conference, and cumulative midterm examination.</span></div>
-<a class="btn primary" href="units/unit-06/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term III · Weeks 19–21</p>
-<h3>Unit 07 · Poetry, Ambiguity &amp; Sound</h3>
-<p>Analyze poetic speaker, ambiguity, connotation, figurative language, mood, structure, sound, and comparison.</p>
-<div class="unit-meta"><span class="tag">Comparative poetry analysis essay and expressive reading.</span></div>
-<a class="btn primary" href="units/unit-07/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term III · Weeks 22–24</p>
-<h3>Unit 08 · Classical, Mythic &amp; Religious Adaptation</h3>
-<p>Read mythical, classical, and religious source texts as literature, then compare adaptations across texts and media.</p>
-<div class="unit-meta"><span class="tag">Comparative adaptation essay or multimedia analysis.</span></div>
-<a class="btn primary" href="units/unit-08/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term III · Weeks 25–27</p>
-<h3>Unit 09 · Research Foundations</h3>
-<p>Design research questions, evaluate reliability and bias, take accurate notes, paraphrase, cite, and synthesize.</p>
-<div class="unit-meta"><span class="tag">Research proposal, annotated bibliography, source evaluation matrix, and synthesis paragraph.</span></div>
-<a class="btn primary" href="units/unit-09/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term IV · Weeks 28–30</p>
-<h3>Unit 10 · Research Writing &amp; Digital Publication</h3>
-<p>Write expository and argumentative research products, integrate sources, revise, publish digitally, and present findings.</p>
-<div class="unit-meta"><span class="tag">Research paper, publication-ready digital product, and formal presentation.</span></div>
-<a class="btn primary" href="units/unit-10/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term IV · Weeks 31–33</p>
-<h3>Unit 11 · Drama, Shakespeare &amp; Performance</h3>
-<p>Study dramatic structure, stagecraft, irony, Shakespearean language, rhetoric, interpretation, and performance.</p>
-<div class="unit-meta"><span class="tag">Dramatic analysis and staged or recorded performance with reflection.</span></div>
-<a class="btn primary" href="units/unit-11/index.html">Open Unit</a>
-</article>
-<article class="card unit-card" data-search-card>
-<p class="eyebrow">Term IV · Weeks 34–36</p>
-<h3>Unit 12 · Novel Study, Final Portfolio &amp; Examination</h3>
-<p>Complete a long-form novel study, synthesize themes and perspectives, curate the final portfolio, and complete the final examination.</p>
-<div class="unit-meta"><span class="tag">Novel analysis, student-led portfolio conference, cumulative final examination, and completion certificate.</span></div>
-<a class="btn primary" href="units/unit-12/index.html">Open Unit</a>
-</article></div>
-</div></section>
+<script src="assets/curriculum-data.js"></script>
+<script>
+const RAW_COURSE = window.ELA10_COURSE;
+if(!RAW_COURSE || !Array.isArray(RAW_COURSE.weeks)){
+  document.body.innerHTML = `<main style="max-width:800px;margin:60px auto;padding:24px;color:#fff;font-family:system-ui;background:#141b29;border:1px solid rgba(255,255,255,.15);border-radius:18px"><h1>English II curriculum data was not found.</h1><p>Upload this file as <code>courses/language-arts/english-10/index.html</code> and keep <code>assets/curriculum-data.js</code> in place.</p></main>`;
+  throw new Error("ELA10 curriculum data unavailable");
+}
 
-<section id="weeks"><div class="wrap">
-<div class="section-head"><p class="eyebrow">Weekly Sequence</p><h2>Thirty-six complete Monday–Friday learning cycles.</h2></div>
-<div class="grid cols-3"><article class="card week-card" data-search-card>
-<p class="eyebrow">Week 01 · Unit 01</p>
-<h3>Course Launch, Diagnostic &amp; Scholar Habits</h3>
-<p>How do mature readers and writers establish a truthful starting point for growth?</p>
-<p class="small" data-week-status="1">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-01/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 02 · Unit 01</p>
-<h3>Close Reading, Annotation &amp; Inference</h3>
-<p>How do readers move from noticing details to explaining their significance?</p>
-<p class="small" data-week-status="2">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-02/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 03 · Unit 01</p>
-<h3>Paraphrase, Summary, Academic Integrity &amp; FAST Baseline</h3>
-<p>How can readers preserve source meaning while writing independently and honestly?</p>
-<p class="small" data-week-status="3">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-03/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 04 · Unit 02</p>
-<h3>Literary Elements &amp; Layers of Meaning</h3>
-<p>How do setting, conflict, point of view, and style add layers of meaning?</p>
-<p class="small" data-week-status="4">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-04/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 05 · Unit 02</p>
-<h3>Characterization, Conflict &amp; Coming-of-Age</h3>
-<p>How do coming-of-age experiences reveal tension between innocence and experience?</p>
-<p class="small" data-week-status="5">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-05/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 06 · Unit 02</p>
-<h3>Conflicting Perspectives &amp; Point of View</h3>
-<p>How does an author represent competing ways of seeing the same event or value?</p>
-<p class="small" data-week-status="6">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-06/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 07 · Unit 03</p>
-<h3>Universal Themes Across Texts</h3>
-<p>How do two authors develop a universal theme through different choices?</p>
-<p class="small" data-week-status="7">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-07/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 08 · Unit 03</p>
-<h3>Diction, Syntax, Voice &amp; Tone</h3>
-<p>How do word choice and sentence design shape a writer&#x27;s voice and tone?</p>
-<p class="small" data-week-status="8">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-08/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 09 · Unit 03</p>
-<h3>Literary Analysis Essay &amp; Revision</h3>
-<p>How can a writer explain literary meaning with precision, organization, and insight?</p>
-<p class="small" data-week-status="9">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-09/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 10 · Unit 04</p>
-<h3>Historical American Speeches: Central Ideas &amp; Structure</h3>
-<p>How do historical speeches and essays build central ideas through structure and evidence?</p>
-<p class="small" data-week-status="10">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-10/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 11 · Unit 04</p>
-<h3>Purpose, Audience, Rhetorical Situation &amp; Appeals</h3>
-<p>How do speakers adapt choices to purpose, audience, occasion, and context?</p>
-<p class="small" data-week-status="11">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-11/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 12 · Unit 04</p>
-<h3>Rhetorical Devices, Figurative Language &amp; Analysis Essay</h3>
-<p>How do rhetorical devices and figurative language intensify an argument or message?</p>
-<p class="small" data-week-status="12">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-12/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 13 · Unit 05</p>
-<h3>Opposing Arguments &amp; Validity</h3>
-<p>How can readers compare opposing arguments without misrepresenting either side?</p>
-<p class="small" data-week-status="13">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-13/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 14 · Unit 05</p>
-<h3>Claim, Evidence, Counterclaim &amp; Rebuttal</h3>
-<p>How does a responsible argument acknowledge complexity while defending a clear position?</p>
-<p class="small" data-week-status="14">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-14/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 15 · Unit 05</p>
-<h3>Oral Argument, Discussion &amp; Formal Debate</h3>
-<p>How do speakers defend ideas while listening, questioning, and responding ethically?</p>
-<p class="small" data-week-status="15">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-15/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 16 · Unit 06</p>
-<h3>Expository Synthesis Across Sources</h3>
-<p>How do writers combine multiple sources into one coherent explanation?</p>
-<p class="small" data-week-status="16">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-16/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 17 · Unit 06</p>
-<h3>Grammar, Style, Vocabulary &amp; Writing Portfolio</h3>
-<p>How do language choices increase clarity, authority, and audience fit?</p>
-<p class="small" data-week-status="17">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-17/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 18 · Unit 06</p>
-<h3>Midterm Review, Assessment &amp; Reflection</h3>
-<p>What have I mastered, and which evidence identifies my next priorities?</p>
-<p class="small" data-week-status="18">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-18/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 19 · Unit 07</p>
-<h3>Poetic Speaker, Layers &amp; Ambiguity</h3>
-<p>How do poets create meanings that remain open to more than one defensible interpretation?</p>
-<p class="small" data-week-status="19">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-19/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 20 · Unit 07</p>
-<h3>Figurative Language, Mood &amp; Connotation</h3>
-<p>How do figurative language and connotation create mood?</p>
-<p class="small" data-week-status="20">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-20/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 21 · Unit 07</p>
-<h3>Poetic Structure, Sound &amp; Comparative Analysis</h3>
-<p>How do form, sound, rhythm, and structure guide interpretation?</p>
-<p class="small" data-week-status="21">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-21/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 22 · Unit 08</p>
-<h3>Mythical &amp; Classical Source Texts</h3>
-<p>How do foundational myths and classical texts encode cultural values and recurring conflicts?</p>
-<p class="small" data-week-status="22">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-22/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 23 · Unit 08</p>
-<h3>Religious Texts as Literature &amp; Adaptation</h3>
-<p>How can readers analyze sacred or religious source texts respectfully as literature and cultural influence?</p>
-<p class="small" data-week-status="23">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-23/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 24 · Unit 08</p>
-<h3>Adaptation Across Media &amp; Comparative Essay</h3>
-<p>What is gained, lost, transformed, or emphasized when a source becomes a new work?</p>
-<p class="small" data-week-status="24">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-24/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 25 · Unit 09</p>
-<h3>Research Questions, Scope &amp; Inquiry Design</h3>
-<p>How do researchers turn broad curiosity into a focused, answerable, worthwhile question?</p>
-<p class="small" data-week-status="25">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-25/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 26 · Unit 09</p>
-<h3>Source Reliability, Bias &amp; Lateral Reading</h3>
-<p>How can researchers decide whether a source is reliable, relevant, and valid?</p>
-<p class="small" data-week-status="26">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-26/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 27 · Unit 09</p>
-<h3>Note-Taking, Paraphrase, Citation &amp; Synthesis</h3>
-<p>How do researchers preserve accuracy while combining source ideas ethically?</p>
-<p class="small" data-week-status="27">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-27/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 28 · Unit 10</p>
-<h3>Expository Research Writing</h3>
-<p>How can research explain a complex topic clearly without oversimplifying it?</p>
-<p class="small" data-week-status="28">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-28/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 29 · Unit 10</p>
-<h3>Argument Research Writing</h3>
-<p>How can research support a nuanced position while acknowledging limitations and counterclaims?</p>
-<p class="small" data-week-status="29">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-29/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 30 · Unit 10</p>
-<h3>Digital Publication, Multimedia &amp; Presentation</h3>
-<p>How can design and delivery improve understanding without distorting evidence?</p>
-<p class="small" data-week-status="30">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-30/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 31 · Unit 11</p>
-<h3>Drama Elements, Conflict, Irony &amp; Stagecraft</h3>
-<p>How do stage directions, dialogue, dramatic irony, and performance choices shape meaning?</p>
-<p class="small" data-week-status="31">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-31/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 32 · Unit 11</p>
-<h3>Shakespearean Language, Rhetoric &amp; Performance</h3>
-<p>How do syntax, imagery, rhetoric, and performance unlock Shakespearean meaning?</p>
-<p class="small" data-week-status="32">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-32/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 33 · Unit 11</p>
-<h3>Drama Analysis &amp; Performance Project</h3>
-<p>How can a performance make an interpretation visible and defensible?</p>
-<p class="small" data-week-status="33">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-33/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 34 · Unit 12</p>
-<h3>Long-Form Novel Study: Character, Motif &amp; Structure</h3>
-<p>How does a long-form work develop character and meaning through recurring patterns?</p>
-<p class="small" data-week-status="34">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-34/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 35 · Unit 12</p>
-<h3>Novel Themes, Perspectives &amp; Final Portfolio Conference</h3>
-<p>What evidence from the novel and my portfolio best proves growth and readiness?</p>
-<p class="small" data-week-status="35">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-35/index.html">Open Week</a>
-</article>
-<article class="card week-card" data-search-card>
-<p class="eyebrow">Week 36 · Unit 12</p>
-<h3>Final Review, Final Examination &amp; Completion</h3>
-<p>How can I demonstrate transfer, correct misunderstandings, and plan for English III?</p>
-<p class="small" data-week-status="36">0/5 lessons · Quiz —</p>
-<a class="btn primary" href="weeks/week-36/index.html">Open Week</a>
-</article></div>
-</div></section>
+const READING_SUGGESTIONS = [{"title":"The Story of an Hour","author":"Kate Chopin","genre":"Short fiction","purpose":"Establish a diagnostic baseline by tracing inference, evidence, and the gap between appearance and realization.","sources":[{"label":"Project Gutenberg title search","url":"https://www.gutenberg.org/ebooks/search/?query=The+Story+of+an+Hour+Kate+Chopin"},{"label":"English II reading list","url":"reading-list.html"}]},{"title":"The Open Window","author":"Saki","genre":"Short fiction","purpose":"Practice purposeful annotation, inference, reliability, and the significance of carefully selected details.","sources":[{"label":"Project Gutenberg · Beasts and Super-Beasts","url":"https://www.gutenberg.org/ebooks/269"}]},{"title":"Civil Disobedience — selected excerpt","author":"Henry David Thoreau","genre":"Essay","purpose":"Practice accurate paraphrase, concise summary, attribution, and independent source use.","sources":[{"label":"Project Gutenberg title search","url":"https://www.gutenberg.org/ebooks/search/?query=Civil+Disobedience+Henry+David+Thoreau"}]},{"title":"A White Heron","author":"Sarah Orne Jewett","genre":"Short fiction","purpose":"Analyze how setting, conflict, point of view, and style work together to create layered meaning.","sources":[{"label":"Project Gutenberg title search","url":"https://www.gutenberg.org/ebooks/search/?query=A+White+Heron+Sarah+Orne+Jewett"}]},{"title":"The Red Badge of Courage — selected chapters","author":"Stephen Crane","genre":"Novel excerpt","purpose":"Trace character growth, conflicting motives, disillusionment, and the movement from innocence toward experience.","sources":[{"label":"Project Gutenberg · The Red Badge of Courage","url":"https://www.gutenberg.org/ebooks/73"}]},{"title":"The Lady, or the Tiger?","author":"Frank R. Stockton","genre":"Short fiction","purpose":"Compare competing perspectives and explain how point of view, ambiguity, and bias shape interpretation.","sources":[{"label":"Project Gutenberg title search","url":"https://www.gutenberg.org/ebooks/search/?query=The+Lady+or+the+Tiger+Frank+R+Stockton"}]},{"title":"The Necklace and The Gift of the Magi","author":"Guy de Maupassant and O. Henry","genre":"Paired short fiction","purpose":"Compare how different authors develop universal themes through conflict, irony, choice, and consequence.","sources":[{"label":"Project Gutenberg · The Necklace search","url":"https://www.gutenberg.org/ebooks/search/?query=The+Necklace+Guy+de+Maupassant"},{"label":"Project Gutenberg · The Four Million","url":"https://www.gutenberg.org/ebooks/2776"}]},{"title":"The Fall of the House of Usher","author":"Edgar Allan Poe","genre":"Gothic short fiction","purpose":"Study diction, syntax, cadence, imagery, voice, and tone, then imitate style without copying content.","sources":[{"label":"Project Gutenberg title search","url":"https://www.gutenberg.org/ebooks/search/?query=The+Fall+of+the+House+of+Usher+Edgar+Allan+Poe"}]},{"title":"The Cask of Amontillado","author":"Edgar Allan Poe","genre":"Short fiction","purpose":"Develop a formal literary analysis with a defensible thesis, integrated evidence, sustained commentary, and revision.","sources":[{"label":"Project Gutenberg title search","url":"https://www.gutenberg.org/ebooks/search/?query=The+Cask+of+Amontillado+Edgar+Allan+Poe"}]},{"title":"Gettysburg Address","author":"Abraham Lincoln","genre":"Historical speech","purpose":"Trace central ideas, structure, compression, historical context, and the relationship between evidence and conclusion.","sources":[{"label":"U.S. National Archives","url":"https://www.archives.gov/milestone-documents/gettysburg-address"}]},{"title":"Ain’t I a Woman? — teacher-approved transcript","author":"Sojourner Truth","genre":"Historical speech","purpose":"Analyze rhetorical situation, audience, purpose, appeals, repetition, and the complications of historical transcription.","sources":[{"label":"Library of Congress resource guide","url":"https://guides.loc.gov/sojourner-truth"},{"label":"Library of Congress narrative and transcript source","url":"https://www.loc.gov/item/29025244/"}]},{"title":"What to the Slave Is the Fourth of July? — selected excerpt","author":"Frederick Douglass","genre":"Historical speech","purpose":"Move beyond naming rhetorical devices to evaluate how language, structure, and appeals serve purpose and audience.","sources":[{"label":"Library of Congress newspaper source","url":"https://www.loc.gov/resource/sn84026366/1852-07-09/ed-1/?dl=page&sp=2"}]},{"title":"Federalist No. 10 and Brutus I — selected excerpts","author":"James Madison and Brutus","genre":"Opposing civic arguments","purpose":"Compare opposing claims, assumptions, evidence, reasoning, validity, and rhetorical effectiveness without distortion.","sources":[{"label":"Yale Avalon Project · Federalist No. 10","url":"https://avalon.law.yale.edu/18th_century/fed10.asp"},{"label":"PLERA Search Pro · locate Brutus I edition","url":"https://vervenveda.com/PLERASearch.github.io/apps/PLERA_search_pro_index.html"}]},{"title":"Common Sense and Letters from a Farmer in Pennsylvania — selected excerpts","author":"Thomas Paine and John Dickinson","genre":"Political essays","purpose":"Build a responsible written argument using credible evidence, qualification, counterclaim, and rebuttal.","sources":[{"label":"Project Gutenberg · Common Sense","url":"https://www.gutenberg.org/ebooks/147"},{"label":"Project Gutenberg · John Dickinson search","url":"https://www.gutenberg.org/ebooks/search/?query=Letters+from+a+Farmer+in+Pennsylvania+John+Dickinson"}]},{"title":"Lincoln–Douglas Debates — selected exchange","author":"Abraham Lincoln and Stephen A. Douglas","genre":"Debate transcript","purpose":"Practice oral argument, active listening, questioning, rebuttal, clarity, civility, and evidence-based response.","sources":[{"label":"Project Gutenberg · Lincoln–Douglas Debates, Volume 3","url":"https://www.gutenberg.org/ebooks/2655"},{"label":"Project Gutenberg · Lincoln–Douglas Debates, Volume 4","url":"https://www.gutenberg.org/ebooks/2656"}]},{"title":"Self-Reliance and Civil Disobedience — selected excerpts","author":"Ralph Waldo Emerson and Henry David Thoreau","genre":"Paired essays","purpose":"Synthesize complementary and contrasting source ideas around a coherent controlling idea.","sources":[{"label":"Project Gutenberg · Self-Reliance search","url":"https://www.gutenberg.org/ebooks/search/?query=Self-Reliance+Ralph+Waldo+Emerson"},{"label":"Project Gutenberg · Civil Disobedience search","url":"https://www.gutenberg.org/ebooks/search/?query=Civil+Disobedience+Henry+David+Thoreau"}]},{"title":"Student Writing Portfolio and Mentor Sentences","author":"Student and teacher-selected models","genre":"Writing portfolio","purpose":"Diagnose recurring convention, vocabulary, fluency, and style patterns, then document purposeful revision.","sources":[{"label":"English II portfolio","url":"portfolio/"},{"label":"English II rubrics","url":"rubrics/"}]},{"title":"Midyear Unfamiliar Passage Set","author":"Teacher-selected public-domain authors","genre":"Cumulative literary and informational reading","purpose":"Transfer semester skills to unfamiliar texts, correct errors, and establish evidence-based next-step goals.","sources":[{"label":"English II cumulative midterm","url":"assessments/midterm/"},{"label":"Arshif Reading Room","url":"https://vervenveda.com/Arshif.github.io/apps/Reading_room_index.html"}]},{"title":"Because I could not stop for Death and I heard a Fly buzz—when I died—","author":"Emily Dickinson","genre":"Poetry","purpose":"Separate speaker from poet and support more than one defensible interpretation of image, voice, and ambiguity.","sources":[{"label":"Poetry Foundation · Because I could not stop for Death","url":"https://www.poetryfoundation.org/poems/47652/because-i-could-not-stop-for-death-479"},{"label":"Poetry Foundation · Dickinson search","url":"https://www.poetryfoundation.org/poets/emily-dickinson"}]},{"title":"The Raven and We Wear the Mask","author":"Edgar Allan Poe and Paul Laurence Dunbar","genre":"Paired poetry","purpose":"Explain how imagery, connotation, figurative language, repetition, and sound accumulate to create mood.","sources":[{"label":"Poetry Foundation · The Raven","url":"https://www.poetryfoundation.org/poems/48860/the-raven"},{"label":"Poetry Foundation · We Wear the Mask","url":"https://www.poetryfoundation.org/poems/44203/we-wear-the-mask"}]},{"title":"Sonnet 73 and selected Dickinson lyric","author":"William Shakespeare and Emily Dickinson","genre":"Paired poetry","purpose":"Compare how form, rhythm, sound, lineation, and structural turns reinforce or complicate meaning.","sources":[{"label":"Poetry Foundation · Sonnet 73","url":"https://www.poetryfoundation.org/poems/45099/sonnet-73-that-time-of-year-thou-mayst-in-me-behold"},{"label":"Poetry Foundation · Emily Dickinson","url":"https://www.poetryfoundation.org/poets/emily-dickinson"}]},{"title":"Daedalus and Icarus from Metamorphoses","author":"Ovid","genre":"Classical myth","purpose":"Identify archetype, cultural value, conflict, etymology, source patterns, and later literary allusions.","sources":[{"label":"Project Gutenberg · Metamorphoses search","url":"https://www.gutenberg.org/ebooks/search/?query=Metamorphoses+Ovid+Daedalus+Icarus"}]},{"title":"The Parable of the Prodigal Son and a teacher-approved adaptation","author":"Traditional sacred text and later adapter","genre":"Religious source and adaptation","purpose":"Practice respectful literary analysis by distinguishing textual comparison from theological judgment.","sources":[{"label":"Project Gutenberg · King James Bible","url":"https://www.gutenberg.org/ebooks/10"},{"label":"Arshif Bible Context","url":"https://vervenveda.com/Arshif.github.io/apps/Bible_context_index.html"}]},{"title":"Pygmalion from Metamorphoses and Pygmalion","author":"Ovid and George Bernard Shaw","genre":"Classical source and drama","purpose":"Evaluate what an adaptation preserves, changes, omits, or emphasizes for a new medium, audience, and purpose.","sources":[{"label":"Project Gutenberg · Ovid search","url":"https://www.gutenberg.org/ebooks/search/?query=Pygmalion+Ovid+Metamorphoses"},{"label":"Project Gutenberg · Pygmalion by Shaw","url":"https://www.gutenberg.org/ebooks/3825"}]},{"title":"The Souls of Black Folk — selected inquiry-rich excerpt","author":"W. E. B. Du Bois","genre":"Essay","purpose":"Turn broad curiosity into a focused research question, subquestions, keywords, scope, purpose, and feasible plan.","sources":[{"label":"Project Gutenberg · The Souls of Black Folk","url":"https://www.gutenberg.org/ebooks/408"}]},{"title":"Mixed Source Reliability Set","author":"Teacher-selected institutional, journalistic, scholarly, advocacy, and weak sources","genre":"Research source set","purpose":"Use lateral reading to investigate authorship, evidence, purpose, currency, corroboration, bias, and limitations.","sources":[{"label":"The Verifier · Live Research News","url":"https://vervenveda.com/theverifier.github.io/apps/Live_Research_News_index.html"},{"label":"PLERA Search Pro","url":"https://vervenveda.com/PLERASearch.github.io/apps/PLERA_search_pro_index.html"}]},{"title":"Narrative of the Life of Frederick Douglass — selected chapters and scholarship","author":"Frederick Douglass and teacher-approved secondary sources","genre":"Primary and secondary sources","purpose":"Practice traceable notes, accurate paraphrase, signal phrases, citation, attribution, and synthesis.","sources":[{"label":"Library of Congress · Narrative of Frederick Douglass","url":"https://www.loc.gov/resource/lhbcb.25385/?st=text"},{"label":"Project Gutenberg · Narrative of Frederick Douglass","url":"https://www.gutenberg.org/ebooks/23"}]},{"title":"The Education of Henry Adams — selected excerpt and research models","author":"Henry Adams","genre":"Memoir and mentor research writing","purpose":"Organize research by ideas and relationships while maintaining a formal explanatory voice and coherent source integration.","sources":[{"label":"Project Gutenberg · The Education of Henry Adams","url":"https://www.gutenberg.org/ebooks/2044"}]},{"title":"The Jungle — selected excerpt with reform-era source set","author":"Upton Sinclair and teacher-selected sources","genre":"Novel excerpt and research sources","purpose":"Build a nuanced research argument that acknowledges credible counterclaims, limitations, and implications.","sources":[{"label":"Project Gutenberg · The Jungle","url":"https://www.gutenberg.org/ebooks/140"},{"label":"The Verifier · research comparison","url":"https://vervenveda.com/theverifier.github.io/apps/Live_Research_News_index.html"}]},{"title":"Student-Selected Publication Models","author":"Teacher-approved writers and presenters","genre":"Digital publication and presentation","purpose":"Study how headings, captions, design, accessibility, media, and delivery improve understanding without distorting evidence.","sources":[{"label":"The Verifier · Arts and Humanities","url":"https://vervenveda.com/theverifier.github.io/columns/arts_humanities_index.html"},{"label":"English II portfolio","url":"portfolio/"}]},{"title":"A Doll’s House — selected act or complete play","author":"Henrik Ibsen","genre":"Drama","purpose":"Analyze stage directions, dialogue, conflict, dramatic irony, audience knowledge, and performance-dependent meaning.","sources":[{"label":"Project Gutenberg · A Doll’s House","url":"https://www.gutenberg.org/ebooks/2542"}]},{"title":"Macbeth — selected scenes and soliloquies","author":"William Shakespeare","genre":"Drama","purpose":"Use paraphrase, syntax, imagery, rhetoric, subtext, vocal choices, and movement to unlock Shakespearean meaning.","sources":[{"label":"Folger Shakespeare Library · complete play","url":"https://www.folger.edu/explore/shakespeares-works/macbeth/read/"}]},{"title":"Antigone — selected scenes or complete play","author":"Sophocles","genre":"Classical drama","purpose":"Develop, rehearse, perform, and defend a coherent dramatic interpretation grounded in text and stagecraft.","sources":[{"label":"Project Gutenberg title search","url":"https://www.gutenberg.org/ebooks/search/?query=Antigone+Sophocles"}]},{"title":"Independent Novel Choice: Frankenstein, The Time Machine, The Call of the Wild, or The Great Gatsby","author":"Mary Shelley, H. G. Wells, Jack London, or F. Scott Fitzgerald","genre":"Long-form novel","purpose":"Sustain reading while tracking character arcs, motifs, subplots, structural turns, and evolving interpretations.","sources":[{"label":"Project Gutenberg · Frankenstein","url":"https://www.gutenberg.org/ebooks/84"},{"label":"Project Gutenberg · The Time Machine","url":"https://www.gutenberg.org/ebooks/35"},{"label":"Project Gutenberg · The Call of the Wild","url":"https://www.gutenberg.org/ebooks/215"},{"label":"Project Gutenberg · The Great Gatsby","url":"https://www.gutenberg.org/ebooks/64317"}]},{"title":"Independent Novel Choice — completion and synthesis","author":"Student-selected approved novelist","genre":"Long-form novel","purpose":"Synthesize themes and conflicting perspectives, complete the novel analysis, and select portfolio evidence tied to growth.","sources":[{"label":"English II reading list and novel guidance","url":"reading-list.html"},{"label":"English II portfolio","url":"portfolio/"}]},{"title":"Student-Selected Portfolio Passages and Final Unfamiliar Text Set","author":"Multiple authors","genre":"Cumulative reading and reflection","purpose":"Demonstrate independent transfer, correct misunderstandings, curate evidence, and document readiness for English III.","sources":[{"label":"English II final examination","url":"assessments/final/"},{"label":"English II portfolio","url":"portfolio/"}]}];
+const EXTRA_CREDIT = {"3":{"title":"Academic Integrity Source Audit","points":2,"task":"Choose one paragraph from the weekly source. Place the original, a careful paraphrase, and a concise summary side by side. Add attribution and explain how each version preserves meaning without copying the author’s phrasing.","evidence":"Three-column source audit plus a 100–150 word reflection.","tools":[{"label":"PLERA Search Pro","url":"https://vervenveda.com/PLERASearch.github.io/apps/PLERA_search_pro_index.html"}]},"6":{"title":"Perspective Monologue","points":2,"task":"Write a one-page monologue from a secondary character’s perspective. Preserve the original events but reveal a defensible competing interpretation supported by at least three textual details.","evidence":"Monologue with an evidence note identifying the three supporting details.","tools":[{"label":"Arshif Language Hall","url":"https://vervenveda.com/Arshif.github.io/apps/language_hall/"}]},"9":{"title":"Mentor-Style Revision","points":2,"task":"Revise one paragraph twice: once in the style of the weekly author and once in your own mature academic voice. Explain the effect of diction, syntax, rhythm, and tone in each version.","evidence":"Original paragraph, two revisions, and a craft commentary.","tools":[{"label":"Dictionary Box","url":"https://vervenveda.com/Khaemenes_Linguistics.github.io/apps/dictionarybox_index.html"}]},"12":{"title":"Rhetorical Archive Comparison","points":2,"task":"Locate a second historical speech addressing a related issue. Compare its rhetorical situation, structure, strongest appeal, and most important limitation with the required text.","evidence":"One-page comparison with source attribution.","tools":[{"label":"The Verifier Research News","url":"https://vervenveda.com/theverifier.github.io/apps/Live_Research_News_index.html"}]},"15":{"title":"Civic Debate Evidence Brief","points":2,"task":"Prepare a one-page evidence brief for a responsible civic discussion. Include a qualified claim, two credible sources, one fair counterclaim, and a response that does not distort the opposing position.","evidence":"Evidence brief and source-quality checklist.","tools":[{"label":"The Verifier","url":"https://vervenveda.com/theverifier.github.io/"},{"label":"PLERA Search Pro","url":"https://vervenveda.com/PLERASearch.github.io/apps/PLERA_search_pro_index.html"}]},"18":{"title":"Midyear Portfolio Curator’s Note","points":2,"task":"Select three artifacts showing different kinds of growth. Write a curator’s note explaining the original challenge, the revision process, the evidence of improvement, and the next priority.","evidence":"Three-artifact index and 250-word curator’s note.","tools":[{"label":"English II Portfolio","url":"portfolio/"},{"label":"English II Rubrics","url":"rubrics/"}]},"21":{"title":"Poetry Sound Laboratory","points":2,"task":"Record or rehearse two contrasting readings of one poem. Change pace, pause, emphasis, and tone, then explain which interpretation is better supported by sound and structure.","evidence":"Performance notes or recording link plus analytical reflection.","tools":[{"label":"The Refrain · Music 101 Workshop","url":"https://vervenveda.com/the_refrain.github.io/education/Music%20101%20Workshop_index.html"}]},"24":{"title":"Adaptation Storyboard","points":2,"task":"Create a six-panel storyboard adapting one foundational scene for a new time, culture, genre, or medium. Identify what you preserve, change, omit, and emphasize—and why.","evidence":"Six-panel storyboard and adaptation rationale.","tools":[{"label":"Arshif Reading Room","url":"https://vervenveda.com/Arshif.github.io/apps/Reading_room_index.html"}]},"27":{"title":"Lateral-Reading Reliability Audit","points":2,"task":"Select one source from the research set and investigate the author or institution outside the page. Corroborate one central claim and identify one limitation, omission, conflict of interest, or uncertainty.","evidence":"Completed reliability audit with at least three traceable links.","tools":[{"label":"PLERA Search Pro","url":"https://vervenveda.com/PLERASearch.github.io/apps/PLERA_search_pro_index.html"},{"label":"The Verifier","url":"https://vervenveda.com/theverifier.github.io/"}]},"30":{"title":"Accessible Digital Publication","points":2,"task":"Create an accessible one-page publication or presentation excerpt using meaningful headings, concise captions, readable contrast, source credits, alt-text planning, and a clear audience path.","evidence":"Publication sample and accessibility checklist.","tools":[{"label":"The Verifier · Arts and Humanities","url":"https://vervenveda.com/theverifier.github.io/columns/arts_humanities_index.html"}]},"33":{"title":"Director’s Notebook","points":2,"task":"Prepare a director’s notebook for one dramatic scene. Include objectives, subtext, movement, vocal choices, stage picture, key props, and three line-level textual justifications.","evidence":"Director’s notebook and performance rationale.","tools":[{"label":"The Refrain · Music 101 Workshop","url":"https://vervenveda.com/the_refrain.github.io/education/Music%20101%20Workshop_index.html"}]},"36":{"title":"English III Readiness Capstone","points":2,"task":"Select one reading, one writing, one research, and one speaking artifact from the year. Explain how each demonstrates readiness for English III and identify one measurable next-year goal.","evidence":"Four-artifact readiness portfolio and 300-word reflection.","tools":[{"label":"English II Portfolio","url":"portfolio/"},{"label":"Academy Transcript Generator","url":"https://vervenveda.com/Khaemenes_Academy.github.io/Parent_resources/Transcript_generator_index.html"}]}};
+const COURSE_TOOLS = [{"category":"Course","title":"English II Reading List","description":"Teacher-approved text families, public-domain options, long-form reading guidance, and course source notes.","url":"reading-list.html"},{"category":"Course","title":"English II Portfolio","description":"Preserve drafts, revisions, projects, assessment evidence, reflections, and final portfolio selections.","url":"portfolio/"},{"category":"Course","title":"English II Rubrics","description":"Use transparent scoring guides for analysis, argument, research, presentation, performance, and portfolio work.","url":"rubrics/"},{"category":"Course","title":"Student Records","description":"Open the repository gradebook, reading and attendance logs, completion record, and certificate tools.","url":"records/"},{"category":"Reading","title":"Arshif Reading Room","description":"A connected reading and discovery space for literature, source exploration, and independent reading extension.","url":"https://vervenveda.com/Arshif.github.io/apps/Reading_room_index.html"},{"category":"Language","title":"Arshif Language Hall","description":"Explore language, vocabulary, expression, and cross-linguistic resources that support word study and style.","url":"https://vervenveda.com/Arshif.github.io/apps/language_hall/"},{"category":"Vocabulary","title":"Khaemenes Dictionary Box","description":"A quick internal word-reference tool for vocabulary, meaning, context, and revision work.","url":"https://vervenveda.com/Khaemenes_Linguistics.github.io/apps/dictionarybox_index.html"},{"category":"Vocabulary","title":"Word Finder","description":"Use the internal word finder for spelling patterns, word families, vocabulary play, and language enrichment.","url":"https://vervenveda.com/Khaemenes_Linguistics.github.io/apps/Scrabble_word_finder_index.html"},{"category":"Research","title":"PLERA Search Pro","description":"Support focused source discovery, keyword refinement, background research, and cross-checking.","url":"https://vervenveda.com/PLERASearch.github.io/apps/PLERA_search_pro_index.html"},{"category":"Research","title":"The Verifier · Live Research News","description":"Compare current reporting, identify source differences, and practice evidence-aware research and media literacy.","url":"https://vervenveda.com/theverifier.github.io/apps/Live_Research_News_index.html"},{"category":"Arts","title":"The Refrain · Music 101","description":"Support poetry sound study, rhythm, oral interpretation, performance, and multimedia publication.","url":"https://vervenveda.com/the_refrain.github.io/education/Music%20101%20Workshop_index.html"},{"category":"Records","title":"Homeschool Compass","description":"Support planning, documentation, evaluation preparation, and homeschool record organization.","url":"https://vervenveda.com/Khaemenes_Academy.github.io/Parent_resources/Homeschool_compass_index.html"},{"category":"Records","title":"Transcript Generator","description":"Prepare a parent-managed transcript after verified course completion and local reporting review.","url":"https://vervenveda.com/Khaemenes_Academy.github.io/Parent_resources/Transcript_generator_index.html"},{"category":"Support","title":"Mentor Guide","description":"Use Academy mentoring prompts for conferences, goal setting, reflection, and next-step planning.","url":"https://vervenveda.com/Khaemenes_Academy.github.io/higher_learming/apps/Mentor_guide_index.html"}];
 
-<section class="section-alt" id="course-tools"><div class="wrap">
-<div class="section-head"><p class="eyebrow">Connected Course Tools</p><h2>Plan, assess, document, revise, and certify.</h2></div>
-<div class="grid cols-4">
-<article class="card"><h3>Assessments</h3><p>Diagnostic, 12 unit assessments, midterm, and final with repeatable attempts and retained best scores.</p><a class="btn primary" href="assessments/index.html">Open Assessments</a></article>
-<article class="card"><h3>Records</h3><p>Attendance, reading logs, gradebook, annual calendar, progress exports, and completion certificate.</p><a class="btn primary" href="records/index.html">Open Records</a></article>
-<article class="card"><h3>Portfolio</h3><p>Track required artifacts, revision evidence, standards mastery, and conference preparation.</p><a class="btn primary" href="portfolio/index.html">Open Portfolio</a></article>
-<article class="card"><h3>Rubrics</h3><p>Literary analysis, argument, research, narrative, and speaking/performance scoring guides.</p><a class="btn primary" href="rubrics/index.html">Open Rubrics</a></article>
-<article class="card"><h3>Reading List</h3><p>Flexible text families and selection guidance without locking families into one commercial anthology.</p><a class="btn primary" href="reading-list.html">Reading List</a></article>
-<article class="card"><h3>Standards</h3><p>Florida B.E.S.T. benchmark coverage, national crosswalk, and current official source links.</p><a class="btn primary" href="standards.html">Standards</a></article>
-<article class="card"><h3>Teacher Guide</h3><p>Pacing, grading, accommodations, academic integrity, assessment use, and recordkeeping guidance.</p><a class="btn primary" href="teacher-guide.html">Teacher Guide</a></article>
-<article class="card"><h3>Curriculum Data</h3><p>Human-readable JSON containing all units, weeks, daily lessons, standards, and quiz banks.</p><a class="btn primary" href="curriculum.json">Open JSON</a></article>
-</div>
-</div></section>
+const CLASS_MATERIALS = [
+  {title:"Weekly Overview & Reading Plan",type:"Guide"},
+  {title:"Close-Reading Annotation Key",type:"Reference"},
+  {title:"Vocabulary Builder",type:"Interactive organizer"},
+  {title:"Claim–Evidence–Reasoning Chart",type:"Interactive organizer"},
+  {title:"Writing Planner & Revision Checklist",type:"Worksheet"},
+  {title:"Discussion / Seminar Questions",type:"Discussion guide"},
+  {title:"Weekly Exit Ticket",type:"Form"},
+  {title:"Portfolio & Mastery Rubric",type:"Rubric"}
+];
+const pad2 = value => String(value).padStart(2,"0");
+const normalizeQuestion = (question, week) => ({
+  q: question.question,
+  choices: question.choices,
+  answer: question.answer,
+  explain: question.explanation || "Review the week’s target skill and supporting evidence.",
+  skill: question.skill || `Week ${pad2(week.week)} · ${week.title}`
+});
+const quizBank = Object.fromEntries(RAW_COURSE.weeks.map(week => [
+  `week_${pad2(week.week)}`,
+  (week.quiz || []).map(question => normalizeQuestion(question,week))
+]));
+const midterm = [
+  ...RAW_COURSE.weeks.slice(0,18).map(week => normalizeQuestion((week.quiz||[])[0],week)),
+  ...[1,4,7,10,13,16].map(number => {
+    const week = RAW_COURSE.weeks[number-1];
+    return normalizeQuestion((week.quiz||[])[1] || (week.quiz||[])[0],week);
+  })
+];
+const final = RAW_COURSE.weeks.map((week,index) => {
+  const questions = week.quiz || [];
+  return normalizeQuestion(questions[index % Math.max(questions.length,1)] || questions[0],week);
+});
+const APP = {
+  generated: RAW_COURSE.generated || "2026-08-05",
+  courseTitle: "10th Grade Language Arts & Literature — 36 Week Student Portal",
+  passingTarget: Number(RAW_COURSE.passingTarget || 80),
+  weeks: RAW_COURSE.weeks.map(week => {
+    const reading = READING_SUGGESTIONS[week.week-1] || {};
+    const unitLabel = `Unit ${pad2(week.unit)} · ${week.unitTitle}`;
+    return {
+      week: week.week,
+      unit: unitLabel,
+      title: week.title,
+      essentialQuestion: week.essentialQuestion,
+      standards: week.standards || [],
+      reading: week.reading,
+      writingTask: week.writingTask,
+      vocabulary: week.vocabulary || [],
+      quizKey: `week_${pad2(week.week)}`,
+      lessons: (week.lessons || []).map(lesson => ({
+        day: lesson.day,
+        title: lesson.title,
+        objective: lesson.objective,
+        miniLesson: lesson.miniLesson,
+        activity: `${lesson.guidedPractice || ""}${lesson.support ? ` Support options: ${lesson.support}` : ""}`,
+        assignment: `${lesson.independentWork || ""}${lesson.extension ? ` Extension: ${lesson.extension}` : ""}`,
+        evidence: lesson.evidence
+      })),
+      readingSuggestion: {
+        title: reading.title || week.reading,
+        author: reading.author || "Teacher-approved selection",
+        genre: reading.genre || "Grade 10 reading",
+        purpose: reading.purpose || `Use this selection to practice ${week.skillAction || week.title}.`,
+        accessNote: "Use the linked public-domain, institutional, or teacher-approved source. Check local copyright rules when accessing material outside the United States.",
+        sources: Array.isArray(reading.sources) ? reading.sources : []
+      },
+      extraCredit: EXTRA_CREDIT[week.week] || null,
+      classMaterials: CLASS_MATERIALS,
+      discussionQuestions: [
+        `Which detail from ${reading.title || "the weekly reading"} most strongly changes or deepens your interpretation?`,
+        `How does the reading connect to the essential question: ${week.essentialQuestion}`,
+        "What is one reasonable alternate interpretation, perspective, or counterclaim, and what evidence supports or weakens it?",
+        `Which craft, structural, rhetorical, research, or performance choice most directly supports this week’s mastery target: ${week.skillAction || week.title}?`,
+        `What must be revised in the weekly product—${week.writingTask}—before it enters the portfolio?`
+      ],
+      lessonUrl: `weeks/week-${pad2(week.week)}/`,
+      assessmentUrl: week.week === 18 ? "assessments/midterm/" : week.week === 36 ? "assessments/final/" : `assessments/unit-${pad2(week.unit)}/`
+    };
+  }),
+  quizBank,
+  midterm,
+  final,
+  sources: RAW_COURSE.sources || [],
+  tools: COURSE_TOOLS,
+  coreWeeks: 36,
+  midtermAfterWeek: 18,
+  finalAfterWeek: 36,
+  courseDescription: "A 36-week English II / Language Arts II course with advanced weekly reading suggestions, interactive learning tools, printable class packets, mastery checks, research and publication work, portfolio evidence, and local progress records."
+};
+const STORAGE_KEY = "ELA10_36_WEEK_PORTAL_V3";
+let state = loadState();
+let currentView = "dashboard";
+let currentWeek = 1;
 
-<section id="profile"><div class="wrap content-layout">
-<article class="card content-main"><p class="eyebrow">Student Profile</p><h2>Identify the learner and school year.</h2>
-<div class="form-row"><div><label for="student-name">Student name</label><input id="student-name" type="text" data-profile-field="studentName"></div><div><label for="school-year">School year</label><input id="school-year" type="text" data-profile-field="schoolYear" placeholder="2026–2027"></div><div><label for="instructor">Parent / teacher</label><input id="instructor" type="text" data-profile-field="instructor"></div><div><label for="start-date">Start date</label><input id="start-date" type="date" data-profile-field="startDate"></div><div><label for="completion-date">Completion date</label><input id="completion-date" type="date" data-profile-field="completionDate"></div></div>
-</article>
-<aside class="card content-side"><h2>Course Weighting</h2><ul class="clean-list"><li>Weekly quizzes: 30%</li><li>Unit assessments: 25%</li><li>Major projects: 20%</li><li>Midterm: 10%</li><li>Final: 15%</li></ul><p class="notice">Only categories with entered scores are included in the current grade. The teacher remains responsible for reviewing written work and entering project scores.</p></aside>
-</div></section>
-</main>
-<footer class="footer"><div class="wrap footer-inner"><span>Khaemenes Academy · Verve N Veda</span><span>English II · 36 Weeks</span><span>Jennifer Pearl and Autumn Pearl · 2026</span></div></footer>
-<script src="assets/curriculum-data.js"></script><script src="assets/course.js"></script>
-</body></html>
+function $(id){ return document.getElementById(id); }
+function esc(s){ return String(s ?? "").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+function pct(n){ return Math.round(Number(n || 0)); }
+function today(){ return new Date().toLocaleDateString(); }
+function makeId(){ return "s_" + Math.random().toString(36).slice(2,10) + Date.now().toString(36); }
+
+function loadState(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if(raw) return JSON.parse(raw);
+  }catch(e){}
+  return {students:[], activeId:null};
+}
+function saveState(){
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+function activeStudent(){
+  return state.students.find(s => s.id === state.activeId) || null;
+}
+function ensureStudentProgress(student){
+  if(!student.progress) student.progress = {weeks:{}, exams:{}};
+  if(!student.progress.weeks) student.progress.weeks = {};
+  if(!student.progress.exams) student.progress.exams = {};
+}
+function weekProgress(student, weekNo){
+  ensureStudentProgress(student);
+  if(!student.progress.weeks[weekNo]){
+    student.progress.weeks[weekNo] = {lessons:{}, notes:{}, quiz:{attempts:[], best:0}, reviewCount:0,
+      reading:{status:"Not started",minutes:0,pages:"",reflection:""},
+      annotation:{keyIdea:false,question:false,surprise:false,connection:false,evidence:false},
+      cer:{claim:"",evidence:"",reasoning:""}, vocab:{}, exitTicket:"", extraCredit:{completed:false,reflection:"",verified:false}};
+  }
+  if(!student.progress.weeks[weekNo].quiz) student.progress.weeks[weekNo].quiz = {attempts:[], best:0};
+  if(!student.progress.weeks[weekNo].lessons) student.progress.weeks[weekNo].lessons = {};
+  if(!student.progress.weeks[weekNo].notes) student.progress.weeks[weekNo].notes = {};
+  const p = student.progress.weeks[weekNo];
+  if(!p.reading) p.reading = {status:"Not started",minutes:0,pages:"",reflection:""};
+  if(!p.annotation) p.annotation = {keyIdea:false,question:false,surprise:false,connection:false,evidence:false};
+  if(!p.cer) p.cer = {claim:"",evidence:"",reasoning:""};
+  if(!p.vocab) p.vocab = {};
+  if(typeof p.exitTicket !== "string") p.exitTicket = "";
+  if(!p.extraCredit) p.extraCredit = {completed:false,reflection:"",verified:false};
+  return p;
+}
+function lessonPct(student, weekNo){
+  const p = weekProgress(student, weekNo);
+  const done = ["Monday","Tuesday","Wednesday","Thursday","Friday"].filter(d => p.lessons[d]).length;
+  return Math.round(done/5*100);
+}
+function quizBest(student, weekNo){
+  const p = weekProgress(student, weekNo);
+  return Math.round(p.quiz?.best || 0);
+}
+function weeklyScore(student, weekNo){
+  return Math.round(lessonPct(student, weekNo)*0.4 + quizBest(student, weekNo)*0.6);
+}
+function courseStats(student){
+  const totalLessons = APP.weeks.length * 5;
+  if(!student) return {completedLessons:0,totalLessons,lessonAverage:0,quizAverage:0,weeklyAverage:0,courseGrade:0,needsReview:[]};
+  ensureStudentProgress(student);
+  let completedLessons = 0, quizScores = [], weeklyScores = [], needsReview = [];
+  APP.weeks.forEach(w => {
+    const lp = lessonPct(student,w.week);
+    completedLessons += Math.round(lp/20); // 5 lessons times percent
+    const qb = quizBest(student,w.week);
+    if(qb > 0) quizScores.push(qb);
+    if(lp > 0 || qb > 0) weeklyScores.push(weeklyScore(student,w.week));
+    if((qb > 0 && qb < APP.passingTarget) || (lp > 0 && lp < 100)) needsReview.push(w.week);
+  });
+  const lessonAverage = Math.round(completedLessons/totalLessons*100);
+  const quizAverage = quizScores.length ? Math.round(quizScores.reduce((a,b)=>a+b,0)/quizScores.length) : 0;
+  const weeklyAverage = weeklyScores.length ? Math.round(weeklyScores.reduce((a,b)=>a+b,0)/weeklyScores.length) : 0;
+  const mid = student.progress.exams?.midterm?.best || 0;
+  const fin = student.progress.exams?.final?.best || 0;
+  const examWeightUsed = (mid?15:0)+(fin?15:0);
+  const weeklyWeight = 100 - examWeightUsed;
+  const courseGrade = Math.round((weeklyAverage*weeklyWeight + mid*15 + fin*15)/100);
+  return {completedLessons,totalLessons,lessonAverage,quizAverage,weeklyAverage,courseGrade,midterm:Math.round(mid),final:Math.round(fin),needsReview};
+}
+
+function init(){
+  bindEvents();
+  if(!state.students.length){
+    addStudent("First Student", false);
+  }
+  renderAll();
+}
+function bindEvents(){
+  $("addStudentBtn").addEventListener("click", () => {
+    const name = $("studentName").value.trim();
+    if(!name) return alert("Please enter a student name.");
+    addStudent(name, true);
+    $("studentName").value = "";
+  });
+  $("demoBtn").addEventListener("click", () => addDemoStudent());
+  $("deleteStudentBtn").addEventListener("click", deleteActiveStudent);
+  $("studentSelect").addEventListener("change", e => {
+    state.activeId = e.target.value;
+    saveState(); renderAll();
+  });
+  document.querySelectorAll("[data-view]").forEach(btn => btn.addEventListener("click", e => {
+    currentView = e.currentTarget.dataset.view;
+    renderAll();
+  }));
+}
+function addStudent(name, rerender=true){
+  const s = {id:makeId(), name, created:new Date().toISOString(), progress:{weeks:{}, exams:{}}};
+  state.students.push(s);
+  state.activeId = s.id;
+  saveState();
+  if(rerender) renderAll();
+}
+function addDemoStudent(){
+  const s = {id:makeId(), name:"Demo Student", created:new Date().toISOString(), progress:{weeks:{}, exams:{}}};
+  state.students.push(s);
+  state.activeId = s.id;
+  for(let i=1;i<=3;i++){
+    const p = weekProgress(s,i);
+    ["Monday","Tuesday","Wednesday"].forEach(d => p.lessons[d]=true);
+    p.quiz.best = i===1 ? 80 : i===2 ? 100 : 60;
+    p.quiz.attempts.push({date:new Date().toISOString(), score:p.quiz.best, answers:[]});
+  }
+  saveState(); renderAll();
+}
+function deleteActiveStudent(){
+  const s = activeStudent();
+  if(!s) return;
+  if(!confirm(`Delete all local progress for ${s.name}?`)) return;
+  state.students = state.students.filter(x => x.id !== s.id);
+  state.activeId = state.students[0]?.id || null;
+  if(!state.students.length) addStudent("First Student", false);
+  saveState(); renderAll();
+}
+
+function renderAll(){
+  renderStudentSelect();
+  renderWeekList();
+  renderNavState();
+  if(currentView === "dashboard") renderDashboard();
+  if(currentView === "week") renderWeek();
+  if(currentView === "scope") renderScope();
+  if(currentView === "exams") renderExams();
+  if(currentView === "reports") renderReports();
+  if(currentView === "tools") renderTools();
+  if(currentView === "standards") renderStandards();
+}
+function renderStudentSelect(){
+  const sel = $("studentSelect");
+  sel.innerHTML = state.students.map(s => `<option value="${esc(s.id)}" ${s.id===state.activeId?"selected":""}>${esc(s.name)}</option>`).join("");
+}
+function renderNavState(){
+  document.querySelectorAll(".tab,.navBtn").forEach(b => b.classList.toggle("active", b.dataset.view === currentView));
+}
+function renderWeekList(){
+  const s = activeStudent();
+  $("weekList").innerHTML = APP.weeks.map(w => {
+    const lp = s ? lessonPct(s,w.week) : 0, qb = s ? quizBest(s,w.week) : 0;
+    const cls = w.week === currentWeek ? "active" : "";
+    const tag = qb >= APP.passingTarget ? "good" : qb > 0 ? "bad" : lp === 100 ? "warn" : "";
+    return `<button class="weekButton ${cls}" data-week="${w.week}">
+      <span><strong>W${w.week}</strong> ${esc(w.title)}</span>
+      <span class="pill ${tag}">${lp}% / ${qb || "—"}</span>
+    </button>`;
+  }).join("");
+  document.querySelectorAll(".weekButton").forEach(btn => btn.addEventListener("click", e => {
+    currentWeek = Number(e.currentTarget.dataset.week);
+    currentView = "week";
+    renderAll();
+  }));
+}
+
+function renderDashboard(){
+  const s = activeStudent();
+  const st = courseStats(s);
+  const reviewText = st.needsReview.length ? `Recommended review: Weeks ${st.needsReview.slice(0,12).join(", ")}${st.needsReview.length>12?"…":""}` : "No review flags yet. Keep building evidence.";
+  const extraCompleted = APP.weeks.filter(w => w.extraCredit && weekProgress(s,w.week).extraCredit?.completed).length;
+  const extraAvailable = APP.weeks.filter(w => w.extraCredit).length;
+  $("content").innerHTML = `
+    <div class="grid">
+      <div class="card kpi"><strong>${st.lessonAverage}%</strong><span>Lesson completion</span></div>
+      <div class="card kpi"><strong>${st.quizAverage}%</strong><span>Quiz average</span></div>
+      <div class="card kpi"><strong>${st.midterm || "—"}</strong><span>Midterm best</span></div>
+      <div class="card kpi"><strong>${st.courseGrade}%</strong><span>Course grade to date</span></div>
+      <div class="card col8">
+        <h3>Welcome, ${esc(s?.name || "Student")}</h3>
+        <p>This portal is organized as a 36-week English II / Language Arts II course. Every week includes a curated reading suggestion, five interactive lessons, a printable class packet, a weekly quiz with explanations, portfolio evidence, and repeat-to-mastery tools.</p>
+        <div class="progressbar"><span style="width:${st.lessonAverage}%"></span></div>
+        <p class="small">${st.completedLessons} of ${st.totalLessons} daily lessons marked complete.</p>
+        <p class="notice">${esc(reviewText)}</p>
+        <div class="actions">
+          <button onclick="currentView='week'; renderAll()">Continue Week ${currentWeek}</button>
+          <button class="secondary" onclick="currentView='reports'; renderAll()">Open Reports</button>
+          <button class="ghost" onclick="downloadBackup()">Export Backup</button>
+        </div>
+      </div>
+      <div class="card col4">
+        <h3>Repeat-to-Mastery Rule</h3>
+        <p>Target score: <strong>${APP.passingTarget}%</strong>. If a weekly quiz is below target, students should reread Monday–Thursday lessons, update notes, and retake the quiz. The portal keeps attempt history and uses the best score.</p><p><strong>Extra credit:</strong> ${extraCompleted} of ${extraAvailable} opportunities marked complete. Extra credit never replaces required mastery and should be awarded only after teacher verification.</p>
+      </div>
+      <div class="card col12">
+        <h3>Next Weeks at a Glance</h3>
+        <table>
+          <tr><th>Week</th><th>Unit</th><th>Focus</th><th>Progress</th></tr>
+          ${APP.weeks.slice(Math.max(0,currentWeek-1), Math.min(APP.weeks.length,currentWeek+5)).map(w => `<tr><td>${w.week}</td><td>${esc(w.unit)}</td><td>${esc(w.title)}</td><td>${s?lessonPct(s,w.week):0}% lessons / ${s?quizBest(s,w.week)||"—":"—"} quiz</td></tr>`).join("")}
+        </table>
+      </div>
+    </div>`;
+}
+function renderWeek(){
+  const s = activeStudent();
+  const w = APP.weeks.find(x => x.week === currentWeek) || APP.weeks[0];
+  const p = weekProgress(s,w.week);
+  const lp = lessonPct(s,w.week), qb = quizBest(s,w.week);
+  const r = w.readingSuggestion || {};
+  $("content").innerHTML = `
+    <div class="card">
+      <p class="pill">Week ${w.week} of ${APP.weeks.length}</p><p class="pill">${esc(w.unit)}</p><p class="pill ${qb>=APP.passingTarget?"good":qb>0?"bad":"warn"}">Quiz best: ${qb || "Not taken"}</p>
+      <h3>${esc(w.title)}</h3>
+      <p><strong>Essential Question:</strong> ${esc(w.essentialQuestion)}</p>
+      <p><strong>Core Reading Requirement:</strong> ${esc(w.reading)}</p>
+      <p><strong>Writing Product:</strong> ${esc(w.writingTask)}</p>
+      <div>${w.standards.map(st => `<span class="pill">${esc(st.code)}</span>`).join("")}</div>
+      <p><strong>Vocabulary:</strong> ${w.vocabulary.map(v=>`<span class="pill">${esc(v)}</span>`).join("")}</p>
+      <div class="progressbar" title="Lesson completion"><span style="width:${lp}%"></span></div>
+      <p class="small">${lp}% of weekly lessons complete. Weekly score estimate: ${weeklyScore(s,w.week)}%.</p>
+      ${qb>0 && qb<APP.passingTarget ? `<p class="notice">This week is below the ${APP.passingTarget}% target. Use “Repeat Lesson Set,” update notes, and retake the quiz. The best score is kept.</p>` : ""}
+      <div class="actions">
+        <button class="secondary" onclick="prevWeek()">← Previous</button>
+        <button class="secondary" onclick="nextWeek()">Next →</button>
+        <button onclick="printWeeklyPacket(${w.week})">Print Class Packet</button>
+        <button class="secondary" onclick="downloadWeeklyPacket(${w.week})">Download Packet</button>
+        ${w.lessonUrl ? `<a class="courseLink" href="${esc(w.lessonUrl)}">Open Full Lesson Page</a>` : ""}
+        ${w.assessmentUrl ? `<a class="courseLink" href="${esc(w.assessmentUrl)}">Open Formal Assessment</a>` : ""}
+        <button class="ghost" onclick="repeatWeek(${w.week})">Repeat Lesson Set</button>
+      </div>
+    </div>
+    <div class="readingCard">
+      <p class="small">WEEKLY READING SUGGESTION</p>
+      <h4>${esc(r.title || w.reading)}</h4>
+      <div class="readingMeta"><span class="pill">${esc(r.author || "Teacher selection")}</span><span class="pill">${esc(r.genre || "Reading")}</span></div>
+      <p>${esc(r.purpose || "Use this selection to practice the week’s reading and writing skills.")}</p>
+      <p class="small">${esc(r.accessNote || "Use a teacher-approved edition.")}</p>
+      ${Array.isArray(r.sources) && r.sources.length ? `<div class="sourceButtons">${r.sources.map(src=>`<a class="courseLink" href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.label)}</a>`).join("")}</div><p class="sourceNote">Source links open public-domain, institutional, or connected internal resources. A teacher may substitute an accessible approved edition.</p>` : `<a class="courseLink" href="reading-list.html">Open Course Reading List</a>`}
+    </div>
+
+    ${w.extraCredit ? `<div class="extraCreditCard">
+      <div class="lessonHeader"><div><p class="small">OPTIONAL · TEACHER-VERIFIED</p><h4>Extra Credit: ${esc(w.extraCredit.title)}</h4></div><span class="pill good">Up to ${Number(w.extraCredit.points||2)} points</span></div>
+      <p>${esc(w.extraCredit.task)}</p>
+      <p class="small"><strong>Required evidence:</strong> ${esc(w.extraCredit.evidence)}</p>
+      ${Array.isArray(w.extraCredit.tools)&&w.extraCredit.tools.length?`<div class="sourceButtons">${w.extraCredit.tools.map(tool=>`<a class="courseLink" href="${esc(tool.url)}" target="_blank" rel="noopener">${esc(tool.label)}</a>`).join("")}</div>`:""}
+      <label class="check" style="margin-top:12px"><input type="checkbox" data-extra-credit-complete ${p.extraCredit?.completed?"checked":""}> Student completed the optional evidence</label>
+      <label>Extra-credit evidence note or link</label>
+      <textarea data-extra-credit-reflection placeholder="Describe the submitted artifact, source links, revision, or teacher feedback.">${esc(p.extraCredit?.reflection||"")}</textarea>
+      <label class="check"><input type="checkbox" data-extra-credit-verified ${p.extraCredit?.verified?"checked":""}> Parent/teacher verified the evidence</label>
+      <p class="small">This opportunity is optional. It does not replace the weekly reading, lessons, writing product, corrections, unit assessment, midterm, or final.</p>
+    </div>` : ""}
+    <div class="grid">
+      <div class="card col8">
+        <h3>Monday–Friday Interactive Lessons</h3>
+        ${w.lessons.map(lesson => renderLesson(w, lesson, p)).join("")}
+      </div>
+      <div class="card col4">
+        <h3>Weekly Quiz</h3>
+        ${renderQuiz(w)}
+      </div>
+    </div>
+    ${renderInteractiveLab(w,p)}
+    <div class="card" style="margin-top:14px">
+      <details class="materials" open>
+        <summary>Class Materials Included This Week</summary>
+        <div class="materialGrid" style="margin-top:12px">${(w.classMaterials||[]).map(m=>`<div class="materialItem"><strong>${esc(m.title)}</strong><span class="small">${esc(m.type)}</span></div>`).join("")}</div>
+        <p class="packetNote">The printable class packet combines these materials into one clean handout. Full repository lesson pages can be connected with <code>lessonUrl</code> and <code>assessmentUrl</code> when their final paths are known.</p>
+      </details>
+    </div>`;
+  bindWeekInteractions(w,p);
+}
+function renderLesson(w, lesson, p){
+  const done = !!p.lessons[lesson.day];
+  const note = p.notes[lesson.day] || "";
+  return `<div class="lesson">
+    <div class="lessonHeader">
+      <div><h4>${esc(lesson.day)}: ${esc(lesson.title)}</h4><p><strong>Objective:</strong> ${esc(lesson.objective)}</p></div>
+      <label class="check"><input id="done_${w.week}_${lesson.day}" type="checkbox" ${done?"checked":""}> Done</label>
+    </div>
+    <p><strong>Mini Lesson:</strong> ${esc(lesson.miniLesson)}</p>
+    <p><strong>Interactive Activity:</strong> ${esc(lesson.activity)}</p>
+    <p><strong>Assignment:</strong> ${esc(lesson.assignment)}</p>
+    <p class="small"><strong>Portfolio Evidence:</strong> ${esc(lesson.evidence)}</p>
+    <label>Student notes / parent observations</label>
+    <textarea id="note_${w.week}_${lesson.day}" placeholder="Add annotations, reading details, reflections, questions, or evidence reminders...">${esc(note)}</textarea>
+  </div>`;
+}
+function renderInteractiveLab(w,p){
+  const reading=p.reading||{};
+  const annotations=[
+    ["keyIdea","★ Marked a key idea or pattern"],["question","? Recorded a genuine question"],["surprise","! Noted a surprise, contradiction, or shift"],["connection","→ Made a text, world, or personal connection"],["evidence","[E] Selected evidence for the weekly task"]
+  ];
+  return `<div class="card" style="margin-top:14px">
+    <h3>Interactive Learning Lab</h3>
+    <div class="interactiveLab">
+      <section class="labPanel">
+        <h4>Reading Log & Timer</h4>
+        <div class="fieldGrid">
+          <div><label>Status</label><select data-reading-field="status"><option ${reading.status==="Not started"?"selected":""}>Not started</option><option ${reading.status==="In progress"?"selected":""}>In progress</option><option ${reading.status==="Complete"?"selected":""}>Complete</option></select></div>
+          <div><label>Minutes read</label><input type="number" min="0" data-reading-field="minutes" value="${Number(reading.minutes||0)}"></div>
+          <div class="full"><label>Pages, chapters, or section completed</label><input data-reading-field="pages" value="${esc(reading.pages||"")}" placeholder="Example: pages 1–18 or Act I, Scene 2"></div>
+          <div class="full"><label>Reading response</label><textarea data-reading-field="reflection" placeholder="What changed, surprised, confused, or mattered most?">${esc(reading.reflection||"")}</textarea></div>
+        </div>
+        <div class="timer"><span class="timerDisplay" id="timerDisplay">00:00</span><button type="button" onclick="startReadingTimer(${w.week})">Start Timer</button><button type="button" class="secondary" onclick="stopReadingTimer(${w.week})">Stop & Save</button></div>
+      </section>
+      <section class="labPanel">
+        <h4>Annotation Checklist</h4>
+        <div class="annotationGrid">${annotations.map(([key,label])=>`<label class="annotationItem"><input type="checkbox" data-annotation-field="${key}" ${p.annotation?.[key]?"checked":""}><span>${esc(label)}</span></label>`).join("")}</div>
+        <h4 style="margin-top:16px">Discussion Questions</h4>
+        <ol>${(w.discussionQuestions||[]).map(q=>`<li>${esc(q)}</li>`).join("")}</ol>
+      </section>
+      <section class="labPanel full">
+        <h4>Claim–Evidence–Reasoning Builder</h4>
+        <div class="fieldGrid">
+          <div class="full"><label>Claim or interpretation</label><textarea data-cer-field="claim" placeholder="State a focused, arguable answer to the essential question.">${esc(p.cer?.claim||"")}</textarea></div>
+          <div><label>Evidence</label><textarea data-cer-field="evidence" placeholder="Quote or paraphrase a precise detail.">${esc(p.cer?.evidence||"")}</textarea></div>
+          <div><label>Reasoning / commentary</label><textarea data-cer-field="reasoning" placeholder="Explain how and why the evidence proves the claim.">${esc(p.cer?.reasoning||"")}</textarea></div>
+        </div>
+      </section>
+      <section class="labPanel full">
+        <h4>Vocabulary Builder</h4>
+        <div class="vocabGrid">${w.vocabulary.map(word=>{
+          const v=p.vocab?.[word]||{};
+          return `<div class="vocabRow" data-vocab-word="${esc(word)}"><div class="vocabWord">${esc(word)}</div><div><label>Definition / context clue</label><input data-vocab-field="definition" value="${esc(v.definition||"")}"></div><div><label>Original sentence or example</label><input data-vocab-field="sentence" value="${esc(v.sentence||"")}"></div></div>`;
+        }).join("")}</div>
+      </section>
+      <section class="labPanel full">
+        <h4>Friday Exit Ticket</h4>
+        <label>What did you learn, what evidence proves it, and what should you practice next?</label>
+        <textarea data-exit-ticket placeholder="Write a brief mastery reflection and next step.">${esc(p.exitTicket||"")}</textarea>
+      </section>
+    </div>
+  </div>`;
+}
+function bindWeekInteractions(w,p){
+  w.lessons.forEach(lesson => {
+    const cb = $(`done_${w.week}_${lesson.day}`);
+    if(cb) cb.addEventListener("change", e => { p.lessons[lesson.day] = e.target.checked; saveState(); renderAll(); });
+    const note = $(`note_${w.week}_${lesson.day}`);
+    if(note) note.addEventListener("input", e => { p.notes[lesson.day] = e.target.value; saveState(); });
+  });
+  document.querySelectorAll("[data-reading-field]").forEach(el=>el.addEventListener("input",e=>{const f=e.currentTarget.dataset.readingField;p.reading[f]=f==="minutes"?Math.max(0,Number(e.currentTarget.value||0)):e.currentTarget.value;saveState();}));
+  document.querySelectorAll("[data-annotation-field]").forEach(el=>el.addEventListener("change",e=>{p.annotation[e.currentTarget.dataset.annotationField]=e.currentTarget.checked;saveState();}));
+  document.querySelectorAll("[data-cer-field]").forEach(el=>el.addEventListener("input",e=>{p.cer[e.currentTarget.dataset.cerField]=e.currentTarget.value;saveState();}));
+  document.querySelectorAll("[data-vocab-word]").forEach(row=>{const word=row.dataset.vocabWord;if(!p.vocab[word])p.vocab[word]={definition:"",sentence:""};row.querySelectorAll("[data-vocab-field]").forEach(el=>el.addEventListener("input",e=>{p.vocab[word][e.currentTarget.dataset.vocabField]=e.currentTarget.value;saveState();}));});
+  const exit=document.querySelector("[data-exit-ticket]");if(exit)exit.addEventListener("input",e=>{p.exitTicket=e.currentTarget.value;saveState();});
+  const extraDone=document.querySelector("[data-extra-credit-complete]");if(extraDone)extraDone.addEventListener("change",e=>{p.extraCredit.completed=e.currentTarget.checked;saveState();});
+  const extraReflection=document.querySelector("[data-extra-credit-reflection]");if(extraReflection)extraReflection.addEventListener("input",e=>{p.extraCredit.reflection=e.currentTarget.value;saveState();});
+  const extraVerified=document.querySelector("[data-extra-credit-verified]");if(extraVerified)extraVerified.addEventListener("change",e=>{p.extraCredit.verified=e.currentTarget.checked;saveState();});
+}
+let readingTimer=null, readingTimerWeek=null, readingTimerStart=0;
+function startReadingTimer(weekNo){
+  if(readingTimer) return alert("A reading timer is already running.");
+  readingTimerWeek=weekNo;readingTimerStart=Date.now();
+  readingTimer=setInterval(updateTimerDisplay,1000);updateTimerDisplay();
+}
+function updateTimerDisplay(){
+  const el=$("timerDisplay");if(!el||!readingTimerStart)return;
+  const sec=Math.floor((Date.now()-readingTimerStart)/1000);el.textContent=`${String(Math.floor(sec/60)).padStart(2,"0")}:${String(sec%60).padStart(2,"0")}`;
+}
+function stopReadingTimer(weekNo){
+  if(!readingTimer||readingTimerWeek!==weekNo)return alert("Start this week’s timer first.");
+  const sec=Math.max(1,Math.floor((Date.now()-readingTimerStart)/1000));clearInterval(readingTimer);readingTimer=null;readingTimerWeek=null;readingTimerStart=0;
+  const p=weekProgress(activeStudent(),weekNo);p.reading.minutes=Math.max(0,Number(p.reading.minutes||0))+Math.max(1,Math.round(sec/60));if(p.reading.status==="Not started")p.reading.status="In progress";saveState();renderAll();
+}
+function renderQuiz(w){
+  const s = activeStudent();
+  const p = weekProgress(s,w.week);
+  const questions = APP.quizBank[w.quizKey] || APP.quizBank.close_reading;
+  const attempts = p.quiz.attempts || [];
+  const attemptList = attempts.length ? `<p class="small">Attempts: ${attempts.map(a => `${new Date(a.date).toLocaleDateString()} — ${Math.round(a.score)}%`).join(" | ")}</p>` : `<p class="small">No attempts yet.</p>`;
+  const last = attempts[attempts.length-1];
+  const feedback = last?.feedback?.length ? `<details open><summary><strong>Latest Answer Explanations</strong></summary>${last.feedback.map((f,i)=>`<div class="feedback ${f.correct?"good":"bad"}"><strong>${i+1}. ${f.correct?"Correct":"Review"}</strong><br>${esc(f.explain)}<br><span class="small">Correct answer: ${esc(f.correctChoice)}</span></div>`).join("")}</details>` : "";
+  return `
+    <p>Skill quiz: <strong>${esc(w.quizKey.replaceAll("_"," "))}</strong></p>
+    <p class="score">Best: ${Math.round(p.quiz.best || 0) || "—"}</p>
+    ${attemptList}${feedback}
+    <form id="quizForm">
+      ${questions.map((q,i) => `<div class="quizQ">
+        <p><strong>${i+1}. ${esc(q.q)}</strong></p>
+        ${q.choices.map((c,j)=>`<label class="choice"><input type="radio" name="q${i}" value="${j}"> ${esc(c)}</label>`).join("")}
+      </div>`).join("")}
+      <div class="actions">
+        <button type="button" onclick="submitQuiz(${w.week})">Submit Quiz</button>
+        <button class="secondary" type="reset">Clear Answers</button>
+      </div>
+    </form>`;
+}
+function submitQuiz(weekNo){
+  const s = activeStudent();
+  const w = APP.weeks.find(x => x.week === weekNo);
+  const p = weekProgress(s, weekNo);
+  const questions = APP.quizBank[w.quizKey] || APP.quizBank.close_reading;
+  let correct = 0, answers = [];
+  for(let i=0;i<questions.length;i++){
+    const chosen = document.querySelector(`input[name="q${i}"]:checked`);
+    if(!chosen) return alert("Please answer every question before submitting.");
+    const val = Number(chosen.value);
+    answers.push(val);
+    if(val === questions[i].answer) correct++;
+  }
+  const score = Math.round(correct/questions.length*100);
+  const feedback = questions.map((q,i)=>({correct:answers[i]===q.answer,selected:answers[i],correctChoice:q.choices[q.answer],explain:q.explain||"Review the skill and supporting evidence."}));
+  p.quiz.attempts.push({date:new Date().toISOString(), score, answers, feedback});
+  p.quiz.best = Math.max(p.quiz.best || 0, score);
+  saveState();
+  alert(`Quiz submitted: ${score}% (${correct}/${questions.length}). ${score < APP.passingTarget ? "Repeat the lesson set and retake when ready." : "Target met!"}`);
+  renderAll();
+}
+function repeatWeek(weekNo){
+  const s = activeStudent();
+  const p = weekProgress(s, weekNo);
+  p.reviewCount = (p.reviewCount || 0) + 1;
+  p.lastReviewDate = new Date().toISOString();
+  saveState();
+  alert("Repeat mode logged. Reread lessons, update notes, complete practice again, and retake the quiz. Your best score will be kept.");
+  renderAll();
+}
+function prevWeek(){ currentWeek = Math.max(1,currentWeek-1); renderAll(); }
+function nextWeek(){ currentWeek = Math.min(APP.weeks.length,currentWeek+1); renderAll(); }
+
+function renderScope(){
+  $("content").innerHTML = `<div class="card">
+    <h3>36 Week Scope & Sequence</h3>
+    <p>This sequence spirals reading, writing, vocabulary, speaking/listening, conventions, research, and media skills across the year.</p>
+    <div class="actions">
+      <button onclick="downloadScopeCSV()">Download Scope CSV</button>
+    </div>
+    <table>
+      <tr><th>Week</th><th>Unit</th><th>Focus</th><th>Reading Suggestion</th><th>Writing / Evidence</th><th>Standards</th></tr>
+      ${APP.weeks.map(w => `<tr>
+        <td>${w.week}</td><td>${esc(w.unit)}</td><td>${esc(w.title)}</td><td><strong>${esc(w.readingSuggestion?.title||w.reading)}</strong><br><span class="small">${esc(w.readingSuggestion?.author||"")}</span></td><td>${esc(w.writingTask)}</td>
+        <td>${w.standards.map(s=>esc(s.code)).join("<br>")}</td></tr>`).join("")}
+    </table>
+  </div>`;
+}
+function renderExams(){
+  const s = activeStudent();
+  ensureStudentProgress(s);
+  $("content").innerHTML = `<div class="grid">
+    <div class="card col6">
+      <h3>Midterm Test</h3>
+      <p>Recommended after Week ${APP.midtermAfterWeek || 18}. Best score: <span class="score">${Math.round(s.progress.exams.midterm?.best || 0) || "—"}</span></p>
+      ${renderExamForm("midterm", APP.midterm)}
+    </div>
+    <div class="card col6">
+      <h3>Final Test</h3>
+      <p>Recommended after Week ${APP.finalAfterWeek || APP.weeks.length}. Best score: <span class="score">${Math.round(s.progress.exams.final?.best || 0) || "—"}</span></p>
+      ${renderExamForm("final", APP.final)}
+    </div>
+  </div>`;
+}
+function renderExamForm(name, questions){
+  return `<form id="${name}Form">
+    ${questions.map((q,i)=>`<details class="quizQ"><summary><strong>${i+1}. ${esc(q.skill || "")}: ${esc(q.q)}</strong></summary>
+      ${q.choices.map((c,j)=>`<label class="choice"><input type="radio" name="${name}_${i}" value="${j}"> ${esc(c)}</label>`).join("")}
+    </details>`).join("")}
+    <div class="actions"><button type="button" onclick="submitExam('${name}')">Submit ${name === "midterm" ? "Midterm" : "Final"}</button><button class="secondary" type="reset">Clear</button></div>
+  </form>`;
+}
+function submitExam(name){
+  const s = activeStudent();
+  const questions = name === "midterm" ? APP.midterm : APP.final;
+  let correct = 0, answers = [];
+  for(let i=0;i<questions.length;i++){
+    const chosen = document.querySelector(`input[name="${name}_${i}"]:checked`);
+    if(!chosen) return alert("Please answer every question before submitting.");
+    const val = Number(chosen.value);
+    answers.push(val);
+    if(val === questions[i].answer) correct++;
+  }
+  const score = Math.round(correct/questions.length*100);
+  if(!s.progress.exams[name]) s.progress.exams[name] = {attempts:[], best:0};
+  s.progress.exams[name].attempts.push({date:new Date().toISOString(), score, answers});
+  s.progress.exams[name].best = Math.max(s.progress.exams[name].best || 0, score);
+  saveState();
+  alert(`${name === "midterm" ? "Midterm" : "Final"} submitted: ${score}% (${correct}/${questions.length}). Best score kept.`);
+  renderAll();
+}
+
+function renderReports(){
+  const s = activeStudent();
+  const st = courseStats(s);
+  $("content").innerHTML = `<div class="grid">
+    <div class="card col4"><h3>Course Report</h3><p class="score">${st.courseGrade}%</p><p>Estimated course grade to date.</p></div>
+    <div class="card col4"><h3>Completion</h3><p class="score">${st.lessonAverage}%</p><p>${st.completedLessons} / ${st.totalLessons} lessons complete.</p></div>
+    <div class="card col4"><h3>Quizzes</h3><p class="score">${st.quizAverage || "—"}</p><p>Average of attempted weekly quiz best scores.</p></div>
+    <div class="card col12">
+      <h3>Download & Print</h3>
+      <p>Progress reports include weekly completion, quiz attempts, repeat lesson logs, portfolio evidence, notes, midterm, final, and review recommendations.</p>
+      <div class="actions">
+        <button onclick="printReport()">Print Progress Report</button>
+        <button class="secondary" onclick="downloadReportHTML()">Download Report HTML</button>
+        <button class="secondary" onclick="downloadReportCSV()">Download Progress CSV</button>
+        <button class="ghost" onclick="downloadBackup()">Export Full Backup JSON</button>
+        <label class="secondary" style="display:inline-flex;align-items:center;gap:8px;border-radius:14px;padding:.72rem .95rem;cursor:pointer">Import Backup <input type="file" accept=".json,application/json" style="display:none" onchange="importBackup(event)"></label>
+      </div>
+    </div>
+    <div class="card col12">
+      <h3>Progress Table</h3>
+      ${reportTable(s)}
+    </div>
+  </div>`;
+}
+function reportTable(s){
+  return `<table>
+    <tr><th>Week</th><th>Focus</th><th>Reading</th><th>Lessons</th><th>Quiz Best</th><th>Attempts</th><th>Repeat Logs</th><th>Portfolio Evidence</th></tr>
+    ${APP.weeks.map(w => {
+      const p = weekProgress(s,w.week);
+      const attempts = p.quiz.attempts?.length || 0;
+      const evidence = w.lessons.map(l=>l.evidence).filter((v,i,a)=>a.indexOf(v)===i).slice(0,3).join("; ");
+      return `<tr><td>${w.week}</td><td>${esc(w.title)}</td><td>${esc(p.reading?.status||"Not started")} / ${Number(p.reading?.minutes||0)} min</td><td>${lessonPct(s,w.week)}%</td><td>${quizBest(s,w.week)||"—"}</td><td>${attempts}</td><td>${p.reviewCount||0}</td><td>${esc(evidence)}</td></tr>`;
+    }).join("")}
+  </table>`;
+}
+function reportHTML(){
+  const s = activeStudent(), st = courseStats(s);
+  const rows = APP.weeks.map(w => {
+    const p = weekProgress(s,w.week);
+    const notes = Object.entries(p.notes||{}).filter(([d,n])=>n).map(([d,n])=>`${d}: ${n}`).join(" | ");
+    return `<tr><td>${w.week}</td><td>${esc(w.unit)}</td><td>${esc(w.title)}</td><td>${esc(p.reading?.status||"Not started")} / ${Number(p.reading?.minutes||0)} min</td><td>${lessonPct(s,w.week)}%</td><td>${quizBest(s,w.week)||"—"}</td><td>${p.quiz.attempts?.length||0}</td><td>${p.reviewCount||0}</td><td>${w.extraCredit?(p.extraCredit?.verified?"Verified":p.extraCredit?.completed?"Submitted":"Available"):"—"}</td><td>${esc(notes)}</td></tr>`;
+  }).join("");
+  const review = st.needsReview.length ? `Weeks needing review: ${st.needsReview.join(", ")}` : "No review flags at this time.";
+  return `<!DOCTYPE html><html><head><meta charset="utf-8"><title>ELA Progress Report - ${esc(s.name)}</title>
+  <style>body{font-family:Arial,sans-serif;line-height:1.4;color:#111;padding:24px}h1,h2{margin:.2rem 0}table{width:100%;border-collapse:collapse;margin-top:14px}th,td{border:1px solid #bbb;padding:6px;vertical-align:top}th{background:#f0f0f0}.kpi{display:inline-block;border:1px solid #999;padding:10px;margin:5px}.small{color:#555}</style></head><body>
+  <h1>10th Grade Language Arts Progress Report</h1>
+  <p><strong>Student:</strong> ${esc(s.name)}<br><strong>Date:</strong> ${today()}<br><strong>Course:</strong> 36 Week Language Arts II / English II</p>
+  <div class="kpi"><strong>Course Grade:</strong> ${st.courseGrade}%</div>
+  <div class="kpi"><strong>Lesson Completion:</strong> ${st.lessonAverage}%</div>
+  <div class="kpi"><strong>Quiz Average:</strong> ${st.quizAverage || "—"}</div>
+  <div class="kpi"><strong>Midterm:</strong> ${st.midterm || "—"}</div>
+  <div class="kpi"><strong>Final:</strong> ${st.final || "—"}</div>
+  <p><strong>Review Notes:</strong> ${esc(review)}</p>
+  <h2>Weekly Progress</h2>
+  <table><tr><th>Week</th><th>Unit</th><th>Focus</th><th>Reading</th><th>Lessons</th><th>Quiz</th><th>Attempts</th><th>Repeat Logs</th><th>Extra Credit</th><th>Notes</th></tr>${rows}</table>
+  <h2>Portfolio Reminder</h2>
+  <p>Preserve reading/activity logs, samples of writing, worksheets, creative work, quiz records, and reflections. This report is a planning and recordkeeping aid, not an official transcript by itself.</p>
+  <p class="small">Generated by the offline 10th Grade Language Arts & Literature 36 Week Student Portal.</p>
+  </body></html>`;
+}
+function printReport(){
+  const win = window.open("", "_blank");
+  win.document.write(reportHTML());
+  win.document.close();
+  win.focus();
+  setTimeout(()=>win.print(), 500);
+}
+function downloadReportHTML(){
+  const s = activeStudent();
+  downloadText(`ELA10_Report_${safeName(s.name)}.html`, reportHTML(), "text/html");
+}
+function downloadReportCSV(){
+  const s = activeStudent();
+  const rows = [["Student","Week","Unit","Focus","Suggested Reading","Reading Sources","Reading Status","Reading Minutes","Lessons %","Quiz Best","Attempts","Repeat Logs","Extra Credit","Extra Credit Verified","Extra Credit Evidence","Notes"]];
+  APP.weeks.forEach(w => {
+    const p = weekProgress(s,w.week);
+    const notes = Object.entries(p.notes||{}).filter(([d,n])=>n).map(([d,n])=>`${d}: ${n}`).join(" | ");
+    rows.push([s.name,w.week,w.unit,w.title,w.readingSuggestion?.title||w.reading,(w.readingSuggestion?.sources||[]).map(src=>`${src.label}: ${src.url}`).join(" | "),p.reading?.status||"Not started",Number(p.reading?.minutes||0),lessonPct(s,w.week),quizBest(s,w.week)||"",p.quiz.attempts?.length||0,p.reviewCount||0,w.extraCredit?(p.extraCredit?.completed?"Completed":"Available"):"",w.extraCredit?(p.extraCredit?.verified?"Yes":"No"):"",p.extraCredit?.reflection||"",notes]);
+  });
+  downloadText(`ELA10_Progress_${safeName(s.name)}.csv`, rows.map(r=>r.map(csvCell).join(",")).join("\n"), "text/csv");
+}
+function downloadScopeCSV(){
+  const rows = [["Week","Unit","Focus","Essential Question","Suggested Reading","Author","Genre","Source Links","Core Reading Requirement","Writing","Extra Credit","Extra Credit Points","Standards","Vocabulary"]];
+  APP.weeks.forEach(w => rows.push([w.week,w.unit,w.title,w.essentialQuestion,w.readingSuggestion?.title||"",w.readingSuggestion?.author||"",w.readingSuggestion?.genre||"",(w.readingSuggestion?.sources||[]).map(src=>`${src.label}: ${src.url}`).join(" | "),w.reading,w.writingTask,w.extraCredit?.title||"",w.extraCredit?.points||"",w.standards.map(s=>s.code).join("; "),w.vocabulary.join("; ")]));
+  downloadText("ELA10_36_Week_Scope_Sequence.csv", rows.map(r=>r.map(csvCell).join(",")).join("\n"), "text/csv");
+}
+function downloadBackup(){
+  downloadText("ELA10_Portal_Backup.json", JSON.stringify(state,null,2), "application/json");
+}
+function importBackup(event){
+  const file = event.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try{
+      const obj = JSON.parse(reader.result);
+      if(!obj.students || !Array.isArray(obj.students)) throw new Error("Invalid backup.");
+      state = obj;
+      if(!state.activeId && state.students[0]) state.activeId = state.students[0].id;
+      saveState(); renderAll();
+      alert("Backup imported.");
+    }catch(e){ alert("Could not import backup JSON."); }
+  };
+  reader.readAsText(file);
+}
+function csvCell(v){ const s = String(v ?? ""); return `"${s.replaceAll('"','""')}"`; }
+function safeName(s){ return String(s||"student").replace(/[^a-z0-9_-]+/gi,"_").slice(0,60); }
+function downloadText(filename, text, type){
+  const blob = new Blob([text], {type});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+}
+
+
+function weeklyPacketHTML(weekNo){
+  const w=APP.weeks.find(x=>x.week===weekNo)||APP.weeks[0], r=w.readingSuggestion||{};
+  const vocabRows=w.vocabulary.map(v=>`<tr><td>${esc(v)}</td><td style="height:42px"></td><td></td></tr>`).join("");
+  const qs=(w.discussionQuestions||[]).map((q,i)=>`<p><strong>${i+1}. ${esc(q)}</strong></p><div class="lines"></div>`).join("");
+  return `<!doctype html><html><head><meta charset="utf-8"><title>ELA 10 Week ${w.week} Class Packet</title><style>
+  body{font-family:Georgia,serif;color:#111;line-height:1.45;padding:28px;max-width:900px;margin:auto}h1,h2,h3{margin:.25rem 0}h1{font-size:28px}section{page-break-inside:avoid;margin:22px 0}table{width:100%;border-collapse:collapse}th,td{border:1px solid #777;padding:7px;text-align:left;vertical-align:top}.meta{background:#f3efe6;padding:12px;border:1px solid #aaa}.lines{min-height:72px;background:repeating-linear-gradient(to bottom,transparent 0,transparent 25px,#aaa 26px)}.small{font-size:12px;color:#555}@media print{body{padding:0}}</style></head><body>
+  <h1>10th Grade Language Arts & Literature</h1><h2>Week ${w.week}: ${esc(w.title)}</h2>
+  <div class="meta"><strong>Unit:</strong> ${esc(w.unit)}<br><strong>Essential Question:</strong> ${esc(w.essentialQuestion)}<br><strong>Suggested Reading:</strong> ${esc(r.title||w.reading)} — ${esc(r.author||"")} (${esc(r.genre||"")})<br><strong>Source:</strong> ${(r.sources||[]).map(src=>`${esc(src.label)} — ${esc(src.url)}`).join("<br>")||"See course reading list"}<br><strong>Writing Product:</strong> ${esc(w.writingTask)}</div>
+  <section><h3>Reading Plan</h3><p>Pages / section: ____________________ &nbsp; Minutes planned: ______ &nbsp; Completion date: __________</p><p><strong>Purpose:</strong> ${esc(r.purpose||"")}</p><div class="lines"></div></section>
+  <section><h3>Annotation Key</h3><p>★ key idea &nbsp; ? question &nbsp; ! surprise or shift &nbsp; → connection &nbsp; [E] evidence</p><p>Important passage or annotation:</p><div class="lines"></div></section>
+  <section><h3>Vocabulary Builder</h3><table><tr><th>Word</th><th>Definition / Context</th><th>Original Sentence</th></tr>${vocabRows}</table></section>
+  <section><h3>Claim–Evidence–Reasoning</h3><p><strong>Claim</strong></p><div class="lines"></div><p><strong>Evidence</strong></p><div class="lines"></div><p><strong>Reasoning / Commentary</strong></p><div class="lines"></div></section>
+  <section><h3>Writing Planner</h3><p><strong>Opening / controlling idea:</strong></p><div class="lines"></div><p><strong>Evidence and explanation:</strong></p><div class="lines" style="min-height:130px"></div><p><strong>Revision goal:</strong></p><div class="lines"></div></section>
+  <section><h3>Discussion Questions</h3>${qs}</section>
+  <section><h3>Exit Ticket & Portfolio Check</h3><p>What did you learn? What evidence proves it? What should you practice next?</p><div class="lines" style="min-height:120px"></div><p>Portfolio item selected: ________________________________</p></section>${w.extraCredit?`<section><h3>Optional Extra Credit · Up to ${w.extraCredit.points} points</h3><p><strong>${esc(w.extraCredit.title)}</strong></p><p>${esc(w.extraCredit.task)}</p><p><strong>Required evidence:</strong> ${esc(w.extraCredit.evidence)}</p><div class="lines" style="min-height:110px"></div></section>`:""}
+  <p class="small">Use a teacher-approved edition or public-domain translation when available. This packet is a planning and learning aid; it does not reproduce the full reading text.</p></body></html>`;
+}
+function printWeeklyPacket(weekNo){const win=window.open("","_blank");win.document.write(weeklyPacketHTML(weekNo));win.document.close();win.focus();setTimeout(()=>win.print(),400);}
+function downloadWeeklyPacket(weekNo){downloadText(`ELA10_Week_${String(weekNo).padStart(2,"0")}_Class_Packet.html`,weeklyPacketHTML(weekNo),"text/html");}
+
+
+function renderTools(){
+  const categories=[...new Set((APP.tools||[]).map(tool=>tool.category))];
+  $("content").innerHTML=`<div class="grid">
+    <div class="card col12">
+      <h3>Connected English II Tools & Resources</h3>
+      <p>These resources were selected from the English II repository and other Verve N Veda / Khaemenes repositories. Use them when they directly support the weekly objective. They do not replace assigned reading, source evaluation, citation, teacher review, or required portfolio evidence.</p>
+      <p class="notice">Internal tools may contain broad resource collections. Students should follow teacher-selected paths, protect personal information, and verify outside claims with credible primary or institutional sources.</p>
+    </div>
+    ${categories.map(category=>`<div class="card col12"><h3>${esc(category)}</h3><div class="resourceGrid">${(APP.tools||[]).filter(tool=>tool.category===category).map(tool=>`<article class="card resourceCard"><span class="pill">${esc(tool.category)}</span><h4>${esc(tool.title)}</h4><p>${esc(tool.description)}</p><a class="courseLink" href="${esc(tool.url)}" target="${tool.url.startsWith("http")?"_blank":"_self"}" rel="noopener">Open Resource</a></article>`).join("")}</div></div>`).join("")}
+  </div>`;
+}
+
+function renderStandards(){
+  const coverage = {};
+  APP.weeks.forEach(w => w.standards.forEach(s => {
+    if(!coverage[s.code]) coverage[s.code] = {description:s.description, weeks:[]};
+    coverage[s.code].weeks.push(w.week);
+  }));
+  $("content").innerHTML = `<div class="grid">
+    <div class="card col12">
+      <h3>Standards Alignment</h3>
+      <p>This course is aligned to Florida grade 10 B.E.S.T. ELA expectations and crosswalked to widely used 9–10 ELA skill bands: close reading, literature, informational text, writing, research, speaking/listening, language, vocabulary, media, and portfolio evidence.</p>
+      <p class="notice">For official compliance, always verify requirements with your school, umbrella program, scholarship program, or district. This app is a curriculum and recordkeeping tool.</p>
+    </div>
+    <div class="card col6">
+      <h3>Source Links</h3>
+      <ul>${APP.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a><br><span class="small">${esc(s.note)}</span></li>`).join("")}</ul>
+    </div>
+    <div class="card col6">
+      <h3>Recordkeeping Guidance Built Into the Portal</h3>
+      <ul>
+        <li>Daily lesson checkboxes create an activity trail.</li>
+        <li>Weekly reading suggestions, reading status, minutes, pages, and reflections are recorded.</li>
+        <li>Annotation checklists, vocabulary builders, evidence charts, writing planners, exit tickets, and weekly writing tasks create portfolio samples.</li>
+        <li>Quiz, midterm, and final attempts are saved locally.</li>
+        <li>Printable reports support parent/teacher review and evaluation prep.</li><li>Twelve optional extra-credit tasks preserve required mastery while allowing deeper scholarship, performance, research, publication, and portfolio work.</li><li>The Course Tools view connects the reading room, dictionary, language hall, research tools, source-verification tools, performance resources, and Academy recordkeeping tools.</li>
+      </ul>
+    </div>
+    <div class="card col12">
+      <h3>Coverage Matrix</h3>
+      <table><tr><th>Standard</th><th>Description</th><th>Weeks</th></tr>
+      ${Object.entries(coverage).sort().map(([code,info])=>`<tr><td>${esc(code)}</td><td>${esc(info.description)}</td><td>${info.weeks.join(", ")}</td></tr>`).join("")}
+      </table>
+    </div>
+  </div>`;
+}
+
+init();
+</script>
+</body>
+</html>
