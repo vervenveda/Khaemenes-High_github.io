@@ -1,0 +1,131 @@
+{
+  "title": "Week 26 Quiz — Industrial Revolution",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W26Q1",
+      "prompt": "Which term best matches this definition: The expansion of machine production, factories, and fossil-fuel energy.",
+      "choices": [
+        "capital",
+        "labor union",
+        "industrialization",
+        "urbanization"
+      ],
+      "answer": 2,
+      "explanation": "Industrialization is the course term defined as: The expansion of machine production, factories, and fossil-fuel energy."
+    },
+    {
+      "id": "W26Q2",
+      "prompt": "Which term best matches this definition: Growth in the proportion of people living in towns and cities.",
+      "choices": [
+        "urbanization",
+        "labor union",
+        "division of labor",
+        "capital"
+      ],
+      "answer": 0,
+      "explanation": "Urbanization is the course term defined as: Growth in the proportion of people living in towns and cities."
+    },
+    {
+      "id": "W26Q3",
+      "prompt": "Which term best matches this definition: The separation of production into specialized tasks.",
+      "choices": [
+        "urbanization",
+        "division of labor",
+        "labor union",
+        "capital"
+      ],
+      "answer": 1,
+      "explanation": "Division Of Labor is the course term defined as: The separation of production into specialized tasks."
+    },
+    {
+      "id": "W26Q4",
+      "prompt": "Which term best matches this definition: Wealth or productive resources invested to generate further value.",
+      "choices": [
+        "division of labor",
+        "externality",
+        "capital",
+        "labor union"
+      ],
+      "answer": 2,
+      "explanation": "Capital is the course term defined as: Wealth or productive resources invested to generate further value."
+    },
+    {
+      "id": "W26Q5",
+      "prompt": "Which term best matches this definition: An organization of workers formed to negotiate or act collectively.",
+      "choices": [
+        "capital",
+        "labor union",
+        "externality",
+        "urbanization"
+      ],
+      "answer": 1,
+      "explanation": "Labor Union is the course term defined as: An organization of workers formed to negotiate or act collectively."
+    },
+    {
+      "id": "W26Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 26?",
+      "choices": [
+        "Industrial weapons and transport aided empire, but conquest also depended on local alliances, finance, medicine, and political divisions.",
+        "Capitalism and socialism contain diverse schools rather than one fixed model each.",
+        "The American, French, Haitian, and Latin American revolutions influenced one another but arose from distinct social structures.",
+        "Industrialization depended on agriculture, capital, coal, technology, colonial trade, transport, labor, and institutions."
+      ],
+      "answer": 3,
+      "explanation": "Industrialization depended on agriculture, capital, coal, technology, colonial trade, transport, labor, and institutions."
+    },
+    {
+      "id": "W26Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 26?",
+      "choices": [
+        "Colonial rule reorganized land, labor, borders, education, law, and trade for imperial priorities.",
+        "Labor reform emerged through unions, cooperatives, political parties, religious movements, mutual aid, and government regulation.",
+        "Rights declarations became tools for groups excluded by original revolutionary settlements.",
+        "Factory production increased output while reorganizing time, skill, family labor, and workplace discipline."
+      ],
+      "answer": 3,
+      "explanation": "Factory production increased output while reorganizing time, skill, family labor, and workplace discipline."
+    },
+    {
+      "id": "W26Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 26?",
+      "choices": [
+        "Industrial growth raised long-run productivity but generated severe inequality, pollution, dangerous work, and urban hardship.",
+        "Modern economies combine markets, public institutions, households, and nonprofit organizations in different proportions.",
+        "Resistance ranged from armed conflict to legal petitions, religious movements, labor action, cultural preservation, and intellectual critique.",
+        "The Haitian Revolution was the most successful large-scale revolt of enslaved people and transformed Atlantic politics."
+      ],
+      "answer": 0,
+      "explanation": "Industrial growth raised long-run productivity but generated severe inequality, pollution, dangerous work, and urban hardship."
+    },
+    {
+      "id": "W26Q9",
+      "prompt": "What is the strongest method for evaluating “Factory Testimony and Production Data”?",
+      "choices": [
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Use only the most dramatic sentence because memorable details are the most reliable."
+      ],
+      "answer": 0,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W26Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Assume that every mapped relationship is a direct cause.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "Use the visualization only if it confirms the original claim.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+      ],
+      "answer": 3,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: Did industrialization improve human life, and for whom?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

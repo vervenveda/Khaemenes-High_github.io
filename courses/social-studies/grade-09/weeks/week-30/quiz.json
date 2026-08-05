@@ -1,0 +1,131 @@
+{
+  "title": "Week 30 Quiz — The Interwar World",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W30Q1",
+      "prompt": "Which term best matches this definition: A severe global economic contraction beginning in 1929.",
+      "choices": [
+        "fascism",
+        "Great Depression",
+        "appeasement",
+        "propaganda"
+      ],
+      "answer": 1,
+      "explanation": "Great Depression is the course term defined as: A severe global economic contraction beginning in 1929."
+    },
+    {
+      "id": "W30Q2",
+      "prompt": "Which term best matches this definition: An ultranationalist authoritarian ideology rejecting liberal democracy and political pluralism.",
+      "choices": [
+        "Stalinism",
+        "appeasement",
+        "fascism",
+        "Nazism"
+      ],
+      "answer": 2,
+      "explanation": "Fascism is the course term defined as: An ultranationalist authoritarian ideology rejecting liberal democracy and political pluralism."
+    },
+    {
+      "id": "W30Q3",
+      "prompt": "Which term best matches this definition: The German fascist movement centered on dictatorship, racial hierarchy, antisemitism, and expansion.",
+      "choices": [
+        "propaganda",
+        "appeasement",
+        "Nazism",
+        "fascism"
+      ],
+      "answer": 2,
+      "explanation": "Nazism is the course term defined as: The German fascist movement centered on dictatorship, racial hierarchy, antisemitism, and expansion."
+    },
+    {
+      "id": "W30Q4",
+      "prompt": "Which term best matches this definition: The centralized, coercive political and economic order associated with Joseph Stalin’s rule.",
+      "choices": [
+        "Stalinism",
+        "propaganda",
+        "fascism",
+        "Great Depression"
+      ],
+      "answer": 0,
+      "explanation": "Stalinism is the course term defined as: The centralized, coercive political and economic order associated with Joseph Stalin’s rule."
+    },
+    {
+      "id": "W30Q5",
+      "prompt": "Which term best matches this definition: A policy of making concessions to avoid conflict.",
+      "choices": [
+        "appeasement",
+        "Great Depression",
+        "Nazism",
+        "propaganda"
+      ],
+      "answer": 0,
+      "explanation": "Appeasement is the course term defined as: A policy of making concessions to avoid conflict."
+    },
+    {
+      "id": "W30Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 30?",
+      "choices": [
+        "The Great Depression spread through interconnected finance, trade, production, and policy failures.",
+        "The Holocaust developed through escalating exclusion, law, dispossession, deportation, occupation, and mass murder.",
+        "World War I resulted from interacting causes including alliance commitments, imperial rivalry, nationalism, militarism, and crisis decisions.",
+        "The Cold War combined ideology, security fears, nuclear weapons, alliances, economics, propaganda, and decolonization."
+      ],
+      "answer": 0,
+      "explanation": "The Great Depression spread through interconnected finance, trade, production, and policy failures."
+    },
+    {
+      "id": "W30Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 30?",
+      "choices": [
+        "Industrial technology increased destructive capacity while states mobilized soldiers, workers, colonies, finance, and information.",
+        "Authoritarian movements used crisis, propaganda, violence, nationalism, and institutional weakness to dismantle opposition.",
+        "Nazi Germany targeted Jews for total destruction and also persecuted Roma, disabled people, Poles, Soviet prisoners, political opponents, LGBTQ people, and others.",
+        "Conflicts in Korea, Vietnam, Afghanistan, Africa, Latin America, and the Middle East had local causes as well as superpower involvement."
+      ],
+      "answer": 1,
+      "explanation": "Authoritarian movements used crisis, propaganda, violence, nationalism, and institutional weakness to dismantle opposition."
+    },
+    {
+      "id": "W30Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 30?",
+      "choices": [
+        "War pressures contributed to revolutions and the collapse of Russian, Ottoman, German, and Austro-Hungarian imperial structures.",
+        "Nonaligned states pursued their own interests and challenged a simple two-bloc interpretation.",
+        "Fascism, Nazism, Stalinism, militarism, and democratic responses must be distinguished rather than treated as identical.",
+        "Choices by institutions, officials, collaborators, bystanders, rescuers, and resisters shaped events within unequal and dangerous conditions."
+      ],
+      "answer": 2,
+      "explanation": "Fascism, Nazism, Stalinism, militarism, and democratic responses must be distinguished rather than treated as identical."
+    },
+    {
+      "id": "W30Q9",
+      "prompt": "What is the strongest method for evaluating “Propaganda and Economic Evidence”?",
+      "choices": [
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Use only the most dramatic sentence because memorable details are the most reliable."
+      ],
+      "answer": 2,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W30Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Assume that every mapped relationship is a direct cause.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Use the visualization only if it confirms the original claim."
+      ],
+      "answer": 2,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: Why did some societies respond to crisis with democratic reform while others turned toward authoritarian rule?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

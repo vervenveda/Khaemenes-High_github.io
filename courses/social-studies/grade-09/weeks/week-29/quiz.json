@@ -1,0 +1,131 @@
+{
+  "title": "Week 29 Quiz — World War I and the Russian Revolution",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W29Q1",
+      "prompt": "Which term best matches this definition: The elevation of military power and values in national policy.",
+      "choices": [
+        "alliance system",
+        "self-determination",
+        "militarism",
+        "Bolshevik"
+      ],
+      "answer": 2,
+      "explanation": "Militarism is the course term defined as: The elevation of military power and values in national policy."
+    },
+    {
+      "id": "W29Q2",
+      "prompt": "Which term best matches this definition: Agreements among states to cooperate, often in defense or war.",
+      "choices": [
+        "Bolshevik",
+        "militarism",
+        "armistice",
+        "alliance system"
+      ],
+      "answer": 3,
+      "explanation": "Alliance System is the course term defined as: Agreements among states to cooperate, often in defense or war."
+    },
+    {
+      "id": "W29Q3",
+      "prompt": "Which term best matches this definition: War mobilizing economies, civilians, propaganda, and state power on a broad scale.",
+      "choices": [
+        "Bolshevik",
+        "total war",
+        "armistice",
+        "alliance system"
+      ],
+      "answer": 1,
+      "explanation": "Total War is the course term defined as: War mobilizing economies, civilians, propaganda, and state power on a broad scale."
+    },
+    {
+      "id": "W29Q4",
+      "prompt": "Which term best matches this definition: An agreement to stop fighting.",
+      "choices": [
+        "armistice",
+        "total war",
+        "self-determination",
+        "alliance system"
+      ],
+      "answer": 0,
+      "explanation": "Armistice is the course term defined as: An agreement to stop fighting."
+    },
+    {
+      "id": "W29Q5",
+      "prompt": "Which term best matches this definition: A member of the revolutionary party that seized power in Russia in 1917.",
+      "choices": [
+        "self-determination",
+        "Bolshevik",
+        "total war",
+        "militarism"
+      ],
+      "answer": 1,
+      "explanation": "Bolshevik is the course term defined as: A member of the revolutionary party that seized power in Russia in 1917."
+    },
+    {
+      "id": "W29Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 29?",
+      "choices": [
+        "Industrial weapons and transport aided empire, but conquest also depended on local alliances, finance, medicine, and political divisions.",
+        "The Holocaust developed through escalating exclusion, law, dispossession, deportation, occupation, and mass murder.",
+        "The Great Depression spread through interconnected finance, trade, production, and policy failures.",
+        "World War I resulted from interacting causes including alliance commitments, imperial rivalry, nationalism, militarism, and crisis decisions."
+      ],
+      "answer": 3,
+      "explanation": "World War I resulted from interacting causes including alliance commitments, imperial rivalry, nationalism, militarism, and crisis decisions."
+    },
+    {
+      "id": "W29Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 29?",
+      "choices": [
+        "Colonial rule reorganized land, labor, borders, education, law, and trade for imperial priorities.",
+        "Industrial technology increased destructive capacity while states mobilized soldiers, workers, colonies, finance, and information.",
+        "Nazi Germany targeted Jews for total destruction and also persecuted Roma, disabled people, Poles, Soviet prisoners, political opponents, LGBTQ people, and others.",
+        "Authoritarian movements used crisis, propaganda, violence, nationalism, and institutional weakness to dismantle opposition."
+      ],
+      "answer": 1,
+      "explanation": "Industrial technology increased destructive capacity while states mobilized soldiers, workers, colonies, finance, and information."
+    },
+    {
+      "id": "W29Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 29?",
+      "choices": [
+        "Choices by institutions, officials, collaborators, bystanders, rescuers, and resisters shaped events within unequal and dangerous conditions.",
+        "War pressures contributed to revolutions and the collapse of Russian, Ottoman, German, and Austro-Hungarian imperial structures.",
+        "Fascism, Nazism, Stalinism, militarism, and democratic responses must be distinguished rather than treated as identical.",
+        "Resistance ranged from armed conflict to legal petitions, religious movements, labor action, cultural preservation, and intellectual critique."
+      ],
+      "answer": 1,
+      "explanation": "War pressures contributed to revolutions and the collapse of Russian, Ottoman, German, and Austro-Hungarian imperial structures."
+    },
+    {
+      "id": "W29Q9",
+      "prompt": "What is the strongest method for evaluating “Soldier Letters, Propaganda, and Peace Terms”?",
+      "choices": [
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral."
+      ],
+      "answer": 2,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W29Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Assume that every mapped relationship is a direct cause.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Use the visualization only if it confirms the original claim.",
+        "Ignore units and scale so attention stays on the overall appearance."
+      ],
+      "answer": 1,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did industrial warfare and state collapse transform societies, borders, and political expectations?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

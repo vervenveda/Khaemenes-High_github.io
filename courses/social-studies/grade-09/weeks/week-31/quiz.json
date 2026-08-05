@@ -1,0 +1,131 @@
+{
+  "title": "Week 31 Quiz — World War II, the Holocaust, and Genocide Studies",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W31Q1",
+      "prompt": "Which term best matches this definition: Acts committed with intent to destroy, in whole or in part, a national, ethnic, racial, or religious group.",
+      "choices": [
+        "antisemitism",
+        "resistance",
+        "ghetto",
+        "genocide"
+      ],
+      "answer": 3,
+      "explanation": "Genocide is the course term defined as: Acts committed with intent to destroy, in whole or in part, a national, ethnic, racial, or religious group."
+    },
+    {
+      "id": "W31Q2",
+      "prompt": "Which term best matches this definition: The systematic, state-sponsored persecution and murder of six million European Jews by Nazi Germany and its allies and collaborators.",
+      "choices": [
+        "ghetto",
+        "Holocaust",
+        "resistance",
+        "collaboration"
+      ],
+      "answer": 1,
+      "explanation": "Holocaust is the course term defined as: The systematic, state-sponsored persecution and murder of six million European Jews by Nazi Germany and its allies and collaborators."
+    },
+    {
+      "id": "W31Q3",
+      "prompt": "Which term best matches this definition: Prejudice, hostility, or discrimination directed against Jews.",
+      "choices": [
+        "resistance",
+        "antisemitism",
+        "collaboration",
+        "ghetto"
+      ],
+      "answer": 1,
+      "explanation": "Antisemitism is the course term defined as: Prejudice, hostility, or discrimination directed against Jews."
+    },
+    {
+      "id": "W31Q4",
+      "prompt": "Which term best matches this definition: A confined urban district where Jews were forcibly concentrated under Nazi occupation.",
+      "choices": [
+        "resistance",
+        "collaboration",
+        "genocide",
+        "ghetto"
+      ],
+      "answer": 3,
+      "explanation": "Ghetto is the course term defined as: A confined urban district where Jews were forcibly concentrated under Nazi occupation."
+    },
+    {
+      "id": "W31Q5",
+      "prompt": "Which term best matches this definition: Cooperation with an occupying or oppressive power, under conditions that may vary in coercion and choice.",
+      "choices": [
+        "collaboration",
+        "genocide",
+        "Holocaust",
+        "antisemitism"
+      ],
+      "answer": 0,
+      "explanation": "Collaboration is the course term defined as: Cooperation with an occupying or oppressive power, under conditions that may vary in coercion and choice."
+    },
+    {
+      "id": "W31Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 31?",
+      "choices": [
+        "The Cold War combined ideology, security fears, nuclear weapons, alliances, economics, propaganda, and decolonization.",
+        "The Holocaust developed through escalating exclusion, law, dispossession, deportation, occupation, and mass murder.",
+        "Decolonization resulted from organized movements, imperial weakness, global war, international pressure, and changing ideas of legitimacy.",
+        "The Great Depression spread through interconnected finance, trade, production, and policy failures."
+      ],
+      "answer": 1,
+      "explanation": "The Holocaust developed through escalating exclusion, law, dispossession, deportation, occupation, and mass murder."
+    },
+    {
+      "id": "W31Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 31?",
+      "choices": [
+        "Independence strategies ranged from negotiation and mass nonviolence to armed struggle and international diplomacy.",
+        "Authoritarian movements used crisis, propaganda, violence, nationalism, and institutional weakness to dismantle opposition.",
+        "Conflicts in Korea, Vietnam, Afghanistan, Africa, Latin America, and the Middle East had local causes as well as superpower involvement.",
+        "Nazi Germany targeted Jews for total destruction and also persecuted Roma, disabled people, Poles, Soviet prisoners, political opponents, LGBTQ people, and others."
+      ],
+      "answer": 3,
+      "explanation": "Nazi Germany targeted Jews for total destruction and also persecuted Roma, disabled people, Poles, Soviet prisoners, political opponents, LGBTQ people, and others."
+    },
+    {
+      "id": "W31Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 31?",
+      "choices": [
+        "Fascism, Nazism, Stalinism, militarism, and democratic responses must be distinguished rather than treated as identical.",
+        "New states inherited borders, economies, institutions, and conflicts shaped by colonial rule but made consequential choices of their own.",
+        "Nonaligned states pursued their own interests and challenged a simple two-bloc interpretation.",
+        "Choices by institutions, officials, collaborators, bystanders, rescuers, and resisters shaped events within unequal and dangerous conditions."
+      ],
+      "answer": 3,
+      "explanation": "Choices by institutions, officials, collaborators, bystanders, rescuers, and resisters shaped events within unequal and dangerous conditions."
+    },
+    {
+      "id": "W31Q9",
+      "prompt": "What is the strongest method for evaluating “Laws, Testimony, and Bureaucratic Records”?",
+      "choices": [
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Use only the most dramatic sentence because memorable details are the most reliable."
+      ],
+      "answer": 1,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W31Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Use the visualization only if it confirms the original claim.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Assume that every mapped relationship is a direct cause."
+      ],
+      "answer": 2,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did dictatorship, war, bureaucracy, racism, and individual choices make mass persecution and genocide possible?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

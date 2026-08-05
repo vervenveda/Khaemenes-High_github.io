@@ -1,0 +1,131 @@
+{
+  "title": "Week 35 Quiz — Comparative Government, Media Literacy, and Civic Action",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W35Q1",
+      "prompt": "Which term best matches this definition: A foundational set of rules establishing government powers, limits, and relationships.",
+      "choices": [
+        "presidential system",
+        "constitution",
+        "misinformation",
+        "disinformation"
+      ],
+      "answer": 1,
+      "explanation": "Constitution is the course term defined as: A foundational set of rules establishing government powers, limits, and relationships."
+    },
+    {
+      "id": "W35Q2",
+      "prompt": "Which term best matches this definition: The principle that public authority is bound by known and fairly applied law.",
+      "choices": [
+        "parliamentary system",
+        "constitution",
+        "rule of law",
+        "misinformation"
+      ],
+      "answer": 2,
+      "explanation": "Rule Of Law is the course term defined as: The principle that public authority is bound by known and fairly applied law."
+    },
+    {
+      "id": "W35Q3",
+      "prompt": "Which term best matches this definition: A system in which the executive emerges from and remains accountable to the legislature.",
+      "choices": [
+        "disinformation",
+        "parliamentary system",
+        "rule of law",
+        "constitution"
+      ],
+      "answer": 1,
+      "explanation": "Parliamentary System is the course term defined as: A system in which the executive emerges from and remains accountable to the legislature."
+    },
+    {
+      "id": "W35Q4",
+      "prompt": "Which term best matches this definition: A system with a separately elected executive serving a fixed term.",
+      "choices": [
+        "parliamentary system",
+        "constitution",
+        "misinformation",
+        "presidential system"
+      ],
+      "answer": 3,
+      "explanation": "Presidential System is the course term defined as: A system with a separately elected executive serving a fixed term."
+    },
+    {
+      "id": "W35Q5",
+      "prompt": "Which term best matches this definition: False or inaccurate information shared without necessarily intending harm.",
+      "choices": [
+        "disinformation",
+        "misinformation",
+        "constitution",
+        "presidential system"
+      ],
+      "answer": 1,
+      "explanation": "Misinformation is the course term defined as: False or inaccurate information shared without necessarily intending harm."
+    },
+    {
+      "id": "W35Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 35?",
+      "choices": [
+        "Decolonization resulted from organized movements, imperial weakness, global war, international pressure, and changing ideas of legitimacy.",
+        "Democratic systems vary in executive-legislative relations, electoral rules, federalism, courts, parties, and rights protections.",
+        "Historical synthesis connects chronology, geography, economics, government, culture, and evidence rather than treating units as isolated.",
+        "Global production can lower prices and expand opportunity while shifting labor, environmental, and security risks across borders."
+      ],
+      "answer": 1,
+      "explanation": "Democratic systems vary in executive-legislative relations, electoral rules, federalism, courts, parties, and rights protections."
+    },
+    {
+      "id": "W35Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 35?",
+      "choices": [
+        "Development must be evaluated through health, education, rights, inequality, resilience, and environment as well as income.",
+        "Independence strategies ranged from negotiation and mass nonviolence to armed struggle and international diplomacy.",
+        "Formal constitutions matter, but democratic performance also depends on norms, institutions, participation, accountability, and access to information.",
+        "A strong civic proposal identifies stakeholders, authority, evidence, tradeoffs, implementation steps, and measures of success."
+      ],
+      "answer": 2,
+      "explanation": "Formal constitutions matter, but democratic performance also depends on norms, institutions, participation, accountability, and access to information."
+    },
+    {
+      "id": "W35Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 35?",
+      "choices": [
+        "Media literacy requires lateral reading, source tracing, evidence checking, image verification, and awareness of algorithmic incentives.",
+        "New states inherited borders, economies, institutions, and conflicts shaped by colonial rule but made consequential choices of their own.",
+        "Final assessment should demonstrate transfer: using course habits to analyze unfamiliar evidence and contemporary problems.",
+        "Migration is shaped by work, family, conflict, climate, policy, networks, and individual agency."
+      ],
+      "answer": 0,
+      "explanation": "Media literacy requires lateral reading, source tracing, evidence checking, image verification, and awareness of algorithmic incentives."
+    },
+    {
+      "id": "W35Q9",
+      "prompt": "What is the strongest method for evaluating “Constitution and Verification Lab”?",
+      "choices": [
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+      ],
+      "answer": 3,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W35Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Use the visualization only if it confirms the original claim.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Assume that every mapped relationship is a direct cause."
+      ],
+      "answer": 2,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How can citizens evaluate institutions and information well enough to act responsibly?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

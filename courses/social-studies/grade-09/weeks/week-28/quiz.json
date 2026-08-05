@@ -1,0 +1,131 @@
+{
+  "title": "Week 28 Quiz — Imperialism and Resistance",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W28Q1",
+      "prompt": "Which term best matches this definition: The extension of political, economic, or cultural control over other territories or peoples.",
+      "choices": [
+        "anti-imperialism",
+        "indirect rule",
+        "sphere of influence",
+        "imperialism"
+      ],
+      "answer": 3,
+      "explanation": "Imperialism is the course term defined as: The extension of political, economic, or cultural control over other territories or peoples."
+    },
+    {
+      "id": "W28Q2",
+      "prompt": "Which term best matches this definition: Direct settlement or administration of a territory by an outside power.",
+      "choices": [
+        "indirect rule",
+        "imperialism",
+        "Social Darwinism",
+        "colonialism"
+      ],
+      "answer": 3,
+      "explanation": "Colonialism is the course term defined as: Direct settlement or administration of a territory by an outside power."
+    },
+    {
+      "id": "W28Q3",
+      "prompt": "Which term best matches this definition: The misuse of evolutionary concepts to justify hierarchy, racism, and imperial competition.",
+      "choices": [
+        "anti-imperialism",
+        "indirect rule",
+        "colonialism",
+        "Social Darwinism"
+      ],
+      "answer": 3,
+      "explanation": "Social Darwinism is the course term defined as: The misuse of evolutionary concepts to justify hierarchy, racism, and imperial competition."
+    },
+    {
+      "id": "W28Q4",
+      "prompt": "Which term best matches this definition: An area where an outside power claims special economic or political privileges.",
+      "choices": [
+        "imperialism",
+        "sphere of influence",
+        "colonialism",
+        "anti-imperialism"
+      ],
+      "answer": 1,
+      "explanation": "Sphere Of Influence is the course term defined as: An area where an outside power claims special economic or political privileges."
+    },
+    {
+      "id": "W28Q5",
+      "prompt": "Which term best matches this definition: Colonial administration conducted partly through existing local authorities.",
+      "choices": [
+        "imperialism",
+        "indirect rule",
+        "Social Darwinism",
+        "anti-imperialism"
+      ],
+      "answer": 1,
+      "explanation": "Indirect Rule is the course term defined as: Colonial administration conducted partly through existing local authorities."
+    },
+    {
+      "id": "W28Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 28?",
+      "choices": [
+        "The Great Depression spread through interconnected finance, trade, production, and policy failures.",
+        "World War I resulted from interacting causes including alliance commitments, imperial rivalry, nationalism, militarism, and crisis decisions.",
+        "Capitalism and socialism contain diverse schools rather than one fixed model each.",
+        "Industrial weapons and transport aided empire, but conquest also depended on local alliances, finance, medicine, and political divisions."
+      ],
+      "answer": 3,
+      "explanation": "Industrial weapons and transport aided empire, but conquest also depended on local alliances, finance, medicine, and political divisions."
+    },
+    {
+      "id": "W28Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 28?",
+      "choices": [
+        "Authoritarian movements used crisis, propaganda, violence, nationalism, and institutional weakness to dismantle opposition.",
+        "Industrial technology increased destructive capacity while states mobilized soldiers, workers, colonies, finance, and information.",
+        "Colonial rule reorganized land, labor, borders, education, law, and trade for imperial priorities.",
+        "Labor reform emerged through unions, cooperatives, political parties, religious movements, mutual aid, and government regulation."
+      ],
+      "answer": 2,
+      "explanation": "Colonial rule reorganized land, labor, borders, education, law, and trade for imperial priorities."
+    },
+    {
+      "id": "W28Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 28?",
+      "choices": [
+        "Modern economies combine markets, public institutions, households, and nonprofit organizations in different proportions.",
+        "Fascism, Nazism, Stalinism, militarism, and democratic responses must be distinguished rather than treated as identical.",
+        "War pressures contributed to revolutions and the collapse of Russian, Ottoman, German, and Austro-Hungarian imperial structures.",
+        "Resistance ranged from armed conflict to legal petitions, religious movements, labor action, cultural preservation, and intellectual critique."
+      ],
+      "answer": 3,
+      "explanation": "Resistance ranged from armed conflict to legal petitions, religious movements, labor action, cultural preservation, and intellectual critique."
+    },
+    {
+      "id": "W28Q9",
+      "prompt": "What is the strongest method for evaluating “Imperial Propaganda and Countervoices”?",
+      "choices": [
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate."
+      ],
+      "answer": 2,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W28Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "Assume that every mapped relationship is a direct cause.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Use the visualization only if it confirms the original claim."
+      ],
+      "answer": 2,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did industrial power, nationalism, racism, and local collaboration shape imperial expansion and resistance?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

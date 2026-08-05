@@ -1,0 +1,131 @@
+{
+  "title": "Week 32 Quiz — The Cold War",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W32Q1",
+      "prompt": "Which term best matches this definition: A prolonged global rivalry led by the United States and Soviet Union without direct full-scale war between them.",
+      "choices": [
+        "nuclear deterrence",
+        "nonalignment",
+        "Cold War",
+        "détente"
+      ],
+      "answer": 2,
+      "explanation": "Cold War is the course term defined as: A prolonged global rivalry led by the United States and Soviet Union without direct full-scale war between them."
+    },
+    {
+      "id": "W32Q2",
+      "prompt": "Which term best matches this definition: A strategy intended to limit the expansion of Soviet influence.",
+      "choices": [
+        "Cold War",
+        "containment",
+        "détente",
+        "proxy war"
+      ],
+      "answer": 1,
+      "explanation": "Containment is the course term defined as: A strategy intended to limit the expansion of Soviet influence."
+    },
+    {
+      "id": "W32Q3",
+      "prompt": "Which term best matches this definition: The attempt to prevent attack through the threat of devastating retaliation.",
+      "choices": [
+        "proxy war",
+        "containment",
+        "nuclear deterrence",
+        "détente"
+      ],
+      "answer": 2,
+      "explanation": "Nuclear Deterrence is the course term defined as: The attempt to prevent attack through the threat of devastating retaliation."
+    },
+    {
+      "id": "W32Q4",
+      "prompt": "Which term best matches this definition: A conflict in which outside powers support opposing sides rather than fight one another directly.",
+      "choices": [
+        "détente",
+        "proxy war",
+        "nonalignment",
+        "containment"
+      ],
+      "answer": 1,
+      "explanation": "Proxy War is the course term defined as: A conflict in which outside powers support opposing sides rather than fight one another directly."
+    },
+    {
+      "id": "W32Q5",
+      "prompt": "Which term best matches this definition: A policy of avoiding formal alignment with major Cold War blocs.",
+      "choices": [
+        "détente",
+        "proxy war",
+        "Cold War",
+        "nonalignment"
+      ],
+      "answer": 3,
+      "explanation": "Nonalignment is the course term defined as: A policy of avoiding formal alignment with major Cold War blocs."
+    },
+    {
+      "id": "W32Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 32?",
+      "choices": [
+        "The Holocaust developed through escalating exclusion, law, dispossession, deportation, occupation, and mass murder.",
+        "Global production can lower prices and expand opportunity while shifting labor, environmental, and security risks across borders.",
+        "The Cold War combined ideology, security fears, nuclear weapons, alliances, economics, propaganda, and decolonization.",
+        "Decolonization resulted from organized movements, imperial weakness, global war, international pressure, and changing ideas of legitimacy."
+      ],
+      "answer": 2,
+      "explanation": "The Cold War combined ideology, security fears, nuclear weapons, alliances, economics, propaganda, and decolonization."
+    },
+    {
+      "id": "W32Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 32?",
+      "choices": [
+        "Nazi Germany targeted Jews for total destruction and also persecuted Roma, disabled people, Poles, Soviet prisoners, political opponents, LGBTQ people, and others.",
+        "Independence strategies ranged from negotiation and mass nonviolence to armed struggle and international diplomacy.",
+        "Conflicts in Korea, Vietnam, Afghanistan, Africa, Latin America, and the Middle East had local causes as well as superpower involvement.",
+        "Development must be evaluated through health, education, rights, inequality, resilience, and environment as well as income."
+      ],
+      "answer": 2,
+      "explanation": "Conflicts in Korea, Vietnam, Afghanistan, Africa, Latin America, and the Middle East had local causes as well as superpower involvement."
+    },
+    {
+      "id": "W32Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 32?",
+      "choices": [
+        "Migration is shaped by work, family, conflict, climate, policy, networks, and individual agency.",
+        "New states inherited borders, economies, institutions, and conflicts shaped by colonial rule but made consequential choices of their own.",
+        "Nonaligned states pursued their own interests and challenged a simple two-bloc interpretation.",
+        "Choices by institutions, officials, collaborators, bystanders, rescuers, and resisters shaped events within unequal and dangerous conditions."
+      ],
+      "answer": 2,
+      "explanation": "Nonaligned states pursued their own interests and challenged a simple two-bloc interpretation."
+    },
+    {
+      "id": "W32Q9",
+      "prompt": "What is the strongest method for evaluating “Competing Speeches and a Crisis File”?",
+      "choices": [
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+      ],
+      "answer": 3,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W32Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Assume that every mapped relationship is a direct cause.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "Use the visualization only if it confirms the original claim."
+      ],
+      "answer": 0,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did a rivalry between superpowers become a worldwide political, military, economic, and cultural system?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

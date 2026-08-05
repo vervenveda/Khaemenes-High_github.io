@@ -1,0 +1,131 @@
+{
+  "title": "Week 34 Quiz — Globalization, Trade, Development, and Migration",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W34Q1",
+      "prompt": "Which term best matches this definition: Increasing cross-border connection in production, finance, information, culture, and movement.",
+      "choices": [
+        "sustainability",
+        "globalization",
+        "development indicator",
+        "comparative advantage"
+      ],
+      "answer": 1,
+      "explanation": "Globalization is the course term defined as: Increasing cross-border connection in production, finance, information, culture, and movement."
+    },
+    {
+      "id": "W34Q2",
+      "prompt": "Which term best matches this definition: The linked stages through which a good or service is designed, produced, transported, and sold.",
+      "choices": [
+        "supply chain",
+        "sustainability",
+        "development indicator",
+        "comparative advantage"
+      ],
+      "answer": 0,
+      "explanation": "Supply Chain is the course term defined as: The linked stages through which a good or service is designed, produced, transported, and sold."
+    },
+    {
+      "id": "W34Q3",
+      "prompt": "Which term best matches this definition: The ability to produce a good at a lower opportunity cost than another producer.",
+      "choices": [
+        "comparative advantage",
+        "sustainability",
+        "development indicator",
+        "globalization"
+      ],
+      "answer": 0,
+      "explanation": "Comparative Advantage is the course term defined as: The ability to produce a good at a lower opportunity cost than another producer."
+    },
+    {
+      "id": "W34Q4",
+      "prompt": "Which term best matches this definition: A measure used to describe economic or social conditions.",
+      "choices": [
+        "sustainability",
+        "supply chain",
+        "globalization",
+        "development indicator"
+      ],
+      "answer": 3,
+      "explanation": "Development Indicator is the course term defined as: A measure used to describe economic or social conditions."
+    },
+    {
+      "id": "W34Q5",
+      "prompt": "Which term best matches this definition: Money sent by migrants to people in another place, often family members.",
+      "choices": [
+        "remittance",
+        "comparative advantage",
+        "development indicator",
+        "supply chain"
+      ],
+      "answer": 0,
+      "explanation": "Remittance is the course term defined as: Money sent by migrants to people in another place, often family members."
+    },
+    {
+      "id": "W34Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 34?",
+      "choices": [
+        "Decolonization resulted from organized movements, imperial weakness, global war, international pressure, and changing ideas of legitimacy.",
+        "Global production can lower prices and expand opportunity while shifting labor, environmental, and security risks across borders.",
+        "Historical synthesis connects chronology, geography, economics, government, culture, and evidence rather than treating units as isolated.",
+        "Democratic systems vary in executive-legislative relations, electoral rules, federalism, courts, parties, and rights protections."
+      ],
+      "answer": 1,
+      "explanation": "Global production can lower prices and expand opportunity while shifting labor, environmental, and security risks across borders."
+    },
+    {
+      "id": "W34Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 34?",
+      "choices": [
+        "A strong civic proposal identifies stakeholders, authority, evidence, tradeoffs, implementation steps, and measures of success.",
+        "Formal constitutions matter, but democratic performance also depends on norms, institutions, participation, accountability, and access to information.",
+        "Development must be evaluated through health, education, rights, inequality, resilience, and environment as well as income.",
+        "Independence strategies ranged from negotiation and mass nonviolence to armed struggle and international diplomacy."
+      ],
+      "answer": 2,
+      "explanation": "Development must be evaluated through health, education, rights, inequality, resilience, and environment as well as income."
+    },
+    {
+      "id": "W34Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 34?",
+      "choices": [
+        "New states inherited borders, economies, institutions, and conflicts shaped by colonial rule but made consequential choices of their own.",
+        "Media literacy requires lateral reading, source tracing, evidence checking, image verification, and awareness of algorithmic incentives.",
+        "Migration is shaped by work, family, conflict, climate, policy, networks, and individual agency.",
+        "Final assessment should demonstrate transfer: using course habits to analyze unfamiliar evidence and contemporary problems."
+      ],
+      "answer": 2,
+      "explanation": "Migration is shaped by work, family, conflict, climate, policy, networks, and individual agency."
+    },
+    {
+      "id": "W34Q9",
+      "prompt": "What is the strongest method for evaluating “A Global Product Investigation”?",
+      "choices": [
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+      ],
+      "answer": 3,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W34Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Use the visualization only if it confirms the original claim.",
+        "Assume that every mapped relationship is a direct cause.",
+        "Ignore units and scale so attention stays on the overall appearance."
+      ],
+      "answer": 0,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How should societies evaluate the gains, risks, and unequal effects of global interdependence?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}
