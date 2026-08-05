@@ -1,7 +1,8 @@
-# Khaemenes High Social Studies
+# Khaemenes High Social Studies Department
 
-This directory contains the Social Studies landing page and the Grade 9 Global Studies Honors course.
+- Grade 9 — Global Studies Honors
+- Grade 10 — United States History Honors
+- Grade 11 — United States Government Honors + Economics Honors
+- Grade 11 Companion — Personal Financial Literacy & Money Management Honors
 
-- Department landing: `index.html`
-- Grade 9 course: `grade-09/index.html`
-- Grade 9 documentation: `grade-09/docs/README.md`
+The Grade 11 upload packet includes only the updated department gateway and the new `grade-11` course folder. Existing Grade 9 and Grade 10 folders remain in the repository.
