@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Khaemenes Scientific Calculator</title>
+<style>
+body{margin:0;background:#111;color:#eee;font-family:Arial;display:grid;place-items:center;min-height:100vh}
+.calc{width:520px;max-width:95vw;background:#20242b;border-radius:24px;padding:18px;box-shadow:0 20px 50px #0008}
+.top{display:flex;justify-content:space-between;color:#c9b06b;font-size:12px;letter-spacing:.15em}
+.screen{background:#0a0d10;border-radius:14px;padding:12px;margin:10px 0}
+#expr{height:20px;color:#95a0ad;text-align:right;font-size:14px}
+#disp{text-align:right;font-size:40px;min-height:46px}
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+button{height:54px;border:0;border-radius:12px;background:#343b46;color:#fff;font-size:16px}
+.op{background:#485465}.eq{background:#c9b06b;color:#111;font-weight:bold}
+</style></head><body>
+<div class='calc'>
+<div class='top'><span>DEG</span><span>M</span><span>SHIFT</span><span>ALPHA</span></div>
+<div class='screen'><div id='expr'></div><div id='disp'>0</div></div>
+<div class='grid' id='keys'></div>
+</div>
+<script>
+const layout=[
+['MC','MR','MS','M+','M-','C'],
+['(',')','⌫','/','√','^'],
+['7','8','9','*','π','Ans'],
+['4','5','6','-','x²','%'],
+['1','2','3','+','±','='],
+['0','.','sin','cos','tan','log']
+];
+const keys=document.getElementById('keys');
+let expr='',ans=0,mem=0;
+function render(){exprDiv.textContent=expr;disp.textContent=expr||'0'}
+const exprDiv=document.getElementById('expr'),disp=document.getElementById('disp');
+layout.flat().forEach(k=>{
+ let b=document.createElement('button');b.textContent=k;
+ if(['/','*','-','+','=','^','√'].includes(k))b.className='op';
+ if(k==='=')b.className='eq';
+ b.onclick=()=>press(k);keys.appendChild(b);
+});
+function press(k){
+ if(k==='C'){expr='';return render();}
+ if(k==='⌫'){expr=expr.slice(0,-1);return render();}
+ if(k==='Ans'){expr+=ans;return render();}
+ if(k==='π'){expr+='Math.PI';return render();}
+ if(k==='√'){expr+='Math.sqrt(';return render();}
+ if(k==='x²'){expr+='**2';return render();}
+ if(k==='sin'){expr+='Math.sin(';return render();}
+ if(k==='cos'){expr+='Math.cos(';return render();}
+ if(k==='tan'){expr+='Math.tan(';return render();}
+ if(k==='log'){expr+='Math.log10(';return render();}
+ if(k==='MC'){mem=0;return;}
+ if(k==='MR'){expr+=mem;return render();}
+ if(k==='MS'){try{mem=eval(expr)}catch{}return;}
+ if(k==='M+'){try{mem+=eval(expr)}catch{}return;}
+ if(k==='M-'){try{mem-=eval(expr)}catch{}return;}
+ if(k==='='){try{ans=Function('return '+expr)();expr=String(ans);localStorage.calcHist=(JSON.parse(localStorage.calcHist||'[]').concat([{e:expr,r:ans}]).slice(-20).map(x=>x));}catch{expr='Error'}return render();}
+ if(k==='±'){expr='(-1*('+expr+'))';return render();}
+ if(k==='^'){expr+='**';return render();}
+ expr+=k;render();
+}
+document.addEventListener('keydown',e=>{
+ if(/[0-9().+\-*/]/.test(e.key)){expr+=e.key;render()}
+ else if(e.key==='Enter')press('=');
+ else if(e.key==='Backspace')press('⌫');
+ else if(e.key==='Escape')press('C');
+});
+render();
+</script></body></html>
