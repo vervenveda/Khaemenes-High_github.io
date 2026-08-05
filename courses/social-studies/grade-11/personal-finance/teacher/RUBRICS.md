@@ -26,7 +26,7 @@
 - Evidence-based challenge or question: 3
 - Reflection and revision: 3
 
-## Public-Policy and Constitutional-Economic Capstone — 100 points
+## Independent-Living Portfolio — 100 points
 
 - Problem definition and jurisdiction / decision context: 10
 - Research trail and source authority: 15

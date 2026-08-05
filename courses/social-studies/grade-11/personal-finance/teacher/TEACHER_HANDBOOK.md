@@ -1,7 +1,7 @@
-# Teacher Handbook — Grade 11 Government, Law & Economics Honors
+# Teacher Handbook — Personal Financial Literacy & Money Management Honors
 
-**Course code:** KHAE-SS11-GLE  
-**Credit:** 1  
+**Course code:** KHAE-SS11-PFL  
+**Credit:** 0.5  
 **Authors:** Jennifer Pearl and Autumn Pearl  
 **Release date:** 2026-08-05
 
@@ -11,7 +11,7 @@ This is a rigorous, inquiry-centered honors course designed for independent, hom
 
 ## Credit and transcript rule
 
-Record Weeks 1–18 as United States Government Honors (0.5 credit) and Weeks 19–36 as Economics Honors (0.5 credit).
+The separate financial-literacy record must not be merged into the Government or Economics credit.
 
 Local schools, homeschool programs, districts, states, colleges, and accrediting bodies retain authority over credit acceptance. Keep work samples, attendance, assessment records, standards reports, and the completed portfolio.
 
@@ -25,7 +25,7 @@ Local schools, homeschool programs, districts, states, colleges, and accrediting
 
 ## Grading
 
-- Principal assignments: 40%
+- Principal assignments: 45%
 - Weekly quizzes: 20%
 - Cumulative assessments and capstone: remaining course weight as stated in `data/course-data.json`
 
