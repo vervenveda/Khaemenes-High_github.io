@@ -1,38 +1,92 @@
-# Final Validation Report — Grade 11 Social Studies
+# Final Validation Report — Grade 12 Social Studies
 
-## Curriculum structure
+## Package
+**Global Politics, International Relations & Senior Research Honors**  
+Course code: `KHAE-SS12-GPIR`  
+36 weeks · 1.0 honors credit · 150 documented hours
 
-- **PASS** — Core Government, Law & Economics sequence: 36 continuous weeks, 180 daily lessons, 108 principal assignments, 36 weekly quizzes, 360 weekly objective questions, and 36 constructed responses.
-- **PASS** — Separate Personal Financial Literacy sequence: 18 continuous weeks, 90 daily lessons, 54 principal assignments, 18 weekly quizzes, 180 weekly objective questions, and 18 constructed responses.
-- **PASS** — Every weekly module contains `README.md`, `quiz.json`, `student-packet.html`, and `teacher-guide.html`.
-- **PASS** — Core and financial-literacy records use separate course codes, storage keys, assessments, reports, teacher portals, and completion certificates.
+## Curriculum counts
+| Measure | Result |
+|---|---:|
+| Weeks | 36 |
+| Daily lessons | 180 |
+| Principal assignments | 108 |
+| Weekly objective questions | 360 |
+| Weekly constructed responses | 36 |
+| Mandatory major assessments | 13 |
+| Capstone checkpoints | 10 |
+| Semester-exam objective questions | 60 |
+| Final-exam objective questions | 72 |
+| Examination constructed responses | 9 |
 
-## Major assessments
+## Structural validation
+- Continuous Week 01–36 sequence: **PASS**
+- Every week contains `README.md`, `quiz.json`, `student-packet.html`, and `teacher-guide.html`: **PASS**
+- Every weekly quiz contains ten valid objective items and one constructed response: **PASS**
+- Grade 12 portal, teacher portal, assessments, research tools, documentation, data, offline shell, and certificate are present: **PASS**
+- Updated Social Studies gateway and department README are present: **PASS**
 
-- **PASS** — Government Honors final: 50 objective questions plus constructed responses.
-- **PASS** — Economics Honors final: 50 objective questions plus constructed responses.
-- **PASS** — FCLE-style practice: 40 objective questions plus a constructed response.
-- **PASS** — Personal Financial Literacy midterm: 40 objective questions plus a constructed response.
-- **PASS** — Personal Financial Literacy final: 50 objective questions plus constructed responses.
-- **PASS** — Answer keys and correction/reassessment forms are present.
+## HTML and JavaScript validation
+- HTML files parsed: 105
+- HTML files missing titles: 0
+- Duplicate HTML IDs: 0
+- Inline scripts syntax-checked: 24
+- Inline script syntax errors: 0
+- Standalone JavaScript files checked with `node --check`: 3
+- Standalone JavaScript syntax errors: 0
+- Local references checked: 289
+- Unexpected missing local targets: 0
+- External dependencies in HTML: 0
 
-## Technical diagnostics
+## Runtime interaction validation
+A Playwright DOM/runtime simulation was performed with the actual generated HTML and scripts.
 
-- **PASS** — All JSON files parsed successfully and weekly quiz JSON matched the course datasets.
-- **PASS** — All generated `.js` files passed Node syntax checking.
-- **PASS** — All inline scripts passed JavaScript syntax checking.
-- **PASS** — 411 local HTML references were checked; no unexpected missing local target was found.
-- **PASS** — All 18 external course-resource references use HTTPS.
-- **PASS** — Core and Personal Finance landing pages returned HTTP 200 from the local validation server.
-- **PASS** — Browser simulation rendered 36 and 18 sidebar weeks respectively; weekly views rendered five lesson controls, three assignments, and eleven quiz blocks (ten objective plus one constructed response).
-- **PASS** — Student creation, lesson completion, assignment saving, reports, assessment views, objective assessment scoring, teacher passcodes, and local resource-draft saving were exercised without browser errors.
-- **PASS** — ZIP integrity test completed with no corrupt entry.
+Passed:
+- 36 sidebar weeks rendered.
+- Student creation and local record initialization worked.
+- A weekly view rendered five lessons, three assignments, and ten objective quiz items.
+- Lesson completion persisted.
+- Assignment drafting and submission persisted.
+- A fully correct quiz saved a 100% best score.
+- The student Graduation Audit rendered 13 enforced gates.
+- Teacher passcode `KHAE12CAPSTONE` opened the evaluator portal.
+- The evaluator portal rendered 13 major-assessment rows, 36 weekly portfolio approvals, and 10 capstone checkpoints.
+- Final-credit issuance remained disabled for an incomplete student.
+- A constructed full-completion record changed the audit to **READY TO ISSUE CREDIT**.
+- Issuing credit changed the record to **FINAL CREDIT ISSUED**.
+- The certificate rendered only for a record with evaluator-issued credit.
+- No runtime JavaScript errors were observed in the simulated interactions.
 
-## Visual review
+Direct browser navigation to localhost/file URLs was blocked by the execution environment’s browser-administrator policy. The runtime simulation therefore loaded the same HTML, CSS, course database, application scripts, and local-storage behavior directly into Playwright rather than through a network URL.
 
-- **PASS** — Desktop dashboard and weekly lesson views were rendered and reviewed for alignment, text containment, navigation visibility, card spacing, and credit-note contrast.
-- **PASS** — The Grade 11 parchment-and-midnight visual system remains consistent with the Khaemenes High Social Studies portals.
+## Graduation safeguards
+The course requires:
+- 150 documented hours;
+- at least 162 of 180 daily lessons;
+- all 108 principal assignments;
+- evaluator approval for all 36 weekly portfolios;
+- all 36 quizzes at 80% or higher;
+- at least 70% in each semester;
+- at least 75% overall;
+- every major assessment threshold;
+- all ten capstone checkpoints;
+- 75% or higher on the thesis;
+- 75% or higher on the oral defense;
+- 70% or higher on the cumulative final;
+- integrity and AI-disclosure verification;
+- evaluator verification;
+- explicit final-credit issuance.
 
-## Deployment boundary
+The weighted average cannot override a missing gate.
 
-The package was tested as generated static content. Existing repository destinations outside the packet—such as the Khaemenes High root and the already deployed Grade 9 and Grade 10 folders—are intentionally referenced but not duplicated. The public GitHub Pages deployment should be checked again after upload and build completion.
+## Portability limitation
+The package is designed to provide a rigorous and reviewable national-portability record. It does not itself confer accreditation, AP or IB authorization, or automatic acceptance by every state, district, school, college, scholarship authority, umbrella school, or homeschool evaluator.
+
+## Archive validation
+- Master ZIP entries: 227
+- Master ZIP integrity: **PASS**
+- Core/gateway batch: 83 entries
+- Week 01–12 batch: 48 entries
+- Week 13–24 batch: 48 entries
+- Week 25–36 batch: 48 entries
+- Corrupt archive entries detected: 0

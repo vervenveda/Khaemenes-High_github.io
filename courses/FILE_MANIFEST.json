@@ -1,1596 +1,1132 @@
 {
+  "package": "Khaemenes High Grade 12 Social Studies GitHub Packet",
   "generated": "2026-08-05",
-  "fileCount": 318,
+  "file_count": 225,
   "files": [
     {
       "path": "FINAL_VALIDATION_REPORT.md",
-      "bytes": 3079,
-      "sha256": "65c391b1552bcce2834c657beac7980803fc9fcaf5e50747b1f7b032b6ca4281"
+      "size": 4042,
+      "sha256": "1f6595746785714dd694e02365af6e67b1417ac8aaa8b2a4c81ac463586b2965"
+    },
+    {
+      "path": "PACKAGE_SUMMARY.md",
+      "size": 668,
+      "sha256": "75494572fd24101040ae69e23eb647424f89a1ffdeb1dd5840144c73ca429a16"
     },
     {
       "path": "README.md",
-      "bytes": 558,
-      "sha256": "3b840318cd058f03b13daeb6b977fc7398e44cd218317d6a5d67869879ef21b9"
+      "size": 978,
+      "sha256": "51ddcb5a36d11420f7e790444dfd95e111875b7e571d1dbf6c121acc15ad005d"
     },
     {
       "path": "UPLOAD_INSTRUCTIONS.md",
-      "bytes": 1224,
-      "sha256": "0e4756b00e606a11babd3bf4413f807762a8095aee65020e80bc563bc1b6e96e"
+      "size": 1967,
+      "sha256": "c1c56f2aa006b861c58f21013d63270bec65f022712db6fdb8341ecf359b6a04"
     },
     {
       "path": "courses/social-studies/README.md",
-      "bytes": 444,
-      "sha256": "b0c98c22fec3b6969dc6dc35d054f0a006773fdc57808434f218133dfdd0114b"
+      "size": 542,
+      "sha256": "05b9b9291d5027642d3e09537d1919fd8342e3b21b3f96ac6a5137b41203abed"
     },
     {
-      "path": "courses/social-studies/grade-11/404.html",
-      "bytes": 485,
-      "sha256": "2af02e889af314b4b8ab9a46b46cc9a809d028ce511a808f663d6b7b6018aed3"
+      "path": "courses/social-studies/grade-12/404.html",
+      "size": 492,
+      "sha256": "60ae679eb024e164d1c3c381eb2e8fa3621224129811676d955e9c510e26d893"
     },
     {
-      "path": "courses/social-studies/grade-11/GRADE11_SOCIAL_STUDIES_RELEASE.md",
-      "bytes": 383,
-      "sha256": "c30df45d4b22672a4cfd8b8d149b77a0df8ee000aab2056566d99aa7748b9ee8"
+      "path": "courses/social-studies/grade-12/GRADE12_SOCIAL_STUDIES_RELEASE.md",
+      "size": 344,
+      "sha256": "0de92cec210f8f76b57ab1ac897b1dbec9c89f47be59a97ae162237306985266"
     },
     {
-      "path": "courses/social-studies/grade-11/GRADE11_SOCIAL_STUDIES_VALIDATION.md",
-      "bytes": 808,
-      "sha256": "4fff41b554aa1bc84bf9d0ecbd2175a326746f9ceaf8be888f4e829e840aa0d5"
+      "path": "courses/social-studies/grade-12/GRADE12_SOCIAL_STUDIES_VALIDATION.md",
+      "size": 4042,
+      "sha256": "1f6595746785714dd694e02365af6e67b1417ac8aaa8b2a4c81ac463586b2965"
     },
     {
-      "path": "courses/social-studies/grade-11/LICENSE.md",
-      "bytes": 510,
-      "sha256": "8ab5865c1c1b9920bb1195efcf0746d91e6cbd47b9b65cc69f3665996da466e3"
+      "path": "courses/social-studies/grade-12/LICENSE.md",
+      "size": 440,
+      "sha256": "6d7c694cc16f5ebe71ac51cad4a0f8c1b260084bd22288caeda7279d91d40222"
     },
     {
-      "path": "courses/social-studies/grade-11/README.md",
-      "bytes": 1393,
-      "sha256": "65d36a6ff5453833eccd09fbf51e456c7088bb0bec2e19a44fc0128945e7200b"
+      "path": "courses/social-studies/grade-12/README.md",
+      "size": 659,
+      "sha256": "db5a2dd8ad99a551780e54ab14e1b9b101b37689c5b0109ccbd0dfe878e6db16"
     },
     {
-      "path": "courses/social-studies/grade-11/STANDARDS_CROSSWALK.md",
-      "bytes": 8336,
-      "sha256": "d96300d2f0c4c276c93a9092d1c33caab00a9f25e10d5da14e9f3e1ee7cf06d3"
+      "path": "courses/social-studies/grade-12/STANDARDS_CROSSWALK.md",
+      "size": 2724,
+      "sha256": "038656404c32b52249c7565ce8cedb1c7179567ec0a135e79232ef0c6201ef8f"
     },
     {
-      "path": "courses/social-studies/grade-11/app.js",
-      "bytes": 23936,
-      "sha256": "b84b3245e5712502a92af5c282e84410345ef19c199a56754250d502ebc7a9ff"
+      "path": "courses/social-studies/grade-12/app.js",
+      "size": 27153,
+      "sha256": "023a8130b1df9b0157f59c1626745765f59740fadf261ecba0929a70a018d8cd"
     },
     {
-      "path": "courses/social-studies/grade-11/assessments/README.md",
-      "bytes": 185,
-      "sha256": "7fc76b9aab18afe1d273c22b2ec643c701b03a961ce0322598e74ab4f24a8fb1"
+      "path": "courses/social-studies/grade-12/assessments/README.md",
+      "size": 175,
+      "sha256": "deb71746467b330270cd7e59dfe5f1c90d0b73e678a8b8a7fbcd61497a79b453"
     },
     {
-      "path": "courses/social-studies/grade-11/assessments/correction-form.html",
-      "bytes": 3607,
-      "sha256": "e760f8012d2cf855fe6d0141e8f7735bdb09f456b633b851359fc2e3ba8a1a39"
+      "path": "courses/social-studies/grade-12/assessments/comparative_dossier.html",
+      "size": 3576,
+      "sha256": "7df82af2bd92e59aa1a46844316c15ba83adcd760024235525c5383a239684d7"
     },
     {
-      "path": "courses/social-studies/grade-11/assessments/economics-final.html",
-      "bytes": 57020,
-      "sha256": "14a1a6475a010616c889c4a50137ce5439b9f2df5e88a81303f85f9e43041a86"
+      "path": "courses/social-studies/grade-12/assessments/correction-form.html",
+      "size": 1102,
+      "sha256": "4abe4565c9e3bdfe2e673e129adc9912a0b27e8d332f83badbebc7797b058f95"
     },
     {
-      "path": "courses/social-studies/grade-11/assessments/fcle-practice.html",
-      "bytes": 46128,
-      "sha256": "ea9e5f84d842d5875838b500fbe21f30f01e06710668e8fd0e67d38462de8eb3"
+      "path": "courses/social-studies/grade-12/assessments/cumulative_final.html",
+      "size": 94139,
+      "sha256": "31b124a5724a3ba35dd2a14934ef8b6520cc9a965570f79bf417daa3f5599372"
     },
     {
-      "path": "courses/social-studies/grade-11/assessments/final.html",
-      "bytes": 109,
-      "sha256": "3670578828ad48f2a3bd8378e17159ae993cd8a47261574b05114a4275bacc2c"
+      "path": "courses/social-studies/grade-12/assessments/development_brief.html",
+      "size": 3519,
+      "sha256": "c4b43a5f66a1c930dd387e539862b3d6d9ff43ab91e5e87bbdd101b65a432cfa"
     },
     {
-      "path": "courses/social-studies/grade-11/assessments/government-final.html",
-      "bytes": 57297,
-      "sha256": "b6a4969876a140613dd51517aa2d56d990caf40a105b25fec9e5a89c82125fdb"
+      "path": "courses/social-studies/grade-12/assessments/diplomacy_simulation.html",
+      "size": 3510,
+      "sha256": "239db69780efcf4c0920f45de5990e8821c36981253af511e64b2c51dc9a5513"
     },
     {
-      "path": "courses/social-studies/grade-11/assessments/midterm.html",
-      "bytes": 111,
-      "sha256": "391c566696f36adce1005c27a154e32b3737148957e64bae79b4bc16aa4673b3"
+      "path": "courses/social-studies/grade-12/assessments/election_analysis.html",
+      "size": 3566,
+      "sha256": "fb966b3e55fff9569879792263f56ea625f14c6ba53861b67f6ecbcb7d66ea5b"
     },
     {
-      "path": "courses/social-studies/grade-11/certificate.html",
-      "bytes": 1844,
-      "sha256": "fbacda9c621b5e157a030ed471b34dc34e67393e7541072550651cda0480b692"
+      "path": "courses/social-studies/grade-12/assessments/engagement_activity.html",
+      "size": 3581,
+      "sha256": "dda9d42d2997ea88ec0f06f17d0374b04792b0422490f28d0e45ab82353a88be"
     },
     {
-      "path": "courses/social-studies/grade-11/course-data.js",
-      "bytes": 970924,
-      "sha256": "26e211d755be0a4e279a691ae63ad7ce97b5fa1d6f40daec1058c14a99375c0c"
+      "path": "courses/social-studies/grade-12/assessments/media_verification.html",
+      "size": 3618,
+      "sha256": "06d33d2eb544b57247f0dffd488ff2826b26e152ee6845c8d51fe38734a2eae2"
     },
     {
-      "path": "courses/social-studies/grade-11/data/course-data.json",
-      "bytes": 1172650,
-      "sha256": "bcbe59dae63aff43395a6c67791c1c757a9836ca6ce1699684e5771db4c7e739"
+      "path": "courses/social-studies/grade-12/assessments/moot_court.html",
+      "size": 3523,
+      "sha256": "df13c62d38232b3a13b237b9807c5baf08167827c2fda2ec686f978239ddb96f"
     },
     {
-      "path": "courses/social-studies/grade-11/data/scope-sequence.csv",
-      "bytes": 24520,
-      "sha256": "2b35443f310c28fe7ba02887fc91242c52685a1979e356097febc641ca47626d"
+      "path": "courses/social-studies/grade-12/assessments/oral_defense.html",
+      "size": 3588,
+      "sha256": "8be5071c5dc0b722b9754a1b2740c4c973534b77149e21158e54c581a04bf996"
     },
     {
-      "path": "courses/social-studies/grade-11/data/standards-crosswalk.csv",
-      "bytes": 7218,
-      "sha256": "0b510a88de15145ed06a74d5c3fae2f60aa9c40011c78317f1f9d211d6152379"
+      "path": "courses/social-studies/grade-12/assessments/proposal_defense.html",
+      "size": 3525,
+      "sha256": "37f2beb2547c54ace4d59819a2670bbc32b3fa9c3a79fc9a1b9430030e78c298"
     },
     {
-      "path": "courses/social-studies/grade-11/docs/ACCESSIBILITY_AND_OFFLINE.md",
-      "bytes": 584,
-      "sha256": "4aad8a580e5e899429d9d9af7176d2800bc86d2951dc28cf66de01e1e2ac1832"
+      "path": "courses/social-studies/grade-12/assessments/security_simulation.html",
+      "size": 3525,
+      "sha256": "52fa5c399fa63e700ead48291939d69a2af84c11de79b7a680d42a220f657bb7"
     },
     {
-      "path": "courses/social-studies/grade-11/docs/COURSE_RATIONALE.md",
-      "bytes": 676,
-      "sha256": "38743fd9f15d374fd4531cf05e038b799f01a5836b32270580558a7dd8bfe909"
+      "path": "courses/social-studies/grade-12/assessments/semester_exam.html",
+      "size": 80014,
+      "sha256": "7fb539e174d30da3f30612153c573fff964c3bc9b476c9dc69f8956cd8342126"
     },
     {
-      "path": "courses/social-studies/grade-11/docs/CREDIT_AND_ALIGNMENT.md",
-      "bytes": 929,
-      "sha256": "4ad0886dd2c8c7d947b4f95e7aeba41c1c9db126221c21991d03d6d297b1531a"
+      "path": "courses/social-studies/grade-12/assessments/thesis.html",
+      "size": 3595,
+      "sha256": "e6028e3e570834b950bf737f2d86cd9baec930c2f376f2c5bff9c3eb77cd7a84"
     },
     {
-      "path": "courses/social-studies/grade-11/docs/CURRICULUM_MAP.md",
-      "bytes": 9996,
-      "sha256": "83f5db7ea71f660b3a12cd0d249d0e70997a162c05adf485ec003b2e35fe5826"
+      "path": "courses/social-studies/grade-12/certificate.html",
+      "size": 2288,
+      "sha256": "0b9d6dd4d7c17fbc3d9bc73f63f87fb1cff25225db32f3ac81495a526cfdc011"
     },
     {
-      "path": "courses/social-studies/grade-11/docs/NONPARTISAN_INSTRUCTION.md",
-      "bytes": 615,
-      "sha256": "46f75a2e9cb4a3de97a08fdc5b5ddb0fdb0263de4fa96e5f5a9e525c582fe707"
+      "path": "courses/social-studies/grade-12/course-data.js",
+      "size": 608992,
+      "sha256": "bd341602ceed0484deccbbe7a23143762f40f157988d6d36f5c19070c4192c3d"
     },
     {
-      "path": "courses/social-studies/grade-11/docs/README.md",
-      "bytes": 572,
-      "sha256": "4d3f3e949f3b175415ac512321a26c1dcb6fd540ae212327bae528ee685760e0"
+      "path": "courses/social-studies/grade-12/data/capstone-checkpoints.csv",
+      "size": 1291,
+      "sha256": "3e9fd64279a14aeb59f58a6e575a5727e68e5f971000e2c8760c8593aea39747"
     },
     {
-      "path": "courses/social-studies/grade-11/docs/RESEARCH_NOTES.md",
-      "bytes": 630,
-      "sha256": "541dad0966ce12d62af11a2162ab0c6ead429dda78a080fd7efeff8ce4f3eaf2"
+      "path": "courses/social-studies/grade-12/data/course-data.json",
+      "size": 752640,
+      "sha256": "f7466f82bcaefa27bb73fb223610f3297e4c573a6f9e2b335a8d053761754cd8"
     },
     {
-      "path": "courses/social-studies/grade-11/index.html",
-      "bytes": 4552,
-      "sha256": "0861bb4485d944b0d109fc158b1de42ef7acd5476350490bf54d69a8ce4e7948"
+      "path": "courses/social-studies/grade-12/data/major-assessments.csv",
+      "size": 2512,
+      "sha256": "87e36923cc392887a8ea61824f3f75409d38afeb80d0a233c1e28dcc2ee3cdfd"
     },
     {
-      "path": "courses/social-studies/grade-11/manifest.webmanifest",
-      "bytes": 427,
-      "sha256": "a4cc970f142bc80257449064f46d5e085d31aec72c7e6a2c7841ff718273b64e"
+      "path": "courses/social-studies/grade-12/data/scope-sequence.csv",
+      "size": 19066,
+      "sha256": "a3021d6f081606828a4df5c716517aea5f4d3e9146db6afb243eb460a4ce60e4"
     },
     {
-      "path": "courses/social-studies/grade-11/offline.html",
-      "bytes": 610,
-      "sha256": "b9b3dd6ae41fd8c9f6ce34aa1c4a64daa4fff3974859e8684dab3e4476ab30c5"
+      "path": "courses/social-studies/grade-12/data/standards-crosswalk.csv",
+      "size": 36827,
+      "sha256": "deac4319dc5fcd548f2502708cd5d95c4e37a0da32ae10fad136648afbeb9f6d"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/404.html",
-      "bytes": 485,
-      "sha256": "2af02e889af314b4b8ab9a46b46cc9a809d028ce511a808f663d6b7b6018aed3"
+      "path": "courses/social-studies/grade-12/docs/ACADEMIC_INTEGRITY_AND_AI_POLICY.md",
+      "size": 1348,
+      "sha256": "433108a11234baa149964d6a0aa22c8303f853d8cab7855be38bc7aae3290d45"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/GRADE11_PERSONAL_FINANCE_RELEASE.md",
-      "bytes": 393,
-      "sha256": "c8592cde60cd51c0824234abefea4996fd0762f5d659de1464e0771cb3683ab2"
+      "path": "courses/social-studies/grade-12/docs/ACCESSIBILITY_AND_OFFLINE.md",
+      "size": 648,
+      "sha256": "af65e1ae07188e1351825cbb96b1cfb273ed42cadf6edcbf842fb1064b1d1b08"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/GRADE11_PERSONAL_FINANCE_VALIDATION.md",
-      "bytes": 818,
-      "sha256": "6ae584920737a5f023d16a4224ef43240c8db9b2e3a19e089aace15592dc2120"
+      "path": "courses/social-studies/grade-12/docs/CAPSTONE_RESEARCH_HANDBOOK.md",
+      "size": 2917,
+      "sha256": "2ec64a7829a8af9f62b7cc55ccddf79a0ad9bb0e2255243c691aa165efe58455"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/LICENSE.md",
-      "bytes": 510,
-      "sha256": "8ab5865c1c1b9920bb1195efcf0746d91e6cbd47b9b65cc69f3665996da466e3"
+      "path": "courses/social-studies/grade-12/docs/COURSE_RATIONALE.md",
+      "size": 1045,
+      "sha256": "1f65dd3a910046ded8117d1268da5b27e3eeb85c7c9f8ede074d129e64e82a4a"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/README.md",
-      "bytes": 1344,
-      "sha256": "07a2f3a5356970266dcd72b78d2b5bab690bde6e32e9b8e70b4d9235ba556c12"
+      "path": "courses/social-studies/grade-12/docs/CREDIT_AND_ALIGNMENT.md",
+      "size": 1111,
+      "sha256": "0052b2d7a445ca0a5dd60a06865e7067207a4412655084a40b5f4f427d6f2479"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/STANDARDS_CROSSWALK.md",
-      "bytes": 5477,
-      "sha256": "c2d97bc3a0a09bee2a367e8de1ecf634d2a09e3dea047b40104df0e9d67e336d"
+      "path": "courses/social-studies/grade-12/docs/CURRICULUM_MAP.md",
+      "size": 10411,
+      "sha256": "8bef10116802d998b0b77db197b8a845f9b617b1f57917fd27964cc054603bc6"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/app.js",
-      "bytes": 23308,
-      "sha256": "cfa2b09f286f39071fde1e63a7e84e0791baa4d969930cb64632f2999e88b839"
+      "path": "courses/social-studies/grade-12/docs/GRADUATION_REQUIREMENTS.md",
+      "size": 1666,
+      "sha256": "54ff647bc3ddcce528f1f5da69acfe6f29c7115b2f23d8199af51622f1c2c32f"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/assessments/README.md",
-      "bytes": 185,
-      "sha256": "7fc76b9aab18afe1d273c22b2ec643c701b03a961ce0322598e74ab4f24a8fb1"
+      "path": "courses/social-studies/grade-12/docs/HOMESCHOOL_EVALUATOR_GUIDE.md",
+      "size": 1261,
+      "sha256": "af21d13f5b51b58aeced75f3043def7a8773f038f8741a25979f38b91e41322c"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/assessments/correction-form.html",
-      "bytes": 3607,
-      "sha256": "e760f8012d2cf855fe6d0141e8f7735bdb09f456b633b851359fc2e3ba8a1a39"
+      "path": "courses/social-studies/grade-12/docs/NATIONAL_PORTABILITY_CROSSWALK.md",
+      "size": 2484,
+      "sha256": "3205518d8669e7aad40a2c84487815e4de8274b228a8bfb7e234cc5f18187206"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/assessments/final.html",
-      "bytes": 54627,
-      "sha256": "4d334a3547f65635ef43a960339134a15c4c0d5a2db7f47628a2f937dcfe935b"
+      "path": "courses/social-studies/grade-12/docs/NONPARTISAN_INSTRUCTION.md",
+      "size": 952,
+      "sha256": "3793b439d190190c1df2c2c1ff748f97a018f292ec48e81c8330add3ea7c3949"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/assessments/midterm.html",
-      "bytes": 44299,
-      "sha256": "d3b280252a99a1dba16a5901c0c8c09ce1e2a5bf8f55fca1abecb16e25f813e5"
+      "path": "courses/social-studies/grade-12/docs/README.md",
+      "size": 845,
+      "sha256": "41926ff31cb59b2562bc0cb9b52d8911fdd602a138950eb018c6d714842b9be5"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/certificate.html",
-      "bytes": 1876,
-      "sha256": "e79028b73a91ac1712236ed260cb454c70c20ff42d832935a2c7edf04b348717"
+      "path": "courses/social-studies/grade-12/docs/RESEARCH_NOTES.md",
+      "size": 1213,
+      "sha256": "ed7872b158c1f03bb7f0cf8a3d7b06f1adeefa7ac0e16440acb4e077cece8e65"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/course-data.js",
-      "bytes": 455286,
-      "sha256": "2301b3317c9b67810f346066151929f35d516b6390135c1091b7e386c479a4a8"
+      "path": "courses/social-studies/grade-12/docs/SCED_TRANSCRIPT_PROFILE.md",
+      "size": 1438,
+      "sha256": "c461773c1c83eacad9b42469582bbcd6c10aac1155de3e9be3ab102496961626"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/data/course-data.json",
-      "bytes": 555536,
-      "sha256": "7b51ba99a459dfdd4acfb51b4441ba7b99298c75dd2d12e0ada2cbfa48ede97d"
+      "path": "courses/social-studies/grade-12/docs/STATE_AND_DC_REVIEW_WORKSHEET.csv",
+      "size": 8462,
+      "sha256": "a51243fd260c6b616efbd62cd752ebed7300ff7077f2020cb6cbe12c2d6373de"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/data/scope-sequence.csv",
-      "bytes": 11194,
-      "sha256": "4866035fd30d91145ce72de8327c68b3565aa6c8aaf1e0b6e66a224b3fbb5b9d"
+      "path": "courses/social-studies/grade-12/docs/TRANSCRIPT_CREDIT_GUIDE.md",
+      "size": 900,
+      "sha256": "8381a84e6a3a2662c4b71bbe965293bc7ce55ad3bef790d8e39bd881195f233e"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/data/standards-crosswalk.csv",
-      "bytes": 4632,
-      "sha256": "1a7dd6694172bf54bf6a67c71283d16ad3ddbfe4998d6a68642a1ee78b8636a2"
+      "path": "courses/social-studies/grade-12/index.html",
+      "size": 5065,
+      "sha256": "4d9439ffd868620e10c8f9f4cd7536866f4af4df8f387eb8cc6251cd0c506d66"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/docs/ACCESSIBILITY_AND_OFFLINE.md",
-      "bytes": 584,
-      "sha256": "4aad8a580e5e899429d9d9af7176d2800bc86d2951dc28cf66de01e1e2ac1832"
+      "path": "courses/social-studies/grade-12/manifest.webmanifest",
+      "size": 549,
+      "sha256": "94dec4a2d0923e624921ada0f94fd5e12e2168e9ec9f99d685f25c4bbc369cb9"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/docs/COURSE_RATIONALE.md",
-      "bytes": 663,
-      "sha256": "f1d49ece8044443377c80268d743fa5aeed2d5f0d31d5b6afc3fd0b7d2d31d86"
+      "path": "courses/social-studies/grade-12/offline.html",
+      "size": 591,
+      "sha256": "84b5e2cab25e684212440218c9c332b5f56e300c0b901d16f8eeba89d7a0ecfe"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/docs/CREDIT_AND_ALIGNMENT.md",
-      "bytes": 862,
-      "sha256": "d2b3bae33db489f875997f2b782a2dc06ffe11a4a47840b10ba2ac3625012c76"
+      "path": "courses/social-studies/grade-12/resources/capstone-planner.html",
+      "size": 2931,
+      "sha256": "754739eca7514378e25d146fd10b9e3d9231b09dc00244997147cf1fc79e44a6"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/docs/CURRICULUM_MAP.md",
-      "bytes": 4791,
-      "sha256": "1285fa5dc67e69c0a59ad1630abdca2416d09ea8c6110c6264b55313f572231c"
+      "path": "courses/social-studies/grade-12/resources/comparative-matrix.html",
+      "size": 2752,
+      "sha256": "9d160955c84ea2ab921357c6760ea86fa4710ebbc3680c73c63b641bb17a8f8e"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/docs/NONPARTISAN_INSTRUCTION.md",
-      "bytes": 615,
-      "sha256": "46f75a2e9cb4a3de97a08fdc5b5ddb0fdb0263de4fa96e5f5a9e525c582fe707"
+      "path": "courses/social-studies/grade-12/resources/data-laboratory.html",
+      "size": 2628,
+      "sha256": "fbc8927369647486584a9e0f3e9a1111eba85e3a315ee54ac8369d046aeb0434"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/docs/README.md",
-      "bytes": 583,
-      "sha256": "43ebb00dbf60ac1c0809195a0b663167ee017696678b0194a174afe4fe16ebd5"
+      "path": "courses/social-studies/grade-12/resources/diplomacy-planner.html",
+      "size": 2775,
+      "sha256": "a632e5f31da89ef0d566c0154838e96cf5eebf4c0d7cffd8b098a2e53c951876"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/docs/RESEARCH_NOTES.md",
-      "bytes": 630,
-      "sha256": "541dad0966ce12d62af11a2162ab0c6ead429dda78a080fd7efeff8ce4f3eaf2"
+      "path": "courses/social-studies/grade-12/resources/engagement-planner.html",
+      "size": 2729,
+      "sha256": "500c71c73fbd66a86f74c809a93a26b70f91e47191d22655a9d39038b3f1c6ea"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/index.html",
-      "bytes": 4594,
-      "sha256": "d3c8861adb2c8816c18c55d1cdd22ccb30b7bf32cee15f6d0a9fe2ed5ba7e53c"
+      "path": "courses/social-studies/grade-12/resources/index.html",
+      "size": 2805,
+      "sha256": "fe856ea9f88723038e294ddd8d20bab12aaff75c37fe5badd5447f3a69f32f60"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/manifest.webmanifest",
-      "bytes": 465,
-      "sha256": "3ec3858de680c48b8a1a4602d80991a49371d29a520dc8cbe5fb2d4498fba429"
+      "path": "courses/social-studies/grade-12/resources/international-law-brief.html",
+      "size": 2691,
+      "sha256": "952d41ff59e2841033ce306154fcb7145abedb0e192580a9b3d433eccea006ce"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/offline.html",
-      "bytes": 620,
-      "sha256": "9fd3c2b69e9288303e65cb455934b66be749d693148c5fcc19ce3639748152db"
+      "path": "courses/social-studies/grade-12/resources/media-verification.html",
+      "size": 2728,
+      "sha256": "ef4a8929aab7bfbf0cdab94891db83677766bf6918b0258036ee8c7e47cb78e4"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/resources/action-planner.html",
-      "bytes": 2672,
-      "sha256": "23218c30643a02cab9a5b6aa9a4c3ce82bdd85b77436f0b37aba47bfdff56c52"
+      "path": "courses/social-studies/grade-12/resources/source-analysis.html",
+      "size": 2686,
+      "sha256": "af3b8425192dc663e360aea26f6b8b2f1a9defefb20bdd74c6ce769daf4ea7fd"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/resources/data-model-lab.html",
-      "bytes": 2620,
-      "sha256": "d3623af326e2b893316c1bad950794fcd79212f57310bd1947409978b4e144ad"
+      "path": "courses/social-studies/grade-12/resources/verve-network.html",
+      "size": 2027,
+      "sha256": "93934e75e3c6c24b6b6426517a0454a801ae2e1733d25a4f76afc5d9bdbf58fc"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/resources/index.html",
-      "bytes": 1991,
-      "sha256": "a20c7882ef317cd9079f3f9e2f49d13840110b027748607082ac7d73dac817bf"
+      "path": "courses/social-studies/grade-12/service-worker.js",
+      "size": 842,
+      "sha256": "d4f2321179deddac329e9bbd417663ade9da39c900dee3787325eaf41c09f6be"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/resources/media-verification.html",
-      "bytes": 2761,
-      "sha256": "7120dba2bbf9148946d7dcfcae76ae2a3d4ed629f2790a97ddb7b3cdcfd3070a"
+      "path": "courses/social-studies/grade-12/styles.css",
+      "size": 10974,
+      "sha256": "8b97830dc42863176a552eb48c59cc942754b9cbbb3ca760a8bd7ea5721f2cba"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/resources/policy-memo.html",
-      "bytes": 2677,
-      "sha256": "0091f878a7f491c7adbc47b223382a383ff8b716c0bf9e8177f11af6e9b8d861"
+      "path": "courses/social-studies/grade-12/teacher/ANSWER_KEY_INDEX.html",
+      "size": 59452,
+      "sha256": "2decf6f8cca8a1b193d4aac182ef3b27830255a52003c7f7a1b2a87e49e128ef"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/resources/source-analysis.html",
-      "bytes": 2766,
-      "sha256": "43c79085998b914956bf1af83bf96ba7fd66f563cac2bca1059c43673c2670e5"
+      "path": "courses/social-studies/grade-12/teacher/CUMULATIVE_FINAL_ANSWER_KEY.html",
+      "size": 11745,
+      "sha256": "0bacab5e5e658f1f5ab294adb628c6b7e36b45a0b8f21a47fa7f0c8175bace71"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/resources/verve-network.html",
-      "bytes": 3160,
-      "sha256": "facb7e140749f1ded4c68c1954d5c5fb991e5a30510dfbe62f1d53efd31c07d9"
+      "path": "courses/social-studies/grade-12/teacher/ENGAGEMENT_ACTIVITY_RUBRIC.md",
+      "size": 371,
+      "sha256": "7fc01beb5518fcf1f1029b111aa2695ada141b81b821eaa6a6b15c5df0b01cf4"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/service-worker.js",
-      "bytes": 822,
-      "sha256": "8b935d6f9bfcdf68eb117d14dd833f57adb1e80f8c7a1efc004ba805a0469cd5"
+      "path": "courses/social-studies/grade-12/teacher/GRADUATION_AUDIT_GUIDE.md",
+      "size": 705,
+      "sha256": "0a3a3e2a65a7dda7b14afae685c7c330cddbdf9568fa8f64e57aa7e5147a2252"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/styles.css",
-      "bytes": 9395,
-      "sha256": "32e75321cd6b3ae09652913622c3dcf836504af02f0f9a861db6e1e52ba83c0e"
+      "path": "courses/social-studies/grade-12/teacher/ORAL_DEFENSE_RUBRIC.md",
+      "size": 392,
+      "sha256": "e6d867f0c679b1d20961f0cb4999b99536f72eff6144480bd5013a41ac7b0ca0"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/ANSWER_KEY_INDEX.html",
-      "bytes": 35193,
-      "sha256": "d06308c5b14a58564c007a3ff09784c3baf3d1544b65a1f90f3cd27de14770e6"
+      "path": "courses/social-studies/grade-12/teacher/PACINGS_AND_SUPPORTS.md",
+      "size": 439,
+      "sha256": "36114f39a0894e76c622b6f8e5e8f45823ad1ae489cb46c80679af05036d8e77"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/FINAL_ANSWER_KEY.html",
-      "bytes": 12700,
-      "sha256": "3a8d9681417f4e6b9d34979bc9ce835f0a62d81b29135b86096d937cd612fdfb"
+      "path": "courses/social-studies/grade-12/teacher/RUBRICS.md",
+      "size": 631,
+      "sha256": "13e17d074e3c22344b139d5d9b57f5dbe41c266fefe5a6b0e586fde07422f463"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/FINANCIAL_LITERACY_MIDTERM_ANSWER_KEY.html",
-      "bytes": 9990,
-      "sha256": "cc5a2dd6ab8e58e830a35a490df12234eaddfded667ecd5f28fd5ee1777062be"
+      "path": "courses/social-studies/grade-12/teacher/SEMESTER_EXAM_ANSWER_KEY.html",
+      "size": 10364,
+      "sha256": "9155fc2ce755d90f90818e2be69463ab60ef4f4a97365b8f083d2de7a50cc8ca"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/MIDTERM_ANSWER_KEY.html",
-      "bytes": 9990,
-      "sha256": "cc5a2dd6ab8e58e830a35a490df12234eaddfded667ecd5f28fd5ee1777062be"
+      "path": "courses/social-studies/grade-12/teacher/TEACHER_HANDBOOK.md",
+      "size": 1045,
+      "sha256": "2e07ae50a39f5183579b2fb5d42924c5d3cc436f80068dbcc584853b17bb8a5c"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/PACINGS_AND_SUPPORTS.md",
-      "bytes": 588,
-      "sha256": "fcaf6a30b21ee7c819f5c31f39692d7299c07c2f7613943cf33b25dad24359a9"
+      "path": "courses/social-studies/grade-12/teacher/THESIS_RUBRIC.md",
+      "size": 404,
+      "sha256": "6045d36b21a47c13c76b52a24234e0eb8e1f7888f00e1ecaa57013fa32c9897b"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/RUBRICS.md",
-      "bytes": 1521,
-      "sha256": "1adb14b6678ac154f7df4766cc5eae0cdcc6fff5f08846199ea0d2cda2cf68d0"
+      "path": "courses/social-studies/grade-12/teacher/attendance-log.csv",
+      "size": 71,
+      "sha256": "783e77876a3b003d86ccda7ae864dde77d8d617605bf5bb55cdfdb05c1c1bfa4"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/TEACHER_HANDBOOK.md",
-      "bytes": 3331,
-      "sha256": "4d9a87b1d89c5def206aa6cd74cb46e95a0a5de1e145e7a232d5896c8936f780"
+      "path": "courses/social-studies/grade-12/teacher/capstone-checkpoints.csv",
+      "size": 617,
+      "sha256": "363a541e3cf1cf5b2b3fc6730dd869518a164cc47fed64a0524dff71f4e39862"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/attendance-log.csv",
-      "bytes": 67,
-      "sha256": "7faf10e7257f2d6b69c0273d8779aa794f4be3cc8cb4576f20e33ad117013000"
+      "path": "courses/social-studies/grade-12/teacher/gradebook-template.csv",
+      "size": 791,
+      "sha256": "eb2f3096d40814141595ba82326af704cb13222068d1619a591a20ab13452ada"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/gradebook-template.csv",
-      "bytes": 563,
-      "sha256": "cf43946faf2f355a919a004f2e2b62203a3163e0c9c2fe7505980414ec588311"
+      "path": "courses/social-studies/grade-12/teacher/index.html",
+      "size": 12707,
+      "sha256": "37a241ab5a17a6a13a39f8689975e9616981c123ee95c292ed377b32d598e6e0"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/index.html",
-      "bytes": 6789,
-      "sha256": "fa05a94b40ca9adfc9dac9557d387ca25b99bcf02f612cec184e5d1e95b92eea"
+      "path": "courses/social-studies/grade-12/teacher/pacing-guide.csv",
+      "size": 9611,
+      "sha256": "028faede448000ae8770a066088bd32361f999acf14e5dcbf7297bfcbc429581"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/pacing-guide.csv",
-      "bytes": 5418,
-      "sha256": "0c211eb0e0f6a51b6e98053296b0b241bba1a38b78e74beab57b6ee6cf7f727e"
+      "path": "courses/social-studies/grade-12/teacher/standards-mastery-template.csv",
+      "size": 87,
+      "sha256": "b2800f0981c71fd4f7c5f3e43d6bed7e5e025d4d9171b41c5398f6a4f0e5b23b"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/teacher/standards-mastery-template.csv",
-      "bytes": 4502,
-      "sha256": "a584ecf130411e05e70d3781cac550fbc9d96feac20a154bf2d769c029082b9f"
+      "path": "courses/social-studies/grade-12/weeks/week-01/README.md",
+      "size": 530,
+      "sha256": "1637d987d4e9e29216ecc84c0f9b878f35de6c90a3917184062b07269456db62"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-01/README.md",
-      "bytes": 1647,
-      "sha256": "aa8c91e0ee49af03d27e722b98c6f0d0fd2a014c8a5d8bb863cf9c49aa2873c7"
+      "path": "courses/social-studies/grade-12/weeks/week-01/quiz.json",
+      "size": 6479,
+      "sha256": "f99b7a3e192b602173b45e8c9db98a4b11b7de6ad16d999ee1dce1a9cbf70fad"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-01/quiz.json",
-      "bytes": 11316,
-      "sha256": "df2999c57993d26b34d614afc04e82741955781a71b0da2efa05a1b3630d4a18"
+      "path": "courses/social-studies/grade-12/weeks/week-01/student-packet.html",
+      "size": 17543,
+      "sha256": "d3c9961791617391918878354100ef744bf33826c256307de86873d256af26a3"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-01/student-packet.html",
-      "bytes": 13246,
-      "sha256": "b5384d7a8e207c161699dbb5b1ab8c2aa1b8b9509d4ad646a821dd71816bc0b9"
+      "path": "courses/social-studies/grade-12/weeks/week-01/teacher-guide.html",
+      "size": 6749,
+      "sha256": "2b1e39f9c1d421ff19e9e15892f7a79f0efae75c77fff86a1c763ea351a9863a"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-01/teacher-guide.html",
-      "bytes": 8214,
-      "sha256": "2791e29064a68d049e6d18e3cea6802cf63d38e02512b840f1aa3b8e68fc5fdb"
+      "path": "courses/social-studies/grade-12/weeks/week-02/README.md",
+      "size": 492,
+      "sha256": "914cfe2cc4082a9f4bc8cd8781df49dbe82091798cd4942c181e2edcaefaab32"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-02/README.md",
-      "bytes": 1699,
-      "sha256": "cbaacdb579e7eeb98aa4be71f53df023dec97c47669e1860b7591f3b9d5640d9"
+      "path": "courses/social-studies/grade-12/weeks/week-02/quiz.json",
+      "size": 6542,
+      "sha256": "b34ad4f0c8247b6d161f07a05e8377a3ceaa97e4d9e3f94e71a607d10e657ec5"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-02/quiz.json",
-      "bytes": 10956,
-      "sha256": "b90c7ac609d2a126f088a2d57382b2c93e4834688fc8fda113ba686582a515da"
+      "path": "courses/social-studies/grade-12/weeks/week-02/student-packet.html",
+      "size": 17904,
+      "sha256": "3688db04b37cda4773dd7349bc13e1c6222310eb4eb7adaca9e64fa7c6868a3d"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-02/student-packet.html",
-      "bytes": 13478,
-      "sha256": "5d16e1066185838fbfb84636916722cb2ad10d3f6f71f8019676526fff5a875d"
+      "path": "courses/social-studies/grade-12/weeks/week-02/teacher-guide.html",
+      "size": 7014,
+      "sha256": "821868b838eac0739293094547d751ffe2d2f7957bbc45ed966db3328ab75291"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-02/teacher-guide.html",
-      "bytes": 8164,
-      "sha256": "8f955c8301ceef1529c9d356a79f98a8c85049ddd905eb952ddcb543f1b3ae5b"
+      "path": "courses/social-studies/grade-12/weeks/week-03/README.md",
+      "size": 507,
+      "sha256": "1a3333374d4ffcbc189b9bfe14fa656db6c64024199146b68b59da9b52febf57"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-03/README.md",
-      "bytes": 1782,
-      "sha256": "98beab74d03950f2c757e26f9170d6843bae2a4b95a6d31c0ca60fecfe1f1da1"
+      "path": "courses/social-studies/grade-12/weeks/week-03/quiz.json",
+      "size": 6532,
+      "sha256": "9b825fa91cf1d7aae8afe1ff941cd1efd012c741187db342f707735b89b38cec"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-03/quiz.json",
-      "bytes": 11402,
-      "sha256": "db458ab6dd252a8756dc5abfca3c3222454328ccf0586b9dbd1ae6fc6b969c07"
+      "path": "courses/social-studies/grade-12/weeks/week-03/student-packet.html",
+      "size": 17507,
+      "sha256": "a80da3ec1466325787f250c3d0a8418e81d47e015f972fc2b8b5dfc2887aaffe"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-03/student-packet.html",
-      "bytes": 13674,
-      "sha256": "34a9129196e774a348a01649e1732a0bc8cda9ead5634e1addbd5beb672359cd"
+      "path": "courses/social-studies/grade-12/weeks/week-03/teacher-guide.html",
+      "size": 6683,
+      "sha256": "c4ec15ff0583b6f901579710b2eb3570af0eaf504abc77c241bcf818eef8c46e"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-03/teacher-guide.html",
-      "bytes": 8394,
-      "sha256": "85e328509969f8c85a9fb288fc3c95feeb2bc3a1d3047eef29d40c4563dd79d8"
+      "path": "courses/social-studies/grade-12/weeks/week-04/README.md",
+      "size": 512,
+      "sha256": "756d3d402aa8bab90cdf6745220263ae859296a9bbff9596fc546436a43e30b6"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-04/README.md",
-      "bytes": 1636,
-      "sha256": "0d5e856a2e9340772bde9ae1dc99b741ef0e6a9075f6718265cd09aa3e3c12b4"
+      "path": "courses/social-studies/grade-12/weeks/week-04/quiz.json",
+      "size": 6481,
+      "sha256": "8952394546563fcbd120d476f9c431d92f174141153de6aec1100eecef4e3296"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-04/quiz.json",
-      "bytes": 11450,
-      "sha256": "2ea80aa6e07b64bb1e9adc0ede7bc16c68d3645ca7a121b0503c2ee6d7efda9c"
+      "path": "courses/social-studies/grade-12/weeks/week-04/student-packet.html",
+      "size": 17410,
+      "sha256": "5b0800b6c10494c19e9f12a86fe16c92c88c872f0bf6a3042b94730789b48bcc"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-04/student-packet.html",
-      "bytes": 13279,
-      "sha256": "d954e0f626f3a5ca1f153ced053a0dce23b5c4becabc7a94337ad225220f1b74"
+      "path": "courses/social-studies/grade-12/weeks/week-04/teacher-guide.html",
+      "size": 6764,
+      "sha256": "be60da7ba2dd8c43c5952f77f953b1cdc0fd731e49cbae8fe468a165510d527e"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-04/teacher-guide.html",
-      "bytes": 8137,
-      "sha256": "a091842b58923811539c31b923511afa50e9d9866330ac2a57a990a3d6b0cc97"
+      "path": "courses/social-studies/grade-12/weeks/week-05/README.md",
+      "size": 504,
+      "sha256": "d982b802d15fed77e467062de5c15b84cfaa7bc6d7c8e4388553578793638228"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-05/README.md",
-      "bytes": 1664,
-      "sha256": "ca3f6033c60fbe2806b620c0a081b5ef22e03050c7ff92109bb5223a2d44e6fc"
+      "path": "courses/social-studies/grade-12/weeks/week-05/quiz.json",
+      "size": 6770,
+      "sha256": "422fadd22c95db6e6c39cbee478c69c1ca8e115ec185b51166df98d64091f3c6"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-05/quiz.json",
-      "bytes": 10795,
-      "sha256": "373eec2ef5a1adee0fc492a10d6b7b7f34e4a09fb056ce902a2a0009a2437c68"
+      "path": "courses/social-studies/grade-12/weeks/week-05/student-packet.html",
+      "size": 17666,
+      "sha256": "00dfff7b08bf7fedc704b015a3950dc07678f32b96b5fff9d458843285b6c3d2"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-05/student-packet.html",
-      "bytes": 13306,
-      "sha256": "0cc671fc3b52a0347c84792e9dee82e1465dafccd27e9def13670d0f176662c2"
+      "path": "courses/social-studies/grade-12/weeks/week-05/teacher-guide.html",
+      "size": 6822,
+      "sha256": "8d2810bb875b9c63c928b2a6dd1be21d7bba6303cd78952192324bbfb68a7435"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-05/teacher-guide.html",
-      "bytes": 8111,
-      "sha256": "5a3118334787087b96c081a5c401e2c9274dbc41bb54eeb0bd1f2381811732a8"
+      "path": "courses/social-studies/grade-12/weeks/week-06/README.md",
+      "size": 512,
+      "sha256": "7b9e8a727c1a8d220049e8e7112555c1807b7af7c7984f87c15e29ce7c1f3533"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-06/README.md",
-      "bytes": 1646,
-      "sha256": "a292b351a77bd674ca39a8953d98d2457df02363e1690e54c80ec684e7278133"
+      "path": "courses/social-studies/grade-12/weeks/week-06/quiz.json",
+      "size": 6682,
+      "sha256": "48462fd2631cc5ec5a352d6f511599b70455c31cfd237f39456e1acc38213341"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-06/quiz.json",
-      "bytes": 11570,
-      "sha256": "c6ba4751708e8afb903c61fc1cf1ba978abff7c34357789eea3741cca4e7bcb0"
+      "path": "courses/social-studies/grade-12/weeks/week-06/student-packet.html",
+      "size": 17975,
+      "sha256": "797fc1d5e4b8bcda39da24a9f7a55f15355e4390fcf433f07ea53de059377013"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-06/student-packet.html",
-      "bytes": 13489,
-      "sha256": "3f1ba94e32c14dc027f2aa6ea0224542d208c8e27f6ebc04df3232fd91382822"
+      "path": "courses/social-studies/grade-12/weeks/week-06/teacher-guide.html",
+      "size": 7053,
+      "sha256": "e7a120ec641c11d314ef8d0e8f500415869bdbf39de8e1c6b3aa104441ae8069"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-06/teacher-guide.html",
-      "bytes": 8310,
-      "sha256": "e80be8dee56e431bd610e53784a3d322eeaf9abdd344e98a712616f99ceef9cf"
+      "path": "courses/social-studies/grade-12/weeks/week-07/README.md",
+      "size": 532,
+      "sha256": "df2dc3fbf1547817ed41193b103bb7fb6c8a38354d1f2891b3b3ecdf5041a514"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-07/README.md",
-      "bytes": 1648,
-      "sha256": "156c53de346916eb37578ca9277fe89b3b5cbdc59a8924c71412e285fe361f39"
+      "path": "courses/social-studies/grade-12/weeks/week-07/quiz.json",
+      "size": 6637,
+      "sha256": "951d7a18025716556d9deedeee26f59c2bcab9d52d7b5b942feeb8fd0e5b9de2"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-07/quiz.json",
-      "bytes": 11447,
-      "sha256": "ef2028af6d059257094aee1926034616f1f3a0507d411307c5b7da8e68090474"
+      "path": "courses/social-studies/grade-12/weeks/week-07/student-packet.html",
+      "size": 17620,
+      "sha256": "6c3da37697e488676fbf6da7a74db64f779dd108630660ce791bdc9fc66c8696"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-07/student-packet.html",
-      "bytes": 13547,
-      "sha256": "ef2b10cd53cba242d3757db8f78c0c68d5c3fd6e4b48597d0d88bc8a0bc49d82"
+      "path": "courses/social-studies/grade-12/weeks/week-07/teacher-guide.html",
+      "size": 6793,
+      "sha256": "aff71d7359d8a42526157255ec6248d6b0c701dfcfeac52e2ee75a14eaa5c1ca"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-07/teacher-guide.html",
-      "bytes": 8286,
-      "sha256": "eabcfb125a7eb20d3856f4b0ed0753843afd1b6417c7bab967e84da830d4f9f3"
+      "path": "courses/social-studies/grade-12/weeks/week-08/README.md",
+      "size": 506,
+      "sha256": "98c34a8509215b1a2bfd041c9cd66be29467cb3460f73c3450b4732a213cc0ef"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-08/README.md",
-      "bytes": 1630,
-      "sha256": "525c0f4b57691daf2a3e6a95b4317a9237c424143e85e37a143c62311057da10"
+      "path": "courses/social-studies/grade-12/weeks/week-08/quiz.json",
+      "size": 6590,
+      "sha256": "829f74e74278e9390bb5b4e34299f1a33b5a7b0cf395a1467663fa88e2862fff"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-08/quiz.json",
-      "bytes": 11483,
-      "sha256": "f29f29aa26192ea5ef62e06ab860479fc5c4ce80122089d34cb0a8b9152d4cea"
+      "path": "courses/social-studies/grade-12/weeks/week-08/student-packet.html",
+      "size": 17597,
+      "sha256": "eee83020e884988eecb082a4e7e1e85504851c2c7394a42ff52970766e5a75b4"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-08/student-packet.html",
-      "bytes": 13231,
-      "sha256": "c1358a9e18aa1489d1f4632cf477299d0d931ce1fa596f299fb878d82195f4ec"
+      "path": "courses/social-studies/grade-12/weeks/week-08/teacher-guide.html",
+      "size": 6719,
+      "sha256": "bc95e2546a2062815f744fbe5af3172daa92b4412cf55d366eba5f0b6f95f12d"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-08/teacher-guide.html",
-      "bytes": 8234,
-      "sha256": "8b2442c2953bee95594f9af7d0ed904fe542b006608c608b4d20f6da606e8487"
+      "path": "courses/social-studies/grade-12/weeks/week-09/README.md",
+      "size": 500,
+      "sha256": "8425e8bdb9a1140b91b361db6a2a4d40473e90729f2e32b462f456d9974e48ef"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-09/README.md",
-      "bytes": 1654,
-      "sha256": "0e5765844f7b354ce3b88a2bd7ebb14429bcba534fcc7da76840b983d4647eb9"
+      "path": "courses/social-studies/grade-12/weeks/week-09/quiz.json",
+      "size": 6448,
+      "sha256": "7732d95d9db1c8bdea6b0de0f6fd0db87178aeaf9c3f7affcbfa2abbcf1e306d"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-09/quiz.json",
-      "bytes": 11829,
-      "sha256": "7bd1c502ae29ba95c99c67a56b5fddbb4ddde0fc09404bb08cc2363d229bb32a"
+      "path": "courses/social-studies/grade-12/weeks/week-09/student-packet.html",
+      "size": 17328,
+      "sha256": "a0161345d3ca661e6c4c306d25a4135a3fede49981f082f58957451299eeccf1"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-09/student-packet.html",
-      "bytes": 13701,
-      "sha256": "46c90fe2f4e8843b04117b591838c1bbaf784d3d36a8c672ba340e9eb8137126"
+      "path": "courses/social-studies/grade-12/weeks/week-09/teacher-guide.html",
+      "size": 6640,
+      "sha256": "ce2f494b9a9aa3fb032823267c055ec01633c769532ccbde21d43bac26e3de9e"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-09/teacher-guide.html",
-      "bytes": 8513,
-      "sha256": "0d0769bf9eba90658d8accb69fc7ed1b149be42d5b086f97f4eb25e5fca15ff0"
+      "path": "courses/social-studies/grade-12/weeks/week-10/README.md",
+      "size": 544,
+      "sha256": "ed19cdf08447859792b7acd1bd2f5e972f84c85ab4f26fb24e0eaa39ba900efd"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-10/README.md",
-      "bytes": 1679,
-      "sha256": "c7271e9bb6ecc909dd94b4ef8010d6bb8ce368ccd02c89711fdfdf0fbe963a3c"
+      "path": "courses/social-studies/grade-12/weeks/week-10/quiz.json",
+      "size": 6527,
+      "sha256": "fbb3473fc7245139536c32dc36f244345ff5bbe64129dbd8be8b1b320725a7c4"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-10/quiz.json",
-      "bytes": 12004,
-      "sha256": "8f38ff85ea0d365f3ade2fdf42e4d416fe8b16e523a4547b6b4cabf343f3a37a"
+      "path": "courses/social-studies/grade-12/weeks/week-10/student-packet.html",
+      "size": 17955,
+      "sha256": "ddaeae70b9e90e51be3912d5105d79f75142853ebad4d523defe2aef4d339be3"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-10/student-packet.html",
-      "bytes": 13747,
-      "sha256": "a66596f4244ae396d0f40f925f19dcf9cd584516c6e24262d61f050ac3b84930"
+      "path": "courses/social-studies/grade-12/weeks/week-10/teacher-guide.html",
+      "size": 7046,
+      "sha256": "ba939a6c5c529853e1b4ad2776c23e99165874384adb3a1d405c1df9e6e838c3"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-10/teacher-guide.html",
-      "bytes": 8506,
-      "sha256": "6774ae121626436e4b57cd74a606f1b4b0f442a85405e2838537a9949e9e0459"
+      "path": "courses/social-studies/grade-12/weeks/week-11/README.md",
+      "size": 536,
+      "sha256": "3a5ff989463fad0a0391b13f2adc6e811d00123dc20a2344098cd13f1ee94ba9"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-11/README.md",
-      "bytes": 1667,
-      "sha256": "6d7162804701149c20e72a69636deff5ac1f7df93339a52e07c8b2ecf605308a"
+      "path": "courses/social-studies/grade-12/weeks/week-11/quiz.json",
+      "size": 6712,
+      "sha256": "c9c0b5e57dc9197b81180b0dbc97bdb4f940997d2420dab341c2ee7c8c06dfab"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-11/quiz.json",
-      "bytes": 11179,
-      "sha256": "9afeee08ad32d8af87fcdef5819fac46c488dc842fc37f1e0da834f0f4e68cc5"
+      "path": "courses/social-studies/grade-12/weeks/week-11/student-packet.html",
+      "size": 17871,
+      "sha256": "b5c50fa11daf438be7e86ef712fa0a16b90e3be64145911a436106401526660b"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-11/student-packet.html",
-      "bytes": 13575,
-      "sha256": "e753735ab2e30636869c96ddc819fd9ccae9de6eed064c9895f6a625e5582f20"
+      "path": "courses/social-studies/grade-12/weeks/week-11/teacher-guide.html",
+      "size": 6904,
+      "sha256": "06388682e78c9bb589ea58175db98c890feba90c021c520e57f535c61f428a69"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-11/teacher-guide.html",
-      "bytes": 8269,
-      "sha256": "eb751eaa466cbea48cdb2dff9803781f4b9ca7477b642f578f0f2867a55f01e7"
+      "path": "courses/social-studies/grade-12/weeks/week-12/README.md",
+      "size": 564,
+      "sha256": "03c01080eea5d473b5152f6964c69684cc6cfa85cf3794eb200053930656e963"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-12/README.md",
-      "bytes": 1541,
-      "sha256": "52b3d984f67cfb5a7b1b8846c6853e004e04fea0e950ac6cde9bf4f760df2775"
+      "path": "courses/social-studies/grade-12/weeks/week-12/quiz.json",
+      "size": 6481,
+      "sha256": "eb2ea1a1f3805395dd659ed5944cfc15c4d414b8438a5ac297032e721fe5cbd9"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-12/quiz.json",
-      "bytes": 11374,
-      "sha256": "59d274d49eaf7fc37d092064de6b41b3af9590fea08e847d2cd7b26fc5cadc2b"
+      "path": "courses/social-studies/grade-12/weeks/week-12/student-packet.html",
+      "size": 17544,
+      "sha256": "be60a8c42c49efc9e743d4e0182e1d8094e4d1f3e92d4c0c9dd78d6c9d2ff488"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-12/student-packet.html",
-      "bytes": 13322,
-      "sha256": "19bfce498938972153be2384ca2a90f81b019abb73bb49ad858407c6323104ca"
+      "path": "courses/social-studies/grade-12/weeks/week-12/teacher-guide.html",
+      "size": 6834,
+      "sha256": "01a0d866abfc5ce55fd4688d8017de245e71f8f501fc2692a7125f372a6664fd"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-12/teacher-guide.html",
-      "bytes": 8227,
-      "sha256": "5a254a2e1b9e7023d6dac9219256e6b7a456e2e954a2398e72ecf13f6b2aa2fe"
+      "path": "courses/social-studies/grade-12/weeks/week-13/README.md",
+      "size": 520,
+      "sha256": "1fb16edad3fc23251b9338d2d97dc92c03589fb956f89593b467d3f2d44b54b6"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-13/README.md",
-      "bytes": 1600,
-      "sha256": "c747042982afe826e05dff248442154701e1dac1fc92b9baf91b5023cc5d20a4"
+      "path": "courses/social-studies/grade-12/weeks/week-13/quiz.json",
+      "size": 6744,
+      "sha256": "fce241cc00db8100668c6eed814b7184e65f23e0439884d80a89a68c3c2e2863"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-13/quiz.json",
-      "bytes": 10980,
-      "sha256": "0b3593989b70e599ebfc8162aec946964dad8a69b9ded8426fe181d8bd5e55f7"
+      "path": "courses/social-studies/grade-12/weeks/week-13/student-packet.html",
+      "size": 17807,
+      "sha256": "73d0448bf3e64a552bc05b97bbc184fca6913e9b39bdf7177cfe31dc97a01bd3"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-13/student-packet.html",
-      "bytes": 13092,
-      "sha256": "8d7b36b880bb5af89ffc29fcd4c79cfeb931096d02d97694be95e808af984d59"
+      "path": "courses/social-studies/grade-12/weeks/week-13/teacher-guide.html",
+      "size": 6869,
+      "sha256": "5fb1b00ecf3616548b9546982c818c656816957f3674036e74e544b0533b9141"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-13/teacher-guide.html",
-      "bytes": 8115,
-      "sha256": "17e7d3976cd5737252ea2a0d79af451df59d51f82daf12abc6e46bbeed06cdfc"
+      "path": "courses/social-studies/grade-12/weeks/week-14/README.md",
+      "size": 500,
+      "sha256": "244fff152a0b7611449cbb41fb4beb9f0641024d67c6631024e033406acc7b7d"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-14/README.md",
-      "bytes": 1702,
-      "sha256": "61b86835d73002c287bc6f57151c44bcb2058950b44f91bcefdaf9acad270f04"
+      "path": "courses/social-studies/grade-12/weeks/week-14/quiz.json",
+      "size": 6543,
+      "sha256": "516941dc9af230b942ecd96e92cc670dcf7a773b5b86f1fb780a410fdbe5d0c8"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-14/quiz.json",
-      "bytes": 11002,
-      "sha256": "fea5b79328414d9a1e8d91253219371d80e65e4c8fd5b290097c58da3fa3c78e"
+      "path": "courses/social-studies/grade-12/weeks/week-14/student-packet.html",
+      "size": 17879,
+      "sha256": "42581c29b4154419e0f7d0259f336941e32e4ca06f5b6e53e8019a01372f194b"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-14/student-packet.html",
-      "bytes": 13494,
-      "sha256": "84f6e7326e0a8cd8da2a44f1a618b2fc9f62e10824574f51893c4d15f54a1c3d"
+      "path": "courses/social-studies/grade-12/weeks/week-14/teacher-guide.html",
+      "size": 7050,
+      "sha256": "80500b530c1ef65a84ec33d4d7274fc09344fa24c6c260e8c3b8f34e524d48c6"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-14/teacher-guide.html",
-      "bytes": 8190,
-      "sha256": "7a93c0a47821a6ad4e558646e1c321166134eb76b6c050ab969164ac234f17ea"
+      "path": "courses/social-studies/grade-12/weeks/week-15/README.md",
+      "size": 502,
+      "sha256": "20b6e33547540405066a088bbb6919a3494afb9dbc462a60105d0a3a1d45f51c"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-15/README.md",
-      "bytes": 1722,
-      "sha256": "bf54ade7100ea8e3fcc3c069f0f0c4363031edcee8666113210066ee190406ff"
+      "path": "courses/social-studies/grade-12/weeks/week-15/quiz.json",
+      "size": 6778,
+      "sha256": "19f8f9c9f404e10251c96fe57b1e44dd393168f455d79db0df15979f4477ceba"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-15/quiz.json",
-      "bytes": 12166,
-      "sha256": "9d931691d0a0e6ec02269078b3b18d95d2980d598d5c8a121f7c6d27ff7d5100"
+      "path": "courses/social-studies/grade-12/weeks/week-15/student-packet.html",
+      "size": 17749,
+      "sha256": "e8621dc403b8d82cba050c95cd6c03e900e616e18592e2ab0d713b34adc5c29c"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-15/student-packet.html",
-      "bytes": 14114,
-      "sha256": "a8fe7b48d9f0d1c35b9a195b02ab11f65e9cee22bff80f06bcec2b19da600a11"
+      "path": "courses/social-studies/grade-12/weeks/week-15/teacher-guide.html",
+      "size": 6864,
+      "sha256": "0bbb397c511fff39b0976e04b59ac25018106cc2e8ea26788f653ef01561203f"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-15/teacher-guide.html",
-      "bytes": 8770,
-      "sha256": "c370054243ab9f0f416cadd1f0aa95b7d5d6640eb19230f4b43ec5fc07d6229d"
+      "path": "courses/social-studies/grade-12/weeks/week-16/README.md",
+      "size": 524,
+      "sha256": "c3b940d71033113d073cb5b8a7e1470a1d6136e1d7fb3af020c1600a922a5d17"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-16/README.md",
-      "bytes": 1743,
-      "sha256": "25ba2172966886a34102d0b672ef979ff7ac95ca83f9a9f50f6ad37481d08abc"
+      "path": "courses/social-studies/grade-12/weeks/week-16/quiz.json",
+      "size": 6730,
+      "sha256": "e9084e2d382f19ad6223758e70e27a2dc055c31e62b6b6bea3a2a8b83e85a48f"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-16/quiz.json",
-      "bytes": 11531,
-      "sha256": "54e52088bb2abff097bc925d2290ce4d6052349255cdec09ac6e72acb67133e6"
+      "path": "courses/social-studies/grade-12/weeks/week-16/student-packet.html",
+      "size": 17846,
+      "sha256": "d2482008fef1bd876a48cadc0f6daa225347a348dd3d2545e992811435eb744d"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-16/student-packet.html",
-      "bytes": 13881,
-      "sha256": "85c41dbc7ef3551c3871db576fc0a45c5a6ca4aced2428f4e5ce23050ff495ac"
+      "path": "courses/social-studies/grade-12/weeks/week-16/teacher-guide.html",
+      "size": 6903,
+      "sha256": "f6d9119cfeacffd460d9bd1c9fb81d06d0585f61792dd37db4cce0de4df33768"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-16/teacher-guide.html",
-      "bytes": 8439,
-      "sha256": "72ba95392ab012a2103b1f9bdebb6c2c486e2a4486ab0c97a29db8a0c42a3f8e"
+      "path": "courses/social-studies/grade-12/weeks/week-17/README.md",
+      "size": 526,
+      "sha256": "554e0ee0c57563ba76cd89378088e8f782df747c6b6aca065f3e24d5af7be9db"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-17/README.md",
-      "bytes": 1709,
-      "sha256": "5d89d2cdc3acc2614bbbe87ca3b7511e078e69bda1c5dc525f174f6d24e059a4"
+      "path": "courses/social-studies/grade-12/weeks/week-17/quiz.json",
+      "size": 6335,
+      "sha256": "8acf8a5b8dd826cba58a84248b3824664591ec3ce44b7856cd5c799105dfa743"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-17/quiz.json",
-      "bytes": 11719,
-      "sha256": "41d423e63d3efa69b1a03ac0b6f5420cb1403f94c8d9deb07df7893e08266c74"
+      "path": "courses/social-studies/grade-12/weeks/week-17/student-packet.html",
+      "size": 17267,
+      "sha256": "1223272e9722b565864cac14938400630c55aed240c69a9e9c73c6bd855a3146"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-17/student-packet.html",
-      "bytes": 13762,
-      "sha256": "2d92c6b22e90c133d8675ec8061b076779376e7eb613e7a02fb1a8d77f3ed0b3"
+      "path": "courses/social-studies/grade-12/weeks/week-17/teacher-guide.html",
+      "size": 6671,
+      "sha256": "09141a70c6f7111c5e37eded1a96833d502a8d267ebebb2103a85dada56daafa"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-17/teacher-guide.html",
-      "bytes": 8515,
-      "sha256": "2b0c5446ff467e765a25155dc6c951983c8cbe468d57357156191082f381517b"
+      "path": "courses/social-studies/grade-12/weeks/week-18/README.md",
+      "size": 541,
+      "sha256": "c07748edb4f147f4d0f1687c646692969061d72213f359efdb36a29996fdc450"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-18/README.md",
-      "bytes": 1782,
-      "sha256": "8a5b4481ec2832c77cfd3590e4c9e3d00a3abc489324f55dbe8393a2218833e1"
+      "path": "courses/social-studies/grade-12/weeks/week-18/quiz.json",
+      "size": 6558,
+      "sha256": "71eba878c9289109abbf09533670f0e5fbe78cf500e03ff74846de400077bb52"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-18/quiz.json",
-      "bytes": 11429,
-      "sha256": "ff01654dd8deaf94968616d1e00a8d3a3250b0898de4d750fb9ad3139c2156fd"
+      "path": "courses/social-studies/grade-12/weeks/week-18/student-packet.html",
+      "size": 17746,
+      "sha256": "2762f5c06688ec8b3d3e4f982f992256d3ef6f6049b925abbe3ea7577df4590b"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-18/student-packet.html",
-      "bytes": 13896,
-      "sha256": "452e46657c5667f92affadc891fea5a07736f8b1d1f25b6eda7fa2eac95cb751"
+      "path": "courses/social-studies/grade-12/weeks/week-18/teacher-guide.html",
+      "size": 6990,
+      "sha256": "9efa56dd895325de0080716efce97ca7de629fcbfa7d379815b628e8c6f05a8f"
     },
     {
-      "path": "courses/social-studies/grade-11/personal-finance/weeks/week-18/teacher-guide.html",
-      "bytes": 8430,
-      "sha256": "c9b9b60df464240a72c26a52c1c2dc4ed8b233a878e9cf2308b13e973d9bc7e9"
+      "path": "courses/social-studies/grade-12/weeks/week-19/README.md",
+      "size": 514,
+      "sha256": "09f8d98d48568db305e271d974a2bcb75ba339f8d0f9e46c45d20891106c6169"
     },
     {
-      "path": "courses/social-studies/grade-11/resources/action-planner.html",
-      "bytes": 2672,
-      "sha256": "23218c30643a02cab9a5b6aa9a4c3ce82bdd85b77436f0b37aba47bfdff56c52"
+      "path": "courses/social-studies/grade-12/weeks/week-19/quiz.json",
+      "size": 6475,
+      "sha256": "bfe7922098079b7fbfb1618124191b5cf7b62ae7287752c59ba3b64187c07160"
     },
     {
-      "path": "courses/social-studies/grade-11/resources/data-model-lab.html",
-      "bytes": 2620,
-      "sha256": "d3623af326e2b893316c1bad950794fcd79212f57310bd1947409978b4e144ad"
+      "path": "courses/social-studies/grade-12/weeks/week-19/student-packet.html",
+      "size": 17358,
+      "sha256": "e6629ad100122dcfb9fc7dc1cd9e03dbb32da95356295a5d80264c991f627717"
     },
     {
-      "path": "courses/social-studies/grade-11/resources/index.html",
-      "bytes": 1991,
-      "sha256": "a20c7882ef317cd9079f3f9e2f49d13840110b027748607082ac7d73dac817bf"
+      "path": "courses/social-studies/grade-12/weeks/week-19/teacher-guide.html",
+      "size": 6689,
+      "sha256": "fa864a946f5cc4853dc210afdc0f4e982bec139a24ce489f07947419f57ada5c"
     },
     {
-      "path": "courses/social-studies/grade-11/resources/media-verification.html",
-      "bytes": 2761,
-      "sha256": "7120dba2bbf9148946d7dcfcae76ae2a3d4ed629f2790a97ddb7b3cdcfd3070a"
+      "path": "courses/social-studies/grade-12/weeks/week-20/README.md",
+      "size": 537,
+      "sha256": "9f831df1a194ea728c3991ce4cfa4634b974ed04fd838ae87b7b37117393076f"
     },
     {
-      "path": "courses/social-studies/grade-11/resources/policy-memo.html",
-      "bytes": 2677,
-      "sha256": "0091f878a7f491c7adbc47b223382a383ff8b716c0bf9e8177f11af6e9b8d861"
+      "path": "courses/social-studies/grade-12/weeks/week-20/quiz.json",
+      "size": 6652,
+      "sha256": "cd8bba3947e80619a162d1a6c32aeccda7ac2214ad1cb9e90b7a3fc579b086bc"
     },
     {
-      "path": "courses/social-studies/grade-11/resources/source-analysis.html",
-      "bytes": 2766,
-      "sha256": "43c79085998b914956bf1af83bf96ba7fd66f563cac2bca1059c43673c2670e5"
+      "path": "courses/social-studies/grade-12/weeks/week-20/student-packet.html",
+      "size": 17594,
+      "sha256": "86359acf8524c1a59d7e267c847d2f32db20cd333abb4053266f82d92f8d0757"
     },
     {
-      "path": "courses/social-studies/grade-11/resources/verve-network.html",
-      "bytes": 4446,
-      "sha256": "58145d5e87268089bd836baafbdaf88d4f55a0850c8ab786187d598c2ceade92"
+      "path": "courses/social-studies/grade-12/weeks/week-20/teacher-guide.html",
+      "size": 6844,
+      "sha256": "ec86e7e85387844d7c4fe5b75c2e6b43e5739e25e430a674b8bd642c5bc7af49"
     },
     {
-      "path": "courses/social-studies/grade-11/service-worker.js",
-      "bytes": 835,
-      "sha256": "06906f828bda326cfdd4e34d6550e76fa0bcd4bb2aa6c9b3c05fc68dc39ecd3a"
+      "path": "courses/social-studies/grade-12/weeks/week-21/README.md",
+      "size": 517,
+      "sha256": "1d690d80d5cc740593b36ad21be15da1c52351d0b945c98c47b3edae78f1cc14"
     },
     {
-      "path": "courses/social-studies/grade-11/styles.css",
-      "bytes": 9395,
-      "sha256": "32e75321cd6b3ae09652913622c3dcf836504af02f0f9a861db6e1e52ba83c0e"
+      "path": "courses/social-studies/grade-12/weeks/week-21/quiz.json",
+      "size": 6421,
+      "sha256": "d2eeca66302eedd7aba4577a09b515ab1663aa7f09dfa373fc8660225bfefa7a"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/ANSWER_KEY_INDEX.html",
-      "bytes": 74133,
-      "sha256": "21a94e5138126d3e8cfedf8e919c3d87bcc43969b67bd57be4d9db11d7fd5734"
+      "path": "courses/social-studies/grade-12/weeks/week-21/student-packet.html",
+      "size": 17271,
+      "sha256": "2ac5e8b9b882b107bf5f0cdb4481a2da5581bf4bbb7ae26ddd45b82bf3a24c05"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/ECONOMICS_FINAL_ANSWER_KEY.html",
-      "bytes": 13274,
-      "sha256": "4c4660674c7496fc4e7787876cbb94a8468c32431aa442e86aaf917a723c7e4c"
+      "path": "courses/social-studies/grade-12/weeks/week-21/teacher-guide.html",
+      "size": 6630,
+      "sha256": "21d66badf11d4ab1ae7f8b9e06662c3680b3c0778f6a9f8e1f406d8853472ee3"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/FCLE_PRACTICE_ANSWER_KEY.html",
-      "bytes": 10481,
-      "sha256": "6c117162c913f166a42d51f35591e35d58336bd7d27b474259eee475afda7334"
+      "path": "courses/social-studies/grade-12/weeks/week-22/README.md",
+      "size": 548,
+      "sha256": "9c77216371d94d2fad3615034a3dd8d0e607f7e7f4bc03a85f7582560135dbec"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/GOVERNMENT_FINAL_ANSWER_KEY.html",
-      "bytes": 13331,
-      "sha256": "f41449a5c88aa66bf464dc496c6fc9b5e1e52a746aa224843d3a4cd45048b177"
+      "path": "courses/social-studies/grade-12/weeks/week-22/quiz.json",
+      "size": 6534,
+      "sha256": "8c853ec4925ac1322b1a8e3c25915cb8982ac8c52ed19542fbea0b56e3c9cbca"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/PACINGS_AND_SUPPORTS.md",
-      "bytes": 588,
-      "sha256": "30232df626a1e4bc0ee8192ca0abf2675e54d2bf3149e081d51fc1d0f20fd2fd"
+      "path": "courses/social-studies/grade-12/weeks/week-22/student-packet.html",
+      "size": 17876,
+      "sha256": "dd415112d5dd21a8fe996926cf4a41d2655240dcbba5e37f2cc91ca0abe1d713"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/RUBRICS.md",
-      "bytes": 1543,
-      "sha256": "e5e555ceb228d58b778770abb0b5f8edc19c50a6b26b2563818f077c3d4af5f7"
+      "path": "courses/social-studies/grade-12/weeks/week-22/teacher-guide.html",
+      "size": 7101,
+      "sha256": "871285dea96b879d8a843a580980a357f9e3068c6cbb46524faf3796106cd723"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/TEACHER_HANDBOOK.md",
-      "bytes": 3340,
-      "sha256": "4a5c20d9f4561d0d5a0f9112420f082a069b839bfa9a97f2572d564debde6f13"
+      "path": "courses/social-studies/grade-12/weeks/week-23/README.md",
+      "size": 501,
+      "sha256": "8f4f997beceb576060b096fd573b0a73a07812306620729e07938b2348c36ea3"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/attendance-log.csv",
-      "bytes": 67,
-      "sha256": "7faf10e7257f2d6b69c0273d8779aa794f4be3cc8cb4576f20e33ad117013000"
+      "path": "courses/social-studies/grade-12/weeks/week-23/quiz.json",
+      "size": 6655,
+      "sha256": "f920e85c5b3869857ba0a64b7f10efcbcfd5ced4e789a60a29d82c0e6ad4bb57"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/gradebook-template.csv",
-      "bytes": 1145,
-      "sha256": "c32de624a3e2d1e791f3d8a5ddb2891d8f3cc2a6281fce08c01bbd7f30035c19"
+      "path": "courses/social-studies/grade-12/weeks/week-23/student-packet.html",
+      "size": 17492,
+      "sha256": "c200767233c067e706956a8d1946855b5acfd3ae6f72a09a611a28f1109a6a35"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/index.html",
-      "bytes": 10113,
-      "sha256": "d09c84cbbf0071ec7e4bb4b9f8ee0fe81a38760e22693a0889a1a15652766a87"
+      "path": "courses/social-studies/grade-12/weeks/week-23/teacher-guide.html",
+      "size": 6713,
+      "sha256": "0e8af493db434745b87d6674a9899f2415c2407826c54ea3eba9b3f041c28dcc"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/pacing-guide.csv",
-      "bytes": 11330,
-      "sha256": "6c8750e8fd3f1af17707755e37bdcb8829df967fa15f8cf11f19b1ec24f95b55"
+      "path": "courses/social-studies/grade-12/weeks/week-24/README.md",
+      "size": 533,
+      "sha256": "45b55c8f2476454927b2118629bc503b98b15037ef9f0b17bbde0e43c743a6d0"
     },
     {
-      "path": "courses/social-studies/grade-11/teacher/standards-mastery-template.csv",
-      "bytes": 6581,
-      "sha256": "7b1a2ea4dbb1347de80e3710c3fd91298dfa79a3ad50ada04f32987cb2de8587"
+      "path": "courses/social-studies/grade-12/weeks/week-24/quiz.json",
+      "size": 6569,
+      "sha256": "3a0916271239192e181b06e6b94ec7ba29a135168c7200844428b40c7d672234"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-01/README.md",
-      "bytes": 1810,
-      "sha256": "0a847661910e972a655ddaee2f78978b40c555582ff3228b325b55c9ed7adbbd"
+      "path": "courses/social-studies/grade-12/weeks/week-24/student-packet.html",
+      "size": 17549,
+      "sha256": "8a24181e83ac3007d64618d7d328275ad84f71abbe91ac657b6b1b04f95ff5c5"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-01/quiz.json",
-      "bytes": 12254,
-      "sha256": "d09db8f491439683d03cf37d2db6e30a403458caf62329da1e6bbc2576cb2ad1"
+      "path": "courses/social-studies/grade-12/weeks/week-24/teacher-guide.html",
+      "size": 6758,
+      "sha256": "1e74d6d4f9abd63e7b3913442e45e923af323193c727ed1588359d408df65e68"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-01/student-packet.html",
-      "bytes": 14776,
-      "sha256": "de4ab0f0abc0034fe0bfe7de37587d4bd34b2a08cf9b8924061129ef38fea8fb"
+      "path": "courses/social-studies/grade-12/weeks/week-25/README.md",
+      "size": 551,
+      "sha256": "26c126da281fcde5c113c0eb5a4931b95a05163b16d847a93197dd24d9f15a28"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-01/teacher-guide.html",
-      "bytes": 8528,
-      "sha256": "ce57c682fe2340345c1d8ad0da1764248477b9ba672b8d20f2c3f77b413fbfb7"
+      "path": "courses/social-studies/grade-12/weeks/week-25/quiz.json",
+      "size": 6692,
+      "sha256": "92086220c8cada2e9c20d117283b13e7284328f62119a585a6756d3795bc4c42"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-02/README.md",
-      "bytes": 1820,
-      "sha256": "9ce96bea3151d42ef14f362dc2bc7cd3b036963fb4827b57ae41561eb35c2c1d"
+      "path": "courses/social-studies/grade-12/weeks/week-25/student-packet.html",
+      "size": 17781,
+      "sha256": "70adf3959b7b17c1cf923cfaadb7d4ea202022e7d6878831a3cc99f2f9cd4590"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-02/quiz.json",
-      "bytes": 12100,
-      "sha256": "d9d1d6608e108914f66037f1e19d46a958a5ffac7d382e74f51cc39b5649da2d"
+      "path": "courses/social-studies/grade-12/weeks/week-25/teacher-guide.html",
+      "size": 6881,
+      "sha256": "415e1b0d562d8e74e4feae72c06eb42b8264c8b3519b7a3bbd8e823ea0647140"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-02/student-packet.html",
-      "bytes": 14719,
-      "sha256": "7bc2c2a9f8c3278138400553fea53f2d4135a47f3d93e714d06a2c6f3e5a6b09"
+      "path": "courses/social-studies/grade-12/weeks/week-26/README.md",
+      "size": 504,
+      "sha256": "b9acff7710f0736ef48a5432d1fe6a753886cddcd45a662ef9b48f4350237568"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-02/teacher-guide.html",
-      "bytes": 8518,
-      "sha256": "a8747eb5740d94b2ab71652fdbeac312493440d209cf67db0314ad47ca9da15b"
+      "path": "courses/social-studies/grade-12/weeks/week-26/quiz.json",
+      "size": 6576,
+      "sha256": "dd51446e0dcd68936102686633d04637e45662388fc796981c341a76478809af"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-03/README.md",
-      "bytes": 1817,
-      "sha256": "850537a6a8580b1798a37080dc26814295c5ecd84d98eb917a01c857252d7481"
+      "path": "courses/social-studies/grade-12/weeks/week-26/student-packet.html",
+      "size": 17818,
+      "sha256": "e852fecad8ebf3871dd01cc49ee179102dabe017552d003cbe4afa40fc4bf20a"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-03/quiz.json",
-      "bytes": 12363,
-      "sha256": "f69438230a4d73db2b8f4a53f075d75146acb53a76d29b6edd15943dc3801f3e"
+      "path": "courses/social-studies/grade-12/weeks/week-26/teacher-guide.html",
+      "size": 6992,
+      "sha256": "21b0625431b2e5c6cc79df5e80b5f5439685ed2ccf793b1d07cdf4211f7d9185"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-03/student-packet.html",
-      "bytes": 14411,
-      "sha256": "9cd5c70656d355dcfa890e594d486396d61f026962dfd23e780c76a41e8f300d"
+      "path": "courses/social-studies/grade-12/weeks/week-27/README.md",
+      "size": 537,
+      "sha256": "ee7f5343d9715f1dbe232730c83eac082dd83a94f7785ef5a3554166e516bd22"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-03/teacher-guide.html",
-      "bytes": 8564,
-      "sha256": "ea9a7f081295423a40c9d14a64578620b44cf7e771192f9d1b5c93322b9b239b"
+      "path": "courses/social-studies/grade-12/weeks/week-27/quiz.json",
+      "size": 6426,
+      "sha256": "8375534c02627102cff8653852c7c053c6859fc04eb0e4708f31d314e9aaff06"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-04/README.md",
-      "bytes": 1763,
-      "sha256": "117f7117e3a79295399c599dc7bc7fc5b38216bcfbea832e0b1d772a4ae839ed"
+      "path": "courses/social-studies/grade-12/weeks/week-27/student-packet.html",
+      "size": 17406,
+      "sha256": "f8bb8be7c18696031a6231d94302a962e0eec127a19e368dc55fedceb553dffb"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-04/quiz.json",
-      "bytes": 12166,
-      "sha256": "ee3f3604f692d874c8fcac95012f7eef2654009c0dc2821a80323b319491af73"
+      "path": "courses/social-studies/grade-12/weeks/week-27/teacher-guide.html",
+      "size": 6741,
+      "sha256": "a66800795da5a44ab81b1e3470730aca9d4ee015c8c54051f6a95ea76fe6d138"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-04/student-packet.html",
-      "bytes": 14482,
-      "sha256": "f05628a8d27831c024ba59aaa3ed4cfee5907f1c8c928f59a5dea70f67eff891"
+      "path": "courses/social-studies/grade-12/weeks/week-28/README.md",
+      "size": 550,
+      "sha256": "17aab571234c44ff1be8afa94b0e42acd6a8d5cae8e6245189188127bd994822"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-04/teacher-guide.html",
-      "bytes": 8636,
-      "sha256": "4ebd2d06274637d79a7c8d87fbf4c45af3be6c2b7c5fab2de051479773a0665b"
+      "path": "courses/social-studies/grade-12/weeks/week-28/quiz.json",
+      "size": 6577,
+      "sha256": "3ba9a6c87036b5ee5553044c5b601499ae9246b2161ce914fc34e6e0072a2ac5"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-05/README.md",
-      "bytes": 1841,
-      "sha256": "30c1ea14c54ea645b06f73dcc3cca5ee6363b9b5961f603b94bded382a798ed7"
+      "path": "courses/social-studies/grade-12/weeks/week-28/student-packet.html",
+      "size": 17651,
+      "sha256": "805cc258d95e3089283eb6940d1b3a42fbcab025f4e536fa94c11d0091dc56d0"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-05/quiz.json",
-      "bytes": 12069,
-      "sha256": "9c8d452d0dc60dfb31c16ec1051ed51bdbc601039c61511da6534390a9f06ef6"
+      "path": "courses/social-studies/grade-12/weeks/week-28/teacher-guide.html",
+      "size": 6845,
+      "sha256": "4a6d2f780a01b39bfb7ae74531088291b8ee55ef8f04174420c234eb116a2a09"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-05/student-packet.html",
-      "bytes": 14038,
-      "sha256": "46984f33eca3ea00fd16a385c4853ab9af5cc42c92ce37aa879deafeb9d94e0c"
+      "path": "courses/social-studies/grade-12/weeks/week-29/README.md",
+      "size": 486,
+      "sha256": "0808c21e8878bd58a3ba9b4b97bdf2d99e6411efff0859d5798b07aa2f59edab"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-05/teacher-guide.html",
-      "bytes": 8276,
-      "sha256": "239e76b9e3131bdd4e24d6afb1c5dc0bea6438182f8e6050f2b8fde70d48fbf8"
+      "path": "courses/social-studies/grade-12/weeks/week-29/quiz.json",
+      "size": 6445,
+      "sha256": "284587c90349b1c4b16c3205cbc3dbcf4c412ba4bf118eff38f1ef2ae80aced5"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-06/README.md",
-      "bytes": 1685,
-      "sha256": "b1bed7183e3d53daadb5fa8053c2428833f928b7b22dbabbd81b30c4726e7c84"
+      "path": "courses/social-studies/grade-12/weeks/week-29/student-packet.html",
+      "size": 17355,
+      "sha256": "90283323f597b53cb89c13f4d7df88d534535ad167a46029035a77ec99004e8b"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-06/quiz.json",
-      "bytes": 11992,
-      "sha256": "d31570ebb374d30b4a6f91c59f8665ce68ea2be9392cee8e1dbd126b782e88b0"
+      "path": "courses/social-studies/grade-12/weeks/week-29/teacher-guide.html",
+      "size": 6682,
+      "sha256": "281bf8cd85ae5b163650ae84947147e0eb403aa7259f4e3fc48a8aaecefaf41d"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-06/student-packet.html",
-      "bytes": 14138,
-      "sha256": "a641f7ca3812ba0f0e72367be0c69e08e6c484e364b12db84fe4bae1b07b8111"
+      "path": "courses/social-studies/grade-12/weeks/week-30/README.md",
+      "size": 562,
+      "sha256": "bf80f4fcaaedb8145234c5a23f329ae13646cc2aa6bd5966018502730c472436"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-06/teacher-guide.html",
-      "bytes": 8328,
-      "sha256": "c83d18d43a36728fabf67154bdd7f278bea926f5968b2753b7a15d41ebc160f4"
+      "path": "courses/social-studies/grade-12/weeks/week-30/quiz.json",
+      "size": 6560,
+      "sha256": "a82e868cedc17739735051f89254a5daafd8832e6efc0495ddb8b20e75903260"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-07/README.md",
-      "bytes": 1733,
-      "sha256": "2d1fde40151f4df98ed5cc0283ecc4abdba3e8914d39f5a1d231a11082a88f8a"
+      "path": "courses/social-studies/grade-12/weeks/week-30/student-packet.html",
+      "size": 18033,
+      "sha256": "7fdb3c78c89b4da6ab15f168f9a734559ce901cf6018d1a8c80b64fd2ff5936d"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-07/quiz.json",
-      "bytes": 12270,
-      "sha256": "5a7320d6fc4426fa76fbc233de39e45064d025baad8b6b4454282aaa1b326123"
+      "path": "courses/social-studies/grade-12/weeks/week-30/teacher-guide.html",
+      "size": 7160,
+      "sha256": "aa5db1d843e521feff2ab256f9ea8358e391bda32753ad7d7470bf7ac1494fab"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-07/student-packet.html",
-      "bytes": 14080,
-      "sha256": "11a0204d7afad775c8e74b3da195b00ce0691052d2ea17acab784aa460ef3893"
+      "path": "courses/social-studies/grade-12/weeks/week-31/README.md",
+      "size": 553,
+      "sha256": "51a058335ff57cc070cc0e88e706912d22cfbcd0b25716507d54b5034c504ea5"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-07/teacher-guide.html",
-      "bytes": 8276,
-      "sha256": "db822cee2265b4a5bb946a8290e2b9bfa088ef6430ec4a3f99301407191fd43b"
+      "path": "courses/social-studies/grade-12/weeks/week-31/quiz.json",
+      "size": 6735,
+      "sha256": "7fcf0d3ae23a755f9d6c418318ab159d0a7619385dc97c6231e3317cec331843"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-08/README.md",
-      "bytes": 1739,
-      "sha256": "a5928935c8cd34d5508907e6e4738a4040604a102b1c78d9e501efe44f54e3f5"
+      "path": "courses/social-studies/grade-12/weeks/week-31/student-packet.html",
+      "size": 17903,
+      "sha256": "a75ceff6232d686b337804d186caf24d5f3a93d06bf0f9ffd1516ceb5737e8f9"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-08/quiz.json",
-      "bytes": 12124,
-      "sha256": "8cc68d58733ce02d63495b3dea3b5ed9b38396dd90d9e5f5b9eff0ff0967b057"
+      "path": "courses/social-studies/grade-12/weeks/week-31/teacher-guide.html",
+      "size": 6948,
+      "sha256": "ef242567907cd0ba5b62caea0b9226a101ef6acf17e8e0d0f63040a261ab5553"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-08/student-packet.html",
-      "bytes": 14428,
-      "sha256": "5349bad25a2bf24bde5b5aa98c2f2dd65a982dc2ef6d0022705298707aa0d447"
+      "path": "courses/social-studies/grade-12/weeks/week-32/README.md",
+      "size": 532,
+      "sha256": "07f559fb1d5004af80a5b4a67b08ef4a416e8458d8547e81703bab92bf0ea7c6"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-08/teacher-guide.html",
-      "bytes": 8589,
-      "sha256": "15a2a106a63c442a1fb4efe72a492656c65678dd3329fce234a2ef906922daa5"
+      "path": "courses/social-studies/grade-12/weeks/week-32/quiz.json",
+      "size": 6604,
+      "sha256": "1453cf196b682d288cad565fd5e4e6333706d9b9e62446b83268dd29a9c2e21b"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-09/README.md",
-      "bytes": 1783,
-      "sha256": "11c77881257cf3686068e780b533da65e4e6d361952d67c87cc1451e4b6eb4eb"
+      "path": "courses/social-studies/grade-12/weeks/week-32/student-packet.html",
+      "size": 17660,
+      "sha256": "35446fb300aa5b752b55064777644c0d94a1d54746a6275a2de8cf5f6080ce13"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-09/quiz.json",
-      "bytes": 12297,
-      "sha256": "74ba9603a4bf8d4504b6bd59df15017dac40edbaee26164441264ff2bc0492fb"
+      "path": "courses/social-studies/grade-12/weeks/week-32/teacher-guide.html",
+      "size": 6887,
+      "sha256": "d26f53fc89286108bf1a8360f5f300882e04a23d14b632fb4a37f97ef2c877e6"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-09/student-packet.html",
-      "bytes": 14245,
-      "sha256": "600ddc1f619eeafcb8a1adbb8ad282f5ee6621a09992f0249890fd871a450ad4"
+      "path": "courses/social-studies/grade-12/weeks/week-33/README.md",
+      "size": 514,
+      "sha256": "aa30e5ad368b8bbf5c3747b0d6535d26d786705970014ab6799591c10ed5aa68"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-09/teacher-guide.html",
-      "bytes": 8486,
-      "sha256": "e1c6d41d6ac7402493a016be96c97a161b343c2e0ff31de8c9aa7315b39c9839"
+      "path": "courses/social-studies/grade-12/weeks/week-33/quiz.json",
+      "size": 6344,
+      "sha256": "e6c03bda62e54ca1947089611ce59445b3ea06bf05c902faadfcdf4f509d04f6"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-10/README.md",
-      "bytes": 1786,
-      "sha256": "74cba747838e70a09e55309f2e8e5ae8dca015d3fe71d9d4b1b69730836b9d05"
+      "path": "courses/social-studies/grade-12/weeks/week-33/student-packet.html",
+      "size": 17209,
+      "sha256": "f81022b79483400dee2a6dbb1f98935c89a9c26d7ef4feab5c738d4931cca2f9"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-10/quiz.json",
-      "bytes": 12132,
-      "sha256": "2f9cfc6dd4b48d88c71a2972ef9c1c83eb735cf997e0d700dcb2b22ce4878097"
+      "path": "courses/social-studies/grade-12/weeks/week-33/teacher-guide.html",
+      "size": 6619,
+      "sha256": "69b52fc6f81314cb96029629fe3064248516d47cbba1e3bf7c057e651878788d"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-10/student-packet.html",
-      "bytes": 14605,
-      "sha256": "834747c3c71e3237dc47a8ed9fccbb1351d7d396300fc2df31915f05142af798"
+      "path": "courses/social-studies/grade-12/weeks/week-34/README.md",
+      "size": 501,
+      "sha256": "fd3c8ef3f5cc2f1c0bed94cfdd35ddb2d43cb32fdb0060ca1fec038ad43a5bed"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-10/teacher-guide.html",
-      "bytes": 8454,
-      "sha256": "b1b4b8bc60421ffa427618fc5dd1344314edddd1615be2d8e66f9829ba88786e"
+      "path": "courses/social-studies/grade-12/weeks/week-34/quiz.json",
+      "size": 6520,
+      "sha256": "1b6f5ab22f4181aafae3f65d99b5ba89915c6af716c408d7ee6205079d359820"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-11/README.md",
-      "bytes": 1779,
-      "sha256": "5c8d36b73e0a96a1501f7428586bdd00a4828fc739641d547119e7dd50258eb1"
+      "path": "courses/social-studies/grade-12/weeks/week-34/student-packet.html",
+      "size": 17678,
+      "sha256": "2a2854607a57c5472366b8fcd4cb6795b0bec7d464e6db50a1d2e28bf3dbaf85"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-11/quiz.json",
-      "bytes": 12131,
-      "sha256": "c1e43e6ac25c93786e8fa45fe07547d76990f81f4b8a039994d086ddca4c3641"
+      "path": "courses/social-studies/grade-12/weeks/week-34/teacher-guide.html",
+      "size": 6939,
+      "sha256": "e03611bac2ca4bb6ba591eaea8ac4ced79fc895452529346d0cad7ff34612876"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-11/student-packet.html",
-      "bytes": 14416,
-      "sha256": "2f7bcc0cccc5aaa9d04856f6670823166ef282f949f1f6f3385286c2fa43c9e3"
+      "path": "courses/social-studies/grade-12/weeks/week-35/README.md",
+      "size": 550,
+      "sha256": "152c8214408b165a1688deb46f35e085e5a86c9b6fa7d37762c24f652f260273"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-11/teacher-guide.html",
-      "bytes": 8583,
-      "sha256": "0829fd93a403756bea3fc89dea99ebd7fa07842a9b23712ce040f0484a5e6901"
+      "path": "courses/social-studies/grade-12/weeks/week-35/quiz.json",
+      "size": 6666,
+      "sha256": "4fe5f7fed63c588f4a37fd37a17881c6913a4204fe66e6424badb6a1595eba20"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-12/README.md",
-      "bytes": 1795,
-      "sha256": "ba93e88b871b2dbc73f97881d878c1b9bf6f6756018cd0b4de2e578aab3a22de"
+      "path": "courses/social-studies/grade-12/weeks/week-35/student-packet.html",
+      "size": 17804,
+      "sha256": "16d6735c8e386e742f6d5aead61cedf7ca0f4b8a91d776d9a6a021675da4e535"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-12/quiz.json",
-      "bytes": 12394,
-      "sha256": "cab4d453aae119380ac254c399c7b8ace984d2c442780dd898056c46f35ef054"
+      "path": "courses/social-studies/grade-12/weeks/week-35/teacher-guide.html",
+      "size": 6931,
+      "sha256": "8c6c2077b0ed8ae16d5eade41109cde7a3ef78991e78efefa3e65f8719710c2c"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-12/student-packet.html",
-      "bytes": 14691,
-      "sha256": "20b8585a168017be047f47481f4200ff22a793824a181a70471b09dcb07c6b67"
+      "path": "courses/social-studies/grade-12/weeks/week-36/README.md",
+      "size": 576,
+      "sha256": "d416dbf67498327e689c62b9fee56242d73781eed98820e19c6fd466ac5b2d54"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-12/teacher-guide.html",
-      "bytes": 8759,
-      "sha256": "309b61aaad1571a7e3a62f3d4d74423591dec69a1e51f0fc8090958a191a3236"
+      "path": "courses/social-studies/grade-12/weeks/week-36/quiz.json",
+      "size": 6623,
+      "sha256": "74cda69539236d19ddcf5cfdb11547bc45cd790dc375c996d73ece3f925466e4"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-13/README.md",
-      "bytes": 1820,
-      "sha256": "9099e06cf157667a3f108eaec9434ec936dbfb856778a29b6ff11cd870c9be88"
+      "path": "courses/social-studies/grade-12/weeks/week-36/student-packet.html",
+      "size": 18153,
+      "sha256": "0b506adde2fde2a16470abce61dfc66be43227f7c4cc71c790aa652a98a664d1"
     },
     {
-      "path": "courses/social-studies/grade-11/weeks/week-13/quiz.json",
-      "bytes": 12620,
-      "sha256": "3baf55acf2ebf47fc97419e7064b606679ba6f6876f21723c17fa5ce466565db"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-13/student-packet.html",
-      "bytes": 14657,
-      "sha256": "7754eb447bd84f4adee36981859db5bbece836604b06fae355c6f1a173546e75"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-13/teacher-guide.html",
-      "bytes": 8739,
-      "sha256": "d8063caafa003155e7b98f44334fb32a59edc132c37db6984a5e8cf9c5f64729"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-14/README.md",
-      "bytes": 1752,
-      "sha256": "04f01f09483fdb3cf057965d02aa43d2f849c4720093b92fb0ab4a2c74470f99"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-14/quiz.json",
-      "bytes": 12212,
-      "sha256": "a4b999cb26e7b5efc296b0a0f03b8cf93151d24209e3109b9a193416f1ae4057"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-14/student-packet.html",
-      "bytes": 14259,
-      "sha256": "188933f9c66c05556ff46e2d3209e23c8bd4914c5731e79f20f7e1da2a8899b3"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-14/teacher-guide.html",
-      "bytes": 8527,
-      "sha256": "364c3384fe16d3212c815121bfe6edb29ba67d694fb876c2ca91c6456414bbcd"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-15/README.md",
-      "bytes": 1762,
-      "sha256": "a04caba297472fd9ec9d63c98b17f1d77ae95a39d55bb008267a2f0914b2befb"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-15/quiz.json",
-      "bytes": 12555,
-      "sha256": "0ee5cb5f6f3ca6d5712040ae7eb53e4ccbc52a90392bd88cda3dcf1774b27653"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-15/student-packet.html",
-      "bytes": 14432,
-      "sha256": "74d0fe47d1ed4ba73278eb563961f85143b64a4606f9ff197680fc1bd6e5424d"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-15/teacher-guide.html",
-      "bytes": 8714,
-      "sha256": "289f331ef8ee975fbab23a019415d42837069f1a2444cb3f98a2b167de9bff9a"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-16/README.md",
-      "bytes": 1880,
-      "sha256": "7d2f0fa9c8ce0e0c684b6ebab99858b363b531f0e584287346b31c28eb3f3d09"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-16/quiz.json",
-      "bytes": 12478,
-      "sha256": "23bc2ae0bce0e26fd6360022d5f9a407af84b41af89407c45225a5629747f1a1"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-16/student-packet.html",
-      "bytes": 14516,
-      "sha256": "d9eb3c8fd298cf0baeafa39e0f5a5f1129fd4c14e19fe593472bcd9931a4c6d2"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-16/teacher-guide.html",
-      "bytes": 8616,
-      "sha256": "7021e37d9cd319003d52198e47fd70bdfa55f739c643683edf6cdc32a32b752e"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-17/README.md",
-      "bytes": 1842,
-      "sha256": "c9dc5b38e1f46b6f08c1b6608d2f097e2377ee7f12b5a764e2088569b76bf5a7"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-17/quiz.json",
-      "bytes": 12582,
-      "sha256": "0a45cac99143a6dd0ef3194adbf263e7e43a91646f8ed4c76f986e7b5bc457c9"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-17/student-packet.html",
-      "bytes": 15053,
-      "sha256": "7769cb308e98eeb9e31f17c5d0b2051726253bf2053b62e5bf526af1831788ea"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-17/teacher-guide.html",
-      "bytes": 8887,
-      "sha256": "995ff7e4a64fe14266c5516fc3dce1aac2e1cb97f3b4470b0ef8b0904c05af01"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-18/README.md",
-      "bytes": 1952,
-      "sha256": "3daf9dbacd97bac97c1d47de95adba45c7c4641f32a11a91040b1843c489317c"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-18/quiz.json",
-      "bytes": 11950,
-      "sha256": "3c9b8d0ddb518b7f1cf371841ad3c612b5a47bf0e275717578765f249d449239"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-18/student-packet.html",
-      "bytes": 14454,
-      "sha256": "5648669f17695f6c0effabb88290a754e5a937e6032e44dd062a5af438474494"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-18/teacher-guide.html",
-      "bytes": 8536,
-      "sha256": "e7c9c5912435ce582183582b900728e2559d5c3bb71c2dd067842a7eb5f6e658"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-19/README.md",
-      "bytes": 1680,
-      "sha256": "83c53d52dfed8d657f6fab5426aa32f96dbbc6defa49b6e3aac22308e1e180f1"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-19/quiz.json",
-      "bytes": 12057,
-      "sha256": "d8426eaa05e2a08c4cb929639af7897c497f572736d8a9e90824e6f200718100"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-19/student-packet.html",
-      "bytes": 13815,
-      "sha256": "da800b173274780f27c188f6e40f9b3f2be11362eeaee69162da50458ae1afe7"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-19/teacher-guide.html",
-      "bytes": 8390,
-      "sha256": "29cd40ed8ab328460106281ed8b0589bdad533bd12efdc2e87822a72b0a02de8"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-20/README.md",
-      "bytes": 1817,
-      "sha256": "9619b3f6b752468621b29b5629a9a9d7f6eda8a999b59dd91164eb45aabb32ee"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-20/quiz.json",
-      "bytes": 11828,
-      "sha256": "e9f76f0fe19d1720a367ca857508ad367c36f8900e4379b1c5228da957314168"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-20/student-packet.html",
-      "bytes": 13970,
-      "sha256": "025c6079b57b21c590e37921ead4dc29256d8cca2252099a03aa20b240fab343"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-20/teacher-guide.html",
-      "bytes": 8361,
-      "sha256": "45bb727b1b2873d0ac97f428370dbef5c36eb73de67e7f6ed617d251d3d59ad4"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-21/README.md",
-      "bytes": 1574,
-      "sha256": "254a982fc2291df2fbda7c84a20c3e1d6697c4317dcd8fd3accb278ec0177209"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-21/quiz.json",
-      "bytes": 11927,
-      "sha256": "af8f9d103ec1417b4d0d45479d5de48701b396a1841d7785aa5f28bb97e982b4"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-21/student-packet.html",
-      "bytes": 13515,
-      "sha256": "c98c9313c5c6aac29589ad0b0e1a667746632cb42a76c2ff43e248cd8982ccdf"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-21/teacher-guide.html",
-      "bytes": 8345,
-      "sha256": "1a7a8a6e9d43afcf3a8b4e09059981fabf0bd50bfd247f40a76f066fb4cac7f6"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-22/README.md",
-      "bytes": 1687,
-      "sha256": "4f36562c01583e53a5dddff1de78a8f5a90fba5c3144674bc494fad79d1d758d"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-22/quiz.json",
-      "bytes": 11906,
-      "sha256": "ffe35f45e7e758cfd3c5444d42c6a37c4acdb5f81c212cda6399e1b588c16a57"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-22/student-packet.html",
-      "bytes": 13803,
-      "sha256": "9632cc21d85bc6ccf92a5c28101f5759218b9d9272681f2c569a4e125268ff4d"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-22/teacher-guide.html",
-      "bytes": 8489,
-      "sha256": "3eed4d9c607ddda198b3aa43a24da0a2a304f7e87fd7ad21decdc231af92dd03"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-23/README.md",
-      "bytes": 1680,
-      "sha256": "7249b577776b70c69c7d6b344dc7896cf122490ad6762e553e693b3696878cfd"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-23/quiz.json",
-      "bytes": 11566,
-      "sha256": "d8cc7e298674d9463159ddb8f5c981979e1e7525d70c1efe1a3dc23e6d2418fd"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-23/student-packet.html",
-      "bytes": 13739,
-      "sha256": "89a5b1ab12f54d5de97ab44526e2172b247429d349ae26ba1d7e87c2e377b408"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-23/teacher-guide.html",
-      "bytes": 8257,
-      "sha256": "897b282cb2a20ff648254ca2b0b018f5fe18ae0cee1435d54980822b1a9ffcd1"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-24/README.md",
-      "bytes": 1608,
-      "sha256": "6acae13a2d4a7bc86393a80ce010fa575e0e4c8ad486aa6f9c86d1c2c5c8e7a5"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-24/quiz.json",
-      "bytes": 12119,
-      "sha256": "6cf7dde77802d701995762f863841a75c76c7102c10f70eeeea9810a46108841"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-24/student-packet.html",
-      "bytes": 13751,
-      "sha256": "37319e2fbe8f890b5627e5cb73d66e234ffcfd00668da4f3d67e4f2df54b1cca"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-24/teacher-guide.html",
-      "bytes": 8535,
-      "sha256": "9f8ece8e246fd293c54df1f7e5cc9ddb25da6f33860216d82bff9c84e49f81b5"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-25/README.md",
-      "bytes": 1713,
-      "sha256": "6c980784b6062504795afa07adead64665ddfe990692ea5b572b568d7e49da69"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-25/quiz.json",
-      "bytes": 12284,
-      "sha256": "440dba4874722bfd40a37f87ccebd1f9c3e28f832f3c9a478e2621ad10e27673"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-25/student-packet.html",
-      "bytes": 14132,
-      "sha256": "7d65b8d1234718cbd6a67488c42d53956dc1f5ff157c5c6af1235c5b05bfbc3f"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-25/teacher-guide.html",
-      "bytes": 8530,
-      "sha256": "3164e7d72874005efbfbac5fd554ecf6110d2a5a18443f44ab44615b5591f7e5"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-26/README.md",
-      "bytes": 1654,
-      "sha256": "3a78fc2b2922da336cb43a16fbc8fba95913c141aa3483962e346fa596399351"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-26/quiz.json",
-      "bytes": 12197,
-      "sha256": "2362da31edc51fbe32fe327e8c4aaf7ef9e813b9d560fa1a5032d7749451587f"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-26/student-packet.html",
-      "bytes": 13972,
-      "sha256": "5a5ba4fcf0250ec5a4fdd8509cdb88ae846976d768ac553d9ee0abd971ae077d"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-26/teacher-guide.html",
-      "bytes": 8447,
-      "sha256": "8b2556c868d68b06755a06f29dcd648ba6ec788a7d84c7036778cc7d188a099d"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-27/README.md",
-      "bytes": 1877,
-      "sha256": "77a7c2598e6cd922c24626357c0d9bffbe65f14cb25f1deac6a4d120920292de"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-27/quiz.json",
-      "bytes": 11959,
-      "sha256": "2588461ea105c5c3101d3102b8bc94a437f259cb361ab10d3a2209f8f5ef6224"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-27/student-packet.html",
-      "bytes": 14395,
-      "sha256": "8ee8c0514fb67dd40f8f1c5714233d24f67499ec9d96a67631caffc48b4ef29f"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-27/teacher-guide.html",
-      "bytes": 8514,
-      "sha256": "98f1f84b392c4fb8fb732fe83dedbedede645f3a922b8240188743ca5422bb21"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-28/README.md",
-      "bytes": 1678,
-      "sha256": "b8b0bcc18421ae7f0582714511c4a07c02451bbe4dec6af6545e76d20524ea59"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-28/quiz.json",
-      "bytes": 11892,
-      "sha256": "9117a7da28472936e8597a7b97c7bb82e79771b836837d850ae5f1581bb7afc2"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-28/student-packet.html",
-      "bytes": 13953,
-      "sha256": "5cbc0a75b7fb66229f3c1707091376daeb97ac9d30ca120c853e7dadc0fd71dc"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-28/teacher-guide.html",
-      "bytes": 8387,
-      "sha256": "271f64708ab91cebc85491ae231d1a95994da589394be143ba1a1233a22a43fe"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-29/README.md",
-      "bytes": 1654,
-      "sha256": "132039ec289e98dcfc7a6ca13cb2461190fd0142310b4f326e97ff00b8d902ca"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-29/quiz.json",
-      "bytes": 12605,
-      "sha256": "216f4e74773f74d1ecdc2f1a8ed01062af78e868ea3c992aefafd9e84c7d6d78"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-29/student-packet.html",
-      "bytes": 14148,
-      "sha256": "350909830d5021fca52013e0df0986dbd86f88423b8b126f8d5189a4ff21efcd"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-29/teacher-guide.html",
-      "bytes": 8690,
-      "sha256": "a5c09021445d7f5c6efbdd2fd399caf2a6ee8a84cbf71b9dddffc479e29d37dd"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-30/README.md",
-      "bytes": 1712,
-      "sha256": "995a0cadcf0ba6241916cdfa42481093c57f4b406b2352ca3da689776dcdd10b"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-30/quiz.json",
-      "bytes": 12421,
-      "sha256": "a252be45d5f82c1d0e8c628845f9bc9fd599b22a1e8e5e4c6d20d84614a18c35"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-30/student-packet.html",
-      "bytes": 14011,
-      "sha256": "849faeb2f7c7b311ea287d98119b6527cf01c3d7f5d7798d0a8e95a7ddea358d"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-30/teacher-guide.html",
-      "bytes": 8466,
-      "sha256": "e76200355f9f5e2c2bb0645d00d9f5c876f7d86a4983b5e363aaf52b6b9d7c4c"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-31/README.md",
-      "bytes": 1704,
-      "sha256": "bc3b0a7cf7a25b76bc08dd18771c9462b0ccaadcb6b5014b5628b81346a31864"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-31/quiz.json",
-      "bytes": 12647,
-      "sha256": "92b5eddd5c15bb8170aa5d2ac4f12850c52fc1a92ef8e3d26bd2782b18943345"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-31/student-packet.html",
-      "bytes": 14432,
-      "sha256": "dc4e60c81c5942d041c0be5985630491c6924d042b7e3e1967b21b5b29753de5"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-31/teacher-guide.html",
-      "bytes": 8815,
-      "sha256": "5a76318187204ad68e988b40d5422e91dc5685a2bd08d5152751fc38ed1cc420"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-32/README.md",
-      "bytes": 1732,
-      "sha256": "13526215dbfb8ba6da228002be70ff58e39c66b71428c40285a1fac8c0356bad"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-32/quiz.json",
-      "bytes": 12301,
-      "sha256": "84a9f22e39784d966e2f437d2f2225d780421187bc9751797c75cc59eec78e14"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-32/student-packet.html",
-      "bytes": 14366,
-      "sha256": "dc87265479cb89be1c84f5cc3d23440c945647e9ef6e0ba0d393309623989c2e"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-32/teacher-guide.html",
-      "bytes": 8582,
-      "sha256": "d00124f1e79647bd5ce7ebab63df418dcd20a928aff2cf8c314ca0d4ab847070"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-33/README.md",
-      "bytes": 1708,
-      "sha256": "69e683989c74a26ff9d76f242b8eaa28eaabcc0609ac8d16f9da5dc6da4d7ead"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-33/quiz.json",
-      "bytes": 11628,
-      "sha256": "05a600b6be3e0ac92c79b747445e378cfe20fe62c1b89d77e57bd5b786257217"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-33/student-packet.html",
-      "bytes": 14036,
-      "sha256": "ab97c9bff7977a71a6ea35d42ab6af97fa014191a02ea12360e2ccb9ddf981ae"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-33/teacher-guide.html",
-      "bytes": 8469,
-      "sha256": "bc7ac99aa06c42c1d1dd2f58606dfa2c6a72854ee9dfb16143edaa6de582d338"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-34/README.md",
-      "bytes": 1818,
-      "sha256": "11c8145f411151cddc1f81dd1745c99bf751a46eb9b7c047d35dcd49a9bcda63"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-34/quiz.json",
-      "bytes": 12880,
-      "sha256": "f523954fe70136a7f6dff56ee9d40149820a5da6cdc4c8c5aa52ec73f7ffe21f"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-34/student-packet.html",
-      "bytes": 14622,
-      "sha256": "30d8ff42f890d653c2a286a75c15d86a22e50e5f4092f38a947d4b8c0a6e88e7"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-34/teacher-guide.html",
-      "bytes": 8711,
-      "sha256": "260c71905d1a7f8072ef459baa874b152e643cca54242c17441ed5d218675df3"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-35/README.md",
-      "bytes": 1772,
-      "sha256": "b068db0ec7d204c86b590f7d75a25cfcbd5a36cd68b65b5418c25c50c77af0b0"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-35/quiz.json",
-      "bytes": 12582,
-      "sha256": "e4bd801cee0a9b88532e8f638348c2c4c337f6a4f3ea832b1ff874cdf7348c39"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-35/student-packet.html",
-      "bytes": 14537,
-      "sha256": "1f40cb72cf3fed48eab9b52eb3d354b5dca5e74d2e3c324cdc1835dbc97ab3b7"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-35/teacher-guide.html",
-      "bytes": 8711,
-      "sha256": "a619ca652b27555f542cd79992da8cdcb5529be31c2c4d88e8a13f2fd6e17497"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-36/README.md",
-      "bytes": 1922,
-      "sha256": "7b6314e5c52415ac8ec94f2c83c47cb9159339996104c64c19953fe482427275"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-36/quiz.json",
-      "bytes": 12537,
-      "sha256": "35df5592bd4668933df30dc0b7b0989fbedf10f2e3f7973328e833565f0f93e1"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-36/student-packet.html",
-      "bytes": 14408,
-      "sha256": "294fdb40ccf5d930617d589674691ac691242e0a5c575aa019a1d3457e6071b2"
-    },
-    {
-      "path": "courses/social-studies/grade-11/weeks/week-36/teacher-guide.html",
-      "bytes": 8635,
-      "sha256": "20ef8196dfa231da77e939a5a9012896b5615969d8ca59cc7da285761403bf42"
+      "path": "courses/social-studies/grade-12/weeks/week-36/teacher-guide.html",
+      "size": 7188,
+      "sha256": "c6937fd15eee9329b3ee1bc76f076e1373e260bcc329bab5677d8e0652b95824"
     },
     {
       "path": "courses/social-studies/index.html",
-      "bytes": 3664,
-      "sha256": "dea379bde1585bd9cdcae615d11ce88a022735009259bd47e8113cb6deab641e"
+      "size": 4458,
+      "sha256": "e81f441bb296ae76f7d6fe5c0b1bdbc15f0213848769590b09e249b060ec28a0"
     }
   ]
 }
