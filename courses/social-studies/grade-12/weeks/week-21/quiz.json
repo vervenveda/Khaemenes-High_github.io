@@ -1,0 +1,117 @@
+{
+  "title": "Week 21 Mastery Quiz · Diplomacy, Negotiation, and Statecraft",
+  "questions": [
+    {
+      "question": "Which definition best matches “diplomacy”?",
+      "options": [
+        "Collective action to protect and improve population health.",
+        "Management of relations through communication, representation, negotiation, and agreement.",
+        "A restriction intended to influence another actor’s behavior.",
+        "Processes seeking to rebuild relationships, acknowledgment, and coexistence after harm."
+      ],
+      "answer": 1,
+      "explanation": "Diplomacy means management of relations through communication, representation, negotiation, and agreement."
+    },
+    {
+      "question": "Which definition best matches “reservation point”?",
+      "options": [
+        "Long-term work to address institutions and relationships that sustain peace.",
+        "The least favorable deal an actor will accept before walking away.",
+        "A boundary or weakness affecting interpretation or generalization.",
+        "Capacity to provide understandable reasons for a system’s output or decision."
+      ],
+      "answer": 1,
+      "explanation": "Reservation point means the least favorable deal an actor will accept before walking away."
+    },
+    {
+      "question": "Which definition best matches “leverage”?",
+      "options": [
+        "Authority and rights concerning collection, storage, transfer, and control of data.",
+        "A resource or condition that improves bargaining influence.",
+        "Instruction or administration that does not require allegiance to a party, candidate, or political position.",
+        "Testing whether a finding changes under alternative assumptions or measures."
+      ],
+      "answer": 1,
+      "explanation": "Leverage means a resource or condition that improves bargaining influence."
+    },
+    {
+      "question": "Which definition best matches “mediation”?",
+      "options": [
+        "Information used to test or support a claim.",
+        "Systematic labeling of qualitative evidence for comparison and analysis.",
+        "Presentation of complex evidence for a non-specialist audience.",
+        "Assistance by a third party seeking to facilitate agreement."
+      ],
+      "answer": 3,
+      "explanation": "Mediation means assistance by a third party seeking to facilitate agreement."
+    },
+    {
+      "question": "Which definition best matches “verification”?",
+      "options": [
+        "Public acceptance that an institution or decision has a justified right to rule.",
+        "Procedures used to determine whether commitments are being honored.",
+        "A focused, answerable question that guides evidence collection and analysis.",
+        "A person or group affected by or able to influence an issue."
+      ],
+      "answer": 1,
+      "explanation": "Verification means procedures used to determine whether commitments are being honored."
+    },
+    {
+      "question": "Which definition best matches “issue linkage”?",
+      "options": [
+        "Connecting separate issues to create trades, pressure, or broader agreement.",
+        "A system in which citizens meaningfully choose leaders and can contest public power.",
+        "The capacity to shape behavior, choices, rules, opportunities, or outcomes.",
+        "Recognition for mastery above the minimum course threshold."
+      ],
+      "answer": 0,
+      "explanation": "Issue linkage means connecting separate issues to create trades, pressure, or broader agreement."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 21 analysis?",
+      "options": [
+        "The most confident source should be accepted without examining authority or method.",
+        "Negotiation is not the same as compromise at any price.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification."
+      ],
+      "answer": 1,
+      "explanation": "Negotiation is not the same as compromise at any price."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 21 analysis?",
+      "options": [
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Durable agreements address incentives, monitoring, enforcement, and change.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 1,
+      "explanation": "Durable agreements address incentives, monitoring, enforcement, and change."
+    },
+    {
+      "question": "Which research practice is most appropriate for Diplomacy, Negotiation, and Statecraft?",
+      "options": [
+        "Replace documentary evidence with political identity or intuition.",
+        "Choose only evidence that supports the preferred conclusion.",
+        "Trace claims to Treaty negotiations, peace processes, trade bargaining, and diplomatic communications, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Use the first search result and treat its summary as conclusive."
+      ],
+      "answer": 2,
+      "explanation": "Trace claims to Treaty negotiations, peace processes, trade bargaining, and diplomatic communications, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "List facts without connecting them to a claim.",
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+      ],
+      "answer": 3,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How can actors negotiate durable agreements when interests, power, information, and trust differ?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

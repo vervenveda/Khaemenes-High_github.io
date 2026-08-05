@@ -1,0 +1,117 @@
+{
+  "title": "Week 17 Mastery Quiz · Comparative Political Systems Synthesis",
+  "questions": [
+    {
+      "question": "Which definition best matches “comparative method”?",
+      "options": [
+        "Protection granted by a state to a qualifying person seeking refuge.",
+        "A written international agreement governed by international law.",
+        "Systematic comparison used to describe, classify, explain, or evaluate cases.",
+        "Money owed by a national government."
+      ],
+      "answer": 2,
+      "explanation": "Comparative method means systematic comparison used to describe, classify, explain, or evaluate cases."
+    },
+    {
+      "question": "Which definition best matches “case selection”?",
+      "options": [
+        "The reasoned choice of cases appropriate to a research question.",
+        "Cross-border organization of production stages for a good or service.",
+        "Failure to investigate or impose accountability for serious violations.",
+        "Inability to credibly promise future compliance when power or incentives may change."
+      ],
+      "answer": 0,
+      "explanation": "Case selection means the reasoned choice of cases appropriate to a research question."
+    },
+    {
+      "question": "Which definition best matches “most-similar design”?",
+      "options": [
+        "Severe climate impacts that cannot be fully avoided through mitigation or adaptation.",
+        "A relationship in which economic structures constrain autonomous development.",
+        "Comparison of similar cases with different outcomes.",
+        "Use of computational systems to inform or make public decisions."
+      ],
+      "answer": 2,
+      "explanation": "Most-similar design means comparison of similar cases with different outcomes."
+    },
+    {
+      "question": "Which definition best matches “most-different design”?",
+      "options": [
+        "Identification of actors responsible for a digital operation.",
+        "Comparison of different cases sharing an outcome or relationship.",
+        "A difficult-to-exclude resource vulnerable to overuse.",
+        "Structured evaluation of preparedness, response, outcomes, and lessons."
+      ],
+      "answer": 1,
+      "explanation": "Most-different design means comparison of different cases sharing an outcome or relationship."
+    },
+    {
+      "question": "Which definition best matches “typology”?",
+      "options": [
+        "A record explaining changes made in response to evidence and feedback.",
+        "A classification system based on multiple dimensions.",
+        "A norm such as humanity, neutrality, impartiality, or independence guiding relief.",
+        "Discouraging action by credibly threatening unacceptable costs."
+      ],
+      "answer": 1,
+      "explanation": "Typology means a classification system based on multiple dimensions."
+    },
+    {
+      "question": "Which definition best matches “causal inference”?",
+      "options": [
+        "Logical connection among question, method, evidence, findings, and conclusion.",
+        "Systematic collection and analysis of health data for action.",
+        "A systematic review of required work, evidence, records, and corrections.",
+        "Reasoning about whether and how one factor contributes to an outcome."
+      ],
+      "answer": 3,
+      "explanation": "Causal inference means reasoning about whether and how one factor contributes to an outcome."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 17 analysis?",
+      "options": [
+        "Comparison requires common concepts and attention to case-specific context.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 0,
+      "explanation": "Comparison requires common concepts and attention to case-specific context."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 17 analysis?",
+      "options": [
+        "Selecting only convenient cases creates biased conclusions.",
+        "The most confident source should be accepted without examining authority or method.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 0,
+      "explanation": "Selecting only convenient cases creates biased conclusions."
+    },
+    {
+      "question": "Which research practice is most appropriate for Comparative Political Systems Synthesis?",
+      "options": [
+        "Trace claims to Country portfolios from Weeks 13–16 and cross-national governance datasets, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Choose only evidence that supports the preferred conclusion.",
+        "Replace documentary evidence with political identity or intuition.",
+        "Use the first search result and treat its summary as conclusive."
+      ],
+      "answer": 0,
+      "explanation": "Trace claims to Country portfolios from Weeks 13–16 and cross-national governance datasets, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "List facts without connecting them to a claim.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+      ],
+      "answer": 3,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "Which concepts best explain similarities and differences across political systems without erasing history and context?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

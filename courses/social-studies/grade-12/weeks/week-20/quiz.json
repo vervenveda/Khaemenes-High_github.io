@@ -1,0 +1,117 @@
+{
+  "title": "Week 20 Mastery Quiz · Foreign Policy and National Interest",
+  "questions": [
+    {
+      "question": "Which definition best matches “national interest”?",
+      "options": [
+        "Fair consideration of present and future generations.",
+        "Deprivation measured in relation to prevailing standards in a society.",
+        "Objectives a government identifies as important to national security, prosperity, influence, or values.",
+        "Capacity to withstand, adapt to, and recover from disruption."
+      ],
+      "answer": 2,
+      "explanation": "National interest means objectives a government identifies as important to national security, prosperity, influence, or values."
+    },
+    {
+      "question": "Which definition best matches “foreign policy”?",
+      "options": [
+        "Spread of weapons, materials, technology, or capabilities.",
+        "Fair opportunity to attain health without avoidable disadvantage.",
+        "Fair distribution of environmental benefits, burdens, participation, and remedies.",
+        "A government’s strategy and actions toward external actors and conditions."
+      ],
+      "answer": 3,
+      "explanation": "Foreign policy means a government’s strategy and actions toward external actors and conditions."
+    },
+    {
+      "question": "Which definition best matches “strategic culture”?",
+      "options": [
+        "Structured evaluation by another reader using shared criteria.",
+        "Political violence targeting or threatening civilians to create fear and influence a wider audience.",
+        "Exchange of timely information about hazards, uncertainty, and protective action.",
+        "Historically shaped assumptions about security, force, risk, and international role."
+      ],
+      "answer": 3,
+      "explanation": "Strategic culture means historically shaped assumptions about security, force, risk, and international role."
+    },
+    {
+      "question": "Which definition best matches “bureaucratic politics”?",
+      "options": [
+        "Collective action to protect and improve population health.",
+        "A mandatory requirement that cannot be replaced by a weighted average.",
+        "A serious alternative claim or interpretation addressed by an argument.",
+        "Policy outcomes shaped by bargaining among organizations with different missions and interests."
+      ],
+      "answer": 3,
+      "explanation": "Bureaucratic politics means policy outcomes shaped by bargaining among organizations with different missions and interests."
+    },
+    {
+      "question": "Which definition best matches “credible commitment”?",
+      "options": [
+        "A boundary or weakness affecting interpretation or generalization.",
+        "Independent evidence that supports, qualifies, or contradicts a claim.",
+        "Integration of concepts and evidence into a coherent conclusion.",
+        "An assurance others believe will be honored despite future incentives to defect."
+      ],
+      "answer": 3,
+      "explanation": "Credible commitment means an assurance others believe will be honored despite future incentives to defect."
+    },
+    {
+      "question": "Which definition best matches “unintended consequence”?",
+      "options": [
+        "Instruction or administration that does not require allegiance to a party, candidate, or political position.",
+        "A condition that narrows what evidence or a study can establish.",
+        "An outcome not sought or anticipated by a decision maker.",
+        "A structured set of ideas about society, power, rights, and political change."
+      ],
+      "answer": 2,
+      "explanation": "Unintended consequence means an outcome not sought or anticipated by a decision maker."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 20 analysis?",
+      "options": [
+        "National interest is debated rather than objectively self-defining.",
+        "The most confident source should be accepted without examining authority or method.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 0,
+      "explanation": "National interest is debated rather than objectively self-defining."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 20 analysis?",
+      "options": [
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Decision makers operate under uncertainty and time pressure.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 1,
+      "explanation": "Decision makers operate under uncertainty and time pressure."
+    },
+    {
+      "question": "Which research practice is most appropriate for Foreign Policy and National Interest?",
+      "options": [
+        "Choose only evidence that supports the preferred conclusion.",
+        "Trace claims to Declassified decision records, executive statements, legislative debates, and outcome data, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Replace documentary evidence with political identity or intuition.",
+        "Use the first search result and treat its summary as conclusive."
+      ],
+      "answer": 1,
+      "explanation": "Trace claims to Declassified decision records, executive statements, legislative debates, and outcome data, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "List facts without connecting them to a claim.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition.",
+        "Use a slogan as the conclusion and omit uncertainties."
+      ],
+      "answer": 2,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How should governments define national interest when security, prosperity, values, law, and domestic politics conflict?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

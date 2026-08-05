@@ -1,0 +1,117 @@
+{
+  "title": "Week 24 Mastery Quiz · Human Rights and Humanitarian Principles",
+  "questions": [
+    {
+      "question": "Which definition best matches “human right”?",
+      "options": [
+        "Evidence that does not fit an emerging explanation.",
+        "Systematic unfairness arising from data, design, deployment, or social context.",
+        "Design that enables people with different abilities and circumstances to use information.",
+        "A fundamental entitlement claimed for every person by virtue of being human."
+      ],
+      "answer": 3,
+      "explanation": "Human right means a fundamental entitlement claimed for every person by virtue of being human."
+    },
+    {
+      "question": "Which definition best matches “derogation”?",
+      "options": [
+        "A conclusion directly derived from analyzed evidence.",
+        "A conclusion or proposition that requires support.",
+        "Lawful participation intended to understand or influence public life.",
+        "Temporary suspension of certain obligations under narrowly defined emergencies."
+      ],
+      "answer": 3,
+      "explanation": "Derogation means temporary suspension of certain obligations under narrowly defined emergencies."
+    },
+    {
+      "question": "Which definition best matches “proportionality”?",
+      "options": [
+        "Power regarded as rightful within a political or legal order.",
+        "A disciplined study of human institutions, behavior, and relationships using explicit methods and evidence.",
+        "A check that claims, quotations, data, and references are accurate and complete.",
+        "A test asking whether a restriction is suitable, necessary, and balanced."
+      ],
+      "answer": 3,
+      "explanation": "Proportionality means a test asking whether a restriction is suitable, necessary, and balanced."
+    },
+    {
+      "question": "Which definition best matches “positive obligation”?",
+      "options": [
+        "The durable rules and institutions governing access to and exercise of political power.",
+        "A formally recorded unit of completed study verified by the responsible authority.",
+        "A transparent statement of assistance, methods, conflicts, or limitations.",
+        "A duty requiring authorities to take protective or enabling action."
+      ],
+      "answer": 3,
+      "explanation": "Positive obligation means a duty requiring authorities to take protective or enabling action."
+    },
+    {
+      "question": "Which definition best matches “rights monitoring”?",
+      "options": [
+        "Presenting another person’s words, ideas, or work as one’s own.",
+        "Systematic collection and evaluation of evidence about rights conditions.",
+        "A system in which multiple groups, values, and centers of influence coexist.",
+        "The principle that government is limited and structured by higher law."
+      ],
+      "answer": 1,
+      "explanation": "Rights monitoring means systematic collection and evaluation of evidence about rights conditions."
+    },
+    {
+      "question": "Which definition best matches “impunity”?",
+      "options": [
+        "Failure to investigate or impose accountability for serious violations.",
+        "Transfer of authority from a central government to regional or local bodies.",
+        "A legal tradition in which judicial decisions and precedent have major importance.",
+        "A principle concerning equal status, rights, opportunity, treatment, or outcomes."
+      ],
+      "answer": 0,
+      "explanation": "Impunity means failure to investigate or impose accountability for serious violations."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 24 analysis?",
+      "options": [
+        "The most confident source should be accepted without examining authority or method.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Rights claims require legal definition, evidence, duty bearers, and remedies.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 2,
+      "explanation": "Rights claims require legal definition, evidence, duty bearers, and remedies."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 24 analysis?",
+      "options": [
+        "Political labels have exactly the same meaning in every country and period.",
+        "Most rights permit some regulation, but limitations must be justified.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "The most confident source should be accepted without examining authority or method."
+      ],
+      "answer": 1,
+      "explanation": "Most rights permit some regulation, but limitations must be justified."
+    },
+    {
+      "question": "Which research practice is most appropriate for Human Rights and Humanitarian Principles?",
+      "options": [
+        "Trace claims to Universal Declaration, core treaties, court decisions, and documented monitoring reports, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Replace documentary evidence with political identity or intuition.",
+        "Choose only evidence that supports the preferred conclusion."
+      ],
+      "answer": 0,
+      "explanation": "Trace claims to Universal Declaration, core treaties, court decisions, and documented monitoring reports, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition.",
+        "List facts without connecting them to a claim.",
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "Treat legal, causal, and moral claims as interchangeable."
+      ],
+      "answer": 0,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How should universal rights be interpreted, protected, and enforced across diverse societies and unequal power?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

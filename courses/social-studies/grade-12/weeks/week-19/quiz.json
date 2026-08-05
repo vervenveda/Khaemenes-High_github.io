@@ -1,0 +1,117 @@
+{
+  "title": "Week 19 Mastery Quiz · International Relations Theories",
+  "questions": [
+    {
+      "question": "Which definition best matches “realism”?",
+      "options": [
+        "A record of transactions between residents of a country and the rest of the world.",
+        "An actor using violence or obstruction to undermine a peace process.",
+        "A person forced from home who has not crossed an international border.",
+        "An approach emphasizing power, security, states, and competition under anarchy."
+      ],
+      "answer": 3,
+      "explanation": "Realism means an approach emphasizing power, security, states, and competition under anarchy."
+    },
+    {
+      "question": "Which definition best matches “liberal institutionalism”?",
+      "options": [
+        "Systematic observation, tracking, or collection of information about people or groups.",
+        "An agreement to halt fighting, temporarily or permanently.",
+        "Investment providing lasting control or influence in an enterprise abroad.",
+        "An approach emphasizing cooperation, institutions, interdependence, and domestic constraints."
+      ],
+      "answer": 3,
+      "explanation": "Liberal institutionalism means an approach emphasizing cooperation, institutions, interdependence, and domestic constraints."
+    },
+    {
+      "question": "Which definition best matches “constructivism”?",
+      "options": [
+        "Systematic unfairness arising from data, design, deployment, or social context.",
+        "Sustained organized armed conflict within a state.",
+        "Evidence that does not fit an emerging explanation.",
+        "An approach emphasizing norms, identities, ideas, and socially constructed interests."
+      ],
+      "answer": 3,
+      "explanation": "Constructivism means an approach emphasizing norms, identities, ideas, and socially constructed interests."
+    },
+    {
+      "question": "Which definition best matches “level of analysis”?",
+      "options": [
+        "A conclusion directly derived from analyzed evidence.",
+        "The individual, domestic, state, international, or systemic level used to explain an outcome.",
+        "Lawful participation intended to understand or influence public life.",
+        "Capacity to withstand, adapt to, and recover from disruption."
+      ],
+      "answer": 1,
+      "explanation": "Level of analysis means the individual, domestic, state, international, or systemic level used to explain an outcome."
+    },
+    {
+      "question": "Which definition best matches “anarchy”?",
+      "options": [
+        "A check that claims, quotations, data, and references are accurate and complete.",
+        "Absence of a single sovereign authority above states.",
+        "Fair opportunity to attain health without avoidable disadvantage.",
+        "A disciplined study of human institutions, behavior, and relationships using explicit methods and evidence."
+      ],
+      "answer": 1,
+      "explanation": "Anarchy means absence of a single sovereign authority above states."
+    },
+    {
+      "question": "Which definition best matches “security dilemma”?",
+      "options": [
+        "Structured evaluation by another reader using shared criteria.",
+        "A transparent statement of assistance, methods, conflicts, or limitations.",
+        "A formally recorded unit of completed study verified by the responsible authority.",
+        "A situation in which one actor’s defensive measures make others feel less secure."
+      ],
+      "answer": 3,
+      "explanation": "Security dilemma means a situation in which one actor’s defensive measures make others feel less secure."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 19 analysis?",
+      "options": [
+        "Theories are analytical lenses, not complete descriptions of reality.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "The most confident source should be accepted without examining authority or method."
+      ],
+      "answer": 0,
+      "explanation": "Theories are analytical lenses, not complete descriptions of reality."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 19 analysis?",
+      "options": [
+        "The same event can support different explanations.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification."
+      ],
+      "answer": 0,
+      "explanation": "The same event can support different explanations."
+    },
+    {
+      "question": "Which research practice is most appropriate for International Relations Theories?",
+      "options": [
+        "Choose only evidence that supports the preferred conclusion.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Trace claims to Selected diplomatic crises and international cooperation cases, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Replace documentary evidence with political identity or intuition."
+      ],
+      "answer": 2,
+      "explanation": "Trace claims to Selected diplomatic crises and international cooperation cases, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "List facts without connecting them to a claim.",
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+      ],
+      "answer": 3,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How do competing theories explain state behavior, institutions, identity, conflict, and cooperation?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}
