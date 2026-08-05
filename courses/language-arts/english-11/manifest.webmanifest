@@ -1,0 +1,16 @@
+{
+  "id": "./?app=english-11",
+  "name": "Khaemenes High \u2014 English 11",
+  "short_name": "English 11",
+  "description": "Advanced universal 36-week Grade 11 English III curriculum",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2efe8",
+  "theme_color": "#111b2b",
+  "categories": [
+    "education",
+    "books",
+    "productivity"
+  ]
+}
