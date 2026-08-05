@@ -1,0 +1,331 @@
+(() => {
+  "use strict";
+  const COURSE_ID = "ela12";
+  const STATE_KEY = "khae-ela12-state-v1";
+  const THEME_KEY = "khae-ela12-theme-v1";
+  const root = document.documentElement;
+  const $ = (s, c=document) => c.querySelector(s);
+  const $$ = (s, c=document) => Array.from(c.querySelectorAll(s));
+  const nowISO = () => new Date().toISOString();
+  const today = () => new Date().toISOString().slice(0,10);
+  const clamp = (n,min=0,max=100) => Math.max(min,Math.min(max,Number(n)||0));
+  const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+  const safeParse = (text, fallback={}) => { try{return JSON.parse(text)}catch{return fallback} };
+  const defaultState = () => ({
+    version: 1,
+    courseId: COURSE_ID,
+    studentName: "",
+    created: nowISO(),
+    weeks: {},
+    units: {},
+    exams: {},
+    records: {attendance:[], reading:[]},
+    profile: {schoolYear:"", instructor:"", startDate:"", completionDate:""}
+  });
+  let state = (() => {
+    try {
+      const saved = safeParse(localStorage.getItem(STATE_KEY) || "", null);
+      return saved && saved.courseId === COURSE_ID ? saved : defaultState();
+    } catch { return defaultState(); }
+  })();
+  const save = () => { try{localStorage.setItem(STATE_KEY, JSON.stringify(state))}catch{} };
+  const weekState = w => {
+    const key=String(Number(w));
+    state.weeks[key] ||= {days:{},quiz:{best:0,attempts:[]},notes:{},reflection:""};
+    state.weeks[key].days ||= {};
+    state.weeks[key].quiz ||= {best:0,attempts:[]};
+    state.weeks[key].quiz.attempts ||= [];
+    state.weeks[key].notes ||= {};
+    return state.weeks[key];
+  };
+  const unitState = u => {
+    const key=String(Number(u));
+    state.units[key] ||= {assessment:{best:0,attempts:[]},projectScore:"",notes:""};
+    state.units[key].assessment ||= {best:0,attempts:[]};
+    state.units[key].assessment.attempts ||= [];
+    return state.units[key];
+  };
+  const examState = id => {
+    state.exams[id] ||= {best:0,attempts:[]};
+    state.exams[id].attempts ||= [];
+    return state.exams[id];
+  };
+
+  // Theme
+  try{root.dataset.theme=localStorage.getItem(THEME_KEY)||"light"}catch{root.dataset.theme="light"}
+  const themeBtn=$("[data-theme-toggle]");
+  const syncTheme=()=>{if(themeBtn){themeBtn.textContent=root.dataset.theme==="dark"?"Light":"Dark";themeBtn.setAttribute("aria-label",`Switch to ${root.dataset.theme==="dark"?"light":"dark"} theme`)}};
+  syncTheme();
+  themeBtn?.addEventListener("click",()=>{root.dataset.theme=root.dataset.theme==="dark"?"light":"dark";try{localStorage.setItem(THEME_KEY,root.dataset.theme)}catch{}syncTheme()});
+
+  // Profile fields
+  $$("[data-profile-field]").forEach(field=>{
+    const key=field.dataset.profileField;
+    field.value=key==="studentName" ? (state.studentName||"") : (state.profile[key]||"");
+    field.addEventListener("input",()=>{
+      if(key==="studentName") state.studentName=field.value; else state.profile[key]=field.value;
+      save(); syncIdentity();
+    });
+  });
+  function syncIdentity(){
+    $$("[data-student-name-display]").forEach(el=>el.textContent=state.studentName||"Student");
+    $$("[data-instructor-display]").forEach(el=>el.textContent=state.profile.instructor||"Parent / Teacher");
+    $$("[data-school-year-display]").forEach(el=>el.textContent=state.profile.schoolYear||"________________");
+  }
+  syncIdentity();
+
+
+  // Generic persistent checklists
+  state.checks ||= {};
+  $$("[data-check-key]").forEach(box=>{
+    const key=box.dataset.checkKey;
+    box.checked=Boolean(state.checks[key]);
+    box.addEventListener("change",()=>{state.checks[key]=box.checked;save();});
+  });
+
+  // Week daily completion
+  $$("[data-week-day]").forEach(box=>{
+    const week=box.dataset.week, day=box.dataset.weekDay;
+    box.checked=Boolean(weekState(week).days[day]);
+    box.addEventListener("change",()=>{weekState(week).days[day]=box.checked;save();updateProgress()});
+  });
+  $$("[data-progress-key]").forEach(button=>{
+    const key=button.dataset.progressKey;
+    const match=key.match(/^week-(\d+)$/);
+    if(!match)return;
+    const week=match[1], ws=weekState(week);
+    const completed=()=>["Monday","Tuesday","Wednesday","Thursday","Friday"].every(d=>ws.days[d]);
+    const sync=()=>{const on=completed();button.setAttribute("aria-pressed",String(on));button.textContent=on?"Week Completed ✓":"Mark All Days Complete"};
+    sync();
+    button.addEventListener("click",()=>{const target=!completed();["Monday","Tuesday","Wednesday","Thursday","Friday"].forEach(d=>ws.days[d]=target);save();$$(`[data-week="${week}"][data-week-day]`).forEach(b=>b.checked=target);sync();updateProgress()});
+  });
+
+  // Autosave text fields
+  $$("[data-save-field]").forEach(field=>{
+    const scope=field.dataset.scope||"general";
+    const id=field.dataset.saveField;
+    let holder;
+    if(scope.startsWith("week:")) holder=weekState(scope.split(":")[1]).notes;
+    else if(scope.startsWith("unit:")) holder=unitState(scope.split(":")[1]);
+    else {state.misc ||= {}; holder=state.misc}
+    field.value=holder[id]||"";
+    field.addEventListener("input",()=>{holder[id]=field.value;save()});
+  });
+  $$("[data-clear-field]").forEach(button=>button.addEventListener("click",()=>{
+    const field=document.getElementById(button.dataset.clearField); if(!field)return;
+    field.value="";field.dispatchEvent(new Event("input"));field.focus();
+  }));
+  $$("[data-print]").forEach(button=>button.addEventListener("click",()=>window.print()));
+
+  // Quiz and assessment engine
+  function readQuestions(scriptId){
+    const node=document.getElementById(scriptId);
+    return node ? safeParse(node.textContent,[]) : [];
+  }
+  function renderQuestionSet(container, questions, name){
+    if(!container||!questions.length)return;
+    container.innerHTML=questions.map((q,i)=>`
+      <fieldset class="quiz-question" data-question="${i}">
+        <legend>${i+1}. ${esc(q.question)}</legend>
+        ${q.choices.map((choice,j)=>`<label class="quiz-choice"><input type="radio" name="${esc(name)}-${i}" value="${j}"><span>${esc(choice)}</span></label>`).join("")}
+        <div class="quiz-feedback" hidden></div>
+      </fieldset>`).join("");
+  }
+  function runQuizPage(){
+    const form=$("[data-quiz-form]"); if(!form)return;
+    const questions=readQuestions("quiz-data");
+    const week=Number(form.dataset.week);
+    renderQuestionSet($("[data-question-container]",form),questions,`week-${week}`);
+    const result=$("[data-quiz-result]");
+    const best=$("[data-quiz-best]");
+    const syncBest=()=>{if(best)best.textContent=weekState(week).quiz.best?`${weekState(week).quiz.best}%`:"—"};
+    syncBest();
+    form.addEventListener("submit",e=>{
+      e.preventDefault();
+      let correct=0, complete=true;
+      questions.forEach((q,i)=>{
+        const selected=form.querySelector(`input[name="week-${week}-${i}"]:checked`);
+        const field=form.querySelector(`[data-question="${i}"]`);
+        const feedback=$(".quiz-feedback",field);
+        if(!selected){complete=false;feedback.hidden=false;feedback.textContent="Choose an answer before submitting.";return}
+        const answer=Number(selected.value), ok=answer===q.answer;
+        if(ok)correct++;
+        feedback.hidden=false;
+        feedback.className=`quiz-feedback ${ok?"good":"bad"}`;
+        feedback.innerHTML=`<strong>${ok?"Correct.":"Review."}</strong> ${esc(q.explanation||"")}`;
+      });
+      if(!complete){result.textContent="Please answer every question.";return}
+      const score=Math.round(correct/questions.length*100);
+      const record=weekState(week).quiz;
+      record.attempts.push({date:nowISO(),score,correct,total:questions.length});
+      record.best=Math.max(record.best||0,score);
+      save();syncBest();updateProgress();
+      result.innerHTML=`Score: <strong>${score}%</strong> (${correct}/${questions.length}). Best score retained: <strong>${record.best}%</strong>. ${score<80?"Complete corrections, review the lesson, and retake.":"Mastery target met."}`;
+    });
+    $("[data-reset-quiz]")?.addEventListener("click",()=>{form.reset();$$(".quiz-feedback",form).forEach(x=>{x.hidden=true;x.textContent=""});if(result)result.textContent=""});
+  }
+  function runAssessmentPage(){
+    const form=$("[data-assessment-form]"); if(!form)return;
+    const questions=readQuestions("assessment-data");
+    const id=form.dataset.assessmentId;
+    const kind=form.dataset.assessmentKind||"exam";
+    renderQuestionSet($("[data-question-container]",form),questions,id);
+    const result=$("[data-assessment-result]");
+    const best=$("[data-assessment-best]");
+    const getRecord=()=>kind==="unit"?unitState(Number(form.dataset.unit)).assessment:examState(id);
+    const sync=()=>{if(best)best.textContent=getRecord().best?`${getRecord().best}%`:"—"};sync();
+    form.addEventListener("submit",e=>{
+      e.preventDefault();
+      let correct=0,complete=true,answers=[];
+      questions.forEach((q,i)=>{
+        const selected=form.querySelector(`input[name="${id}-${i}"]:checked`);
+        const field=form.querySelector(`[data-question="${i}"]`);
+        const feedback=$(".quiz-feedback",field);
+        if(!selected){complete=false;feedback.hidden=false;feedback.textContent="Choose an answer.";return}
+        const answer=Number(selected.value), ok=answer===q.answer;answers.push(answer);if(ok)correct++;
+        feedback.hidden=false;feedback.className=`quiz-feedback ${ok?"good":"bad"}`;
+        feedback.innerHTML=`<strong>${ok?"Correct.":"Review."}</strong> ${esc(q.explanation||"")}`;
+      });
+      if(!complete){result.textContent="Please answer every question.";return}
+      const score=Math.round(correct/questions.length*100), record=getRecord();
+      record.attempts.push({date:nowISO(),score,correct,total:questions.length,answers});
+      record.best=Math.max(record.best||0,score);save();sync();updateProgress();
+      result.innerHTML=`Score: <strong>${score}%</strong> (${correct}/${questions.length}). Best retained: <strong>${record.best}%</strong>.`;
+    });
+    $("[data-reset-assessment]")?.addEventListener("click",()=>{form.reset();$$(".quiz-feedback",form).forEach(x=>{x.hidden=true;x.textContent=""});if(result)result.textContent=""});
+  }
+  runQuizPage();runAssessmentPage();
+
+  function completedDays(week){
+    const days=weekState(week).days;
+    return ["Monday","Tuesday","Wednesday","Thursday","Friday"].filter(d=>days[d]).length;
+  }
+  function average(values){const nums=values.map(Number).filter(v=>Number.isFinite(v)&&v>0);return nums.length?Math.round(nums.reduce((a,b)=>a+b,0)/nums.length):0}
+  function calcStats(){
+    const weekly=Array.from({length:36},(_,i)=>weekState(i+1).quiz.best||0);
+    const units=Array.from({length:12},(_,i)=>unitState(i+1).assessment.best||0);
+    const projects=Array.from({length:12},(_,i)=>Number(unitState(i+1).projectScore)||0);
+    const mid=examState("midterm").best||0, fin=examState("final").best||0;
+    const dayDone=Array.from({length:36},(_,i)=>completedDays(i+1)).reduce((a,b)=>a+b,0);
+    const lessonPct=Math.round(dayDone/180*100);
+    const quizAvg=average(weekly),unitAvg=average(units),projectAvg=average(projects);
+    const weights=[
+      {value:quizAvg,weight:25,active:weekly.some(Boolean)},
+      {value:unitAvg,weight:25,active:units.some(Boolean)},
+      {value:projectAvg,weight:25,active:projects.some(Boolean)},
+      {value:mid,weight:10,active:Boolean(mid)},
+      {value:fin,weight:15,active:Boolean(fin)}
+    ];
+    const activeWeight=weights.filter(x=>x.active).reduce((a,b)=>a+b.weight,0);
+    const grade=activeWeight?Math.round(weights.filter(x=>x.active).reduce((a,b)=>a+b.value*b.weight,0)/activeWeight):0;
+    return {dayDone,lessonPct,quizAvg,unitAvg,projectAvg,mid,fin,grade};
+  }
+  function updateProgress(){
+    const st=calcStats();
+    $$("[data-course-progress]").forEach(bar=>bar.style.width=`${st.lessonPct}%`);
+    $$("[data-course-progress-label]").forEach(el=>el.textContent=`${st.dayDone} of 180 daily lessons complete · ${st.lessonPct}%`);
+    $$("[data-stat='lessons']").forEach(el=>el.textContent=`${st.lessonPct}%`);
+    $$("[data-stat='quiz']").forEach(el=>el.textContent=st.quizAvg?`${st.quizAvg}%`:"—");
+    $$("[data-stat='unit']").forEach(el=>el.textContent=st.unitAvg?`${st.unitAvg}%`:"—");
+    $$("[data-stat='grade']").forEach(el=>el.textContent=st.grade?`${st.grade}%`:"—");
+  }
+  updateProgress();
+
+  // Unit project score
+  $$("[data-project-score]").forEach(field=>{
+    const unit=Number(field.dataset.projectScore);
+    field.value=unitState(unit).projectScore||"";
+    field.addEventListener("input",()=>{unitState(unit).projectScore=field.value===""?"":clamp(field.value);save();updateProgress()});
+  });
+
+  // Dashboard week cards
+  $$("[data-week-status]").forEach(el=>{
+    const w=Number(el.dataset.weekStatus), ws=weekState(w);
+    const days=completedDays(w), quiz=ws.quiz.best||0;
+    el.textContent=`${days}/5 lessons · Quiz ${quiz?quiz+"%":"—"}`;
+  });
+
+  // Gradebook
+  const gradeBody=$("[data-gradebook-body]");
+  if(gradeBody){
+    gradeBody.innerHTML=Array.from({length:36},(_,i)=>{
+      const w=i+1, ws=weekState(w), days=completedDays(w);
+      return `<tr><td>Week ${String(w).padStart(2,"0")}</td><td>${days}/5</td><td>${ws.quiz.best?ws.quiz.best+"%":"—"}</td><td>${ws.quiz.attempts.length}</td><td><a href="../weeks/week-${String(w).padStart(2,"0")}/index.html">Open</a></td></tr>`;
+    }).join("");
+    const unitBody=$("[data-unit-gradebook-body]");
+    if(unitBody)unitBody.innerHTML=Array.from({length:12},(_,i)=>{
+      const u=i+1, us=unitState(u);
+      return `<tr><td>Unit ${String(u).padStart(2,"0")}</td><td>${us.assessment.best?us.assessment.best+"%":"—"}</td><td><input type="number" min="0" max="100" value="${esc(us.projectScore)}" data-inline-project="${u}" aria-label="Unit ${u} project score"></td><td>${us.assessment.attempts.length}</td></tr>`;
+    }).join("");
+    $$("[data-inline-project]").forEach(field=>field.addEventListener("input",()=>{unitState(field.dataset.inlineProject).projectScore=field.value===""?"":clamp(field.value);save();renderSummary()}));
+    function renderSummary(){
+      const s=calcStats();
+      $("[data-grade-summary]").innerHTML=`Weekly quiz average: <strong>${s.quizAvg||"—"}</strong> · Unit assessment average: <strong>${s.unitAvg||"—"}</strong> · Project average: <strong>${s.projectAvg||"—"}</strong> · Midterm: <strong>${s.mid||"—"}</strong> · Final: <strong>${s.fin||"—"}</strong> · Current weighted grade: <strong>${s.grade||"—"}${s.grade?"%":""}</strong>`;
+    }
+    renderSummary();
+  }
+
+  // Attendance log
+  const attBody=$("[data-attendance-body]");
+  function renderAttendance(){
+    if(!attBody)return;
+    attBody.innerHTML=state.records.attendance.map((r,i)=>`<tr><td>${esc(r.date)}</td><td>${esc(r.minutes)}</td><td>${esc(r.subject)}</td><td>${esc(r.notes)}</td><td class="no-print"><button class="btn danger" type="button" data-remove-att="${i}">Remove</button></td></tr>`).join("")||`<tr><td colspan="5">No attendance entries yet.</td></tr>`;
+    $$("[data-remove-att]").forEach(b=>b.addEventListener("click",()=>{state.records.attendance.splice(Number(b.dataset.removeAtt),1);save();renderAttendance()}));
+  }
+  $("[data-add-attendance]")?.addEventListener("click",()=>{
+    const date=$("#att-date")?.value||today(),minutes=clamp($("#att-minutes")?.value,0,1440),subject=$("#att-subject")?.value||"English IV",notes=$("#att-notes")?.value||"";
+    if(!minutes)return alert("Enter instructional minutes.");
+    state.records.attendance.push({date,minutes,subject,notes});save();renderAttendance();
+  });renderAttendance();
+
+  // Reading log
+  const readBody=$("[data-reading-body]");
+  function renderReading(){
+    if(!readBody)return;
+    readBody.innerHTML=state.records.reading.map((r,i)=>`<tr><td>${esc(r.date)}</td><td>${esc(r.title)}</td><td>${esc(r.author)}</td><td>${esc(r.pages)}</td><td>${esc(r.minutes)}</td><td>${esc(r.response)}</td><td class="no-print"><button class="btn danger" type="button" data-remove-read="${i}">Remove</button></td></tr>`).join("")||`<tr><td colspan="7">No reading entries yet.</td></tr>`;
+    $$("[data-remove-read]").forEach(b=>b.addEventListener("click",()=>{state.records.reading.splice(Number(b.dataset.removeRead),1);save();renderReading()}));
+  }
+  $("[data-add-reading]")?.addEventListener("click",()=>{
+    const entry={date:$("#read-date")?.value||today(),title:$("#read-title")?.value||"",author:$("#read-author")?.value||"",pages:$("#read-pages")?.value||"",minutes:$("#read-minutes")?.value||"",response:$("#read-response")?.value||""};
+    if(!entry.title)return alert("Enter a title.");state.records.reading.push(entry);save();renderReading();
+  });renderReading();
+
+  // Export/import/reset
+  function download(name,text,type="application/json"){
+    const blob=new Blob([text],{type}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000);
+  }
+  $$("[data-export-backup]").forEach(b=>b.addEventListener("click",()=>download(`ELA12_${(state.studentName||"Student").replace(/[^a-z0-9_-]+/gi,"_")}_Backup.json`,JSON.stringify(state,null,2))));
+  $$("[data-export-csv]").forEach(b=>b.addEventListener("click",()=>{
+    const rows=[["Week","Daily Lessons Complete","Weekly Quiz Best","Quiz Attempts"]];
+    for(let w=1;w<=36;w++){const ws=weekState(w);rows.push([w,completedDays(w),ws.quiz.best||"",ws.quiz.attempts.length])}
+    rows.push([]);rows.push(["Unit","Unit Assessment Best","Project Score","Attempts"]);
+    for(let u=1;u<=12;u++){const us=unitState(u);rows.push([u,us.assessment.best||"",us.projectScore||"",us.assessment.attempts.length])}
+    rows.push([]);const st=calcStats();rows.push(["Midterm",st.mid||""]);rows.push(["Final",st.fin||""]);rows.push(["Weighted Grade",st.grade||""]);
+    const csv=rows.map(r=>r.map(v=>`"${String(v??"").replaceAll('"','""')}"`).join(",")).join("\n");
+    download("ELA12_Gradebook.csv",csv,"text/csv");
+  }));
+  $$("[data-import-backup]").forEach(input=>input.addEventListener("change",e=>{
+    const file=e.target.files?.[0];if(!file)return;
+    const reader=new FileReader();reader.onload=()=>{const obj=safeParse(reader.result,null);if(!obj||obj.courseId!==COURSE_ID)return alert("This is not a valid English 12 backup.");state=obj;save();location.reload()};reader.readAsText(file);
+  }));
+  $$("[data-reset-course]").forEach(b=>b.addEventListener("click",()=>{if(confirm("Delete all locally stored English 12 progress on this browser?")){state=defaultState();save();location.reload()}}));
+
+  // Certificate
+  const certName=$("[data-certificate-name]"),certDate=$("[data-certificate-date]");
+  if(certName)certName.textContent=state.studentName||"Student Name";
+  if(certDate)certDate.textContent=state.profile.completionDate||today();
+
+  // Search cards
+  const search=$("[data-card-search]");
+  search?.addEventListener("input",()=>{const q=search.value.trim().toLowerCase();$$("[data-search-card]").forEach(card=>card.hidden=Boolean(q&&!card.textContent.toLowerCase().includes(q)))});
+
+  // Course-scoped offline registration
+  if("serviceWorker" in navigator && location.protocol.startsWith("http")){
+    const scriptSrc=document.currentScript?.src;
+    if(scriptSrc){
+      const swURL=new URL("../service-worker.js",scriptSrc);
+      navigator.serviceWorker.register(swURL,{scope:new URL("../",scriptSrc).pathname}).catch(()=>{});
+    }
+  }
+
+})();
