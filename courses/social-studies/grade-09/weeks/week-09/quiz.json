@@ -1,0 +1,131 @@
+{
+  "title": "Week 9 Quiz — South Asia and the Indian Ocean",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W09Q1",
+      "prompt": "Which term best matches this definition: A major South Asian empire founded in the late fourth century BCE.",
+      "choices": [
+        "decimal place-value system",
+        "monsoon",
+        "stupa",
+        "Mauryan Empire"
+      ],
+      "answer": 3,
+      "explanation": "Mauryan Empire is the course term defined as: A major South Asian empire founded in the late fourth century BCE."
+    },
+    {
+      "id": "W09Q2",
+      "prompt": "Which term best matches this definition: An official public order or proclamation.",
+      "choices": [
+        "edict",
+        "diaspora",
+        "monsoon",
+        "Mauryan Empire"
+      ],
+      "answer": 0,
+      "explanation": "Edict is the course term defined as: An official public order or proclamation."
+    },
+    {
+      "id": "W09Q3",
+      "prompt": "Which term best matches this definition: A seasonal wind pattern that strongly shapes Indian Ocean travel and rainfall.",
+      "choices": [
+        "monsoon",
+        "diaspora",
+        "Mauryan Empire",
+        "edict"
+      ],
+      "answer": 0,
+      "explanation": "Monsoon is the course term defined as: A seasonal wind pattern that strongly shapes Indian Ocean travel and rainfall."
+    },
+    {
+      "id": "W09Q4",
+      "prompt": "Which term best matches this definition: A community living outside an ancestral homeland while maintaining connections.",
+      "choices": [
+        "edict",
+        "diaspora",
+        "monsoon",
+        "stupa"
+      ],
+      "answer": 1,
+      "explanation": "Diaspora is the course term defined as: A community living outside an ancestral homeland while maintaining connections."
+    },
+    {
+      "id": "W09Q5",
+      "prompt": "Which term best matches this definition: A Buddhist commemorative structure associated with relics and devotion.",
+      "choices": [
+        "monsoon",
+        "stupa",
+        "edict",
+        "Mauryan Empire"
+      ],
+      "answer": 1,
+      "explanation": "Stupa is the course term defined as: A Buddhist commemorative structure associated with relics and devotion."
+    },
+    {
+      "id": "W09Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 9?",
+      "choices": [
+        "Rome and Han China used roads, taxation, military force, law, and local elites to govern large territories.",
+        "Ashoka’s edicts used public inscriptions to communicate moral and administrative expectations across a diverse empire.",
+        "Byzantium preserved Roman institutions while developing distinctive Greek-speaking Christian traditions.",
+        "Africa contained diverse political systems, ecological zones, and trade networks rather than a single historical experience."
+      ],
+      "answer": 1,
+      "explanation": "Ashoka’s edicts used public inscriptions to communicate moral and administrative expectations across a diverse empire."
+    },
+    {
+      "id": "W09Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 9?",
+      "choices": [
+        "Indian Ocean merchants used predictable monsoon winds to connect East Africa, Southwest Asia, South Asia, and Southeast Asia.",
+        "Both empires promoted political order while incorporating diverse populations through different forms of citizenship and administration.",
+        "Ghana, Mali, Songhai, Great Zimbabwe, Aksum, and Swahili city-states gained power through different combinations of agriculture, trade, tribute, and diplomacy.",
+        "Early Islamic states expanded rapidly but were politically and culturally diverse across time and region."
+      ],
+      "answer": 0,
+      "explanation": "Indian Ocean merchants used predictable monsoon winds to connect East Africa, Southwest Asia, South Asia, and Southeast Asia."
+    },
+    {
+      "id": "W09Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 9?",
+      "choices": [
+        "Their decline involved multiple interacting causes rather than a single collapse event.",
+        "South Asian religious, mathematical, literary, and artistic traditions spread through exchange and local adaptation.",
+        "Oral traditions and archaeology are essential sources that must be interpreted with methods appropriate to each.",
+        "Scholars working in Arabic, Greek, Persian, Syriac, Hebrew, and other languages translated, criticized, and extended knowledge."
+      ],
+      "answer": 1,
+      "explanation": "South Asian religious, mathematical, literary, and artistic traditions spread through exchange and local adaptation."
+    },
+    {
+      "id": "W09Q9",
+      "prompt": "What is the strongest method for evaluating “Ashoka’s Public Edicts”?",
+      "choices": [
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+      ],
+      "answer": 3,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W09Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "Assume that every mapped relationship is a direct cause.",
+        "Use the visualization only if it confirms the original claim."
+      ],
+      "answer": 0,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did rulers, merchants, and religious communities connect South Asia to a wider oceanic world?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

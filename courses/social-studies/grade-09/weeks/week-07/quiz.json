@@ -1,0 +1,131 @@
+{
+  "title": "Week 7 Quiz — Persia and the Greek World",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W07Q1",
+      "prompt": "Which term best matches this definition: An administrative province of the Persian Empire.",
+      "choices": [
+        "polis",
+        "citizenship",
+        "democracy",
+        "satrapy"
+      ],
+      "answer": 3,
+      "explanation": "Satrapy is the course term defined as: An administrative province of the Persian Empire."
+    },
+    {
+      "id": "W07Q2",
+      "prompt": "Which term best matches this definition: A Greek city-state and its civic community.",
+      "choices": [
+        "polis",
+        "historical perspective",
+        "satrapy",
+        "democracy"
+      ],
+      "answer": 0,
+      "explanation": "Polis is the course term defined as: A Greek city-state and its civic community."
+    },
+    {
+      "id": "W07Q3",
+      "prompt": "Which term best matches this definition: A system in which political authority is exercised by the people, directly or through representatives.",
+      "choices": [
+        "citizenship",
+        "democracy",
+        "historical perspective",
+        "satrapy"
+      ],
+      "answer": 1,
+      "explanation": "Democracy is the course term defined as: A system in which political authority is exercised by the people, directly or through representatives."
+    },
+    {
+      "id": "W07Q4",
+      "prompt": "Which term best matches this definition: Rule by a small, privileged group.",
+      "choices": [
+        "citizenship",
+        "democracy",
+        "polis",
+        "oligarchy"
+      ],
+      "answer": 3,
+      "explanation": "Oligarchy is the course term defined as: Rule by a small, privileged group."
+    },
+    {
+      "id": "W07Q5",
+      "prompt": "Which term best matches this definition: Legal membership in a political community with defined rights and duties.",
+      "choices": [
+        "satrapy",
+        "historical perspective",
+        "citizenship",
+        "oligarchy"
+      ],
+      "answer": 2,
+      "explanation": "Citizenship is the course term defined as: Legal membership in a political community with defined rights and duties."
+    },
+    {
+      "id": "W07Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 7?",
+      "choices": [
+        "The Persian Empire governed a vast, diverse territory through provinces, roads, tribute, and negotiated local autonomy.",
+        "Religious and philosophical traditions developed in specific historical settings but continued to change across time and place.",
+        "Rome and Han China used roads, taxation, military force, law, and local elites to govern large territories.",
+        "Ashoka’s edicts used public inscriptions to communicate moral and administrative expectations across a diverse empire."
+      ],
+      "answer": 0,
+      "explanation": "The Persian Empire governed a vast, diverse territory through provinces, roads, tribute, and negotiated local autonomy."
+    },
+    {
+      "id": "W07Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 7?",
+      "choices": [
+        "Athenian democracy expanded direct participation for male citizens while excluding women, enslaved people, and foreigners.",
+        "Traditions must be studied through multiple voices rather than reduced to one rule or stereotype.",
+        "Indian Ocean merchants used predictable monsoon winds to connect East Africa, Southwest Asia, South Asia, and Southeast Asia.",
+        "Both empires promoted political order while incorporating diverse populations through different forms of citizenship and administration."
+      ],
+      "answer": 0,
+      "explanation": "Athenian democracy expanded direct participation for male citizens while excluding women, enslaved people, and foreigners."
+    },
+    {
+      "id": "W07Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 7?",
+      "choices": [
+        "Belief systems influenced law, family, education, art, political legitimacy, and social reform.",
+        "Their decline involved multiple interacting causes rather than a single collapse event.",
+        "Greek sources about Persia must be evaluated alongside Persian evidence because wartime rivals often portray one another selectively.",
+        "South Asian religious, mathematical, literary, and artistic traditions spread through exchange and local adaptation."
+      ],
+      "answer": 2,
+      "explanation": "Greek sources about Persia must be evaluated alongside Persian evidence because wartime rivals often portray one another selectively."
+    },
+    {
+      "id": "W07Q9",
+      "prompt": "What is the strongest method for evaluating “Greek Narratives and Persian Royal Evidence”?",
+      "choices": [
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate."
+      ],
+      "answer": 2,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W07Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Assume that every mapped relationship is a direct cause.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "Use the visualization only if it confirms the original claim."
+      ],
+      "answer": 0,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did empires and city-states organize citizenship, diversity, military power, and political participation?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

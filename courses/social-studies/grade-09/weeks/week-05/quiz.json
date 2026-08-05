@@ -1,0 +1,131 @@
+{
+  "title": "Week 5 Quiz — Early Africa, South Asia, East Asia, and the Americas",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W05Q1",
+      "prompt": "Which term best matches this definition: The deliberate organization of streets, drainage, public spaces, and buildings.",
+      "choices": [
+        "oracle bone",
+        "cultural diffusion",
+        "urban planning",
+        "dynasty"
+      ],
+      "answer": 2,
+      "explanation": "Urban Planning is the course term defined as: The deliberate organization of streets, drainage, public spaces, and buildings."
+    },
+    {
+      "id": "W05Q2",
+      "prompt": "Which term best matches this definition: A sequence of rulers from the same family or lineage.",
+      "choices": [
+        "oracle bone",
+        "urban planning",
+        "cultural diffusion",
+        "dynasty"
+      ],
+      "answer": 3,
+      "explanation": "Dynasty is the course term defined as: A sequence of rulers from the same family or lineage."
+    },
+    {
+      "id": "W05Q3",
+      "prompt": "Which term best matches this definition: A Zhou political idea that legitimate rule depended on moral performance.",
+      "choices": [
+        "mandate of heaven",
+        "monumental architecture",
+        "cultural diffusion",
+        "urban planning"
+      ],
+      "answer": 0,
+      "explanation": "Mandate Of Heaven is the course term defined as: A Zhou political idea that legitimate rule depended on moral performance."
+    },
+    {
+      "id": "W05Q4",
+      "prompt": "Which term best matches this definition: An inscribed bone or shell used in Shang divination and now studied as written evidence.",
+      "choices": [
+        "mandate of heaven",
+        "monumental architecture",
+        "dynasty",
+        "oracle bone"
+      ],
+      "answer": 3,
+      "explanation": "Oracle Bone is the course term defined as: An inscribed bone or shell used in Shang divination and now studied as written evidence."
+    },
+    {
+      "id": "W05Q5",
+      "prompt": "Which term best matches this definition: Large public construction expressing religious, political, or social priorities.",
+      "choices": [
+        "monumental architecture",
+        "oracle bone",
+        "dynasty",
+        "cultural diffusion"
+      ],
+      "answer": 0,
+      "explanation": "Monumental Architecture is the course term defined as: Large public construction expressing religious, political, or social priorities."
+    },
+    {
+      "id": "W05Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 5?",
+      "choices": [
+        "Complex societies emerged independently in many regions and should not be treated as copies of one model.",
+        "Religious and philosophical traditions developed in specific historical settings but continued to change across time and place.",
+        "The Persian Empire governed a vast, diverse territory through provinces, roads, tribute, and negotiated local autonomy.",
+        "River valleys supported intensive agriculture but required coordinated labor and management."
+      ],
+      "answer": 0,
+      "explanation": "Complex societies emerged independently in many regions and should not be treated as copies of one model."
+    },
+    {
+      "id": "W05Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 5?",
+      "choices": [
+        "Traditions must be studied through multiple voices rather than reduced to one rule or stereotype.",
+        "Writing and accounting expanded partly because governments and temples needed to track resources and obligations.",
+        "Archaeology is especially important where written evidence is limited, undeciphered, or produced mainly by elites.",
+        "Athenian democracy expanded direct participation for male citizens while excluding women, enslaved people, and foreigners."
+      ],
+      "answer": 2,
+      "explanation": "Archaeology is especially important where written evidence is limited, undeciphered, or produced mainly by elites."
+    },
+    {
+      "id": "W05Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 5?",
+      "choices": [
+        "Early law codes reveal social priorities and inequalities as well as attempts to regulate conflict.",
+        "Urban design, monuments, and trade goods reveal organization, belief, exchange, and inequality.",
+        "Belief systems influenced law, family, education, art, political legitimacy, and social reform.",
+        "Greek sources about Persia must be evaluated alongside Persian evidence because wartime rivals often portray one another selectively."
+      ],
+      "answer": 1,
+      "explanation": "Urban design, monuments, and trade goods reveal organization, belief, exchange, and inequality."
+    },
+    {
+      "id": "W05Q9",
+      "prompt": "What is the strongest method for evaluating “Four Archaeological Case Files”?",
+      "choices": [
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate."
+      ],
+      "answer": 1,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W05Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Assume that every mapped relationship is a direct cause.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Use the visualization only if it confirms the original claim."
+      ],
+      "answer": 2,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did early societies develop complex urban and political systems in different environments?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}
