@@ -1,0 +1,117 @@
+{
+  "title": "Week 12 Mastery Quiz · Media, Propaganda, and Political Communication",
+  "questions": [
+    {
+      "question": "Which definition best matches “propaganda”?",
+      "options": [
+        "Strategic communication designed to shape belief or behavior, often selectively or deceptively.",
+        "The reasoned choice of cases appropriate to a research question.",
+        "Assistance by a third party seeking to facilitate agreement.",
+        "An approach emphasizing norms, identities, ideas, and socially constructed interests."
+      ],
+      "answer": 0,
+      "explanation": "Propaganda means strategic communication designed to shape belief or behavior, often selectively or deceptively."
+    },
+    {
+      "question": "Which definition best matches “disinformation”?",
+      "options": [
+        "The least favorable deal an actor will accept before walking away.",
+        "Legal authority to hear a matter, regulate conduct, or enforce law.",
+        "False or manipulated information spread deliberately.",
+        "An approach emphasizing power, security, states, and competition under anarchy."
+      ],
+      "answer": 2,
+      "explanation": "Disinformation means false or manipulated information spread deliberately."
+    },
+    {
+      "question": "Which definition best matches “misinformation”?",
+      "options": [
+        "False or inaccurate information shared without necessarily intending deception.",
+        "Protection granted by a state to a qualifying person seeking refuge.",
+        "An outcome not sought or anticipated by a decision maker.",
+        "A written international agreement governed by international law."
+      ],
+      "answer": 0,
+      "explanation": "Misinformation means false or inaccurate information shared without necessarily intending deception."
+    },
+    {
+      "question": "Which definition best matches “agenda setting”?",
+      "options": [
+        "Failure to investigate or impose accountability for serious violations.",
+        "Influence over which issues receive public attention.",
+        "Cross-border organization of production stages for a good or service.",
+        "The principle that decisions should be made at the lowest effective level."
+      ],
+      "answer": 1,
+      "explanation": "Agenda setting means influence over which issues receive public attention."
+    },
+    {
+      "question": "Which definition best matches “framing”?",
+      "options": [
+        "Selection and presentation that shape how an issue is interpreted.",
+        "A duty requiring authorities to take protective or enabling action.",
+        "A relationship in which economic structures constrain autonomous development.",
+        "Severe climate impacts that cannot be fully avoided through mitigation or adaptation."
+      ],
+      "answer": 0,
+      "explanation": "Framing means selection and presentation that shape how an issue is interpreted."
+    },
+    {
+      "question": "Which definition best matches “verification”?",
+      "options": [
+        "Testing a claim through source tracing, corroboration, context, and evidence.",
+        "Deprivation measured against a fixed minimum standard.",
+        "A difficult-to-exclude resource vulnerable to overuse.",
+        "Identification of actors responsible for a digital operation."
+      ],
+      "answer": 0,
+      "explanation": "Verification means testing a claim through source tracing, corroboration, context, and evidence."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 12 analysis?",
+      "options": [
+        "The most confident source should be accepted without examining authority or method.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "Freedom of expression and reliable information are related but not identical."
+      ],
+      "answer": 3,
+      "explanation": "Freedom of expression and reliable information are related but not identical."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 12 analysis?",
+      "options": [
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Propaganda often mixes truth, omission, emotion, identity, and repetition."
+      ],
+      "answer": 3,
+      "explanation": "Propaganda often mixes truth, omission, emotion, identity, and repetition."
+    },
+    {
+      "question": "Which research practice is most appropriate for Media, Propaganda, and Political Communication?",
+      "options": [
+        "Replace documentary evidence with political identity or intuition.",
+        "Trace claims to The Verifier, press-freedom reports, platform transparency records, and selected propaganda artifacts, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Choose only evidence that supports the preferred conclusion.",
+        "Use the first search result and treat its summary as conclusive."
+      ],
+      "answer": 1,
+      "explanation": "Trace claims to The Verifier, press-freedom reports, platform transparency records, and selected propaganda artifacts, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "List facts without connecting them to a claim.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition.",
+        "Treat legal, causal, and moral claims as interchangeable."
+      ],
+      "answer": 2,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How can citizens evaluate political information when governments, parties, platforms, journalists, and networks compete to shape attention?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

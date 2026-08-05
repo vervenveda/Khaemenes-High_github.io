@@ -1,0 +1,117 @@
+{
+  "title": "Week 8 Mastery Quiz · Courts, Rule of Law, and Accountability",
+  "questions": [
+    {
+      "question": "Which definition best matches “judicial review”?",
+      "options": [
+        "Influence over which issues receive public attention.",
+        "Court evaluation of whether government action complies with higher law.",
+        "A durable unwritten rule or practice shaping behavior.",
+        "A court with special responsibility for constitutional interpretation."
+      ],
+      "answer": 1,
+      "explanation": "Judicial review means court evaluation of whether government action complies with higher law."
+    },
+    {
+      "question": "Which definition best matches “judicial independence”?",
+      "options": [
+        "A constitution designed to restructure institutions and remedy entrenched injustice.",
+        "Use of language and regional identity in territorial organization.",
+        "A structured presentation and questioning process used to justify a project or conclusion.",
+        "The capacity of courts to decide cases without improper political control."
+      ],
+      "answer": 3,
+      "explanation": "Judicial independence means the capacity of courts to decide cases without improper political control."
+    },
+    {
+      "question": "Which definition best matches “precedent”?",
+      "options": [
+        "An earlier decision used to guide later legal reasoning.",
+        "Policy outcomes shaped by bargaining among organizations with different missions and interests.",
+        "The boundaries of a study, including cases, period, concepts, and evidence.",
+        "An unelected body empowered to supervise or constrain elected institutions."
+      ],
+      "answer": 0,
+      "explanation": "Precedent means an earlier decision used to guide later legal reasoning."
+    },
+    {
+      "question": "Which definition best matches “civil law”?",
+      "options": [
+        "A government’s strategy and actions toward external actors and conditions.",
+        "A structured plan explaining a research problem, question, method, evidence, schedule, and significance.",
+        "A power to block a decision despite broader support.",
+        "A legal tradition centered on comprehensive codes and enacted law."
+      ],
+      "answer": 3,
+      "explanation": "Civil law means a legal tradition centered on comprehensive codes and enacted law."
+    },
+    {
+      "question": "Which definition best matches “common law”?",
+      "options": [
+        "A legal tradition in which judicial decisions and precedent have major importance.",
+        "A situation in which one actor’s defensive measures make others feel less secure.",
+        "A formal institution created by states or other actors to pursue shared purposes.",
+        "Temporary suspension of certain obligations under narrowly defined emergencies."
+      ],
+      "answer": 0,
+      "explanation": "Common law means a legal tradition in which judicial decisions and precedent have major importance."
+    },
+    {
+      "question": "Which definition best matches “transitional justice”?",
+      "options": [
+        "Procedures used to determine whether commitments are being honored.",
+        "Rules governing conduct during armed conflict and protection of persons.",
+        "Processes addressing serious abuses during movement from conflict or repression.",
+        "Long-term improvement in capabilities, institutions, living conditions, and opportunity."
+      ],
+      "answer": 2,
+      "explanation": "Transitional justice means processes addressing serious abuses during movement from conflict or repression."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 8 analysis?",
+      "options": [
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Courts require public, institutional, and professional support to make independence effective."
+      ],
+      "answer": 3,
+      "explanation": "Courts require public, institutional, and professional support to make independence effective."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 8 analysis?",
+      "options": [
+        "Judicial power can protect rights or entrench elite authority.",
+        "The most confident source should be accepted without examining authority or method.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 0,
+      "explanation": "Judicial power can protect rights or entrench elite authority."
+    },
+    {
+      "question": "Which research practice is most appropriate for Courts, Rule of Law, and Accountability?",
+      "options": [
+        "Choose only evidence that supports the preferred conclusion.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Replace documentary evidence with political identity or intuition.",
+        "Trace claims to Constitutional court decisions from multiple legal traditions and anti-corruption institutions, evaluate authority and context, corroborate material facts, and state limitations."
+      ],
+      "answer": 3,
+      "explanation": "Trace claims to Constitutional court decisions from multiple legal traditions and anti-corruption institutions, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition.",
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "List facts without connecting them to a claim."
+      ],
+      "answer": 0,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "When can courts constrain political power, and what makes judicial independence credible?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

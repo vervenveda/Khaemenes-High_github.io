@@ -1,0 +1,117 @@
+{
+  "title": "Week 4 Mastery Quiz · Political Ideologies and Models of Justice",
+  "questions": [
+    {
+      "question": "Which definition best matches “ideology”?",
+      "options": [
+        "A structured set of ideas about society, power, rights, and political change.",
+        "The ability of public institutions to implement decisions and provide core functions.",
+        "False or manipulated information spread deliberately.",
+        "The legal right to vote."
+      ],
+      "answer": 0,
+      "explanation": "Ideology means a structured set of ideas about society, power, rights, and political change."
+    },
+    {
+      "question": "Which definition best matches “liberty”?",
+      "options": [
+        "Institutional conditions that open or close possibilities for collective influence.",
+        "The pattern of parties that compete and influence government.",
+        "Freedom from unjust restraint and the capacity to make meaningful choices.",
+        "Nigeria’s principle for broad regional and group representation in public institutions."
+      ],
+      "answer": 2,
+      "explanation": "Liberty means freedom from unjust restraint and the capacity to make meaningful choices."
+    },
+    {
+      "question": "Which definition best matches “equality”?",
+      "options": [
+        "Exchange of targeted benefits for political support.",
+        "Coordinated behavior toward a shared objective.",
+        "A principle concerning equal status, rights, opportunity, treatment, or outcomes.",
+        "Suppression, restriction, or manipulation of access to information."
+      ],
+      "answer": 2,
+      "explanation": "Equality means a principle concerning equal status, rights, opportunity, treatment, or outcomes."
+    },
+    {
+      "question": "Which definition best matches “justice”?",
+      "options": [
+        "A standard for fair institutions, rights, duties, procedures, and distributions.",
+        "A classification system based on multiple dimensions.",
+        "An election whose competition or information environment is substantially controlled.",
+        "The statutory distribution of powers to Scotland, Wales, and Northern Ireland."
+      ],
+      "answer": 0,
+      "explanation": "Justice means a standard for fair institutions, rights, duties, procedures, and distributions."
+    },
+    {
+      "question": "Which definition best matches “pluralism”?",
+      "options": [
+        "Comparison of similar cases with different outcomes.",
+        "The individual, domestic, state, international, or systemic level used to explain an outcome.",
+        "A Leninist principle combining internal discussion with enforced unity after a decision.",
+        "A system in which multiple groups, values, and centers of influence coexist."
+      ],
+      "answer": 3,
+      "explanation": "Pluralism means a system in which multiple groups, values, and centers of influence coexist."
+    },
+    {
+      "question": "Which definition best matches “public good”?",
+      "options": [
+        "An approach emphasizing cooperation, institutions, interdependence, and domestic constraints.",
+        "Systematic comparison used to describe, classify, explain, or evaluate cases.",
+        "A resource or condition that improves bargaining influence.",
+        "A condition or benefit understood to serve the community as a whole."
+      ],
+      "answer": 3,
+      "explanation": "Public good means a condition or benefit understood to serve the community as a whole."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 4 analysis?",
+      "options": [
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Ideologies prioritize values differently rather than simply supporting or opposing government.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 1,
+      "explanation": "Ideologies prioritize values differently rather than simply supporting or opposing government."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 4 analysis?",
+      "options": [
+        "The most confident source should be accepted without examining authority or method.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "The same policy may be defended through different principles."
+      ],
+      "answer": 3,
+      "explanation": "The same policy may be defended through different principles."
+    },
+    {
+      "question": "Which research practice is most appropriate for Political Ideologies and Models of Justice?",
+      "options": [
+        "Trace claims to Selections from Locke, Burke, Mill, Marx, Rawls, Indigenous political thought, and contemporary voices, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Replace documentary evidence with political identity or intuition.",
+        "Choose only evidence that supports the preferred conclusion."
+      ],
+      "answer": 0,
+      "explanation": "Trace claims to Selections from Locke, Burke, Mill, Marx, Rawls, Indigenous political thought, and contemporary voices, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "List facts without connecting them to a claim.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+      ],
+      "answer": 3,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How do political ideologies define freedom, equality, authority, property, obligation, and justice?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

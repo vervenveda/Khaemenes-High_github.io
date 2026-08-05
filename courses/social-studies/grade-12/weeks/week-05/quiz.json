@@ -1,0 +1,117 @@
+{
+  "title": "Week 5 Mastery Quiz · Regimes, Democracy, and Authoritarianism",
+  "questions": [
+    {
+      "question": "Which definition best matches “regime”?",
+      "options": [
+        "The durable rules and institutions governing access to and exercise of political power.",
+        "Rules converting votes into offices or seats.",
+        "An organization seeking to influence public decisions without directly becoming the government.",
+        "The statutory distribution of powers to Scotland, Wales, and Northern Ireland."
+      ],
+      "answer": 0,
+      "explanation": "Regime means the durable rules and institutions governing access to and exercise of political power."
+    },
+    {
+      "question": "Which definition best matches “democracy”?",
+      "options": [
+        "A system in which citizens meaningfully choose leaders and can contest public power.",
+        "Belief that participation can matter and institutions may respond.",
+        "A Leninist principle combining internal discussion with enforced unity after a decision.",
+        "The principle that Parliament is the supreme lawmaking authority in the UK constitutional order."
+      ],
+      "answer": 0,
+      "explanation": "Democracy means a system in which citizens meaningfully choose leaders and can contest public power."
+    },
+    {
+      "question": "Which definition best matches “authoritarianism”?",
+      "options": [
+        "Systematic comparison used to describe, classify, explain, or evaluate cases.",
+        "Selection and presentation that shape how an issue is interpreted.",
+        "Rule that sharply restricts political competition, accountability, or civil liberty.",
+        "A state with capacity and policy commitment to direct long-term development."
+      ],
+      "answer": 2,
+      "explanation": "Authoritarianism means rule that sharply restricts political competition, accountability, or civil liberty."
+    },
+    {
+      "question": "Which definition best matches “rule of law”?",
+      "options": [
+        "Unequal conditions structured by historical and institutional racial classification.",
+        "Evidence or circumstances that would require changing a claim or plan.",
+        "The principle that public and private actors are governed by known, generally applicable law.",
+        "An alliance of parties or groups cooperating to govern or pursue policy."
+      ],
+      "answer": 2,
+      "explanation": "Rule of law means the principle that public and private actors are governed by known, generally applicable law."
+    },
+    {
+      "question": "Which definition best matches “accountability”?",
+      "options": [
+        "The obligation to explain conduct and face consequences for misuse or failure.",
+        "Presidential governance dependent on multiparty legislative coalitions.",
+        "Standards protecting integrity, people, communities, and the accuracy of knowledge.",
+        "An assurance others believe will be honored despite future incentives to defect."
+      ],
+      "answer": 0,
+      "explanation": "Accountability means the obligation to explain conduct and face consequences for misuse or failure."
+    },
+    {
+      "question": "Which definition best matches “democratic erosion”?",
+      "options": [
+        "Incremental weakening of competitive elections, rights, checks, or lawful accountability.",
+        "Historically shaped assumptions about security, force, risk, and international role.",
+        "Requirements attached to financial assistance, membership, or cooperation.",
+        "Whether a project can be completed ethically with available time, evidence, and skills."
+      ],
+      "answer": 0,
+      "explanation": "Democratic erosion means incremental weakening of competitive elections, rights, checks, or lawful accountability."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 5 analysis?",
+      "options": [
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Elections alone do not establish a constitutional democracy.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 1,
+      "explanation": "Elections alone do not establish a constitutional democracy."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 5 analysis?",
+      "options": [
+        "A single vivid example proves a universal conclusion without qualification.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "Regimes vary across multiple dimensions rather than a single democracy–dictatorship line."
+      ],
+      "answer": 3,
+      "explanation": "Regimes vary across multiple dimensions rather than a single democracy–dictatorship line."
+    },
+    {
+      "question": "Which research practice is most appropriate for Regimes, Democracy, and Authoritarianism?",
+      "options": [
+        "Replace documentary evidence with political identity or intuition.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Trace claims to Freedom House methodology, V-Dem indicators, constitutional rules, and election-observer reports, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Choose only evidence that supports the preferred conclusion."
+      ],
+      "answer": 2,
+      "explanation": "Trace claims to Freedom House methodology, V-Dem indicators, constitutional rules, and election-observer reports, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "List facts without connecting them to a claim.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition.",
+        "Treat legal, causal, and moral claims as interchangeable."
+      ],
+      "answer": 2,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "Which institutional evidence distinguishes democracy, hybrid regimes, and authoritarian rule?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

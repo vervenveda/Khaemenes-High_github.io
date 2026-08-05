@@ -1,0 +1,117 @@
+{
+  "title": "Week 10 Mastery Quiz · Voting, Representation, and Public Opinion",
+  "questions": [
+    {
+      "question": "Which definition best matches “franchise”?",
+      "options": [
+        "A state with capacity and policy commitment to direct long-term development.",
+        "The legal right to vote.",
+        "Systematic comparison used to describe, classify, explain, or evaluate cases.",
+        "An approach emphasizing cooperation, institutions, interdependence, and domestic constraints."
+      ],
+      "answer": 1,
+      "explanation": "Franchise means the legal right to vote."
+    },
+    {
+      "question": "Which definition best matches “turnout”?",
+      "options": [
+        "Unequal conditions structured by historical and institutional racial classification.",
+        "Evidence or circumstances that would require changing a claim or plan.",
+        "Management of relations through communication, representation, negotiation, and agreement.",
+        "The share of eligible or registered voters who cast ballots."
+      ],
+      "answer": 3,
+      "explanation": "Turnout means the share of eligible or registered voters who cast ballots."
+    },
+    {
+      "question": "Which definition best matches “sample”?",
+      "options": [
+        "Standards protecting integrity, people, communities, and the accuracy of knowledge.",
+        "An assurance others believe will be honored despite future incentives to defect.",
+        "A subset studied to estimate characteristics of a larger population.",
+        "Rules and coordination addressing transnational issues without a world government."
+      ],
+      "answer": 2,
+      "explanation": "Sample means a subset studied to estimate characteristics of a larger population."
+    },
+    {
+      "question": "Which definition best matches “margin of error”?",
+      "options": [
+        "An estimate of sampling uncertainty around a survey result.",
+        "Historically shaped assumptions about security, force, risk, and international role.",
+        "Requirements attached to financial assistance, membership, or cooperation.",
+        "Systematic collection and evaluation of evidence about rights conditions."
+      ],
+      "answer": 0,
+      "explanation": "Margin of error means an estimate of sampling uncertainty around a survey result."
+    },
+    {
+      "question": "Which definition best matches “representation”?",
+      "options": [
+        "An arrangement treating aggression against one as a concern of all.",
+        "A test asking whether a restriction is suitable, necessary, and balanced.",
+        "The process by which officials act for people, places, groups, or interests.",
+        "Deprivation measured in relation to prevailing standards in a society."
+      ],
+      "answer": 2,
+      "explanation": "Representation means the process by which officials act for people, places, groups, or interests."
+    },
+    {
+      "question": "Which definition best matches “political efficacy”?",
+      "options": [
+        "Belief that participation can matter and institutions may respond.",
+        "Expansion of people’s capabilities, health, education, and meaningful choices.",
+        "A fundamental entitlement claimed for every person by virtue of being human.",
+        "Fair distribution of environmental benefits, burdens, participation, and remedies."
+      ],
+      "answer": 0,
+      "explanation": "Political efficacy means belief that participation can matter and institutions may respond."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 10 analysis?",
+      "options": [
+        "The most confident source should be accepted without examining authority or method.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Participation rates depend partly on institutional design and social conditions.",
+        "Political labels have exactly the same meaning in every country and period."
+      ],
+      "answer": 2,
+      "explanation": "Participation rates depend partly on institutional design and social conditions."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 10 analysis?",
+      "options": [
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Survey results require attention to sampling, question wording, timing, and nonresponse."
+      ],
+      "answer": 3,
+      "explanation": "Survey results require attention to sampling, question wording, timing, and nonresponse."
+    },
+    {
+      "question": "Which research practice is most appropriate for Voting, Representation, and Public Opinion?",
+      "options": [
+        "Choose only evidence that supports the preferred conclusion.",
+        "Trace claims to Election administration data, public-opinion methodology reports, and representation statistics, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Replace documentary evidence with political identity or intuition.",
+        "Use the first search result and treat its summary as conclusive."
+      ],
+      "answer": 1,
+      "explanation": "Trace claims to Election administration data, public-opinion methodology reports, and representation statistics, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition.",
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "List facts without connecting them to a claim.",
+        "Treat legal, causal, and moral claims as interchangeable."
+      ],
+      "answer": 0,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How can citizens and analysts determine whether political participation is meaningful, equal, informed, and representative?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

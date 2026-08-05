@@ -1,0 +1,117 @@
+{
+  "title": "Week 1 Mastery Quiz · Senior Inquiry and the Social Sciences",
+  "questions": [
+    {
+      "question": "Which definition best matches “social science”?",
+      "options": [
+        "A disciplined study of human institutions, behavior, and relationships using explicit methods and evidence.",
+        "Transfer of authority from a central government to regional or local bodies.",
+        "A legal tradition in which judicial decisions and precedent have major importance.",
+        "A principle concerning equal status, rights, opportunity, treatment, or outcomes."
+      ],
+      "answer": 0,
+      "explanation": "Social science means a disciplined study of human institutions, behavior, and relationships using explicit methods and evidence."
+    },
+    {
+      "question": "Which definition best matches “research question”?",
+      "options": [
+        "A focused, answerable question that guides evidence collection and analysis.",
+        "An estimate of sampling uncertainty around a survey result.",
+        "An earlier decision used to guide later legal reasoning.",
+        "Constitutional division of authority between national and regional governments."
+      ],
+      "answer": 0,
+      "explanation": "Research question means a focused, answerable question that guides evidence collection and analysis."
+    },
+    {
+      "question": "Which definition best matches “claim”?",
+      "options": [
+        "A conclusion or proposition that requires support.",
+        "False or inaccurate information shared without necessarily intending deception.",
+        "The share of eligible or registered voters who cast ballots.",
+        "Court evaluation of whether government action complies with higher law."
+      ],
+      "answer": 0,
+      "explanation": "Claim means a conclusion or proposition that requires support."
+    },
+    {
+      "question": "Which definition best matches “evidence”?",
+      "options": [
+        "A minimum share of votes required to qualify for representation.",
+        "Information used to test or support a claim.",
+        "Strategic communication designed to shape belief or behavior, often selectively or deceptively.",
+        "Distribution of natural-resource authority and revenue across levels of government."
+      ],
+      "answer": 1,
+      "explanation": "Evidence means information used to test or support a claim."
+    },
+    {
+      "question": "Which definition best matches “methodology”?",
+      "options": [
+        "A set of familiar strategies used by movements or political actors.",
+        "Change to voting, representation, administration, or competition rules.",
+        "A system in which religious authority or doctrine has a governing role.",
+        "The organized procedures used to collect and analyze evidence."
+      ],
+      "answer": 3,
+      "explanation": "Methodology means the organized procedures used to collect and analyze evidence."
+    },
+    {
+      "question": "Which definition best matches “limitation”?",
+      "options": [
+        "Mexico’s six-year presidential term without immediate reelection.",
+        "A condition that narrows what evidence or a study can establish.",
+        "Reasoning about whether and how one factor contributes to an outcome.",
+        "Market activity combined with extensive state ownership, direction, or strategic control."
+      ],
+      "answer": 1,
+      "explanation": "Limitation means a condition that narrows what evidence or a study can establish."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 1 analysis?",
+      "options": [
+        "A single vivid example proves a universal conclusion without qualification.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "Different disciplines ask different questions about the same public problem."
+      ],
+      "answer": 3,
+      "explanation": "Different disciplines ask different questions about the same public problem."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 1 analysis?",
+      "options": [
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "The most confident source should be accepted without examining authority or method.",
+        "A strong claim is proportional to the quality and limits of its evidence."
+      ],
+      "answer": 3,
+      "explanation": "A strong claim is proportional to the quality and limits of its evidence."
+    },
+    {
+      "question": "Which research practice is most appropriate for Senior Inquiry and the Social Sciences?",
+      "options": [
+        "Replace documentary evidence with political identity or intuition.",
+        "Trace claims to United Nations Human Development data, constitutions, election records, and public-opinion evidence, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Use the first search result and treat its summary as conclusive.",
+        "Choose only evidence that supports the preferred conclusion."
+      ],
+      "answer": 1,
+      "explanation": "Trace claims to United Nations Human Development data, constitutions, election records, and public-opinion evidence, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition.",
+        "List facts without connecting them to a claim.",
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "Use a slogan as the conclusion and omit uncertainties."
+      ],
+      "answer": 0,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How can a senior distinguish a defensible social-science conclusion from an opinion, slogan, or unsupported prediction?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

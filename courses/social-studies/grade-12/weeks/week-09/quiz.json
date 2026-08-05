@@ -1,0 +1,117 @@
+{
+  "title": "Week 9 Mastery Quiz · Parties and Electoral Systems",
+  "questions": [
+    {
+      "question": "Which definition best matches “electoral system”?",
+      "options": [
+        "Suppression, restriction, or manipulation of access to information.",
+        "Rules converting votes into offices or seats.",
+        "A structured plan explaining a research problem, question, method, evidence, schedule, and significance.",
+        "Exchange of targeted benefits for political support."
+      ],
+      "answer": 1,
+      "explanation": "Electoral system means rules converting votes into offices or seats."
+    },
+    {
+      "question": "Which definition best matches “plurality”?",
+      "options": [
+        "A rule in which the candidate with the most votes wins, even without a majority.",
+        "An election whose competition or information environment is substantially controlled.",
+        "A classification system based on multiple dimensions.",
+        "A situation in which one actor’s defensive measures make others feel less secure."
+      ],
+      "answer": 0,
+      "explanation": "Plurality means a rule in which the candidate with the most votes wins, even without a majority."
+    },
+    {
+      "question": "Which definition best matches “proportional representation”?",
+      "options": [
+        "Allocation of seats in approximate proportion to party vote shares.",
+        "Comparison of similar cases with different outcomes.",
+        "Procedures used to determine whether commitments are being honored.",
+        "The individual, domestic, state, international, or systemic level used to explain an outcome."
+      ],
+      "answer": 0,
+      "explanation": "Proportional representation means allocation of seats in approximate proportion to party vote shares."
+    },
+    {
+      "question": "Which definition best matches “district magnitude”?",
+      "options": [
+        "An approach emphasizing cooperation, institutions, interdependence, and domestic constraints.",
+        "Legal consequences arising when a state breaches an international obligation.",
+        "A resource or condition that improves bargaining influence.",
+        "The number of representatives elected from a district."
+      ],
+      "answer": 3,
+      "explanation": "District magnitude means the number of representatives elected from a district."
+    },
+    {
+      "question": "Which definition best matches “party system”?",
+      "options": [
+        "The pattern of parties that compete and influence government.",
+        "Management of relations through communication, representation, negotiation, and agreement.",
+        "A person forced from home who has not crossed an international border.",
+        "A general and consistent state practice accepted as legally required."
+      ],
+      "answer": 0,
+      "explanation": "Party system means the pattern of parties that compete and influence government."
+    },
+    {
+      "question": "Which definition best matches “threshold”?",
+      "options": [
+        "A minimum share of votes required to qualify for representation.",
+        "Investment providing lasting control or influence in an enterprise abroad.",
+        "Rules and coordination addressing transnational issues without a world government.",
+        "A person outside their country with a well-founded fear of persecution on protected grounds."
+      ],
+      "answer": 0,
+      "explanation": "Threshold means a minimum share of votes required to qualify for representation."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 9 analysis?",
+      "options": [
+        "A single vivid example proves a universal conclusion without qualification.",
+        "Electoral rules create incentives but do not mechanically determine outcomes.",
+        "Political labels have exactly the same meaning in every country and period.",
+        "The most confident source should be accepted without examining authority or method."
+      ],
+      "answer": 1,
+      "explanation": "Electoral rules create incentives but do not mechanically determine outcomes."
+    },
+    {
+      "question": "Which statement is most consistent with the Week 9 analysis?",
+      "options": [
+        "Political labels have exactly the same meaning in every country and period.",
+        "A single vivid example proves a universal conclusion without qualification.",
+        "The most confident source should be accepted without examining authority or method.",
+        "Representation, governability, accountability, and inclusion can conflict."
+      ],
+      "answer": 3,
+      "explanation": "Representation, governability, accountability, and inclusion can conflict."
+    },
+    {
+      "question": "Which research practice is most appropriate for Parties and Electoral Systems?",
+      "options": [
+        "Trace claims to Election laws and results from the UK, Mexico, Nigeria, India, Germany, and South Africa, evaluate authority and context, corroborate material facts, and state limitations.",
+        "Replace documentary evidence with political identity or intuition.",
+        "Choose only evidence that supports the preferred conclusion.",
+        "Use the first search result and treat its summary as conclusive."
+      ],
+      "answer": 0,
+      "explanation": "Trace claims to Election laws and results from the UK, Mexico, Nigeria, India, Germany, and South Africa, evaluate authority and context, corroborate material facts, and state limitations."
+    },
+    {
+      "question": "Which response most clearly demonstrates senior-level mastery?",
+      "options": [
+        "Treat legal, causal, and moral claims as interchangeable.",
+        "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition.",
+        "Use a slogan as the conclusion and omit uncertainties.",
+        "List facts without connecting them to a claim."
+      ],
+      "answer": 1,
+      "explanation": "Define the terms, compare evidence, explain reasoning, address a serious alternative, and name a revision condition."
+    }
+  ],
+  "shortResponse": "How do electoral rules shape parties, representation, coalition building, and accountability?",
+  "rubric": "10 points: precise claim (2), accurate concepts (2), two specific pieces of evidence (2), reasoning (2), counterargument or limitation (1), revision condition (1)."
+}

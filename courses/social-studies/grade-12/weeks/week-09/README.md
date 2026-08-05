@@ -1,0 +1,13 @@
+# Week 9 — Parties and Electoral Systems
+
+**Unit:** Unit 3 · Comparative Institutions and Participation
+
+**Essential question:** How do electoral rules shape parties, representation, coalition building, and accountability?
+
+## Required files
+- `student-packet.html`
+- `teacher-guide.html`
+- `quiz.json`
+
+## Required weekly record
+Five daily lessons, three principal assignments, one 10-question mastery quiz, one constructed response, correction when below 80%, and the listed standards evidence.
