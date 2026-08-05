@@ -1,0 +1,1288 @@
+{
+  "primary source": {
+    "definition": "Evidence created during the period being studied.",
+    "weeks": [
+      1
+    ]
+  },
+  "secondary source": {
+    "definition": "An interpretation produced after the period by someone analyzing evidence.",
+    "weeks": [
+      1
+    ]
+  },
+  "corroboration": {
+    "definition": "Checking one source against other independent evidence.",
+    "weeks": [
+      1
+    ]
+  },
+  "contextualization": {
+    "definition": "Placing evidence within the conditions, values, and events of its time.",
+    "weeks": [
+      1
+    ]
+  },
+  "bias": {
+    "definition": "A preference or perspective that can shape what a source includes or omits.",
+    "weeks": [
+      1
+    ]
+  },
+  "historical claim": {
+    "definition": "A defensible statement about the past supported by evidence and reasoning.",
+    "weeks": [
+      1
+    ]
+  },
+  "absolute location": {
+    "definition": "A precise position expressed through coordinates or another fixed reference.",
+    "weeks": [
+      2
+    ]
+  },
+  "relative location": {
+    "definition": "A place described in relation to other places.",
+    "weeks": [
+      2
+    ]
+  },
+  "scale": {
+    "definition": "The relationship between distance on a map and distance on Earth.",
+    "weeks": [
+      2
+    ]
+  },
+  "projection": {
+    "definition": "A method of representing Earth’s curved surface on a flat map.",
+    "weeks": [
+      2
+    ]
+  },
+  "migration": {
+    "definition": "The movement of people from one place to another.",
+    "weeks": [
+      2
+    ]
+  },
+  "human-environment interaction": {
+    "definition": "The ways people adapt to, depend on, and alter natural systems.",
+    "weeks": [
+      2
+    ]
+  },
+  "Paleolithic": {
+    "definition": "The period when humans generally lived by hunting, gathering, and fishing.",
+    "weeks": [
+      3
+    ]
+  },
+  "Neolithic": {
+    "definition": "The later Stone Age associated in many regions with agriculture and settled communities.",
+    "weeks": [
+      3
+    ]
+  },
+  "domestication": {
+    "definition": "The long-term process of selecting and managing plants or animals for human use.",
+    "weeks": [
+      3
+    ]
+  },
+  "surplus": {
+    "definition": "Production beyond immediate consumption needs.",
+    "weeks": [
+      3
+    ]
+  },
+  "specialization": {
+    "definition": "The concentration of labor on particular tasks or skills.",
+    "weeks": [
+      3
+    ]
+  },
+  "archaeology": {
+    "definition": "The study of past societies through material remains and their contexts.",
+    "weeks": [
+      3
+    ]
+  },
+  "civilization": {
+    "definition": "A complex society with cities, institutions, specialized labor, and systems of communication.",
+    "weeks": [
+      4
+    ]
+  },
+  "city-state": {
+    "definition": "A city and its surrounding territory functioning as an independent political unit.",
+    "weeks": [
+      4
+    ]
+  },
+  "bureaucracy": {
+    "definition": "An administrative system of officials and offices.",
+    "weeks": [
+      4
+    ]
+  },
+  "cuneiform": {
+    "definition": "A wedge-shaped writing system developed in ancient Mesopotamia.",
+    "weeks": [
+      4
+    ]
+  },
+  "tribute": {
+    "definition": "Goods, labor, or wealth delivered to a ruler or state.",
+    "weeks": [
+      4
+    ]
+  },
+  "rule of law": {
+    "definition": "The principle that authority is exercised through known laws rather than arbitrary command.",
+    "weeks": [
+      4,
+      35
+    ]
+  },
+  "urban planning": {
+    "definition": "The deliberate organization of streets, drainage, public spaces, and buildings.",
+    "weeks": [
+      5
+    ]
+  },
+  "dynasty": {
+    "definition": "A sequence of rulers from the same family or lineage.",
+    "weeks": [
+      5
+    ]
+  },
+  "mandate of heaven": {
+    "definition": "A Zhou political idea that legitimate rule depended on moral performance.",
+    "weeks": [
+      5
+    ]
+  },
+  "oracle bone": {
+    "definition": "An inscribed bone or shell used in Shang divination and now studied as written evidence.",
+    "weeks": [
+      5
+    ]
+  },
+  "monumental architecture": {
+    "definition": "Large public construction expressing religious, political, or social priorities.",
+    "weeks": [
+      5
+    ]
+  },
+  "cultural diffusion": {
+    "definition": "The movement of ideas, technologies, practices, or beliefs between societies.",
+    "weeks": [
+      5
+    ]
+  },
+  "monotheism": {
+    "definition": "Belief in one God.",
+    "weeks": [
+      6
+    ]
+  },
+  "dharma": {
+    "definition": "A complex South Asian concept involving duty, order, conduct, and right living.",
+    "weeks": [
+      6
+    ]
+  },
+  "karma": {
+    "definition": "The principle that actions have moral consequences across life and, in many traditions, rebirth.",
+    "weeks": [
+      6
+    ]
+  },
+  "nirvana": {
+    "definition": "In Buddhism, liberation from craving, suffering, and the cycle of rebirth.",
+    "weeks": [
+      6
+    ]
+  },
+  "filial piety": {
+    "definition": "Respect and responsibility within family relationships, emphasized in Confucian thought.",
+    "weeks": [
+      6
+    ]
+  },
+  "ethical tradition": {
+    "definition": "A body of teachings about right conduct, responsibility, and human flourishing.",
+    "weeks": [
+      6
+    ]
+  },
+  "satrapy": {
+    "definition": "An administrative province of the Persian Empire.",
+    "weeks": [
+      7
+    ]
+  },
+  "polis": {
+    "definition": "A Greek city-state and its civic community.",
+    "weeks": [
+      7
+    ]
+  },
+  "democracy": {
+    "definition": "A system in which political authority is exercised by the people, directly or through representatives.",
+    "weeks": [
+      7
+    ]
+  },
+  "oligarchy": {
+    "definition": "Rule by a small, privileged group.",
+    "weeks": [
+      7
+    ]
+  },
+  "citizenship": {
+    "definition": "Legal membership in a political community with defined rights and duties.",
+    "weeks": [
+      7
+    ]
+  },
+  "historical perspective": {
+    "definition": "Understanding actions and ideas within the conditions of their own time.",
+    "weeks": [
+      7
+    ]
+  },
+  "republic": {
+    "definition": "A political system in which public authority is exercised through institutions rather than hereditary monarchy alone.",
+    "weeks": [
+      8
+    ]
+  },
+  "imperial bureaucracy": {
+    "definition": "A network of officials administering an empire.",
+    "weeks": [
+      8
+    ]
+  },
+  "civil service": {
+    "definition": "Government administration carried out by appointed or selected officials.",
+    "weeks": [
+      8
+    ]
+  },
+  "Romanization": {
+    "definition": "The uneven spread and local adaptation of Roman language, law, customs, and institutions.",
+    "weeks": [
+      8
+    ]
+  },
+  "Silk Roads": {
+    "definition": "Overland and connected trade routes linking East Asia, Central Asia, Southwest Asia, and the Mediterranean.",
+    "weeks": [
+      8,
+      15
+    ]
+  },
+  "continuity and change": {
+    "definition": "A historical reasoning process that identifies what persisted and what transformed over time.",
+    "weeks": [
+      8
+    ]
+  },
+  "Mauryan Empire": {
+    "definition": "A major South Asian empire founded in the late fourth century BCE.",
+    "weeks": [
+      9
+    ]
+  },
+  "edict": {
+    "definition": "An official public order or proclamation.",
+    "weeks": [
+      9
+    ]
+  },
+  "monsoon": {
+    "definition": "A seasonal wind pattern that strongly shapes Indian Ocean travel and rainfall.",
+    "weeks": [
+      9
+    ]
+  },
+  "diaspora": {
+    "definition": "A community living outside an ancestral homeland while maintaining connections.",
+    "weeks": [
+      9
+    ]
+  },
+  "stupa": {
+    "definition": "A Buddhist commemorative structure associated with relics and devotion.",
+    "weeks": [
+      9
+    ]
+  },
+  "decimal place-value system": {
+    "definition": "A numerical system in which a digit’s position determines its value.",
+    "weeks": [
+      9
+    ]
+  },
+  "Byzantine Empire": {
+    "definition": "The continuation of the eastern Roman Empire centered on Constantinople.",
+    "weeks": [
+      10
+    ]
+  },
+  "caliphate": {
+    "definition": "A political community or state led by a caliph in Islamic history.",
+    "weeks": [
+      10
+    ]
+  },
+  "sharia": {
+    "definition": "A broad Islamic moral and legal tradition derived through interpretation of religious sources.",
+    "weeks": [
+      10
+    ]
+  },
+  "translation movement": {
+    "definition": "The organized translation and study of works across languages.",
+    "weeks": [
+      10
+    ]
+  },
+  "iconoclasm": {
+    "definition": "Conflict over the religious use and destruction of images.",
+    "weeks": [
+      10
+    ]
+  },
+  "cultural synthesis": {
+    "definition": "The creation of new forms through interaction among traditions.",
+    "weeks": [
+      10
+    ]
+  },
+  "trans-Saharan trade": {
+    "definition": "Commercial exchange across the Sahara using caravan routes.",
+    "weeks": [
+      11
+    ]
+  },
+  "Sahel": {
+    "definition": "The semi-arid transition zone south of the Sahara.",
+    "weeks": [
+      11
+    ]
+  },
+  "griot": {
+    "definition": "A West African oral historian, musician, and keeper of genealogies and traditions.",
+    "weeks": [
+      11
+    ]
+  },
+  "Swahili Coast": {
+    "definition": "East African coastal societies linked by Kiswahili language and Indian Ocean trade.",
+    "weeks": [
+      11
+    ]
+  },
+  "oral tradition": {
+    "definition": "Knowledge transmitted through spoken performance and community memory.",
+    "weeks": [
+      11
+    ]
+  },
+  "archaeological context": {
+    "definition": "The location and relationships that give an artifact historical meaning.",
+    "weeks": [
+      11
+    ]
+  },
+  "feudalism": {
+    "definition": "A modern label for varied relationships of land, loyalty, and military service in medieval Europe.",
+    "weeks": [
+      12
+    ]
+  },
+  "manorialism": {
+    "definition": "The organization of rural production around an estate and dependent labor.",
+    "weeks": [
+      12
+    ]
+  },
+  "serf": {
+    "definition": "A rural laborer legally tied to land under specific obligations.",
+    "weeks": [
+      12
+    ]
+  },
+  "guild": {
+    "definition": "An association regulating a craft or trade in a town.",
+    "weeks": [
+      12
+    ]
+  },
+  "Magna Carta": {
+    "definition": "A 1215 English charter limiting certain royal actions and affirming baronial rights.",
+    "weeks": [
+      12
+    ]
+  },
+  "representative institution": {
+    "definition": "A body in which selected people speak or decide for larger groups.",
+    "weeks": [
+      12
+    ]
+  },
+  "civil-service examination": {
+    "definition": "A competitive system used in imperial China to select some officials through tested learning.",
+    "weeks": [
+      13
+    ]
+  },
+  "meritocracy": {
+    "definition": "A system that claims to assign status or office based on demonstrated ability.",
+    "weeks": [
+      13
+    ]
+  },
+  "Neo-Confucianism": {
+    "definition": "A later development of Confucian thought shaped by philosophical and religious debate.",
+    "weeks": [
+      13
+    ]
+  },
+  "shogunate": {
+    "definition": "A Japanese military government led by a shogun.",
+    "weeks": [
+      13
+    ]
+  },
+  "tributary relations": {
+    "definition": "Diplomatic and commercial relations expressed through ritual acknowledgment of hierarchy.",
+    "weeks": [
+      13
+    ]
+  },
+  "commercialization": {
+    "definition": "The expansion of production and exchange for markets.",
+    "weeks": [
+      13
+    ]
+  },
+  "tribute state": {
+    "definition": "A state that requires subject communities to deliver goods, labor, or military support.",
+    "weeks": [
+      14
+    ]
+  },
+  "chinampa": {
+    "definition": "A highly productive raised-field farming system used in the Basin of Mexico.",
+    "weeks": [
+      14
+    ]
+  },
+  "quipu": {
+    "definition": "An Andean knotted-cord recording system.",
+    "weeks": [
+      14
+    ]
+  },
+  "ayllu": {
+    "definition": "An Andean kin-based community with shared obligations and resources.",
+    "weeks": [
+      14
+    ]
+  },
+  "wayfinding": {
+    "definition": "Navigation through stars, swells, winds, clouds, wildlife, and accumulated knowledge.",
+    "weeks": [
+      14
+    ]
+  },
+  "oral history": {
+    "definition": "A recorded or transmitted account based on spoken memory and testimony.",
+    "weeks": [
+      14
+    ]
+  },
+  "caravanserai": {
+    "definition": "A lodging and exchange site serving merchants and travelers.",
+    "weeks": [
+      15
+    ]
+  },
+  "merchant diaspora": {
+    "definition": "A trading community living abroad while maintaining commercial and cultural ties.",
+    "weeks": [
+      15
+    ]
+  },
+  "diffusion": {
+    "definition": "The spread of ideas, technologies, organisms, or practices.",
+    "weeks": [
+      15
+    ]
+  },
+  "interregional trade": {
+    "definition": "Exchange connecting multiple regions.",
+    "weeks": [
+      15
+    ]
+  },
+  "commodity": {
+    "definition": "A good produced or exchanged in a market.",
+    "weeks": [
+      15
+    ]
+  },
+  "steppe": {
+    "definition": "A broad grassland environment supporting pastoral mobility.",
+    "weeks": [
+      16
+    ]
+  },
+  "pastoral nomadism": {
+    "definition": "A mobile livelihood centered on herding animals.",
+    "weeks": [
+      16
+    ]
+  },
+  "Pax Mongolica": {
+    "definition": "A term for periods of relative security and exchange across Mongol-controlled routes.",
+    "weeks": [
+      16
+    ]
+  },
+  "pandemic": {
+    "definition": "An epidemic spreading across many countries or continents.",
+    "weeks": [
+      16
+    ]
+  },
+  "demography": {
+    "definition": "The statistical study of human populations.",
+    "weeks": [
+      16
+    ]
+  },
+  "contingency": {
+    "definition": "The role of conditions and choices that make outcomes possible but not inevitable.",
+    "weeks": [
+      16
+    ]
+  },
+  "comparison": {
+    "definition": "Examining meaningful similarities and differences using consistent categories.",
+    "weeks": [
+      17
+    ]
+  },
+  "causation": {
+    "definition": "Explaining how and why one condition contributes to an outcome.",
+    "weeks": [
+      17
+    ]
+  },
+  "continuity": {
+    "definition": "A feature that persists across a defined period.",
+    "weeks": [
+      17
+    ]
+  },
+  "periodization": {
+    "definition": "Dividing history into periods to organize change.",
+    "weeks": [
+      17
+    ]
+  },
+  "state capacity": {
+    "definition": "The ability of a government to carry out decisions, collect resources, and enforce rules.",
+    "weeks": [
+      17
+    ]
+  },
+  "historical argument": {
+    "definition": "A claim supported by selected evidence and explicit reasoning.",
+    "weeks": [
+      17
+    ]
+  },
+  "retrieval practice": {
+    "definition": "Recalling information without looking at notes in order to strengthen memory.",
+    "weeks": [
+      18
+    ]
+  },
+  "metacognition": {
+    "definition": "Thinking about one’s own learning strategies and understanding.",
+    "weeks": [
+      18
+    ]
+  },
+  "stimulus-based question": {
+    "definition": "A question requiring interpretation of a source, map, image, or data set.",
+    "weeks": [
+      18
+    ]
+  },
+  "constructed response": {
+    "definition": "An answer produced by the student rather than selected from choices.",
+    "weeks": [
+      18
+    ]
+  },
+  "thesis": {
+    "definition": "A concise, defensible answer to a question that previews reasoning.",
+    "weeks": [
+      18
+    ]
+  },
+  "revision": {
+    "definition": "Improving work by rethinking evidence, reasoning, organization, or clarity.",
+    "weeks": [
+      18
+    ]
+  },
+  "Renaissance": {
+    "definition": "A period of cultural and intellectual change associated with renewed engagement with classical traditions.",
+    "weeks": [
+      19
+    ]
+  },
+  "humanism": {
+    "definition": "An educational movement emphasizing language, history, rhetoric, ethics, and classical texts.",
+    "weeks": [
+      19
+    ]
+  },
+  "patronage": {
+    "definition": "Financial or political support for artists, scholars, and institutions.",
+    "weeks": [
+      19
+    ]
+  },
+  "perspective": {
+    "definition": "Artistic techniques that create an illusion of depth and spatial order.",
+    "weeks": [
+      19
+    ]
+  },
+  "printing press": {
+    "definition": "A technology using movable type and mechanical pressure to reproduce texts more quickly.",
+    "weeks": [
+      19
+    ]
+  },
+  "vernacular": {
+    "definition": "A language spoken by ordinary people rather than a scholarly or official language.",
+    "weeks": [
+      19
+    ]
+  },
+  "indulgence": {
+    "definition": "In Catholic teaching, a remission of temporal punishment associated with sin; controversial in Reformation debates.",
+    "weeks": [
+      20
+    ]
+  },
+  "Reformation": {
+    "definition": "Movements that challenged and reshaped western Christianity in the sixteenth century.",
+    "weeks": [
+      20
+    ]
+  },
+  "Counter-Reformation": {
+    "definition": "Catholic reform and response to Protestant movements.",
+    "weeks": [
+      20
+    ]
+  },
+  "confessional state": {
+    "definition": "A political order closely identified with a particular religious confession.",
+    "weeks": [
+      20
+    ]
+  },
+  "toleration": {
+    "definition": "Permission for people to practice beliefs disfavored by authorities.",
+    "weeks": [
+      20
+    ]
+  },
+  "pamphlet": {
+    "definition": "A short, inexpensive printed work used to inform or persuade.",
+    "weeks": [
+      20
+    ]
+  },
+  "gunpowder empire": {
+    "definition": "A label for states whose expansion and defense used firearms and artillery, though technology alone did not explain success.",
+    "weeks": [
+      21
+    ]
+  },
+  "devshirme": {
+    "definition": "An Ottoman levy that recruited some Christian boys for state and military service.",
+    "weeks": [
+      21
+    ]
+  },
+  "millet": {
+    "definition": "A term often used for Ottoman arrangements granting recognized religious communities limited autonomy.",
+    "weeks": [
+      21
+    ]
+  },
+  "zamindar": {
+    "definition": "A revenue intermediary or landholder in Mughal South Asia.",
+    "weeks": [
+      21
+    ]
+  },
+  "absolutism": {
+    "definition": "A political doctrine or practice emphasizing concentrated monarchical authority.",
+    "weeks": [
+      21
+    ]
+  },
+  "legitimacy": {
+    "definition": "Public acceptance or justification of a ruler’s right to govern.",
+    "weeks": [
+      21
+    ]
+  },
+  "maritime technology": {
+    "definition": "Tools and knowledge used for navigation, shipbuilding, and ocean travel.",
+    "weeks": [
+      22
+    ]
+  },
+  "Columbian Exchange": {
+    "definition": "The movement of organisms, people, diseases, and goods between hemispheres after 1492.",
+    "weeks": [
+      22
+    ]
+  },
+  "conquistador": {
+    "definition": "A Spanish conqueror involved in campaigns in the Americas.",
+    "weeks": [
+      22
+    ]
+  },
+  "encomienda": {
+    "definition": "A Spanish colonial grant of Indigenous labor and tribute under claimed obligations of protection and conversion.",
+    "weeks": [
+      22
+    ]
+  },
+  "demographic collapse": {
+    "definition": "A severe decline in population.",
+    "weeks": [
+      22
+    ]
+  },
+  "ecological imperialism": {
+    "definition": "Expansion aided by transferred plants, animals, pathogens, and environmental change.",
+    "weeks": [
+      22
+    ]
+  },
+  "chattel slavery": {
+    "definition": "A system treating enslaved people as legally owned property, often for life and by descent.",
+    "weeks": [
+      23
+    ]
+  },
+  "Middle Passage": {
+    "definition": "The forced Atlantic voyage carrying enslaved Africans to the Americas.",
+    "weeks": [
+      23
+    ]
+  },
+  "plantation": {
+    "definition": "A large agricultural enterprise relying on controlled labor to produce cash crops.",
+    "weeks": [
+      23
+    ]
+  },
+  "racialization": {
+    "definition": "The process of assigning social meaning and hierarchy to perceived physical differences.",
+    "weeks": [
+      23
+    ]
+  },
+  "abolition": {
+    "definition": "The movement and process of ending slavery.",
+    "weeks": [
+      23
+    ]
+  },
+  "maroon community": {
+    "definition": "A community established by people who escaped slavery.",
+    "weeks": [
+      23
+    ]
+  },
+  "natural rights": {
+    "definition": "Rights understood as belonging to people by nature rather than granted solely by government.",
+    "weeks": [
+      24
+    ]
+  },
+  "social contract": {
+    "definition": "A theory that political authority arises from an agreement among people or between people and rulers.",
+    "weeks": [
+      24
+    ]
+  },
+  "separation of powers": {
+    "definition": "Division of government authority among institutions to reduce concentration of power.",
+    "weeks": [
+      24
+    ]
+  },
+  "popular sovereignty": {
+    "definition": "The principle that legitimate political power originates with the people.",
+    "weeks": [
+      24
+    ]
+  },
+  "salon": {
+    "definition": "A gathering for intellectual and social discussion, often hosted by elite women in early modern Europe.",
+    "weeks": [
+      24
+    ]
+  },
+  "public sphere": {
+    "definition": "Spaces and networks in which people debate matters of common concern.",
+    "weeks": [
+      24
+    ]
+  },
+  "revolution": {
+    "definition": "A rapid and fundamental transformation in political or social order.",
+    "weeks": [
+      25
+    ]
+  },
+  "declaration": {
+    "definition": "A formal public statement of principles, grievances, or independence.",
+    "weeks": [
+      25
+    ]
+  },
+  "republicanism": {
+    "definition": "A political tradition emphasizing civic participation, public virtue, and government without hereditary monarchy.",
+    "weeks": [
+      25
+    ]
+  },
+  "nationalism": {
+    "definition": "Political identification with a nation and the claim that it should govern itself.",
+    "weeks": [
+      25
+    ]
+  },
+  "emancipation": {
+    "definition": "Legal release from slavery or another condition of unfreedom.",
+    "weeks": [
+      25
+    ]
+  },
+  "counterrevolution": {
+    "definition": "A movement seeking to reverse a revolution.",
+    "weeks": [
+      25
+    ]
+  },
+  "industrialization": {
+    "definition": "The expansion of machine production, factories, and fossil-fuel energy.",
+    "weeks": [
+      26
+    ]
+  },
+  "urbanization": {
+    "definition": "Growth in the proportion of people living in towns and cities.",
+    "weeks": [
+      26
+    ]
+  },
+  "division of labor": {
+    "definition": "The separation of production into specialized tasks.",
+    "weeks": [
+      26
+    ]
+  },
+  "capital": {
+    "definition": "Wealth or productive resources invested to generate further value.",
+    "weeks": [
+      26
+    ]
+  },
+  "labor union": {
+    "definition": "An organization of workers formed to negotiate or act collectively.",
+    "weeks": [
+      26
+    ]
+  },
+  "externality": {
+    "definition": "A cost or benefit imposed on people not directly included in an economic transaction.",
+    "weeks": [
+      26
+    ]
+  },
+  "capitalism": {
+    "definition": "An economic system based largely on private ownership, markets, wage labor, and investment.",
+    "weeks": [
+      27
+    ]
+  },
+  "laissez-faire": {
+    "definition": "The view that government should interfere minimally in economic exchange.",
+    "weeks": [
+      27
+    ]
+  },
+  "socialism": {
+    "definition": "A family of ideas favoring social or public control of major productive resources and greater economic equality.",
+    "weeks": [
+      27
+    ]
+  },
+  "Marxism": {
+    "definition": "A theory emphasizing class conflict, historical change, and collective ownership of production.",
+    "weeks": [
+      27
+    ]
+  },
+  "collective bargaining": {
+    "definition": "Negotiation between workers acting together and employers.",
+    "weeks": [
+      27
+    ]
+  },
+  "social insurance": {
+    "definition": "Public programs that spread risks such as illness, unemployment, disability, or old age.",
+    "weeks": [
+      27
+    ]
+  },
+  "imperialism": {
+    "definition": "The extension of political, economic, or cultural control over other territories or peoples.",
+    "weeks": [
+      28
+    ]
+  },
+  "colonialism": {
+    "definition": "Direct settlement or administration of a territory by an outside power.",
+    "weeks": [
+      28
+    ]
+  },
+  "Social Darwinism": {
+    "definition": "The misuse of evolutionary concepts to justify hierarchy, racism, and imperial competition.",
+    "weeks": [
+      28
+    ]
+  },
+  "sphere of influence": {
+    "definition": "An area where an outside power claims special economic or political privileges.",
+    "weeks": [
+      28
+    ]
+  },
+  "indirect rule": {
+    "definition": "Colonial administration conducted partly through existing local authorities.",
+    "weeks": [
+      28
+    ]
+  },
+  "anti-imperialism": {
+    "definition": "Opposition to empire based on self-determination, equality, economics, religion, or other principles.",
+    "weeks": [
+      28
+    ]
+  },
+  "militarism": {
+    "definition": "The elevation of military power and values in national policy.",
+    "weeks": [
+      29
+    ]
+  },
+  "alliance system": {
+    "definition": "Agreements among states to cooperate, often in defense or war.",
+    "weeks": [
+      29
+    ]
+  },
+  "total war": {
+    "definition": "War mobilizing economies, civilians, propaganda, and state power on a broad scale.",
+    "weeks": [
+      29
+    ]
+  },
+  "armistice": {
+    "definition": "An agreement to stop fighting.",
+    "weeks": [
+      29
+    ]
+  },
+  "Bolshevik": {
+    "definition": "A member of the revolutionary party that seized power in Russia in 1917.",
+    "weeks": [
+      29
+    ]
+  },
+  "self-determination": {
+    "definition": "The principle that peoples should have a meaningful role in choosing their political status.",
+    "weeks": [
+      29
+    ]
+  },
+  "Great Depression": {
+    "definition": "A severe global economic contraction beginning in 1929.",
+    "weeks": [
+      30
+    ]
+  },
+  "fascism": {
+    "definition": "An ultranationalist authoritarian ideology rejecting liberal democracy and political pluralism.",
+    "weeks": [
+      30
+    ]
+  },
+  "Nazism": {
+    "definition": "The German fascist movement centered on dictatorship, racial hierarchy, antisemitism, and expansion.",
+    "weeks": [
+      30
+    ]
+  },
+  "Stalinism": {
+    "definition": "The centralized, coercive political and economic order associated with Joseph Stalin’s rule.",
+    "weeks": [
+      30
+    ]
+  },
+  "appeasement": {
+    "definition": "A policy of making concessions to avoid conflict.",
+    "weeks": [
+      30
+    ]
+  },
+  "propaganda": {
+    "definition": "Communication designed to shape attitudes or behavior, often selectively or emotionally.",
+    "weeks": [
+      30
+    ]
+  },
+  "genocide": {
+    "definition": "Acts committed with intent to destroy, in whole or in part, a national, ethnic, racial, or religious group.",
+    "weeks": [
+      31
+    ]
+  },
+  "Holocaust": {
+    "definition": "The systematic, state-sponsored persecution and murder of six million European Jews by Nazi Germany and its allies and collaborators.",
+    "weeks": [
+      31
+    ]
+  },
+  "antisemitism": {
+    "definition": "Prejudice, hostility, or discrimination directed against Jews.",
+    "weeks": [
+      31
+    ]
+  },
+  "ghetto": {
+    "definition": "A confined urban district where Jews were forcibly concentrated under Nazi occupation.",
+    "weeks": [
+      31
+    ]
+  },
+  "collaboration": {
+    "definition": "Cooperation with an occupying or oppressive power, under conditions that may vary in coercion and choice.",
+    "weeks": [
+      31
+    ]
+  },
+  "resistance": {
+    "definition": "Opposition to persecution or occupation through armed, unarmed, spiritual, cultural, or rescue activity.",
+    "weeks": [
+      31
+    ]
+  },
+  "Cold War": {
+    "definition": "A prolonged global rivalry led by the United States and Soviet Union without direct full-scale war between them.",
+    "weeks": [
+      32
+    ]
+  },
+  "containment": {
+    "definition": "A strategy intended to limit the expansion of Soviet influence.",
+    "weeks": [
+      32
+    ]
+  },
+  "nuclear deterrence": {
+    "definition": "The attempt to prevent attack through the threat of devastating retaliation.",
+    "weeks": [
+      32
+    ]
+  },
+  "proxy war": {
+    "definition": "A conflict in which outside powers support opposing sides rather than fight one another directly.",
+    "weeks": [
+      32
+    ]
+  },
+  "nonalignment": {
+    "definition": "A policy of avoiding formal alignment with major Cold War blocs.",
+    "weeks": [
+      32
+    ]
+  },
+  "détente": {
+    "definition": "A period or policy of reduced tension between rival states.",
+    "weeks": [
+      32
+    ]
+  },
+  "decolonization": {
+    "definition": "The ending of colonial rule and creation or recovery of political sovereignty.",
+    "weeks": [
+      33
+    ]
+  },
+  "partition": {
+    "definition": "The division of territory into separate political units.",
+    "weeks": [
+      33
+    ]
+  },
+  "nonviolence": {
+    "definition": "Organized resistance that rejects physical violence while using protest, boycott, noncooperation, or civil disobedience.",
+    "weeks": [
+      33
+    ]
+  },
+  "apartheid": {
+    "definition": "South Africa’s legally enforced system of racial classification and domination.",
+    "weeks": [
+      33
+    ]
+  },
+  "Universal Declaration of Human Rights": {
+    "definition": "The 1948 United Nations statement of common human rights principles.",
+    "weeks": [
+      33
+    ]
+  },
+  "nation-building": {
+    "definition": "The political and social work of building institutions, identity, and legitimacy within a state.",
+    "weeks": [
+      33
+    ]
+  },
+  "globalization": {
+    "definition": "Increasing cross-border connection in production, finance, information, culture, and movement.",
+    "weeks": [
+      34
+    ]
+  },
+  "supply chain": {
+    "definition": "The linked stages through which a good or service is designed, produced, transported, and sold.",
+    "weeks": [
+      34
+    ]
+  },
+  "comparative advantage": {
+    "definition": "The ability to produce a good at a lower opportunity cost than another producer.",
+    "weeks": [
+      34
+    ]
+  },
+  "development indicator": {
+    "definition": "A measure used to describe economic or social conditions.",
+    "weeks": [
+      34
+    ]
+  },
+  "remittance": {
+    "definition": "Money sent by migrants to people in another place, often family members.",
+    "weeks": [
+      34
+    ]
+  },
+  "sustainability": {
+    "definition": "Meeting present needs while protecting long-term ecological and social capacity.",
+    "weeks": [
+      34
+    ]
+  },
+  "constitution": {
+    "definition": "A foundational set of rules establishing government powers, limits, and relationships.",
+    "weeks": [
+      35
+    ]
+  },
+  "parliamentary system": {
+    "definition": "A system in which the executive emerges from and remains accountable to the legislature.",
+    "weeks": [
+      35
+    ]
+  },
+  "presidential system": {
+    "definition": "A system with a separately elected executive serving a fixed term.",
+    "weeks": [
+      35
+    ]
+  },
+  "misinformation": {
+    "definition": "False or inaccurate information shared without necessarily intending harm.",
+    "weeks": [
+      35
+    ]
+  },
+  "disinformation": {
+    "definition": "False or manipulated information deliberately created or spread to deceive.",
+    "weeks": [
+      35
+    ]
+  },
+  "synthesis": {
+    "definition": "Combining evidence and ideas into a broader explanation.",
+    "weeks": [
+      36
+    ]
+  },
+  "enduring issue": {
+    "definition": "A recurring challenge that persists across time and place.",
+    "weeks": [
+      36
+    ]
+  },
+  "civic action": {
+    "definition": "Lawful, informed participation intended to address a public concern.",
+    "weeks": [
+      36
+    ]
+  },
+  "stakeholder": {
+    "definition": "A person or group affected by or able to influence a decision.",
+    "weeks": [
+      36
+    ]
+  },
+  "policy memo": {
+    "definition": "A concise analysis of a public problem, options, evidence, and recommendation.",
+    "weeks": [
+      36
+    ]
+  },
+  "portfolio": {
+    "definition": "A curated collection demonstrating learning, growth, and achievement.",
+    "weeks": [
+      36
+    ]
+  }
+}

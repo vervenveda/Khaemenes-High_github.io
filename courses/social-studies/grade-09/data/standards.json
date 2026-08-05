@@ -1,0 +1,100 @@
+{
+  "c3": [
+    {
+      "code": "D1.5.9-12",
+      "description": "Determine the kinds of sources helpful in answering compelling and supporting questions."
+    },
+    {
+      "code": "D2.His.1.9-12",
+      "description": "Evaluate how historical events and developments were shaped by unique circumstances and broader contexts."
+    },
+    {
+      "code": "D2.His.14.9-12",
+      "description": "Analyze multiple and complex causes and effects of events in the past."
+    },
+    {
+      "code": "D2.Geo.4.9-12",
+      "description": "Analyze relationships and interactions within and between human and physical systems."
+    },
+    {
+      "code": "D2.Eco.1.9-12",
+      "description": "Analyze how incentives influence choices and behavior."
+    },
+    {
+      "code": "D2.Civ.10.9-12",
+      "description": "Analyze the impact and appropriate roles of personal interests and perspectives in civic life."
+    },
+    {
+      "code": "D3.1.9-12",
+      "description": "Gather relevant information from multiple sources using origin, authority, structure, context, and corroborative value."
+    },
+    {
+      "code": "D4.1.9-12",
+      "description": "Construct arguments using precise claims and evidence while acknowledging counterclaims."
+    },
+    {
+      "code": "D4.6.9-12",
+      "description": "Use disciplinary and interdisciplinary lenses to understand characteristics and causes of local, regional, and global problems."
+    }
+  ],
+  "literacy": [
+    {
+      "code": "CCSS.ELA-LITERACY.RH.9-10.1",
+      "description": "Cite specific textual evidence to support analysis of primary and secondary sources."
+    },
+    {
+      "code": "CCSS.ELA-LITERACY.RH.9-10.2",
+      "description": "Determine central ideas and provide an accurate summary."
+    },
+    {
+      "code": "CCSS.ELA-LITERACY.RH.9-10.6",
+      "description": "Compare authors' points of view on the same or similar topics."
+    },
+    {
+      "code": "CCSS.ELA-LITERACY.RH.9-10.7",
+      "description": "Integrate quantitative or technical analysis with qualitative analysis."
+    },
+    {
+      "code": "CCSS.ELA-LITERACY.WHST.9-10.1",
+      "description": "Write arguments focused on discipline-specific content."
+    },
+    {
+      "code": "CCSS.ELA-LITERACY.WHST.9-10.7",
+      "description": "Conduct short and sustained research projects."
+    },
+    {
+      "code": "CCSS.ELA-LITERACY.WHST.9-10.9",
+      "description": "Draw evidence from informational texts to support analysis and reflection."
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "NCSS C3 Framework",
+      "url": "https://www.socialstudies.org/standards/c3"
+    },
+    {
+      "name": "Common Core Literacy in History/Social Studies",
+      "url": "https://corestandards.org/english-language-arts-standards/history-social-studies/"
+    },
+    {
+      "name": "Florida Social Studies",
+      "url": "https://www.fldoe.org/academics/standards/subject-areas/social-studies/"
+    },
+    {
+      "name": "New York Global History and Geography II",
+      "url": "https://www.nysed.gov/state-assessment/global-history-and-geography-ii"
+    },
+    {
+      "name": "Texas World History Studies TEKS",
+      "url": "https://tea.texas.gov/educators/subject-areas/social-studies/social-studies"
+    },
+    {
+      "name": "California History–Social Science Framework",
+      "url": "https://www.cde.ca.gov/ci/hs/cf/hssframework.asp"
+    },
+    {
+      "name": "UNESCO Media and Information Literacy",
+      "url": "https://www.unesco.org/mil4teachers/en"
+    }
+  ]
+}

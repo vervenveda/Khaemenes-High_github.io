@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t d"><title id="t">Khaemenes Global Studies Seal</title><desc id="d">A gold compass rose and open book on a midnight background.</desc>
+<rect width="512" height="512" rx="56" fill="#08111f"/><circle cx="256" cy="256" r="202" fill="none" stroke="#c7a45a" stroke-width="12"/>
+<circle cx="256" cy="256" r="164" fill="#10243b" stroke="#ead39a" stroke-width="4"/>
+<path d="M256 90l25 119 105 47-105 47-25 119-25-119-105-47 105-47z" fill="#c7a45a" opacity=".88"/>
+<circle cx="256" cy="256" r="35" fill="#f4eddf" stroke="#9d4b3e" stroke-width="8"/>
+<path d="M151 320q53-32 105 5v72q-52-34-105-4zm210 0q-53-32-105 5v72q52-34 105-4z" fill="#f4eddf" stroke="#c7a45a" stroke-width="5"/>
+<text x="256" y="72" text-anchor="middle" fill="#ead39a" font-family="Georgia" font-size="24">KHAEMENES HIGH</text>
+<text x="256" y="468" text-anchor="middle" fill="#ead39a" font-family="Georgia" font-size="22">GLOBAL STUDIES · IX</text></svg>
