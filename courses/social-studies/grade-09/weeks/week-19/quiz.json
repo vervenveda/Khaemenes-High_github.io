@@ -1,0 +1,131 @@
+{
+  "title": "Week 19 Quiz — Renaissance, Humanism, and Printing",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W19Q1",
+      "prompt": "Which term best matches this definition: A period of cultural and intellectual change associated with renewed engagement with classical traditions.",
+      "choices": [
+        "printing press",
+        "patronage",
+        "Renaissance",
+        "humanism"
+      ],
+      "answer": 2,
+      "explanation": "Renaissance is the course term defined as: A period of cultural and intellectual change associated with renewed engagement with classical traditions."
+    },
+    {
+      "id": "W19Q2",
+      "prompt": "Which term best matches this definition: An educational movement emphasizing language, history, rhetoric, ethics, and classical texts.",
+      "choices": [
+        "vernacular",
+        "printing press",
+        "patronage",
+        "humanism"
+      ],
+      "answer": 3,
+      "explanation": "Humanism is the course term defined as: An educational movement emphasizing language, history, rhetoric, ethics, and classical texts."
+    },
+    {
+      "id": "W19Q3",
+      "prompt": "Which term best matches this definition: Financial or political support for artists, scholars, and institutions.",
+      "choices": [
+        "printing press",
+        "Renaissance",
+        "patronage",
+        "perspective"
+      ],
+      "answer": 2,
+      "explanation": "Patronage is the course term defined as: Financial or political support for artists, scholars, and institutions."
+    },
+    {
+      "id": "W19Q4",
+      "prompt": "Which term best matches this definition: Artistic techniques that create an illusion of depth and spatial order.",
+      "choices": [
+        "printing press",
+        "humanism",
+        "Renaissance",
+        "perspective"
+      ],
+      "answer": 3,
+      "explanation": "Perspective is the course term defined as: Artistic techniques that create an illusion of depth and spatial order."
+    },
+    {
+      "id": "W19Q5",
+      "prompt": "Which term best matches this definition: A technology using movable type and mechanical pressure to reproduce texts more quickly.",
+      "choices": [
+        "humanism",
+        "vernacular",
+        "printing press",
+        "perspective"
+      ],
+      "answer": 2,
+      "explanation": "Printing Press is the course term defined as: A technology using movable type and mechanical pressure to reproduce texts more quickly."
+    },
+    {
+      "id": "W19Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 19?",
+      "choices": [
+        "Renaissance change grew from medieval institutions, Mediterranean exchange, urban wealth, and classical study rather than appearing suddenly.",
+        "Ottoman, Safavid, Mughal, Ming-Qing, Russian, African, and European states used different combinations of military power, taxation, religion, and local elites.",
+        "Effective review organizes knowledge by chronology, geography, themes, and recurring analytical skills.",
+        "Reform movements grew from theological disputes, church criticism, political ambitions, printing, and local grievances."
+      ],
+      "answer": 0,
+      "explanation": "Renaissance change grew from medieval institutions, Mediterranean exchange, urban wealth, and classical study rather than appearing suddenly."
+    },
+    {
+      "id": "W19Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 19?",
+      "choices": [
+        "Protestant traditions were diverse, and Catholic reform involved internal renewal as well as opposition.",
+        "Patrons shaped artistic production, while artists and writers used new techniques to explore power, identity, religion, and nature.",
+        "Imperial diversity was managed through negotiation as well as coercion.",
+        "Assessment should measure source interpretation and reasoning as well as factual knowledge."
+      ],
+      "answer": 1,
+      "explanation": "Patrons shaped artistic production, while artists and writers used new techniques to explore power, identity, religion, and nature."
+    },
+    {
+      "id": "W19Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 19?",
+      "choices": [
+        "Religious conflict reshaped state power, education, migration, censorship, and ideas about toleration.",
+        "Corrections are most valuable when students explain why an answer was wrong and what evidence supports the revision.",
+        "Court art and architecture communicated legitimacy but should be compared with tax, legal, and local records.",
+        "Printing accelerated the spread and standardization of texts but did not automatically create equal access to information."
+      ],
+      "answer": 3,
+      "explanation": "Printing accelerated the spread and standardization of texts but did not automatically create equal access to information."
+    },
+    {
+      "id": "W19Q9",
+      "prompt": "What is the strongest method for evaluating “Art as Political and Social Evidence”?",
+      "choices": [
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Use only the most dramatic sentence because memorable details are the most reliable."
+      ],
+      "answer": 0,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W19Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Use the visualization only if it confirms the original claim.",
+        "Assume that every mapped relationship is a direct cause."
+      ],
+      "answer": 1,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did renewed study, urban wealth, artistic experimentation, and printing reshape authority and knowledge?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

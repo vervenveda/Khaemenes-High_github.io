@@ -1,0 +1,131 @@
+{
+  "title": "Week 25 Quiz — Atlantic Revolutions",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W25Q1",
+      "prompt": "Which term best matches this definition: A rapid and fundamental transformation in political or social order.",
+      "choices": [
+        "declaration",
+        "republicanism",
+        "emancipation",
+        "revolution"
+      ],
+      "answer": 3,
+      "explanation": "Revolution is the course term defined as: A rapid and fundamental transformation in political or social order."
+    },
+    {
+      "id": "W25Q2",
+      "prompt": "Which term best matches this definition: A formal public statement of principles, grievances, or independence.",
+      "choices": [
+        "revolution",
+        "declaration",
+        "counterrevolution",
+        "emancipation"
+      ],
+      "answer": 1,
+      "explanation": "Declaration is the course term defined as: A formal public statement of principles, grievances, or independence."
+    },
+    {
+      "id": "W25Q3",
+      "prompt": "Which term best matches this definition: A political tradition emphasizing civic participation, public virtue, and government without hereditary monarchy.",
+      "choices": [
+        "republicanism",
+        "emancipation",
+        "revolution",
+        "declaration"
+      ],
+      "answer": 0,
+      "explanation": "Republicanism is the course term defined as: A political tradition emphasizing civic participation, public virtue, and government without hereditary monarchy."
+    },
+    {
+      "id": "W25Q4",
+      "prompt": "Which term best matches this definition: Political identification with a nation and the claim that it should govern itself.",
+      "choices": [
+        "nationalism",
+        "republicanism",
+        "revolution",
+        "declaration"
+      ],
+      "answer": 0,
+      "explanation": "Nationalism is the course term defined as: Political identification with a nation and the claim that it should govern itself."
+    },
+    {
+      "id": "W25Q5",
+      "prompt": "Which term best matches this definition: Legal release from slavery or another condition of unfreedom.",
+      "choices": [
+        "republicanism",
+        "emancipation",
+        "counterrevolution",
+        "revolution"
+      ],
+      "answer": 1,
+      "explanation": "Emancipation is the course term defined as: Legal release from slavery or another condition of unfreedom."
+    },
+    {
+      "id": "W25Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 25?",
+      "choices": [
+        "The American, French, Haitian, and Latin American revolutions influenced one another but arose from distinct social structures.",
+        "Industrialization depended on agriculture, capital, coal, technology, colonial trade, transport, labor, and institutions.",
+        "Enlightenment thinkers debated sovereignty, rights, religious toleration, law, economy, and human nature rather than sharing one program.",
+        "Capitalism and socialism contain diverse schools rather than one fixed model each."
+      ],
+      "answer": 0,
+      "explanation": "The American, French, Haitian, and Latin American revolutions influenced one another but arose from distinct social structures."
+    },
+    {
+      "id": "W25Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 25?",
+      "choices": [
+        "Rights declarations became tools for groups excluded by original revolutionary settlements.",
+        "Factory production increased output while reorganizing time, skill, family labor, and workplace discipline.",
+        "Print culture, salons, coffeehouses, scientific societies, and colonial encounters expanded political debate.",
+        "Labor reform emerged through unions, cooperatives, political parties, religious movements, mutual aid, and government regulation."
+      ],
+      "answer": 0,
+      "explanation": "Rights declarations became tools for groups excluded by original revolutionary settlements."
+    },
+    {
+      "id": "W25Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 25?",
+      "choices": [
+        "Claims of universal rights often coexisted with slavery, empire, patriarchy, and exclusions that critics exposed.",
+        "The Haitian Revolution was the most successful large-scale revolt of enslaved people and transformed Atlantic politics.",
+        "Modern economies combine markets, public institutions, households, and nonprofit organizations in different proportions.",
+        "Industrial growth raised long-run productivity but generated severe inequality, pollution, dangerous work, and urban hardship."
+      ],
+      "answer": 1,
+      "explanation": "The Haitian Revolution was the most successful large-scale revolt of enslaved people and transformed Atlantic politics."
+    },
+    {
+      "id": "W25Q9",
+      "prompt": "What is the strongest method for evaluating “Declarations and Excluded Voices”?",
+      "choices": [
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+      ],
+      "answer": 3,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W25Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Use the visualization only if it confirms the original claim.",
+        "Assume that every mapped relationship is a direct cause.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Ignore units and scale so attention stays on the overall appearance."
+      ],
+      "answer": 2,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: Why did revolutions proclaim universal principles while producing unequal outcomes?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

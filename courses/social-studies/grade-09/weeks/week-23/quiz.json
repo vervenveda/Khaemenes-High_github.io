@@ -1,0 +1,131 @@
+{
+  "title": "Week 23 Quiz — Atlantic Slavery, Colonialism, and Resistance",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W23Q1",
+      "prompt": "Which term best matches this definition: A system treating enslaved people as legally owned property, often for life and by descent.",
+      "choices": [
+        "chattel slavery",
+        "maroon community",
+        "plantation",
+        "racialization"
+      ],
+      "answer": 0,
+      "explanation": "Chattel Slavery is the course term defined as: A system treating enslaved people as legally owned property, often for life and by descent."
+    },
+    {
+      "id": "W23Q2",
+      "prompt": "Which term best matches this definition: The forced Atlantic voyage carrying enslaved Africans to the Americas.",
+      "choices": [
+        "plantation",
+        "maroon community",
+        "chattel slavery",
+        "Middle Passage"
+      ],
+      "answer": 3,
+      "explanation": "Middle Passage is the course term defined as: The forced Atlantic voyage carrying enslaved Africans to the Americas."
+    },
+    {
+      "id": "W23Q3",
+      "prompt": "Which term best matches this definition: A large agricultural enterprise relying on controlled labor to produce cash crops.",
+      "choices": [
+        "racialization",
+        "chattel slavery",
+        "plantation",
+        "maroon community"
+      ],
+      "answer": 2,
+      "explanation": "Plantation is the course term defined as: A large agricultural enterprise relying on controlled labor to produce cash crops."
+    },
+    {
+      "id": "W23Q4",
+      "prompt": "Which term best matches this definition: The process of assigning social meaning and hierarchy to perceived physical differences.",
+      "choices": [
+        "plantation",
+        "abolition",
+        "maroon community",
+        "racialization"
+      ],
+      "answer": 3,
+      "explanation": "Racialization is the course term defined as: The process of assigning social meaning and hierarchy to perceived physical differences."
+    },
+    {
+      "id": "W23Q5",
+      "prompt": "Which term best matches this definition: The movement and process of ending slavery.",
+      "choices": [
+        "maroon community",
+        "plantation",
+        "Middle Passage",
+        "abolition"
+      ],
+      "answer": 3,
+      "explanation": "Abolition is the course term defined as: The movement and process of ending slavery."
+    },
+    {
+      "id": "W23Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 23?",
+      "choices": [
+        "Enlightenment thinkers debated sovereignty, rights, religious toleration, law, economy, and human nature rather than sharing one program.",
+        "The American, French, Haitian, and Latin American revolutions influenced one another but arose from distinct social structures.",
+        "African societies had varied relationships to slavery, but Atlantic demand expanded warfare, capture, and human trafficking.",
+        "European voyages built on Afro-Eurasian navigational knowledge, commercial competition, state finance, and maritime technology."
+      ],
+      "answer": 2,
+      "explanation": "African societies had varied relationships to slavery, but Atlantic demand expanded warfare, capture, and human trafficking."
+    },
+    {
+      "id": "W23Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 23?",
+      "choices": [
+        "European colonial law increasingly made slavery racial, hereditary, and permanent.",
+        "Indigenous American societies actively negotiated, resisted, allied, and adapted during encounters.",
+        "Print culture, salons, coffeehouses, scientific societies, and colonial encounters expanded political debate.",
+        "Rights declarations became tools for groups excluded by original revolutionary settlements."
+      ],
+      "answer": 0,
+      "explanation": "European colonial law increasingly made slavery racial, hereditary, and permanent."
+    },
+    {
+      "id": "W23Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 23?",
+      "choices": [
+        "Disease, warfare, forced labor, and ecological change produced catastrophic population losses in many regions.",
+        "Enslaved people resisted through survival, family, culture, work slowdowns, escape, revolt, legal petitions, and abolitionist organizing.",
+        "The Haitian Revolution was the most successful large-scale revolt of enslaved people and transformed Atlantic politics.",
+        "Claims of universal rights often coexisted with slavery, empire, patriarchy, and exclusions that critics exposed."
+      ],
+      "answer": 1,
+      "explanation": "Enslaved people resisted through survival, family, culture, work slowdowns, escape, revolt, legal petitions, and abolitionist organizing."
+    },
+    {
+      "id": "W23Q9",
+      "prompt": "What is the strongest method for evaluating “Voyage Data and Human Testimony”?",
+      "choices": [
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral."
+      ],
+      "answer": 1,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W23Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Use the visualization only if it confirms the original claim.",
+        "Assume that every mapped relationship is a direct cause."
+      ],
+      "answer": 1,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did racial slavery become embedded in Atlantic economies, and how did enslaved people resist?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

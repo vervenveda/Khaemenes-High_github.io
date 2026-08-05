@@ -1,0 +1,131 @@
+{
+  "title": "Week 21 Quiz — Land-Based Empires, 1450–1750",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W21Q1",
+      "prompt": "Which term best matches this definition: A label for states whose expansion and defense used firearms and artillery, though technology alone did not explain success.",
+      "choices": [
+        "gunpowder empire",
+        "devshirme",
+        "millet",
+        "absolutism"
+      ],
+      "answer": 0,
+      "explanation": "Gunpowder Empire is the course term defined as: A label for states whose expansion and defense used firearms and artillery, though technology alone did not explain success."
+    },
+    {
+      "id": "W21Q2",
+      "prompt": "Which term best matches this definition: An Ottoman levy that recruited some Christian boys for state and military service.",
+      "choices": [
+        "millet",
+        "legitimacy",
+        "devshirme",
+        "zamindar"
+      ],
+      "answer": 2,
+      "explanation": "Devshirme is the course term defined as: An Ottoman levy that recruited some Christian boys for state and military service."
+    },
+    {
+      "id": "W21Q3",
+      "prompt": "Which term best matches this definition: A term often used for Ottoman arrangements granting recognized religious communities limited autonomy.",
+      "choices": [
+        "devshirme",
+        "millet",
+        "absolutism",
+        "zamindar"
+      ],
+      "answer": 1,
+      "explanation": "Millet is the course term defined as: A term often used for Ottoman arrangements granting recognized religious communities limited autonomy."
+    },
+    {
+      "id": "W21Q4",
+      "prompt": "Which term best matches this definition: A revenue intermediary or landholder in Mughal South Asia.",
+      "choices": [
+        "legitimacy",
+        "devshirme",
+        "zamindar",
+        "gunpowder empire"
+      ],
+      "answer": 2,
+      "explanation": "Zamindar is the course term defined as: A revenue intermediary or landholder in Mughal South Asia."
+    },
+    {
+      "id": "W21Q5",
+      "prompt": "Which term best matches this definition: A political doctrine or practice emphasizing concentrated monarchical authority.",
+      "choices": [
+        "millet",
+        "legitimacy",
+        "gunpowder empire",
+        "absolutism"
+      ],
+      "answer": 3,
+      "explanation": "Absolutism is the course term defined as: A political doctrine or practice emphasizing concentrated monarchical authority."
+    },
+    {
+      "id": "W21Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 21?",
+      "choices": [
+        "Reform movements grew from theological disputes, church criticism, political ambitions, printing, and local grievances.",
+        "European voyages built on Afro-Eurasian navigational knowledge, commercial competition, state finance, and maritime technology.",
+        "African societies had varied relationships to slavery, but Atlantic demand expanded warfare, capture, and human trafficking.",
+        "Ottoman, Safavid, Mughal, Ming-Qing, Russian, African, and European states used different combinations of military power, taxation, religion, and local elites."
+      ],
+      "answer": 3,
+      "explanation": "Ottoman, Safavid, Mughal, Ming-Qing, Russian, African, and European states used different combinations of military power, taxation, religion, and local elites."
+    },
+    {
+      "id": "W21Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 21?",
+      "choices": [
+        "Protestant traditions were diverse, and Catholic reform involved internal renewal as well as opposition.",
+        "Indigenous American societies actively negotiated, resisted, allied, and adapted during encounters.",
+        "Imperial diversity was managed through negotiation as well as coercion.",
+        "European colonial law increasingly made slavery racial, hereditary, and permanent."
+      ],
+      "answer": 2,
+      "explanation": "Imperial diversity was managed through negotiation as well as coercion."
+    },
+    {
+      "id": "W21Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 21?",
+      "choices": [
+        "Religious conflict reshaped state power, education, migration, censorship, and ideas about toleration.",
+        "Disease, warfare, forced labor, and ecological change produced catastrophic population losses in many regions.",
+        "Court art and architecture communicated legitimacy but should be compared with tax, legal, and local records.",
+        "Enslaved people resisted through survival, family, culture, work slowdowns, escape, revolt, legal petitions, and abolitionist organizing."
+      ],
+      "answer": 2,
+      "explanation": "Court art and architecture communicated legitimacy but should be compared with tax, legal, and local records."
+    },
+    {
+      "id": "W21Q9",
+      "prompt": "What is the strongest method for evaluating “Imperial Image and Administrative Record”?",
+      "choices": [
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate."
+      ],
+      "answer": 2,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W21Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove.",
+        "Use the visualization only if it confirms the original claim.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "Assume that every mapped relationship is a direct cause."
+      ],
+      "answer": 0,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: How did large empires govern religious, linguistic, and ethnic diversity?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Week 24 Quiz — Enlightenment and Political Thought",
+  "points": 25,
+  "questions": [
+    {
+      "id": "W24Q1",
+      "prompt": "Which term best matches this definition: Rights understood as belonging to people by nature rather than granted solely by government.",
+      "choices": [
+        "salon",
+        "social contract",
+        "public sphere",
+        "natural rights"
+      ],
+      "answer": 3,
+      "explanation": "Natural Rights is the course term defined as: Rights understood as belonging to people by nature rather than granted solely by government."
+    },
+    {
+      "id": "W24Q2",
+      "prompt": "Which term best matches this definition: A theory that political authority arises from an agreement among people or between people and rulers.",
+      "choices": [
+        "popular sovereignty",
+        "social contract",
+        "public sphere",
+        "natural rights"
+      ],
+      "answer": 1,
+      "explanation": "Social Contract is the course term defined as: A theory that political authority arises from an agreement among people or between people and rulers."
+    },
+    {
+      "id": "W24Q3",
+      "prompt": "Which term best matches this definition: Division of government authority among institutions to reduce concentration of power.",
+      "choices": [
+        "natural rights",
+        "social contract",
+        "salon",
+        "separation of powers"
+      ],
+      "answer": 3,
+      "explanation": "Separation Of Powers is the course term defined as: Division of government authority among institutions to reduce concentration of power."
+    },
+    {
+      "id": "W24Q4",
+      "prompt": "Which term best matches this definition: The principle that legitimate political power originates with the people.",
+      "choices": [
+        "public sphere",
+        "salon",
+        "popular sovereignty",
+        "social contract"
+      ],
+      "answer": 2,
+      "explanation": "Popular Sovereignty is the course term defined as: The principle that legitimate political power originates with the people."
+    },
+    {
+      "id": "W24Q5",
+      "prompt": "Which term best matches this definition: A gathering for intellectual and social discussion, often hosted by elite women in early modern Europe.",
+      "choices": [
+        "natural rights",
+        "social contract",
+        "salon",
+        "separation of powers"
+      ],
+      "answer": 2,
+      "explanation": "Salon is the course term defined as: A gathering for intellectual and social discussion, often hosted by elite women in early modern Europe."
+    },
+    {
+      "id": "W24Q6",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 24?",
+      "choices": [
+        "The American, French, Haitian, and Latin American revolutions influenced one another but arose from distinct social structures.",
+        "Industrialization depended on agriculture, capital, coal, technology, colonial trade, transport, labor, and institutions.",
+        "African societies had varied relationships to slavery, but Atlantic demand expanded warfare, capture, and human trafficking.",
+        "Enlightenment thinkers debated sovereignty, rights, religious toleration, law, economy, and human nature rather than sharing one program."
+      ],
+      "answer": 3,
+      "explanation": "Enlightenment thinkers debated sovereignty, rights, religious toleration, law, economy, and human nature rather than sharing one program."
+    },
+    {
+      "id": "W24Q7",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 24?",
+      "choices": [
+        "Rights declarations became tools for groups excluded by original revolutionary settlements.",
+        "European colonial law increasingly made slavery racial, hereditary, and permanent.",
+        "Print culture, salons, coffeehouses, scientific societies, and colonial encounters expanded political debate.",
+        "Factory production increased output while reorganizing time, skill, family labor, and workplace discipline."
+      ],
+      "answer": 2,
+      "explanation": "Print culture, salons, coffeehouses, scientific societies, and colonial encounters expanded political debate."
+    },
+    {
+      "id": "W24Q8",
+      "prompt": "Which statement best reflects the evidence and interpretation emphasized in Week 24?",
+      "choices": [
+        "Claims of universal rights often coexisted with slavery, empire, patriarchy, and exclusions that critics exposed.",
+        "Enslaved people resisted through survival, family, culture, work slowdowns, escape, revolt, legal petitions, and abolitionist organizing.",
+        "Industrial growth raised long-run productivity but generated severe inequality, pollution, dangerous work, and urban hardship.",
+        "The Haitian Revolution was the most successful large-scale revolt of enslaved people and transformed Atlantic politics."
+      ],
+      "answer": 0,
+      "explanation": "Claims of universal rights often coexisted with slavery, empire, patriarchy, and exclusions that critics exposed."
+    },
+    {
+      "id": "W24Q9",
+      "prompt": "What is the strongest method for evaluating “Political Philosophers in Conversation”?",
+      "choices": [
+        "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits.",
+        "Reject the source if it contains a point of view because useful evidence must be neutral.",
+        "Use only the most dramatic sentence because memorable details are the most reliable.",
+        "Accept the source if it was created during the period because primary sources are automatically accurate."
+      ],
+      "answer": 0,
+      "explanation": "Compare the source with independent evidence and evaluate its origin, purpose, context, and limits."
+    },
+    {
+      "id": "W24Q10",
+      "prompt": "Which response demonstrates the strongest geographic or quantitative reasoning?",
+      "choices": [
+        "Assume that every mapped relationship is a direct cause.",
+        "Ignore units and scale so attention stays on the overall appearance.",
+        "Use the visualization only if it confirms the original claim.",
+        "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+      ],
+      "answer": 3,
+      "explanation": "State the observed pattern, propose an explanation, and identify what the map or data cannot prove."
+    }
+  ],
+  "shortResponse": {
+    "prompt": "Using at least two specific pieces of evidence, answer: Who should hold political authority, and what rights or duties limit government?",
+    "points": 5,
+    "exemplar": "A full-credit response states a defensible answer to the essential question, uses two accurate details from the week, explains how each detail supports the claim, and acknowledges one complexity or limitation."
+  }
+}
