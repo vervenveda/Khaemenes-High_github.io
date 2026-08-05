@@ -1,0 +1,15 @@
+{
+  "name": "Grade 11 Government, Law & Economics Honors",
+  "short_name": "Khaemenes G11 Gov Econ",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "description": "United States Government, Constitutional Law, Economics, Public Policy, Civic Literacy, and Media Analysis",
+  "categories": [
+    "education",
+    "productivity"
+  ]
+}
