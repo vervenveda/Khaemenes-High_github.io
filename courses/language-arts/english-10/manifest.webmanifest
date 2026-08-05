@@ -1,0 +1,29 @@
+{
+  "id": "./",
+  "name": "Khaemenes High \u2014 10th Grade Language Arts",
+  "short_name": "English II",
+  "description": "A comprehensive 36-week English II course.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3efe5",
+  "theme_color": "#111b2b",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "shortcuts": [
+    {
+      "name": "Week 1",
+      "url": "./weeks/week-01/index.html"
+    },
+    {
+      "name": "Assessments",
+      "url": "./assessments/index.html"
+    },
+    {
+      "name": "Gradebook",
+      "url": "./records/gradebook.html"
+    }
+  ]
+}
