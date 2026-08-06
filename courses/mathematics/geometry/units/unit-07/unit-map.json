@@ -1,0 +1,22 @@
+{
+  "unit": 7,
+  "title": "Polygons & Quadrilaterals",
+  "weeks": [
+    19,
+    20,
+    21
+  ],
+  "essential": "How do angle sums, side relationships, and coordinate evidence classify and constrain polygons?",
+  "project": "Polygon Pavilion & Quadrilateral Proof Portfolio",
+  "lesson_ids": [
+    "u07-l01",
+    "u07-l02",
+    "u07-l03",
+    "u07-l04",
+    "u07-l05",
+    "u07-l06",
+    "u07-l07"
+  ],
+  "lesson_count": 7,
+  "mastery_target": 80
+}

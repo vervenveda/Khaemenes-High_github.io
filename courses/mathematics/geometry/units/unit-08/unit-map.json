@@ -1,0 +1,23 @@
+{
+  "unit": 8,
+  "title": "Circles, Arcs & Tangency",
+  "weeks": [
+    22,
+    23,
+    24
+  ],
+  "essential": "How do radius, chord, arc, angle, tangent, and secant relationships govern every circle?",
+  "project": "Circle-Theorem Investigation & Radial Design",
+  "lesson_ids": [
+    "u08-l01",
+    "u08-l02",
+    "u08-l03",
+    "u08-l04",
+    "u08-l05",
+    "u08-l06",
+    "u08-l07",
+    "u08-l08"
+  ],
+  "lesson_count": 8,
+  "mastery_target": 80
+}

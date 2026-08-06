@@ -1,0 +1,24 @@
+{
+  "unit": 6,
+  "title": "Right Triangles, Trigonometry & Bearings",
+  "weeks": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "essential": "How do right-triangle relationships turn inaccessible lengths, heights, angles, and directions into measurable quantities?",
+  "project": "Navigation, Height & Bearing Survey",
+  "lesson_ids": [
+    "u06-l01",
+    "u06-l02",
+    "u06-l03",
+    "u06-l04",
+    "u06-l05",
+    "u06-l06",
+    "u06-l07",
+    "u06-l08"
+  ],
+  "lesson_count": 8,
+  "mastery_target": 80
+}

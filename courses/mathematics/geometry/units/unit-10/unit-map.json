@@ -1,0 +1,21 @@
+{
+  "unit": 10,
+  "title": "Area, Measurement & Geometric Probability",
+  "weeks": [
+    28,
+    29
+  ],
+  "essential": "How do decomposition, scale, precision, and probability support responsible measurement and optimization?",
+  "project": "Efficient Enclosure & Geometric Probability Lab",
+  "lesson_ids": [
+    "u10-l01",
+    "u10-l02",
+    "u10-l03",
+    "u10-l04",
+    "u10-l05",
+    "u10-l06",
+    "u10-l07"
+  ],
+  "lesson_count": 7,
+  "mastery_target": 80
+}
