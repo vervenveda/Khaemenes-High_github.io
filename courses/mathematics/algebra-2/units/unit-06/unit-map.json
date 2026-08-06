@@ -1,0 +1,44 @@
+{
+  "unit": 6,
+  "title": "Exponential Functions & Growth Models",
+  "weeks": 3,
+  "essential_question": "How do repeated multiplication, percent change, and continuous growth create exponential patterns and decisions?",
+  "project": "Exponential Growth, Decay & Financial Scenario Audit",
+  "lessons": [
+    {
+      "id": "u06-l01",
+      "title": "Exponential Function Structure & Parameters",
+      "path": "lessons/u06-l01.html"
+    },
+    {
+      "id": "u06-l02",
+      "title": "Growth, Decay & Percent Change",
+      "path": "lessons/u06-l02.html"
+    },
+    {
+      "id": "u06-l03",
+      "title": "Compound Interest & Effective Rates",
+      "path": "lessons/u06-l03.html"
+    },
+    {
+      "id": "u06-l04",
+      "title": "Continuous Growth, Decay & the Constant e",
+      "path": "lessons/u06-l04.html"
+    },
+    {
+      "id": "u06-l05",
+      "title": "Solving Exponential Equations by Common Bases",
+      "path": "lessons/u06-l05.html"
+    },
+    {
+      "id": "u06-l06",
+      "title": "Exponential Regression & Data Modelling",
+      "path": "lessons/u06-l06.html"
+    },
+    {
+      "id": "u06-l07",
+      "title": "Comparing Linear, Quadratic & Exponential Models",
+      "path": "lessons/u06-l07.html"
+    }
+  ]
+}

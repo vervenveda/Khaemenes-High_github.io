@@ -1,0 +1,142 @@
+{
+  "unit": 8,
+  "title": "Nonlinear Systems & Matrices",
+  "terms": [
+    {
+      "en": "graphical",
+      "es": "graphical",
+      "fr": "graphical",
+      "ar": "graphical",
+      "pt": "graphical",
+      "definition": "Core term used in Graphical Solutions of Linear–Nonlinear Systems."
+    },
+    {
+      "en": "solutions",
+      "es": "solutions",
+      "fr": "solutions",
+      "ar": "solutions",
+      "pt": "solutions",
+      "definition": "Core term used in Graphical Solutions of Linear–Nonlinear Systems."
+    },
+    {
+      "en": "linear",
+      "es": "linear",
+      "fr": "linear",
+      "ar": "linear",
+      "pt": "linear",
+      "definition": "Core term used in Graphical Solutions of Linear–Nonlinear Systems."
+    },
+    {
+      "en": "solving",
+      "es": "solving",
+      "fr": "solving",
+      "ar": "solving",
+      "pt": "solving",
+      "definition": "Core term used in Solving Nonlinear Systems by Substitution."
+    },
+    {
+      "en": "nonlinear",
+      "es": "nonlinear",
+      "fr": "nonlinear",
+      "ar": "nonlinear",
+      "pt": "nonlinear",
+      "definition": "Core term used in Solving Nonlinear Systems by Substitution."
+    },
+    {
+      "en": "systems",
+      "es": "systems",
+      "fr": "systems",
+      "ar": "systems",
+      "pt": "systems",
+      "definition": "Core term used in Solving Nonlinear Systems by Substitution."
+    },
+    {
+      "en": "polynomial",
+      "es": "polynomial",
+      "fr": "polynomial",
+      "ar": "polynomial",
+      "pt": "polynomial",
+      "definition": "Core term used in Polynomial, Rational & Radical Systems."
+    },
+    {
+      "en": "rational",
+      "es": "rational",
+      "fr": "rational",
+      "ar": "rational",
+      "pt": "rational",
+      "definition": "Core term used in Polynomial, Rational & Radical Systems."
+    },
+    {
+      "en": "radical",
+      "es": "radical",
+      "fr": "radical",
+      "ar": "radical",
+      "pt": "radical",
+      "definition": "Core term used in Polynomial, Rational & Radical Systems."
+    },
+    {
+      "en": "matrix",
+      "es": "matrix",
+      "fr": "matrix",
+      "ar": "matrix",
+      "pt": "matrix",
+      "definition": "Core term used in Matrix Vocabulary, Dimensions & Operations."
+    },
+    {
+      "en": "vocabulary",
+      "es": "vocabulary",
+      "fr": "vocabulary",
+      "ar": "vocabulary",
+      "pt": "vocabulary",
+      "definition": "Core term used in Matrix Vocabulary, Dimensions & Operations."
+    },
+    {
+      "en": "dimensions",
+      "es": "dimensions",
+      "fr": "dimensions",
+      "ar": "dimensions",
+      "pt": "dimensions",
+      "definition": "Core term used in Matrix Vocabulary, Dimensions & Operations."
+    },
+    {
+      "en": "equations",
+      "es": "equations",
+      "fr": "equations",
+      "ar": "equations",
+      "pt": "equations",
+      "definition": "Core term used in Matrix Equations, Row Reduction & Systems."
+    },
+    {
+      "en": "reduction",
+      "es": "reduction",
+      "fr": "reduction",
+      "ar": "reduction",
+      "pt": "reduction",
+      "definition": "Core term used in Matrix Equations, Row Reduction & Systems."
+    },
+    {
+      "en": "determinants",
+      "es": "determinants",
+      "fr": "determinants",
+      "ar": "determinants",
+      "pt": "determinants",
+      "definition": "Core term used in Determinants, Inverses & Transformation Models."
+    },
+    {
+      "en": "inverses",
+      "es": "inverses",
+      "fr": "inverses",
+      "ar": "inverses",
+      "pt": "inverses",
+      "definition": "Core term used in Determinants, Inverses & Transformation Models."
+    },
+    {
+      "en": "transformation",
+      "es": "transformation",
+      "fr": "transformation",
+      "ar": "transformation",
+      "pt": "transformation",
+      "definition": "Core term used in Determinants, Inverses & Transformation Models."
+    }
+  ]
+}

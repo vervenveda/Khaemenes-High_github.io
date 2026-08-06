@@ -1,0 +1,44 @@
+{
+  "unit": 9,
+  "title": "Sequences, Series & the Binomial Theorem",
+  "weeks": 3,
+  "essential_question": "How do recursive and explicit rules describe patterns, accumulated change, and finite or infinite sums?",
+  "project": "Sequence, Series & Repeated-Change Analysis",
+  "lessons": [
+    {
+      "id": "u09-l01",
+      "title": "Arithmetic Sequences: Explicit & Recursive Forms",
+      "path": "lessons/u09-l01.html"
+    },
+    {
+      "id": "u09-l02",
+      "title": "Geometric Sequences: Growth, Decay & Recursion",
+      "path": "lessons/u09-l02.html"
+    },
+    {
+      "id": "u09-l03",
+      "title": "General Sequences, Patterns & Difference Tables",
+      "path": "lessons/u09-l03.html"
+    },
+    {
+      "id": "u09-l04",
+      "title": "Finite Arithmetic & Geometric Series",
+      "path": "lessons/u09-l04.html"
+    },
+    {
+      "id": "u09-l05",
+      "title": "Infinite Geometric Series & Convergence",
+      "path": "lessons/u09-l05.html"
+    },
+    {
+      "id": "u09-l06",
+      "title": "Sigma Notation & Summation Properties",
+      "path": "lessons/u09-l06.html"
+    },
+    {
+      "id": "u09-l07",
+      "title": "Pascal\u2019s Triangle & the Binomial Theorem",
+      "path": "lessons/u09-l07.html"
+    }
+  ]
+}

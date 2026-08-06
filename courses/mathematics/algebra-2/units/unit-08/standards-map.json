@@ -1,0 +1,21 @@
+{
+  "unit": 8,
+  "title": "Nonlinear Systems & Matrices",
+  "standards_categories": [
+    "Systems of Equations",
+    "Matrices",
+    "Nonlinear Functions",
+    "Modelling"
+  ],
+  "mathematical_practices": [
+    "make sense and persevere",
+    "reason abstractly and quantitatively",
+    "construct arguments and critique reasoning",
+    "model with mathematics",
+    "use tools strategically",
+    "attend to precision",
+    "seek structure",
+    "express regularity"
+  ],
+  "status": "Broad union map; verify local course codes and reporting requirements."
+}
