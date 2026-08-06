@@ -1,0 +1,158 @@
+{
+  "unit": 4,
+  "title": "Rational Expressions, Equations & Functions",
+  "terms": [
+    {
+      "en": "simplifying",
+      "es": "simplifying",
+      "fr": "simplifying",
+      "ar": "simplifying",
+      "pt": "simplifying",
+      "definition": "Core term used in Simplifying Rational Expressions & Restrictions."
+    },
+    {
+      "en": "rational",
+      "es": "rational",
+      "fr": "rational",
+      "ar": "rational",
+      "pt": "rational",
+      "definition": "Core term used in Simplifying Rational Expressions & Restrictions."
+    },
+    {
+      "en": "expressions",
+      "es": "expressions",
+      "fr": "expressions",
+      "ar": "expressions",
+      "pt": "expressions",
+      "definition": "Core term used in Simplifying Rational Expressions & Restrictions."
+    },
+    {
+      "en": "multiplying",
+      "es": "multiplying",
+      "fr": "multiplying",
+      "ar": "multiplying",
+      "pt": "multiplying",
+      "definition": "Core term used in Multiplying and Dividing Rational Expressions."
+    },
+    {
+      "en": "dividing",
+      "es": "dividing",
+      "fr": "dividing",
+      "ar": "dividing",
+      "pt": "dividing",
+      "definition": "Core term used in Multiplying and Dividing Rational Expressions."
+    },
+    {
+      "en": "adding",
+      "es": "adding",
+      "fr": "adding",
+      "ar": "adding",
+      "pt": "adding",
+      "definition": "Core term used in Adding and Subtracting Rational Expressions."
+    },
+    {
+      "en": "subtracting",
+      "es": "subtracting",
+      "fr": "subtracting",
+      "ar": "subtracting",
+      "pt": "subtracting",
+      "definition": "Core term used in Adding and Subtracting Rational Expressions."
+    },
+    {
+      "en": "solving",
+      "es": "solving",
+      "fr": "solving",
+      "ar": "solving",
+      "pt": "solving",
+      "definition": "Core term used in Solving Rational Equations & Extraneous Solutions."
+    },
+    {
+      "en": "equations",
+      "es": "equations",
+      "fr": "equations",
+      "ar": "equations",
+      "pt": "equations",
+      "definition": "Core term used in Solving Rational Equations & Extraneous Solutions."
+    },
+    {
+      "en": "reciprocal",
+      "es": "reciprocal",
+      "fr": "reciprocal",
+      "ar": "reciprocal",
+      "pt": "reciprocal",
+      "definition": "Core term used in Reciprocal Functions, Asymptotes & Holes."
+    },
+    {
+      "en": "functions",
+      "es": "functions",
+      "fr": "functions",
+      "ar": "functions",
+      "pt": "functions",
+      "definition": "Core term used in Reciprocal Functions, Asymptotes & Holes."
+    },
+    {
+      "en": "asymptotes",
+      "es": "asymptotes",
+      "fr": "asymptotes",
+      "ar": "asymptotes",
+      "pt": "asymptotes",
+      "definition": "Core term used in Reciprocal Functions, Asymptotes & Holes."
+    },
+    {
+      "en": "transformations",
+      "es": "transformations",
+      "fr": "transformations",
+      "ar": "transformations",
+      "pt": "transformations",
+      "definition": "Core term used in Transformations and Features of Rational Functions."
+    },
+    {
+      "en": "features",
+      "es": "features",
+      "fr": "features",
+      "ar": "features",
+      "pt": "features",
+      "definition": "Core term used in Transformations and Features of Rational Functions."
+    },
+    {
+      "en": "direct",
+      "es": "direct",
+      "fr": "direct",
+      "ar": "direct",
+      "pt": "direct",
+      "definition": "Core term used in Direct, Inverse, Joint & Combined Variation."
+    },
+    {
+      "en": "inverse",
+      "es": "inverse",
+      "fr": "inverse",
+      "ar": "inverse",
+      "pt": "inverse",
+      "definition": "Core term used in Direct, Inverse, Joint & Combined Variation."
+    },
+    {
+      "en": "joint",
+      "es": "joint",
+      "fr": "joint",
+      "ar": "joint",
+      "pt": "joint",
+      "definition": "Core term used in Direct, Inverse, Joint & Combined Variation."
+    },
+    {
+      "en": "models",
+      "es": "models",
+      "fr": "models",
+      "ar": "models",
+      "pt": "models",
+      "definition": "Core term used in Rational Models, Rates & Work Problems."
+    },
+    {
+      "en": "rates",
+      "es": "rates",
+      "fr": "rates",
+      "ar": "rates",
+      "pt": "rates",
+      "definition": "Core term used in Rational Models, Rates & Work Problems."
+    }
+  ]
+}

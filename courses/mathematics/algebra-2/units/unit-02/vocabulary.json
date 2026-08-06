@@ -1,0 +1,166 @@
+{
+  "unit": 2,
+  "title": "Polynomial Functions & Complex Numbers",
+  "terms": [
+    {
+      "en": "polynomial",
+      "es": "polynomial",
+      "fr": "polynomial",
+      "ar": "polynomial",
+      "pt": "polynomial",
+      "definition": "Core term used in Polynomial Vocabulary, Degree & Structure."
+    },
+    {
+      "en": "vocabulary",
+      "es": "vocabulary",
+      "fr": "vocabulary",
+      "ar": "vocabulary",
+      "pt": "vocabulary",
+      "definition": "Core term used in Polynomial Vocabulary, Degree & Structure."
+    },
+    {
+      "en": "degree",
+      "es": "degree",
+      "fr": "degree",
+      "ar": "degree",
+      "pt": "degree",
+      "definition": "Core term used in Polynomial Vocabulary, Degree & Structure."
+    },
+    {
+      "en": "operations",
+      "es": "operations",
+      "fr": "operations",
+      "ar": "operations",
+      "pt": "operations",
+      "definition": "Core term used in Polynomial Operations & Equivalent Forms."
+    },
+    {
+      "en": "equivalent",
+      "es": "equivalent",
+      "fr": "equivalent",
+      "ar": "equivalent",
+      "pt": "equivalent",
+      "definition": "Core term used in Polynomial Operations & Equivalent Forms."
+    },
+    {
+      "en": "power",
+      "es": "power",
+      "fr": "power",
+      "ar": "power",
+      "pt": "power",
+      "definition": "Core term used in Power Functions & End Behavior."
+    },
+    {
+      "en": "functions",
+      "es": "functions",
+      "fr": "functions",
+      "ar": "functions",
+      "pt": "functions",
+      "definition": "Core term used in Power Functions & End Behavior."
+    },
+    {
+      "en": "behavior",
+      "es": "behavior",
+      "fr": "behavior",
+      "ar": "behavior",
+      "pt": "behavior",
+      "definition": "Core term used in Power Functions & End Behavior."
+    },
+    {
+      "en": "imaginary",
+      "es": "imaginary",
+      "fr": "imaginary",
+      "ar": "imaginary",
+      "pt": "imaginary",
+      "definition": "Core term used in The Imaginary Unit & Powers of i."
+    },
+    {
+      "en": "unit",
+      "es": "unit",
+      "fr": "unit",
+      "ar": "unit",
+      "pt": "unit",
+      "definition": "Core term used in The Imaginary Unit & Powers of i."
+    },
+    {
+      "en": "powers",
+      "es": "powers",
+      "fr": "powers",
+      "ar": "powers",
+      "pt": "powers",
+      "definition": "Core term used in The Imaginary Unit & Powers of i."
+    },
+    {
+      "en": "with",
+      "es": "with",
+      "fr": "with",
+      "ar": "with",
+      "pt": "with",
+      "definition": "Core term used in Operations with Complex Numbers."
+    },
+    {
+      "en": "complex",
+      "es": "complex",
+      "fr": "complex",
+      "ar": "complex",
+      "pt": "complex",
+      "definition": "Core term used in Operations with Complex Numbers."
+    },
+    {
+      "en": "quadratic",
+      "es": "quadratic",
+      "fr": "quadratic",
+      "ar": "quadratic",
+      "pt": "quadratic",
+      "definition": "Core term used in Quadratic Equations with Complex Solutions."
+    },
+    {
+      "en": "equations",
+      "es": "equations",
+      "fr": "equations",
+      "ar": "equations",
+      "pt": "equations",
+      "definition": "Core term used in Quadratic Equations with Complex Solutions."
+    },
+    {
+      "en": "conjugates",
+      "es": "conjugates",
+      "fr": "conjugates",
+      "ar": "conjugates",
+      "pt": "conjugates",
+      "definition": "Core term used in Conjugates, Modulus & the Complex Plane."
+    },
+    {
+      "en": "modulus",
+      "es": "modulus",
+      "fr": "modulus",
+      "ar": "modulus",
+      "pt": "modulus",
+      "definition": "Core term used in Conjugates, Modulus & the Complex Plane."
+    },
+    {
+      "en": "fundamental",
+      "es": "fundamental",
+      "fr": "fundamental",
+      "ar": "fundamental",
+      "pt": "fundamental",
+      "definition": "Core term used in Fundamental Theorem of Algebra & Complete Factorization."
+    },
+    {
+      "en": "theorem",
+      "es": "theorem",
+      "fr": "theorem",
+      "ar": "theorem",
+      "pt": "theorem",
+      "definition": "Core term used in Fundamental Theorem of Algebra & Complete Factorization."
+    },
+    {
+      "en": "algebra",
+      "es": "algebra",
+      "fr": "algebra",
+      "ar": "algebra",
+      "pt": "algebra",
+      "definition": "Core term used in Fundamental Theorem of Algebra & Complete Factorization."
+    }
+  ]
+}
