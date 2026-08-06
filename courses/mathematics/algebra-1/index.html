@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Khaemenes Academy open-age Algebra I and Integrated Mathematics I: a complete 36-week mastery course with detailed lessons, practice, assessments, modelling, records, and connected tools.">
+<meta name="description" content="Khaemenes Academy open-age Algebra I and Integrated Mathematics I: a complete 36-week mastery course with detailed lessons, practice, assessments, modelling, profile pinning, connected tools, and in-page mathematics games.">
 <meta name="theme-color" content="#080b10">
 <meta name="color-scheme" content="dark light">
 <title>Khaemenes Open-Age Algebra I & Integrated Mathematics I</title>
@@ -143,6 +143,37 @@ textarea{min-height:130px;resize:vertical}
 @media(max-width:480px){.header-tools{display:grid;grid-template-columns:1fr 1fr}.course-menu{grid-column:1/-1}.course-menu>summary{width:100%}.quick-nav{position:relative;top:auto}.snapshot{grid-template-columns:1fr}.metric{border-left:0;border-top:1px solid var(--soft-line)}.metric:first-child{border-top:0}.week-picker{grid-template-columns:repeat(4,1fr)}}
 @media print{.site-header,.breadcrumb,.hero,.quick-nav,.no-print,.header-tools{display:none!important}body{color:#111;background:#fff}.view{display:none!important}.view.active{display:block!important}.card,.day-card,.question{box-shadow:none;border:1px solid #aaa;background:#fff;color:#111}.card p,.day-card p,.card li,td{color:#222}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+
+
+/* Algebra I v3 · school-first navigation, games, tools, and activity window */
+.course-menu-label{padding:7px 10px 4px;color:var(--gold2);font-size:.67rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.course-menu-divider{height:1px;margin:4px 5px;background:var(--soft-line)}
+.games-menu>summary{border-color:color-mix(in srgb,var(--blue) 48%,var(--soft-line))}
+.games-menu[open]>summary{border-color:var(--blue);background:color-mix(in srgb,var(--blue) 12%,var(--panel))}
+.activity-menu-panel{width:min(330px,calc(100vw - 28px));max-height:min(72vh,620px);overflow:auto}
+.activity-menu-panel button{font-weight:680}
+.activity-menu-note{margin:5px 10px 8px;color:var(--muted);font-size:.7rem;line-height:1.45}
+.games-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}
+.game-card{min-height:255px;display:flex;flex-direction:column;align-items:center;text-align:center;border-top:4px solid var(--accent,var(--blue))}
+.game-mark{width:54px;height:54px;display:grid;place-items:center;margin-bottom:15px;border:1px solid color-mix(in srgb,var(--accent,var(--blue)) 65%,transparent);border-radius:13px;color:#fff;background:var(--accent,var(--blue));font-family:var(--display);font-size:1rem;font-weight:780;letter-spacing:.04em}
+.game-card p{margin-bottom:19px}.game-card .btn{margin-top:auto}
+.activity-dialog{width:min(1220px,calc(100vw - 28px));height:min(88vh,900px);padding:0;border:1px solid var(--line);border-radius:13px;color:var(--ink);background:var(--panel);box-shadow:0 34px 90px rgba(0,0,0,.68);overflow:hidden}
+.activity-dialog::backdrop{background:rgba(2,5,9,.82);backdrop-filter:blur(6px)}
+.activity-dialog-shell{height:100%;display:grid;grid-template-rows:auto auto minmax(0,1fr)}
+.activity-dialog-header{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:15px 17px;border-bottom:1px solid var(--soft-line);background:linear-gradient(135deg,color-mix(in srgb,var(--panel2) 96%,transparent),color-mix(in srgb,var(--bg) 95%,transparent))}
+.activity-dialog-header h2{margin:2px 0 0;font-family:var(--display);font-size:1.28rem;font-weight:600}
+.dialog-eyebrow{margin:0;color:var(--gold2);font-size:.65rem;font-weight:780;letter-spacing:.12em;text-transform:uppercase}
+.dialog-close{width:42px;height:42px;display:grid;place-items:center;padding:0;border:1px solid var(--soft-line);border-radius:11px;color:var(--ink);background:var(--panel);font-size:1.35rem}
+.dialog-close:hover{background:var(--panel2);border-color:var(--line)}
+.activity-dialog-toolbar{min-height:46px;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:8px 15px;border-bottom:1px solid var(--soft-line);color:var(--muted);background:var(--bg);font-size:.72rem}
+.activity-frame{width:100%;height:100%;min-height:0;border:0;background:#fff}
+.dashboard-games-card{border-top:4px solid var(--blue)}
+@media(max-width:1120px){.games-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:900px){.quick-nav{position:relative;top:auto}.activity-menu-panel{left:auto;right:0}}
+@media(max-width:700px){.games-grid{grid-template-columns:1fr}.activity-dialog{width:calc(100vw - 14px);height:94vh}.activity-dialog-toolbar{align-items:flex-start;flex-direction:column}.activity-dialog-toolbar .btn{width:100%}}
+@media(max-width:480px){.header-tools{grid-template-columns:1fr 1fr}.course-menu{grid-column:1/-1}.header-control#themeToggle{grid-column:1/-1}.activity-menu-panel{left:0;right:auto}}
+@media print{.activity-dialog,.games-menu{display:none!important}}
+
 </style>
 </head>
 <body>
@@ -158,25 +189,54 @@ textarea{min-height:130px;resize:vertical}
       </a>
     </div>
 
-    <div class="header-tools">
+    <div class="header-tools" aria-label="Course account and navigation controls">
       <a class="header-control" href="../../../index.html#student-portal" aria-label="Open the student profile page">Profile</a>
       <button class="header-control pin-control" id="pinCourseButton" type="button" aria-pressed="false" aria-describedby="pinCourseStatus">☆ Pin to Profile</button>
+
+      <details class="course-menu games-menu" id="gamesMenu">
+        <summary aria-label="Open mathematics games and tools menu">Math Games &amp; Tools ▾</summary>
+        <div class="course-menu-panel activity-menu-panel">
+          <div class="course-menu-label">Launch without leaving Algebra I</div>
+          <p class="activity-menu-note">Activities open in a large course window. Use “Open separately” if a browser blocks embedding.</p>
+          <button type="button" data-launch-title="Pattern Pirates" data-launch-url="https://vervenveda.com/arcade.github.io/games/kids/Pattern_Pirates_index.html">Pattern Pirates</button>
+          <button type="button" data-launch-title="Jenny’s Sudoku" data-launch-url="https://vervenveda.com/arcade.github.io/Jenny's_Sudoku_index.html">Jenny’s Sudoku</button>
+          <button type="button" data-launch-title="Six by Six" data-launch-url="https://vervenveda.com/arcade.github.io/SixbySix_index.html">Six by Six</button>
+          <button type="button" data-launch-title="Sacred Geometry" data-launch-url="https://vervenveda.com/arcade.github.io/a_sacred_geometry_game_index.html">Sacred Geometry</button>
+          <button type="button" data-launch-title="Geometry Sanctuary" data-launch-url="https://vervenveda.com/arcade.github.io/a_geometry_sanctuary_game_index.html">Geometry Sanctuary</button>
+          <div class="course-menu-divider" aria-hidden="true"></div>
+          <button type="button" data-launch-title="Khaemenes Scientific Calculator" data-launch-url="../tools/calculator">Scientific Calculator v4</button>
+          <button type="button" data-launch-title="OHMIC CAD Studio" data-launch-url="https://vervenveda.com/proresource_hub.github.io/Protools/Ohmic_CAD_Studio.html">OHMIC CAD Studio</button>
+          <button type="button" data-launch-title="Verve N Veda Arcade" data-launch-url="https://vervenveda.com/arcade.github.io/">Open Full Arcade</button>
+          <div class="course-menu-divider" aria-hidden="true"></div>
+          <button type="button" data-games-view>View Games &amp; Tools Page</button>
+        </div>
+      </details>
+
       <details class="course-menu" id="courseMenu">
-        <summary aria-label="Open course menu">Course Menu ▾</summary>
+        <summary aria-label="Open course and school menu">School Menu ▾</summary>
         <div class="course-menu-panel">
-          <a href="https://khaemenesacademy.org/">Khaemenes Academy Home</a>
-          <a href="../../../index.html">Khaemenes High Home</a>
-          <a href="../">Mathematics Hall</a>
+          <div class="course-menu-label">Khaemenes High School</div>
+          <a href="../../../index.html">High School Home</a>
+          <a href="../">Mathematics Home</a>
           <a href="../pre-algebra/">Pre-Algebra</a>
-          <hr>
-          <button type="button" data-view="dashboard">Dashboard</button>
+          <a href="../geometry/">Geometry</a>
+          <a href="../algebra-2/">Algebra II</a>
+          <a href="../precalculus-trigonometry/">Precalculus &amp; Trigonometry</a>
+          <a href="../calculus-1/">Calculus I</a>
+          <div class="course-menu-divider" aria-hidden="true"></div>
+          <div class="course-menu-label">This course</div>
+          <button type="button" data-view="dashboard">Course Dashboard</button>
           <button type="button" data-view="week">Weekly Classroom</button>
           <button type="button" data-view="units">All Units</button>
           <button type="button" data-view="practice">Practice Lab</button>
           <a href="diagnostic/">Readiness Diagnostic</a>
           <a href="assessments/">Assessment Center</a>
-          <a href="../tools/calculator" target="_blank" rel="noopener">Scientific Calculator v4</a>
-          <a href="teacher/">Teacher & Records</a>
+          <a href="teacher/">Teacher &amp; Records</a>
+          <div class="course-menu-divider" aria-hidden="true"></div>
+          <div class="course-menu-label">Academy &amp; Verve N Veda</div>
+          <a href="https://vervenveda.github.io/Khaemenes_Academy.github.io/">Khaemenes Academy</a>
+          <a href="https://vervenveda.github.io/Khaemenes_Higher_Learning.github.io/">Khaemenes Higher Learning</a>
+          <a href="https://vervenveda.github.io/">Verve N Veda Gateway</a>
         </div>
       </details>
       <button class="header-control" id="themeToggle" type="button" aria-label="Toggle light and dark theme">◐ Theme</button>
@@ -203,7 +263,8 @@ textarea{min-height:130px;resize:vertical}
       <button class="btn" data-view="week">Open Weekly Classroom</button>
       <a class="btn gold" href="diagnostic/">Begin Diagnostic</a>
       <a class="btn" href="assessments/">Assessment Center</a>
-      <a class="btn" href="../tools/calculator" target="_blank" rel="noopener">Scientific Calculator v4</a>
+      <button class="btn" type="button" data-games-view>Math Games &amp; Tools</button>
+      <button class="btn" type="button" data-launch-title="Khaemenes Scientific Calculator" data-launch-url="../tools/calculator">Scientific Calculator v4</button>
     </div>
     <div class="snapshot" aria-label="Course overview">
       <div class="metric"><strong>36</strong><span>Weeks</span></div>
@@ -225,6 +286,7 @@ textarea{min-height:130px;resize:vertical}
   <button data-view="assessments">Assessments</button>
   <button data-view="gradebook">Gradebook</button>
   <button data-view="portfolio">Portfolio</button>
+  <button data-games-view>Games &amp; Tools</button>
   <button data-view="teacher">Teacher &amp; Records</button>
 </div></nav>
 
@@ -237,8 +299,45 @@ textarea{min-height:130px;resize:vertical}
   <section class="view" id="view-assessments"></section>
   <section class="view" id="view-gradebook"></section>
   <section class="view" id="view-portfolio"></section>
+  <section class="view" id="view-games">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Practice · Patterns · Logic · Mathematical Tools</p>
+        <h2>Math Games &amp; Tools</h2>
+        <p>Open an activity inside Algebra I, then return directly to the weekly classroom, practice lab, or learner record. Games support reasoning and fluency; they do not replace written course evidence.</p>
+      </div>
+      <div class="games-grid">
+        <article class="card game-card" style="--accent:#426f91"><div class="game-mark">PP</div><h3>Pattern Pirates</h3><p>Strengthen pattern recognition, sequencing, and structural reasoning.</p><button class="btn primary" type="button" data-launch-title="Pattern Pirates" data-launch-url="https://vervenveda.com/arcade.github.io/games/kids/Pattern_Pirates_index.html">Open Activity</button></article>
+        <article class="card game-card" style="--accent:#6e6387"><div class="game-mark">S9</div><h3>Jenny’s Sudoku</h3><p>Practice constraint reasoning, deduction, persistence, and error checking.</p><button class="btn primary" type="button" data-launch-title="Jenny’s Sudoku" data-launch-url="https://vervenveda.com/arcade.github.io/Jenny's_Sudoku_index.html">Open Activity</button></article>
+        <article class="card game-card" style="--accent:#4f7657"><div class="game-mark">6×6</div><h3>Six by Six</h3><p>Develop strategic planning and multi-step logical analysis.</p><button class="btn primary" type="button" data-launch-title="Six by Six" data-launch-url="https://vervenveda.com/arcade.github.io/SixbySix_index.html">Open Activity</button></article>
+        <article class="card game-card" style="--accent:#a67b35"><div class="game-mark">SG</div><h3>Sacred Geometry</h3><p>Explore symmetry, proportion, transformations, and geometric structure.</p><button class="btn primary" type="button" data-launch-title="Sacred Geometry" data-launch-url="https://vervenveda.com/arcade.github.io/a_sacred_geometry_game_index.html">Open Activity</button></article>
+        <article class="card game-card" style="--accent:#9a5b65"><div class="game-mark">GS</div><h3>Geometry Sanctuary</h3><p>Connect coordinate and spatial reasoning to Algebra I representations.</p><button class="btn primary" type="button" data-launch-title="Geometry Sanctuary" data-launch-url="https://vervenveda.com/arcade.github.io/a_geometry_sanctuary_game_index.html">Open Activity</button></article>
+        <article class="card game-card" style="--accent:#315b7b"><div class="game-mark">∑</div><h3>Scientific Calculator v4</h3><p>Verify numerical work, explore functions, and preserve reasoning and units.</p><button class="btn primary" type="button" data-launch-title="Khaemenes Scientific Calculator" data-launch-url="../tools/calculator">Open Tool</button></article>
+        <article class="card game-card" style="--accent:#566d78"><div class="game-mark">CAD</div><h3>OHMIC CAD Studio</h3><p>Apply dimensions, coordinates, scale, and modelling in a design environment.</p><button class="btn primary" type="button" data-launch-title="OHMIC CAD Studio" data-launch-url="https://vervenveda.com/proresource_hub.github.io/Protools/Ohmic_CAD_Studio.html">Open Tool</button></article>
+        <article class="card game-card" style="--accent:#754f82"><div class="game-mark">A</div><h3>Complete Arcade</h3><p>Browse the wider internal Verve N Veda collection from the same activity window.</p><button class="btn primary" type="button" data-launch-title="Verve N Veda Arcade" data-launch-url="https://vervenveda.com/arcade.github.io/">Open Arcade</button></article>
+      </div>
+    </div>
+  </section>
   <section class="view" id="view-teacher"></section>
 </main>
+
+
+<dialog class="activity-dialog" id="activityDialog" aria-labelledby="activityDialogTitle">
+  <div class="activity-dialog-shell">
+    <header class="activity-dialog-header">
+      <div>
+        <p class="dialog-eyebrow">Khaemenes Algebra I · Activity Window</p>
+        <h2 id="activityDialogTitle">Math Activity</h2>
+      </div>
+      <button class="dialog-close" id="activityDialogClose" type="button" aria-label="Close activity window">×</button>
+    </header>
+    <div class="activity-dialog-toolbar">
+      <span id="activityDialogStatus" role="status" aria-live="polite">Choose a game or tool.</span>
+      <a class="btn" id="activityOpenSeparate" href="https://vervenveda.com/arcade.github.io/" target="_blank" rel="noopener">Open separately</a>
+    </div>
+    <iframe class="activity-frame" id="activityFrame" title="Mathematics game or tool" src="about:blank" loading="lazy" allow="fullscreen" sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-downloads"></iframe>
+  </div>
+</dialog>
 
 <footer class="footer"><div class="wrap footer-inner">
   <span>KH-MATH-A1 · Open-Age Algebra I</span>
@@ -254,6 +353,7 @@ textarea{min-height:130px;resize:vertical}
   const PIN_KEY = "khaemenes-high-pinned-courses-v2";
   const COURSE_ID = "algebra-1";
   const CALCULATOR_URL = "../tools/calculator";
+  const ACTIVITY_FALLBACK_URL = "https://vervenveda.com/arcade.github.io/";
   const $ = (s, root=document) => root.querySelector(s);
   const $$ = (s, root=document) => [...root.querySelectorAll(s)];
 
@@ -288,6 +388,51 @@ textarea{min-height:130px;resize:vertical}
     if(status) status.textContent = wasPinned
       ? "Algebra I was removed from the student profile."
       : "Algebra I was pinned to the top of the student profile.";
+  }
+
+  function closeHeaderMenus(){
+    ["courseMenu","gamesMenu"].forEach(id=>{const menu=document.getElementById(id);if(menu)menu.open=false});
+  }
+
+  function openGamesView(){
+    $$(".view").forEach(view=>view.classList.toggle("active",view.id==="view-games"));
+    $$("[data-view]").forEach(control=>control.classList.remove("active"));
+    $$("[data-games-view]").forEach(control=>control.classList.add("active"));
+    closeHeaderMenus();
+    history.replaceState(null,"","#games");
+    const nav=$(".quick-nav");
+    if(nav) window.scrollTo({top:Math.max(0,nav.offsetTop-76),behavior:"smooth"});
+  }
+
+  function openActivity(title,url){
+    const dialog=$("#activityDialog"),frame=$("#activityFrame"),heading=$("#activityDialogTitle"),status=$("#activityDialogStatus"),separate=$("#activityOpenSeparate");
+    if(!dialog||!frame||!heading||!status||!separate)return;
+    const safeUrl=url||ACTIVITY_FALLBACK_URL;
+    heading.textContent=title||"Math Activity";
+    status.textContent=`Loading ${title||"activity"}…`;
+    separate.href=safeUrl;
+    frame.src="about:blank";
+    closeHeaderMenus();
+    if(typeof dialog.showModal==="function"&&!dialog.open)dialog.showModal();else dialog.setAttribute("open","");
+    requestAnimationFrame(()=>{frame.src=safeUrl});
+  }
+
+  function closeActivity(){
+    const dialog=$("#activityDialog"),frame=$("#activityFrame"),status=$("#activityDialogStatus");
+    if(frame)frame.src="about:blank";
+    if(status)status.textContent="Activity closed.";
+    if(dialog?.open&&typeof dialog.close==="function")dialog.close();else dialog?.removeAttribute("open");
+  }
+
+  function injectGamesCard(){
+    const grid=$("#view-dashboard .grid");
+    if(!grid||$("#dashboardGamesCard"))return;
+    const card=document.createElement("article");
+    card.className="card col3 dashboard-games-card";
+    card.id="dashboardGamesCard";
+    card.innerHTML='<h4>Math Games &amp; Tools</h4><p>Open logic, pattern, geometry, calculator, CAD, and Arcade activities without leaving Algebra I.</p><button class="btn" type="button" data-games-view>Open Activities</button>';
+    grid.append(card);
+    card.querySelector("[data-games-view]")?.addEventListener("click",openGamesView);
   }
 
   function activateCalculator(root=document){
@@ -342,15 +487,35 @@ textarea{min-height:130px;resize:vertical}
   }, true);
 
   $("#pinCourseButton")?.addEventListener("click", togglePin);
+  $$('[data-games-view]').forEach(control=>control.addEventListener('click',openGamesView));
+  document.addEventListener('click',event=>{
+    const launcher=event.target.closest('[data-launch-url]');
+    if(launcher){event.preventDefault();openActivity(launcher.dataset.launchTitle,launcher.dataset.launchUrl)}
+    if(event.target.closest('[data-view]'))$$('[data-games-view]').forEach(control=>control.classList.remove('active'));
+  });
+  $("#activityDialogClose")?.addEventListener("click",closeActivity);
+  $("#activityFrame")?.addEventListener("load",()=>{
+    const status=$("#activityDialogStatus"),title=$("#activityDialogTitle")?.textContent||"Activity";
+    if(status&&$("#activityFrame")?.src!=="about:blank")status.textContent=`${title} is ready. Your Algebra I page remains open behind this window.`;
+  });
+  $("#activityDialog")?.addEventListener("click",event=>{if(event.target===$("#activityDialog"))closeActivity()});
   window.addEventListener("storage", event => {
     if(event.key === PIN_KEY) updatePinButton();
   });
   document.addEventListener("click", event => {
-    const menu = $("#courseMenu");
-    if(menu?.open && !menu.contains(event.target)) menu.open = false;
+    ["courseMenu","gamesMenu"].forEach(id=>{
+      const menu=document.getElementById(id);
+      if(menu?.open&&!menu.contains(event.target))menu.open=false;
+    });
   });
+  $("#courseMenu")?.addEventListener("toggle",()=>{if($("#courseMenu")?.open){const other=$("#gamesMenu");if(other)other.open=false}});
+  $("#gamesMenu")?.addEventListener("toggle",()=>{if($("#gamesMenu")?.open){const other=$("#courseMenu");if(other)other.open=false}});
   document.addEventListener("keydown", event => {
-    if(event.key === "Escape") closeMenu();
+    if(event.key === "Escape"){
+      closeMenu();
+      const gamesMenu=$("#gamesMenu");if(gamesMenu)gamesMenu.open=false;
+      if($("#activityDialog")?.open)closeActivity();
+    }
   });
 
   const observer = new MutationObserver(records => {
@@ -358,16 +523,19 @@ textarea{min-height:130px;resize:vertical}
       if(node.nodeType !== 1) return;
       activateCalculator(node);
       neutralizeGradeLabels(node);
+      injectGamesCard();
     }));
   });
   observer.observe($("#main"), {subtree:true, childList:true});
 
   activateCalculator();
   neutralizeGradeLabels();
+  injectGamesCard();
   updatePinButton();
 
   const requested = location.hash.slice(1);
-  if(["dashboard","week","scope","units","practice","assessments","gradebook","portfolio","teacher"].includes(requested)){
+  if(requested==="games") requestAnimationFrame(openGamesView);
+  else if(["dashboard","week","scope","units","practice","assessments","gradebook","portfolio","teacher"].includes(requested)){
     requestAnimationFrame(() => document.querySelector(`[data-view="${requested}"]`)?.click());
   }
 })();
