@@ -1,0 +1,20 @@
+{
+  "unit": 1,
+  "title": "Foundations, Constructions & Geometric Reasoning",
+  "weeks": [
+    1,
+    2
+  ],
+  "essential": "How do precise definitions, constructions, logic, and proof establish trustworthy geometric conclusions?",
+  "project": "Classical Construction Portfolio & Proof Gallery",
+  "lesson_ids": [
+    "u01-l01",
+    "u01-l02",
+    "u01-l03",
+    "u01-l04",
+    "u01-l05",
+    "u01-l06"
+  ],
+  "lesson_count": 6,
+  "mastery_target": 80
+}

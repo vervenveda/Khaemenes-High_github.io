@@ -1,0 +1,22 @@
+{
+  "unit": 3,
+  "title": "Triangle Congruence & Proof",
+  "weeks": [
+    6,
+    7,
+    8
+  ],
+  "essential": "How can limited measurements prove that triangles and their corresponding parts must agree?",
+  "project": "Triangle-Center Construction & Congruence Defense",
+  "lesson_ids": [
+    "u03-l01",
+    "u03-l02",
+    "u03-l03",
+    "u03-l04",
+    "u03-l05",
+    "u03-l06",
+    "u03-l07"
+  ],
+  "lesson_count": 7,
+  "mastery_target": 80
+}

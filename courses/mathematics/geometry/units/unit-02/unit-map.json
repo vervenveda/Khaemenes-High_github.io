@@ -1,0 +1,22 @@
+{
+  "unit": 2,
+  "title": "Transformations, Symmetry & Congruence",
+  "weeks": [
+    3,
+    4,
+    5
+  ],
+  "essential": "How do transformations preserve, alter, and organize figures in the plane?",
+  "project": "Arcade Symmetry Studio & Transformation Design",
+  "lesson_ids": [
+    "u02-l01",
+    "u02-l02",
+    "u02-l03",
+    "u02-l04",
+    "u02-l05",
+    "u02-l06",
+    "u02-l07"
+  ],
+  "lesson_count": 7,
+  "mastery_target": 80
+}

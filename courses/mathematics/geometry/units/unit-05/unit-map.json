@@ -1,0 +1,22 @@
+{
+  "unit": 5,
+  "title": "Similarity, Dilations & Proportional Reasoning",
+  "weeks": [
+    11,
+    12,
+    13
+  ],
+  "essential": "How do scale and proportional structure connect figures, maps, models, and indirect measurement?",
+  "project": "Scale Model & Indirect Measurement Field Study",
+  "lesson_ids": [
+    "u05-l01",
+    "u05-l02",
+    "u05-l03",
+    "u05-l04",
+    "u05-l05",
+    "u05-l06",
+    "u05-l07"
+  ],
+  "lesson_count": 7,
+  "mastery_target": 80
+}

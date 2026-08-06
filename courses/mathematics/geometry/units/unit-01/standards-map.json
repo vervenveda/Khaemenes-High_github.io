@@ -1,0 +1,24 @@
+{
+  "unit": 1,
+  "domains": [
+    "Geometric foundations",
+    "Constructions",
+    "Logic and proof",
+    "Measurement precision"
+  ],
+  "practices": [
+    "Make sense of problems",
+    "Reason abstractly and quantitatively",
+    "Construct viable arguments",
+    "Model with mathematics",
+    "Use tools strategically",
+    "Attend to precision",
+    "Look for structure"
+  ],
+  "evidence": [
+    "Printable lesson work",
+    "Mastery check",
+    "Applied investigation",
+    "Reflection and correction"
+  ]
+}

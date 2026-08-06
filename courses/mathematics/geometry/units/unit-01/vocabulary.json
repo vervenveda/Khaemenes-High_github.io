@@ -1,0 +1,15 @@
+{
+  "unit": 1,
+  "terms": [
+    "point",
+    "line",
+    "plane",
+    "segment",
+    "ray",
+    "angle",
+    "conjecture",
+    "counterexample",
+    "theorem",
+    "proof"
+  ]
+}
