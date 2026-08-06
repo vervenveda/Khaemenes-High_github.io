@@ -1,0 +1,44 @@
+{
+  "unit": 3,
+  "title": "Polynomial Equations, Division & Graphs",
+  "weeks": 3,
+  "essential_question": "How can division, factor relationships, multiplicity, and graph features expose every important part of a polynomial model?",
+  "project": "Polynomial Graph Reconstruction & Model Defense",
+  "lessons": [
+    {
+      "id": "u03-l01",
+      "title": "Long Division of Polynomials",
+      "path": "lessons/u03-l01.html"
+    },
+    {
+      "id": "u03-l02",
+      "title": "Synthetic Division & Efficient Evaluation",
+      "path": "lessons/u03-l02.html"
+    },
+    {
+      "id": "u03-l03",
+      "title": "Remainder and Factor Theorems",
+      "path": "lessons/u03-l03.html"
+    },
+    {
+      "id": "u03-l04",
+      "title": "Rational Root Theorem & Candidate Zeros",
+      "path": "lessons/u03-l04.html"
+    },
+    {
+      "id": "u03-l05",
+      "title": "Solving Higher-Degree Polynomial Equations",
+      "path": "lessons/u03-l05.html"
+    },
+    {
+      "id": "u03-l06",
+      "title": "Zeros, Multiplicity & Graph Behavior",
+      "path": "lessons/u03-l06.html"
+    },
+    {
+      "id": "u03-l07",
+      "title": "Polynomial Regression, Interpolation & Model Limits",
+      "path": "lessons/u03-l07.html"
+    }
+  ]
+}

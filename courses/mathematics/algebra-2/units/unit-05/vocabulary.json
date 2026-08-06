@@ -1,0 +1,118 @@
+{
+  "unit": 5,
+  "title": "Radical Functions & Rational Exponents",
+  "terms": [
+    {
+      "en": "rational",
+      "es": "rational",
+      "fr": "rational",
+      "ar": "rational",
+      "pt": "rational",
+      "definition": "Core term used in Rational Exponents & Radical Equivalence."
+    },
+    {
+      "en": "exponents",
+      "es": "exponents",
+      "fr": "exponents",
+      "ar": "exponents",
+      "pt": "exponents",
+      "definition": "Core term used in Rational Exponents & Radical Equivalence."
+    },
+    {
+      "en": "radical",
+      "es": "radical",
+      "fr": "radical",
+      "ar": "radical",
+      "pt": "radical",
+      "definition": "Core term used in Rational Exponents & Radical Equivalence."
+    },
+    {
+      "en": "simplifying",
+      "es": "simplifying",
+      "fr": "simplifying",
+      "ar": "simplifying",
+      "pt": "simplifying",
+      "definition": "Core term used in Simplifying Radical Expressions."
+    },
+    {
+      "en": "expressions",
+      "es": "expressions",
+      "fr": "expressions",
+      "ar": "expressions",
+      "pt": "expressions",
+      "definition": "Core term used in Simplifying Radical Expressions."
+    },
+    {
+      "en": "operations",
+      "es": "operations",
+      "fr": "operations",
+      "ar": "operations",
+      "pt": "operations",
+      "definition": "Core term used in Operations with Radicals & Rationalizing."
+    },
+    {
+      "en": "with",
+      "es": "with",
+      "fr": "with",
+      "ar": "with",
+      "pt": "with",
+      "definition": "Core term used in Operations with Radicals & Rationalizing."
+    },
+    {
+      "en": "radicals",
+      "es": "radicals",
+      "fr": "radicals",
+      "ar": "radicals",
+      "pt": "radicals",
+      "definition": "Core term used in Operations with Radicals & Rationalizing."
+    },
+    {
+      "en": "solving",
+      "es": "solving",
+      "fr": "solving",
+      "ar": "solving",
+      "pt": "solving",
+      "definition": "Core term used in Solving Radical Equations & Checking Solutions."
+    },
+    {
+      "en": "equations",
+      "es": "equations",
+      "fr": "equations",
+      "ar": "equations",
+      "pt": "equations",
+      "definition": "Core term used in Solving Radical Equations & Checking Solutions."
+    },
+    {
+      "en": "functions",
+      "es": "functions",
+      "fr": "functions",
+      "ar": "functions",
+      "pt": "functions",
+      "definition": "Core term used in Radical Functions, Domains & Transformations."
+    },
+    {
+      "en": "domains",
+      "es": "domains",
+      "fr": "domains",
+      "ar": "domains",
+      "pt": "domains",
+      "definition": "Core term used in Radical Functions, Domains & Transformations."
+    },
+    {
+      "en": "models",
+      "es": "models",
+      "fr": "models",
+      "ar": "models",
+      "pt": "models",
+      "definition": "Core term used in Radical Models, Geometry & Measurement Error."
+    },
+    {
+      "en": "geometry",
+      "es": "geometry",
+      "fr": "geometry",
+      "ar": "geometry",
+      "pt": "geometry",
+      "definition": "Core term used in Radical Models, Geometry & Measurement Error."
+    }
+  ]
+}

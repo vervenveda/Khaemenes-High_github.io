@@ -1,0 +1,39 @@
+{
+  "unit": 5,
+  "title": "Radical Functions & Rational Exponents",
+  "weeks": 2,
+  "essential_question": "How do radicals, rational exponents, inverse relationships, and domain restrictions describe quantities that grow by roots and powers?",
+  "project": "Radical Measurement & Inverse-Relationship Lab",
+  "lessons": [
+    {
+      "id": "u05-l01",
+      "title": "Rational Exponents & Radical Equivalence",
+      "path": "lessons/u05-l01.html"
+    },
+    {
+      "id": "u05-l02",
+      "title": "Simplifying Radical Expressions",
+      "path": "lessons/u05-l02.html"
+    },
+    {
+      "id": "u05-l03",
+      "title": "Operations with Radicals & Rationalizing",
+      "path": "lessons/u05-l03.html"
+    },
+    {
+      "id": "u05-l04",
+      "title": "Solving Radical Equations & Checking Solutions",
+      "path": "lessons/u05-l04.html"
+    },
+    {
+      "id": "u05-l05",
+      "title": "Radical Functions, Domains & Transformations",
+      "path": "lessons/u05-l05.html"
+    },
+    {
+      "id": "u05-l06",
+      "title": "Radical Models, Geometry & Measurement Error",
+      "path": "lessons/u05-l06.html"
+    }
+  ]
+}

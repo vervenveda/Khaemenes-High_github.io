@@ -1,0 +1,49 @@
+{
+  "unit": 2,
+  "title": "Polynomial Functions & Complex Numbers",
+  "weeks": 3,
+  "essential_question": "How do polynomial structure, complex numbers, zeros, and end behavior work together to describe nonlinear change?",
+  "project": "Polynomial Structure & Complex-Zero Investigation",
+  "lessons": [
+    {
+      "id": "u02-l01",
+      "title": "Polynomial Vocabulary, Degree & Structure",
+      "path": "lessons/u02-l01.html"
+    },
+    {
+      "id": "u02-l02",
+      "title": "Polynomial Operations & Equivalent Forms",
+      "path": "lessons/u02-l02.html"
+    },
+    {
+      "id": "u02-l03",
+      "title": "Power Functions & End Behavior",
+      "path": "lessons/u02-l03.html"
+    },
+    {
+      "id": "u02-l04",
+      "title": "The Imaginary Unit & Powers of i",
+      "path": "lessons/u02-l04.html"
+    },
+    {
+      "id": "u02-l05",
+      "title": "Operations with Complex Numbers",
+      "path": "lessons/u02-l05.html"
+    },
+    {
+      "id": "u02-l06",
+      "title": "Quadratic Equations with Complex Solutions",
+      "path": "lessons/u02-l06.html"
+    },
+    {
+      "id": "u02-l07",
+      "title": "Conjugates, Modulus & the Complex Plane",
+      "path": "lessons/u02-l07.html"
+    },
+    {
+      "id": "u02-l08",
+      "title": "Fundamental Theorem of Algebra & Complete Factorization",
+      "path": "lessons/u02-l08.html"
+    }
+  ]
+}

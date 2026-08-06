@@ -1,0 +1,134 @@
+{
+  "unit": 1,
+  "title": "Advanced Functions, Transformations & Inverses",
+  "terms": [
+    {
+      "en": "function",
+      "es": "function",
+      "fr": "function",
+      "ar": "function",
+      "pt": "function",
+      "definition": "Core term used in Function Language, Notation & Evaluation."
+    },
+    {
+      "en": "language",
+      "es": "language",
+      "fr": "language",
+      "ar": "language",
+      "pt": "language",
+      "definition": "Core term used in Function Language, Notation & Evaluation."
+    },
+    {
+      "en": "notation",
+      "es": "notation",
+      "fr": "notation",
+      "ar": "notation",
+      "pt": "notation",
+      "definition": "Core term used in Function Language, Notation & Evaluation."
+    },
+    {
+      "en": "domain",
+      "es": "domain",
+      "fr": "domain",
+      "ar": "domain",
+      "pt": "domain",
+      "definition": "Core term used in Domain, Range, Intervals & Constraints."
+    },
+    {
+      "en": "range",
+      "es": "range",
+      "fr": "range",
+      "ar": "range",
+      "pt": "range",
+      "definition": "Core term used in Domain, Range, Intervals & Constraints."
+    },
+    {
+      "en": "intervals",
+      "es": "intervals",
+      "fr": "intervals",
+      "ar": "intervals",
+      "pt": "intervals",
+      "definition": "Core term used in Domain, Range, Intervals & Constraints."
+    },
+    {
+      "en": "transformations",
+      "es": "transformations",
+      "fr": "transformations",
+      "ar": "transformations",
+      "pt": "transformations",
+      "definition": "Core term used in Transformations of Parent Functions."
+    },
+    {
+      "en": "parent",
+      "es": "parent",
+      "fr": "parent",
+      "ar": "parent",
+      "pt": "parent",
+      "definition": "Core term used in Transformations of Parent Functions."
+    },
+    {
+      "en": "functions",
+      "es": "functions",
+      "fr": "functions",
+      "ar": "functions",
+      "pt": "functions",
+      "definition": "Core term used in Transformations of Parent Functions."
+    },
+    {
+      "en": "composition",
+      "es": "composition",
+      "fr": "composition",
+      "ar": "composition",
+      "pt": "composition",
+      "definition": "Core term used in Function Composition & Decomposition."
+    },
+    {
+      "en": "decomposition",
+      "es": "decomposition",
+      "fr": "decomposition",
+      "ar": "decomposition",
+      "pt": "decomposition",
+      "definition": "Core term used in Function Composition & Decomposition."
+    },
+    {
+      "en": "inverse",
+      "es": "inverse",
+      "fr": "inverse",
+      "ar": "inverse",
+      "pt": "inverse",
+      "definition": "Core term used in Inverse Functions & One-to-One Relationships."
+    },
+    {
+      "en": "one-to-one",
+      "es": "one-to-one",
+      "fr": "one-to-one",
+      "ar": "one-to-one",
+      "pt": "one-to-one",
+      "definition": "Core term used in Inverse Functions & One-to-One Relationships."
+    },
+    {
+      "en": "piecewise",
+      "es": "piecewise",
+      "fr": "piecewise",
+      "ar": "piecewise",
+      "pt": "piecewise",
+      "definition": "Core term used in Piecewise, Absolute-Value & Step Functions."
+    },
+    {
+      "en": "absolute-value",
+      "es": "absolute-value",
+      "fr": "absolute-value",
+      "ar": "absolute-value",
+      "pt": "absolute-value",
+      "definition": "Core term used in Piecewise, Absolute-Value & Step Functions."
+    },
+    {
+      "en": "step",
+      "es": "step",
+      "fr": "step",
+      "ar": "step",
+      "pt": "step",
+      "definition": "Core term used in Piecewise, Absolute-Value & Step Functions."
+    }
+  ]
+}
