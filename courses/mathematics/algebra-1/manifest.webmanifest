@@ -1,0 +1,30 @@
+{
+  "name": "Khaemenes Global Algebra I & Integrated Mathematics I",
+  "short_name": "Khaemenes Algebra I",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ece9e2",
+  "theme_color": "#17344a",
+  "categories": [
+    "education"
+  ],
+  "shortcuts": [
+    {
+      "name": "Weekly Classroom",
+      "url": "./#week"
+    },
+    {
+      "name": "Readiness Diagnostic",
+      "url": "./diagnostic/"
+    },
+    {
+      "name": "Midterm",
+      "url": "./assessments/midterm-units-01-06.html"
+    },
+    {
+      "name": "Final Examination",
+      "url": "./assessments/final-exam-36-weeks.html"
+    }
+  ]
+}
