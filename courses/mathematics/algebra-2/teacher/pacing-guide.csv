@@ -1,0 +1,37 @@
+Week,Unit,Focus,Essential Question,Detailed Route
+1,Milestone,Readiness Diagnostic & Algebra I Bridge,"Which prerequisite skills are secure, and which require targeted review before advanced work?",diagnostic/
+2,1,"Advanced Functions, Transformations & Inverses · Part 1","How do notation, transformations, composition, and inverse thinking reveal the structure and behavior of functions?",units/unit-01/
+3,1,"Advanced Functions, Transformations & Inverses · Part 2","How do notation, transformations, composition, and inverse thinking reveal the structure and behavior of functions?",units/unit-01/
+4,2,Polynomial Functions & Complex Numbers · Part 1,"How do polynomial structure, complex numbers, zeros, and end behavior work together to describe nonlinear change?",units/unit-02/
+5,2,Polynomial Functions & Complex Numbers · Part 2,"How do polynomial structure, complex numbers, zeros, and end behavior work together to describe nonlinear change?",units/unit-02/
+6,2,Polynomial Functions & Complex Numbers · Part 3,"How do polynomial structure, complex numbers, zeros, and end behavior work together to describe nonlinear change?",units/unit-02/
+7,3,"Polynomial Equations, Division & Graphs · Part 1","How can division, factor relationships, multiplicity, and graph features expose every important part of a polynomial model?",units/unit-03/
+8,3,"Polynomial Equations, Division & Graphs · Part 2","How can division, factor relationships, multiplicity, and graph features expose every important part of a polynomial model?",units/unit-03/
+9,3,"Polynomial Equations, Division & Graphs · Part 3","How can division, factor relationships, multiplicity, and graph features expose every important part of a polynomial model?",units/unit-03/
+10,4,"Rational Expressions, Equations & Functions · Part 1","How do excluded values, asymptotes, holes, and rates of change shape rational expressions and models?",units/unit-04/
+11,4,"Rational Expressions, Equations & Functions · Part 2","How do excluded values, asymptotes, holes, and rates of change shape rational expressions and models?",units/unit-04/
+12,4,"Rational Expressions, Equations & Functions · Part 3","How do excluded values, asymptotes, holes, and rates of change shape rational expressions and models?",units/unit-04/
+13,5,Radical Functions & Rational Exponents · Part 1,"How do radicals, rational exponents, inverse relationships, and domain restrictions describe quantities that grow by roots and powers?",units/unit-05/
+14,5,Radical Functions & Rational Exponents · Part 2,"How do radicals, rational exponents, inverse relationships, and domain restrictions describe quantities that grow by roots and powers?",units/unit-05/
+15,6,Exponential Functions & Growth Models · Part 1,"How do repeated multiplication, percent change, and continuous growth create exponential patterns and decisions?",units/unit-06/
+16,6,Exponential Functions & Growth Models · Part 2,"How do repeated multiplication, percent change, and continuous growth create exponential patterns and decisions?",units/unit-06/
+17,6,Exponential Functions & Growth Models · Part 3,"How do repeated multiplication, percent change, and continuous growth create exponential patterns and decisions?",units/unit-06/
+18,Milestone,"Midpoint Synthesis, Corrections & Examination","Can the learner connect advanced functions, polynomial structure, rational expressions, radicals, and exponential models with verified reasoning?",assessments/midterm.html
+19,7,Logarithmic Functions & Equations · Part 1,"How do logarithms reverse exponential processes, compress scale, and reveal time, magnitude, and rate?",units/unit-07/
+20,7,Logarithmic Functions & Equations · Part 2,"How do logarithms reverse exponential processes, compress scale, and reveal time, magnitude, and rate?",units/unit-07/
+21,7,Logarithmic Functions & Equations · Part 3,"How do logarithms reverse exponential processes, compress scale, and reveal time, magnitude, and rate?",units/unit-07/
+22,8,Nonlinear Systems & Matrices · Part 1,"How can multiple equations, matrices, and graphical intersections describe systems with several interacting constraints?",units/unit-08/
+23,8,Nonlinear Systems & Matrices · Part 2,"How can multiple equations, matrices, and graphical intersections describe systems with several interacting constraints?",units/unit-08/
+24,9,"Sequences, Series & the Binomial Theorem · Part 1","How do recursive and explicit rules describe patterns, accumulated change, and finite or infinite sums?",units/unit-09/
+25,9,"Sequences, Series & the Binomial Theorem · Part 2","How do recursive and explicit rules describe patterns, accumulated change, and finite or infinite sums?",units/unit-09/
+26,9,"Sequences, Series & the Binomial Theorem · Part 3","How do recursive and explicit rules describe patterns, accumulated change, and finite or infinite sums?",units/unit-09/
+27,10,Trigonometric Functions & Periodic Models · Part 1,"How do angle measure, the unit circle, graphs, and periodic functions model rotation, waves, cycles, and repeated behavior?",units/unit-10/
+28,10,Trigonometric Functions & Periodic Models · Part 2,"How do angle measure, the unit circle, graphs, and periodic functions model rotation, waves, cycles, and repeated behavior?",units/unit-10/
+29,10,Trigonometric Functions & Periodic Models · Part 3,"How do angle measure, the unit circle, graphs, and periodic functions model rotation, waves, cycles, and repeated behavior?",units/unit-10/
+30,10,Trigonometric Functions & Periodic Models · Part 4,"How do angle measure, the unit circle, graphs, and periodic functions model rotation, waves, cycles, and repeated behavior?",units/unit-10/
+31,11,"Trigonometric Identities, Equations & Oblique Triangles · Part 1","How do identities and triangle laws transform expressions, solve periodic equations, and determine unknown measurements?",units/unit-11/
+32,11,"Trigonometric Identities, Equations & Oblique Triangles · Part 2","How do identities and triangle laws transform expressions, solve periodic equations, and determine unknown measurements?",units/unit-11/
+33,11,"Trigonometric Identities, Equations & Oblique Triangles · Part 3","How do identities and triangle laws transform expressions, solve periodic equations, and determine unknown measurements?",units/unit-11/
+34,12,"Probability, Distributions & Statistical Inference · Part 1","How do counting, probability models, distributions, and sampling support responsible conclusions under uncertainty?",units/unit-12/
+35,12,"Probability, Distributions & Statistical Inference · Part 2","How do counting, probability models, distributions, and sampling support responsible conclusions under uncertainty?",units/unit-12/
+36,13,Advanced Mathematical Modelling Capstone,"How can a transparent, tested, and ethically communicated mathematical model support a real decision?",units/unit-13/
