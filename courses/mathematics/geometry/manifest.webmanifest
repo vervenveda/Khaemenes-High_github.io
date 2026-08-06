@@ -1,0 +1,16 @@
+{
+  "name": "Khaemenes Geometry & Spatial Design",
+  "short_name": "Geometry",
+  "id": "./?app=geometry",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090b10",
+  "theme_color": "#090b10",
+  "description": "Open-age 36-week Geometry course with printable visual lessons, proof, CAD, Arcade labs, assessments, and records.",
+  "categories": [
+    "education",
+    "mathematics",
+    "productivity"
+  ]
+}
