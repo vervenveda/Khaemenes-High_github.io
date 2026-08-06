@@ -1,0 +1,56 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "ar": "العربية",
+    "pt": "Português"
+  },
+  "terms": [
+    {
+      "id": "standard-form",
+      "en": "standard form",
+      "es": "forma estándar",
+      "fr": "forme standard",
+      "ar": "الصيغة القياسية",
+      "pt": "forma padrão",
+      "definition": "Polynomial terms in descending exponent order."
+    },
+    {
+      "id": "leading-coefficient",
+      "en": "leading coefficient",
+      "es": "coeficiente principal",
+      "fr": "coefficient dominant",
+      "ar": "المعامل الرئيسي",
+      "pt": "coeficiente líder",
+      "definition": "Coefficient of the highest-degree term."
+    },
+    {
+      "id": "factored-form",
+      "en": "factored form",
+      "es": "forma factorizada",
+      "fr": "forme factorisée",
+      "ar": "صيغة محللة",
+      "pt": "forma fatorada",
+      "definition": "An expression written as a product."
+    },
+    {
+      "id": "trinomial",
+      "en": "trinomial",
+      "es": "trinomio",
+      "fr": "trinôme",
+      "ar": "ثلاثي الحدود",
+      "pt": "trinômio",
+      "definition": "A polynomial with three terms."
+    },
+    {
+      "id": "zero",
+      "en": "zero",
+      "es": "cero",
+      "fr": "zéro",
+      "ar": "صفر الدالة",
+      "pt": "zero",
+      "definition": "An input making a function equal zero."
+    }
+  ]
+}

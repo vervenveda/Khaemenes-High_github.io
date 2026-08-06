@@ -1,0 +1,65 @@
+{
+  "unit": {
+    "number": 9,
+    "title": "Polynomials, Operations & Factoring",
+    "weeks": 3,
+    "essential_question": "How do polynomial operations and factoring expose structure, zeros, and geometric relationships?",
+    "big_ideas": [
+      "Polynomial operations follow real-number properties.",
+      "Factoring reveals zeros.",
+      "Special products expose patterns.",
+      "Polynomial forms support design models."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u09-l01",
+      "number": 1,
+      "title": "Polynomial Vocabulary & Standard Form",
+      "week": 24,
+      "file": "lessons/lesson-01-polynomial-vocabulary-standard-form.html"
+    },
+    {
+      "id": "u09-l02",
+      "number": 2,
+      "title": "Adding & Subtracting Polynomials",
+      "week": 24,
+      "file": "lessons/lesson-02-adding-subtracting-polynomials.html"
+    },
+    {
+      "id": "u09-l03",
+      "number": 3,
+      "title": "Multiplying Monomials & Polynomials",
+      "week": 24,
+      "file": "lessons/lesson-03-multiplying-monomials-polynomials.html"
+    },
+    {
+      "id": "u09-l04",
+      "number": 4,
+      "title": "Binomial Products & Special Products",
+      "week": 25,
+      "file": "lessons/lesson-04-binomial-products-special-products.html"
+    },
+    {
+      "id": "u09-l05",
+      "number": 5,
+      "title": "Factoring the Greatest Common Factor",
+      "week": 25,
+      "file": "lessons/lesson-05-factoring-the-greatest-common-factor.html"
+    },
+    {
+      "id": "u09-l06",
+      "number": 6,
+      "title": "Factoring Trinomials & Difference of Squares",
+      "week": 26,
+      "file": "lessons/lesson-06-factoring-trinomials-difference-of-squares.html"
+    },
+    {
+      "id": "u09-l07",
+      "number": 7,
+      "title": "Zeros, Factors & Polynomial Modelling",
+      "week": 26,
+      "file": "lessons/lesson-07-zeros-factors-polynomial-modelling.html"
+    }
+  ]
+}

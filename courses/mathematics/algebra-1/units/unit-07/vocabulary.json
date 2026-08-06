@@ -1,0 +1,56 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "ar": "العربية",
+    "pt": "Português"
+  },
+  "terms": [
+    {
+      "id": "system-of-equations",
+      "en": "system of equations",
+      "es": "sistema de ecuaciones",
+      "fr": "système d’équations",
+      "ar": "نظام معادلات",
+      "pt": "sistema de equações",
+      "definition": "Equations considered simultaneously."
+    },
+    {
+      "id": "substitution",
+      "en": "substitution",
+      "es": "sustitución",
+      "fr": "substitution",
+      "ar": "تعويض",
+      "pt": "substituição",
+      "definition": "Replacing a variable with an equivalent expression."
+    },
+    {
+      "id": "elimination",
+      "en": "elimination",
+      "es": "eliminación",
+      "fr": "élimination",
+      "ar": "حذف",
+      "pt": "eliminação",
+      "definition": "Combining equations to remove a variable."
+    },
+    {
+      "id": "feasible-region",
+      "en": "feasible region",
+      "es": "región factible",
+      "fr": "région réalisable",
+      "ar": "منطقة ممكنة",
+      "pt": "região viável",
+      "definition": "The overlap satisfying all constraints."
+    },
+    {
+      "id": "constraint",
+      "en": "constraint",
+      "es": "restricción",
+      "fr": "contrainte",
+      "ar": "قيد",
+      "pt": "restrição",
+      "definition": "A condition limiting acceptable solutions."
+    }
+  ]
+}

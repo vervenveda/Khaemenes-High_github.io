@@ -1,0 +1,56 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "ar": "العربية",
+    "pt": "Português"
+  },
+  "terms": [
+    {
+      "id": "slope",
+      "en": "slope",
+      "es": "pendiente",
+      "fr": "pente",
+      "ar": "ميل",
+      "pt": "inclinação",
+      "definition": "Output change per input change."
+    },
+    {
+      "id": "y-intercept",
+      "en": "y-intercept",
+      "es": "intersección con y",
+      "fr": "ordonnée à l’origine",
+      "ar": "مقطع الصادات",
+      "pt": "intercepto em y",
+      "definition": "The output when input equals zero."
+    },
+    {
+      "id": "correlation",
+      "en": "correlation",
+      "es": "correlación",
+      "fr": "corrélation",
+      "ar": "ارتباط",
+      "pt": "correlação",
+      "definition": "Direction and strength of association."
+    },
+    {
+      "id": "regression",
+      "en": "regression",
+      "es": "regresión",
+      "fr": "régression",
+      "ar": "انحدار",
+      "pt": "regressão",
+      "definition": "A fitted model summarizing a trend."
+    },
+    {
+      "id": "residual",
+      "en": "residual",
+      "es": "residuo",
+      "fr": "résidu",
+      "ar": "باقٍ",
+      "pt": "resíduo",
+      "definition": "Observed minus predicted value."
+    }
+  ]
+}

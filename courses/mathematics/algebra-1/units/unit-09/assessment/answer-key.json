@@ -1,0 +1,180 @@
+{
+  "unit": 9,
+  "items": [
+    {
+      "id": "q0271",
+      "answer": "3",
+      "explanation": "The greatest exponent is 3."
+    },
+    {
+      "id": "q0272",
+      "answer": "3",
+      "explanation": "The greatest exponent is 3."
+    },
+    {
+      "id": "q0273",
+      "answer": "3",
+      "explanation": "The greatest exponent is 3."
+    },
+    {
+      "id": "q0274",
+      "answer": "3",
+      "explanation": "The greatest exponent is 3."
+    },
+    {
+      "id": "q0275",
+      "answer": "3",
+      "explanation": "The greatest exponent is 3."
+    },
+    {
+      "id": "q0276",
+      "answer": "16x²+2x",
+      "explanation": "Combine like degrees."
+    },
+    {
+      "id": "q0277",
+      "answer": "13x²+5x",
+      "explanation": "Combine like degrees."
+    },
+    {
+      "id": "q0278",
+      "answer": "12x²+3x",
+      "explanation": "Combine like degrees."
+    },
+    {
+      "id": "q0279",
+      "answer": "5x²+1x",
+      "explanation": "Combine like degrees."
+    },
+    {
+      "id": "q0280",
+      "answer": "6x²+5x",
+      "explanation": "Combine like degrees."
+    },
+    {
+      "id": "q0281",
+      "answer": "48x²+30x",
+      "explanation": "Distribute the monomial."
+    },
+    {
+      "id": "q0282",
+      "answer": "12x²+3x",
+      "explanation": "Distribute the monomial."
+    },
+    {
+      "id": "q0283",
+      "answer": "54x²+12x",
+      "explanation": "Distribute the monomial."
+    },
+    {
+      "id": "q0284",
+      "answer": "18x²+21x",
+      "explanation": "Distribute the monomial."
+    },
+    {
+      "id": "q0285",
+      "answer": "8x²+20x",
+      "explanation": "Distribute the monomial."
+    },
+    {
+      "id": "q0286",
+      "answer": "x²+8x+16",
+      "explanation": "(x+a)²=x²+2ax+a²."
+    },
+    {
+      "id": "q0287",
+      "answer": "x²+10x+25",
+      "explanation": "(x+a)²=x²+2ax+a²."
+    },
+    {
+      "id": "q0288",
+      "answer": "x²+6x+9",
+      "explanation": "(x+a)²=x²+2ax+a²."
+    },
+    {
+      "id": "q0289",
+      "answer": "x²+18x+81",
+      "explanation": "(x+a)²=x²+2ax+a²."
+    },
+    {
+      "id": "q0290",
+      "answer": "x²+12x+36",
+      "explanation": "(x+a)²=x²+2ax+a²."
+    },
+    {
+      "id": "q0291",
+      "answer": "7(4x+3)",
+      "explanation": "Factor the greatest shared factor."
+    },
+    {
+      "id": "q0292",
+      "answer": "5(6x+3)",
+      "explanation": "Factor the greatest shared factor."
+    },
+    {
+      "id": "q0293",
+      "answer": "6(9x+3)",
+      "explanation": "Factor the greatest shared factor."
+    },
+    {
+      "id": "q0294",
+      "answer": "7(6x+1)",
+      "explanation": "Factor the greatest shared factor."
+    },
+    {
+      "id": "q0295",
+      "answer": "3(6x+5)",
+      "explanation": "Factor the greatest shared factor."
+    },
+    {
+      "id": "q0296",
+      "answer": "(x+3)(x+5)",
+      "explanation": "Factors multiply to the constant and add to the middle coefficient."
+    },
+    {
+      "id": "q0297",
+      "answer": "(x+6)(x+5)",
+      "explanation": "Factors multiply to the constant and add to the middle coefficient."
+    },
+    {
+      "id": "q0298",
+      "answer": "(x+7)(x+2)",
+      "explanation": "Factors multiply to the constant and add to the middle coefficient."
+    },
+    {
+      "id": "q0299",
+      "answer": "(x+8)(x+3)",
+      "explanation": "Factors multiply to the constant and add to the middle coefficient."
+    },
+    {
+      "id": "q0300",
+      "answer": "(x+7)(x+5)",
+      "explanation": "Factors multiply to the constant and add to the middle coefficient."
+    },
+    {
+      "id": "q0301",
+      "answer": "8 and −4",
+      "explanation": "Set each factor equal to zero."
+    },
+    {
+      "id": "q0302",
+      "answer": "9 and −8",
+      "explanation": "Set each factor equal to zero."
+    },
+    {
+      "id": "q0303",
+      "answer": "5 and −6",
+      "explanation": "Set each factor equal to zero."
+    },
+    {
+      "id": "q0304",
+      "answer": "8 and −7",
+      "explanation": "Set each factor equal to zero."
+    },
+    {
+      "id": "q0305",
+      "answer": "5 and −4",
+      "explanation": "Set each factor equal to zero."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "unit": 8,
+  "items": [
+    {
+      "id": "q0241",
+      "answer": "x^17",
+      "explanation": "Add exponents for the same base."
+    },
+    {
+      "id": "q0242",
+      "answer": "x^8",
+      "explanation": "Add exponents for the same base."
+    },
+    {
+      "id": "q0243",
+      "answer": "x^8",
+      "explanation": "Add exponents for the same base."
+    },
+    {
+      "id": "q0244",
+      "answer": "x^12",
+      "explanation": "Add exponents for the same base."
+    },
+    {
+      "id": "q0245",
+      "answer": "x^14",
+      "explanation": "Add exponents for the same base."
+    },
+    {
+      "id": "q0246",
+      "answer": "x^9",
+      "explanation": "Add exponents for the same base."
+    },
+    {
+      "id": "q0247",
+      "answer": "x^9",
+      "explanation": "Add exponents for the same base."
+    },
+    {
+      "id": "q0248",
+      "answer": "x^11",
+      "explanation": "Add exponents for the same base."
+    },
+    {
+      "id": "q0249",
+      "answer": "x^10",
+      "explanation": "Add exponents for the same base."
+    },
+    {
+      "id": "q0250",
+      "answer": "x^13",
+      "explanation": "Add exponents for the same base."
+    },
+    {
+      "id": "q0251",
+      "answer": "4,200",
+      "explanation": "Move the decimal three places right."
+    },
+    {
+      "id": "q0252",
+      "answer": "4,200",
+      "explanation": "Move the decimal three places right."
+    },
+    {
+      "id": "q0253",
+      "answer": "5,200",
+      "explanation": "Move the decimal three places right."
+    },
+    {
+      "id": "q0254",
+      "answer": "8,200",
+      "explanation": "Move the decimal three places right."
+    },
+    {
+      "id": "q0255",
+      "answer": "9,200",
+      "explanation": "Move the decimal three places right."
+    },
+    {
+      "id": "q0256",
+      "answer": "15",
+      "explanation": "Add the constant difference."
+    },
+    {
+      "id": "q0257",
+      "answer": "35",
+      "explanation": "Add the constant difference."
+    },
+    {
+      "id": "q0258",
+      "answer": "33",
+      "explanation": "Add the constant difference."
+    },
+    {
+      "id": "q0259",
+      "answer": "24",
+      "explanation": "Add the constant difference."
+    },
+    {
+      "id": "q0260",
+      "answer": "45",
+      "explanation": "Add the constant difference."
+    },
+    {
+      "id": "q0261",
+      "answer": "P(1.08)^t",
+      "explanation": "Constant percent growth uses P(1+r)^t."
+    },
+    {
+      "id": "q0262",
+      "answer": "P(1.08)^t",
+      "explanation": "Constant percent growth uses P(1+r)^t."
+    },
+    {
+      "id": "q0263",
+      "answer": "P(1.08)^t",
+      "explanation": "Constant percent growth uses P(1+r)^t."
+    },
+    {
+      "id": "q0264",
+      "answer": "P(1.08)^t",
+      "explanation": "Constant percent growth uses P(1+r)^t."
+    },
+    {
+      "id": "q0265",
+      "answer": "P(1.08)^t",
+      "explanation": "Constant percent growth uses P(1+r)^t."
+    },
+    {
+      "id": "q0266",
+      "answer": "A=P(1+r)^t",
+      "explanation": "Annual compound growth multiplies by 1+r each year."
+    },
+    {
+      "id": "q0267",
+      "answer": "A=P(1+r)^t",
+      "explanation": "Annual compound growth multiplies by 1+r each year."
+    },
+    {
+      "id": "q0268",
+      "answer": "A=P(1+r)^t",
+      "explanation": "Annual compound growth multiplies by 1+r each year."
+    },
+    {
+      "id": "q0269",
+      "answer": "A=P(1+r)^t",
+      "explanation": "Annual compound growth multiplies by 1+r each year."
+    },
+    {
+      "id": "q0270",
+      "answer": "A=P(1+r)^t",
+      "explanation": "Annual compound growth multiplies by 1+r each year."
+    }
+  ]
+}

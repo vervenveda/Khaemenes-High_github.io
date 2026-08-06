@@ -1,0 +1,72 @@
+{
+  "unit": {
+    "number": 6,
+    "title": "Linear Functions, Regression & Modelling",
+    "weeks": 4,
+    "essential_question": "How can linear functions describe constant change, support prediction, and reveal model limitations?",
+    "big_ideas": [
+      "Slope measures output change per input.",
+      "Line forms reveal different information.",
+      "Regression summarizes trends.",
+      "Residuals and domain limits evaluate models."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u06-l01",
+      "number": 1,
+      "title": "Rate of Change & Slope",
+      "week": 15,
+      "file": "lessons/lesson-01-rate-of-change-slope.html"
+    },
+    {
+      "id": "u06-l02",
+      "number": 2,
+      "title": "Slope from Tables, Graphs & Points",
+      "week": 15,
+      "file": "lessons/lesson-02-slope-from-tables-graphs-points.html"
+    },
+    {
+      "id": "u06-l03",
+      "number": 3,
+      "title": "Slope-Intercept Form",
+      "week": 16,
+      "file": "lessons/lesson-03-slope-intercept-form.html"
+    },
+    {
+      "id": "u06-l04",
+      "number": 4,
+      "title": "Point-Slope & Standard Form",
+      "week": 16,
+      "file": "lessons/lesson-04-point-slope-standard-form.html"
+    },
+    {
+      "id": "u06-l05",
+      "number": 5,
+      "title": "Parallel & Perpendicular Lines",
+      "week": 17,
+      "file": "lessons/lesson-05-parallel-perpendicular-lines.html"
+    },
+    {
+      "id": "u06-l06",
+      "number": 6,
+      "title": "Scatterplots, Correlation & Lines of Fit",
+      "week": 17,
+      "file": "lessons/lesson-06-scatterplots-correlation-lines-of-fit.html"
+    },
+    {
+      "id": "u06-l07",
+      "number": 7,
+      "title": "Regression, Residuals & Model Limitations",
+      "week": 18,
+      "file": "lessons/lesson-07-regression-residuals-model-limitations.html"
+    },
+    {
+      "id": "u06-l08",
+      "number": 8,
+      "title": "Linear Modelling, Prediction & Decision-Making",
+      "week": 18,
+      "file": "lessons/lesson-08-linear-modelling-prediction-decision-making.html"
+    }
+  ]
+}

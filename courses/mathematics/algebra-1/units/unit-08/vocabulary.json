@@ -1,0 +1,56 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "ar": "العربية",
+    "pt": "Português"
+  },
+  "terms": [
+    {
+      "id": "exponent",
+      "en": "exponent",
+      "es": "exponente",
+      "fr": "exposant",
+      "ar": "أس",
+      "pt": "expoente",
+      "definition": "A number indicating repeated multiplication."
+    },
+    {
+      "id": "scientific-notation",
+      "en": "scientific notation",
+      "es": "notación científica",
+      "fr": "notation scientifique",
+      "ar": "ترميز علمي",
+      "pt": "notação científica",
+      "definition": "A coefficient times a power of ten."
+    },
+    {
+      "id": "arithmetic-sequence",
+      "en": "arithmetic sequence",
+      "es": "sucesión aritmética",
+      "fr": "suite arithmétique",
+      "ar": "متتالية حسابية",
+      "pt": "sequência aritmética",
+      "definition": "A sequence with constant difference."
+    },
+    {
+      "id": "geometric-sequence",
+      "en": "geometric sequence",
+      "es": "sucesión geométrica",
+      "fr": "suite géométrique",
+      "ar": "متتالية هندسية",
+      "pt": "sequência geométrica",
+      "definition": "A sequence with constant ratio."
+    },
+    {
+      "id": "compound-interest",
+      "en": "compound interest",
+      "es": "interés compuesto",
+      "fr": "intérêt composé",
+      "ar": "فائدة مركبة",
+      "pt": "juros compostos",
+      "definition": "Interest on principal and accumulated interest."
+    }
+  ]
+}

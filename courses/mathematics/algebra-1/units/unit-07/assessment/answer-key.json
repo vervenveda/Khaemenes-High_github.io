@@ -1,0 +1,180 @@
+{
+  "unit": 7,
+  "items": [
+    {
+      "id": "q0206",
+      "answer": "(6, 5)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0207",
+      "answer": "(2, 4)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0208",
+      "answer": "(4, 3)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0209",
+      "answer": "(8, 3)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0210",
+      "answer": "(7, 7)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0211",
+      "answer": "(9, 2)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0212",
+      "answer": "(8, 7)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0213",
+      "answer": "(9, 2)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0214",
+      "answer": "(2, 3)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0215",
+      "answer": "(7, 5)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0216",
+      "answer": "(3, 6)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0217",
+      "answer": "(2, 4)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0218",
+      "answer": "(3, 4)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0219",
+      "answer": "(6, 7)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0220",
+      "answer": "(3, 2)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0221",
+      "answer": "(9, 5)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0222",
+      "answer": "(7, 5)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0223",
+      "answer": "(7, 4)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0224",
+      "answer": "(2, 2)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0225",
+      "answer": "(3, 3)",
+      "explanation": "The pair must satisfy both equations."
+    },
+    {
+      "id": "q0226",
+      "answer": "substitution",
+      "explanation": "Substitution replaces a variable with an equivalent expression."
+    },
+    {
+      "id": "q0227",
+      "answer": "substitution",
+      "explanation": "Substitution replaces a variable with an equivalent expression."
+    },
+    {
+      "id": "q0228",
+      "answer": "substitution",
+      "explanation": "Substitution replaces a variable with an equivalent expression."
+    },
+    {
+      "id": "q0229",
+      "answer": "substitution",
+      "explanation": "Substitution replaces a variable with an equivalent expression."
+    },
+    {
+      "id": "q0230",
+      "answer": "substitution",
+      "explanation": "Substitution replaces a variable with an equivalent expression."
+    },
+    {
+      "id": "q0231",
+      "answer": "solid line y=2x−1",
+      "explanation": "Equality includes the boundary."
+    },
+    {
+      "id": "q0232",
+      "answer": "solid line y=2x−1",
+      "explanation": "Equality includes the boundary."
+    },
+    {
+      "id": "q0233",
+      "answer": "solid line y=2x−1",
+      "explanation": "Equality includes the boundary."
+    },
+    {
+      "id": "q0234",
+      "answer": "solid line y=2x−1",
+      "explanation": "Equality includes the boundary."
+    },
+    {
+      "id": "q0235",
+      "answer": "solid line y=2x−1",
+      "explanation": "Equality includes the boundary."
+    },
+    {
+      "id": "q0236",
+      "answer": "vertices",
+      "explanation": "Linear extrema occur at feasible vertices when bounded."
+    },
+    {
+      "id": "q0237",
+      "answer": "vertices",
+      "explanation": "Linear extrema occur at feasible vertices when bounded."
+    },
+    {
+      "id": "q0238",
+      "answer": "vertices",
+      "explanation": "Linear extrema occur at feasible vertices when bounded."
+    },
+    {
+      "id": "q0239",
+      "answer": "vertices",
+      "explanation": "Linear extrema occur at feasible vertices when bounded."
+    },
+    {
+      "id": "q0240",
+      "answer": "vertices",
+      "explanation": "Linear extrema occur at feasible vertices when bounded."
+    }
+  ]
+}

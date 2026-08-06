@@ -1,0 +1,58 @@
+{
+  "unit": {
+    "number": 8,
+    "title": "Exponents, Sequences & Exponential Functions",
+    "weeks": 2,
+    "essential_question": "How do repeated multiplication and constant percent change create exponential patterns?",
+    "big_ideas": [
+      "Exponent laws preserve equivalent forms.",
+      "Sequences distinguish additive and multiplicative change.",
+      "Exponential functions model constant percent change.",
+      "Time interval and units matter."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u08-l01",
+      "number": 1,
+      "title": "Exponent Laws & Equivalent Forms",
+      "week": 22,
+      "file": "lessons/lesson-01-exponent-laws-equivalent-forms.html"
+    },
+    {
+      "id": "u08-l02",
+      "number": 2,
+      "title": "Zero, Negative & Rational Exponents",
+      "week": 22,
+      "file": "lessons/lesson-02-zero-negative-rational-exponents.html"
+    },
+    {
+      "id": "u08-l03",
+      "number": 3,
+      "title": "Scientific Notation & Operations",
+      "week": 22,
+      "file": "lessons/lesson-03-scientific-notation-operations.html"
+    },
+    {
+      "id": "u08-l04",
+      "number": 4,
+      "title": "Arithmetic & Geometric Sequences",
+      "week": 23,
+      "file": "lessons/lesson-04-arithmetic-geometric-sequences.html"
+    },
+    {
+      "id": "u08-l05",
+      "number": 5,
+      "title": "Exponential Functions: Growth & Decay",
+      "week": 23,
+      "file": "lessons/lesson-05-exponential-functions-growth-decay.html"
+    },
+    {
+      "id": "u08-l06",
+      "number": 6,
+      "title": "Compound Interest, Half-Life & Exponential Modelling",
+      "week": 23,
+      "file": "lessons/lesson-06-compound-interest-half-life-exponential-modelling.html"
+    }
+  ]
+}
