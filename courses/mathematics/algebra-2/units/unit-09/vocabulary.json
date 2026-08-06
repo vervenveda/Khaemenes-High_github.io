@@ -1,0 +1,134 @@
+{
+  "unit": 9,
+  "title": "Sequences, Series & the Binomial Theorem",
+  "terms": [
+    {
+      "en": "arithmetic",
+      "es": "arithmetic",
+      "fr": "arithmetic",
+      "ar": "arithmetic",
+      "pt": "arithmetic",
+      "definition": "Core term used in Arithmetic Sequences: Explicit & Recursive Forms."
+    },
+    {
+      "en": "sequences",
+      "es": "sequences",
+      "fr": "sequences",
+      "ar": "sequences",
+      "pt": "sequences",
+      "definition": "Core term used in Arithmetic Sequences: Explicit & Recursive Forms."
+    },
+    {
+      "en": "explicit",
+      "es": "explicit",
+      "fr": "explicit",
+      "ar": "explicit",
+      "pt": "explicit",
+      "definition": "Core term used in Arithmetic Sequences: Explicit & Recursive Forms."
+    },
+    {
+      "en": "geometric",
+      "es": "geometric",
+      "fr": "geometric",
+      "ar": "geometric",
+      "pt": "geometric",
+      "definition": "Core term used in Geometric Sequences: Growth, Decay & Recursion."
+    },
+    {
+      "en": "growth",
+      "es": "growth",
+      "fr": "growth",
+      "ar": "growth",
+      "pt": "growth",
+      "definition": "Core term used in Geometric Sequences: Growth, Decay & Recursion."
+    },
+    {
+      "en": "general",
+      "es": "general",
+      "fr": "general",
+      "ar": "general",
+      "pt": "general",
+      "definition": "Core term used in General Sequences, Patterns & Difference Tables."
+    },
+    {
+      "en": "patterns",
+      "es": "patterns",
+      "fr": "patterns",
+      "ar": "patterns",
+      "pt": "patterns",
+      "definition": "Core term used in General Sequences, Patterns & Difference Tables."
+    },
+    {
+      "en": "finite",
+      "es": "finite",
+      "fr": "finite",
+      "ar": "finite",
+      "pt": "finite",
+      "definition": "Core term used in Finite Arithmetic & Geometric Series."
+    },
+    {
+      "en": "infinite",
+      "es": "infinite",
+      "fr": "infinite",
+      "ar": "infinite",
+      "pt": "infinite",
+      "definition": "Core term used in Infinite Geometric Series & Convergence."
+    },
+    {
+      "en": "series",
+      "es": "series",
+      "fr": "series",
+      "ar": "series",
+      "pt": "series",
+      "definition": "Core term used in Infinite Geometric Series & Convergence."
+    },
+    {
+      "en": "sigma",
+      "es": "sigma",
+      "fr": "sigma",
+      "ar": "sigma",
+      "pt": "sigma",
+      "definition": "Core term used in Sigma Notation & Summation Properties."
+    },
+    {
+      "en": "notation",
+      "es": "notation",
+      "fr": "notation",
+      "ar": "notation",
+      "pt": "notation",
+      "definition": "Core term used in Sigma Notation & Summation Properties."
+    },
+    {
+      "en": "summation",
+      "es": "summation",
+      "fr": "summation",
+      "ar": "summation",
+      "pt": "summation",
+      "definition": "Core term used in Sigma Notation & Summation Properties."
+    },
+    {
+      "en": "pascal",
+      "es": "pascal",
+      "fr": "pascal",
+      "ar": "pascal",
+      "pt": "pascal",
+      "definition": "Core term used in Pascal’s Triangle & the Binomial Theorem."
+    },
+    {
+      "en": "triangle",
+      "es": "triangle",
+      "fr": "triangle",
+      "ar": "triangle",
+      "pt": "triangle",
+      "definition": "Core term used in Pascal’s Triangle & the Binomial Theorem."
+    },
+    {
+      "en": "binomial",
+      "es": "binomial",
+      "fr": "binomial",
+      "ar": "binomial",
+      "pt": "binomial",
+      "definition": "Core term used in Pascal’s Triangle & the Binomial Theorem."
+    }
+  ]
+}

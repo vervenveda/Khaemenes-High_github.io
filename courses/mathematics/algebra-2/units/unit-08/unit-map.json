@@ -1,0 +1,39 @@
+{
+  "unit": 8,
+  "title": "Nonlinear Systems & Matrices",
+  "weeks": 2,
+  "essential_question": "How can multiple equations, matrices, and graphical intersections describe systems with several interacting constraints?",
+  "project": "Nonlinear System & Matrix Decision Laboratory",
+  "lessons": [
+    {
+      "id": "u08-l01",
+      "title": "Graphical Solutions of Linear\u2013Nonlinear Systems",
+      "path": "lessons/u08-l01.html"
+    },
+    {
+      "id": "u08-l02",
+      "title": "Solving Nonlinear Systems by Substitution",
+      "path": "lessons/u08-l02.html"
+    },
+    {
+      "id": "u08-l03",
+      "title": "Polynomial, Rational & Radical Systems",
+      "path": "lessons/u08-l03.html"
+    },
+    {
+      "id": "u08-l04",
+      "title": "Matrix Vocabulary, Dimensions & Operations",
+      "path": "lessons/u08-l04.html"
+    },
+    {
+      "id": "u08-l05",
+      "title": "Matrix Equations, Row Reduction & Systems",
+      "path": "lessons/u08-l05.html"
+    },
+    {
+      "id": "u08-l06",
+      "title": "Determinants, Inverses & Transformation Models",
+      "path": "lessons/u08-l06.html"
+    }
+  ]
+}
