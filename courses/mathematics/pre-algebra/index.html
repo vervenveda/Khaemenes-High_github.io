@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<meta name="description" content="Khaemenes Academy open-age, 36-week pre-algebra course with complete units, mastery tracking, assessments, modelling, and mathematics tools."/>
+<meta name="theme-color" content="#080b10"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>
- 9th Grade Math · Khaemenes Global Pre-Algebra
+ Khaemenes Open-Age Pre-Algebra
 </title>
 
 <style>
@@ -429,39 +431,140 @@ td {
   }
 
 }
+
+/* Open-Age Pre-Algebra v2: typography, rhythm, accessibility */
+html{scroll-behavior:smooth}
+body{
+  font-family:"Aptos","Segoe UI Variable","Segoe UI",Inter,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
+  font-size:16px;
+  line-height:1.7;
+  letter-spacing:.002em;
+}
+button,.button,input,select,textarea{font-family:inherit}
+button,.button{min-height:44px;transition:transform .18s ease,border-color .18s ease,background .18s ease,box-shadow .18s ease}
+button:hover,.button:hover{transform:translateY(-1px)}
+button:focus-visible,.button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{
+  outline:3px solid #8fc5ff;
+  outline-offset:3px;
+}
+.skip-link{
+  position:fixed;left:1rem;top:1rem;z-index:9999;
+  transform:translateY(-180%);
+  padding:.75rem 1rem;border-radius:9px;background:#fff;color:#111;
+  font-weight:750;text-decoration:none;
+}
+.skip-link:focus{transform:none}
+.app{grid-template-columns:minmax(300px,360px) minmax(0,1fr)}
+.sidebar{padding:24px}
+.main{max-width:1500px;padding:38px clamp(24px,3vw,50px) 52px}
+.hero{padding:clamp(30px,4vw,52px);border-radius:21px;margin-bottom:22px}
+.hero h1{
+  font-family:"Aptos Display","Segoe UI Variable Display","Segoe UI",sans-serif;
+  font-weight:650;
+  letter-spacing:-.035em;
+  line-height:1.05;
+  margin:.45rem 0 .8rem;
+}
+.hero p{line-height:1.78;font-size:1.04rem}
+.eyebrow{font-weight:700;font-size:.8rem}
+.brand,.panel,.card{padding:22px;border-radius:21px}
+.brand h2{font-size:1.28rem;line-height:1.25;letter-spacing:-.015em}
+.brand p,.small{font-size:.94rem;line-height:1.58}
+.panel{margin:18px 0}
+.panel h3,.card h3,.card h4{margin:.1rem 0 .9rem}
+.card h3{font-size:1.3rem;letter-spacing:-.012em}
+.tabs{gap:10px;margin:18px 0 24px}
+.grid{gap:20px}
+.actions{gap:10px;margin-top:18px}
+.lesson,.assignment,.q,.toolBox{padding:20px;margin:16px 0;border-radius:15px}
+.lesson p,.assignment p,.card p{max-width:78ch}
+.lessonHead{align-items:flex-start}
+.choice{padding:12px 13px;margin:9px 0}
+.notice{padding:15px 18px;line-height:1.65}
+th,td{padding:.9rem .8rem}
+.toolGrid{gap:20px}
+.toolResult{padding:13px;min-height:48px}
+.section-note{color:var(--muted);font-size:.95rem;max-width:78ch}
+.unit-link-card{border:1px solid rgba(96,165,250,.28);background:linear-gradient(135deg,rgba(96,165,250,.09),rgba(216,180,95,.05));padding:18px;border-radius:15px;margin:16px 0}
+.metric-label{display:block;color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.08em}
+.rubric-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.rubric-item{border:1px solid var(--line);background:#0b0c0e;padding:14px;border-radius:12px}
+.feedback-list{margin-top:14px;padding:14px;border:1px solid var(--line);border-radius:12px;background:#08090b}
+.feedback-list li{margin:.45rem 0}
+.table-wrap{overflow:auto;-webkit-overflow-scrolling:touch}
+@media(max-width:1000px){
+  .sidebar{padding:18px}.main{padding:22px 16px 42px}.hero{padding:28px 22px}.rubric-grid{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+  body{font-size:15.5px}.brand,.panel,.card{padding:18px}.lesson,.assignment,.q,.toolBox{padding:16px}.hero h1{font-size:clamp(2rem,11vw,3rem)}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+}
+
+
+/* Course identity, profile, and pin menu */
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.brand-home{display:inline-grid;width:max-content;border-radius:13px;text-decoration:none}
+.brand-home .seal{transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.brand-home:hover .seal,.brand-home:focus-visible .seal{transform:translateY(-2px);background:radial-gradient(circle,rgba(216,180,95,.28),transparent);box-shadow:0 12px 26px rgba(216,180,95,.16)}
+.hero-topline{position:relative;z-index:4;display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:28px}
+.hero-identity{display:flex;align-items:center;gap:14px;min-width:0}
+.hero-home-badge{width:54px;height:54px;flex:0 0 54px;display:grid;place-items:center;border:1px solid rgba(216,180,95,.7);border-radius:13px;color:#171006;background:linear-gradient(145deg,#f7e5ae,#d8b45f);font:800 1.15rem/1 "Aptos Display","Segoe UI",sans-serif;text-decoration:none;box-shadow:0 10px 24px rgba(216,180,95,.17);transition:transform .18s ease,box-shadow .18s ease}
+.hero-home-badge:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(216,180,95,.25)}
+.hero-route{margin-top:5px;color:var(--muted);font-size:.84rem;line-height:1.4}
+.header-tools{position:relative;display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}
+.header-control,.course-menu>summary{min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:.62rem .8rem;border:1px solid var(--line);border-radius:11px;color:var(--ink);background:rgba(7,7,7,.78);font-size:.78rem;font-weight:760;line-height:1.2;text-decoration:none;box-shadow:none;cursor:pointer;white-space:nowrap}
+.header-control:hover,.course-menu>summary:hover{background:#20242b;border-color:rgba(216,180,95,.55);transform:none}
+.pin-control[aria-pressed="true"]{color:#171006;background:linear-gradient(135deg,var(--gold),#f4de9d);border-color:transparent}
+.course-menu{position:relative}
+.course-menu>summary{list-style:none}
+.course-menu>summary::-webkit-details-marker{display:none}
+.course-menu[open]>summary{border-color:rgba(216,180,95,.72);background:#20242b}
+.course-menu-panel{position:absolute;right:0;top:calc(100% + 9px);z-index:30;width:min(310px,calc(100vw - 42px));display:grid;gap:6px;padding:10px;border:1px solid rgba(216,180,95,.4);border-radius:13px;background:rgba(10,11,13,.98);box-shadow:0 22px 55px rgba(0,0,0,.55);backdrop-filter:blur(18px)}
+.course-menu-panel a,.course-menu-panel button{width:100%;min-height:43px;display:flex;align-items:center;justify-content:flex-start;padding:10px 12px;border:1px solid transparent;border-radius:9px;color:var(--ink);background:transparent;box-shadow:none;text-align:left;text-decoration:none;font-size:.82rem;font-weight:650}
+.course-menu-panel a:hover,.course-menu-panel button:hover{transform:none;border-color:var(--line);background:#20242b}
+.course-menu-label{padding:7px 10px 4px;color:var(--gold);font-size:.67rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.course-menu-divider{height:1px;margin:3px 5px;background:var(--line)}
+@media(max-width:820px){.hero-topline{align-items:stretch;flex-direction:column}.header-tools{justify-content:flex-start}.course-menu-panel{left:0;right:auto}}
+@media(max-width:520px){.header-tools{display:grid;grid-template-columns:1fr 1fr}.course-menu{grid-column:1/-1}.course-menu>summary{width:100%}.header-control{white-space:normal;text-align:center}.hero-home-badge{width:48px;height:48px;flex-basis:48px}}
+
 </style>
 </head>
 <body>
+<a class="skip-link" href="#content">Skip to course content</a>
 <div class="app">
  <aside class="sidebar">
   <div class="brand">
-   <div class="seal">
-    9π
-   </div>
+   <a class="brand-home" href="https://khaemenesacademy.org/" aria-label="Khaemenes Academy home">
+    <div class="seal" aria-hidden="true">
+     K
+    </div>
+   </a>
    <h2>
     Khaemenes Global Pre-Algebra
    </h2>
    <p>
-    Grade 9 Bridge · Algebra I Readiness · Numerica Forge
+    Open-Age Foundations · Algebra I Readiness · Numerica Forge
    </p>
    <p class="small">
-    Khaemenes High › Mathematics › Pre-Algebra
+    Khaemenes Academy › Mathematics › Pre-Algebra
    </p>
   </div>
   <section class="panel">
    <h3>
-    Student Record
+    Learner Record
    </h3>
    <label>
-    Active student
+    Active learner
    </label>
    <select id="studentSelect">
    </select>
    <label>
-    Add student
+    Add learner
    </label>
    <div class="inline">
-    <input id="studentName" placeholder="Student name"/>
+    <input id="studentName" placeholder="Learner name"/>
     <button id="addStudent">
      Add
     </button>
@@ -478,6 +581,9 @@ td {
   <nav class="panel">
    <button class="navBtn active" data-view="dashboard">
     Dashboard
+   </button>
+   <button class="navBtn" data-view="overview">
+    Course Guide
    </button>
    <button class="navBtn" data-view="week">
     Weekly Lessons
@@ -509,16 +615,43 @@ td {
    </div>
   </section>
  </aside>
- <main class="main">
+ <main class="main" id="main">
   <header class="hero">
-   <div class="eyebrow">
-    Numerica Forge · Khaemenes Academy
+   <div class="hero-topline">
+    <div class="hero-identity">
+     <a class="hero-home-badge" href="https://khaemenesacademy.org/" aria-label="Khaemenes Academy home">K</a>
+     <div>
+      <div class="eyebrow">Numerica Forge · Khaemenes Academy</div>
+      <div class="hero-route">Mathematics › Open-Age Pre-Algebra</div>
+     </div>
+    </div>
+    <div class="header-tools" aria-label="Course account and navigation controls">
+     <a class="header-control" href="../../../index.html#student-portal" aria-label="Open the student profile page">Profile</a>
+     <button class="header-control pin-control" id="pinCourseButton" type="button" aria-pressed="false" aria-describedby="pinCourseStatus">☆ Pin to Profile</button>
+     <details class="course-menu" id="courseMenu">
+      <summary aria-label="Open course menu">Menu <span aria-hidden="true">⌄</span></summary>
+      <div class="course-menu-panel">
+       <div class="course-menu-label">Academy</div>
+       <a href="https://khaemenesacademy.org/">Khaemenes Academy Home</a>
+       <a href="../../../index.html">Khaemenes High Home</a>
+       <a href="../index.html">Mathematics Home</a>
+       <div class="course-menu-divider" aria-hidden="true"></div>
+       <div class="course-menu-label">This course</div>
+       <button type="button" data-go="dashboard">Course Dashboard</button>
+       <button type="button" data-go="overview">Course Guide</button>
+       <button type="button" data-go="week">Weekly Lessons</button>
+       <button type="button" data-go="tools">Math Tool Dock</button>
+       <button type="button" data-go="reports">Progress Reports</button>
+      </div>
+     </details>
+     <span class="sr-only" id="pinCourseStatus" aria-live="polite"></span>
+    </div>
    </div>
    <h1>
-    9th Grade Math · Global Pre-Algebra
+    Open-Age · Global Pre-Algebra
    </h1>
    <p>
-    A 36-week pre-algebra portal for arithmetic fluency, rational numbers, ratios, percents, exponents, variables, equations, inequalities, coordinate graphs, functions, geometry, statistics, probability, modelling, and Algebra I readiness.
+    A complete, open-age 36-week pre-algebra pathway for arithmetic fluency, rational numbers, proportional reasoning, financial mathematics, exponents, equations, inequalities, functions, geometry, statistics, probability, modelling, and confident Algebra I readiness.
    </p>
    <div class="actions">
     <button data-go="week">
@@ -535,6 +668,9 @@ td {
   <nav class="tabs">
    <button class="tab active" data-view="dashboard">
     Dashboard
+   </button>
+   <button class="tab" data-view="overview">
+    Course Guide
    </button>
    <button class="tab" data-view="week">
     Lessons
@@ -558,10 +694,10 @@ td {
     Sources
    </button>
   </nav>
-  <section id="content">
+  <section id="content" tabindex="-1">
   </section>
   <p class="small">
-   Khaemenes High · 9th Grade Mathematics · Jennifer Pearl and Autumn Pearl · 2026
+   Khaemenes Academy · Open-Age Mathematics · Jennifer Pearl and Autumn Pearl · 2026
   </p>
  </main>
 </div>
@@ -569,8 +705,8 @@ td {
 <script>
 
 const APP = {
-  "title": "9th Grade Math · Khaemenes Global Pre-Algebra",
-  "subtitle": "Secondary Readiness / Grade 9 Bridge · Algebra I Preparation",
+  "title": "Khaemenes Open-Age Pre-Algebra",
+  "subtitle": "Open-Age Foundations · Algebra I Preparation",
   "code": "KH-MATH-PA",
   "generated": "2026-08-06",
   "passingTarget": 80,
@@ -3998,26 +4134,232 @@ const APP = {
   }
 };
 
-const STORAGE_KEY = "KHAE_MATH9_PREALGEBRA_FORGE_V1";
-let state=loadState(),view="dashboard",activeWeek=1;const $=id=>document.getElementById(id),esc=v=>String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));
-function loadState(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY))||{students:[],activeId:null}}catch{return{students:[],activeId:null}}}function save(){localStorage.setItem(STORAGE_KEY,JSON.stringify(state))}function uid(){return"s_"+Math.random().toString(36).slice(2,9)+Date.now().toString(36)}function student(){return state.students.find(s=>s.id===state.activeId)||null}function ensure(s){if(!s.progress)s.progress={weeks:{},exams:{},capstone:{logs:[],score:0}};s.progress.weeks??={};s.progress.exams??={};s.progress.capstone??={logs:[],score:0}}function weekRec(s,w){ensure(s);return s.progress.weeks[w]??={lessons:{},assignments:{},notes:{},quiz:{best:0,attempts:[]},work:"",repeats:0}}function lessonPct(s,w){let r=weekRec(s,w);return Math.round(["Monday","Tuesday","Wednesday","Thursday","Friday"].filter(d=>r.lessons[d]).length/5*100)}function assignPct(s,w){let r=weekRec(s,w);return Math.round([0,1,2].filter(i=>r.assignments[i]).length/3*100)}function quizBest(s,w){return Math.round(weekRec(s,w).quiz.best||0)}function weekScore(s,w){return Math.round(lessonPct(s,w)*.25+assignPct(s,w)*.35+quizBest(s,w)*.4)}function stats(s){if(!s)return{lessons:0,assignments:0,quizzes:0,course:0,done:0,total:180,needs:[]};ensure(s);let done=0,a=[],q=[],ws=[],needs=[];APP.weeks.forEach(w=>{let lp=lessonPct(s,w.week),ap=assignPct(s,w.week),qb=quizBest(s,w.week);done+=Math.round(lp/20);if(ap)a.push(ap);if(qb)q.push(qb);if(lp||ap||qb)ws.push(weekScore(s,w.week));if((qb&&qb<APP.passingTarget)||(lp&&lp<100)||(ap&&ap<100))needs.push(w.week)});let avg=x=>x.length?Math.round(x.reduce((m,n)=>m+n,0)/x.length):0,mid=s.progress.exams.midterm?.best||0,fin=s.progress.exams.final?.best||0,cap=s.progress.capstone.score||0,ew=(mid?12:0)+(fin?18:0)+(cap?10:0);return{lessons:Math.round(done/180*100),assignments:avg(a),quizzes:avg(q),weekly:avg(ws),course:Math.round((avg(ws)*(100-ew)+mid*12+fin*18+cap*10)/100),done,total:180,midterm:Math.round(mid),final:Math.round(fin),capstone:Math.round(cap),needs}}
-function render(){renderStudentSelect();renderWeekList();setActiveButtons();({dashboard,week,scope,tools,exams,capstone,reports,standards}[view])()}function setActiveButtons(){document.querySelectorAll("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===view))}function renderStudentSelect(){$("studentSelect").innerHTML=state.students.map(s=>`<option value="${s.id}" ${s.id===state.activeId?"selected":""}>${esc(s.name)}</option>`).join("")}function renderWeekList(){let s=student();$("weekList").innerHTML=APP.weeks.map(w=>{let qb=s?quizBest(s,w.week):0,tag=qb>=APP.passingTarget?"good":qb?"bad":"";return`<button class="weekBtn ${w.week===activeWeek?"active":""}" data-week="${w.week}"><span><strong>${w.week}</strong> ${esc(w.title)}</span><span class="pill ${tag}">${qb||"—"}</span></button>`}).join("");document.querySelectorAll("[data-week]").forEach(b=>b.onclick=()=>{activeWeek=+b.dataset.week;view="week";render()})}
-function dashboard(){let s=student(),st=stats(s),needs=st.needs.length?`Recommended review: Weeks ${st.needs.slice(0,12).join(", ")}${st.needs.length>12?"…":""}`:"No review flags yet.";$("content").innerHTML=`<div class="grid"><div class="card kpi"><strong>${st.lessons}%</strong><span>Lessons</span></div><div class="card kpi"><strong>${st.assignments||"—"}</strong><span>Assignments</span></div><div class="card kpi"><strong>${st.quizzes||"—"}</strong><span>Quizzes</span></div><div class="card kpi"><strong>${st.course}%</strong><span>Course</span></div><div class="card col8"><h3>Welcome, ${esc(s.name)}</h3><p>The Numerica Forge organizes Grade 9 bridge mathematics into daily lessons, practice sets, tool labs, applied problems, weekly mastery quizzes, retakes, reports, and a modelling capstone.</p><div class="progress"><span style="width:${st.lessons}%"></span></div><p class="small">${st.done}/${st.total} daily lessons complete.</p><p class="notice">${needs}</p><div class="actions"><button onclick="view='week';render()">Continue Week ${activeWeek}</button><button class="secondary" onclick="view='tools';render()">Open Tools</button><button class="ghost" onclick="downloadBackup()">Export Backup</button></div></div><div class="card col4"><h3>Tool Dock</h3><p>The repository includes the Khaemenes Scientific Calculator. This portal also embeds mini-tools for fractions, proportions, percents, equations, slope, geometry, and data.</p><a class="button secondary" target="_blank" rel="noopener" href="${APP.tools[0].url}">Open Scientific Calculator</a></div><div class="card col12"><h3>Upcoming Weeks</h3>${scopeTable(APP.weeks.slice(Math.max(0,activeWeek-1),Math.min(APP.weeks.length,activeWeek+5)))}</div></div>`}
-function lessonsHTML(w,r){let days=["Monday","Tuesday","Wednesday","Thursday","Friday"],titles=["Concept Launch & Vocabulary","Guided Practice & Number Sense","Tool Lab & Visual Model","Word Problems & Error Analysis","Mastery Quiz, Retake Plan & Portfolio"];return days.map((d,i)=>`<div class="lesson"><div class="lessonHead"><div><h4>${d}: ${titles[i]}</h4><p><strong>Objective:</strong> ${i===0?`Understand ${esc(w.title)}.`:i===1?"Practice accurately while explaining steps.":i===2?"Use a model or tool responsibly.":i===3?"Apply the skill in context and diagnose mistakes.":"Demonstrate mastery and decide whether to repeat or advance."}</p></div><label class="check"><input id="l_${d}" type="checkbox" ${r.lessons[d]?"checked":""}> Done</label></div><p>${i===0?`Read the big idea, define essential vocabulary, and solve three guided examples for ${esc(w.title)}.`:i===1?"Work supported examples, estimate before calculating, and compare strategies.":i===2?"Use the calculator or built-in tool, then explain what it shows and what it cannot prove.":i===3?"Solve applied problems with units and complete one error-analysis correction.":"Take the weekly quiz, complete corrections if needed, and file your best work sample."}</p><label>Notes</label><textarea id="n_${d}">${esc(r.notes[d]||"")}</textarea></div>`).join("")}
-function week(){let s=student(),w=APP.weeks.find(x=>x.week===activeWeek),r=weekRec(s,w.week),qb=quizBest(s,w.week);$("content").innerHTML=`<div class="card"><span class="pill">Week ${w.week}</span><span class="pill">Unit ${w.unitNumber}</span><span class="pill">${esc(w.domain)}</span><h3>${esc(w.title)}</h3><p><strong>Unit:</strong> ${esc(w.unitTitle)}</p><p><strong>Big Idea:</strong> ${esc(w.bigIdea)}</p><p>${w.tags.map(x=>`<span class="pill">${esc(x)}</span>`).join("")}</p><div class="progress"><span style="width:${weekScore(s,w.week)}%"></span></div><p class="small">${lessonPct(s,w.week)}% lessons · ${assignPct(s,w.week)}% assignments · ${qb||0}% quiz · weekly score ${weekScore(s,w.week)}%</p>${qb&&qb<APP.passingTarget?`<p class="notice">Below 80%. Repeat, correct, and retake. Best score is preserved.</p>`:""}<div class="actions"><button class="secondary" onclick="activeWeek=Math.max(1,activeWeek-1);render()">← Previous</button><button class="secondary" onclick="activeWeek=Math.min(APP.weeks.length,activeWeek+1);render()">Next →</button><button class="ghost" onclick="repeatWeek()">Repeat Lesson Set</button><a class="button ghost" target="_blank" rel="noopener" href="${APP.tools[0].url}">Calculator</a></div></div><div class="grid"><div class="card col8"><h3>Monday–Friday Lessons</h3>${lessonsHTML(w,r)}</div><div class="card col4"><h3>Assignments</h3>${[["Practice Set",20,"Complete the skill practice with written work and corrections."],["Tool / Model Lab",20,"Use a calculator, graph, table, diagram, or model to check and explain."],["Application & Reflection",30,"Solve contextual problems with units and reflect on mistakes/readiness."]].map((a,i)=>`<div class="assignment"><label class="check"><input id="a_${i}" type="checkbox" ${r.assignments[i]?"checked":""}> Complete</label><h4>${a[0]}</h4><p>${a[2]}</p><p class="small">${a[1]} points</p></div>`).join("")}<h3>Weekly Quiz</h3>${quizForm(w,r)}<h3>Work Space</h3><textarea id="work">${esc(r.work||"")}</textarea></div></div>`;["Monday","Tuesday","Wednesday","Thursday","Friday"].forEach(d=>{$(`l_${d}`).onchange=e=>{r.lessons[d]=e.target.checked;save();render()};$(`n_${d}`).oninput=e=>{r.notes[d]=e.target.value;save()}});[0,1,2].forEach(i=>$(`a_${i}`).onchange=e=>{r.assignments[i]=e.target.checked;save();render()});$("work").oninput=e=>{r.work=e.target.value;save()}}
-function quizForm(w,r){return`<p class="score">Best: ${Math.round(r.quiz.best||0)||"—"}</p><p class="small">${r.quiz.attempts.length?`Attempts: ${r.quiz.attempts.map(a=>Math.round(a.score)+"%").join(" | ")}`:"No attempts yet."}</p><form>${w.quiz.map((q,i)=>`<div class="q"><p><strong>${i+1}. ${esc(q[0])}</strong></p>${q[1].map((c,j)=>`<label class="choice"><input type="radio" name="q${i}" value="${j}"> ${esc(c)}</label>`).join("")}</div>`).join("")}<div class="actions"><button type="button" onclick="submitQuiz()">Submit Quiz</button><button class="secondary" type="reset">Clear</button></div></form>`}
-function scope(){ $("content").innerHTML=`<div class="card"><h3>36-Week Scope & Sequence</h3><div class="actions"><button onclick="downloadScope()">Download Scope CSV</button></div>${scopeTable(APP.weeks)}</div>`}function scopeTable(list){return`<table><tr><th>Week</th><th>Unit</th><th>Focus</th><th>Path</th><th>Tags</th></tr>${list.map(w=>`<tr><td>${w.week}</td><td>${esc(w.unitTitle)}</td><td>${esc(w.title)}</td><td>${esc(w.path)}</td><td>${w.tags.map(t=>`<span class="pill">${esc(t)}</span>`).join("")}</td></tr>`).join("")}</table>`}
-function tools(){ $("content").innerHTML=`<div class="grid"><div class="card col12"><h3>Math Tool Dock</h3><p>Use tools to check and explore. Students should still show reasoning, units, and method.</p><div class="actions"><a class="button" target="_blank" rel="noopener" href="${APP.tools[0].url}">Open Khaemenes Scientific Calculator</a><a class="button secondary" target="_blank" rel="noopener" href="${APP.tools[0].relative}">Relative Calculator Link</a></div></div><div class="card col12"><div class="toolGrid">${toolHTML()}</div></div><div class="card col12"><h3>Tool Inventory</h3><table><tr><th>Tool</th><th>Type</th><th>Use</th></tr>${APP.tools.map(t=>`<tr><td>${esc(t.name)}</td><td>${esc(t.kind)}</td><td>${esc(t.description)}</td></tr>`).join("")}</table></div></div>`}
-function toolHTML(){return `<div class="toolBox"><h4>Fraction Lab</h4><input id="fracN" type="number" value="18"><input id="fracD" type="number" value="24"><button onclick="fractionTool()">Reduce</button><div class="toolResult" id="fracOut"></div></div><div class="toolBox"><h4>Proportion Solver</h4><p class="small">Solve a/b = c/x</p><input id="pa" type="number" value="3"><input id="pb" type="number" value="5"><input id="pc" type="number" value="12"><button onclick="proportionTool()">Solve x</button><div class="toolResult" id="propOut"></div></div><div class="toolBox"><h4>Percent Lab</h4><input id="perP" type="number" value="20"><input id="perQ" type="number" value="80"><input id="oldVal" type="number" value="30"><input id="newVal" type="number" value="36"><button onclick="percentTool()">Calculate</button><div class="toolResult" id="percentOut"></div></div><div class="toolBox"><h4>Equation Checker</h4><p class="small">ax + b = c</p><input id="eqA" type="number" value="2"><input id="eqB" type="number" value="5"><input id="eqC" type="number" value="13"><input id="eqX" type="number" value="4"><button onclick="equationTool()">Check</button><div class="toolResult" id="eqOut"></div></div><div class="toolBox"><h4>Slope Finder</h4><input id="x1" type="number" value="1"><input id="y1" type="number" value="2"><input id="x2" type="number" value="5"><input id="y2" type="number" value="10"><button onclick="slopeTool()">Find Slope</button><div class="toolResult" id="slopeOut"></div></div><div class="toolBox"><h4>Geometry Lab</h4><input id="geoL" type="number" value="8"><input id="geoW" type="number" value="5"><input id="geoH" type="number" value="3"><button onclick="geometryTool()">Calculate</button><div class="toolResult" id="geoOut"></div></div><div class="toolBox"><h4>Data Lab</h4><input id="dataSet" value="2, 4, 6, 8, 10"><button onclick="dataTool()">Analyze</button><div class="toolResult" id="dataOut"></div></div><div class="toolBox"><h4>Scientific Notation</h4><input id="sciNum" type="number" value="320000"><button onclick="sciTool()">Convert</button><div class="toolResult" id="sciOut"></div></div>`}
-function makeExam(domains){let arr=[];domains.forEach(d=>APP.quizBank[d].slice(0,4).forEach(q=>arr.push({skill:d,title:q[0],choices:q[1],answer:q[2]})));return arr}
-function exams(){let s=student();ensure(s);$("content").innerHTML=`<div class="grid"><div class="card col6"><h3>Midterm</h3><p>Best: <span class="score">${Math.round(s.progress.exams.midterm?.best||0)||"—"}</span></p>${examForm("midterm",makeExam(APP.midtermDomains))}</div><div class="card col6"><h3>Final</h3><p>Best: <span class="score">${Math.round(s.progress.exams.final?.best||0)||"—"}</span></p>${examForm("final",makeExam(APP.finalDomains))}</div></div>`}function examForm(name,qs){return`<form>${qs.map((q,i)=>`<details class="q"><summary><strong>${i+1}. ${esc(q.skill)}: ${esc(q.title)}</strong></summary>${q.choices.map((c,j)=>`<label class="choice"><input type="radio" name="${name}_${i}" value="${j}"> ${esc(c)}</label>`).join("")}</details>`).join("")}<div class="actions"><button type="button" onclick="submitExam('${name}')">Submit</button><button class="secondary" type="reset">Clear</button></div></form>`}
-function capstone(){let s=student();ensure(s);$("content").innerHTML=`<div class="grid"><div class="card col7"><h3>Mathematical Modelling Capstone</h3><p>Define a personal, scientific, environmental, financial, or civic question. Select variables and representations, calculate carefully, explain assumptions and limitations, and defend Algebra I readiness.</p><ol><li>Question and variables</li><li>Data or measurement plan</li><li>Model: table, graph, equation, diagram, or calculation chain</li><li>Solution and reasonableness check</li><li>Limitations and assumptions</li><li>Presentation and Algebra I readiness reflection</li></ol><label>Capstone score</label><input id="capScore" type="number" min="0" max="100" value="${esc(s.progress.capstone.score||0)}"><button onclick="downloadCapstoneGuide()">Download Capstone Guide</button></div><div class="card col5"><h3>Capstone Log</h3><select id="capStage"><option>Question</option><option>Data</option><option>Model</option><option>Calculation</option><option>Limitations</option><option>Presentation</option><option>Reflection</option></select><textarea id="capNote"></textarea><button onclick="addCapstone()">Save Log</button>${capstoneTable(s)}</div></div>`;$("capScore").oninput=e=>{s.progress.capstone.score=Number(e.target.value||0);save()}}function capstoneTable(s){return(s.progress.capstone.logs||[]).length?`<table><tr><th>Date</th><th>Stage</th><th>Note</th></tr>${s.progress.capstone.logs.slice().reverse().map(l=>`<tr><td>${new Date(l.date).toLocaleDateString()}</td><td>${esc(l.stage)}</td><td>${esc(l.note)}</td></tr>`).join("")}</table>`:`<p class="small">No capstone logs yet.</p>`}
-function reports(){let s=student(),st=stats(s);$("content").innerHTML=`<div class="grid"><div class="card kpi"><strong>${st.course}%</strong><span>Course</span></div><div class="card kpi"><strong>${st.lessons}%</strong><span>Lessons</span></div><div class="card kpi"><strong>${st.midterm||"—"}</strong><span>Midterm</span></div><div class="card kpi"><strong>${st.final||"—"}</strong><span>Final</span></div><div class="card col12"><h3>Reports & Backups</h3><div class="actions"><button onclick="printReport()">Print</button><button class="secondary" onclick="downloadReport()">Download HTML</button><button class="secondary" onclick="downloadCSV()">Download CSV</button><button class="ghost" onclick="downloadBackup()">Export JSON</button><label class="button secondary">Import JSON <input type="file" accept=".json,application/json" style="display:none" onchange="importBackup(event)"></label></div></div><div class="card col12">${progressTable(s)}</div></div>`}function progressTable(s){return`<table><tr><th>Week</th><th>Focus</th><th>Lessons</th><th>Assignments</th><th>Quiz</th><th>Attempts</th><th>Repeats</th></tr>${APP.weeks.map(w=>{let r=weekRec(s,w.week);return`<tr><td>${w.week}</td><td>${esc(w.title)}</td><td>${lessonPct(s,w.week)}%</td><td>${assignPct(s,w.week)}%</td><td>${quizBest(s,w.week)||"—"}</td><td>${r.quiz.attempts.length}</td><td>${r.repeats||0}</td></tr>`}).join("")}</table>`}
-function standards(){let coverage={};APP.weeks.forEach(w=>w.tags.forEach(t=>{coverage[t]??=[];coverage[t].push(w.week)}));$("content").innerHTML=`<div class="grid"><div class="card col12"><h3>Repository Sources & Standards Evidence</h3><p>This portal follows the GitHub pre-algebra course map and adds a self-contained student record system, practice tools, retakes, reports, and capstone tracking.</p></div><div class="card col6"><h3>Sources</h3><ul>${APP.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a><br><span class="small">${esc(s.note)}</span></li>`).join("")}</ul></div><div class="card col6"><h3>Architecture Notes</h3><ul><li>Single APP data object.</li><li>Separated state, calculations, views, tools, and exports.</li><li>Retakes preserve best score.</li><li>Built-in tools do not replace written work.</li><li>No external libraries or dependencies.</li></ul></div><div class="card col12"><h3>Framework Coverage</h3><table><tr><th>Tag</th><th>Weeks</th></tr>${Object.entries(coverage).sort().map(([tag,weeks])=>`<tr><td>${esc(tag)}</td><td>${weeks.join(", ")}</td></tr>`).join("")}</table></div></div>`}
-function num(id){return Number($(id).value)}function gcd(a,b){a=Math.abs(Math.round(a));b=Math.abs(Math.round(b));while(b)[a,b]=[b,a%b];return a||1}function fractionTool(){let n=num("fracN"),d=num("fracD");if(!d)return $("fracOut").textContent="Denominator cannot be 0.";let g=gcd(n,d);$("fracOut").textContent=`${n}/${d} = ${n/g}/${d/g}; decimal ≈ ${(n/d).toFixed(6)}`}function proportionTool(){let a=num("pa"),b=num("pb"),c=num("pc");if(!a)return $("propOut").textContent="a cannot be 0.";let x=b*c/a;$("propOut").textContent=`x = (b×c)/a = (${b}×${c})/${a} = ${x}`}function percentTool(){let p=num("perP"),q=num("perQ"),oldv=num("oldVal"),newv=num("newVal"),part=p/100*q,change=oldv?((newv-oldv)/oldv*100):NaN;$("percentOut").textContent=`${p}% of ${q} = ${part}. Percent change ${oldv} → ${newv}: ${Number.isFinite(change)?change.toFixed(2)+"%":"undefined"}.`}function equationTool(){let a=num("eqA"),b=num("eqB"),c=num("eqC"),x=num("eqX"),left=a*x+b;$("eqOut").textContent=`Left side = ${a}(${x}) + ${b} = ${left}. ${Math.abs(left-c)<1e-9?"Yes, it checks.":"No, it does not equal "+c+"."}`}function slopeTool(){let x1=num("x1"),y1=num("y1"),x2=num("x2"),y2=num("y2");if(x2===x1)return $("slopeOut").textContent="Undefined slope: x-values are equal.";$("slopeOut").textContent=`m = (${y2}-${y1})/(${x2}-${x1}) = ${(y2-y1)/(x2-x1)}`}function geometryTool(){let l=num("geoL"),w=num("geoW"),h=num("geoH");$("geoOut").textContent=`Rectangle area=${l*w}; perimeter=${2*l+2*w}; prism volume=${l*w*h}; hypotenuse≈${Math.sqrt(l*l+h*h).toFixed(4)}.`}function dataTool(){let arr=$("dataSet").value.split(",").map(x=>Number(x.trim())).filter(Number.isFinite).sort((a,b)=>a-b);if(!arr.length)return $("dataOut").textContent="Enter at least one number.";let mean=arr.reduce((a,b)=>a+b,0)/arr.length,med=arr.length%2?arr[(arr.length-1)/2]:(arr[arr.length/2-1]+arr[arr.length/2])/2;$("dataOut").textContent=`n=${arr.length}; mean=${mean.toFixed(4)}; median=${med}; min=${arr[0]}; max=${arr.at(-1)}; range=${arr.at(-1)-arr[0]}.`}function sciTool(){let n=num("sciNum");if(!n)return $("sciOut").textContent="0 = 0 × 10^0";let e=Math.floor(Math.log10(Math.abs(n))),a=n/10**e;$("sciOut").textContent=`${n} = ${a.toFixed(6).replace(/0+$/,'').replace(/\.$/,'')} × 10^${e}`}
-function submitQuiz(){let s=student(),w=APP.weeks.find(x=>x.week===activeWeek),r=weekRec(s,w.week),correct=0,answers=[];for(let i=0;i<w.quiz.length;i++){let chosen=document.querySelector(`input[name="q${i}"]:checked`);if(!chosen)return alert("Please answer every quiz question.");let val=+chosen.value;answers.push(val);if(val===w.quiz[i][2])correct++}let score=Math.round(correct/w.quiz.length*100);r.quiz.attempts.push({date:new Date().toISOString(),score,answers});r.quiz.best=Math.max(r.quiz.best||0,score);save();alert(`Quiz submitted: ${score}%. Best score kept.`);render()}function submitExam(name){let s=student(),qs=makeExam(name==="midterm"?APP.midtermDomains:APP.finalDomains),correct=0,answers=[];for(let i=0;i<qs.length;i++){let chosen=document.querySelector(`input[name="${name}_${i}"]:checked`);if(!chosen)return alert("Please answer every question.");let val=+chosen.value;answers.push(val);if(val===qs[i].answer)correct++}let score=Math.round(correct/qs.length*100);ensure(s);s.progress.exams[name]??={best:0,attempts:[]};s.progress.exams[name].attempts.push({date:new Date().toISOString(),score,answers});s.progress.exams[name].best=Math.max(s.progress.exams[name].best||0,score);save();alert(`${name} submitted: ${score}%.`);render()}function repeatWeek(){let r=weekRec(student(),activeWeek);r.repeats=(r.repeats||0)+1;r.lastRepeat=new Date().toISOString();save();alert("Repeat logged. Review, correct, and retake when ready.");render()}function addCapstone(){let s=student();ensure(s);let note=$("capNote").value.trim();if(!note)return alert("Add a capstone note.");s.progress.capstone.logs.push({date:new Date().toISOString(),stage:$("capStage").value,note});save();render()}function addStudent(name){let s={id:uid(),name,created:new Date().toISOString(),progress:{weeks:{},exams:{},capstone:{logs:[],score:0}}};state.students.push(s);state.activeId=s.id;save();render()}
-function reportHTML(){let s=student(),st=stats(s);return`<!doctype html><html><head><meta charset="utf-8"><title>Math 9 Report - ${esc(s.name)}</title><style>body{font-family:Arial;padding:24px;color:#111}table{width:100%;border-collapse:collapse}td,th{border:1px solid #aaa;padding:6px;vertical-align:top}.kpi{display:inline-block;border:1px solid #999;padding:10px;margin:5px}th{background:#eee}</style></head><body><h1>9th Grade Math · Khaemenes Global Pre-Algebra Report</h1><p><strong>Student:</strong> ${esc(s.name)}<br><strong>Date:</strong> ${new Date().toLocaleDateString()}</p><div class="kpi"><strong>Course:</strong> ${st.course}%</div><div class="kpi"><strong>Lessons:</strong> ${st.lessons}%</div><div class="kpi"><strong>Assignments:</strong> ${st.assignments||"—"}</div><div class="kpi"><strong>Quizzes:</strong> ${st.quizzes||"—"}</div>${progressTable(s)}<h2>Capstone Logs</h2>${capstoneTable(s)}</body></html>`}function printReport(){let w=window.open("","_blank");w.document.write(reportHTML());w.document.close();w.focus();setTimeout(()=>w.print(),400)}function downloadReport(){download(`Math9_Report_${safe(student().name)}.html`,reportHTML(),"text/html")}function downloadCSV(){let s=student(),rows=[["Student","Week","Unit","Focus","Lessons","Assignments","Quiz","Attempts","Repeats"]];APP.weeks.forEach(w=>{let r=weekRec(s,w.week);rows.push([s.name,w.week,w.unitTitle,w.title,lessonPct(s,w.week),assignPct(s,w.week),quizBest(s,w.week)||"",r.quiz.attempts.length,r.repeats||0])});download(`Math9_Progress_${safe(s.name)}.csv`,rows.map(r=>r.map(csv).join(",")).join("\n"),"text/csv")}function downloadScope(){let rows=[["Week","Unit","Focus","Big Idea","Tags","Path"]];APP.weeks.forEach(w=>rows.push([w.week,w.unitTitle,w.title,w.bigIdea,w.tags.join("; "),w.path]));download("Math9_PreAlgebra_36_Week_Scope.csv",rows.map(r=>r.map(csv).join(",")).join("\n"),"text/csv")}function downloadCapstoneGuide(){download("Math9_Modelling_Capstone_Guide.txt","9th Grade Pre-Algebra Modelling Capstone\\nChoose a personal, scientific, environmental, financial, or civic question. Define variables, gather or create data, select a representation, calculate carefully, check reasonableness, explain assumptions and limitations, and present Algebra I readiness.\\n","text/plain")}function downloadBackup(){download("Math9_PreAlgebra_Backup.json",JSON.stringify(state,null,2),"application/json")}function importBackup(e){let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{state=JSON.parse(r.result);if(!state.students)throw Error();state.activeId=state.activeId||state.students[0]?.id;save();render()}catch{alert("Could not import backup.")}};r.readAsText(f)}function safe(s){return String(s||"student").replace(/[^a-z0-9_-]+/gi,"_").slice(0,60)}function csv(v){return`"${String(v??"").replaceAll('"','""')}"`}function download(name,text,type){let b=new Blob([text],{type}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},800)}
-document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>{view=b.dataset.view;render()});document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{view=b.dataset.go;render()});$("addStudent").onclick=()=>{let n=$("studentName").value.trim();if(!n)return alert("Enter a student name.");addStudent(n);$("studentName").value=""};$("studentSelect").onchange=e=>{state.activeId=e.target.value;save();render()};$("deleteStudent").onclick=()=>{let s=student();if(!s)return;if(!confirm(`Delete ${s.name}?`))return;state.students=state.students.filter(x=>x.id!==s.id);state.activeId=state.students[0]?.id||null;if(!state.students.length)addStudent("First Student");save();render()};$("demo").onclick=()=>{addStudent("Demo Student");let s=student();for(let i=1;i<=4;i++){let r=weekRec(s,i);["Monday","Tuesday","Wednesday"].forEach(d=>r.lessons[d]=true);r.assignments[0]=true;r.quiz.best=[100,80,85,70][i-1];r.quiz.attempts.push({date:new Date().toISOString(),score:r.quiz.best})}save();render()};if(!state.students.length)addStudent("First Student");else render();
+
+const STORAGE_KEY = "KHAE_OPEN_PREALGEBRA_FORGE_V2";
+const LEGACY_STORAGE_KEYS = ["KHAE_MATH9_PREALGEBRA_FORGE_V1"];
+const PROFILE_PIN_KEY = "khaemenes-high-pinned-courses-v2";
+const PROFILE_COURSE_ID = "pre-algebra";
+let state=loadState(),view="dashboard",activeWeek=1;
+let activeQuiz=[];
+let activeExams={};
+const $=id=>document.getElementById(id);
+const esc=v=>String(v??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));
+function validState(candidate){
+  return !!candidate && typeof candidate==="object" && Array.isArray(candidate.students) && candidate.students.every(s=>s&&typeof s.id==="string"&&typeof s.name==="string");
+}
+function loadState(){
+  try{
+    const current=JSON.parse(localStorage.getItem(STORAGE_KEY));
+    if(validState(current)) return current;
+    for(const key of LEGACY_STORAGE_KEYS){
+      const legacy=JSON.parse(localStorage.getItem(key));
+      if(validState(legacy)){
+        localStorage.setItem(STORAGE_KEY,JSON.stringify(legacy));
+        return legacy;
+      }
+    }
+  }catch(error){console.warn("Progress could not be loaded.",error)}
+  return{schemaVersion:2,students:[],activeId:null};
+}
+function save(){state.schemaVersion=2;localStorage.setItem(STORAGE_KEY,JSON.stringify(state))}
+function uid(){return"s_"+Math.random().toString(36).slice(2,9)+Date.now().toString(36)}
+function student(){return state.students.find(s=>s.id===state.activeId)||null}
+function ensure(s){
+  if(!s.progress)s.progress={weeks:{},exams:{},capstone:{logs:[],score:0,rubric:{}}};
+  s.progress.weeks??={};s.progress.exams??={};s.progress.capstone??={logs:[],score:0,rubric:{}};
+  s.progress.capstone.logs??=[];s.progress.capstone.rubric??={};
+}
+function weekRec(s,w){ensure(s);return s.progress.weeks[w]??={lessons:{},assignments:{},notes:{},quiz:{best:0,attempts:[],lastFeedback:[]},work:"",repeats:0}}
+function lessonPct(s,w){let r=weekRec(s,w);return Math.round(["Monday","Tuesday","Wednesday","Thursday","Friday"].filter(d=>r.lessons[d]).length/5*100)}
+function assignPct(s,w){let r=weekRec(s,w);return Math.round([0,1,2].filter(i=>r.assignments[i]).length/3*100)}
+function quizBest(s,w){return Math.round(weekRec(s,w).quiz.best||0)}
+function weekCompletion(s,w){return Math.round(lessonPct(s,w)*.6+assignPct(s,w)*.4)}
+function weekScore(s,w){let q=quizBest(s,w);return q||weekCompletion(s,w)}
+function average(values){return values.length?values.reduce((a,b)=>a+b,0)/values.length:0}
+function weightedMastery(parts){
+  const available=parts.filter(p=>Number.isFinite(p.value)&&p.value>0);
+  const weight=available.reduce((sum,p)=>sum+p.weight,0);
+  return weight?Math.round(available.reduce((sum,p)=>sum+p.value*p.weight,0)/weight):0;
+}
+function stats(s){
+  if(!s)return{lessons:0,assignments:0,quizzes:0,course:0,completion:0,done:0,total:180,needs:[]};
+  ensure(s);
+  let done=0,assignments=[],quizzes=[],completion=[],needs=[];
+  APP.weeks.forEach(w=>{
+    let lp=lessonPct(s,w.week),ap=assignPct(s,w.week),qb=quizBest(s,w.week),started=lp||ap||qb;
+    done+=Math.round(lp/20);
+    if(ap)assignments.push(ap);if(qb)quizzes.push(qb);if(started)completion.push(weekCompletion(s,w.week));
+    if((qb&&qb<APP.passingTarget)||(started&&(lp<100||ap<100)))needs.push(w.week);
+  });
+  const mid=s.progress.exams.midterm?.best||0,fin=s.progress.exams.final?.best||0,cap=s.progress.capstone.score||0;
+  const quizAvg=Math.round(average(quizzes));
+  return{
+    lessons:Math.round(done/180*100),assignments:Math.round(average(assignments)),quizzes:quizAvg,
+    completion:Math.round(average(completion)),course:weightedMastery([{value:quizAvg,weight:55},{value:mid,weight:15},{value:fin,weight:20},{value:cap,weight:10}]),
+    done,total:180,midterm:Math.round(mid),final:Math.round(fin),capstone:Math.round(cap),needs
+  };
+}
+function readPinnedCourses(){try{const value=JSON.parse(localStorage.getItem(PROFILE_PIN_KEY)||"[]");return Array.isArray(value)?value:[]}catch{return[]}}
+function courseIsPinned(){return readPinnedCourses().includes(PROFILE_COURSE_ID)}
+function updatePinButton(){const button=$("pinCourseButton");if(!button)return;const pinned=courseIsPinned();button.setAttribute("aria-pressed",String(pinned));button.textContent=pinned?"★ Pinned to Profile":"☆ Pin to Profile";button.title=pinned?"Remove Pre-Algebra from the top of the student profile":"Pin Pre-Algebra to the top of the student profile"}
+function toggleCoursePin(){let pinned=readPinnedCourses();const wasPinned=pinned.includes(PROFILE_COURSE_ID);pinned=wasPinned?pinned.filter(id=>id!==PROFILE_COURSE_ID):[PROFILE_COURSE_ID,...pinned.filter(id=>id!==PROFILE_COURSE_ID)];try{localStorage.setItem(PROFILE_PIN_KEY,JSON.stringify(pinned))}catch{return alert("This browser could not save the profile pin.")}updatePinButton();const status=$("pinCourseStatus");if(status)status.textContent=wasPinned?"Pre-Algebra was removed from the student profile.":"Pre-Algebra was pinned to the top of the student profile."}
+function render(){renderStudentSelect();renderWeekList();setActiveButtons();updatePinButton();({dashboard,overview,week,scope,tools,exams,capstone,reports,standards}[view]||dashboard)()}function setActiveButtons(){document.querySelectorAll("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===view))}function renderStudentSelect(){$("studentSelect").innerHTML=state.students.map(s=>`<option value="${s.id}" ${s.id===state.activeId?"selected":""}>${esc(s.name)}</option>`).join("")}function renderWeekList(){let s=student();$("weekList").innerHTML=APP.weeks.map(w=>{let qb=s?quizBest(s,w.week):0,tag=qb>=APP.passingTarget?"good":qb?"bad":"";return`<button class="weekBtn ${w.week===activeWeek?"active":""}" data-week="${w.week}"><span><strong>${w.week}</strong> ${esc(w.title)}</span><span class="pill ${tag}">${qb||"—"}</span></button>`}).join("");document.querySelectorAll("[data-week]").forEach(b=>b.onclick=()=>{activeWeek=+b.dataset.week;view="week";render()})}
+
+function dashboard(){
+  let s=student(),st=stats(s),needs=st.needs.length?`Recommended review: Weeks ${st.needs.slice(0,12).join(", ")}${st.needs.length>12?"…":""}`:"No review flags yet.";
+  $("content").innerHTML=`<div class="grid">
+    <div class="card kpi"><strong>${st.lessons}%</strong><span>Lesson Completion</span></div>
+    <div class="card kpi"><strong>${st.assignments||"—"}</strong><span>Assignment Completion</span></div>
+    <div class="card kpi"><strong>${st.quizzes||"—"}</strong><span>Quiz Mastery</span></div>
+    <div class="card kpi"><strong>${st.course||"—"}</strong><span>Overall Mastery</span></div>
+    <div class="card col8"><h3>Welcome, ${esc(s.name)}</h3>
+      <p>The Numerica Forge is an open-age pathway. Learners may begin whenever pre-algebra is the appropriate next step and move through complete unit lessons, guided practice, tools, applications, assessments, corrections, reports, and a mathematical-modelling capstone.</p>
+      <div class="progress" aria-label="Lesson completion"><span style="width:${st.lessons}%"></span></div>
+      <p class="small">${st.done}/${st.total} planned study sessions complete. Completion and mastery are reported separately.</p>
+      <p class="notice">${needs}</p>
+      <div class="actions"><button type="button" onclick="view='week';render()">Continue Week ${activeWeek}</button><button class="secondary" type="button" onclick="view='overview';render()">Read Course Guide</button><button class="secondary" type="button" onclick="view='tools';render()">Open Tools</button><button class="ghost" type="button" onclick="downloadBackup()">Export Backup</button></div>
+    </div>
+    <div class="card col4"><h3>Connected Tool Dock</h3><p>The repository includes the Khaemenes Scientific Calculator. This portal also embeds carefully limited mini-tools for fractions, proportions, percents, equations, slope, geometry, scientific notation, and data.</p><a class="button secondary" target="_blank" rel="noopener" href="${APP.tools[0].url}">Open Scientific Calculator</a></div>
+    <div class="card col12"><h3>Upcoming Weeks</h3><div class="table-wrap">${scopeTable(APP.weeks.slice(Math.max(0,activeWeek-1),Math.min(APP.weeks.length,activeWeek+5)))}</div></div>
+  </div>`;
+}
+function overview(){
+  $("content").innerHTML=`<div class="grid">
+    <div class="card col12"><span class="pill">Open age</span><span class="pill">36 weeks</span><span class="pill">Foundation · Core · Extended</span><h3>How to Use This Course</h3><p>This is a level-based course rather than a grade-based course. It is appropriate for any learner who needs a complete bridge from arithmetic and proportional reasoning into Algebra I.</p><div class="notice"><strong>Placement principle:</strong> begin with the diagnostic, use its evidence to choose Foundation, Core, or Extended support, and advance by demonstrated mastery rather than age.</div></div>
+    <div class="card col6"><h3>Learning Cycle</h3><ol><li>Open the complete unit page and lesson sequence.</li><li>Study concept development and worked examples.</li><li>Complete practice while showing reasoning and units.</li><li>Use a tool to explore or verify—not replace—the mathematics.</li><li>Analyze errors, revise work, and retake for mastery.</li><li>Save a reflection or portfolio sample.</li></ol></div>
+    <div class="card col6"><h3>Evidence of Learning</h3><p><strong>Completion</strong> tracks lesson and assignment participation. <strong>Mastery</strong> is based on quizzes, the midterm, final, and capstone. Keeping these measures separate prevents checked boxes from being mistaken for mathematical proficiency.</p><p>Best scores are retained, but every attempt remains in the local record so growth is visible.</p></div>
+    <div class="card col4"><h3>Foundation</h3><p>Concrete models, smaller steps, vocabulary support, worked examples, and additional practice.</p></div>
+    <div class="card col4"><h3>Core</h3><p>The full pre-algebra pathway with conceptual understanding, fluency, application, and explanation.</p></div>
+    <div class="card col4"><h3>Extended</h3><p>Proof, generalization, unfamiliar contexts, deeper modelling, and early Algebra I connections.</p></div>
+    <div class="card col12"><h3>Course Exit Evidence</h3><p>A learner is ready to move into Algebra I after completing the full scope, earning sustained mastery on equations, proportional relationships, functions, graphs, and number operations, passing cumulative assessments, and defending a capstone model with correct reasoning and stated limitations.</p><div class="actions"><a class="button" href="diagnostic/">Begin Diagnostic</a><button class="secondary" type="button" onclick="view='scope';render()">View Full Scope</button></div></div>
+  </div>`;
+}
+
+function unitHref(w){return w.path||"#"}
+function lessonsHTML(w,r){
+  let days=["Monday","Tuesday","Wednesday","Thursday","Friday"];
+  let titles=["Complete Unit Lesson & Vocabulary","Worked Examples & Guided Practice","Tool, Model, or Representation Lab","Application, Error Analysis & Revision","Mastery Check, Corrections & Portfolio"];
+  let objectives=[
+    `Open the complete unit page and study the lesson sequence connected to ${esc(w.title)}.`,
+    "Solve representative problems accurately and explain why each step is valid.",
+    "Use a table, graph, number line, diagram, manipulative, or calculator to investigate and verify.",
+    "Apply the mathematics in context, preserve units, and correct at least one misconception.",
+    "Demonstrate mastery, complete corrections, and decide whether to advance or repeat."
+  ];
+  let activities=[
+    `Use the full unit page for instruction, definitions, worked examples, pathway support, and lesson practice.`,
+    "Complete written practice before checking answers. Compare at least two strategies when possible.",
+    "Record what the representation reveals, what assumptions it makes, and what it cannot establish by itself.",
+    "Solve contextual problems, justify reasonableness, and rewrite one incorrect solution as a correct explanation.",
+    "Take the weekly check, review feedback, complete corrections, and save a strong work sample."
+  ];
+  return days.map((d,i)=>`<div class="lesson"><div class="lessonHead"><div><h4>${d}: ${titles[i]}</h4><p><strong>Objective:</strong> ${objectives[i]}</p></div><label class="check"><input id="l_${d}" type="checkbox" ${r.lessons[d]?"checked":""}> Done</label></div><p>${activities[i]}</p>${i===0?`<div class="actions"><a class="button" href="${esc(unitHref(w))}">Open Complete ${w.unitNumber===0?"Diagnostic":"Unit"}</a></div>`:""}<label for="n_${d}">Notes, reasoning, or correction record</label><textarea id="n_${d}">${esc(r.notes[d]||"")}</textarea></div>`).join("");
+}
+
+function week(){
+  let s=student(),w=APP.weeks.find(x=>x.week===activeWeek),r=weekRec(s,w.week),qb=quizBest(s,w.week),completion=weekCompletion(s,w.week);
+  $("content").innerHTML=`<div class="card"><span class="pill">Week ${w.week}</span><span class="pill">Unit ${w.unitNumber}</span><span class="pill">${esc(w.domain)}</span><h3>${esc(w.title)}</h3><p><strong>Unit:</strong> ${esc(w.unitTitle)}</p><p><strong>Big Idea:</strong> ${esc(w.bigIdea)}</p><p>${w.tags.map(x=>`<span class="pill">${esc(x)}</span>`).join("")}</p><div class="progress" aria-label="Weekly completion"><span style="width:${completion}%"></span></div><p class="small">${lessonPct(s,w.week)}% lesson plan · ${assignPct(s,w.week)}% assignments · ${qb||0}% quiz mastery · ${completion}% completion</p>${qb&&qb<APP.passingTarget?`<p class="notice">Below ${APP.passingTarget}% mastery. Review the complete unit lesson, correct errors, and retake. The best score and attempt history are preserved.</p>`:""}<div class="unit-link-card"><strong>Complete instruction lives in the unit.</strong><p class="section-note">The full unit page connects the actual lessons, worked examples, pathway support, practice, projects, and assessments. The planner below helps organize the week; it does not replace those lessons.</p><div class="actions"><a class="button" href="${esc(unitHref(w))}">Open Full ${w.unitNumber===0?"Diagnostic":"Unit"}</a><a class="button secondary" target="_blank" rel="noopener" href="${APP.tools[0].url}">Scientific Calculator</a></div></div><div class="actions"><button class="secondary" type="button" onclick="activeWeek=Math.max(1,activeWeek-1);render()">← Previous</button><button class="secondary" type="button" onclick="activeWeek=Math.min(APP.weeks.length,activeWeek+1);render()">Next →</button><button class="ghost" type="button" onclick="repeatWeek()">Log a Review Cycle</button></div></div><div class="grid"><div class="card col8"><h3>Weekly Study Planner</h3><p class="section-note">Use these five sessions flexibly. A learner may combine or repeat sessions based on diagnostic evidence and mastery.</p>${lessonsHTML(w,r)}</div><div class="card col4"><h3>Assignments</h3>${[["Practice & Corrections",20,"Complete the linked unit practice with written work, checking, and corrections."],["Tool / Model Lab",20,"Use a calculator, graph, table, number line, diagram, or model to investigate and explain."],["Application & Reflection",30,"Solve contextual problems with units, judge reasonableness, and reflect on readiness."]].map((a,i)=>`<div class="assignment"><label class="check"><input id="a_${i}" type="checkbox" ${r.assignments[i]?"checked":""}> Complete</label><h4>${a[0]}</h4><p>${a[2]}</p><p class="small">Suggested evidence: ${a[1]} points</p></div>`).join("")}<h3>Weekly Mastery Check</h3>${quizForm(w,r)}<h3>Work Space</h3><label for="work">Calculations, explanations, questions, or correction notes</label><textarea id="work">${esc(r.work||"")}</textarea></div></div>`;
+  ["Monday","Tuesday","Wednesday","Thursday","Friday"].forEach(d=>{$(`l_${d}`).onchange=e=>{r.lessons[d]=e.target.checked;save();render()};$(`n_${d}`).oninput=e=>{r.notes[d]=e.target.value;save()}});
+  [0,1,2].forEach(i=>$(`a_${i}`).onchange=e=>{r.assignments[i]=e.target.checked;save();render()});
+  $("work").oninput=e=>{r.work=e.target.value;save()};
+}
+
+function shuffle(items){
+  const a=items.slice();
+  for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}
+  return a;
+}
+function prepareQuestion(q){
+  const mixed=shuffle(q[1].map((text,original)=>({text,original})));
+  return{prompt:q[0],choices:mixed.map(x=>x.text),answer:mixed.findIndex(x=>x.original===q[2])};
+}
+function quizForm(w,r){
+  activeQuiz=w.quiz.map(prepareQuestion);
+  const feedback=(r.quiz.lastFeedback||[]).length?`<div class="feedback-list"><strong>Last-attempt review</strong><ul>${r.quiz.lastFeedback.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>`:"";
+  return`<p class="score">Best: ${Math.round(r.quiz.best||0)||"—"}</p><p class="small">${r.quiz.attempts.length?`Attempts: ${r.quiz.attempts.map(a=>Math.round(a.score)+"%").join(" | ")}`:"No attempts yet."}</p><form>${activeQuiz.map((q,i)=>`<fieldset class="q"><legend><strong>${i+1}. ${esc(q.prompt)}</strong></legend>${q.choices.map((c,j)=>`<label class="choice"><input type="radio" name="q${i}" value="${j}"> ${esc(c)}</label>`).join("")}</fieldset>`).join("")}<div class="actions"><button type="button" onclick="submitQuiz()">Submit Mastery Check</button><button class="secondary" type="reset">Clear</button></div></form>${feedback}`;
+}
+
+function scope(){ $("content").innerHTML=`<div class="card"><h3>36-Week Scope & Sequence</h3><p class="section-note">Every row opens the corresponding complete unit or diagnostic page.</p><div class="actions"><button type="button" onclick="downloadScope()">Download Scope CSV</button></div><div class="table-wrap">${scopeTable(APP.weeks)}</div></div>`}
+function scopeTable(list){return`<table><tr><th>Week</th><th>Unit</th><th>Focus</th><th>Open</th><th>Framework Tags</th></tr>${list.map(w=>`<tr><td>${w.week}</td><td>${esc(w.unitTitle)}</td><td>${esc(w.title)}</td><td><a class="button secondary" href="${esc(unitHref(w))}">Open</a></td><td>${w.tags.map(t=>`<span class="pill">${esc(t)}</span>`).join("")}</td></tr>`).join("")}</table>`}
+
+function tools(){ $("content").innerHTML=`<div class="grid"><div class="card col12"><h3>Math Tool Dock</h3><p>Use tools to explore, represent, and verify. A tool result is evidence only when the learner can explain the inputs, method, units, assumptions, and reasonableness.</p><div class="actions"><a class="button" target="_blank" rel="noopener" href="${APP.tools[0].url}">Open Khaemenes Scientific Calculator</a><a class="button secondary" target="_blank" rel="noopener" href="${APP.tools[0].relative}">Open Repository-Relative Calculator</a></div></div><div class="card col12"><div class="toolGrid">${toolHTML()}</div></div><div class="card col12"><h3>Tool Inventory</h3><div class="table-wrap"><table><tr><th>Tool</th><th>Type</th><th>Use</th></tr>${APP.tools.map(t=>`<tr><td>${esc(t.name)}</td><td>${esc(t.kind)}</td><td>${esc(t.description)}</td></tr>`).join("")}</table></div></div></div>`}
+
+function toolHTML(){return `<div class="toolBox"><h4>Fraction Lab</h4><label for="fracN">Integer numerator</label><input id="fracN" type="number" step="1" value="18"><label for="fracD">Nonzero integer denominator</label><input id="fracD" type="number" step="1" value="24"><button type="button" onclick="fractionTool()">Reduce</button><div class="toolResult" role="status" aria-live="polite" id="fracOut"></div></div><div class="toolBox"><h4>Proportion Solver</h4><p class="small">Solve a/b = c/x</p><label for="pa">a</label><input id="pa" type="number" value="3"><label for="pb">b</label><input id="pb" type="number" value="5"><label for="pc">c</label><input id="pc" type="number" value="12"><button type="button" onclick="proportionTool()">Solve x</button><div class="toolResult" role="status" aria-live="polite" id="propOut"></div></div><div class="toolBox"><h4>Percent Lab</h4><label for="perP">Percent</label><input id="perP" type="number" value="20"><label for="perQ">Quantity</label><input id="perQ" type="number" value="80"><label for="oldVal">Original value</label><input id="oldVal" type="number" value="30"><label for="newVal">New value</label><input id="newVal" type="number" value="36"><button type="button" onclick="percentTool()">Calculate</button><div class="toolResult" role="status" aria-live="polite" id="percentOut"></div></div><div class="toolBox"><h4>Equation Checker</h4><p class="small">Check whether x solves ax + b = c</p><label for="eqA">a</label><input id="eqA" type="number" value="2"><label for="eqB">b</label><input id="eqB" type="number" value="5"><label for="eqC">c</label><input id="eqC" type="number" value="13"><label for="eqX">Proposed x</label><input id="eqX" type="number" value="4"><button type="button" onclick="equationTool()">Check</button><div class="toolResult" role="status" aria-live="polite" id="eqOut"></div></div><div class="toolBox"><h4>Slope Finder</h4><label for="x1">x₁</label><input id="x1" type="number" value="1"><label for="y1">y₁</label><input id="y1" type="number" value="2"><label for="x2">x₂</label><input id="x2" type="number" value="5"><label for="y2">y₂</label><input id="y2" type="number" value="10"><button type="button" onclick="slopeTool()">Find Slope</button><div class="toolResult" role="status" aria-live="polite" id="slopeOut"></div></div><div class="toolBox"><h4>Geometry Lab</h4><label for="geoL">Length / first right-triangle leg</label><input id="geoL" type="number" min="0" value="8"><label for="geoW">Width / second right-triangle leg</label><input id="geoW" type="number" min="0" value="5"><label for="geoH">Prism height</label><input id="geoH" type="number" min="0" value="3"><button type="button" onclick="geometryTool()">Calculate</button><div class="toolResult" role="status" aria-live="polite" id="geoOut"></div></div><div class="toolBox"><h4>Data Lab</h4><label for="dataSet">Comma-separated data</label><input id="dataSet" value="2, 4, 6, 8, 10"><button type="button" onclick="dataTool()">Analyze</button><div class="toolResult" role="status" aria-live="polite" id="dataOut"></div></div><div class="toolBox"><h4>Scientific Notation</h4><label for="sciNum">Number</label><input id="sciNum" type="number" value="320000"><button type="button" onclick="sciTool()">Convert</button><div class="toolResult" role="status" aria-live="polite" id="sciOut"></div></div>`}
+
+function makeExam(domains){
+  let arr=[];
+  domains.forEach(d=>shuffle(APP.quizBank[d]).slice(0,4).forEach(q=>{const p=prepareQuestion(q);arr.push({skill:d,title:p.prompt,choices:p.choices,answer:p.answer})}));
+  return arr;
+}
+function exams(){
+  let s=student();ensure(s);
+  activeExams.midterm=makeExam(APP.midtermDomains);activeExams.final=makeExam(APP.finalDomains);
+  $("content").innerHTML=`<div class="grid"><div class="card col6"><h3>Midterm</h3><p>Best: <span class="score">${Math.round(s.progress.exams.midterm?.best||0)||"—"}</span></p><p class="section-note">Question and answer order are regenerated when this page opens.</p>${examForm("midterm",activeExams.midterm)}</div><div class="card col6"><h3>Final</h3><p>Best: <span class="score">${Math.round(s.progress.exams.final?.best||0)||"—"}</span></p><p class="section-note">The final samples every course domain and randomizes answer positions.</p>${examForm("final",activeExams.final)}</div></div>`;
+}
+function examForm(name,qs){return`<form>${qs.map((q,i)=>`<details class="q"><summary><strong>${i+1}. ${esc(q.skill)}: ${esc(q.title)}</strong></summary>${q.choices.map((c,j)=>`<label class="choice"><input type="radio" name="${name}_${i}" value="${j}"> ${esc(c)}</label>`).join("")}</details>`).join("")}<div class="actions"><button type="button" onclick="submitExam('${name}')">Submit</button><button class="secondary" type="reset">Clear</button></div></form>`}
+
+function capstone(){
+  let s=student();ensure(s);const rubric=s.progress.capstone.rubric;
+  const criteria=[["question",20,"Question, variables, and purpose"],["evidence",20,"Data, measurement, or evidence quality"],["model",25,"Representation and mathematical model"],["accuracy",20,"Calculations, verification, and reasonableness"],["communication",15,"Assumptions, limitations, conclusion, and defense"]];
+  $("content").innerHTML=`<div class="grid"><div class="card col7"><h3>Mathematical Modelling Capstone</h3><p>Define a personal, scientific, environmental, financial, or civic question. Select variables and representations, calculate carefully, explain assumptions and limitations, and show readiness for the next mathematics course.</p><ol><li>Question and variables</li><li>Data or measurement plan</li><li>Model: table, graph, equation, diagram, or calculation chain</li><li>Solution and reasonableness check</li><li>Limitations and assumptions</li><li>Presentation and readiness reflection</li></ol><h4>Analytic Rubric</h4><div class="rubric-grid">${criteria.map(([id,max,label])=>`<div class="rubric-item"><label for="rub_${id}">${label} — ${max} points</label><input id="rub_${id}" data-rubric="${id}" data-max="${max}" type="number" min="0" max="${max}" step="1" value="${esc(rubric[id]??0)}"></div>`).join("")}</div><p class="score">Capstone score: <span id="capScoreDisplay">${esc(s.progress.capstone.score||0)}</span>/100</p><button type="button" onclick="downloadCapstoneGuide()">Download Capstone Guide</button></div><div class="card col5"><h3>Capstone Log</h3><label for="capStage">Stage</label><select id="capStage"><option>Question</option><option>Data</option><option>Model</option><option>Calculation</option><option>Limitations</option><option>Presentation</option><option>Reflection</option></select><label for="capNote">Evidence or next step</label><textarea id="capNote"></textarea><button type="button" onclick="addCapstone()">Save Log</button>${capstoneTable(s)}</div></div>`;
+  document.querySelectorAll("[data-rubric]").forEach(input=>input.oninput=e=>{const max=Number(e.target.dataset.max),value=Math.max(0,Math.min(max,Number(e.target.value||0)));e.target.value=value;rubric[e.target.dataset.rubric]=value;s.progress.capstone.score=Object.values(rubric).reduce((sum,n)=>sum+Number(n||0),0);$("capScoreDisplay").textContent=s.progress.capstone.score;save()});
+}
+function capstoneTable(s){return(s.progress.capstone.logs||[]).length?`<div class="table-wrap"><table><tr><th>Date</th><th>Stage</th><th>Note</th></tr>${s.progress.capstone.logs.slice().reverse().map(l=>`<tr><td>${new Date(l.date).toLocaleDateString()}</td><td>${esc(l.stage)}</td><td>${esc(l.note)}</td></tr>`).join("")}</table></div>`:`<p class="small">No capstone logs yet.</p>`}
+
+function reports(){let s=student(),st=stats(s);$("content").innerHTML=`<div class="grid"><div class="card kpi"><strong>${st.course||"—"}%</strong><span>Overall Mastery</span></div><div class="card kpi"><strong>${st.lessons}%</strong><span>Lesson Completion</span></div><div class="card kpi"><strong>${st.midterm||"—"}</strong><span>Midterm</span></div><div class="card kpi"><strong>${st.final||"—"}</strong><span>Final</span></div><div class="card col12"><h3>Reports & Backups</h3><p class="section-note">Records are stored in this browser. Export JSON regularly and keep a copy outside the browser.</p><div class="actions"><button type="button" onclick="printReport()">Print</button><button class="secondary" type="button" onclick="downloadReport()">Download HTML</button><button class="secondary" type="button" onclick="downloadCSV()">Download CSV</button><button class="ghost" type="button" onclick="downloadBackup()">Export JSON</button><label class="button secondary">Import JSON <input type="file" accept=".json,application/json" style="display:none" onchange="importBackup(event)"></label></div></div><div class="card col12"><div class="table-wrap">${progressTable(s)}</div></div></div>`}
+function progressTable(s){return`<table><tr><th>Week</th><th>Focus</th><th>Lesson Plan</th><th>Assignments</th><th>Quiz Mastery</th><th>Attempts</th><th>Review Cycles</th></tr>${APP.weeks.map(w=>{let r=weekRec(s,w.week);return`<tr><td>${w.week}</td><td><a href="${esc(unitHref(w))}">${esc(w.title)}</a></td><td>${lessonPct(s,w.week)}%</td><td>${assignPct(s,w.week)}%</td><td>${quizBest(s,w.week)||"—"}</td><td>${r.quiz.attempts.length}</td><td>${r.repeats||0}</td></tr>`}).join("")}</table>`}
+
+function standards(){
+  let coverage={};APP.weeks.forEach(w=>w.tags.forEach(t=>{coverage[t]??=[];coverage[t].push(w.week)}));
+  $("content").innerHTML=`<div class="grid"><div class="card col12"><h3>Repository Sources & Standards Evidence</h3><p>This portal follows the repository course map and connects to the complete unit architecture. Framework tags are useful crosswalk evidence, but they are not a substitute for a jurisdiction-specific adoption review or transcript decision.</p></div><div class="card col6"><h3>Sources</h3><ul>${APP.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a><br><span class="small">${esc(s.note)}</span></li>`).join("")}</ul></div><div class="card col6"><h3>Architecture Notes</h3><ul><li>Open-age, level-based course identity.</li><li>Complete unit pages are linked from every week and scope row.</li><li>Completion and mastery are reported separately.</li><li>Answer positions are randomized for portal quizzes and exams.</li><li>Retakes preserve best score and attempt history.</li><li>Local records support JSON, CSV, HTML, and print exports.</li><li>Built-in tools validate inputs and do not replace written reasoning.</li></ul></div><div class="card col12"><h3>Framework Coverage</h3><div class="table-wrap"><table><tr><th>Tag</th><th>Weeks</th></tr>${Object.entries(coverage).sort().map(([tag,weeks])=>`<tr><td>${esc(tag)}</td><td>${weeks.join(", ")}</td></tr>`).join("")}</table></div></div></div>`;
+}
+
+function num(id){const raw=$(id).value.trim();return raw===""?NaN:Number(raw)}
+function need(values,out,message="Enter a valid number in every field."){if(values.some(v=>!Number.isFinite(v))){$(out).textContent=message;return false}return true}
+function gcd(a,b){a=Math.abs(a);b=Math.abs(b);while(b)[a,b]=[b,a%b];return a||1}
+function fractionTool(){let n=num("fracN"),d=num("fracD");if(!need([n,d],"fracOut"))return;if(!Number.isInteger(n)||!Number.isInteger(d))return $("fracOut").textContent="Fraction reduction requires integer numerator and denominator.";if(d===0)return $("fracOut").textContent="The denominator cannot be 0.";if(d<0){n=-n;d=-d}let g=gcd(n,d);$("fracOut").textContent=`${n}/${d} = ${n/g}/${d/g}; decimal ≈ ${(n/d).toFixed(6)}`}
+function proportionTool(){let a=num("pa"),b=num("pb"),c=num("pc");if(!need([a,b,c],"propOut"))return;if(a===0)return $("propOut").textContent="a cannot be 0 because it is a denominator.";let x=b*c/a;$("propOut").textContent=`x = (b×c)/a = (${b}×${c})/${a} = ${x}`}
+function percentTool(){let p=num("perP"),q=num("perQ"),oldv=num("oldVal"),newv=num("newVal");if(!need([p,q,oldv,newv],"percentOut"))return;let part=p/100*q,change=oldv!==0?((newv-oldv)/oldv*100):NaN;$("percentOut").textContent=`${p}% of ${q} = ${part}. Percent change ${oldv} → ${newv}: ${Number.isFinite(change)?change.toFixed(2)+"%":"undefined because the original value is 0"}.`}
+function equationTool(){let a=num("eqA"),b=num("eqB"),c=num("eqC"),x=num("eqX");if(!need([a,b,c,x],"eqOut"))return;let left=a*x+b;$("eqOut").textContent=`Left side = ${a}(${x}) + ${b} = ${left}. ${Math.abs(left-c)<1e-9?"Yes, x is a solution.":"No; the left side does not equal "+c+"."}`}
+function slopeTool(){let x1=num("x1"),y1=num("y1"),x2=num("x2"),y2=num("y2");if(!need([x1,y1,x2,y2],"slopeOut"))return;if(x2===x1)return $("slopeOut").textContent="Undefined slope: the x-values are equal, so the run is 0.";$("slopeOut").textContent=`m = (${y2}−${y1})/(${x2}−${x1}) = ${(y2-y1)/(x2-x1)}`}
+function geometryTool(){let l=num("geoL"),w=num("geoW"),h=num("geoH");if(!need([l,w,h],"geoOut"))return;if([l,w,h].some(v=>v<0))return $("geoOut").textContent="Lengths cannot be negative.";$("geoOut").textContent=`Rectangle area = ${l*w}; perimeter = ${2*l+2*w}; rectangular-prism volume = ${l*w*h}; right-triangle hypotenuse from legs ${l} and ${w} ≈ ${Math.hypot(l,w).toFixed(4)}.`}
+function dataTool(){let tokens=$("dataSet").value.split(",").map(x=>x.trim()).filter(Boolean),arr=tokens.map(Number);if(!tokens.length||arr.some(x=>!Number.isFinite(x)))return $("dataOut").textContent="Enter a comma-separated list containing only valid numbers.";arr.sort((a,b)=>a-b);let mean=arr.reduce((a,b)=>a+b,0)/arr.length,med=arr.length%2?arr[(arr.length-1)/2]:(arr[arr.length/2-1]+arr[arr.length/2])/2;$("dataOut").textContent=`n=${arr.length}; mean=${mean.toFixed(4)}; median=${med}; min=${arr[0]}; max=${arr.at(-1)}; range=${arr.at(-1)-arr[0]}.`}
+function sciTool(){let n=num("sciNum");if(!need([n],"sciOut"))return;if(n===0)return $("sciOut").textContent="0 is written as 0 × 10^0 by convention.";let e=Math.floor(Math.log10(Math.abs(n))),a=n/10**e;$("sciOut").textContent=`${n} = ${a.toFixed(8).replace(/0+$/,'').replace(/\.$/,'')} × 10^${e}`}
+
+function submitQuiz(){
+  let s=student(),w=APP.weeks.find(x=>x.week===activeWeek),r=weekRec(s,w.week),correct=0,answers=[],feedback=[];
+  for(let i=0;i<activeQuiz.length;i++){
+    let chosen=document.querySelector(`input[name="q${i}"]:checked`);
+    if(!chosen)return alert("Please answer every mastery-check question.");
+    let val=+chosen.value;answers.push(val);
+    if(val===activeQuiz[i].answer)correct++;else feedback.push(`${i+1}. Review: ${activeQuiz[i].prompt} Correct answer: ${activeQuiz[i].choices[activeQuiz[i].answer]}`);
+  }
+  let score=Math.round(correct/activeQuiz.length*100);
+  r.quiz.attempts.push({date:new Date().toISOString(),score,answers});r.quiz.best=Math.max(r.quiz.best||0,score);r.quiz.lastFeedback=feedback.length?feedback:["All answers were correct. Explain one solution in writing to preserve the reasoning."];
+  save();alert(`Mastery check submitted: ${score}%. Best score kept.`);render();
+}
+function submitExam(name){
+  let s=student(),qs=activeExams[name]||[],correct=0,answers=[];
+  if(!qs.length)return alert("Reopen the assessment page to generate this assessment.");
+  for(let i=0;i<qs.length;i++){let chosen=document.querySelector(`input[name="${name}_${i}"]:checked`);if(!chosen)return alert("Please answer every question.");let val=+chosen.value;answers.push(val);if(val===qs[i].answer)correct++}
+  let score=Math.round(correct/qs.length*100);ensure(s);s.progress.exams[name]??={best:0,attempts:[]};s.progress.exams[name].attempts.push({date:new Date().toISOString(),score,answers,version:qs.map(q=>q.title)});s.progress.exams[name].best=Math.max(s.progress.exams[name].best||0,score);save();alert(`${name} submitted: ${score}%.`);render();
+}
+function repeatWeek(){let r=weekRec(student(),activeWeek);r.repeats=(r.repeats||0)+1;r.lastRepeat=new Date().toISOString();save();alert("Review cycle logged. Reopen the complete unit, correct work, and retake when ready.");render()}
+function addCapstone(){let s=student();ensure(s);let note=$("capNote").value.trim();if(!note)return alert("Add a capstone note.");s.progress.capstone.logs.push({date:new Date().toISOString(),stage:$("capStage").value,note});save();render()}
+function addStudent(name){let s={id:uid(),name,created:new Date().toISOString(),progress:{weeks:{},exams:{},capstone:{logs:[],score:0,rubric:{}}}};state.students.push(s);state.activeId=s.id;save();render()}
+
+function reportHTML(){let s=student(),st=stats(s);return`<!doctype html><html><head><meta charset="utf-8"><title>Pre-Algebra Report - ${esc(s.name)}</title><style>body{font-family:Aptos,"Segoe UI",Arial,sans-serif;padding:32px;color:#111;line-height:1.55}table{width:100%;border-collapse:collapse}td,th{border:1px solid #aaa;padding:8px;vertical-align:top}.kpi{display:inline-block;border:1px solid #999;padding:12px;margin:5px}th{background:#eee}a{color:#123e77}</style></head><body><h1>Khaemenes Open-Age Pre-Algebra Report</h1><p><strong>Learner:</strong> ${esc(s.name)}<br><strong>Date:</strong> ${new Date().toLocaleDateString()}</p><div class="kpi"><strong>Overall mastery:</strong> ${st.course||"—"}%</div><div class="kpi"><strong>Lesson completion:</strong> ${st.lessons}%</div><div class="kpi"><strong>Assignment completion:</strong> ${st.assignments||"—"}%</div><div class="kpi"><strong>Quiz mastery:</strong> ${st.quizzes||"—"}%</div>${progressTable(s)}<h2>Capstone Logs</h2>${capstoneTable(s)}</body></html>`}
+function printReport(){let w=window.open("","_blank");if(!w)return alert("Allow pop-ups to print the report.");w.document.write(reportHTML());w.document.close();w.focus();setTimeout(()=>w.print(),400)}
+function downloadReport(){download(`PreAlgebra_Report_${safe(student().name)}.html`,reportHTML(),"text/html")}
+function downloadCSV(){let s=student(),rows=[["Learner","Week","Unit","Focus","Lesson Completion","Assignment Completion","Quiz Mastery","Attempts","Review Cycles"]];APP.weeks.forEach(w=>{let r=weekRec(s,w.week);rows.push([s.name,w.week,w.unitTitle,w.title,lessonPct(s,w.week),assignPct(s,w.week),quizBest(s,w.week)||"",r.quiz.attempts.length,r.repeats||0])});download(`PreAlgebra_Progress_${safe(s.name)}.csv`,rows.map(r=>r.map(csv).join(",")).join("\n"),"text/csv")}
+function downloadScope(){let rows=[["Week","Unit","Focus","Big Idea","Tags","Path"]];APP.weeks.forEach(w=>rows.push([w.week,w.unitTitle,w.title,w.bigIdea,w.tags.join("; "),w.path]));download("Open_Age_PreAlgebra_36_Week_Scope.csv",rows.map(r=>r.map(csv).join(",")).join("\n"),"text/csv")}
+function downloadCapstoneGuide(){download("PreAlgebra_Modelling_Capstone_Guide.txt","Open-Age Pre-Algebra Mathematical Modelling Capstone\n\nChoose a personal, scientific, environmental, financial, or civic question. Define variables, gather or create data, select a representation, calculate carefully, verify results, explain assumptions and limitations, and defend readiness for the next mathematics course.\n\nRubric: question and variables 20; evidence 20; model 25; accuracy and reasonableness 20; communication and limitations 15.\n","text/plain")}
+function downloadBackup(){download("Open_Age_PreAlgebra_Backup.json",JSON.stringify(state,null,2),"application/json")}
+function importBackup(e){let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{const candidate=JSON.parse(r.result);if(!validState(candidate))throw Error("Invalid structure");state=candidate;state.activeId=state.activeId||state.students[0]?.id||null;save();render()}catch(error){console.warn(error);alert("Could not import backup. The file does not contain a valid Pre-Algebra learner record.")}};r.readAsText(f)}
+function safe(s){return String(s||"learner").replace(/[^a-z0-9_-]+/gi,"_").slice(0,60)}
+function csv(v){return`"${String(v??"").replaceAll('"','""')}"`}
+function download(name,text,type){let b=new Blob([text],{type}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},800)}
+document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>{view=b.dataset.view;render()});document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{view=b.dataset.go;const menu=$("courseMenu");if(menu)menu.open=false;render()});$("pinCourseButton").onclick=toggleCoursePin;window.addEventListener("storage",event=>{if(event.key===PROFILE_PIN_KEY)updatePinButton()});document.addEventListener("click",event=>{const menu=$("courseMenu");if(menu?.open&&!menu.contains(event.target))menu.open=false});$("addStudent").onclick=()=>{let n=$("studentName").value.trim();if(!n)return alert("Enter a learner name.");addStudent(n);$("studentName").value=""};$("studentSelect").onchange=e=>{state.activeId=e.target.value;save();render()};$("deleteStudent").onclick=()=>{let s=student();if(!s)return;if(!confirm(`Delete ${s.name}?`))return;state.students=state.students.filter(x=>x.id!==s.id);state.activeId=state.students[0]?.id||null;if(!state.students.length)addStudent("First Learner");save();render()};$("demo").onclick=()=>{addStudent("Demo Learner");let s=student();for(let i=1;i<=4;i++){let r=weekRec(s,i);["Monday","Tuesday","Wednesday"].forEach(d=>r.lessons[d]=true);r.assignments[0]=true;r.quiz.best=[100,80,85,70][i-1];r.quiz.attempts.push({date:new Date().toISOString(),score:r.quiz.best})}save();render()};if(!state.students.length)addStudent("First Learner");else render();
 
 </script>
 </body>
