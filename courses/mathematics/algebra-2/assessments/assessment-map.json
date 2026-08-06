@@ -1,0 +1,46 @@
+{
+  "diagnostic": {
+    "questions": 40,
+    "source": "diagnostic bank",
+    "purpose": "Algebra I prerequisite planning"
+  },
+  "unit_mastery": {
+    "count_per_attempt": 10,
+    "units": 13,
+    "target": 80
+  },
+  "midterm": {
+    "questions": 60,
+    "units": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "final": {
+    "questions": 100,
+    "units": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "course_bank_questions": 156,
+  "capstone": {
+    "rubric_points": 100,
+    "oral_defense": true
+  }
+}
