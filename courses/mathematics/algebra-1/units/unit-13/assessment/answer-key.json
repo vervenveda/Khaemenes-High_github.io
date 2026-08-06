@@ -1,0 +1,130 @@
+{
+  "unit": 13,
+  "items": [
+    {
+      "id": "q0411",
+      "answer": "state a precise question and define quantities",
+      "explanation": "Question and quantities guide the model."
+    },
+    {
+      "id": "q0412",
+      "answer": "how results change when inputs change",
+      "explanation": "Sensitivity evaluates stability."
+    },
+    {
+      "id": "q0413",
+      "answer": "The model supports the claim within its domain and assumptions.",
+      "explanation": "Defensible conclusions state scope and limits."
+    },
+    {
+      "id": "q0414",
+      "answer": "state a precise question and define quantities",
+      "explanation": "Question and quantities guide the model."
+    },
+    {
+      "id": "q0415",
+      "answer": "how results change when inputs change",
+      "explanation": "Sensitivity evaluates stability."
+    },
+    {
+      "id": "q0416",
+      "answer": "state a precise question and define quantities",
+      "explanation": "Question and quantities guide the model."
+    },
+    {
+      "id": "q0417",
+      "answer": "how results change when inputs change",
+      "explanation": "Sensitivity evaluates stability."
+    },
+    {
+      "id": "q0418",
+      "answer": "The model supports the claim within its domain and assumptions.",
+      "explanation": "Defensible conclusions state scope and limits."
+    },
+    {
+      "id": "q0419",
+      "answer": "state a precise question and define quantities",
+      "explanation": "Question and quantities guide the model."
+    },
+    {
+      "id": "q0420",
+      "answer": "how results change when inputs change",
+      "explanation": "Sensitivity evaluates stability."
+    },
+    {
+      "id": "q0421",
+      "answer": "state a precise question and define quantities",
+      "explanation": "Question and quantities guide the model."
+    },
+    {
+      "id": "q0422",
+      "answer": "how results change when inputs change",
+      "explanation": "Sensitivity evaluates stability."
+    },
+    {
+      "id": "q0423",
+      "answer": "The model supports the claim within its domain and assumptions.",
+      "explanation": "Defensible conclusions state scope and limits."
+    },
+    {
+      "id": "q0424",
+      "answer": "state a precise question and define quantities",
+      "explanation": "Question and quantities guide the model."
+    },
+    {
+      "id": "q0425",
+      "answer": "how results change when inputs change",
+      "explanation": "Sensitivity evaluates stability."
+    },
+    {
+      "id": "q0426",
+      "answer": "state a precise question and define quantities",
+      "explanation": "Question and quantities guide the model."
+    },
+    {
+      "id": "q0427",
+      "answer": "how results change when inputs change",
+      "explanation": "Sensitivity evaluates stability."
+    },
+    {
+      "id": "q0428",
+      "answer": "The model supports the claim within its domain and assumptions.",
+      "explanation": "Defensible conclusions state scope and limits."
+    },
+    {
+      "id": "q0429",
+      "answer": "state a precise question and define quantities",
+      "explanation": "Question and quantities guide the model."
+    },
+    {
+      "id": "q0430",
+      "answer": "how results change when inputs change",
+      "explanation": "Sensitivity evaluates stability."
+    },
+    {
+      "id": "q0431",
+      "answer": "state a precise question and define quantities",
+      "explanation": "Question and quantities guide the model."
+    },
+    {
+      "id": "q0432",
+      "answer": "how results change when inputs change",
+      "explanation": "Sensitivity evaluates stability."
+    },
+    {
+      "id": "q0433",
+      "answer": "The model supports the claim within its domain and assumptions.",
+      "explanation": "Defensible conclusions state scope and limits."
+    },
+    {
+      "id": "q0434",
+      "answer": "state a precise question and define quantities",
+      "explanation": "Question and quantities guide the model."
+    },
+    {
+      "id": "q0435",
+      "answer": "how results change when inputs change",
+      "explanation": "Sensitivity evaluates stability."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "unit": {
+    "number": 12,
+    "title": "Statistics, Financial Mathematics & Evidence",
+    "weeks": 3,
+    "essential_question": "How can algebra and statistics support responsible financial and evidence-based decisions?",
+    "big_ideas": [
+      "Study design limits conclusions.",
+      "Center, spread, shape, and outliers describe distributions.",
+      "Association is not automatically causation.",
+      "Financial models require rates, time, fees, and risk."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u12-l01",
+      "number": 1,
+      "title": "Statistical Questions, Study Design & Data Ethics",
+      "week": 33,
+      "file": "lessons/lesson-01-statistical-questions-study-design-data-ethics.html"
+    },
+    {
+      "id": "u12-l02",
+      "number": 2,
+      "title": "Distributions, Center, Spread & Standard Deviation",
+      "week": 33,
+      "file": "lessons/lesson-02-distributions-center-spread-standard-deviation.html"
+    },
+    {
+      "id": "u12-l03",
+      "number": 3,
+      "title": "Box Plots, Histograms & Comparing Groups",
+      "week": 33,
+      "file": "lessons/lesson-03-box-plots-histograms-comparing-groups.html"
+    },
+    {
+      "id": "u12-l04",
+      "number": 4,
+      "title": "Bivariate Data, Correlation, Causation & Residuals",
+      "week": 34,
+      "file": "lessons/lesson-04-bivariate-data-correlation-causation-residuals.html"
+    },
+    {
+      "id": "u12-l05",
+      "number": 5,
+      "title": "Two-Way Tables, Conditional Relative Frequency & Probability",
+      "week": 34,
+      "file": "lessons/lesson-05-two-way-tables-conditional-relative-frequency-probability.html"
+    },
+    {
+      "id": "u12-l06",
+      "number": 6,
+      "title": "Financial Mathematics: Growth, Loans, Taxes & Risk",
+      "week": 35,
+      "file": "lessons/lesson-06-financial-mathematics-growth-loans-taxes-risk.html"
+    },
+    {
+      "id": "u12-l07",
+      "number": 7,
+      "title": "Evaluating Quantitative Claims & Communicating Evidence",
+      "week": 35,
+      "file": "lessons/lesson-07-evaluating-quantitative-claims-communicating-evidence.html"
+    }
+  ]
+}

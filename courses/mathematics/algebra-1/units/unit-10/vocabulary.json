@@ -1,0 +1,56 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "ar": "العربية",
+    "pt": "Português"
+  },
+  "terms": [
+    {
+      "id": "quadratic-function",
+      "en": "quadratic function",
+      "es": "función cuadrática",
+      "fr": "fonction quadratique",
+      "ar": "دالة تربيعية",
+      "pt": "função quadrática",
+      "definition": "A degree-two polynomial function."
+    },
+    {
+      "id": "parabola",
+      "en": "parabola",
+      "es": "parábola",
+      "fr": "parabole",
+      "ar": "قطع مكافئ",
+      "pt": "parábola",
+      "definition": "The graph of a quadratic function."
+    },
+    {
+      "id": "vertex",
+      "en": "vertex",
+      "es": "vértice",
+      "fr": "sommet",
+      "ar": "رأس",
+      "pt": "vértice",
+      "definition": "The turning point of a parabola."
+    },
+    {
+      "id": "axis-of-symmetry",
+      "en": "axis of symmetry",
+      "es": "eje de simetría",
+      "fr": "axe de symétrie",
+      "ar": "محور تماثل",
+      "pt": "eixo de simetria",
+      "definition": "A line dividing a parabola into mirror halves."
+    },
+    {
+      "id": "discriminant",
+      "en": "discriminant",
+      "es": "discriminante",
+      "fr": "discriminant",
+      "ar": "مميز",
+      "pt": "discriminante",
+      "definition": "The value b²−4ac indicating solution type."
+    }
+  ]
+}

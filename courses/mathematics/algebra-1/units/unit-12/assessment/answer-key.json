@@ -1,0 +1,180 @@
+{
+  "unit": 12,
+  "items": [
+    {
+      "id": "q0376",
+      "answer": "randomly select students from every grade",
+      "explanation": "Stratified random selection reduces undercoverage."
+    },
+    {
+      "id": "q0377",
+      "answer": "randomly select students from every grade",
+      "explanation": "Stratified random selection reduces undercoverage."
+    },
+    {
+      "id": "q0378",
+      "answer": "randomly select students from every grade",
+      "explanation": "Stratified random selection reduces undercoverage."
+    },
+    {
+      "id": "q0379",
+      "answer": "randomly select students from every grade",
+      "explanation": "Stratified random selection reduces undercoverage."
+    },
+    {
+      "id": "q0380",
+      "answer": "randomly select students from every grade",
+      "explanation": "Stratified random selection reduces undercoverage."
+    },
+    {
+      "id": "q0381",
+      "answer": "6.0",
+      "explanation": "Add and divide by count."
+    },
+    {
+      "id": "q0382",
+      "answer": "5.6",
+      "explanation": "Add and divide by count."
+    },
+    {
+      "id": "q0383",
+      "answer": "6.8",
+      "explanation": "Add and divide by count."
+    },
+    {
+      "id": "q0384",
+      "answer": "3.2",
+      "explanation": "Add and divide by count."
+    },
+    {
+      "id": "q0385",
+      "answer": "6.8",
+      "explanation": "Add and divide by count."
+    },
+    {
+      "id": "q0386",
+      "answer": "box plot",
+      "explanation": "Box plots show the five-number summary."
+    },
+    {
+      "id": "q0387",
+      "answer": "box plot",
+      "explanation": "Box plots show the five-number summary."
+    },
+    {
+      "id": "q0388",
+      "answer": "box plot",
+      "explanation": "Box plots show the five-number summary."
+    },
+    {
+      "id": "q0389",
+      "answer": "box plot",
+      "explanation": "Box plots show the five-number summary."
+    },
+    {
+      "id": "q0390",
+      "answer": "box plot",
+      "explanation": "Box plots show the five-number summary."
+    },
+    {
+      "id": "q0391",
+      "answer": "larger x tends to occur with larger y",
+      "explanation": "Association describes a trend, not causation."
+    },
+    {
+      "id": "q0392",
+      "answer": "larger x tends to occur with larger y",
+      "explanation": "Association describes a trend, not causation."
+    },
+    {
+      "id": "q0393",
+      "answer": "larger x tends to occur with larger y",
+      "explanation": "Association describes a trend, not causation."
+    },
+    {
+      "id": "q0394",
+      "answer": "larger x tends to occur with larger y",
+      "explanation": "Association describes a trend, not causation."
+    },
+    {
+      "id": "q0395",
+      "answer": "larger x tends to occur with larger y",
+      "explanation": "Association describes a trend, not causation."
+    },
+    {
+      "id": "q0396",
+      "answer": "7/12",
+      "explanation": "Favorable over total."
+    },
+    {
+      "id": "q0397",
+      "answer": "9/13",
+      "explanation": "Favorable over total."
+    },
+    {
+      "id": "q0398",
+      "answer": "9/14",
+      "explanation": "Favorable over total."
+    },
+    {
+      "id": "q0399",
+      "answer": "3/7",
+      "explanation": "Favorable over total."
+    },
+    {
+      "id": "q0400",
+      "answer": "9/17",
+      "explanation": "Favorable over total."
+    },
+    {
+      "id": "q0401",
+      "answer": "$96.30",
+      "explanation": "Add tax to original price."
+    },
+    {
+      "id": "q0402",
+      "answer": "$42.80",
+      "explanation": "Add tax to original price."
+    },
+    {
+      "id": "q0403",
+      "answer": "$32.10",
+      "explanation": "Add tax to original price."
+    },
+    {
+      "id": "q0404",
+      "answer": "$21.40",
+      "explanation": "Add tax to original price."
+    },
+    {
+      "id": "q0405",
+      "answer": "$74.90",
+      "explanation": "Add tax to original price."
+    },
+    {
+      "id": "q0406",
+      "answer": "denominator, time period, and source",
+      "explanation": "Percentages require a comparison base and context."
+    },
+    {
+      "id": "q0407",
+      "answer": "denominator, time period, and source",
+      "explanation": "Percentages require a comparison base and context."
+    },
+    {
+      "id": "q0408",
+      "answer": "denominator, time period, and source",
+      "explanation": "Percentages require a comparison base and context."
+    },
+    {
+      "id": "q0409",
+      "answer": "denominator, time period, and source",
+      "explanation": "Percentages require a comparison base and context."
+    },
+    {
+      "id": "q0410",
+      "answer": "denominator, time period, and source",
+      "explanation": "Percentages require a comparison base and context."
+    }
+  ]
+}

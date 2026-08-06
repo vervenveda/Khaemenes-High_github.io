@@ -1,0 +1,56 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "ar": "العربية",
+    "pt": "Português"
+  },
+  "terms": [
+    {
+      "id": "radical",
+      "en": "radical",
+      "es": "radical",
+      "fr": "radical",
+      "ar": "جذر",
+      "pt": "radical",
+      "definition": "An expression containing a root symbol."
+    },
+    {
+      "id": "principal-root",
+      "en": "principal root",
+      "es": "raíz principal",
+      "fr": "racine principale",
+      "ar": "الجذر الرئيسي",
+      "pt": "raiz principal",
+      "definition": "The nonnegative square root."
+    },
+    {
+      "id": "rational-exponent",
+      "en": "rational exponent",
+      "es": "exponente racional",
+      "fr": "exposant rationnel",
+      "ar": "أس نسبي",
+      "pt": "expoente racional",
+      "definition": "An exponent representing a root and power."
+    },
+    {
+      "id": "midpoint",
+      "en": "midpoint",
+      "es": "punto medio",
+      "fr": "milieu",
+      "ar": "نقطة منتصف",
+      "pt": "ponto médio",
+      "definition": "The point halfway between endpoints."
+    },
+    {
+      "id": "circle-equation",
+      "en": "circle equation",
+      "es": "ecuación de círculo",
+      "fr": "équation du cercle",
+      "ar": "معادلة دائرة",
+      "pt": "equação do círculo",
+      "definition": "An equation encoding center and radius."
+    }
+  ]
+}

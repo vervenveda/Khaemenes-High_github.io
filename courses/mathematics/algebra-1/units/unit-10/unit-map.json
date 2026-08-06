@@ -1,0 +1,72 @@
+{
+  "unit": {
+    "number": 10,
+    "title": "Quadratic Functions & Equations",
+    "weeks": 4,
+    "essential_question": "How do quadratic forms reveal zeros, vertices, rates of change, and maximum or minimum values?",
+    "big_ideas": [
+      "Quadratics have constant second differences.",
+      "Different forms reveal different features.",
+      "Several methods solve quadratics.",
+      "The discriminant predicts real-solution count."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u10-l01",
+      "number": 1,
+      "title": "Quadratic Functions, Parabolas & Key Features",
+      "week": 27,
+      "file": "lessons/lesson-01-quadratic-functions-parabolas-key-features.html"
+    },
+    {
+      "id": "u10-l02",
+      "number": 2,
+      "title": "Vertex, Axis of Symmetry & Transformations",
+      "week": 27,
+      "file": "lessons/lesson-02-vertex-axis-of-symmetry-transformations.html"
+    },
+    {
+      "id": "u10-l03",
+      "number": 3,
+      "title": "Factored Form, Zeros & Graphs",
+      "week": 28,
+      "file": "lessons/lesson-03-factored-form-zeros-graphs.html"
+    },
+    {
+      "id": "u10-l04",
+      "number": 4,
+      "title": "Solving Quadratics by Factoring",
+      "week": 28,
+      "file": "lessons/lesson-04-solving-quadratics-by-factoring.html"
+    },
+    {
+      "id": "u10-l05",
+      "number": 5,
+      "title": "Solving by Square Roots & Completing the Square",
+      "week": 29,
+      "file": "lessons/lesson-05-solving-by-square-roots-completing-the-square.html"
+    },
+    {
+      "id": "u10-l06",
+      "number": 6,
+      "title": "Quadratic Formula & Discriminant",
+      "week": 29,
+      "file": "lessons/lesson-06-quadratic-formula-discriminant.html"
+    },
+    {
+      "id": "u10-l07",
+      "number": 7,
+      "title": "Quadratic Modelling, Projectiles & Optimization",
+      "week": 30,
+      "file": "lessons/lesson-07-quadratic-modelling-projectiles-optimization.html"
+    },
+    {
+      "id": "u10-l08",
+      "number": 8,
+      "title": "Linear-Quadratic Systems & Model Comparison",
+      "week": 30,
+      "file": "lessons/lesson-08-linear-quadratic-systems-model-comparison.html"
+    }
+  ]
+}

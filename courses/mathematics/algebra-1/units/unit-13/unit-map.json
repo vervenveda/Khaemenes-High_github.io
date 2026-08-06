@@ -1,0 +1,51 @@
+{
+  "unit": {
+    "number": 13,
+    "title": "Integrated Mathematical Modelling Capstone",
+    "weeks": 1,
+    "essential_question": "How can a defensible mathematical model support a real decision while acknowledging uncertainty and limits?",
+    "big_ideas": [
+      "Models begin with answerable questions.",
+      "Assumptions and units must be documented.",
+      "Validation and sensitivity test reliability.",
+      "Communication includes limitations and evidence."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u13-l01",
+      "number": 1,
+      "title": "Frame a Complex & Ethical Modelling Question",
+      "week": 36,
+      "file": "lessons/lesson-01-frame-a-complex-ethical-modelling-question.html"
+    },
+    {
+      "id": "u13-l02",
+      "number": 2,
+      "title": "Choose Variables, Assumptions, Data & Representations",
+      "week": 36,
+      "file": "lessons/lesson-02-choose-variables-assumptions-data-representations.html"
+    },
+    {
+      "id": "u13-l03",
+      "number": 3,
+      "title": "Build, Calculate, Validate & Revise the Model",
+      "week": 36,
+      "file": "lessons/lesson-03-build-calculate-validate-revise-the-model.html"
+    },
+    {
+      "id": "u13-l04",
+      "number": 4,
+      "title": "Test Sensitivity, Uncertainty & Fairness",
+      "week": 36,
+      "file": "lessons/lesson-04-test-sensitivity-uncertainty-fairness.html"
+    },
+    {
+      "id": "u13-l05",
+      "number": 5,
+      "title": "Present, Defend & Reflect on Algebra I Readiness",
+      "week": 36,
+      "file": "lessons/lesson-05-present-defend-reflect-on-algebra-i-readiness.html"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "Broad framework union; verify local codes before formal reporting.",
+  "unit": 13,
+  "domains": [
+    "Mathematical Modelling",
+    "Reasoning and Proof",
+    "Communication",
+    "Data Ethics"
+  ],
+  "frameworks": [
+    "Florida B.E.S.T. Algebra 1",
+    "Texas TEKS Algebra I",
+    "New York Next Generation Algebra I",
+    "Virginia 2023 Algebra I SOL",
+    "California Algebra I / Integrated Math I",
+    "Common Core High School Mathematics",
+    "International modelling expectations"
+  ]
+}

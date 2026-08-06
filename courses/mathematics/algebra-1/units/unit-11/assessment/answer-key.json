@@ -1,0 +1,155 @@
+{
+  "unit": 11,
+  "items": [
+    {
+      "id": "q0346",
+      "answer": "7√2",
+      "explanation": "Factor out the perfect square."
+    },
+    {
+      "id": "q0347",
+      "answer": "6√2",
+      "explanation": "Factor out the perfect square."
+    },
+    {
+      "id": "q0348",
+      "answer": "5√2",
+      "explanation": "Factor out the perfect square."
+    },
+    {
+      "id": "q0349",
+      "answer": "4√2",
+      "explanation": "Factor out the perfect square."
+    },
+    {
+      "id": "q0350",
+      "answer": "4√2",
+      "explanation": "Factor out the perfect square."
+    },
+    {
+      "id": "q0351",
+      "answer": "3√2",
+      "explanation": "Factor out the perfect square."
+    },
+    {
+      "id": "q0352",
+      "answer": "6√2",
+      "explanation": "Factor out the perfect square."
+    },
+    {
+      "id": "q0353",
+      "answer": "3√2",
+      "explanation": "Factor out the perfect square."
+    },
+    {
+      "id": "q0354",
+      "answer": "6√2",
+      "explanation": "Factor out the perfect square."
+    },
+    {
+      "id": "q0355",
+      "answer": "2√2",
+      "explanation": "Factor out the perfect square."
+    },
+    {
+      "id": "q0356",
+      "answer": "√(x³)",
+      "explanation": "Denominator gives root; numerator gives power."
+    },
+    {
+      "id": "q0357",
+      "answer": "√(x³)",
+      "explanation": "Denominator gives root; numerator gives power."
+    },
+    {
+      "id": "q0358",
+      "answer": "√(x³)",
+      "explanation": "Denominator gives root; numerator gives power."
+    },
+    {
+      "id": "q0359",
+      "answer": "√(x³)",
+      "explanation": "Denominator gives root; numerator gives power."
+    },
+    {
+      "id": "q0360",
+      "answer": "√(x³)",
+      "explanation": "Denominator gives root; numerator gives power."
+    },
+    {
+      "id": "q0361",
+      "answer": "5",
+      "explanation": "Use the Pythagorean theorem."
+    },
+    {
+      "id": "q0362",
+      "answer": "5",
+      "explanation": "Use the Pythagorean theorem."
+    },
+    {
+      "id": "q0363",
+      "answer": "5",
+      "explanation": "Use the Pythagorean theorem."
+    },
+    {
+      "id": "q0364",
+      "answer": "5",
+      "explanation": "Use the Pythagorean theorem."
+    },
+    {
+      "id": "q0365",
+      "answer": "5",
+      "explanation": "Use the Pythagorean theorem."
+    },
+    {
+      "id": "q0366",
+      "answer": "5",
+      "explanation": "Use the Pythagorean theorem."
+    },
+    {
+      "id": "q0367",
+      "answer": "5",
+      "explanation": "Use the Pythagorean theorem."
+    },
+    {
+      "id": "q0368",
+      "answer": "5",
+      "explanation": "Use the Pythagorean theorem."
+    },
+    {
+      "id": "q0369",
+      "answer": "5",
+      "explanation": "Use the Pythagorean theorem."
+    },
+    {
+      "id": "q0370",
+      "answer": "5",
+      "explanation": "Use the Pythagorean theorem."
+    },
+    {
+      "id": "q0371",
+      "answer": "center (2,−3), radius 5",
+      "explanation": "Compare with (x−h)²+(y−k)²=r²."
+    },
+    {
+      "id": "q0372",
+      "answer": "center (2,−3), radius 5",
+      "explanation": "Compare with (x−h)²+(y−k)²=r²."
+    },
+    {
+      "id": "q0373",
+      "answer": "center (2,−3), radius 5",
+      "explanation": "Compare with (x−h)²+(y−k)²=r²."
+    },
+    {
+      "id": "q0374",
+      "answer": "center (2,−3), radius 5",
+      "explanation": "Compare with (x−h)²+(y−k)²=r²."
+    },
+    {
+      "id": "q0375",
+      "answer": "center (2,−3), radius 5",
+      "explanation": "Compare with (x−h)²+(y−k)²=r²."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "ar": "العربية",
+    "pt": "Português"
+  },
+  "terms": [
+    {
+      "id": "population",
+      "en": "population",
+      "es": "población",
+      "fr": "population",
+      "ar": "مجتمع إحصائي",
+      "pt": "população",
+      "definition": "The full group a study concerns."
+    },
+    {
+      "id": "sample",
+      "en": "sample",
+      "es": "muestra",
+      "fr": "échantillon",
+      "ar": "عينة",
+      "pt": "amostra",
+      "definition": "A subset observed to learn about a population."
+    },
+    {
+      "id": "standard-deviation",
+      "en": "standard deviation",
+      "es": "desviación estándar",
+      "fr": "écart type",
+      "ar": "انحراف معياري",
+      "pt": "desvio padrão",
+      "definition": "A measure of typical distance from the mean."
+    },
+    {
+      "id": "causation",
+      "en": "causation",
+      "es": "causalidad",
+      "fr": "causalité",
+      "ar": "سببية",
+      "pt": "causalidade",
+      "definition": "A relationship in which one change produces another."
+    },
+    {
+      "id": "risk",
+      "en": "risk",
+      "es": "riesgo",
+      "fr": "risque",
+      "ar": "مخاطرة",
+      "pt": "risco",
+      "definition": "Uncertainty involving possible loss."
+    }
+  ]
+}

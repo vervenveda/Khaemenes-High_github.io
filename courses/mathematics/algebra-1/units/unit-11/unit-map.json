@@ -1,0 +1,58 @@
+{
+  "unit": {
+    "number": 11,
+    "title": "Radicals, Rational Exponents & Coordinate Geometry",
+    "weeks": 2,
+    "essential_question": "How do radical forms and coordinate methods connect algebra, distance, and geometric constraints?",
+    "big_ideas": [
+      "Radicals and rational exponents are equivalent forms.",
+      "Domains matter for even roots.",
+      "Distance follows from the Pythagorean theorem.",
+      "Circle equations encode center and radius."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "u11-l01",
+      "number": 1,
+      "title": "Radical Expressions & Principal Roots",
+      "week": 31,
+      "file": "lessons/lesson-01-radical-expressions-principal-roots.html"
+    },
+    {
+      "id": "u11-l02",
+      "number": 2,
+      "title": "Simplifying & Operating with Radicals",
+      "week": 31,
+      "file": "lessons/lesson-02-simplifying-operating-with-radicals.html"
+    },
+    {
+      "id": "u11-l03",
+      "number": 3,
+      "title": "Rational Exponents & Equivalent Radical Forms",
+      "week": 31,
+      "file": "lessons/lesson-03-rational-exponents-equivalent-radical-forms.html"
+    },
+    {
+      "id": "u11-l04",
+      "number": 4,
+      "title": "Pythagorean Theorem & Distance",
+      "week": 32,
+      "file": "lessons/lesson-04-pythagorean-theorem-distance.html"
+    },
+    {
+      "id": "u11-l05",
+      "number": 5,
+      "title": "Midpoint, Coordinate Geometry & Geometric Constraints",
+      "week": 32,
+      "file": "lessons/lesson-05-midpoint-coordinate-geometry-geometric-constraints.html"
+    },
+    {
+      "id": "u11-l06",
+      "number": 6,
+      "title": "Circle Equations, Radical Models & Verification",
+      "week": 32,
+      "file": "lessons/lesson-06-circle-equations-radical-models-verification.html"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "ar": "العربية",
+    "pt": "Português"
+  },
+  "terms": [
+    {
+      "id": "model",
+      "en": "model",
+      "es": "modelo",
+      "fr": "modèle",
+      "ar": "نموذج",
+      "pt": "modelo",
+      "definition": "A mathematical representation of a situation."
+    },
+    {
+      "id": "assumption",
+      "en": "assumption",
+      "es": "suposición",
+      "fr": "hypothèse",
+      "ar": "افتراض",
+      "pt": "suposição",
+      "definition": "A condition accepted for building a model."
+    },
+    {
+      "id": "validation",
+      "en": "validation",
+      "es": "validación",
+      "fr": "validation",
+      "ar": "تحقق",
+      "pt": "validação",
+      "definition": "Testing whether a model performs acceptably."
+    },
+    {
+      "id": "sensitivity",
+      "en": "sensitivity",
+      "es": "sensibilidad",
+      "fr": "sensibilité",
+      "ar": "حساسية",
+      "pt": "sensibilidade",
+      "definition": "How results change with inputs or assumptions."
+    },
+    {
+      "id": "uncertainty",
+      "en": "uncertainty",
+      "es": "incertidumbre",
+      "fr": "incertitude",
+      "ar": "عدم يقين",
+      "pt": "incerteza",
+      "definition": "A limit on exact knowledge or prediction."
+    }
+  ]
+}
