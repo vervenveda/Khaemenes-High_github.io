@@ -1,0 +1,49 @@
+{
+  "unit": 11,
+  "title": "Trigonometric Identities, Equations & Oblique Triangles",
+  "weeks": 3,
+  "essential_question": "How do identities and triangle laws transform expressions, solve periodic equations, and determine unknown measurements?",
+  "project": "Trigonometric Proof & Navigation Defense",
+  "lessons": [
+    {
+      "id": "u11-l01",
+      "title": "Fundamental, Reciprocal & Pythagorean Identities",
+      "path": "lessons/u11-l01.html"
+    },
+    {
+      "id": "u11-l02",
+      "title": "Verifying Identities with Equivalent Transformations",
+      "path": "lessons/u11-l02.html"
+    },
+    {
+      "id": "u11-l03",
+      "title": "Sum and Difference Identities",
+      "path": "lessons/u11-l03.html"
+    },
+    {
+      "id": "u11-l04",
+      "title": "Double-Angle and Half-Angle Identities",
+      "path": "lessons/u11-l04.html"
+    },
+    {
+      "id": "u11-l05",
+      "title": "Solving Trigonometric Equations on Intervals",
+      "path": "lessons/u11-l05.html"
+    },
+    {
+      "id": "u11-l06",
+      "title": "Law of Sines, Ambiguous Case & Applications",
+      "path": "lessons/u11-l06.html"
+    },
+    {
+      "id": "u11-l07",
+      "title": "Law of Cosines & Heron-Type Area Reasoning",
+      "path": "lessons/u11-l07.html"
+    },
+    {
+      "id": "u11-l08",
+      "title": "Navigation, Vectors & Multi-Step Triangle Models",
+      "path": "lessons/u11-l08.html"
+    }
+  ]
+}

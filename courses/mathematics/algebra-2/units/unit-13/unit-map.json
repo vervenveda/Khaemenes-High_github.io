@@ -1,0 +1,34 @@
+{
+  "unit": 13,
+  "title": "Advanced Mathematical Modelling Capstone",
+  "weeks": 1,
+  "essential_question": "How can a transparent, tested, and ethically communicated mathematical model support a real decision?",
+  "project": "Algebra II Modelling Exploration & Oral Defense",
+  "lessons": [
+    {
+      "id": "u13-l01",
+      "title": "Frame a Meaningful, Ethical & Answerable Question",
+      "path": "lessons/u13-l01.html"
+    },
+    {
+      "id": "u13-l02",
+      "title": "Select Variables, Functions, Data & Assumptions",
+      "path": "lessons/u13-l02.html"
+    },
+    {
+      "id": "u13-l03",
+      "title": "Build, Compute, Visualize & Validate the Model",
+      "path": "lessons/u13-l03.html"
+    },
+    {
+      "id": "u13-l04",
+      "title": "Test Sensitivity, Uncertainty, Fairness & Limitations",
+      "path": "lessons/u13-l04.html"
+    },
+    {
+      "id": "u13-l05",
+      "title": "Present, Defend, Revise & Reflect",
+      "path": "lessons/u13-l05.html"
+    }
+  ]
+}

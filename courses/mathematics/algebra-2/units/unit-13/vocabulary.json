@@ -1,0 +1,126 @@
+{
+  "unit": 13,
+  "title": "Advanced Mathematical Modelling Capstone",
+  "terms": [
+    {
+      "en": "frame",
+      "es": "frame",
+      "fr": "frame",
+      "ar": "frame",
+      "pt": "frame",
+      "definition": "Core term used in Frame a Meaningful, Ethical & Answerable Question."
+    },
+    {
+      "en": "meaningful",
+      "es": "meaningful",
+      "fr": "meaningful",
+      "ar": "meaningful",
+      "pt": "meaningful",
+      "definition": "Core term used in Frame a Meaningful, Ethical & Answerable Question."
+    },
+    {
+      "en": "ethical",
+      "es": "ethical",
+      "fr": "ethical",
+      "ar": "ethical",
+      "pt": "ethical",
+      "definition": "Core term used in Frame a Meaningful, Ethical & Answerable Question."
+    },
+    {
+      "en": "select",
+      "es": "select",
+      "fr": "select",
+      "ar": "select",
+      "pt": "select",
+      "definition": "Core term used in Select Variables, Functions, Data & Assumptions."
+    },
+    {
+      "en": "variables",
+      "es": "variables",
+      "fr": "variables",
+      "ar": "variables",
+      "pt": "variables",
+      "definition": "Core term used in Select Variables, Functions, Data & Assumptions."
+    },
+    {
+      "en": "functions",
+      "es": "functions",
+      "fr": "functions",
+      "ar": "functions",
+      "pt": "functions",
+      "definition": "Core term used in Select Variables, Functions, Data & Assumptions."
+    },
+    {
+      "en": "build",
+      "es": "build",
+      "fr": "build",
+      "ar": "build",
+      "pt": "build",
+      "definition": "Core term used in Build, Compute, Visualize & Validate the Model."
+    },
+    {
+      "en": "compute",
+      "es": "compute",
+      "fr": "compute",
+      "ar": "compute",
+      "pt": "compute",
+      "definition": "Core term used in Build, Compute, Visualize & Validate the Model."
+    },
+    {
+      "en": "visualize",
+      "es": "visualize",
+      "fr": "visualize",
+      "ar": "visualize",
+      "pt": "visualize",
+      "definition": "Core term used in Build, Compute, Visualize & Validate the Model."
+    },
+    {
+      "en": "test",
+      "es": "test",
+      "fr": "test",
+      "ar": "test",
+      "pt": "test",
+      "definition": "Core term used in Test Sensitivity, Uncertainty, Fairness & Limitations."
+    },
+    {
+      "en": "sensitivity",
+      "es": "sensitivity",
+      "fr": "sensitivity",
+      "ar": "sensitivity",
+      "pt": "sensitivity",
+      "definition": "Core term used in Test Sensitivity, Uncertainty, Fairness & Limitations."
+    },
+    {
+      "en": "uncertainty",
+      "es": "uncertainty",
+      "fr": "uncertainty",
+      "ar": "uncertainty",
+      "pt": "uncertainty",
+      "definition": "Core term used in Test Sensitivity, Uncertainty, Fairness & Limitations."
+    },
+    {
+      "en": "present",
+      "es": "present",
+      "fr": "present",
+      "ar": "present",
+      "pt": "present",
+      "definition": "Core term used in Present, Defend, Revise & Reflect."
+    },
+    {
+      "en": "defend",
+      "es": "defend",
+      "fr": "defend",
+      "ar": "defend",
+      "pt": "defend",
+      "definition": "Core term used in Present, Defend, Revise & Reflect."
+    },
+    {
+      "en": "revise",
+      "es": "revise",
+      "fr": "revise",
+      "ar": "revise",
+      "pt": "revise",
+      "definition": "Core term used in Present, Defend, Revise & Reflect."
+    }
+  ]
+}
