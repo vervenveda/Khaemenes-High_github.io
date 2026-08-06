@@ -1,0 +1,174 @@
+{
+  "unit": 11,
+  "title": "Trigonometric Identities, Equations & Oblique Triangles",
+  "terms": [
+    {
+      "en": "fundamental",
+      "es": "fundamental",
+      "fr": "fundamental",
+      "ar": "fundamental",
+      "pt": "fundamental",
+      "definition": "Core term used in Fundamental, Reciprocal & Pythagorean Identities."
+    },
+    {
+      "en": "reciprocal",
+      "es": "reciprocal",
+      "fr": "reciprocal",
+      "ar": "reciprocal",
+      "pt": "reciprocal",
+      "definition": "Core term used in Fundamental, Reciprocal & Pythagorean Identities."
+    },
+    {
+      "en": "pythagorean",
+      "es": "pythagorean",
+      "fr": "pythagorean",
+      "ar": "pythagorean",
+      "pt": "pythagorean",
+      "definition": "Core term used in Fundamental, Reciprocal & Pythagorean Identities."
+    },
+    {
+      "en": "verifying",
+      "es": "verifying",
+      "fr": "verifying",
+      "ar": "verifying",
+      "pt": "verifying",
+      "definition": "Core term used in Verifying Identities with Equivalent Transformations."
+    },
+    {
+      "en": "identities",
+      "es": "identities",
+      "fr": "identities",
+      "ar": "identities",
+      "pt": "identities",
+      "definition": "Core term used in Verifying Identities with Equivalent Transformations."
+    },
+    {
+      "en": "with",
+      "es": "with",
+      "fr": "with",
+      "ar": "with",
+      "pt": "with",
+      "definition": "Core term used in Verifying Identities with Equivalent Transformations."
+    },
+    {
+      "en": "difference",
+      "es": "difference",
+      "fr": "difference",
+      "ar": "difference",
+      "pt": "difference",
+      "definition": "Core term used in Sum and Difference Identities."
+    },
+    {
+      "en": "double-angle",
+      "es": "double-angle",
+      "fr": "double-angle",
+      "ar": "double-angle",
+      "pt": "double-angle",
+      "definition": "Core term used in Double-Angle and Half-Angle Identities."
+    },
+    {
+      "en": "half-angle",
+      "es": "half-angle",
+      "fr": "half-angle",
+      "ar": "half-angle",
+      "pt": "half-angle",
+      "definition": "Core term used in Double-Angle and Half-Angle Identities."
+    },
+    {
+      "en": "solving",
+      "es": "solving",
+      "fr": "solving",
+      "ar": "solving",
+      "pt": "solving",
+      "definition": "Core term used in Solving Trigonometric Equations on Intervals."
+    },
+    {
+      "en": "trigonometric",
+      "es": "trigonometric",
+      "fr": "trigonometric",
+      "ar": "trigonometric",
+      "pt": "trigonometric",
+      "definition": "Core term used in Solving Trigonometric Equations on Intervals."
+    },
+    {
+      "en": "equations",
+      "es": "equations",
+      "fr": "equations",
+      "ar": "equations",
+      "pt": "equations",
+      "definition": "Core term used in Solving Trigonometric Equations on Intervals."
+    },
+    {
+      "en": "sines",
+      "es": "sines",
+      "fr": "sines",
+      "ar": "sines",
+      "pt": "sines",
+      "definition": "Core term used in Law of Sines, Ambiguous Case & Applications."
+    },
+    {
+      "en": "ambiguous",
+      "es": "ambiguous",
+      "fr": "ambiguous",
+      "ar": "ambiguous",
+      "pt": "ambiguous",
+      "definition": "Core term used in Law of Sines, Ambiguous Case & Applications."
+    },
+    {
+      "en": "case",
+      "es": "case",
+      "fr": "case",
+      "ar": "case",
+      "pt": "case",
+      "definition": "Core term used in Law of Sines, Ambiguous Case & Applications."
+    },
+    {
+      "en": "cosines",
+      "es": "cosines",
+      "fr": "cosines",
+      "ar": "cosines",
+      "pt": "cosines",
+      "definition": "Core term used in Law of Cosines & Heron-Type Area Reasoning."
+    },
+    {
+      "en": "heron-type",
+      "es": "heron-type",
+      "fr": "heron-type",
+      "ar": "heron-type",
+      "pt": "heron-type",
+      "definition": "Core term used in Law of Cosines & Heron-Type Area Reasoning."
+    },
+    {
+      "en": "area",
+      "es": "area",
+      "fr": "area",
+      "ar": "area",
+      "pt": "area",
+      "definition": "Core term used in Law of Cosines & Heron-Type Area Reasoning."
+    },
+    {
+      "en": "navigation",
+      "es": "navigation",
+      "fr": "navigation",
+      "ar": "navigation",
+      "pt": "navigation",
+      "definition": "Core term used in Navigation, Vectors & Multi-Step Triangle Models."
+    },
+    {
+      "en": "vectors",
+      "es": "vectors",
+      "fr": "vectors",
+      "ar": "vectors",
+      "pt": "vectors",
+      "definition": "Core term used in Navigation, Vectors & Multi-Step Triangle Models."
+    },
+    {
+      "en": "multi-step",
+      "es": "multi-step",
+      "fr": "multi-step",
+      "ar": "multi-step",
+      "pt": "multi-step",
+      "definition": "Core term used in Navigation, Vectors & Multi-Step Triangle Models."
+    }
+  ]
+}

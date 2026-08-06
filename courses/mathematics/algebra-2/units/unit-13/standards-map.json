@@ -1,0 +1,22 @@
+{
+  "unit": 13,
+  "title": "Advanced Mathematical Modelling Capstone",
+  "standards_categories": [
+    "Mathematical Modelling",
+    "Inquiry",
+    "Technology",
+    "Communication",
+    "Evaluation"
+  ],
+  "mathematical_practices": [
+    "make sense and persevere",
+    "reason abstractly and quantitatively",
+    "construct arguments and critique reasoning",
+    "model with mathematics",
+    "use tools strategically",
+    "attend to precision",
+    "seek structure",
+    "express regularity"
+  ],
+  "status": "Broad union map; verify local course codes and reporting requirements."
+}
