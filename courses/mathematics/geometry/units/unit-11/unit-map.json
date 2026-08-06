@@ -1,0 +1,21 @@
+{
+  "unit": 11,
+  "title": "Solids, Surface Area & Volume",
+  "weeks": [
+    30,
+    31
+  ],
+  "essential": "How do nets, cross-sections, similarity, and dimensional reasoning describe and compare three-dimensional forms?",
+  "project": "Packaging, Surface-Area & Volume Design Challenge",
+  "lesson_ids": [
+    "u11-l01",
+    "u11-l02",
+    "u11-l03",
+    "u11-l04",
+    "u11-l05",
+    "u11-l06",
+    "u11-l07"
+  ],
+  "lesson_count": 7,
+  "mastery_target": 80
+}

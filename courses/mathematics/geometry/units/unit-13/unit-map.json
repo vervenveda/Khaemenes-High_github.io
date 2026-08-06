@@ -1,0 +1,20 @@
+{
+  "unit": 13,
+  "title": "Geometry Modeling Capstone & Defense",
+  "weeks": [
+    35,
+    36
+  ],
+  "essential": "How can a geometric model be constructed, tested, communicated, defended, and improved?",
+  "project": "Independent Geometry Design, Investigation & Oral Defense",
+  "lesson_ids": [
+    "u13-l01",
+    "u13-l02",
+    "u13-l03",
+    "u13-l04",
+    "u13-l05",
+    "u13-l06"
+  ],
+  "lesson_count": 6,
+  "mastery_target": 80
+}

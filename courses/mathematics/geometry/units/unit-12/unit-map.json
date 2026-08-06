@@ -1,0 +1,22 @@
+{
+  "unit": 12,
+  "title": "CAD, Scale Drawing & Spatial Design",
+  "weeks": [
+    32,
+    33,
+    34
+  ],
+  "essential": "How can precise digital drafting turn geometric constraints into measurable, printable, and defensible designs?",
+  "project": "OHMIC CAD Spatial Design Portfolio",
+  "lesson_ids": [
+    "u12-l01",
+    "u12-l02",
+    "u12-l03",
+    "u12-l04",
+    "u12-l05",
+    "u12-l06",
+    "u12-l07"
+  ],
+  "lesson_count": 7,
+  "mastery_target": 80
+}

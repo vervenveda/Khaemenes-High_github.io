@@ -1,0 +1,24 @@
+{
+  "unit": 12,
+  "domains": [
+    "Technical drawing",
+    "Scale",
+    "Coordinate geometry",
+    "Design communication"
+  ],
+  "practices": [
+    "Make sense of problems",
+    "Reason abstractly and quantitatively",
+    "Construct viable arguments",
+    "Model with mathematics",
+    "Use tools strategically",
+    "Attend to precision",
+    "Look for structure"
+  ],
+  "evidence": [
+    "Printable lesson work",
+    "Mastery check",
+    "Applied investigation",
+    "Reflection and correction"
+  ]
+}
