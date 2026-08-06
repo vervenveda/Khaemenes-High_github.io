@@ -1,0 +1,27 @@
+Elementary and Middle School Math
+
+Arithmetic: Basic operations like addition, subtraction, multiplication, and division.
+Fractions and Decimals: Working with parts of wholes, ratios, and simple percentages.
+Pre-Algebra: Introduction to negative numbers, basic formulas, and simple unknown variables.
+
+High School Math
+
+Algebra 1: Solving equations with variables, graph plotting, and linear functions.
+Geometry: Studying shapes, angles, area, perimeter, and proofs.
+Algebra 2: Expanding into quadratic functions, polynomials, and logarithms.
+Pre-Calculus & Trigonometry: Studying triangles, wave functions, and vectors to prepare for calculus.
+Calculus (Introductory): Introduction to limits, derivatives, and rates of change.
+
+College and Undergraduate Math
+
+Calculus I–III: Single-variable and multi-variable calculus, exploring continuous change and spatial integration.
+Linear Algebra: Matrix theory, vector spaces, and linear transformations.
+Differential Equations: Equations involving rates of change used in physics and engineering.
+Discrete Mathematics: Logic, set theory, graph theory, and combinatorics for computer science.
+Intro to Proofs: Learning how to rigorously prove mathematical statements rather than just compute answers.
+
+Graduate Level and Advanced Research
+
+Real and Complex Analysis: Rigorous study of the real number line and complex functions.
+Abstract Algebra: Study of algebraic structures like groups, rings, and fields.
+Topology and Differential Geometry: Study of space, shapes, and properties preserved through continuous deformations.
