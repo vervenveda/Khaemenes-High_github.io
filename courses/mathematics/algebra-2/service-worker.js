@@ -1,0 +1,18 @@
+"use strict";
+const CACHE="khaemenes-algebra2-v1";
+const CORE=["./","./index.html","./offline.html","./assets/styles.css","./assets/app.js","./assets/question-bank.js","./assets/assessment-engine.js","./assets/lesson-tools.js","./assets/unit-progress.js","./course-data.js","./course-map.json","./manifest.webmanifest","./diagnostic/","./assessments/"];
+self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>Promise.allSettled(CORE.map(url=>cache.add(new Request(url,{cache:"reload"}))))).then(()=>self.skipWaiting()))});
+self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
+self.addEventListener("fetch",event=>{
+ if(event.request.method!=="GET")return;
+ const url=new URL(event.request.url);
+ if(url.origin!==location.origin)return;
+ event.respondWith(caches.match(event.request).then(hit=>{
+   const network=fetch(event.request).then(response=>{
+     if(response&&response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy))}
+     return response;
+   }).catch(()=>null);
+   if(hit){event.waitUntil(network);return hit}
+   return network.then(response=>response||caches.match("./offline.html"));
+ }));
+});

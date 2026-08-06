@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Khaemenes Academy open-age Algebra II and Advanced Functions: a complete 36-week mastery course with 92 detailed lessons, practice, assessments, modelling, records, and connected tools.">
+<meta name="theme-color" content="#090b10">
+<meta name="color-scheme" content="dark light">
+<title>Khaemenes Open-Age Algebra II & Advanced Functions</title>
+<link rel="canonical" href="https://vervenveda.com/Khaemenes_High.github.io/courses/mathematics/algebra-2/">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand-group">
+      <a class="brand-home" href="https://khaemenesacademy.org/" aria-label="Khaemenes Academy home">K</a>
+      <a class="brand-copy" href="./" aria-label="Algebra II course home">
+        <strong>Khaemenes Algebra II</strong>
+        <small>Open-Age · Advanced Functions · Placement-Based</small>
+      </a>
+    </div>
+    <div class="header-tools">
+      <a class="header-control" href="../../../index.html#student-portal">Profile</a>
+      <button class="header-control pin-control" id="pinCourseButton" type="button" aria-pressed="false">☆ Pin to Profile</button>
+      <details class="course-menu" id="courseMenu">
+        <summary>Course Menu ▾</summary>
+        <div class="course-menu-panel">
+          <a href="https://khaemenesacademy.org/">Khaemenes Academy Home</a>
+          <a href="../../../index.html">Khaemenes High Home</a>
+          <a href="../">Mathematics Hall</a>
+          <a href="../pre-algebra/">Pre-Algebra</a>
+          <a href="../algebra-1/">Algebra I</a>
+          <hr>
+          <button type="button" data-view="dashboard">Dashboard</button>
+          <button type="button" data-view="week">Weekly Classroom</button>
+          <button type="button" data-view="units">All Units</button>
+          <button type="button" data-view="practice">Practice Lab</button>
+          <a href="diagnostic/">Readiness Diagnostic</a>
+          <a href="assessments/">Assessment Center</a>
+          <a href="../tools/calculator" target="_blank" rel="noopener">Scientific Calculator v4</a>
+          <a href="teacher/">Teacher &amp; Records</a>
+        </div>
+      </details>
+      <button class="header-control" id="themeToggle" type="button" aria-label="Toggle light and dark theme">◐ Theme</button>
+      <span class="sr-only" id="pinCourseStatus" aria-live="polite"></span>
+    </div>
+  </div>
+</header>
+
+<nav class="breadcrumb" aria-label="Breadcrumb"><div class="wrap">
+  <a href="https://khaemenesacademy.org/">Khaemenes Academy</a><span>›</span>
+  <a href="../../../index.html">Khaemenes High</a><span>›</span>
+  <a href="../">Mathematics</a><span>›</span>
+  <span aria-current="page">Open-Age Algebra II</span>
+</div></nav>
+
+<section class="hero">
+  <div class="wrap">
+    <a class="hero-badge" href="https://khaemenesacademy.org/" aria-label="Khaemenes Academy home">K</a>
+    <p class="eyebrow">Open-Age · Algebra I Readiness · 36 Weeks</p>
+    <h1>Algebra II &amp; Advanced Functions</h1>
+    <p class="lead">A rigorous, mastery-based course for learners ready to extend Algebra I into advanced functions, complex numbers, polynomial and rational structure, radicals, exponential and logarithmic models, nonlinear systems, sequences and series, trigonometry, probability, statistics, and a defensible mathematical exploration.</p>
+    <div class="actions">
+      <button class="btn primary" data-view="dashboard">Enter Course</button>
+      <button class="btn" data-view="week">Open Weekly Classroom</button>
+      <a class="btn gold" href="diagnostic/">Begin Diagnostic</a>
+      <a class="btn" href="assessments/">Assessment Center</a>
+      <a class="btn" href="../tools/calculator" target="_blank" rel="noopener">Scientific Calculator v4</a>
+    </div>
+    <div class="snapshot" aria-label="Course overview">
+      <div class="metric"><strong>36</strong><span>Weeks</span></div>
+      <div class="metric"><strong>92</strong><span>Detailed Lessons</span></div>
+      <div class="metric"><strong>180</strong><span>Study Sessions</span></div>
+      <div class="metric"><strong>13</strong><span>Units</span></div>
+      <div class="metric"><strong>3</strong><span>Learning Pathways</span></div>
+      <div class="metric"><strong>1</strong><span>Modelling Defense</span></div>
+    </div>
+  </div>
+</section>
+
+<nav class="quick-nav no-print" aria-label="Course sections"><div class="wrap quick-nav-inner">
+  <button data-view="dashboard">Dashboard</button>
+  <button data-view="week">Weekly Classroom</button>
+  <button data-view="scope">36-Week Scope</button>
+  <button data-view="units">Units</button>
+  <button data-view="practice">Practice Lab</button>
+  <button data-view="assessments">Assessments</button>
+  <button data-view="gradebook">Gradebook</button>
+  <button data-view="portfolio">Portfolio</button>
+  <button data-view="teacher">Teacher &amp; Records</button>
+</div></nav>
+
+<main id="main">
+  <section class="view active" id="view-dashboard"></section>
+  <section class="view" id="view-week"></section>
+  <section class="view" id="view-scope"></section>
+  <section class="view" id="view-units"></section>
+  <section class="view" id="view-practice"></section>
+  <section class="view" id="view-assessments"></section>
+  <section class="view" id="view-gradebook"></section>
+  <section class="view" id="view-portfolio"></section>
+  <section class="view" id="view-teacher"></section>
+</main>
+
+<footer class="footer"><div class="wrap footer-inner">
+  <span>KH-MATH-A2 · Open-Age Algebra II</span>
+  <span>Local-first records · Mastery evidence · Printable · Jennifer Pearl and Autumn Pearl · 2026</span>
+</div></footer>
+
+<script src="course-data.js"></script>
+<script src="assets/question-bank.js"></script>
+<script src="assets/app.js"></script>
+<script>
+if("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js").catch(()=>{});
+</script>
+</body>
+</html>
