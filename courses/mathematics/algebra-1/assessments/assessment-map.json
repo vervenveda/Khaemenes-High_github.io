@@ -1,0 +1,50 @@
+{
+  "diagnostic": {
+    "questions": 36,
+    "week": 1
+  },
+  "midterm": {
+    "questions": 60,
+    "units": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "after_week": 18,
+    "answer_balance": {
+      "A": 15,
+      "B": 15,
+      "C": 15,
+      "D": 15
+    }
+  },
+  "final": {
+    "questions": 100,
+    "units": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "week": 36,
+    "answer_balance": {
+      "A": 25,
+      "B": 25,
+      "C": 25,
+      "D": 25
+    }
+  },
+  "definitive_answer_policy": true
+}

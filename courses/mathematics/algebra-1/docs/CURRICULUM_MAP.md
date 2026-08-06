@@ -1,0 +1,38 @@
+# 36-Week Curriculum Map
+
+- **Week 01:** Readiness Diagnostic & Algebra Learning Plan — What evidence demonstrates readiness for Algebra I?
+- **Week 02:** Algebraic Language, Arguments & Real Numbers — How do notation, units, properties, and precision make mathematical claims trustworthy?
+- **Week 03:** Units, Dimensional Analysis & Precision — How do notation, units, properties, and precision make mathematical claims trustworthy?
+- **Week 04:** Expression Vocabulary & Evaluation — How can algebraic structure help us simplify, compare, and generalize relationships?
+- **Week 05:** Properties, Distribution & Like Terms — How can algebraic structure help us simplify, compare, and generalize relationships?
+- **Week 06:** Polynomial Foundations & GCF Factoring — How can algebraic structure help us simplify, compare, and generalize relationships?
+- **Week 07:** Linear Equations & Verification — How do equations preserve equality while representing real constraints and relationships?
+- **Week 08:** Multi-Step, Identity & Literal Equations — How do equations preserve equality while representing real constraints and relationships?
+- **Week 09:** Proportions, Rates & Financial Equation Models — How do equations preserve equality while representing real constraints and relationships?
+- **Week 10:** Linear Inequalities & Interval Notation — How do inequalities and absolute value describe ranges, tolerances, limits, and feasible choices?
+- **Week 11:** Compound & Absolute Value Constraints — How do inequalities and absolute value describe ranges, tolerances, limits, and feasible choices?
+- **Week 12:** Relations, Function Tests & Notation — How do functions connect inputs and outputs across equations, tables, graphs, and contexts?
+- **Week 13:** Domain, Range & Multiple Representations — How do functions connect inputs and outputs across equations, tables, graphs, and contexts?
+- **Week 14:** Transformations, Piecewise Rules & Sequences — How do functions connect inputs and outputs across equations, tables, graphs, and contexts?
+- **Week 15:** Slope & Constant Rate of Change — How can linear functions describe constant change, support prediction, and reveal model limitations?
+- **Week 16:** Linear Equation Forms & Line Relationships — How can linear functions describe constant change, support prediction, and reveal model limitations?
+- **Week 17:** Scatterplots, Regression & Residuals — How can linear functions describe constant change, support prediction, and reveal model limitations?
+- **Week 18:** Linear Modelling Synthesis & Midterm — How can linear functions describe constant change, support prediction, and reveal model limitations?
+- **Week 19:** Systems by Graphing & Solution Count — How do simultaneous constraints determine intersections, feasible choices, and optimized decisions?
+- **Week 20:** Systems by Substitution & Elimination — How do simultaneous constraints determine intersections, feasible choices, and optimized decisions?
+- **Week 21:** Systems of Inequalities & Feasible Decisions — How do simultaneous constraints determine intersections, feasible choices, and optimized decisions?
+- **Week 22:** Exponent Laws, Scientific Notation & Sequences — How do repeated multiplication and constant percent change create exponential patterns?
+- **Week 23:** Exponential Growth, Decay & Compound Interest — How do repeated multiplication and constant percent change create exponential patterns?
+- **Week 24:** Polynomial Structure & Operations — How do polynomial operations and factoring expose structure, zeros, and geometric relationships?
+- **Week 25:** Special Products & Factoring — How do polynomial operations and factoring expose structure, zeros, and geometric relationships?
+- **Week 26:** Zeros, Factors & Polynomial Models — How do polynomial operations and factoring expose structure, zeros, and geometric relationships?
+- **Week 27:** Quadratic Graphs & Key Features — How do quadratic forms reveal zeros, vertices, rates of change, and maximum or minimum values?
+- **Week 28:** Quadratic Forms, Factoring & Square Roots — How do quadratic forms reveal zeros, vertices, rates of change, and maximum or minimum values?
+- **Week 29:** Completing the Square, Formula & Discriminant — How do quadratic forms reveal zeros, vertices, rates of change, and maximum or minimum values?
+- **Week 30:** Quadratic Modelling & Model Comparison — How do quadratic forms reveal zeros, vertices, rates of change, and maximum or minimum values?
+- **Week 31:** Radicals & Rational Exponents — How do radical forms and coordinate methods connect algebra, distance, and geometric constraints?
+- **Week 32:** Coordinate Geometry, Distance & Circles — How do radical forms and coordinate methods connect algebra, distance, and geometric constraints?
+- **Week 33:** Study Design, Distributions & Variation — How can algebra and statistics support responsible financial and evidence-based decisions?
+- **Week 34:** Bivariate Data, Probability & Evidence — How can algebra and statistics support responsible financial and evidence-based decisions?
+- **Week 35:** Financial Mathematics & Quantitative Claims — How can algebra and statistics support responsible financial and evidence-based decisions?
+- **Week 36:** Integrated Modelling Capstone & Final Examination — How can a defensible mathematical model support a real decision while acknowledging uncertainty and limits?
