@@ -1,0 +1,790 @@
+{
+  "course_bank": {
+    "geo-u01-q01": {
+      "answer": "28",
+      "explanation": "Complementary angles sum to 90°, so y=90−62."
+    },
+    "geo-u01-q02": {
+      "answer": "46",
+      "explanation": "Supplementary angles sum to 180°, so y=180−134."
+    },
+    "geo-u01-q03": {
+      "answer": "A straight angle",
+      "explanation": "Opposite rays form a 180° angle."
+    },
+    "geo-u01-q04": {
+      "answer": "A postulate is accepted without proof; a theorem is proven",
+      "explanation": "Both may be used as reasons once established."
+    },
+    "geo-u01-q05": {
+      "answer": "Reasons that justify each statement",
+      "explanation": "Each step must cite a definition, property, postulate, or theorem."
+    },
+    "geo-u01-q06": {
+      "answer": "It may not be drawn to scale and cannot establish every required relationship",
+      "explanation": "Proof depends on stated or justified facts."
+    },
+    "geo-u01-q07": {
+      "answer": "15",
+      "explanation": "Distance is |18−3|=15."
+    },
+    "geo-u01-q08": {
+      "answer": "(1,2.5)",
+      "explanation": "Average the x-coordinates and the y-coordinates separately."
+    },
+    "geo-u01-q09": {
+      "answer": "46",
+      "explanation": "Use segment addition: AB=AM+MB."
+    },
+    "geo-u01-q10": {
+      "answer": "ray AB",
+      "explanation": "The endpoint letter is written first."
+    },
+    "geo-u01-q11": {
+      "answer": "AB is a number; segment AB is a geometric set",
+      "explanation": "Notation distinguishes the object from its measure."
+    },
+    "geo-u01-q12": {
+      "answer": "12 and 18",
+      "explanation": "There are 5 ratio parts; each is 6 units."
+    },
+    "geo-u02-q01": {
+      "answer": "(1,-4)",
+      "explanation": "Add 5 to x and -4 to y."
+    },
+    "geo-u02-q02": {
+      "answer": "(-4,0)",
+      "explanation": "Reflection across the x-axis changes the sign of y."
+    },
+    "geo-u02-q03": {
+      "answer": "(0,-4)",
+      "explanation": "Use (x,y)→(−y,x)."
+    },
+    "geo-u02-q04": {
+      "answer": "Distances and angle measures",
+      "explanation": "Translations, reflections, and rotations are isometries."
+    },
+    "geo-u02-q05": {
+      "answer": "6",
+      "explanation": "It maps to itself six times in one full turn."
+    },
+    "geo-u02-q06": {
+      "answer": "Different orders can produce different images",
+      "explanation": "Transformation composition is generally not commutative."
+    },
+    "geo-u02-q07": {
+      "answer": "(6,1)",
+      "explanation": "Add 5 to x and -1 to y."
+    },
+    "geo-u02-q08": {
+      "answer": "(1,-2)",
+      "explanation": "Reflection across the x-axis changes the sign of y."
+    },
+    "geo-u02-q09": {
+      "answer": "(-2,1)",
+      "explanation": "Use (x,y)→(−y,x)."
+    },
+    "geo-u02-q10": {
+      "answer": "Distances and angle measures",
+      "explanation": "Translations, reflections, and rotations are isometries."
+    },
+    "geo-u02-q11": {
+      "answer": "6",
+      "explanation": "It maps to itself six times in one full turn."
+    },
+    "geo-u02-q12": {
+      "answer": "Different orders can produce different images",
+      "explanation": "Transformation composition is generally not commutative."
+    },
+    "geo-u03-q01": {
+      "answer": "45",
+      "explanation": "Triangle angles sum to 180°."
+    },
+    "geo-u03-q02": {
+      "answer": "0<x<22",
+      "explanation": "Use the triangle inequality and the difference inequality."
+    },
+    "geo-u03-q03": {
+      "answer": "SAS",
+      "explanation": "The angle must be between the two known sides."
+    },
+    "geo-u03-q04": {
+      "answer": "∠E",
+      "explanation": "The order of vertices determines correspondence."
+    },
+    "geo-u03-q05": {
+      "answer": "Circumcenter",
+      "explanation": "It is equidistant from all three vertices."
+    },
+    "geo-u03-q06": {
+      "answer": "It fixes shape but not size",
+      "explanation": "AAA establishes similarity."
+    },
+    "geo-u03-q07": {
+      "answer": "41",
+      "explanation": "Triangle angles sum to 180°."
+    },
+    "geo-u03-q08": {
+      "answer": "1<x<21",
+      "explanation": "Use the triangle inequality and the difference inequality."
+    },
+    "geo-u03-q09": {
+      "answer": "SAS",
+      "explanation": "The angle must be between the two known sides."
+    },
+    "geo-u03-q10": {
+      "answer": "∠E",
+      "explanation": "The order of vertices determines correspondence."
+    },
+    "geo-u03-q11": {
+      "answer": "Circumcenter",
+      "explanation": "It is equidistant from all three vertices."
+    },
+    "geo-u03-q12": {
+      "answer": "It fixes shape but not size",
+      "explanation": "AAA establishes similarity."
+    },
+    "geo-u04-q01": {
+      "answer": "1.29",
+      "explanation": "m=(5−(-4))/(5−(-2))=1.29."
+    },
+    "geo-u04-q02": {
+      "answer": "(1.5,0.5)",
+      "explanation": "Average corresponding coordinates."
+    },
+    "geo-u04-q03": {
+      "answer": "−4/3",
+      "explanation": "Perpendicular nonvertical slopes are negative reciprocals."
+    },
+    "geo-u04-q04": {
+      "answer": "They are congruent",
+      "explanation": "This follows from the parallel-lines theorem."
+    },
+    "geo-u04-q05": {
+      "answer": "Both pairs of opposite sides have equal slopes",
+      "explanation": "Equal slopes establish parallel opposite sides."
+    },
+    "geo-u04-q06": {
+      "answer": "y=−3",
+      "explanation": "All points on a horizontal line share one y-coordinate."
+    },
+    "geo-u04-q07": {
+      "answer": "1.33",
+      "explanation": "m=(8−(-4))/(7−(-2))=1.33."
+    },
+    "geo-u04-q08": {
+      "answer": "(2.5,2)",
+      "explanation": "Average corresponding coordinates."
+    },
+    "geo-u04-q09": {
+      "answer": "−4/3",
+      "explanation": "Perpendicular nonvertical slopes are negative reciprocals."
+    },
+    "geo-u04-q10": {
+      "answer": "They are congruent",
+      "explanation": "This follows from the parallel-lines theorem."
+    },
+    "geo-u04-q11": {
+      "answer": "Both pairs of opposite sides have equal slopes",
+      "explanation": "Equal slopes establish parallel opposite sides."
+    },
+    "geo-u04-q12": {
+      "answer": "y=−3",
+      "explanation": "All points on a horizontal line share one y-coordinate."
+    },
+    "geo-u05-q01": {
+      "answer": "22.5",
+      "explanation": "Multiply by the scale factor: 9·2.5."
+    },
+    "geo-u05-q02": {
+      "answer": "12.6",
+      "explanation": "Use 5/7=9/x."
+    },
+    "geo-u05-q03": {
+      "answer": "Two pairs of congruent angles (AA)",
+      "explanation": "The third angle is then congruent automatically."
+    },
+    "geo-u05-q04": {
+      "answer": "It preserves angle measure",
+      "explanation": "Dilations change lengths proportionally but preserve angles."
+    },
+    "geo-u05-q05": {
+      "answer": "400 cm or 4 m",
+      "explanation": "Multiply the drawing length by 50."
+    },
+    "geo-u05-q06": {
+      "answer": "To prevent comparing unlike units and to make conversions auditable",
+      "explanation": "A scale ratio is meaningful only when units are controlled."
+    },
+    "geo-u05-q07": {
+      "answer": "12.5",
+      "explanation": "Multiply by the scale factor: 5·2.5."
+    },
+    "geo-u05-q08": {
+      "answer": "9",
+      "explanation": "Use 8/8=9/x."
+    },
+    "geo-u05-q09": {
+      "answer": "Two pairs of congruent angles (AA)",
+      "explanation": "The third angle is then congruent automatically."
+    },
+    "geo-u05-q10": {
+      "answer": "It preserves angle measure",
+      "explanation": "Dilations change lengths proportionally but preserve angles."
+    },
+    "geo-u05-q11": {
+      "answer": "400 cm or 4 m",
+      "explanation": "Multiply the drawing length by 50."
+    },
+    "geo-u05-q12": {
+      "answer": "To prevent comparing unlike units and to make conversions auditable",
+      "explanation": "A scale ratio is meaningful only when units are controlled."
+    },
+    "geo-u06-q01": {
+      "answer": "13",
+      "explanation": "c=√(5²+12²)=13."
+    },
+    "geo-u06-q02": {
+      "answer": "6√2",
+      "explanation": "The side ratio is 1:1:√2."
+    },
+    "geo-u06-q03": {
+      "answer": "5√3",
+      "explanation": "The side ratio is 1:√3:2."
+    },
+    "geo-u06-q04": {
+      "answer": "15.6",
+      "explanation": "opposite=18·sin(60°)≈15.6."
+    },
+    "geo-u06-q05": {
+      "answer": "30°",
+      "explanation": "Use inverse sine."
+    },
+    "geo-u06-q06": {
+      "answer": "North, turning 35° toward east",
+      "explanation": "Quadrant bearings begin at north or south."
+    },
+    "geo-u06-q07": {
+      "answer": "25",
+      "explanation": "c=√(7²+24²)=25."
+    },
+    "geo-u06-q08": {
+      "answer": "6√2",
+      "explanation": "The side ratio is 1:1:√2."
+    },
+    "geo-u06-q09": {
+      "answer": "5√3",
+      "explanation": "The side ratio is 1:√3:2."
+    },
+    "geo-u06-q10": {
+      "answer": "8.6",
+      "explanation": "opposite=15·sin(35°)≈8.6."
+    },
+    "geo-u06-q11": {
+      "answer": "49°",
+      "explanation": "Use inverse sine."
+    },
+    "geo-u06-q12": {
+      "answer": "North, turning 35° toward east",
+      "explanation": "Quadrant bearings begin at north or south."
+    },
+    "geo-u07-q01": {
+      "answer": "1440",
+      "explanation": "(n−2)180°=(10−2)180°."
+    },
+    "geo-u07-q02": {
+      "answer": "36",
+      "explanation": "Regular exterior angles equal 360°/10."
+    },
+    "geo-u07-q03": {
+      "answer": "Square",
+      "explanation": "A square is both a rhombus and a rectangle."
+    },
+    "geo-u07-q04": {
+      "answer": "Bisect each other",
+      "explanation": "This property also provides a converse test."
+    },
+    "geo-u07-q05": {
+      "answer": "Congruent diagonals or one right angle",
+      "explanation": "Either condition is sufficient."
+    },
+    "geo-u07-q06": {
+      "answer": "168",
+      "explanation": "A=1/2·aP=1/2·7·48=168."
+    },
+    "geo-u07-q07": {
+      "answer": "540",
+      "explanation": "(n−2)180°=(5−2)180°."
+    },
+    "geo-u07-q08": {
+      "answer": "72",
+      "explanation": "Regular exterior angles equal 360°/5."
+    },
+    "geo-u07-q09": {
+      "answer": "Square",
+      "explanation": "A square is both a rhombus and a rectangle."
+    },
+    "geo-u07-q10": {
+      "answer": "Bisect each other",
+      "explanation": "This property also provides a converse test."
+    },
+    "geo-u07-q11": {
+      "answer": "Congruent diagonals or one right angle",
+      "explanation": "Either condition is sufficient."
+    },
+    "geo-u07-q12": {
+      "answer": "168",
+      "explanation": "A=1/2·aP=1/2·7·48=168."
+    },
+    "geo-u08-q01": {
+      "answer": "8π",
+      "explanation": "C=2πr=8π."
+    },
+    "geo-u08-q02": {
+      "answer": "16π",
+      "explanation": "A=πr²=16π."
+    },
+    "geo-u08-q03": {
+      "answer": "1.33π",
+      "explanation": "s=(60/360)·2π·4."
+    },
+    "geo-u08-q04": {
+      "answer": "30°",
+      "explanation": "An inscribed angle is half its intercepted arc."
+    },
+    "geo-u08-q05": {
+      "answer": "90°",
+      "explanation": "The radius is perpendicular to the tangent."
+    },
+    "geo-u08-q06": {
+      "answer": "(x−3)²+(y+2)²=25",
+      "explanation": "Use (x−h)²+(y−k)²=r²."
+    },
+    "geo-u08-q07": {
+      "answer": "16π",
+      "explanation": "C=2πr=16π."
+    },
+    "geo-u08-q08": {
+      "answer": "64π",
+      "explanation": "A=πr²=64π."
+    },
+    "geo-u08-q09": {
+      "answer": "2.67π",
+      "explanation": "s=(60/360)·2π·8."
+    },
+    "geo-u08-q10": {
+      "answer": "30°",
+      "explanation": "An inscribed angle is half its intercepted arc."
+    },
+    "geo-u08-q11": {
+      "answer": "90°",
+      "explanation": "The radius is perpendicular to the tangent."
+    },
+    "geo-u08-q12": {
+      "answer": "(x−3)²+(y+2)²=25",
+      "explanation": "Use (x−h)²+(y−k)²=r²."
+    },
+    "geo-u09-q01": {
+      "answer": "The perpendicular bisector of AB",
+      "explanation": "Every point on it has equal distance to A and B."
+    },
+    "geo-u09-q02": {
+      "answer": "The two angle bisectors",
+      "explanation": "Both internal and external angle bisectors satisfy the condition."
+    },
+    "geo-u09-q03": {
+      "answer": "4",
+      "explanation": "Distance to the x-axis is |y|."
+    },
+    "geo-u09-q04": {
+      "answer": "It intersects the circle at exactly one point",
+      "explanation": "Equivalently, the center-to-line distance equals the radius."
+    },
+    "geo-u09-q05": {
+      "answer": "Points equidistant from a focus and a directrix",
+      "explanation": "This distance condition generates the conic."
+    },
+    "geo-u09-q06": {
+      "answer": "Boundary points are equidistant from two competing sites",
+      "explanation": "Nearest-site regions change where distances tie."
+    },
+    "geo-u09-q07": {
+      "answer": "The perpendicular bisector of AB",
+      "explanation": "Every point on it has equal distance to A and B."
+    },
+    "geo-u09-q08": {
+      "answer": "The two angle bisectors",
+      "explanation": "Both internal and external angle bisectors satisfy the condition."
+    },
+    "geo-u09-q09": {
+      "answer": "4",
+      "explanation": "Distance to the x-axis is |y|."
+    },
+    "geo-u09-q10": {
+      "answer": "It intersects the circle at exactly one point",
+      "explanation": "Equivalently, the center-to-line distance equals the radius."
+    },
+    "geo-u09-q11": {
+      "answer": "Points equidistant from a focus and a directrix",
+      "explanation": "This distance condition generates the conic."
+    },
+    "geo-u09-q12": {
+      "answer": "Boundary points are equidistant from two competing sites",
+      "explanation": "Nearest-site regions change where distances tie."
+    },
+    "geo-u10-q01": {
+      "answer": "28",
+      "explanation": "A=1/2·8·7."
+    },
+    "geo-u10-q02": {
+      "answer": "150",
+      "explanation": "A=1/2·aP."
+    },
+    "geo-u10-q03": {
+      "answer": "12",
+      "explanation": "Heron's formula with s=8 gives √(8·3·3·2)=12."
+    },
+    "geo-u10-q04": {
+      "answer": "9",
+      "explanation": "Area scales by k²."
+    },
+    "geo-u10-q05": {
+      "answer": "3/10 or 0.3",
+      "explanation": "Probability is favorable area divided by total area."
+    },
+    "geo-u10-q06": {
+      "answer": "It reduces accumulated rounding error",
+      "explanation": "Round once after the full calculation."
+    },
+    "geo-u10-q07": {
+      "answer": "80",
+      "explanation": "A=1/2·16·10."
+    },
+    "geo-u10-q08": {
+      "answer": "90",
+      "explanation": "A=1/2·aP."
+    },
+    "geo-u10-q09": {
+      "answer": "12",
+      "explanation": "Heron's formula with s=8 gives √(8·3·3·2)=12."
+    },
+    "geo-u10-q10": {
+      "answer": "9",
+      "explanation": "Area scales by k²."
+    },
+    "geo-u10-q11": {
+      "answer": "3/10 or 0.3",
+      "explanation": "Probability is favorable area divided by total area."
+    },
+    "geo-u10-q12": {
+      "answer": "It reduces accumulated rounding error",
+      "explanation": "Round once after the full calculation."
+    },
+    "geo-u11-q01": {
+      "answer": "360",
+      "explanation": "V=lwh=360."
+    },
+    "geo-u11-q02": {
+      "answer": "112π",
+      "explanation": "V=πr²h=112π."
+    },
+    "geo-u11-q03": {
+      "answer": "37.33π",
+      "explanation": "V=1/3πr²h."
+    },
+    "geo-u11-q04": {
+      "answer": "216",
+      "explanation": "Six congruent square faces: 6·6²."
+    },
+    "geo-u11-q05": {
+      "answer": "8",
+      "explanation": "Volume scales by k³."
+    },
+    "geo-u11-q06": {
+      "answer": "A circle",
+      "explanation": "A parallel slice has the same shape as the base."
+    },
+    "geo-u11-q07": {
+      "answer": "315",
+      "explanation": "V=lwh=315."
+    },
+    "geo-u11-q08": {
+      "answer": "539π",
+      "explanation": "V=πr²h=539π."
+    },
+    "geo-u11-q09": {
+      "answer": "179.67π",
+      "explanation": "V=1/3πr²h."
+    },
+    "geo-u11-q10": {
+      "answer": "486",
+      "explanation": "Six congruent square faces: 6·9²."
+    },
+    "geo-u11-q11": {
+      "answer": "8",
+      "explanation": "Volume scales by k³."
+    },
+    "geo-u11-q12": {
+      "answer": "A circle",
+      "explanation": "A parallel slice has the same shape as the base."
+    },
+    "geo-u12-q01": {
+      "answer": "Units, sheet size, grid, and snap",
+      "explanation": "These settings control scale and precision."
+    },
+    "geo-u12-q02": {
+      "answer": "6.5 m",
+      "explanation": "6.5 cm×100=650 cm=6.5 m."
+    },
+    "geo-u12-q03": {
+      "answer": "They can be controlled, inspected, and exported independently",
+      "explanation": "Layer organization supports editing and technical communication."
+    },
+    "geo-u12-q04": {
+      "answer": "Project JSON",
+      "explanation": "JSON is the complete local project format."
+    },
+    "geo-u12-q05": {
+      "answer": "SVG",
+      "explanation": "SVG preserves scalable vector lines and metadata."
+    },
+    "geo-u12-q06": {
+      "answer": "Dimensions, scale, area/length checks, constraints, assumptions, and limitations",
+      "explanation": "A technical drawing must be mathematically auditable."
+    },
+    "geo-u12-q07": {
+      "answer": "Units, sheet size, grid, and snap",
+      "explanation": "These settings control scale and precision."
+    },
+    "geo-u12-q08": {
+      "answer": "6.5 m",
+      "explanation": "6.5 cm×100=650 cm=6.5 m."
+    },
+    "geo-u12-q09": {
+      "answer": "They can be controlled, inspected, and exported independently",
+      "explanation": "Layer organization supports editing and technical communication."
+    },
+    "geo-u12-q10": {
+      "answer": "Project JSON",
+      "explanation": "JSON is the complete local project format."
+    },
+    "geo-u12-q11": {
+      "answer": "SVG",
+      "explanation": "SVG preserves scalable vector lines and metadata."
+    },
+    "geo-u12-q12": {
+      "answer": "Dimensions, scale, area/length checks, constraints, assumptions, and limitations",
+      "explanation": "A technical drawing must be mathematically auditable."
+    },
+    "geo-u13-q01": {
+      "answer": "A clearly defined design or investigation question",
+      "explanation": "It must identify the object, measurements, and decision to be made."
+    },
+    "geo-u13-q02": {
+      "answer": "An assumption is accepted for modelling; a verified measurement is observed or checked",
+      "explanation": "Both must be labeled."
+    },
+    "geo-u13-q03": {
+      "answer": "Independent calculation and a second construction/measurement",
+      "explanation": "Agreement across methods strengthens confidence."
+    },
+    "geo-u13-q04": {
+      "answer": "Testing how conclusions change when inputs or assumptions change",
+      "explanation": "It reveals fragile decisions."
+    },
+    "geo-u13-q05": {
+      "answer": "Brief, diagrams, calculations, proof, outputs, validation, limitations, and reflection",
+      "explanation": "The portfolio should make the reasoning traceable."
+    },
+    "geo-u13-q06": {
+      "answer": "Revise the model and document the change",
+      "explanation": "Revision is part of mathematical practice."
+    },
+    "geo-u13-q07": {
+      "answer": "A clearly defined design or investigation question",
+      "explanation": "It must identify the object, measurements, and decision to be made."
+    },
+    "geo-u13-q08": {
+      "answer": "An assumption is accepted for modelling; a verified measurement is observed or checked",
+      "explanation": "Both must be labeled."
+    },
+    "geo-u13-q09": {
+      "answer": "Independent calculation and a second construction/measurement",
+      "explanation": "Agreement across methods strengthens confidence."
+    },
+    "geo-u13-q10": {
+      "answer": "Testing how conclusions change when inputs or assumptions change",
+      "explanation": "It reveals fragile decisions."
+    },
+    "geo-u13-q11": {
+      "answer": "Brief, diagrams, calculations, proof, outputs, validation, limitations, and reflection",
+      "explanation": "The portfolio should make the reasoning traceable."
+    },
+    "geo-u13-q12": {
+      "answer": "Revise the model and document the change",
+      "explanation": "Revision is part of mathematical practice."
+    }
+  },
+  "diagnostic": {
+    "geo-d-01": {
+      "answer": "28",
+      "explanation": "Complementary angles sum to 90°, so y=90−62."
+    },
+    "geo-d-02": {
+      "answer": "46",
+      "explanation": "Supplementary angles sum to 180°, so y=180−134."
+    },
+    "geo-d-03": {
+      "answer": "A straight angle",
+      "explanation": "Opposite rays form a 180° angle."
+    },
+    "geo-d-04": {
+      "answer": "A postulate is accepted without proof; a theorem is proven",
+      "explanation": "Both may be used as reasons once established."
+    },
+    "geo-d-05": {
+      "answer": "Reasons that justify each statement",
+      "explanation": "Each step must cite a definition, property, postulate, or theorem."
+    },
+    "geo-d-06": {
+      "answer": "It may not be drawn to scale and cannot establish every required relationship",
+      "explanation": "Proof depends on stated or justified facts."
+    },
+    "geo-d-07": {
+      "answer": "15",
+      "explanation": "Distance is |18−3|=15."
+    },
+    "geo-d-08": {
+      "answer": "(1,2.5)",
+      "explanation": "Average the x-coordinates and the y-coordinates separately."
+    },
+    "geo-d-09": {
+      "answer": "46",
+      "explanation": "Use segment addition: AB=AM+MB."
+    },
+    "geo-d-10": {
+      "answer": "ray AB",
+      "explanation": "The endpoint letter is written first."
+    },
+    "geo-d-11": {
+      "answer": "AB is a number; segment AB is a geometric set",
+      "explanation": "Notation distinguishes the object from its measure."
+    },
+    "geo-d-12": {
+      "answer": "12 and 18",
+      "explanation": "There are 5 ratio parts; each is 6 units."
+    },
+    "geo-d-13": {
+      "answer": "45",
+      "explanation": "Triangle angles sum to 180°."
+    },
+    "geo-d-14": {
+      "answer": "0<x<22",
+      "explanation": "Use the triangle inequality and the difference inequality."
+    },
+    "geo-d-15": {
+      "answer": "SAS",
+      "explanation": "The angle must be between the two known sides."
+    },
+    "geo-d-16": {
+      "answer": "∠E",
+      "explanation": "The order of vertices determines correspondence."
+    },
+    "geo-d-17": {
+      "answer": "Circumcenter",
+      "explanation": "It is equidistant from all three vertices."
+    },
+    "geo-d-18": {
+      "answer": "It fixes shape but not size",
+      "explanation": "AAA establishes similarity."
+    },
+    "geo-d-19": {
+      "answer": "41",
+      "explanation": "Triangle angles sum to 180°."
+    },
+    "geo-d-20": {
+      "answer": "1<x<21",
+      "explanation": "Use the triangle inequality and the difference inequality."
+    },
+    "geo-d-21": {
+      "answer": "SAS",
+      "explanation": "The angle must be between the two known sides."
+    },
+    "geo-d-22": {
+      "answer": "∠E",
+      "explanation": "The order of vertices determines correspondence."
+    },
+    "geo-d-23": {
+      "answer": "Circumcenter",
+      "explanation": "It is equidistant from all three vertices."
+    },
+    "geo-d-24": {
+      "answer": "It fixes shape but not size",
+      "explanation": "AAA establishes similarity."
+    },
+    "geo-d-25": {
+      "answer": "1.29",
+      "explanation": "m=(5−(-4))/(5−(-2))=1.29."
+    },
+    "geo-d-26": {
+      "answer": "(1.5,0.5)",
+      "explanation": "Average corresponding coordinates."
+    },
+    "geo-d-27": {
+      "answer": "−4/3",
+      "explanation": "Perpendicular nonvertical slopes are negative reciprocals."
+    },
+    "geo-d-28": {
+      "answer": "They are congruent",
+      "explanation": "This follows from the parallel-lines theorem."
+    },
+    "geo-d-29": {
+      "answer": "Both pairs of opposite sides have equal slopes",
+      "explanation": "Equal slopes establish parallel opposite sides."
+    },
+    "geo-d-30": {
+      "answer": "y=−3",
+      "explanation": "All points on a horizontal line share one y-coordinate."
+    },
+    "geo-d-31": {
+      "answer": "1.33",
+      "explanation": "m=(8−(-4))/(7−(-2))=1.33."
+    },
+    "geo-d-32": {
+      "answer": "(2.5,2)",
+      "explanation": "Average corresponding coordinates."
+    },
+    "geo-d-33": {
+      "answer": "−4/3",
+      "explanation": "Perpendicular nonvertical slopes are negative reciprocals."
+    },
+    "geo-d-34": {
+      "answer": "They are congruent",
+      "explanation": "This follows from the parallel-lines theorem."
+    },
+    "geo-d-35": {
+      "answer": "Both pairs of opposite sides have equal slopes",
+      "explanation": "Equal slopes establish parallel opposite sides."
+    },
+    "geo-d-36": {
+      "answer": "y=−3",
+      "explanation": "All points on a horizontal line share one y-coordinate."
+    },
+    "geo-d-37": {
+      "answer": "22.5",
+      "explanation": "Multiply by the scale factor: 9·2.5."
+    },
+    "geo-d-38": {
+      "answer": "12.6",
+      "explanation": "Use 5/7=9/x."
+    },
+    "geo-d-39": {
+      "answer": "Two pairs of congruent angles (AA)",
+      "explanation": "The third angle is then congruent automatically."
+    },
+    "geo-d-40": {
+      "answer": "It preserves angle measure",
+      "explanation": "Dilations change lengths proportionally but preserve angles."
+    }
+  }
+}
