@@ -1,11 +1,12 @@
 {
-  "name": "Khaemenes Global Algebra I & Integrated Mathematics I",
+  "name": "Khaemenes Open-Age Algebra I & Integrated Mathematics I",
   "short_name": "Khaemenes Algebra I",
+  "id": "./?app=algebra-1",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#ece9e2",
-  "theme_color": "#17344a",
+  "background_color": "#090b10",
+  "theme_color": "#080b10",
   "categories": [
     "education"
   ],
@@ -19,12 +20,12 @@
       "url": "./diagnostic/"
     },
     {
-      "name": "Midterm",
-      "url": "./assessments/midterm-units-01-06.html"
+      "name": "Assessment Center",
+      "url": "./assessments/"
     },
     {
-      "name": "Final Examination",
-      "url": "./assessments/final-exam-36-weeks.html"
+      "name": "Scientific Calculator",
+      "url": "../tools/calculator"
     }
   ]
 }

@@ -1,10 +1,11 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "course": {
     "id": "math-algebra1-integrated1",
+    "profile_course_id": "algebra-1",
     "code": "KH-MATH-A1",
-    "title": "Khaemenes Global Algebra I & Integrated Mathematics I",
-    "grade": 10,
+    "title": "Khaemenes Open-Age Algebra I & Integrated Mathematics I",
+    "audience": "Open-age, placement-based learners with demonstrated pre-algebra readiness",
     "duration_weeks": 36,
     "pathways": [
       "Foundation",
@@ -13,7 +14,8 @@
     ],
     "storage_key": "khaemenes-algebra1-course-v1",
     "mastery_target": 80,
-    "standards_status": "Broad official-framework union; jurisdiction-specific review required for formal reporting."
+    "standards_status": "Broad official-framework union; jurisdiction-specific review required for formal reporting.",
+    "calculator": "../tools/calculator"
   },
   "calendar": {
     "diagnostic_weeks": 1,
@@ -134,5 +136,12 @@
     "midterm": "assessments/midterm-units-01-06.html",
     "final": "assessments/final-exam-36-weeks.html",
     "certificate": "records/course-completion-certificate.html"
+  },
+  "interconnections": {
+    "academy_home": "https://khaemenesacademy.org/",
+    "high_school_profile": "../../../index.html#student-portal",
+    "mathematics_hall": "../",
+    "pre_algebra": "../pre-algebra/",
+    "scientific_calculator": "../tools/calculator"
   }
 }
