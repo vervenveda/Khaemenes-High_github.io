@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta name="description" content="Khaemenes Academy open-age, 36-week pre-algebra course with complete units, mastery tracking, assessments, modelling, and mathematics tools."/>
+<meta name="description" content="Khaemenes Academy open-age, 36-week pre-algebra course with complete units, mastery tracking, assessments, modelling, profile pinning, mathematics tools, and in-page learning games."/>
 <meta name="theme-color" content="#080b10"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>
@@ -529,6 +529,45 @@ th,td{padding:.9rem .8rem}
 @media(max-width:820px){.hero-topline{align-items:stretch;flex-direction:column}.header-tools{justify-content:flex-start}.course-menu-panel{left:0;right:auto}}
 @media(max-width:520px){.header-tools{display:grid;grid-template-columns:1fr 1fr}.course-menu{grid-column:1/-1}.course-menu>summary{width:100%}.header-control{white-space:normal;text-align:center}.hero-home-badge{width:48px;height:48px;flex-basis:48px}}
 
+
+/* School-first navigation, math games, and in-page activity window */
+body.activity-open{overflow:hidden}
+.games-launch-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:16px}
+.activity-card{
+  min-height:184px;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;
+  gap:8px;padding:20px;border:1px solid rgba(216,180,95,.26);border-radius:15px;
+  color:var(--ink);background:linear-gradient(145deg,#111419,#090a0c);box-shadow:0 13px 30px rgba(0,0,0,.22);
+  text-align:left
+}
+.activity-card:hover{transform:translateY(-2px);border-color:rgba(216,180,95,.62);background:linear-gradient(145deg,#171b21,#0d0f12)}
+.activity-card strong{color:#ffe1a0;font-size:1.08rem}
+.activity-card small{color:var(--muted);font-size:.87rem;line-height:1.55}
+.activity-card em{margin-top:auto;color:var(--blue);font-size:.74rem;font-style:normal;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.activity-symbol{width:44px;height:44px;display:grid;place-items:center;border:1px solid rgba(216,180,95,.45);border-radius:11px;color:#171006;background:linear-gradient(145deg,#f7e5ae,#d8b45f);font-weight:900}
+.course-menu-panel .menu-note{margin:2px 10px 6px;color:var(--muted);font-size:.74rem;line-height:1.45}
+.activity-dialog{width:min(1180px,calc(100vw - 28px));height:min(830px,calc(100vh - 28px));max-width:none;max-height:none;padding:0;border:1px solid rgba(216,180,95,.52);border-radius:21px;color:var(--ink);background:#090b0e;box-shadow:0 35px 110px rgba(0,0,0,.72);overflow:hidden}
+.activity-dialog::backdrop{background:rgba(0,0,0,.78);backdrop-filter:blur(8px)}
+.activity-dialog-shell{height:100%;display:grid;grid-template-rows:auto auto minmax(0,1fr)}
+.activity-dialog-header{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:17px 20px;border-bottom:1px solid var(--line);background:linear-gradient(135deg,#171a20,#0b0c0f)}
+.activity-dialog-header h2{margin:3px 0 0;color:var(--ink);font:650 clamp(1.25rem,2vw,1.72rem)/1.1 "Aptos Display","Segoe UI",sans-serif}
+.dialog-eyebrow{margin:0;color:var(--gold);font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.dialog-close{width:44px;height:44px;min-height:44px;flex:0 0 44px;padding:0;border:1px solid rgba(216,180,95,.38);border-radius:11px;color:var(--ink);background:#20242b;box-shadow:none;font-size:1.6rem;line-height:1}
+.dialog-close:hover{transform:none;background:#2a3039;border-color:rgba(216,180,95,.7)}
+.activity-dialog-toolbar{min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:9px 20px;border-bottom:1px solid rgba(216,180,95,.18);color:var(--muted);background:#101216;font-size:.78rem}
+.activity-dialog-toolbar a{color:var(--gold);font-weight:800;text-decoration:none}
+.activity-frame-wrap{min-height:0;background:#fff}
+.activity-frame-wrap iframe{width:100%;height:100%;display:block;border:0;background:#fff}
+@media(max-width:1000px){.games-launch-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){
+  .games-launch-grid{grid-template-columns:1fr}
+  .activity-dialog{width:100vw;height:100dvh;border:0;border-radius:0}
+  .activity-dialog-toolbar{align-items:flex-start;flex-direction:column}
+  .header-tools{display:grid;grid-template-columns:1fr}
+  .header-control,.course-menu,.course-menu>summary{width:100%}
+  .course-menu{grid-column:auto}
+}
+@media print{.activity-dialog{display:none!important}}
+
 </style>
 </head>
 <body>
@@ -536,7 +575,7 @@ th,td{padding:.9rem .8rem}
 <div class="app">
  <aside class="sidebar">
   <div class="brand">
-   <a class="brand-home" href="https://khaemenesacademy.org/" aria-label="Khaemenes Academy home">
+   <a class="brand-home" href="https://vervenveda.github.io/Khaemenes_Academy.github.io/" aria-label="Khaemenes Academy home">
     <div class="seal" aria-hidden="true">
      K
     </div>
@@ -594,6 +633,9 @@ th,td{padding:.9rem .8rem}
    <button class="navBtn" data-view="tools">
     Math Tool Dock
    </button>
+   <button class="navBtn" data-view="games">
+    Math Games &amp; Tools
+   </button>
    <button class="navBtn" data-view="exams">
     Midterm &amp; Final
    </button>
@@ -619,29 +661,54 @@ th,td{padding:.9rem .8rem}
   <header class="hero">
    <div class="hero-topline">
     <div class="hero-identity">
-     <a class="hero-home-badge" href="https://khaemenesacademy.org/" aria-label="Khaemenes Academy home">K</a>
+     <a class="hero-home-badge" href="https://vervenveda.github.io/Khaemenes_Academy.github.io/" aria-label="Khaemenes Academy home">K</a>
      <div>
       <div class="eyebrow">Numerica Forge · Khaemenes Academy</div>
       <div class="hero-route">Mathematics › Open-Age Pre-Algebra</div>
      </div>
     </div>
     <div class="header-tools" aria-label="Course account and navigation controls">
-     <a class="header-control" href="../../../index.html#student-portal" aria-label="Open the student profile page">Profile</a>
+     <a class="header-control" href="../../../index.html#student-portal" aria-label="Open the High School student profile">Profile</a>
      <button class="header-control pin-control" id="pinCourseButton" type="button" aria-pressed="false" aria-describedby="pinCourseStatus">☆ Pin to Profile</button>
-     <details class="course-menu" id="courseMenu">
-      <summary aria-label="Open course menu">Menu <span aria-hidden="true">⌄</span></summary>
+     <details class="course-menu" id="gamesMenu">
+      <summary aria-label="Open math games and tools menu">Math Games &amp; Tools <span aria-hidden="true">⌄</span></summary>
       <div class="course-menu-panel">
-       <div class="course-menu-label">Academy</div>
-       <a href="https://khaemenesacademy.org/">Khaemenes Academy Home</a>
+       <div class="course-menu-label">Launch here</div>
+       <p class="menu-note">Open a selected activity in a focused window without leaving Pre-Algebra.</p>
+       <button type="button" data-launch-title="Pattern Pirates" data-launch-url="https://vervenveda.com/arcade.github.io/games/kids/Pattern_Pirates_index.html">Pattern Pirates</button>
+       <button type="button" data-launch-title="Jenny’s Sudoku" data-launch-url="https://vervenveda.com/arcade.github.io/Jenny%27s_Sudoku_index.html">Jenny’s Sudoku</button>
+       <button type="button" data-launch-title="Six by Six" data-launch-url="https://vervenveda.com/arcade.github.io/SixbySix_index.html">Six by Six</button>
+       <button type="button" data-launch-title="Sacred Geometry" data-launch-url="https://vervenveda.com/arcade.github.io/a_sacred_geometry_game_index.html">Sacred Geometry</button>
+       <button type="button" data-launch-title="Mandala Rings" data-launch-url="https://vervenveda.com/arcade.github.io/a_mandala_rings_game_index.html">Mandala Rings</button>
+       <div class="course-menu-divider" aria-hidden="true"></div>
+       <button type="button" data-launch-title="Khaemenes Scientific Calculator" data-launch-url="../tools/calculator">Scientific Calculator</button>
+       <button type="button" data-launch-title="OHMIC CAD Studio" data-launch-url="https://vervenveda.com/proresource_hub.github.io/Protools/Ohmic_CAD_Studio.html">OHMIC CAD Studio</button>
+       <button type="button" data-launch-title="Verve N Veda Arcade" data-launch-url="https://vervenveda.com/arcade.github.io/">Open Full Arcade</button>
+       <div class="course-menu-divider" aria-hidden="true"></div>
+       <button type="button" data-go="games">View Games &amp; Tools Page</button>
+      </div>
+     </details>
+     <details class="course-menu" id="courseMenu">
+      <summary aria-label="Open course menu">School Menu <span aria-hidden="true">⌄</span></summary>
+      <div class="course-menu-panel">
+       <div class="course-menu-label">High School first</div>
        <a href="../../../index.html">Khaemenes High Home</a>
+       <a href="../../../index.html#student-portal">Student Profile</a>
        <a href="../index.html">Mathematics Home</a>
+       <a href="../algebra-1/index.html">Continue to Algebra I</a>
        <div class="course-menu-divider" aria-hidden="true"></div>
        <div class="course-menu-label">This course</div>
        <button type="button" data-go="dashboard">Course Dashboard</button>
        <button type="button" data-go="overview">Course Guide</button>
        <button type="button" data-go="week">Weekly Lessons</button>
        <button type="button" data-go="tools">Math Tool Dock</button>
+       <button type="button" data-go="games">Math Games &amp; Tools</button>
        <button type="button" data-go="reports">Progress Reports</button>
+       <div class="course-menu-divider" aria-hidden="true"></div>
+       <div class="course-menu-label">Academy &amp; Verve N Veda</div>
+       <a href="https://vervenveda.github.io/Khaemenes_Academy.github.io/">Khaemenes Academy</a>
+       <a href="https://vervenveda.github.io/Khaemenes_Higher_Learning.github.io/">Khaemenes Higher Learning</a>
+       <a href="https://vervenveda.github.io/">Verve N Veda Gateway</a>
       </div>
      </details>
      <span class="sr-only" id="pinCourseStatus" aria-live="polite"></span>
@@ -660,6 +727,12 @@ th,td{padding:.9rem .8rem}
     <button class="secondary" data-go="tools">
      Math Tools
     </button>
+    <button class="secondary" data-go="games">
+     Games &amp; Tools
+    </button>
+    <a class="button ghost" href="https://vervenveda.github.io/Khaemenes_Higher_Learning.github.io/">
+     Higher Learning
+    </a>
     <button class="ghost" data-go="reports">
      Progress Reports
     </button>
@@ -681,6 +754,9 @@ th,td{padding:.9rem .8rem}
    <button class="tab" data-view="tools">
     Tools
    </button>
+   <button class="tab" data-view="games">
+    Games
+   </button>
    <button class="tab" data-view="exams">
     Assessments
    </button>
@@ -701,6 +777,26 @@ th,td{padding:.9rem .8rem}
   </p>
  </main>
 </div>
+
+
+ <dialog class="activity-dialog" id="activityDialog" aria-labelledby="activityDialogTitle">
+  <div class="activity-dialog-shell">
+   <header class="activity-dialog-header">
+    <div>
+     <p class="dialog-eyebrow">Khaemenes Pre-Algebra · Activity Window</p>
+     <h2 id="activityDialogTitle">Math Activity</h2>
+    </div>
+    <button class="dialog-close" id="activityDialogClose" type="button" aria-label="Close activity window">×</button>
+   </header>
+   <div class="activity-dialog-toolbar">
+    <span id="activityDialogStatus">Loading selected activity…</span>
+    <a id="activityDialogExternal" href="#" target="_blank" rel="noopener">Open separately</a>
+   </div>
+   <div class="activity-frame-wrap">
+    <iframe id="activityFrame" title="Math activity" loading="lazy" allow="fullscreen; autoplay; clipboard-write" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+   </div>
+  </div>
+ </dialog>
 
 <script>
 
@@ -4203,7 +4299,7 @@ function readPinnedCourses(){try{const value=JSON.parse(localStorage.getItem(PRO
 function courseIsPinned(){return readPinnedCourses().includes(PROFILE_COURSE_ID)}
 function updatePinButton(){const button=$("pinCourseButton");if(!button)return;const pinned=courseIsPinned();button.setAttribute("aria-pressed",String(pinned));button.textContent=pinned?"★ Pinned to Profile":"☆ Pin to Profile";button.title=pinned?"Remove Pre-Algebra from the top of the student profile":"Pin Pre-Algebra to the top of the student profile"}
 function toggleCoursePin(){let pinned=readPinnedCourses();const wasPinned=pinned.includes(PROFILE_COURSE_ID);pinned=wasPinned?pinned.filter(id=>id!==PROFILE_COURSE_ID):[PROFILE_COURSE_ID,...pinned.filter(id=>id!==PROFILE_COURSE_ID)];try{localStorage.setItem(PROFILE_PIN_KEY,JSON.stringify(pinned))}catch{return alert("This browser could not save the profile pin.")}updatePinButton();const status=$("pinCourseStatus");if(status)status.textContent=wasPinned?"Pre-Algebra was removed from the student profile.":"Pre-Algebra was pinned to the top of the student profile."}
-function render(){renderStudentSelect();renderWeekList();setActiveButtons();updatePinButton();({dashboard,overview,week,scope,tools,exams,capstone,reports,standards}[view]||dashboard)()}function setActiveButtons(){document.querySelectorAll("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===view))}function renderStudentSelect(){$("studentSelect").innerHTML=state.students.map(s=>`<option value="${s.id}" ${s.id===state.activeId?"selected":""}>${esc(s.name)}</option>`).join("")}function renderWeekList(){let s=student();$("weekList").innerHTML=APP.weeks.map(w=>{let qb=s?quizBest(s,w.week):0,tag=qb>=APP.passingTarget?"good":qb?"bad":"";return`<button class="weekBtn ${w.week===activeWeek?"active":""}" data-week="${w.week}"><span><strong>${w.week}</strong> ${esc(w.title)}</span><span class="pill ${tag}">${qb||"—"}</span></button>`}).join("");document.querySelectorAll("[data-week]").forEach(b=>b.onclick=()=>{activeWeek=+b.dataset.week;view="week";render()})}
+function render(){renderStudentSelect();renderWeekList();setActiveButtons();updatePinButton();({dashboard,overview,week,scope,tools,games,exams,capstone,reports,standards}[view]||dashboard)()}function setActiveButtons(){document.querySelectorAll("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===view))}function renderStudentSelect(){$("studentSelect").innerHTML=state.students.map(s=>`<option value="${s.id}" ${s.id===state.activeId?"selected":""}>${esc(s.name)}</option>`).join("")}function renderWeekList(){let s=student();$("weekList").innerHTML=APP.weeks.map(w=>{let qb=s?quizBest(s,w.week):0,tag=qb>=APP.passingTarget?"good":qb?"bad":"";return`<button class="weekBtn ${w.week===activeWeek?"active":""}" data-week="${w.week}"><span><strong>${w.week}</strong> ${esc(w.title)}</span><span class="pill ${tag}">${qb||"—"}</span></button>`}).join("");document.querySelectorAll("[data-week]").forEach(b=>b.onclick=()=>{activeWeek=+b.dataset.week;view="week";render()})}
 
 function dashboard(){
   let s=student(),st=stats(s),needs=st.needs.length?`Recommended review: Weeks ${st.needs.slice(0,12).join(", ")}${st.needs.length>12?"…":""}`:"No review flags yet.";
@@ -4219,7 +4315,7 @@ function dashboard(){
       <p class="notice">${needs}</p>
       <div class="actions"><button type="button" onclick="view='week';render()">Continue Week ${activeWeek}</button><button class="secondary" type="button" onclick="view='overview';render()">Read Course Guide</button><button class="secondary" type="button" onclick="view='tools';render()">Open Tools</button><button class="ghost" type="button" onclick="downloadBackup()">Export Backup</button></div>
     </div>
-    <div class="card col4"><h3>Connected Tool Dock</h3><p>The repository includes the Khaemenes Scientific Calculator. This portal also embeds carefully limited mini-tools for fractions, proportions, percents, equations, slope, geometry, scientific notation, and data.</p><a class="button secondary" target="_blank" rel="noopener" href="${APP.tools[0].url}">Open Scientific Calculator</a></div>
+    <div class="card col4"><h3>Games &amp; Connected Tools</h3><p>Use the Khaemenes Scientific Calculator, built-in mini-tools, visual pattern games, logic practice, and OHMIC CAD without losing your place in the course.</p><div class="actions"><button class="secondary" type="button" data-launch-title="Khaemenes Scientific Calculator" data-launch-url="../tools/calculator">Open Calculator</button><button class="ghost" type="button" onclick="view='games';render()">Browse Games</button></div></div>
     <div class="card col12"><h3>Upcoming Weeks</h3><div class="table-wrap">${scopeTable(APP.weeks.slice(Math.max(0,activeWeek-1),Math.min(APP.weeks.length,activeWeek+5)))}</div></div>
   </div>`;
 }
@@ -4282,7 +4378,21 @@ function quizForm(w,r){
 function scope(){ $("content").innerHTML=`<div class="card"><h3>36-Week Scope & Sequence</h3><p class="section-note">Every row opens the corresponding complete unit or diagnostic page.</p><div class="actions"><button type="button" onclick="downloadScope()">Download Scope CSV</button></div><div class="table-wrap">${scopeTable(APP.weeks)}</div></div>`}
 function scopeTable(list){return`<table><tr><th>Week</th><th>Unit</th><th>Focus</th><th>Open</th><th>Framework Tags</th></tr>${list.map(w=>`<tr><td>${w.week}</td><td>${esc(w.unitTitle)}</td><td>${esc(w.title)}</td><td><a class="button secondary" href="${esc(unitHref(w))}">Open</a></td><td>${w.tags.map(t=>`<span class="pill">${esc(t)}</span>`).join("")}</td></tr>`).join("")}</table>`}
 
-function tools(){ $("content").innerHTML=`<div class="grid"><div class="card col12"><h3>Math Tool Dock</h3><p>Use tools to explore, represent, and verify. A tool result is evidence only when the learner can explain the inputs, method, units, assumptions, and reasonableness.</p><div class="actions"><a class="button" target="_blank" rel="noopener" href="${APP.tools[0].url}">Open Khaemenes Scientific Calculator</a><a class="button secondary" target="_blank" rel="noopener" href="${APP.tools[0].relative}">Open Repository-Relative Calculator</a></div></div><div class="card col12"><div class="toolGrid">${toolHTML()}</div></div><div class="card col12"><h3>Tool Inventory</h3><div class="table-wrap"><table><tr><th>Tool</th><th>Type</th><th>Use</th></tr>${APP.tools.map(t=>`<tr><td>${esc(t.name)}</td><td>${esc(t.kind)}</td><td>${esc(t.description)}</td></tr>`).join("")}</table></div></div></div>`}
+function tools(){ $("content").innerHTML=`<div class="grid"><div class="card col12"><h3>Math Tool Dock</h3><p>Use tools to explore, represent, and verify. A tool result is evidence only when the learner can explain the inputs, method, units, assumptions, and reasonableness.</p><div class="actions"><button type="button" data-launch-title="Khaemenes Scientific Calculator" data-launch-url="../tools/calculator">Open Scientific Calculator Here</button><button class="secondary" type="button" data-launch-title="OHMIC CAD Studio" data-launch-url="https://vervenveda.com/proresource_hub.github.io/Protools/Ohmic_CAD_Studio.html">Open OHMIC CAD</button><button class="ghost" type="button" onclick="view='games';render()">Browse Math Games</button></div></div><div class="card col12"><div class="toolGrid">${toolHTML()}</div></div><div class="card col12"><h3>Tool Inventory</h3><div class="table-wrap"><table><tr><th>Tool</th><th>Type</th><th>Use</th></tr>${APP.tools.map(t=>`<tr><td>${esc(t.name)}</td><td>${esc(t.kind)}</td><td>${esc(t.description)}</td></tr>`).join("")}</table></div></div></div>`}
+
+function games(){
+  const activities=[
+    ["Pattern Pirates","⋯","Sequence recognition, number patterns, and flexible reasoning.","https://vervenveda.com/arcade.github.io/games/kids/Pattern_Pirates_index.html"],
+    ["Jenny’s Sudoku","#","Logic, constraints, deduction, and strategic persistence.","https://vervenveda.com/arcade.github.io/Jenny%27s_Sudoku_index.html"],
+    ["Six by Six","6×6","Compact number logic and pattern practice.","https://vervenveda.com/arcade.github.io/SixbySix_index.html"],
+    ["Sacred Geometry","◇","Symmetry, proportion, visual structure, and geometric relationships.","https://vervenveda.com/arcade.github.io/a_sacred_geometry_game_index.html"],
+    ["Mandala Rings","◎","Rotational reasoning, pattern recognition, and spatial focus.","https://vervenveda.com/arcade.github.io/a_mandala_rings_game_index.html"],
+    ["Scientific Calculator","∑","Degree and radian modes, functions, constants, history, and keyboard support.","../tools/calculator"],
+    ["OHMIC CAD Studio","⌑","Scale, measurement, coordinates, dimensions, and design thinking.","https://vervenveda.com/proresource_hub.github.io/Protools/Ohmic_CAD_Studio.html"],
+    ["Verve N Veda Arcade","A","Open the complete internal Arcade collection in the activity window.","https://vervenveda.com/arcade.github.io/"]
+  ];
+  $("content").innerHTML=`<div class="grid"><div class="card col12"><h3>Math Games &amp; Learning Tools</h3><p>Choose a focused activity. It opens in a large in-page window so learner records and the current Pre-Algebra view remain in place.</p><p class="notice">Games support practice and visualization; they do not replace written reasoning, lessons, or mastery evidence.</p><div class="games-launch-grid">${activities.map(([title,symbol,description,url])=>`<button class="activity-card" type="button" data-launch-title="${esc(title)}" data-launch-url="${esc(url)}"><span class="activity-symbol">${esc(symbol)}</span><strong>${esc(title)}</strong><small>${esc(description)}</small><em>Launch activity</em></button>`).join("")}</div></div></div>`;
+}
 
 function toolHTML(){return `<div class="toolBox"><h4>Fraction Lab</h4><label for="fracN">Integer numerator</label><input id="fracN" type="number" step="1" value="18"><label for="fracD">Nonzero integer denominator</label><input id="fracD" type="number" step="1" value="24"><button type="button" onclick="fractionTool()">Reduce</button><div class="toolResult" role="status" aria-live="polite" id="fracOut"></div></div><div class="toolBox"><h4>Proportion Solver</h4><p class="small">Solve a/b = c/x</p><label for="pa">a</label><input id="pa" type="number" value="3"><label for="pb">b</label><input id="pb" type="number" value="5"><label for="pc">c</label><input id="pc" type="number" value="12"><button type="button" onclick="proportionTool()">Solve x</button><div class="toolResult" role="status" aria-live="polite" id="propOut"></div></div><div class="toolBox"><h4>Percent Lab</h4><label for="perP">Percent</label><input id="perP" type="number" value="20"><label for="perQ">Quantity</label><input id="perQ" type="number" value="80"><label for="oldVal">Original value</label><input id="oldVal" type="number" value="30"><label for="newVal">New value</label><input id="newVal" type="number" value="36"><button type="button" onclick="percentTool()">Calculate</button><div class="toolResult" role="status" aria-live="polite" id="percentOut"></div></div><div class="toolBox"><h4>Equation Checker</h4><p class="small">Check whether x solves ax + b = c</p><label for="eqA">a</label><input id="eqA" type="number" value="2"><label for="eqB">b</label><input id="eqB" type="number" value="5"><label for="eqC">c</label><input id="eqC" type="number" value="13"><label for="eqX">Proposed x</label><input id="eqX" type="number" value="4"><button type="button" onclick="equationTool()">Check</button><div class="toolResult" role="status" aria-live="polite" id="eqOut"></div></div><div class="toolBox"><h4>Slope Finder</h4><label for="x1">x₁</label><input id="x1" type="number" value="1"><label for="y1">y₁</label><input id="y1" type="number" value="2"><label for="x2">x₂</label><input id="x2" type="number" value="5"><label for="y2">y₂</label><input id="y2" type="number" value="10"><button type="button" onclick="slopeTool()">Find Slope</button><div class="toolResult" role="status" aria-live="polite" id="slopeOut"></div></div><div class="toolBox"><h4>Geometry Lab</h4><label for="geoL">Length / first right-triangle leg</label><input id="geoL" type="number" min="0" value="8"><label for="geoW">Width / second right-triangle leg</label><input id="geoW" type="number" min="0" value="5"><label for="geoH">Prism height</label><input id="geoH" type="number" min="0" value="3"><button type="button" onclick="geometryTool()">Calculate</button><div class="toolResult" role="status" aria-live="polite" id="geoOut"></div></div><div class="toolBox"><h4>Data Lab</h4><label for="dataSet">Comma-separated data</label><input id="dataSet" value="2, 4, 6, 8, 10"><button type="button" onclick="dataTool()">Analyze</button><div class="toolResult" role="status" aria-live="polite" id="dataOut"></div></div><div class="toolBox"><h4>Scientific Notation</h4><label for="sciNum">Number</label><input id="sciNum" type="number" value="320000"><button type="button" onclick="sciTool()">Convert</button><div class="toolResult" role="status" aria-live="polite" id="sciOut"></div></div>`}
 
@@ -4359,7 +4469,28 @@ function importBackup(e){let f=e.target.files[0];if(!f)return;let r=new FileRead
 function safe(s){return String(s||"learner").replace(/[^a-z0-9_-]+/gi,"_").slice(0,60)}
 function csv(v){return`"${String(v??"").replaceAll('"','""')}"`}
 function download(name,text,type){let b=new Blob([text],{type}),a=document.createElement("a");a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},800)}
-document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>{view=b.dataset.view;render()});document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{view=b.dataset.go;const menu=$("courseMenu");if(menu)menu.open=false;render()});$("pinCourseButton").onclick=toggleCoursePin;window.addEventListener("storage",event=>{if(event.key===PROFILE_PIN_KEY)updatePinButton()});document.addEventListener("click",event=>{const menu=$("courseMenu");if(menu?.open&&!menu.contains(event.target))menu.open=false});$("addStudent").onclick=()=>{let n=$("studentName").value.trim();if(!n)return alert("Enter a learner name.");addStudent(n);$("studentName").value=""};$("studentSelect").onchange=e=>{state.activeId=e.target.value;save();render()};$("deleteStudent").onclick=()=>{let s=student();if(!s)return;if(!confirm(`Delete ${s.name}?`))return;state.students=state.students.filter(x=>x.id!==s.id);state.activeId=state.students[0]?.id||null;if(!state.students.length)addStudent("First Learner");save();render()};$("demo").onclick=()=>{addStudent("Demo Learner");let s=student();for(let i=1;i<=4;i++){let r=weekRec(s,i);["Monday","Tuesday","Wednesday"].forEach(d=>r.lessons[d]=true);r.assignments[0]=true;r.quiz.best=[100,80,85,70][i-1];r.quiz.attempts.push({date:new Date().toISOString(),score:r.quiz.best})}save();render()};if(!state.students.length)addStudent("First Learner");else render();
+const courseMenus=[...document.querySelectorAll(".course-menu")];
+const activityDialog=$("activityDialog"),activityFrame=$("activityFrame"),activityTitle=$("activityDialogTitle"),activityStatus=$("activityDialogStatus"),activityExternal=$("activityDialogExternal"),activityClose=$("activityDialogClose");
+let lastActivityLauncher=null;
+function closeCourseMenus(except=null){courseMenus.forEach(menu=>{if(menu!==except)menu.open=false})}
+function openActivity(launcher){
+  const url=launcher?.dataset?.launchUrl;if(!url||!activityDialog||!activityFrame)return;
+  lastActivityLauncher=launcher;activityTitle.textContent=launcher.dataset.launchTitle||"Math Activity";activityStatus.textContent="Loading selected activity…";activityExternal.href=url;activityFrame.title=activityTitle.textContent;activityFrame.src=url;closeCourseMenus();document.body.classList.add("activity-open");
+  if(typeof activityDialog.showModal==="function")activityDialog.showModal();else activityDialog.setAttribute("open","");
+}
+function closeActivity(){if(!activityDialog)return;activityFrame.src="about:blank";if(typeof activityDialog.close==="function"&&activityDialog.open)activityDialog.close();else activityDialog.removeAttribute("open");document.body.classList.remove("activity-open");lastActivityLauncher?.focus()}
+document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>{view=b.dataset.view;render()});
+document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{view=b.dataset.go;closeCourseMenus();render()});
+courseMenus.forEach(menu=>menu.addEventListener("toggle",()=>{if(menu.open)closeCourseMenus(menu)}));
+document.addEventListener("click",event=>{
+  const launcher=event.target.closest("[data-launch-url]");if(launcher){event.preventDefault();openActivity(launcher);return}
+  courseMenus.forEach(menu=>{if(menu.open&&!menu.contains(event.target))menu.open=false});
+});
+activityFrame?.addEventListener("load",()=>{if(activityFrame.src!=="about:blank")activityStatus.textContent="Activity ready. Course progress remains open behind this window."});
+activityClose?.addEventListener("click",closeActivity);
+activityDialog?.addEventListener("cancel",event=>{event.preventDefault();closeActivity()});
+activityDialog?.addEventListener("click",event=>{if(event.target===activityDialog)closeActivity()});
+$("pinCourseButton").onclick=toggleCoursePin;window.addEventListener("storage",event=>{if(event.key===PROFILE_PIN_KEY)updatePinButton()});$("addStudent").onclick=()=>{let n=$("studentName").value.trim();if(!n)return alert("Enter a learner name.");addStudent(n);$("studentName").value=""};$("studentSelect").onchange=e=>{state.activeId=e.target.value;save();render()};$("deleteStudent").onclick=()=>{let s=student();if(!s)return;if(!confirm(`Delete ${s.name}?`))return;state.students=state.students.filter(x=>x.id!==s.id);state.activeId=state.students[0]?.id||null;if(!state.students.length)addStudent("First Learner");save();render()};$("demo").onclick=()=>{addStudent("Demo Learner");let s=student();for(let i=1;i<=4;i++){let r=weekRec(s,i);["Monday","Tuesday","Wednesday"].forEach(d=>r.lessons[d]=true);r.assignments[0]=true;r.quiz.best=[100,80,85,70][i-1];r.quiz.attempts.push({date:new Date().toISOString(),score:r.quiz.best})}save();render()};if(!state.students.length)addStudent("First Learner");else render();
 
 </script>
 </body>
